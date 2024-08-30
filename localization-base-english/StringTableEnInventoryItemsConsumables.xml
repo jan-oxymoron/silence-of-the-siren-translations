@@ -1,0 +1,85 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_INVENTORY_ITEMS_CONSUMABLES">
+
+        <LanguageRef>LANG_EN</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_HINT_UNAVAILABLE</LocID>                                    <Text><![CDATA[Using this item would have no effect at the moment:]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NEEDS_SKILL</LocID>                                         <Text><![CDATA[<color=SOTS_COLOR_RED>You need the {1} skill at level {2} to learn this ability.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ALREADY_AT_MAX</LocID>                                      <Text><![CDATA[<color=SOTS_COLOR_GOLD>Already maxed out.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NO_EFFECT_ON_OBJECTS</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_RED>No suitable buildings in range.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ALREADY_KNOWS</LocID>                                       <Text><![CDATA[<color=SOTS_COLOR_GOLD>The commander already knows this.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAX_SKILLS</LocID>                                          <Text><![CDATA[<color=SOTS_COLOR_RED>The commander can't learn any more skills.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAXED_SKILL</LocID>                                         <Text><![CDATA[<color=SOTS_COLOR_RED>Skill already maxed.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NO_SPACE</LocID>                                            <Text><![CDATA[<color=SOTS_COLOR_RED>Not enough free space around the commander.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_BLOCKED_BY_COMMANDER_TRAP</LocID>                           <Text><![CDATA[<color=SOTS_COLOR_RED>The commander is trapped.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ALREADY_USED_THIS_ROUND</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_RED>Already used {1} times this round.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_HINT</LocID>                                                <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Right-click</color> the mouse <color=SOTS_COLOR_FUSION_CORE>to use</color> the item or <color=SOTS_COLOR_FUSION_CORE>drop it</color> on your <color=SOTS_COLOR_FUSION_CORE>commander's face</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_HINT_HERO_SELECTOR</LocID>                                  <Text><![CDATA[Click to use.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_FUEL_STOCK</LocID>                                          <Text>Fuel Stock</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_FUEL_STOCK_DESCRIPTION</LocID>                              <Text><![CDATA[Refills <color=SOTS_COLOR_MOVEMENT>15 Movement Points</color> (cannot exceed 100% capacity)]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_FUEL_STOCK_LORE</LocID>                                     <Text>Everyone predicted that cold fusion would change the world, but four centuries and several catastrophes later, here we stand with a fuel pistol in our hand.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_DATA_FRAGMENT</LocID>                                       <Text>Data Fragment</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_DATA_FRAGMENT_DESCRIPTION</LocID>                           <Text><![CDATA[Use to gain <color=SOTS_COLOR_XP>+500 XP</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_DATA_FRAGMENT_LORE</LocID>                                  <Text>These Primals-made relics are littered all over the place. Theta wave theory, RC marker theory, and even the Sinestetic (widely known as "Rum smells like Christmas" theory) have been postulated. The truth is, we still know nothing about the mechanism that unlocks the unconscious parts of the brain.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH</LocID>                                     <Text>Magnesium Torch</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH_DESCRIPTION</LocID>                         <Text>Clears the Fog of War around the commander</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH_LORE</LocID>                                <Text>There's almost no magnesium in these torches but "liquid metal nano injections that burn in the oscillatory vacuum when approaching zero G" doesn't fit on the label.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MEMORY_WIPER</LocID>                                        <Text>Memory Wiper</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MEMORY_WIPER_DESCRIPTION</LocID>                            <Text>Nearest building will "forget" that this commander has already visited it. (Does not work on buildings disabled after a battle)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MEMORY_WIPER_LORE</LocID>                                   <Text>One of the many alien technologies provided to UNSS by its Hesperidian allies. Once the prototypes reached the hands of security agencies, the UNSS "democracy" became much more stable.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_SKILL_LEARNING_DESCRIPTION</LocID>       <Text>The commander will learn or level up the {1} skill.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_ABILITY_LEARNING_DESCRIPTION</LocID>          <Text>The commander will learn the {1} ability.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_LORE</LocID>                             <Text>Do it too often, and your brain crawls out through your ears. Strangely, this warning also applies to inorganic life forms and their cognitive centers. The ancient Primals clearly had no trouble deploying what some might consider "invasive" data transfers.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_LORE</LocID>                                  <Text>This Primals toy can hold the whole library but sadly your weak mind can take no more. You already feel like someone rubbed your skull with a wire brush. From inside. It's a waste. Even more, so because it is single-use.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_SPY</LocID>                              <Text>Spy Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_EXPLORER</LocID>                         <Text>Explorer Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_ENGINEER</LocID>                         <Text>Engineer Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_SCOUT</LocID>                            <Text>Scout Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_NEGOTIATOR</LocID>                       <Text>Negotiator Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_COLLECTOR</LocID>                        <Text>Collector Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_BUILDER</LocID>                          <Text>Builder Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_TRACKER</LocID>                          <Text>Tracker Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_EXPLORATION_ABILITIES</LocID>            <Text>Globetrotter Ancient Datascroll</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_BRAWLER</LocID>                          <Text>Brawler Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_SNIPER</LocID>                           <Text>Sniper Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_DEFENSIVE_SPECIALIST</LocID>             <Text>Defensive Specialist Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_CHESS_MASTER</LocID>                     <Text>Chess Master Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_FIELD_RESEARCH</LocID>                   <Text>Field Research Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_SCAVENGER</LocID>                        <Text>Scavenger Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_TECH_ABILITIES</LocID>                   <Text>Techie Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_BIO_ABILITIES</LocID>                    <Text>Biotic Ancient Datascroll</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_PSY_ABILITIES</LocID>                    <Text>Psy Abilities Ancient Datascroll</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL</LocID>                                       <Text>Recharge Cell</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL_DESCRIPTION</LocID>                           <Text><![CDATA[Refills <color=SOTS_COLOR_ENERGY>20 energy points</color> (cannot exceed 100% of capacity).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL_LORE</LocID>                                  <Text>Though all the Children of the Source possess recharging devices disintegrating organic matter for the energy the good old Recharge cells are always their first choice. Also, now you know why they understand what is the toilet despite being robots. You are welcome.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_PLANETFALL_BEACON_RESOURCES</LocID>                         <Text>Planet Fall Beacon - Resources</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_PLANETFALL_BEACON_RESOURCES_DESCRIPTION</LocID>             <Text><![CDATA[A large stock of random resources is dropped near the commander location.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_PLANETFALL_BEACON_RESOURCES_LORE</LocID>                    <Text><![CDATA[It's impossible to forge or alter a beacon due to self-destruct mechanism but if you find an intact one it's an instant win! The recipient control system is a service provided by the Earth-based company and because of the Collapse no one is able to pay for the service. Not a smart choice.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_EXTRA_RATIONS</LocID>                                       <Text>Extra Rations</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_EXTRA_RATIONS_DESCRIPTION</LocID>                           <Text><![CDATA[<color=SOTS_COLOR_GOLD>Raises morale</color> by <color=SOTS_COLOR_GOLD>5</color> till the <color=SOTS_COLOR_GOLD>end</color> of the <color=SOTS_COLOR_RED>next battle</color>. Can be <color=SOTS_COLOR_GOLD>used</color> only <color=SOTS_COLOR_GOLD>3 times.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_EXTRA_RATIONS_LORE</LocID>                                  <Text>Recharge stuff for robots, some cryo-fixated food for the organics, combat stimulants, and for some reason an old issue of Mole Babes magazine for "people" who are into such things.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_CONSUMABLE_MORALE_BOOST</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Morale Boost (Extra Rations)</color>]]></Text></GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

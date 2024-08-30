@@ -1,0 +1,19 @@
+<Database>
+    <GameDBStringTable ID="LOC_EN_PLANETS">
+
+        <LanguageRef>LANG_EN</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- JB: notes for Urbik:
+            UNSC = UNSS SC = united nations of the solar system star catalog
+            Siren Star would have a number
+            And exoplanets are usually designated with a letter, fourth planet would be 'd' -->
+            <GameDBLocalizedString>        <LocID>PLANET_EA_ID</LocID>                                                  <Text>UNSC 4298d</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>PLANET_EA_DESCRIPTION</LocID>                                         <Text><![CDATA[The fourth planet of the Siren System is a rocky world with a breathable atmosphere, but also a very dangerous place, not really ruled by anyone.\n\nOn the other hand, it provides a lot of opportunities for local militia and rebels to improve their standing.\n\nBecause of a past collision with a rogue moon, the planet rotates very quickly and the local day-night cycle only has four phases.]]></Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

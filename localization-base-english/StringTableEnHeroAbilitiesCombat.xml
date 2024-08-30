@@ -1,0 +1,159 @@
+<Database>
+    <GameDBStringTable ID="LOC_EN_HERO_ABILITIES_COMBAT">
+
+        <LanguageRef>LANG_EN</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>ABILITY_COST_TEXT</LocID>                                        <Text><![CDATA[<b><i>Ability cost</i></b>: ]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_ENERGY_POINTS</LocID>                                    <Text><![CDATA[<color=SOTS_COLOR_ENERGY> energy points.</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_MOVE_POINTS</LocID>                                      <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT> movement points.</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_COST_BASE_VALUE</LocID>                                  <Text>of base value.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_CATEGORY_OFFENSIVE</LocID>                               <Text>Offensive</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_CATEGORY_BUFF</LocID>                                    <Text><![CDATA[<color=SOTS_COLOR_GREEN>Buff</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_CATEGORY_DEBUFF</LocID>                                  <Text><![CDATA[<color=SOTS_COLOR_RED>Debuff</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_CATEGORY_UTILITY</LocID>                                 <Text>Utility</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_CATEGORY_HEALING</LocID>                                 <Text>Healing</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_AVAILABLE</LocID>                            <Text>Available</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NOT_AVAILABLE</LocID>                        <Text>Not available</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NOT_A_COMBAT_ABILITY</LocID>                 <Text>Not a combat ability.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NOT_AN_EXPLORATION_ABILITY</LocID>           <Text>Not an exploration ability.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NOT_ENOUGH_ENERGY</LocID>                    <Text><![CDATA[Not enough <color=SOTS_COLOR_ENERGY> energy</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_USED_THIS_ROUND</LocID>                      <Text>Ability used this round.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NO_TARGETS</LocID>                           <Text>The ability will affect no one!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NOT_ENOUGH_MOVE_POINTS</LocID>               <Text><![CDATA[Not enough <color=SOTS_COLOR_MOVEMENT>movement points.</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NO_PLAYER_BASE</LocID>                       <Text>You have no bases!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NO_FREE_PLAYER_BASE</LocID>                  <Text>The nearest base is blocked.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NO_PLAYER_BASE_WITH_FREE_UNITS</LocID>       <Text>No base with free units!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NOT_AT_BASE</LocID>                          <Text>No casting at your base!</Text></GameDBLocalizedString>
+
+            <!-- Note: the abilities can be on levels 1, 2 or 3 and have different effects based on this -->
+            <!-- Note: this pattern is very common, so we can use generic texts. Also, the texts could mention duration in turns where applicable -->
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DESRIPTION_SINGLE_UNIT</LocID>            <Text>Targets a single unit.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DESRIPTION_AREA_OF_EFFECT</LocID>         <Text>Has an area of effect.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DESRIPTION_AREA_OF_EFFECT_LARGE</LocID>   <Text>Has a large area of effect.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REGENERATE</LocID>                        <Text>Regenerate</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REGENERATE_DESCRIPTION</LocID>            <Text>Heals friendly bio units and grants them regeneration.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REGENERATE_DESCRIPTION_LVL1</LocID>       <Text>Targets a single unit.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LIGHTEN_ARMOR</LocID>                     <Text>Lighten Armor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LIGHTEN_ARMOR_DESCRIPTION</LocID>         <Text>Increases movement range of friendly units.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST</LocID>                  <Text>Lure Local Beast.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_DESCRIPTION</LocID>      <Text>Summons a local creature to the battlefield.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL1</LocID>             <Text>The creature attacks enemy units.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL2</LocID>             <Text>You gain control of the creature.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL3</LocID>             <Text>Summoned creature will stay in the army.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_FIELD_PROMOTION</LocID>                   <Text>Field Promotion</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_FIELD_PROMOTION_DESCRIPTION</LocID>       <Text>Immediately turns units into their second tier!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WALKING_RATIONS</LocID>                   <Text>Walking Rations</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WALKING_RATIONS_DESCRIPTION</LocID>       <Text>Turns enemy units into walking rations. Received damage heals attacker.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ARTIFICIAL_MUSCLE_FIBERS</LocID>          <Text>Artificial Muscle Fibers</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ARTIFICIAL_MUSCLE_FIBERS_DESCRIPTION</LocID><Text>Increases unit's damage.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_GLUE_GRENADE</LocID>                      <Text>Glue Grenade</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_GLUE_GRENADE_DESCRIPTION</LocID>          <Text>Slows down enemy units.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_GLUE_GRENADE_LVL3</LocID>                 <Text>Area of effect, units are slowed down and receive shock damage.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ARMOR_INCRUSTATION</LocID>                <Text>Armor Incrustation</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ARMOR_INCRUSTATION_DESCRIPTION</LocID>    <Text>Increases unit's defense.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_RESTORING_BIOFILM</LocID>                 <Text>Restoring Biofilm</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_RESTORING_BIOFILM_DESCRIPTION</LocID>     <Text>Removes status effects!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_RESTORING_BIOFILM_LVL2</LocID>            <Text>Removes all status effects from selected units.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_RESTORING_BIOFILM_LVL3</LocID>            <Text>Removes all negative effects from friendly units and positive effects from enemies.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISRUPTIVE_ULTRASOUND</LocID>             <Text>Disruptive Ultrasound</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISRUPTIVE_ULTRASOUND_DESCRIPTION</LocID> <Text>Temporarily disables special abilities of enemy units.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ACID_PROJECTILE</LocID>                        <Text>Acid Projectile</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ACID_PROJECTILE_DESCRIPTION</LocID>            <Text>Creates an acid cloud that poisons your enemies!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ACID_PROJECTILE_DESCRIPTION_LVL3</LocID>       <Text>Area of effect. Also blocks unit special abilities.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_CHAMELEON_COATING</LocID>                     <Text>Chameleon Coating</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_CHAMELEON_COATING_DESCRIPTION</LocID>         <Text>Makes target invisible. It cannot be targeted by melee or ranged attacks.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_RESURRECT</LocID>                             <Text>Resurrect</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_RESURRECT_DESCRIPTION</LocID>                 <Text>Resurrects a friendly bio unit.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MIMICKING_TACTICS</LocID>                     <Text>Mimicking Tactics</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MIMICKING_TACTICS_DESCRIPTION</LocID>         <Text>Mimics any unit on the battlefield.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_CLONE</LocID>                                 <Text>Clone</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_CLONE_DESCRIPTION</LocID>                     <Text>Clones any unit on the battlefield. The clone has only 1HP and no special ability.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LONG_RANGE_ARTILLERY</LocID>                   <Text>Long Range Artillery</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LONG_RANGE_ARTILLERY_DESCRIPTION</LocID>       <Text>Fires missiles at your enemies!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LONG_RANGE_ARTILLERY_DESCRIPTION_LVL2</LocID>  <Text><![CDATA[Has a large area of effect. Chance to inflict <color=SOTS_COLOR_RED>burning damage</color>.]]> </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LONG_RANGE_ARTILLERY_DESCRIPTION_LVL3</LocID>  <Text><![CDATA[Has a massive area of effect. Chance to inflict <color=SOTS_COLOR_RED>burning damage</color>.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR</LocID>                                 <Text>Repair</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION</LocID>                     <Text>Restores health to tech-based units.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL1</LocID>                <Text> </Text></GameDBLocalizedString> <!-- Difference?-->
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL2</LocID>                <Text> </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL3</LocID>                <Text> </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP</LocID>                         <Text>Sentry Airdrop</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION</LocID>             <Text>Places an autonomous sentry gun anywhere on your side of the battlefield.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL1</LocID>        <Text>An automatic sentry cannon.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL2</LocID>        <Text>An automatic double-cannon sentry.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL3</LocID>        <Text>A player-controlled double-cannon.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WILD_CARD</LocID>                              <Text>Wild Card</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WILD_CARD_DESCRIPTION</LocID>                  <Text>Triggers a random tech ability when no other ability is available.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WILD_CARD_DESCRIPTION_LVL1</LocID>             <Text>Moderate chance of negatively affecting the caster.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WILD_CARD_DESCRIPTION_LVL2</LocID>             <Text>Low chance of negatively affecting the caster.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WILD_CARD_DESCRIPTION_LVL3</LocID>             <Text>Very low chance of negatively affecting the caster.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_FORCE_FIELD</LocID>                            <Text>Force Field</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_FORCE_FIELD_DESCRIPTION</LocID>                <Text>Creates a protective field around friendly units.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ORBITAL_STRIKE</LocID>                         <Text>Orbital Strike</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ORBITAL_STRIKE_DESCRIPTION</LocID>             <Text><![CDATA[Strikes a selected target.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ORBITAL_STRIKE_DESCRIPTION_LVL2</LocID>        <Text><![CDATA[Causes significant<color=SOTS_COLOR_RED> damage</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ORBITAL_STRIKE_DESCRIPTION_LVL3</LocID>        <Text><![CDATA[Causes significant<color=SOTS_COLOR_RED> damage</color> and inflicts daze.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE</LocID>                             <Text>Blast Wave</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE_DESCRIPTION</LocID>                 <Text><![CDATA[Pushes units away from the epicenter and <color=SOTS_COLOR_RED>damages</color> them if they hit something.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK</LocID>                                   <Text>Hack</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK_DESCRIPTION</LocID>                       <Text>Hacks a selected tech unit.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK_DESCRIPTION_LVL2</LocID>                  <Text>The unit cannot move.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK_DESCRIPTION_LVL3</LocID>                  <Text>The unit gets hijacked and attacks the nearest unit.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_JERRY_RIG</LocID>                              <Text>Jerry-rig</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_JERRY_RIG_DESCRIPTION</LocID>                  <Text>Creates a new unit from a destroyed tech unit.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_JERRY_RIG_DESCRIPTION_LVL3</LocID>             <Text>It will join your army after battle.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TECH_DISPEL</LocID>                            <Text>System Equilibrium</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISPEL_DESCRIPTION</LocID>                     <Text>Removes status effects!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISPEL_DESCRIPTION_LVL2</LocID>                <Text>Removes all status effects from selected units.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISPEL_DESCRIPTION_LVL3</LocID>                <Text>Removes all negative effects from friendly units and positive effects from enemies.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TELEPORT</LocID>                               <Text>Teleport</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION</LocID>                   <Text>Relocates any unit to any place on the battlefield.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ORBITAL_BOMBARDMENT</LocID>                    <Text>Orbital Bombardment</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ORBITAL_BOMBARDMENT_DESCRIPTION</LocID>        <Text>A series of explosions that cover the whole battlefield.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_VORTEX_MINES</LocID>                           <Text>Vortex Mines</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_VORTEX_MINES_DESCRIPTION</LocID>               <Text>Creates hidden mines that pull enemy units in before exploding.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ENERGY_DRAIN</LocID>                           <Text>Draining Coil</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ENERGY_DRAIN_DESCRIPTION</LocID>               <Text><![CDATA[Drains <color=SOTS_COLOR_ENERGY>energy</color> from the enemy commander.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SURFACE_OVERCHARGE</LocID>                     <Text>Surface Overcharge</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SURFACE_OVERCHARGE_DESCRIPTION</LocID>         <Text><![CDATA[Unit will deflect <color=SOTS_COLOR_RED>damage</color> back at the attacker.]]></Text></GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

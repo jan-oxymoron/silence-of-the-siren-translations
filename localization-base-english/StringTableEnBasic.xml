@@ -1,0 +1,88 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_EN_BASIC">
+
+        <LanguageRef>LANG_EN</LanguageRef>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Resources -->
+            <GameDBLocalizedString>         <LocID>RESOURCE_A</LocID>                                               <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Limerite</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_B</LocID>                                               <Text><![CDATA[<color=SOTS_COLOR_ALLOYS>Alloy</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_C</LocID>                                               <Text><![CDATA[<color=SOTS_COLOR_BIOMASS>Biomass</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_D</LocID>                                               <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Radiant</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_EXPLORATION</LocID>                                     <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Fusion core</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_CASH</LocID>                                            <Text><![CDATA[<color=SOTS_COLOR_GOLD>Aura Coins</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_MOVEMENT_POINTS</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Movement points</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_ENERGY</LocID>                                          <Text><![CDATA[<color=SOTS_COLOR_ENERGY>Energy points</color>]]></Text>  </GameDBLocalizedString>            
+            
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_OTHER_PLAYERS_DEFEATED</LocID>             <Text>Defeat other players</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_OTHER_PLAYERS_DEFEATED_MESSAGE</LocID>     <Text>Other players have been defeated</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_CAPTURE_BASE</LocID>                       <Text>Capture a base</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_CAPTURE_BASE_MESSAGE</LocID>               <Text>The base has been captured</Text></GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_HOLD_BASE_FOR_N_ROUNDS</LocID>             <Text>Hold a base for N rounds</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_HOLD_BASE_FOR_N_ROUNDS_MESSAGE</LocID>     <Text>The base was held for specified amount of time</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_PLAYER_ELIMINATED</LocID>                 <Text>Lose all commanders and bases</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_PLAYER_ELIMINATED_MESSAGE</LocID>         <Text>All commanders and bases have been lost. There's no hope.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_OUT_OF_TIME</LocID>                       <Text>Run out of time</Text></GameDBLocalizedString>                      
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_OUT_OF_TIME_MESSAGE</LocID>               <Text>Out of time</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_LOSE_HERO</LocID>                         <Text>Lose a commander</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_LOSE_SECONDARY_HERO</LocID>               <Text>Lose another commander</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_LOSE_HERO_MESSAGE</LocID>                 <Text>The commander you were supposed to protect is no longer with us!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>KEEP_COMMANDER_ALIVE</LocID>                                     <Text>Keep a commander alive: {1}</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_HAS_EARNED_XP</LocID>                                       <Text><![CDATA[Commander has earned<color=SOTS_COLOR_XP> {1} XP</color>!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_WOULD_HAVE_EARNED_XP</LocID>                                <Text><![CDATA[Would have earned<color=SOTS_COLOR_XP> {1} XP</color> in real battle!]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_RED</LocID>                                         <Text>Red</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_YELLOW</LocID>                                      <Text>Yellow</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_GREEN</LocID>                                       <Text>Green</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_TEAL</LocID>                                        <Text>Teal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_BRONZE</LocID>                                      <Text>Bronze</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_BLUE</LocID>                                        <Text>Blue</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_INDIGO</LocID>                                      <Text>Indigo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_TURQUOISE</LocID>                                   <Text>Turquoise</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_PINK</LocID>                                        <Text>Pink</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_NEUTRAL</LocID>                                     <Text>Neutral</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>NEUTRAL_PLAYER</LocID>                                           <Text>Environment</Text></GameDBLocalizedString>
+            
+            <!-- ENUMS-->
+            <GameDBLocalizedString>         <LocID>MapLayerRole_SURFACE</LocID>                                     <Text>Surface</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapLayerRole_SPACE</LocID>                                       <Text>Space</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapLayerRole_DUNGEON</LocID>                                     <Text>Dungeon</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TimedGateVariant_PERMANENT</LocID>                               <Text>Permanent</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TimedGateVariant_REPEATING</LocID>                               <Text>Repeating</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ConstructionAvailability_AVAILABLE</LocID>                       <Text>Available</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ConstructionAvailability_NOT_ENOUGH_RESOURCES</LocID>            <Text>Not enough resources</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ConstructionAvailability_ALREADY_BUILT_THIS_TURN</LocID>         <Text>This commander has already built something this round</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ConstructionAvailability_TOO_CLOSE_TO_ENEMY_BASE</LocID>         <Text>Cannot build this close to an enemy base</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ConstructionAvailability_TOO_FAR_FROM_OWN_BASE</LocID>           <Text>Cannot build this far from your base</Text></GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>ConstructionAvailability_NO_BUILDING_SPOTS</LocID>               <Text>No suitable building site in the area</Text></GameDBLocalizedString>            
+
+            <GameDBLocalizedString>         <LocID>UNIT_TYPE_TECH</LocID>                                           <Text>Tech units</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_TYPE_BIO</LocID>                                            <Text>Bio units</Text></GameDBLocalizedString>
+
+            <!-- Misc-->
+            <GameDBLocalizedString>         <LocID>LEVEL_LOC</LocID>                                                <Text>Level </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>XP_LOC</LocID>                                                   <Text><![CDATA[<color=SOTS_COLOR_XP>Xp </color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EFFECT_TURNS_LOC</LocID>                                         <Text> Turn(s)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EFFECT_COMBAT_START_LOC</LocID>                                  <Text>Until next battle</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EFFECT_OR</LocID>                                                <Text> or </Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>SHOW_SURFACE</LocID>                                             <Text>Show surface</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SHOW_SPACE</LocID>                                               <Text>Show orbit</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SHOW_DUNGEON</LocID>                                             <Text>Show underground</Text></GameDBLocalizedString>
+      
+            <GameDBLocalizedString>         <LocID>DIFFICULTY</LocID>                                               <Text>Difficulty</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_EASY</LocID>                                          <Text>Easy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_MEDIUM</LocID>                                        <Text>Medium</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_HARD</LocID>                                          <Text>Hard</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
