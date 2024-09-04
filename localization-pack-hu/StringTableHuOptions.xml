@@ -1,4 +1,4 @@
-﻿<Database>
+<Database>
     <GameDBStringTable ID="LOC_HU_OPTIONS">
 
         <LanguageRef>LANG_HU</LanguageRef>
@@ -8,123 +8,123 @@
         </Contributors>
 
         <LocalizedStrings>
-            <GameDBLocalizedString>         <LocID>OPTIONS_LOC</LocID>                                      <Text>Options</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTIONS_LOC</LocID>                                      <Text>Beállítások</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>COMBAT_OPTIONS</LocID>                                   <Text>Combat Options</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OPTIONS</LocID>                                   <Text>Dialog Options</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OPTIONS</LocID>                              <Text>Exploration Options</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GRAPHICS_OPTIONS</LocID>                                 <Text>Graphics Options</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_OPTIONS</LocID>                                   <Text>Csata Beállítások</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OPTIONS</LocID>                                   <Text>Dialogus Beállítások</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OPTIONS</LocID>                              <Text>Felfedezési Beállítások</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GRAPHICS_OPTIONS</LocID>                                 <Text>Grafikai Beállítások</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>LANGUAGES</LocID>                                        <Text>Languages</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LANGUAGES</LocID>                                        <Text>Nyelvek</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_ANIMATION_SPEED</LocID>                    <Text>Combat speed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_ANIMATION_SPEED_AI</LocID>                 <Text>Combat AI speed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_SHOW_ALL_HEXES</LocID>                     <Text>Show all hexes</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_SHOW_LOG</LocID>                           <Text>Show combat log</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_SHOW_UNIT_HP</LocID>                       <Text>Show unit HP</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_OUTLINE_WIDTH</LocID>                      <Text>Unit outline width (px)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_DISABLE_SCREEN_SHAKE_FLASHING</LocID>             <Text>Disable screenshake and flashing lights</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_ANIMATION_SPEED</LocID>                    <Text>Harci Sebesség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_ANIMATION_SPEED_AI</LocID>                 <Text>Harci AI Sebesség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_SHOW_ALL_HEXES</LocID>                     <Text>Mutasson minden Hatszög mezőt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_SHOW_LOG</LocID>                           <Text>Mutassa a harci leírásokat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_SHOW_UNIT_HP</LocID>                       <Text>Mutassa az Egységek Életerejét</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_OUTLINE_WIDTH</LocID>                      <Text>Az egység körvonalának szélessége (px)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_DISABLE_SCREEN_SHAKE_FLASHING</LocID>             <Text>Tiltsa le a képernyőrázást és a villogó fényeket</Text>  </GameDBLocalizedString>
 
             <!-- Developer only -->
-            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_DISABLE_MORALE</LocID>                     <Text>Disable morale</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_DISABLE_AI_RETREAT</LocID>                 <Text>Disable AI retreat</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_UNLIMITED_MOVEMENT</LocID>                 <Text>Unlimited unit movement</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_SHOW_COORDINATES</LocID>                   <Text>Show coordinates on hexes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_DISABLE_MORALE</LocID>                     <Text>Morál Kikapcsolása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_DISABLE_AI_RETREAT</LocID>                 <Text>AI Elmenekülés Kikapcsolása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_UNLIMITED_MOVEMENT</LocID>                 <Text>Korlátlan Egységmozgás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_SHOW_COORDINATES</LocID>                   <Text>Mutassa a koordinátákat a Hatszög mezőkön</Text>  </GameDBLocalizedString>
 
             <!-- Map options -->
-            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_ANIMATION_SPEED</LocID>               <Text>Horsey speed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_ANIMATION_SPEED_AI</LocID>            <Text>AI horsey speed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_AUTOSAVE_ENABLED</LocID>                          <Text>Autosave enabled</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_SHOW_AI_COMBAT</LocID>                <Text>Show AI combat</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_FORCE_SHOW_AI_TURNS</LocID>           <Text>Force show AI player's moves</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_SHOW_ALTERNATIVE_ROUTE</LocID>        <Text>Show alternative route</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_TOOLS</LocID>                         <Text>DEBUG tools</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_ASYNC_AI</LocID>                      <Text>Async Exploration AI(experimental)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_DISABLE_AUTOSAVE</LocID>              <Text>Disable autosave(debug)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_EDGE_SCROLLING</LocID>                            <Text>Edge scrolling</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_DEBUG_SHOW_TILE_COORDINATES</LocID>               <Text>Show coordinates on explo map</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_DEBUG_SHOW_THREAT_LEVEL</LocID>                   <Text>Show threat levels on explo map</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_DEBUG_SEND_STATISTICS</LocID>                     <Text>Send statistics</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_ANIMATION_SPEED</LocID>               <Text>Lovas Sebesség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_ANIMATION_SPEED_AI</LocID>            <Text>AI Lovas Sebesség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_AUTOSAVE_ENABLED</LocID>                          <Text>Automentés Engedélyezése</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_SHOW_AI_COMBAT</LocID>                <Text>Mutassa az AI Csatákat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_FORCE_SHOW_AI_TURNS</LocID>           <Text>Mutassa az AI Játékos lépéseit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_SHOW_ALTERNATIVE_ROUTE</LocID>        <Text>Mutassa az alternatív útvonalakat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_TOOLS</LocID>                         <Text>Programhiba javító Eszközök</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_ASYNC_AI</LocID>                      <Text>Aszinkron AI Felfedezés (Kísérleti)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_DISABLE_AUTOSAVE</LocID>              <Text>Automentés Kikapcsolása(programjavítás)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EDGE_SCROLLING</LocID>                            <Text>Képernyőszéli Görgetés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_DEBUG_SHOW_TILE_COORDINATES</LocID>               <Text>Mutassa a Koordinátákat a Kalandtérképen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_DEBUG_SHOW_THREAT_LEVEL</LocID>                   <Text>Mutassa a Veszélyességi szinteket, a Kalandtérképen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_DEBUG_SEND_STATISTICS</LocID>                     <Text>Statisztikák Küldése</Text>  </GameDBLocalizedString>
 
             <!-- Map editor options -->
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_SHOW_ACCESSIBILITY</LocID>             <Text>Show accessibility</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_ALWAYS_SHOW_GAMEPLAY_AREA</LocID>      <Text>Always show gameplay area</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_SHOW_MOVEMENT_RANGE</LocID>            <Text>Show movement range</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_SHOW_MOVEMENT_COST</LocID>             <Text>Show movement cost</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_BRUSH_IMMEDIATE_GENERATION</LocID>     <Text>Brush immediate generation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_DISABLE_TEXTURE_VARIATION</LocID>      <Text>Disable texture variation</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_OPACITY_IN_TERRAIN_MODE</LocID>        <Text>Object opacity in terrain mode</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_OBJECT_CHUNK_CULLING</LocID>           <Text>Object chunk culling</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_SHOW_ACCESSIBILITY</LocID>             <Text>Elérhetőségek Mutatása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_ALWAYS_SHOW_GAMEPLAY_AREA</LocID>      <Text>Mindig mutassa a Játékterületet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_SHOW_MOVEMENT_RANGE</LocID>            <Text>Mutassa a Mozgási Távolságot</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_SHOW_MOVEMENT_COST</LocID>             <Text>Mutassa Mozgásköltségeket</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_BRUSH_IMMEDIATE_GENERATION</LocID>     <Text>Ecsetbéli azonnali generálás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_DISABLE_TEXTURE_VARIATION</LocID>      <Text>Textúra variálás letiltása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_OPACITY_IN_TERRAIN_MODE</LocID>        <Text>Objektum átlátszatlansága Felszín módban</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_OBJECT_CHUNK_CULLING</LocID>           <Text>Tárgydarabok selejtezése</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_ROADS_IGNORE_ROADS</LocID>             <Text>Ignore existing roads</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_ROADS_IGNORE_ENVIRONMENT</LocID>       <Text>Ignore objects tagged "environment"</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_ROADS_IGNORE_DYNAMIC_OBJECTS</LocID>   <Text>Ignore other objects</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_ROADS_IGNORE_ROADS</LocID>             <Text>Meglévő utak figyelmen kívül hagyása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_ROADS_IGNORE_ENVIRONMENT</LocID>       <Text>A "környezet" címkével ellátott objektumok figyelmen kívül hagyása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_ROADS_IGNORE_DYNAMIC_OBJECTS</LocID>   <Text>Más Tárgyak figyelmen kívül hagyása</Text>  </GameDBLocalizedString>
 
             <!-- Map generator options -->
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_MAP_WIDTH</LocID>                   <Text>Map width</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_MAP_HEIGHT</LocID>                  <Text>Map height</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_GENERATE_TERRAIN</LocID>            <Text>Generate terrain</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_TERRAIN_DENSITY</LocID>             <Text>Terrain density</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_TERRAIN_SMOOTHNESS</LocID>          <Text>Terrain smoothness</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_NUMBER_OF_POIS</LocID>              <Text>Number of POIs</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_NUMBER_OF_TREASURES</LocID>         <Text>Number of treasures</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_GENERATE_BUILDINGS</LocID>          <Text>Generate buildings</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_NUMBER_OF_PLAYERS</LocID>           <Text>Number of players</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_NUMBER_OF_BASES_PER_PLAYER</LocID>  <Text>Number of bases ( x number of players)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_MAP_WIDTH</LocID>                   <Text>Térképszélesség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_MAP_HEIGHT</LocID>                  <Text>Térképmagasság</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_GENERATE_TERRAIN</LocID>            <Text>Terepgenerálás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_TERRAIN_DENSITY</LocID>             <Text>Terepsűrűség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_TERRAIN_SMOOTHNESS</LocID>          <Text>Terepsimaság</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_NUMBER_OF_POIS</LocID>              <Text>POI-k Száma</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_NUMBER_OF_TREASURES</LocID>         <Text>Kincsek gyakorisága</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_GENERATE_BUILDINGS</LocID>          <Text>Épületek Generálása</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_NUMBER_OF_PLAYERS</LocID>           <Text>Játékosszám</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_GENERATOR_NUMBER_OF_BASES_PER_PLAYER</LocID>  <Text>Bázisszám ( x játékos számmal szorozva)</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>AUDIO_OPTIONS</LocID>                                    <Text>Sound options</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_AUDIO_MUSIC</LocID>                               <Text>Music volume</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_AUDIO_UI</LocID>                                  <Text>SFX volume</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AUDIO_OPTIONS</LocID>                                    <Text>Hang Beállítások</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_AUDIO_MUSIC</LocID>                               <Text>Zene Hangereje</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_AUDIO_UI</LocID>                                  <Text>Hanghatások Hangereje</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>OPTION_SHOW_ITEM_PICKUP_DIALOG</LocID>                   <Text>Show picked up item info in a dialog</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_SHOW_FUSION_CORE_PICKUP_DIALOG</LocID>            <Text>Show picked Fusion core info in a dialog</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_SHOW_CHEST_RESOURCE_DIALOG</LocID>                <Text>Show resources chest in a dialog</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_SHOW_XP_NOTIFICATION</LocID>                      <Text>Show XP</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_SHOW_ITEM_PICKUP_DIALOG</LocID>                   <Text>Mutassa a felvett tárgyak részleteit egy dialógus ablakban</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_SHOW_FUSION_CORE_PICKUP_DIALOG</LocID>            <Text>Mutassa a felvett Fuziós Mag részleteit egy dialógus ablakban</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_SHOW_CHEST_RESOURCE_DIALOG</LocID>                <Text>Nyersanyagládák megjelenítése párbeszédpanelen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_SHOW_XP_NOTIFICATION</LocID>                      <Text>Mutassa a Tapasztalati Pont mennyiséget</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>OPTION_SHOW_ACADEMY_ABILITY_LEARNED_DIALOG</LocID>       <Text>Show info about abilities learned at a base in a dialog</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_SHOW_END_TURN_ACTIONS_DIALOG</LocID>              <Text>Show dialog about available actions at the end of turn </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_SHOW_ACADEMY_ABILITY_LEARNED_DIALOG</LocID>       <Text>Mutassa a bázison megtanult képességek részleteit egy dialógus ablakban</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_SHOW_END_TURN_ACTIONS_DIALOG</LocID>              <Text>Párbeszéd megjelenítése az elérhető műveletekről a kör végén</Text>  </GameDBLocalizedString>
 
             <!-- Option choices -->
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_TEXTURES</LocID>                         <Text>Texture quality (needs restart)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TEXTURES_HD</LocID>                                      <Text>HD (high)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_TEXTURES</LocID>                         <Text>Textúra Minőség (Újraindítás kell)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TEXTURES_HD</LocID>                                      <Text>HD 1080p (magas)</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>TEXTURES_4K</LocID>                                      <Text>4K (ultra)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_ANTIALIASING</LocID>                     <Text>Antialiasing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ANTIALIASING_OFF</LocID>                                 <Text>Off</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_ANTIALIASING</LocID>                     <Text>Élsimítás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ANTIALIASING_OFF</LocID>                                 <Text>Kikapcsol</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ANTIALIASING_2X</LocID>                                  <Text>2x</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ANTIALIASING_4X</LocID>                                  <Text>4x</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_SHADOWS</LocID>                          <Text>Shadows</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SHADOWS_OFF</LocID>                                      <Text>Off</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SHADOWS_LOW</LocID>                                      <Text>Low</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SHADOWS_HIGH</LocID>                                     <Text>High</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_VSYNC</LocID>                            <Text>VSync</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VSYNC_OFF</LocID>                                        <Text>Off</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VSYNC_ON</LocID>                                         <Text>On</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VSYNC_LIMIT_60</LocID>                                   <Text>Off, 60 FPS</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_TERRAIN_QUALITY</LocID>                  <Text>Terrain quality</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TERRAIN_QUALITY_LOW</LocID>                              <Text>Low</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TERRAIN_QUALITY_HIGH</LocID>                             <Text>High</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_UNIT_QUALITY</LocID>                     <Text>Units on the world map</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_QUALITY_STATIC</LocID>                              <Text>Static</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_QUALITY_ANIMATED</LocID>                            <Text>Animated</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_BLOOM</LocID>                            <Text>Bloom</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BLOOM_OFF</LocID>                                        <Text>Off</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BLOOM_ON</LocID>                                         <Text>On</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DOF</LocID>                              <Text>Depth of field</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DOF_OFF</LocID>                                          <Text>Off</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DOF_ON</LocID>                                           <Text>On</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_SHADOWS</LocID>                          <Text>Árnyékok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SHADOWS_OFF</LocID>                                      <Text>Kikapcsol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SHADOWS_LOW</LocID>                                      <Text>Alacsony</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SHADOWS_HIGH</LocID>                                     <Text>Magas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_VSYNC</LocID>                            <Text>Függőleges Szinkronizálás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VSYNC_OFF</LocID>                                        <Text>Kikapcsol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VSYNC_ON</LocID>                                         <Text>Bekapcsol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VSYNC_LIMIT_60</LocID>                                   <Text>Kikapcsol, 60 FPS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_TERRAIN_QUALITY</LocID>                  <Text>Terepminőség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_QUALITY_LOW</LocID>                              <Text>Alacsony</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_QUALITY_HIGH</LocID>                             <Text>Magas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_UNIT_QUALITY</LocID>                     <Text>Egységek a Kalandtérképen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_QUALITY_STATIC</LocID>                              <Text>Statikus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_QUALITY_ANIMATED</LocID>                            <Text>Animált</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_BLOOM</LocID>                            <Text>Fényhatás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BLOOM_OFF</LocID>                                        <Text>Kikapcsol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BLOOM_ON</LocID>                                         <Text>Bekapcsol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DOF</LocID>                              <Text>Mélységélesség</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DOF_OFF</LocID>                                          <Text>Kikapcsol</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DOF_ON</LocID>                                           <Text>Bekapcsol</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_CURSOR</LocID>                           <Text>Cursor mode</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GRAPHICS_CURSOR_HARDWARE</LocID>                         <Text>HW</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GRAPHICS_CURSOR_SOFTWARE</LocID>                         <Text>SW</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_CURSOR</LocID>                           <Text>Kurzor mód</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GRAPHICS_CURSOR_HARDWARE</LocID>                         <Text>Hardveres</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GRAPHICS_CURSOR_SOFTWARE</LocID>                         <Text>Szoftveres</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>GRAPHICS_OPTIONS_RESOLUTION</LocID>                      <Text>Resolution</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GRAPHICS_OPTIONS_RESOLUTION</LocID>                      <Text>Felbontás</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>OPTION_UI_SCALE</LocID>                                  <Text>UI/text size</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_UI_SCALE_SMALL</LocID>                            <Text>Small</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_UI_SCALE_NORMAL</LocID>                           <Text>Normal</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_UI_SCALE_LARGE</LocID>                            <Text>Large</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_UI_SCALE</LocID>                                  <Text>Kezelőfelület/Szöveg Méret</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_UI_SCALE_SMALL</LocID>                            <Text>Kicsi</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_UI_SCALE_NORMAL</LocID>                           <Text>Normál</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_UI_SCALE_LARGE</LocID>                            <Text>Nagy</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>RESET_OPTIONS</LocID>                                    <Text>Reset options</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESET_OPTIONS</LocID>                                    <Text>Beállítások Visszaállítása</Text>  </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>
