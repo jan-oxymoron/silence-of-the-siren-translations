@@ -1,4 +1,4 @@
-﻿<Database>
+<Database>
     <GameDBStringTable ID="LOC_HU_EXPLORATION">
 
         <LanguageRef>LANG_HU</LanguageRef>
@@ -8,331 +8,333 @@
         </Contributors>
 
         <LocalizedStrings>
-            <GameDBLocalizedString>         <LocID>DIALOG_CUSTOM_MESSAGE</LocID>                                 <Text>Welcome!</Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>DIALOG_CUSTOM_MESSAGE</LocID>                                 <Text>Üdvözlünk!</Text>  </GameDBLocalizedString>            
             <GameDBLocalizedString>         <LocID>DIALOG_CUSTOM_MESSAGE_TEXT</LocID>                            <Text></Text>  </GameDBLocalizedString> <!-- Currently needs to be empty -->
 
-            <GameDBLocalizedString>         <LocID>DIALOG_CAMPAIGN_MESSAGE</LocID>                               <Text>An event triggers!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CAMPAIGN_MESSAGE</LocID>                               <Text>Kiváltódott egy esemény!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_CAMPAIGN_MESSAGE_TEXT</LocID>                          <Text></Text>  </GameDBLocalizedString> <!-- Currently needs to be empty -->
 
             <GameDBLocalizedString>         <LocID>DIALOG_CHEST</LocID>                                          <Text>...</Text>  </GameDBLocalizedString><!-- The dialog shows the name of what's inside -->
             <GameDBLocalizedString>         <LocID>DIALOG_HERO_MEETING</LocID>                                   <Text>...</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>DIALOG_CHEST_RESOURCE</LocID>                                 <Text>A pile of free resources...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_CHEST_DATAPAD</LocID>                                  <Text>Data Fragment</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CHEST_RESOURCE</LocID>                                 <Text>Egy halomnyi Nyersanyag...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CHEST_DATAPAD</LocID>                                  <Text>Adattöredék</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>         <LocID>DIALOG_CHEST_ITEM</LocID>                                     <Text></Text>  </GameDBLocalizedString><!-- The dialog shows the name of what's inside -->
             <GameDBLocalizedString>         <LocID>DIALOG_ITEM_PICKUP</LocID>                                    <Text></Text>  </GameDBLocalizedString><!-- The dialog shows the name of what's inside -->
-            <GameDBLocalizedString>         <LocID>DIALOG_EXPLORATION_CORPSE_PICKUP</LocID>                      <Text>Fallen Warrior</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_START_TURN</LocID>                                     <Text>Next Round</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_START_TURN_REPLAY</LocID>                              <Text>Next Round</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_START_TURN_REPLAYED</LocID>                            <Text>Next Round</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_START_WEEK</LocID>                                     <Text>New Cycle</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_LOST</LocID>                                    <Text>Player has been defeated!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_LOST_YOU</LocID>                                <Text>Defeat!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_LOST_YOU_SOMEBODY_WON</LocID>                   <Text>Defeat!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_WON</LocID>                                     <Text>Victory!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_WON_YOU</LocID>                                 <Text>Victory!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_BREAKABLE_OBJECT</LocID>                               <Text>We can get through this!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_EXPLORATION_CORPSE_PICKUP</LocID>                      <Text>Elesett Harcos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_START_TURN</LocID>                                     <Text>Következő Kör</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_START_TURN_REPLAY</LocID>                              <Text>Következő Kör</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_START_TURN_REPLAYED</LocID>                            <Text>Következő Kör</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_START_WEEK</LocID>                                     <Text>Új Ciklus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_LOST</LocID>                                    <Text>Egy Játékost legyőztek!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_LOST_YOU</LocID>                                <Text>Vereség!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_LOST_YOU_SOMEBODY_WON</LocID>                   <Text>Vereség!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_WON</LocID>                                     <Text>Győzelem!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_WON_YOU</LocID>                                 <Text>Győzelem!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BREAKABLE_OBJECT</LocID>                               <Text>Át tudunk haladni valahogy!</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_EMPTIED</LocID>                                 <Text>Object already emptied!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_REVISITED</LocID>                               <Text>Welcome back!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_NEUTRAL_MONSTERS_FLEE</LocID>                          <Text>Neutral units start to flee!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_EMPTIED</LocID>                                 <Text>Az Objektumot már kiürítették!!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_REVISITED</LocID>                               <Text>Üdv Újra!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_NEUTRAL_MONSTERS_FLEE</LocID>                          <Text>A Semleges egységek elkezdtek elmenekülni!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE</LocID>                                 <Text> </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_CONSTRUCTION_UPGRADE</LocID>                    <Text> </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_CONSTRUCTION_UPGRADE_TEXT</LocID>               <Text>This structure is currently under construction. If needed, you can still dismantle it and regain some resources.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>         <LocID>DIALOG_CONSTRUCTION_ZONE</LocID>                              <Text>Building Zone</Text>  </GameDBLocalizedString> <!-- Note: needs to match the building zone map object -->
-            <GameDBLocalizedString>         <LocID>DIALOG_CONSTRUCTION_ZONE_TEXT</LocID>                         <Text>An area prepared for quick construction of various structures. Commanders build here for half the price.</Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_CONSTRUCTION_UPGRADE_TEXT</LocID>               <Text>Ez az építmény jelenleg építés alatt áll. Ha szükséges, akkor is szétszerelheted, és visszaszerezhetsz bizonyos Nyersanyag erőforrásokat.</Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>DIALOG_CONSTRUCTION_ZONE</LocID>                              <Text>Építési Zóna</Text>  </GameDBLocalizedString> <!-- Note: needs to match the building zone map object -->
+            <GameDBLocalizedString>         <LocID>DIALOG_CONSTRUCTION_ZONE_TEXT</LocID>                         <Text>Különféle Építmények gyors építésére előkészített terület. A Parancsnokok fele áron építenek itt.</Text>  </GameDBLocalizedString>            
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MINING_PROBE</LocID>                            <Text></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MINING_PROBE_TEXT</LocID>                       <Text>This mining probe has gathered some resources. Collecting them will decommission the probe.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MINING_PROBE_TEXT</LocID>                       <Text>Ez a Bányászati Szonda összegyűjtött néhány Nyersanyag erőforrást. Ezek összegyűjtése leállítja a Szondát.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MINING_PROBE_EMPTY</LocID>                      <Text></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MINING_PROBE_EMPTY_TEXT</LocID>                 <Text>This mining probe hasn't collected any resources yet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MINING_PROBE_EMPTY_TEXT</LocID>                 <Text>Ez a Bányászati Szonda még nem gyűjtött be erőforrásokat.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_DECONSTRUCTABLE</LocID>                         <Text> </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_DECONSTRUCTABLE_TEXT</LocID>                    <Text>This is a temporary player-built structure you own. You can dismantle it and regain some resources.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_DECONSTRUCTABLE_TEXT</LocID>                    <Text>Ez egy ideiglenes, Játékosok által épített Építmény, ami a te tulajdonodban van. Szétszerelheted, és visszaszerezheted belőle a Nyersanyag erőforrásokat.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_DECONSTRUCTABLE_NO_MONEY</LocID>                <Text> </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_DECONSTRUCTABLE_NO_MONEY_TEXT</LocID>           <Text>This is a temporary player-built structure you own. You can dismantle it.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_WITH_ARMY</LocID>                       <Text>Upgradable Stucture</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_LEARN_ABILITY</LocID>                                  <Text>Knowledge ready to be downloaded!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_LEARN_ABILITY_TEXT</LocID>                             <Text><![CDATA[Choose an ability from the <color=SOTS_COLOR_GOLD>{1} skill</color> to learn!]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_LEARN_ABILITY_TEXT_DETAILS</LocID>                     <Text><![CDATA[You can learn more abilities from the <color=SOTS_COLOR_GOLD>{1} skill</color> by visiting a base with an <color=SOTS_COLOR_GOLD>Academy</color>.\nAny <color=SOTS_COLOR_GOLD>Academy</color> will automatically teach the commander all <color=SOTS_COLOR_GOLD>{1}</color> abilities it has in its database up to level {2}.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_EVACUATION_ABILITY</LocID>                             <Text>Time to go!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_EVACUATION_ABILITY_TEXT</LocID>                        <Text>Do you want to evacuate to this base?</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_FIELD_RESEARCH_HERO_LEARNED_ABILITY</LocID>            <Text>Commander learned a new ability!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_FIELD_RESEARCH_HERO_LEARNED_ABILITY_TEXT</LocID>       <Text>{1} learned {2} using the Field Research skill.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_DECONSTRUCTABLE_NO_MONEY_TEXT</LocID>           <Text>Ez egy ideiglenes, Játékosok által épített Építmény, ami a te tulajdonodban van. Szétszedheted.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_WITH_ARMY</LocID>                       <Text>Fejleszthető Építmény</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_LEARN_ABILITY</LocID>                                  <Text>A Tudás készen áll a letöltésre!!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_LEARN_ABILITY_TEXT</LocID>                             <Text><![CDATA[Válassz egy Képességet a <color=SOTS_COLOR_GOLD>{1} Készség</color> lehetőségei közül, annak megtanulására!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_LEARN_ABILITY_TEXT_DETAILS</LocID>                     <Text><![CDATA[További Képességeket tanulhatsz meg a <color=SOTS_COLOR_GOLD>{1} Készségből</color> ha ellátogatsz egy Bázisod <color=SOTS_COLOR_GOLD>Akadémiájára</color>.\nBármely <color=SOTS_COLOR_GOLD>Akadémia</color> automatikusan megtanítja a Parancsnoknak az adatbázisában található összes <color=SOTS_COLOR_GOLD>{1}</color> Képességet, a {2}. szintű fajtákig.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_EVACUATION_ABILITY</LocID>                             <Text>Ideje indulni!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_EVACUATION_ABILITY_TEXT</LocID>                        <Text>El akarsz evakuálni ebbe a városba??</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_FIELD_RESEARCH_HERO_LEARNED_ABILITY</LocID>            <Text>A Parancsnok új Képességet tanult meg!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_FIELD_RESEARCH_HERO_LEARNED_ABILITY_TEXT</LocID>       <Text>{1} megtanulta {2} a Terepkutató Készség által.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_VEIN</LocID>                                    <Text></Text></GameDBLocalizedString><!-- The dialog shows the name of what's inside -->
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SMUGGLERS_DEN</LocID>                           <Text>Smugglers Den</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SLAVE_CAMP</LocID>                              <Text>Slave Camp</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_HERO_EQUIPMENT_INVENTORY_SLOT_INCREASE</LocID>         <Text>I can carry more!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_HERO_EQUIPMENT_INVENTORY_SLOT_INCREASE_TEXT</LocID>    <Text><![CDATA[The collector skill has granted your commander an extra <color=SOTS_COLOR_EQUIPMENT>equipment slot</color>.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_HERO_ARTIFACT_INVENTORY_SLOT_INCREASE</LocID>          <Text>I can carry more!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_HERO_ARTIFACT_INVENTORY_SLOT_INCREASE_TEXT</LocID>     <Text><![CDATA[The collector skill has granted your commander an extra <color=SOTS_COLOR_ARTIFACT>arifact slot</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SMUGGLERS_DEN</LocID>                           <Text>Csempészek Búvóhelye</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SLAVE_CAMP</LocID>                              <Text>Rabszolgatábor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_HERO_EQUIPMENT_INVENTORY_SLOT_INCREASE</LocID>         <Text>Még több dolgot hordhatok!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_HERO_EQUIPMENT_INVENTORY_SLOT_INCREASE_TEXT</LocID>    <Text><![CDATA[A Gyűjtő Készség által a Parancsnokod kapott egy extra <color=SOTS_COLOR_EQUIPMENT>Felszerelés helyet</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_HERO_ARTIFACT_INVENTORY_SLOT_INCREASE</LocID>          <Text>Még több dolgot hordhatok!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_HERO_ARTIFACT_INVENTORY_SLOT_INCREASE_TEXT</LocID>     <Text><![CDATA[A Gyűjtő Készség által a Parancsnokod kapott egy extra <color=SOTS_COLOR_ARTIFACT>Relikvia helyet</color>.]]></Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>DIALOG_BUILD_BRIDGE</LocID>                                   <Text>Inactive bridge</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_BUILD_BRIDGE_TEXT</LocID>                              <Text>The circuits that once powered a hazardous path over the certain death below seem intact.\n\nDo you want to activate the brige using one Fusion Core?</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_BUILD_BRIDGE</LocID>                              <Text>Activate!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BUILD_BRIDGE</LocID>                                   <Text>Inaktív Híd</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BUILD_BRIDGE_TEXT</LocID>                              <Text>Az áramkörök, amelyek egykor veszélyes utat hoztak létre a lenti biztos halál felett, sértetlennek tűnnek.\nAktiválni akarod a hidat egy Fuziós Mag használatával?</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BUILD_BRIDGE</LocID>                              <Text>Aktiválás!</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>DIALOG_CAN_NOT_BUILD_BRIDGE</LocID>                           <Text>A locked bridge</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_CAN_NOT_BUILD_BRIDGE_TEXT</LocID>                      <Text>This bridge can't be activated from here.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CAN_NOT_BUILD_BRIDGE</LocID>                           <Text>Egy Lezárt Híd</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CAN_NOT_BUILD_BRIDGE_TEXT</LocID>                      <Text>Ezt a Hidat innen nem lehet aktiválni.</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>DIALOG_END_TURN_ACTIONS</LocID>                               <Text>Actions still available!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_END_TURN_ACTIONS_TEXT</LocID>                          <Text>You can still upgrade your bases or move some commanders!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_END_TURN_ACTIONS</LocID>                               <Text>Még maradtak cselekvési lehetőségek!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_END_TURN_ACTIONS_TEXT</LocID>                          <Text>Továbbra is fejlesztheted a Bázisaid, vagy mozoghatsz néhány Parancsnokoddal!</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_VEIN_TEXT</LocID>                               <Text>A perfect place to build a mine to boost our production. Shall we?</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_VEIN_TEXT</LocID>                               <Text>Tökéletes hely egy Bánya létesítésére a termelés fokozása érdekében. Csináljuk?</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_CORPSE_PICKUP</LocID>                             <Text>A corpse. I wonder what happened to him. I should at least bury him for his generosity.\n You found the following:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_CORPSE_PICKUP</LocID>                             <Text>Egy holttest. Kíváncsi vagyok, mi történt vele. Legalább el kell temetnem nagylelkűsége miatt.\n A következőket találtad:</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>DIALOG_DONT_SHOW_AGAIN</LocID>                                <Text>Don't show this dialog again. Can be re-enabled in options.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_DONT_SHOW_AGAIN</LocID>                                <Text>Ne jelenítse meg újra ezt a párbeszédpanelt. A Beállításokban konfigurálható.</Text>  </GameDBLocalizedString>
 
 
-            <GameDBLocalizedString>         <LocID>DIALOG_CONFIRM_DISMISS_HERO</LocID>                           <Text>Dismiss a commander?</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_CONFIRM_DISMISS_HERO_TEXT</LocID>                      <Text>Do you really want to dismiss this commander?\n\nIf this is your last commander and you don't have a base, you know what will happen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CONFIRM_DISMISS_HERO</LocID>                           <Text>Elbocsátasz egy Parancsnokot?</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CONFIRM_DISMISS_HERO_TEXT</LocID>                      <Text>Valóban el akarod bocsátani ezt a Parancsnokot?\nHa ez az utolsó Parancsnokod, és nincs már több bázisod, akkor tudod, mi fog történni.</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_DISMISS</LocID>                                   <Text>Dismiss!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DISMISS</LocID>                                   <Text>Elbocsátani!</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_CHEST_RESOURCE_TEXT</LocID>                       <Text>There's a stash of useful resources...just lying there.</Text></GameDBLocalizedString>            
-            <GameDBLocalizedString>         <LocID>EXPLORATION_CHEST_DATAPAD_TEXT</LocID>                        <Text><![CDATA[Commander gains <b><color=SOTS_COLOR_XP>+500 XP</color></b>.\n\nYou can also keep the <b><color=SOTS_COLOR_GOLD>Data Fragment</color></b> for later use, or sell it for 500 Aura Coins. Using it immediately gives +250 bonus XP.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_CONSUME</LocID>                           <Text>Use</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_CONSUME_INFO_TEXT</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_XP>+750 XP</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_SELL</LocID>                              <Text>Sell</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_CHEST_RESOURCE_TEXT</LocID>                       <Text>Ott van egy rakat hasznos Nyersanyag...s csak úgy hagyták őket.</Text></GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_CHEST_DATAPAD_TEXT</LocID>                        <Text><![CDATA[A Parancsnok szerzett <b><color=SOTS_COLOR_XP>+500 Tapasztalati Pontot</color></b>.\nMegőrizheted az <b><color=SOTS_COLOR_GOLD>Adattöredéket</color></b> egy későbbi használatra, vagy eladhatod 500 Aura érméért. Azonnali használata +250 bónusz Tapasztalati pont bónuszt ad.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_CONSUME</LocID>                           <Text>Használ</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_CONSUME_INFO_TEXT</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_XP>+750 Tapasztalati Pont</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_SELL</LocID>                              <Text>Elad</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_SELL_INFO_TEXT</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_GOLD>+{1}</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_KEEP</LocID>                              <Text>Keep</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_KEEP</LocID>                              <Text>Felhalmozni</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SMUGGLERS_DEN_TEXT</LocID>                      <Text>Hello, weary traveler. Leave us at peace and take this as your reward.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SLAVE_CAMP_TEXT</LocID>                         <Text>Hello, mister commander, sir. Are you interested in our legally obtained slaves? Erm, assets?</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SMUGGLERS_DEN_TEXT</LocID>                      <Text>Szia fáradt utazó! Hagyj békén minket, és vedd el a jutalmad.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SLAVE_CAMP_TEXT</LocID>                         <Text>Helló, Parancsnok úr, uram. Érdekelnek a legálisan szerzett rabszolgáink? Ööö, eszközök?</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_ATTACK_UNKNOWN_TEXT</LocID>                       <Text><![CDATA[HAZARD: <color=SOTS_COLOR_RED>UNKNOWN</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_ATTACK_UNKNOWN_TEXT</LocID>                       <Text><![CDATA[VESZÉLY: <color=SOTS_COLOR_RED>UNKNOWN</color>]]></Text></GameDBLocalizedString>
                                                                                                                 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_START_TURN</LocID>                                <Text>{1}'s turn.</Text></GameDBLocalizedString> <!-- Parameter {1} is color/name, so "Red player's turn etc." -->
-            <GameDBLocalizedString>         <LocID>EXPLORATION_START_ONLY</LocID>                                <Text>Begin</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_TURN</LocID>                                <Text>{1} Fázis.</Text></GameDBLocalizedString> <!-- Parameter {1} is color/name, so "Red player's turn etc." -->
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_ONLY</LocID>                                <Text>Kezdődjék</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_START_WEEK</LocID>                                <Text><![CDATA[A new cycle has started.\n<color=SOTS_COLOR_GOLD>New recruits are available</color> to be hired at all bases and buildings with unit production!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_WEEK</LocID>                                <Text><![CDATA[Egy újabb Ciklus kezdődött.\n<color=SOTS_COLOR_GOLD>Újabb egységek elérhetőek</color> s felbérelhetőek minden Bázison és külső Egységtermelő épületekben!]]></Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_DEFEATED</LocID>                           <Text>{1} has been defeated</Text></GameDBLocalizedString> <!-- Parameter {1} is full name -->
-            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_DEFEATED_YOU</LocID>                       <Text>You have been defeated!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_WON</LocID>                                <Text>{1} won!</Text></GameDBLocalizedString> <!-- Parameter {1} is name -->
-            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_WON_YOU</LocID>                            <Text>You have won!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_DEFEATED</LocID>                           <Text>{1} Játékost legyőzték</Text></GameDBLocalizedString> <!-- Parameter {1} is full name -->
+            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_DEFEATED_YOU</LocID>                       <Text>Legyőztek téged!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_WON</LocID>                                <Text>{1} Játékos Nyert!</Text></GameDBLocalizedString> <!-- Parameter {1} is name -->
+            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_WON_YOU</LocID>                            <Text>Te nyertél!</Text></GameDBLocalizedString>
                                                                                                                 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OK</LocID>                                        <Text>OK</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_QUIT</LocID>                                      <Text>Quit</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_SPECTATE</LocID>                                  <Text>Spectate</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_BREAK</LocID>                                     <Text>Break</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_DISABLE</LocID>                                   <Text>Disable</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_LEAVE_UNTOUCHED</LocID>                           <Text>Leave as is</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OK</LocID>                                        <Text>RENDBEN</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_QUIT</LocID>                                      <Text>Kilépés</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_SPECTATE</LocID>                                  <Text>Figyelés</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BREAK</LocID>                                     <Text>Áttörés</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DISABLE</LocID>                                   <Text>Letiltás</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_LEAVE_UNTOUCHED</LocID>                           <Text>Úgy hagyni ahogy van</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_CLOSE</LocID>                                     <Text>Close</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_COLLECT</LocID>                                   <Text>Collect</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_PASS</LocID>                                      <Text>Pass</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_DISMANTLE</LocID>                                 <Text>Dismantle</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_CLOSE</LocID>                                     <Text>Bezár</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_COLLECT</LocID>                                   <Text>Begyűjt</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_PASS</LocID>                                      <Text>Átpasszol</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DISMANTLE</LocID>                                 <Text>Szétszed</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_DIALOG_BREAKABLE_OBJECT_TEXT</LocID>              <Text>Do you want to break through?</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DIALOG_BREAKABLE_OBJECT_TEXT</LocID>              <Text>Szeretnél áttörni rajta?</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISITED_STATE</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_GOLD>Visited state:</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISITED</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Visited</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_NOT_VISITED</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Not visited</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISIT_WAIT_PHASE</LocID>                   <Text>Wait till the next phase.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISIT_WAIT_CYCLE</LocID>                   <Text>Wait till the next cycle.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISIT_HERO</LocID>                         <Text>Commander already visited. (Use another one.)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_DISABLED</LocID>                           <Text><![CDATA[<color=SOTS_COLOR_DISABLED>Disabled</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISITED_STATE</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_GOLD>Meglátogatott állapot:</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISITED</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Meglátogatott</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_NOT_VISITED</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Nem volt még látogatva</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISIT_WAIT_PHASE</LocID>                   <Text>Vár a következő Fázisig.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISIT_WAIT_CYCLE</LocID>                   <Text>Vár a következő Ciklusig.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISIT_HERO</LocID>                         <Text>A Parancsnok már meglátogatta. (Használj hozzá egy másikat.)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_DISABLED</LocID>                           <Text><![CDATA[<color=SOTS_COLOR_DISABLED>Letiltott</color>]]></Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_EMPTIED</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_RED>Emptied</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_EMPTIED</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_RED>Kiűrített</color>]]></Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_DISABLED_WAIT_CYCLE</LocID>                <Text>Cycle(s) before it's operational again.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_DISABLED_WAIT_CYCLE</LocID>                <Text>Adott Ciklus múlva, újra lehetővé válik a használata.</Text></GameDBLocalizedString>
                                                                                                                 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_TELEPORT_SELECTION</LocID>                 <Text>Teleport To:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_TELEPORT_SELECTION</LocID>                 <Text>Teleportál ide:</Text></GameDBLocalizedString>
                                                                                                                 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_NEUTRAL_MONSTERS_FLEE</LocID>                     <Text>Overwhelmed by the size of your forces, your opponents are trying to escape!\nYou can let them run and gain no XP or take the initiative and start the battle anyway.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_NEGOTIATION</LocID>                               <Text>Negotiations Start</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_NEUTRAL_MONSTERS_NEGOTIATION</LocID>              <Text>Some of the army you are about fight would like to join you. For a price, of course, depending on your negotiation skills!\nNot interested? Just go beat them up!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_BACK_TO_HERO</LocID>                              <Text>Switch to commander</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_NEAREST_OUTPOST</LocID>                           <Text>Switch to nearest outpost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NEUTRAL_MONSTERS_FLEE</LocID>                     <Text>Erőid láttán, ellenfeleid menekülni próbálnak!\Hagyhatod őket futni, de így nem szerzel Tapasztalati Pontot, vagy kezdeményezhetsz, és mégis megkezdheted a csatát.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NEGOTIATION</LocID>                               <Text>Egyeztetések Elkezdése</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NEUTRAL_MONSTERS_NEGOTIATION</LocID>              <Text>A sereg egy része, amellyel harcolnál, szeretne csatlakozni hozzád. Tárgyalókészségedtől függően természetesen egy bizonyos árért cserébe!\nNem érdekel? Csak menj akkor s verd le őket!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BACK_TO_HERO</LocID>                              <Text>Parancsnokra váltás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NEAREST_OUTPOST</LocID>                           <Text>Legközelebbi Előörsre váltás</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_NEUTRAL_MONSTERS_NEGOTIATION_FLEE</LocID>         <Text>Some of the army you are about fight would like to join you. For a price, of course, depending on your negotiation skills!\nNot interested? You can let them run!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NEUTRAL_MONSTERS_NEGOTIATION_FLEE</LocID>         <Text>A sereg egy része, amellyel harcolnál, szeretne csatlakozni hozzád. Tárgyalókészségedtől függően természetesen egy bizonyos árért cserébe!\nNem érdekel? Hagyhatod őket elfutni is!</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_LET_FLEE</LocID>                                  <Text>Let them run!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_FIGHT</LocID>                                     <Text>Fire at will!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_FIGHT_REST</LocID>                                <Text>Fight the rest!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_FINISH_NEGOTIATION</LocID>                        <Text>Finish!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_LET_FLEE</LocID>                                  <Text>Hadd fussanak!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FIGHT</LocID>                                     <Text>Azonnal tüzelni!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FIGHT_REST</LocID>                                <Text>Harcolni a Maradékkal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FINISH_NEGOTIATION</LocID>                        <Text>Vége!</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_WANTS_TO_JOIN_HEADING</LocID>                    <Text>This was easy!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_WANTS_TO_JOIN</LocID>                            <Text>The neutral troops tremble with fear and offer to join your forces!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_EXTRA_UNITS</LocID>                              <Text>Some units would like to join you after battle but there's not enough room in your army!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_WANTS_TO_JOIN_HEADING</LocID>                    <Text>Ez könnyű volt!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_WANTS_TO_JOIN</LocID>                            <Text>A semleges csapatok remegnek a félelemtől, és felajánlják, hogy csatlakoznak seregedhez!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_EXTRA_UNITS</LocID>                              <Text>Néhány egység szeretne csatlakozni hozzád a csata után, de nincs elég hely a seregedben!</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_BOOT_CAMP_TRAIN_ALL</LocID>                       <Text>Train all!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_BOOT_CAMP_UPGRADE_ALL</LocID>                     <Text>Upgrade all!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_CAN_TRAIN_ALL_TEXT</LocID>                            <Text>Training will upgrade: </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_CAN_TRAIN_ALL_INFO</LocID>                            <Text>{1} to {2}.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_TRAIN_LOST_ALL</LocID>                                <Text><![CDATA[ <color=SOTS_COLOR_RED>Losing {1} unit(s)</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BOOT_CAMP_TRAIN_ALL</LocID>                       <Text>Edzeni mindet!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BOOT_CAMP_UPGRADE_ALL</LocID>                     <Text>Fejleszteni mindet!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_CAN_TRAIN_ALL_TEXT</LocID>                            <Text>Az edzés felfejleszt ennyit: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_CAN_TRAIN_ALL_INFO</LocID>                            <Text>{1} ről erre {2}.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_TRAIN_LOST_ALL</LocID>                                <Text><![CDATA[ <color=SOTS_COLOR_RED>Elveszít {1} egység(geket)</color>]]></Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>UNITS_UPGRADE_ALL_HEADING</LocID>                             <Text>Upgrade all units</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNITS_UPGRADE_ALL</LocID>                                     <Text>You can upgrade all units for:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNITS_CAN_NOT_UPGRADE_ALL</LocID>                             <Text>You don't have enough resources to upgrade all units:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_UPGRADE_ALL_HEADING</LocID>                             <Text>Minden egységet felfejleszt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_UPGRADE_ALL</LocID>                                     <Text>Minden Egységet felfejleszthetsz mindennyiért:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_CAN_NOT_UPGRADE_ALL</LocID>                             <Text>Nincs elég Nyersanyag erőforrás, az összes Egység felfejlesztéséhez:</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_FINISH_NEGOTIATION_BOUGHT</LocID>                 <Text>See you next cycle!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_FINISH_NEGOTIATION_DESTROYED</LocID>              <Text>Let the rest run!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FINISH_NEGOTIATION_BOUGHT</LocID>                 <Text>A következő Ciklusban újra találkozunk!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FINISH_NEGOTIATION_DESTROYED</LocID>              <Text>Hagyja a Maradékot futni!</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_SLAVE_CAMP_NEGOTIATION</LocID>                    <Text>So this is our fine selection. Go ahead and choose.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_SLAVE_CAMP_LIBERATION</LocID>                     <Text>The slavers have been dealt with. Their slaves would like to join you now.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_SLAVE_CAMP_NEGOTIATION</LocID>                    <Text>Szóval ez a mi remek válogatásunk. Menj előre és válassz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_SLAVE_CAMP_LIBERATION</LocID>                     <Text>A rabszolgatartókkal elbántál. A rabszolgáik most szeretnének csatlakozni hozzád.</Text>  </GameDBLocalizedString>
                                                                                                                 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_JOIN</LocID>                                      <Text>Let them all join!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_JOIN</LocID>                                      <Text>Hadd csatlakozzon mind!</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_NO_ABILITY_TO_LEARN</LocID>                       <Text>The commander can't learn any abilities here with their skills.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_NO_SKILL_TO_LEARN</LocID>                         <Text>The commander can't learn any more skills.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NO_ABILITY_TO_LEARN</LocID>                       <Text>A Parancsnok a jelenlegi Készségeivel itt nem tanulhat meg semmilyen Képességet.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NO_SKILL_TO_LEARN</LocID>                         <Text>A Parancsnok nem tanulhat meg több újabb Készséget már.</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_NOTHING_TO_FORGET</LocID>                         <Text>Nothing to forget.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NOTHING_TO_FORGET</LocID>                         <Text>Nincs mit elfelejteni.</Text></GameDBLocalizedString>
                                                                                                                 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_BUILD_COST</LocID>                                <Text>Build Cost: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BUILD_COST</LocID>                                <Text>Építési Költség: </Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_MINING_PROBE_EMPTY</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_RED>Nothing</color> <color=SOTS_COLOR_GOLD>mined yet</color>.</b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_MINING_PROBE_EMPTY</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_RED>Semmit se</color> <color=SOTS_COLOR_GOLD>se bányászott még</color>.</b>]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_ACADEMY_FORGET_SKILL_TEXT</LocID>                 <Text>Which skill would you like to forget?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_ACADEMY_LEARN_SKILL_TEXT</LocID>                  <Text>Which skill would you like to learn?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_ACADEMY_LEARN_ABILITY_TEXT</LocID>                <Text>Which ability would you like to learn?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_ACADEMY_FORGET_SKILL_TEXT</LocID>                 <Text>Melyik Készséget szeretnéd elfelejteni?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_ACADEMY_LEARN_SKILL_TEXT</LocID>                  <Text>Melyik Készséget szeretnéd megtanulni?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_ACADEMY_LEARN_ABILITY_TEXT</LocID>                <Text>Melyik Képességet szeretnéd megtanulni?</Text>  </GameDBLocalizedString>
             
             <!--Map objects dialogs-->
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_TEXT</LocID>                            <Text>We own this structure now. There are upgrades available!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_WITH_ARMY_TEXT</LocID>                  <Text>Don't forget to check available upgrades!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_AVAILABLE_UPGRADES</LocID>                      <Text><![CDATA[<b>Available Upgrades:</b>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_BUILD</LocID>                           <Text>Buy Upgrade: </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_COSTS</LocID>                           <Text>Costs</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_GENERATES</LocID>                       <Text>Generates</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_TEXT</LocID>                            <Text>A Miénk ez az épület és fejlesztési lehetőség állnak rendelkezésre benne!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_WITH_ARMY_TEXT</LocID>                  <Text>Ne feledd lecsekkolni, hogy van e elérhető fejlesztési lehetőség-!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_AVAILABLE_UPGRADES</LocID>                      <Text><![CDATA[<b>Elérhető Fejlesztések:</b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_BUILD</LocID>                           <Text>Vegyél egy Fejlesztést: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_COSTS</LocID>                           <Text>Költségek</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_GENERATES</LocID>                       <Text>Generál</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_WATCHTOWER</LocID>                              <Text>...</Text>  </GameDBLocalizedString> <!-- Object name is used in the dialog heading -->
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_WATCHTOWER_TEXT</LocID>                         <Text>See Beyond the Horizon</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_EVACUATE</LocID>                                <Text>Evacuate</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_VEIN_BUILD</LocID>                              <Text>Build</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_BUILDABLE_OBJECT_NAME</LocID>                          <Text>Available Building</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STRUCTURE_ATTACK</LocID>                        <Text>Attack</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SMUGGLERS_DEN_REWARD</LocID>                    <Text>Get Reward</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SLAVE_CAMP_NEGOTIATE</LocID>                    <Text>Buy Slaves</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_WATCHTOWER_TEXT</LocID>                         <Text>Láss a Horizonton Túl</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_EVACUATE</LocID>                                <Text>Evakuálás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_VEIN_BUILD</LocID>                              <Text>Építés</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BUILDABLE_OBJECT_NAME</LocID>                          <Text>Elérhető Épület</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STRUCTURE_ATTACK</LocID>                        <Text>Támadás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SMUGGLERS_DEN_REWARD</LocID>                    <Text>Jutalom Elvétele</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SLAVE_CAMP_NEGOTIATE</LocID>                    <Text>Rabszolgák Vásárlása</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>UNDISCOVERED</LocID>                                          <Text>Undiscovered Territory</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNDISCOVERED</LocID>                                          <Text>Felfedezetlen Terület</Text></GameDBLocalizedString>
             
             <!-- Status effects -->                                                                              
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MOVE_POINTS_REDUCTION</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_RED>Movement Point Reduction</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MOVE_POINTS_INCREASE</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Movement Point Increase</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_RUSH_ABILITY_MOVE_POINTS_INCREASE</LocID>       <Text><![CDATA[Rush ability 20%<color=SOTS_COLOR_MOVEMENT> Movement Point Increase</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EAGLE_EYE_ABILITY_RANGE_INCREASE</LocID>        <Text>Double scouting range. (Eagle Eye Ability)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BARBARIAN_HORDE_2</LocID>                       <Text>"Stronger" army</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BARBARIAN_HORDE_3</LocID>                       <Text>"Stronger" army: Even fools commanders with the Spy Skill.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EASY_PREY_2</LocID>                             <Text>"Weaker" army</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EASY_PREY_3</LocID>                             <Text>"Weaker" army: Even fools commanders with the Spy Skill.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MORALE_BOOST</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Morale Boost</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_COMBAT_POWER_BOOST</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Combat Power Boost</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MOVE_POINTS_REDUCTION</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Mozgáspont csökkenés</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MOVE_POINTS_INCREASE</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Mozgáspont növekedés</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_RUSH_ABILITY_MOVE_POINTS_INCREASE</LocID>       <Text><![CDATA[Roham Képesség 20%<color=SOTS_COLOR_MOVEMENT> Mozgáspont növekedés </color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EAGLE_EYE_ABILITY_RANGE_INCREASE</LocID>        <Text>Megduplázódott Látótávolság. (Sasszem Képesség)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BARBARIAN_HORDE_2</LocID>                       <Text>"Erősebb" sereg</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BARBARIAN_HORDE_3</LocID>                       <Text>"Erősebb" sereg: Még a Kém Készséggel rendelkező Parancsnokokat is megtéveszti.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EASY_PREY_2</LocID>                             <Text>"Gyengébb" sereg</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EASY_PREY_3</LocID>                             <Text>"Gyengébb" sereg: Még a Kém Készséggel rendelkező Parancsnokokat is megtéveszti.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MORALE_BOOST</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Morál Növekedés</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_COMBAT_POWER_BOOST</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Harci Erő Növekedés</color>]]></Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_TRAP_COMMANDER</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_RED>Trapped!</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_TRAP_COMMANDER</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_RED>Csapdába esett!</color>]]></Text>  </GameDBLocalizedString>
             
             <!-- Tooltips -->                                                                                    
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_ARMY_STRENGTH</LocID>                     <Text>Hazard:</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_PREDICTED_LOSSES</LocID>                  <Text>Predicted Losses:</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_ARMY_COUNT</LocID>                        <Text>Army Count: </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_STATUS_EFFECTS</LocID>               <Text><![CDATA[<b><i>Status Effects:</i></b>\n]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_STATS</LocID>                        <Text><![CDATA[<b><i>Commander Stats:</i></b>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_ATTRIBUTES</LocID>                   <Text>Attributes</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_SKILLS</LocID>                       <Text>Skills</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_ABILITIES</LocID>                    <Text>Abilites</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_NONE</LocID>                              <Text>None</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_MONSTER_ARMY</LocID>                      <Text><![CDATA[<b>Monster Army</b>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_MONSTER_ARMY_CHANGES</LocID>              <Text><![CDATA[<b>Monster Army</b>\n(Transforms according to light level!)]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_ARMY_STRENGTH</LocID>                     <Text>Veszély:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_PREDICTED_LOSSES</LocID>                  <Text>Megjósolt Veszteség:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_ARMY_COUNT</LocID>                        <Text>Sereg Létszám: </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_STATUS_EFFECTS</LocID>               <Text><![CDATA[<b><i>Státusz Hatások:</i></b>\n]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_STATS</LocID>                        <Text><![CDATA[<b><i>Parancsnok Statisztikái:</i></b>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_ATTRIBUTES</LocID>                   <Text>Tulajdonságok</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_SKILLS</LocID>                       <Text>Készségek</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_ABILITIES</LocID>                    <Text>Képességek</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_NONE</LocID>                              <Text>Nincs</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_MONSTER_ARMY</LocID>                      <Text><![CDATA[<b>Semleges Szörnysereg</b>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_MONSTER_ARMY_CHANGES</LocID>              <Text><![CDATA[<b>Semleges Szörnysereg</b>\n(A napszaktól függően, átalakul)]]></Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_NOT_IN_RANGE</LocID>                      <Text>Not in Range</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_SEEN_BY</LocID>                           <Text>Seen By:</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_BASE_NO_ARMY</LocID>                      <Text>Not Protected by Any Army</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_CYCLE</LocID>                             <Text>Current Day-Night Cycle Number</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_NOT_IN_RANGE</LocID>                      <Text>Nincs Lőtávolságban</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_SEEN_BY</LocID>                           <Text>Meglátta ez:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_BASE_NO_ARMY</LocID>                      <Text>Semmilyen Sereg által se védett</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_CYCLE</LocID>                             <Text>Jelenlegi Nappali-Éjszakai Ciklusszám</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP</LocID>                                        <Text>XP</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP</LocID>                                        <Text>Tapasztalati Pont</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_UNKNOWN</LocID>                               <Text>Unknown</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_0</LocID>                                     <Text>Negligible</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_1</LocID>                                     <Text>Low</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_2</LocID>                                     <Text>Moderate</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_3</LocID>                                     <Text>High</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_4</LocID>                                     <Text>Extreme</Text></GameDBLocalizedString>                        
-            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_5</LocID>                                     <Text>Not a chance!</Text></GameDBLocalizedString>   
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_UNKNOWN</LocID>                               <Text>Ismeretlen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_0</LocID>                                     <Text>Elhanyagolható</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_1</LocID>                                     <Text>Alacsony</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_2</LocID>                                     <Text>Átlagos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_3</LocID>                                     <Text>Magas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_4</LocID>                                     <Text>Extrém</Text></GameDBLocalizedString>                        
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_5</LocID>                                     <Text>Esélytelen!</Text></GameDBLocalizedString>   
             
             <!--Exploration XP-->
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_NONE</LocID>                                   <Text>Execute various actions to gain experience.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_COMBAT</LocID>                                 <Text>Combat</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_MOVEMENT</LocID>                               <Text>Movement</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_FOG_OF_WAR</LocID>                             <Text>Fog Of War</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_CASTING</LocID>                                <Text>Using Abilities</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_TAKING_OVER_BUILDING</LocID>                   <Text>Structure(s) Taken</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_DISABLING_BUILDING</LocID>                     <Text>Structure(s) Disabled</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_BUILDING_VISIT</LocID>                         <Text>Structure(s) Visited</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_USING_CONSUMABLE</LocID>                       <Text>Using Consumables</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_BUILDING_UPGRADE</LocID>                       <Text>Upgrades</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_ITEM_PICK_UP</LocID>                           <Text>Pickables</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_ITEM_EQUIP</LocID>                             <Text>Items Equipped (with cost)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_SHORTCUT_CREATION</LocID>                      <Text>Shortcuts</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_TRAINING</LocID>                               <Text>Training</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_OTHER</LocID>                                  <Text>Other</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_DEBUG</LocID>                                  <Text>Debug</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_NONE</LocID>                                   <Text>Végezz el különféle műveleteket Tapasztalatszerzés céljából.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_COMBAT</LocID>                                 <Text>Harc</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_MOVEMENT</LocID>                               <Text>Mozgás</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_FOG_OF_WAR</LocID>                             <Text>Háború Köde</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_CASTING</LocID>                                <Text>Képesség elhasználása</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_TAKING_OVER_BUILDING</LocID>                   <Text>Épület(ek) elfoglalva</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_DISABLING_BUILDING</LocID>                     <Text>Épület(ek) kikapcsolva</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_BUILDING_VISIT</LocID>                         <Text>Épület(ek) meglátogatva</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_USING_CONSUMABLE</LocID>                       <Text>Egyszerhasználatosak felhasználása</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_BUILDING_UPGRADE</LocID>                       <Text>Fejlesztések</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_ITEM_PICK_UP</LocID>                           <Text>Felvehetőek</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_ITEM_EQUIP</LocID>                             <Text>Tárgyak felszerelve (költségeikkel együtt)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_SHORTCUT_CREATION</LocID>                      <Text>Lerövidítések</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_TRAINING</LocID>                               <Text>Edzés</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_OTHER</LocID>                                  <Text>Más</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_DEBUG</LocID>                                  <Text>Hibajavítás</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>FORGET</LocID>                                                <Text>Forget</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>FORGET</LocID>                                                <Text>Felejtse el</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>DIALOG_ACADEMY_HERO_LEARNED_ABILITY</LocID>                   <Text>Commander learned abilities!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_ACADEMY_HERO_LEARNED_ABILITY_TEXT</LocID>              <Text>{1} learned special abilities from the Academy at this base.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_WIN_TOOLTIP_MODIFIED_XP</LocID>                 <Text>There were up to {1} XPs to be gained gain from this battle. However, your commander was not able to comprehend everything that just happened.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_WIN_TOOLTIP_MAX_LEVEL_REACHED</LocID>           <Text>There were up to {1} XPs to be gained from this battle. However, your commander cannot gain any more experience in this plane of existence.</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>DIALOG_CONSUMABLE_USE</LocID>                                 <Text>Use now</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_EQUIPMENT_EQUIP</LocID>                                <Text>Equip</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ACADEMY_HERO_LEARNED_ABILITY</LocID>                   <Text>A Parancsnok új Képességeket tanult meg!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ACADEMY_HERO_LEARNED_ABILITY_TEXT</LocID>              <Text>{1} Speciális Képességeket tanult meg a Bázison lévő Akadémiában.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_WIN_TOOLTIP_MODIFIED_XP</LocID>                 <Text>Akár {1} Tapasztalati Pont szerezhető ebben a csatában. A Parancsnokod azonban nem volt képes mindent felfogni, ami most történt..</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_WIN_TOOLTIP_MAX_LEVEL_REACHED</LocID>           <Text>Akár {1} Tapasztalati Pontot lehetett nyerni ebből a csatából. A Parancsnokod azonban nem szerezhet több Eapasztalati Pontot ezen a létsíkon.</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL_DIALOG_INFO</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_ENERGY>+20 Energy</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CONSUMABLE_DATA_FRAGMENT_DIALOG_INFO</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_XP>+500 XP</color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CONSUMABLE_FUEL_STOCK_DIALOG_INFO</LocID>                     <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>+{1} Movement Points</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CONSUMABLE_USE</LocID>                                 <Text>Használ most</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_EQUIPMENT_EQUIP</LocID>                                <Text>Felszerel</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_GOTO</LocID>                                      <Text>Go to</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL_DIALOG_INFO</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_ENERGY>+20 Energiapont</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_DATA_FRAGMENT_DIALOG_INFO</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_XP>+500 Tapasztalati Pont</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_FUEL_STOCK_DIALOG_INFO</LocID>                     <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>+{1} Mozgáspont</color>]]></Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_ABILITY_ACADEMY</LocID>                    <Text>Ability Academy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_ABILITY_ACADEMY_DESCRIPTION</LocID>        <Text><![CDATA[Visiting commanders can <color=SOTS_COLOR_GOLD>learn an Ability of their choice</color>. Can be used <color=SOTS_COLOR_GOLD>once per commander</color>. <color=SOTS_COLOR_RED>Requires</color> the matching ability skill]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_GOTO</LocID>                                      <Text>Menjen oda</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_BUY_ABILITY</LocID>                              <Text>Select one ability to add to this academy for a fee.\nYou need a matching faculty to see level 2 and level 3 abilities here. Choose wisely!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_HAS_BOUGHT_ABILITY</LocID>                       <Text>You have already bought an extra ability at this academy:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_ABILITY_ACADEMY</LocID>                    <Text>Képesség Akadémia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_ABILITY_ACADEMY_DESCRIPTION</LocID>        <Text><![CDATA[Az ezt meglátogató Parancsnok <color=SOTS_COLOR_GOLD>bármilyen Képességet megtanulhat itt</color>. <color=SOTS_COLOR_GOLD>Parancsnokonként egyszer használható</color>. <color=SOTS_COLOR_RED> valamilyen Készség meglétét igényli</color>]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MORALE_REDUCTION</LocID>                        <Text>Morale Reduction</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_BUY_ABILITY</LocID>                              <Text>Válassz egy Képességet, amelyet díj ellenében hozzáadhatsz ehhez az Akadémiához. A 2. és 3. szintű Képességek megtekintéséhez megfelelő Szakmai Cég meglétére van szükség. Válassz bölcsen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_HAS_BOUGHT_ABILITY</LocID>                       <Text>Már vásároltál egy extra Képességet ezen az Akadémián:</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>DIALOG_FUSION_CORE</LocID>                                    <Text>You found a Fusion Core!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_FUSION_CORE_TEXT</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Fusion Cores</color> are a rare resource that allows you to <color=SOTS_COLOR_GOLD>build any building or upgrade</color> both on the map or in a base.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MORALE_REDUCTION</LocID>                        <Text>Morál Csökkenés</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_1</LocID>                          <Text>Battle Arena</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_2</LocID>                          <Text>Battle Arena</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_3</LocID>                          <Text>Battle Arena</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY</LocID>                    <Text>Battle Arena</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_TEXT</LocID>                       <Text><![CDATA[Battle three rounds against random armies. <color=SOTS_COLOR_GOLD>Round 1</color> reward: <color=SOTS_COLOR_GOLD>Random resource</color>. <color=SOTS_COLOR_GOLD>Round 2</color> reward: <color=SOTS_COLOR_GOLD>25 Morale boost</color>(4 phases). <color=SOTS_COLOR_GOLD>Round 3</color> reward: Random <color=SOTS_COLOR_GOLD>atrribute</color> permanently <color=SOTS_COLOR_GOLD>increased</color> by 1.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY_TEXT</LocID>               <Text>Congratulations! You have beaten all three rounds. Come back next cycle and try to repeat your success.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_FUSION_CORE</LocID>                                    <Text>Egy Fuziós Magot találtál!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FUSION_CORE_TEXT</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>A Fuziós Magok</color> Ritka Nyersanyag erőforrások, amelyek lehetővé teszik, hogy <color=SOTS_COLOR_GOLD>bármilyen Épületet is építs vagy felfejleszhess</color> általa (egyéb Aura érmék vagy Nyersanyagok szüksége nélkül) a Térképen vagy egy Bázison, és különféle <color=SOTS_COLOR_GOLD>Objektumok vagy Lerövidítések</color> aktiválására is használható a Térképen.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_1</LocID>                          <Text>Harci Aréna</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_2</LocID>                          <Text>Harci Aréna</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_3</LocID>                          <Text>Harci Aréna</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY</LocID>                    <Text>Harci Aréna</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_TEXT</LocID>                       <Text><![CDATA[Harcolj három Fordulón át véletlenszerű seregekkel. <color=SOTS_COLOR_GOLD>1. forduló</color> Jutalom: <color=SOTS_COLOR_GOLD>Véletlenszerű Nyersanyag forrás</color>. <color=SOTS_COLOR_GOLD>2. kör</color> Jutalom: <color=SOTS_COLOR_GOLD>25 Morál növekedés</color> (4 Fázison keresztül). <color=SOTS_COLOR_GOLD>3. kör</color> Jutalom: Véletlen <color=SOTS_COLOR_GOLD>Attribútum</color> állandó hatás <color=SOTS_COLOR_GOLD>növekedés</color> 1-gyel.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY_TEXT</LocID>               <Text>Gratulálok. Mindhárom kört legyőzted. Gyere vissza a következő Ciklusban, és próbáld megismételni a sikeredet.</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_TRAINING_GROUND</LocID>                         <Text>Training Grounds</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_TRAINING_GROUND_TEXT</LocID>                    <Text><![CDATA[You can choose to battle against <color=SOTS_COLOR_GOLD>your own army</color> (with no commander) or a <color=SOTS_COLOR_GOLD>random army</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_TRAINING_GROUND</LocID>                         <Text>Gyakorlótér</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_TRAINING_GROUND_TEXT</LocID>                    <Text>Itt harcolhatsz a saját sereged ellen, mínusz a Parancsnokod vagy valamilyen véletlenszerű sereggel is. A szokásos Tapasztalati Pont felét kapod meg, de az elveszett Egységek megmaradnak a csata után is. A csatában felhasznált Energiapont viszont nem pótolódik.</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_RANDOM_ARMY</LocID>                             <Text>Random Army</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MIRROR_ARMY</LocID>                             <Text>Mirror Army</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_1</LocID>                    <Text>Round 1/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_2</LocID>                    <Text>Round 2/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_3</LocID>                    <Text>Round 3/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY_BUTTON</LocID>             <Text>Victory</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_RANDOM_ARMY</LocID>                             <Text>Véletlenszerű Sereg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MIRROR_ARMY</LocID>                             <Text>Tükörkép Sereg</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_1</LocID>                    <Text>Menet 1/3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_2</LocID>                    <Text>Menet 2/3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_3</LocID>                    <Text>Menet 3/3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY_BUTTON</LocID>             <Text>Győzelem</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISITED_ROUND</LocID>                      <Text>Round</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_CONQUERED</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Conquered</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISITED_ROUND</LocID>                      <Text>Kör</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_CONQUERED</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Elfoglalt</color>]]></Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MORALE_BOOST_BATTLE_ARENA</LocID>               <Text>Battle Arena Morale Boost</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MORALE_BOOST_BATTLE_ARENA</LocID>               <Text>Harci Aréna általi Morál növekedés</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXPLORATION_START_WITH_REPLAY</LocID>                         <Text>Replay</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_START_TURN_REPLAYED</LocID>                       <Text>Replay complete! Ready to start?</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_START_REPLAY_AGAIN</LocID>                        <Text>Replay again</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_WITH_REPLAY</LocID>                         <Text>Újrajátszás</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_TURN_REPLAYED</LocID>                       <Text>Most boldog vagy? Kezdhetjük?</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_REPLAY_AGAIN</LocID>                        <Text>Játsszuk újra</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>MAP_STATS</LocID>                                             <Text>Statistics</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_STATS</LocID>                                             <Text>Statisztikák</Text></GameDBLocalizedString>
          
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_NORMAL</LocID>                                    <Text>Normal cycle.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_NORMAL_DESCIPTION</LocID>                         <Text>Nothing unusual is happenning on the map today.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_UNITS</LocID>                               <Text>Superhability!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_UNITS_DESCRIPTION</LocID>                   <Text>More units for hire at all bases!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_LESS_UNITS</LocID>                                <Text>Pandemic!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_LESS_UNITS_DESCRIPTION</LocID>                    <Text>Less units for hire at all bases!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_PRODUCTION</LocID>                          <Text>Stellar maximum!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_PRODUCTION_DESCRIPTION</LocID>              <Text>All bases and structures produce more resources!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_REDUCED_PRODUCTION</LocID>                        <Text>Stellar minimum!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_REDUCED_PRODUCTION_DESCRIPTION</LocID>            <Text>All bases and structures produce less resources!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_BAD_VISIBILITY</LocID>                            <Text>Atmosphetic interference!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_BAD_VISIBILITY_DESCRIPTION</LocID>                <Text>All commanders and structures have reduced visibility!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_NORMAL</LocID>                                    <Text>Normál Ciklus.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_NORMAL_DESCIPTION</LocID>                         <Text>Ma semmi szokatlan nem történik a térképen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_UNITS</LocID>                               <Text>Szuperalkalmasság!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_UNITS_DESCRIPTION</LocID>                   <Text>Több Egység bérelhető minden bázison!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_LESS_UNITS</LocID>                                <Text>Pandémia!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_LESS_UNITS_DESCRIPTION</LocID>                    <Text>Kevesebb egység bérelhető minden Bázison!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_PRODUCTION</LocID>                          <Text>Csillagkutatás a Maximumra</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_PRODUCTION_DESCRIPTION</LocID>              <Text>Minden bázis és Építmény több Nyersanyag erőforrást termel!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_REDUCED_PRODUCTION</LocID>                        <Text>Csillagkutatás a Minimumra!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_REDUCED_PRODUCTION_DESCRIPTION</LocID>            <Text>Minden Bázis és Építmény kevesebb Nyersanyag erőforrást termel!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_BAD_VISIBILITY</LocID>                            <Text>Atmoszférikus Kezelőfelület!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_BAD_VISIBILITY_DESCRIPTION</LocID>                <Text>Minden Parancsnoknak és Építménynek csökkentt a látótávolsága!</Text></GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
+
