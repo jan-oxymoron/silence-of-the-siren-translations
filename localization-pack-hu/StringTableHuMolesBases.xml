@@ -1,3 +1,174 @@
+<Database>
+    <GameDBStringTable ID="LOC_HU_MOLES_BASES">
+
+        <LanguageRef>LANG_HU</LanguageRef>
+
+        <Contributors>
+            <Name>Hahakocka</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- For Chris: texts CHECKED in round 0 :) START TODO there are ~10 lines with comments from Urbik (JU) or myself for you to double check -->
+
+            <!--Bases -->
+            <GameDBLocalizedString>         <LocID>BASE_MOLES</LocID>                                                <Text>Földtúró Bázis</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_BASE_CORE</LocID>                                  <Text>Adóhivatal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_BASE_CORE_DESCRIPTION</LocID>                      <Text><![CDATA[Termel<color=SOTS_COLOR_GOLD> 1000 Aura érmét</color> Fázisonként.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE1</LocID>                           <Text>Ellenőr Iroda</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE1_DESCRIPTION</LocID>               <Text><![CDATA[Termel<color=SOTS_COLOR_GOLD> 500</color> további <color=SOTS_COLOR_GOLD>Aura érmét</color> Fázisonként.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE2</LocID>                           <Text>Felügyelő Iroda</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE2_DESCRIPTION</LocID>               <Text><![CDATA[Termel<color=SOTS_COLOR_GOLD> 1000</color> további <color=SOTS_COLOR_GOLD>Aura érmét</color> Fázisonként.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE_MAX</LocID>                        <Text>Főfelügyelő Iroda</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE_MAX_DESCRIPTION</LocID>            <Text><![CDATA[Termel<color=SOTS_COLOR_GOLD> 1000</color> további <color=SOTS_COLOR_GOLD>Aura érmét</color> Fázisonként és tovább növeli az Egységek gyarapodását Ciklusonként.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REPLICATOR</LocID>                                 <Text>Replikátor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REPLICATOR_DESCRIPTION</LocID>                     <Text><![CDATA[Termel <color=SOTS_COLOR_BIOMASS>1 Biomassza </color>and<color=SOTS_COLOR_RADIANT> 1 Radiáns </color>Fázisonként.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_GATEWAY</LocID>                                    <Text>Alagútjárat</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_GATEWAY_DESCRIPTION</LocID>                        <Text>Lehetővé teszi a Parancsnokok számára, hogy azonnal elutazhassanak a Bázisok között.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPACE_BAR</LocID>                                  <Text>Űrbár</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPACE_BAR_DESCRIPTION</LocID>                      <Text>Lehetővé teszi Parancsnokok felvételét.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_MUSIC_HALL</LocID>                                 <Text>Tisztiklub</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_MUSIC_HALL_DESCRIPTION</LocID>                     <Text>További egy Parancsnokot ad választási lehetőségként. Morál bónuszt ad a látogató és helyőrségben lévő Parancsnokoknak.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_VISIBILITY_UPGRADE</LocID>                         <Text>Felszíni Kilátó</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_VISIBILITY_UPGRADE_DESCRIPTION</LocID>             <Text>Növeli a Látótávolságot a Bázis körül. és még nagyobb területen érzékeli a hasznos tárgyakat.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_RECYCLER</LocID>                                   <Text>Újrahasznosító</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_RECYCLER_DESCRIPTION</LocID>                       <Text><![CDATA[Termel <color=SOTS_COLOR_LIMERITE>1 Limeritet</color> és <color=SOTS_COLOR_ALLOYS>1 Fémötvözetet </color>Fázisonként.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACTORY</LocID>                                    <Text>Izzasztóműhely</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACTORY_DESCRIPTION</LocID>                        <Text>Robbanáshullám Ágyúkat épít a hadseregek számára.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_TRADING_POST</LocID>                               <Text>Kereskedelmi Pont</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_TRADING_POST_DESCRIPTION</LocID>                   <Text>Ezzel az épülettel lehet átváltani nyersanyagokat Aura érmékre és fordítva.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_CORE</LocID>                             <Text>Földtúró Erődítmény</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_CORE_DESCRIPTION</LocID>                 <Text>Falakat és egy Kaput ad a bázishoz, 2 emelvényt távolsági egységek számára plusz egy védhelyet.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TOWER</LocID>                            <Text>Védelmi Torony</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TOWER_DESCRIPTION</LocID>                <Text>Erősíti a falak és a kapu erejét, s további két emelvényt távolsági egységek számára és egy további védhelyet.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_MINES</LocID>                            <Text>Aknamező</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_MINES_DESCRIPTION</LocID>                <Text>3 darab Aknát rak le, ostrom során a csatatérre.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TURRET</LocID>                           <Text>Lövegek</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TURRET_DESCRIPTION</LocID>               <Text>2 darab elrejtett Automata lövegtornyot rak le az Ostrom során a csatatérre.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TRENCH</LocID>                           <Text>Árok</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TRENCH_DESCRIPTION</LocID>               <Text>(Az Early Access fejlesztés során kerül bevezetésre.)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_IRON_GATE</LocID>                        <Text>Masszív Betonkapu.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_IRON_GATE_DESCRIPTION</LocID>            <Text>(Az Early Access fejlesztés során kerül bevezetésre.)</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ACADEMY</LocID>                                    <Text>Akadémia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ACADEMY_DESCRIPTION</LocID>                        <Text>Megnyit különféle képességeket, melyeket a bázist meglátogató Parancsnokok megtanulhatnak..</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REMOTE_LEARNING</LocID>                            <Text>Neurolink</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REMOTE_LEARNING_DESCRIPTION</LocID>                <Text>Lehetővé teszi a Parancsnokok számára, hogy a képességeket már távolról is megtanulhassák.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_SPECIALIZATION</LocID>                     <Text>Visszafejtő</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_SPECIALIZATION_DESCRIPTION</LocID>         <Text>Egy darab, a játékos által kiválasztott Képesség adható az Akadémiához, egy adott árért cserébe.</Text></GameDBLocalizedString>
+
+            <!-- Note: these match 4 commander skills, @Chris feel free to skip -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_BIO</LocID>                                <Text>Biológia Szak</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_BIO_DESCRIPTION</LocID>                    <Text>További Biotikus Képességeket ad véletlenszerűen az Akadémiába.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_EXPLORE</LocID>                            <Text>Globális Földrajz Szak</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_EXPLORE_DESCRIPTION</LocID>                <Text>További Világjáró Képességeket ad véletlenszerűen az Akadémiába.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_PSY</LocID>                                <Text>Pszichés Szak</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_PSY_DESCRIPTION</LocID>                    <Text>További Pszichés Képességeket ad véletlenszerűen az Akadémiába.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_TECH</LocID>                               <Text>Technológiai Szak</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_TECH_DESCRIPTION</LocID>                   <Text>További Technológiai Képességeket ad véletlenszerűen az Akadémiába.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1</LocID>                                  <Text>Patkány Munkásszálló</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1_DESCRIPTION</LocID>                      <Text>Bányászpatkányok bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1_UPG</LocID>                              <Text>Patkánynegyed</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1_UPG_DESCRIPTION</LocID>                  <Text>Lövészpatkányok bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2</LocID>                                  <Text>Hentesház</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2_DESCRIPTION</LocID>                      <Text>Husikák bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2_UPG</LocID>                              <Text>Husika Edzőterem</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2_UPG_DESCRIPTION</LocID>                  <Text>Aprító Husikák bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3</LocID>                                  <Text>Kalapácsosok Tornya</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3_DESCRIPTION</LocID>                      <Text>Kalapácsosok bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3_UPG</LocID>                              <Text>Kalapácsosok Erődje</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3_UPG_DESCRIPTION</LocID>                  <Text>Lángkalapácsosok bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4</LocID>                                  <Text>Földrengető Műhely</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4_DESCRIPTION</LocID>                      <Text>Földrengetők bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4_UPG</LocID>                              <Text>Földrengető Gyár</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4_UPG_DESCRIPTION</LocID>                  <Text>Kettős Földrengetők bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_5</LocID>                                  <Text>Féreg Búvóhely</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_5_DESCRIPTION</LocID>                      <Text>Alagútférgek bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_5_UPG</LocID>                              <Text>Féreglyuk</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_5_UPG_DESCRIPTION</LocID>                  <Text>Páncélos Alagútféreg bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_6</LocID>                                  <Text>Kommisszárok Részlege</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_6_DESCRIPTION</LocID>                      <Text>Kommisszár Kadátok bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_6_UPG</LocID>                              <Text>Kommisszárok Hivatala</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_6_UPG_DESCRIPTION</LocID>                  <Text>Kommisszár Tisztek bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7</LocID>                                  <Text>Oszlatógép Hangár</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_DESCRIPTION</LocID>                      <Text>Oszlatógép bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_UPG</LocID>                              <Text>Oszlatógép Szerelősor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_UPG_DESCRIPTION</LocID>                  <Text>Tömegoszlatógép bérelhetők fel itt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_CREATURE_PRODUCTION_UPGRADE_1</LocID>              <Text>Legfőbb Vezér Szobra</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_CREATURE_PRODUCTION_UPGRADE_1_DESCRIPTION</LocID>  <Text>További 4 Kalapácsos bérelhető fel ezáltal, Ciklusonként.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_BASE_CORE_LORE</LocID>                             <Text>Egy jól bevált eszköz a tömeges elnyomáshoz. Az Adóhivatal koszos fülkék homályos labirintusa, tele fáradt, ingerlékeny irodalakókkal, amelyek valószínűleg soha nem látnak napvilágot. </Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited. The neologism Aura (Auras) is a good idea but I would avoid the term in this early stage and use something more general/comprehensive as founds or coins ...  -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE1_LORE</LocID>                      <Text>Növekszik a Bázisod, de az adóelkerülés, a korrupció és a titkos kísérletek is, hogy megdöntsék mindazt, amit felépítettél. Sose félj. Az Ellenőr Iroda bürokratáinak légiója segíthet felkutatni a hiányzó zsákmányt, és tele tarthatja a kasszád.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE2_LORE</LocID>                      <Text>A nagy testvér szúrós szeme mindent lát. Könyörtelenül szemléli az ellenállást akár egy pillantásra is. Amikor a Felügyelő hazaárulókra vadászik, még a legkeményebb ellenszegülők is tudják, hogy távol tartsák a kezüket a sütisüvegből, vagy aláássák a Legfelsőbb Vezető tekintélyét.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE_MAX_LORE</LocID>                   <Text>A Bürokrácia szórakoztató, még akkor is hatékony, ha állandó gyanakvás és kölcsönös ellenőrzés légköre uralkodik. De csak egy egyedülálló tirán, aki szerzetesi életet él a Legfelsőbb Vezető szolgálatában, képes igazi tüzet csepegtetni és az utolsó értéket is kifacsarni a kimerült tömegből.</Text></GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited: One more detail I would like to implement as I read the texts after a while. I would like to emphasize the non-critical consumption of facts by the Fossorian masses... something like "it's magically doubled its output".-->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REPLICATOR_LORE</LocID>                            <Text>Replikátornak nevezték el. Titkát olyan féltékenyen őrzik a kiválasztott beavatottak, hogy a tömegek azt hiszik, varázsütésre megduplázta a teljesítményét. Tudomány, Mr. White! Valójában a növekedése csak illúzió. Ehelyett vékonyra nyújtják és hígítják. Senkit nem érdekel a minőség, ha a számok összeadódnak.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited. When I read the new version "old Fossorian homeworld of Fossoria" the world Fossorian and Fossoria are somehow "too close" in the sentence. Let's end the sentence with "the old Fossorian homeworld." The name Fossoria will be mentioned elsewhere ;-). -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_GATEWAY_LORE</LocID>                               <Text>A földalatti utazás elengedhetetlen a régi Földtúró szülőföldön. A bolygó szennyezett felszíne annyira veszélyes és barátságtalan, hogy egy új alagút építése, amely akár távoli vidékeket is elérhet, mindig kifizetődő.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPACE_BAR_LORE</LocID>                             <Text>Bármelyik olyan szerencsétlen utazó, aki egy Földtúró Űrbárban találja magát, hamar rájön, hogy az ital íze rosszabb, mint az ipari zsíroldó. Ennek ellenére minden Földtúró ivó tudja, hogy a mennyiség mindig felülmúlja a minőséget. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_MUSIC_HALL_LORE</LocID>                            <Text>A Tiszti Klub határozottan előrelépés. Idegenek, kereskedők és mindenféle kalandor, akik elég bátrak ahhoz, hogy önként belépjenek egy Földtúró Bázisra, valószínűleg elragadtatják magukat a gondolattól, hogy "katonai tanácsadókká" váljanak.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited. "are novel but alien concepts." alien is too strong here. Let's end the sentence with "are novel concepts." Sounds more like the concept is new but they are adopting the ideas to overcome the disadvantage of the new environment. -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_VISIBILITY_UPGRADE_LORE</LocID>                    <Text>A Régi Földtúró fő területe felszíne húsdaráló viharok által sújtott pusztaság. Évszázados felszín alatti konfliktusok után a lakható felső tér és a nagy távolságok látásának szükségessége újszerű fogalom. Mégis, egyszer építsünk felfelé!</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited: I do believe that the part about the seal pups would make the text punchier if we move it back to the end of the text. Also, I would choose a more strait forward/brutal sentence. "No matter how many seal pups will perish." or a softer alternative "perishing seal pups is the last thing on their minds." -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_RECYCLER_LORE</LocID>                              <Text>Tévedés ne essék, a Föltúró újrahasznosításnak semmi köze a környezet kíméléséhez. Csupán anyagot akarnak visszaszerezni, hogy még borzalmasabb pusztítófegyvereket gyárthassanak, függetlenül attól, hogy hány fókakölyök fog elpusztulni.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited: "focuses exclusively on Force Shields" is not entirely what I meant... The sweatshop is a prerequisite for other buildings in the base (Production of Earthshaker Unit, a vehicle able to deploy underground torpedoes, overseers office)... the main benefit for the player though is shield generator production, so emphasis on put that but it is not the sole purpose. -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACTORY_LORE</LocID>                               <Text>Az Izzasztóműhely egykor békeidőbéli-gépeket gyártott, de most a katonai alkalmazásokra összpontosít, különösen a Erőpajzsokra. A gyarmatosítás korai napjai másként telhettek volna, ha rendelkeztek volna e pajzstechnológiával. Nos, most megteszik.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_TRADING_POST_LORE</LocID>                          <Text>Az egyszerű állampolgárok számára tilos hozzáférni a szélesebb piachoz. Nem szükséges. A Bázis minden szükségletet és luxuscikket gyárt, amire csak vágynak. Üres polcok? Semmi gond! Holnap pótolják. Vagy másnap biztosan. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_CORE_LORE</LocID>                        <Text>Óriási erőd 5 méter vastag limerittel megerősített falakkal. Zsúfolásig tele van bunkerekkel és divatos stratégiai tárgyalótermekkel. A toborzási ütemtervektől kezdve a harci lapátméretekig minden háborús erőfeszítéssel kapcsolatos döntés itt születik meg.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited. Let's divide the sentence more into two parts. The part about defense the building provides to the base and the part describing the roots of the revolution. "Additional defenses for the base and more..."  -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TOWER_LORE</LocID>                       <Text>További védelem a Bázisnak és több hely a kiábrándult, alacsony beosztású tiszteknek. Néhány minimális lény kényelmét meg kell akadályozniuk abban, hogy egy újabb forradalmat robbantsanak ki, mint amilyenet korábban a Földtúrók a szülővilágukból a Sziréna-galaxisrendszerbe hoztak.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_MINES_LORE</LocID>                       <Text>Az embereknek van egy mondása: "Ahová egy Földtúró lába lép, a fű soha többé nem nő. Kivéve azokat a foltokat, ahol a taposóaknák rejtőztek." Annak ellenére, hogy mindkét faj egyetlen naprendszerben élt, ez valójában nagyon pontos.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ACADEMY_LORE</LocID>                               <Text>A Legfelsőbb Vezető egyszer azt mondta: "Nincs szükség tudományra, ha az nem járul hozzá a háborús erőfeszítésekhez". Tehát minden tudományos törekvésnek katonai alkalmazásra van szüksége. Bármilyen homályos is. Savat spriccelő karóra? Azonnali jóváhagyás. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REMOTE_LEARNING_LORE</LocID>                       <Text>A gerincvelőbe beültetett Neurolink elég stabil egyirányú kapcsolatot biztosít. (Még a Sziréna-galaxisrendszer zavarókkal teli telekommunikációs rémálmában is.)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_SPECIALIZATION_LORE</LocID>                <Text>Minden hódítás során sok minden gazdát cserél. Néha ezek a dolgok emberek. A rendkívül intelligens emberek egy Földtúró kutatóintézetben találhatnak otthonra tudásuk összeségéért cserébe.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Question: Chris, I would like to ask which one is more appropriate, sounds better in your opinion. High Party members or Inner Party members? I associate the High Party with more modern politics but the Inner Party is much more Orwellian.  -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_EXPLORE_LORE</LocID>                       <Text>A belső párttagok kiváltságos gyermekei megalapították a Felfedezők és Kalandozók Klubját. A tagok többsége teljesen haszontalan, de van néhány kiválasztott tapasztalt utazó, aki képes megtanítani egy-két hasznos trükköt az újonnan érkezőknek.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: A new suggested version, we know it needs editing :) -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_TECH_LORE</LocID>                          <Text>A Földtúró ősvilág annyira lakhatatlan, hogy azt hihetnénk, természeti kataklizmát szenvedett el. Valóban volt apokalipszis, de a természetes okokat kizárhatjuk. (Hacsak nem természetes okként számoljuk fel a Földtúrók létét, – akik a valaha volt legtöbb bevetett világvége-eszköz, 'ígéretes' címét viselik.)</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!--  JU: Edited. I would like to return to the original phrasing "A broad face with **heavy** black whiskers and ruggedly..." as it's a direct reference for my great inspiration, Orwels 1984: "the face of a man of about forty-five, with a heavy black moustache and ruggedly handsome features" -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_CREATURE_PRODUCTION_UPGRADE_1_LORE</LocID>         <Text>Széles arc, nehéz, fekete bajusszal és masszívan jóképű arcvonásokkal. Mindenki ismeri, félti és szereti a Legfelsőbb Vezetőt. Megnyugtató vonásai azt mondják az egész bázisnak, hogy minden a tervek szerint halad.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1_LORE</LocID>                             <Text>A Földtúró társadalom legalsó fokának szülőhelye. Senkit nem érdekel, mi történik ebben a nyomornegyedben, amely tele van esztelen, mocskos szörnyek keresztezésével. Csak a friss hadkötelesek szüntelen áradata számít.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1_UPG_LORE</LocID>                         <Text>A kibővített nyomornegyedek szabályozatlan, erőszakkal teli üregek, ahol bandák küzdenek a stratégiai jelentőségű kerületek ellenőrzéséért. Az embernek csak annyi harci képzésre van szüksége, hogy túlélje a zord körülményeket.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2_LORE</LocID>                             <Text>Az agyuk biztosan összezsugorodott, hogy elférjen az izmaik, mert ezeknek a buta állatoknak alig van szükségük négy csupasz falnál. Egy alvóhely, egy kis vas a pumpáláshoz, és hatalmas mennyiségű fehérjedús étel, és olyan boldogok, mint egy disznó a szarban. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2_UPG_LORE</LocID>                         <Text>Még a leghülyébb párttagok is kinevették azt a gondolatot, hogy az agyatlan Husikák vigyázhatnak az új high-tech felszerelésükre és fegyvereikre. Tehát minden harcban részt vevő Husika után egy egész gödör legénység gondoskodik.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3_LORE</LocID>                             <Text>A hűséges kalapácsok a Legfelsőbb Vezető öklének kiterjesztései, különösen, ha a felkelések leveréséről van szó. Nem meglepő, hogy laktanyájuk olyan erődítmény, amely képes ellenállni az egész városi milícia ostromának.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JB: still original text -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3_UPG_LORE</LocID>                         <Text>Egy tapasztalt bázisparancsnok tudja, hogy a Kalapácsosok híres hűsége nem olyan megalkuvást nem ismerő, mint a propaganda állítja. A régi Földtúró Birodalomban a Kalapácsos hadurak létfontosságú szerepet játszottak minden valaha elkövetett sikeres puccsban.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- Chris: Not sure about middle sentence meaning here; JB: recombined all versions -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4_LORE</LocID>                             <Text>Mélyen a Földtúró területeken található kolóniákon, ahol a biztonság nem olyan sürgős, a hasonló műhelyek hasonló, de meglehetősen jóindulatú gépeket állítanak elő. Valakit valószínűleg előléptettek – vagy lelőttek az újratervezés miatt.</Text>  </GameDBLocalizedString>
+
+            <!-- For Chris: texts CHECKED in round 0 :) END -->
+
+
+            <!-- For Chris: feel free to skip -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_BIO_LORE</LocID>        <!--NOT IN DEMO--> <Text>Egy repedt akvárium idegen húsevő gombát tartalmaz? A folyosó közepén hever egy félig üres tartály mutagén gázzal? Mindig csak egy lépésre van egy katasztrofális elszigetelési hiba. Semmi új a biológia laboratóriumok számára, az Univerzum véget ért.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_PSY_LORE</LocID>        <!--NOT IN DEMO--> <Text>Pszichotronika. A komoly tudósok általában nevetségessé teszik a témát. A Primals technológiája azonban túl gyakran lépi túl a lehetséges határokat. A tudomány csúnya kiskacsájából csinos csaj lett és mindenki szeretne magának egy darabot.   </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_IRON_GATE_LORE</LocID><!--NOT IN DEMO--> <Text>Minden fal kettős célú. Állítsd meg a potenciális behatolókat, és akadályozd meg, hogy a polgárok ellenőrizetlenül távozzanak. (Vagy egyáltalán távozzanak.) Egy szorosan húzódó limeritbeton védőszalag.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TRENCH_LORE</LocID>   <!--NOT IN DEMO--> <Text>Ha valamiben jók a Földtúrók, az az ásás. Csodálatos ötletnek tűnik, hogy az egészet tüskékre szerelt fejekkel fűszerezzük. Szórj meg néhány holttestet a lövészárkokban, hab a tortán. Voilá egy remekmű. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TURRET_LORE</LocID>   <!--NOT IN DEMO--> <Text>A technológiát „felszabadították” az UNSS raktáraiból. Hátránya, hogy a felismerő szoftver újrakalibrálása egy hajónyi tesztalany életébe került. S a jó oldala az egésznek? A tesztalanyok megújuló erőforrásokká váltak.</Text>  </GameDBLocalizedString>
 
 
             <!-- For Chris: texts ready for proofreading START -->
