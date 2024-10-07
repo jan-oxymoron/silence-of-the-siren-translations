@@ -1,0 +1,94 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_UK_CRUSADERS">
+
+        <LanguageRef>LANG_UK</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+            <GameDBLocalizedString>         <LocID>FACTION_CRUSADERS</LocID>                    <Text>Children of the Source</Text></GameDBLocalizedString>
+
+            <!--Unit names-->
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_MECHANIC</LocID>              <Text>Custodian Novice</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_MECHANIC_UPG</LocID>          <Text>Custodian Cleric</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CRUSADER</LocID>              <Text>Temple Guard</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CRUSADER_UPG</LocID>          <Text>Templar Warrior</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_LASER_CANNON</LocID>          <Text>The Bright One</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_LASER_CANNON_UPG</LocID>      <Text>The Blazing One</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_KNIGHT</LocID>                <Text>Knight</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_KNIGHT_UPG</LocID>            <Text>Knight Champion</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_UNIVERSAL</LocID>             <Text>Zieregal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_UNIVERSAL_UPG</LocID>         <Text>High Zieregal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CENTIPEDE</LocID>             <Text>Spitfire</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CENTIPEDE_UPG</LocID>         <Text>Spitfire Zealot</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_ANGEL</LocID>                 <Text>Acheron</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_ANGEL_UPG</LocID>             <Text>Blessed Acheron</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_WAR_MACHINE_SHIELD_BLOCK_UNITS</LocID>                 <Text>Intruder shield</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_WAR_MACHINE_SHIELD_BLOCK_UNITS_DESCRIPTION</LocID>     <Text><![CDATA[Generates a barrier that blocks enemy units.]]></Text></GameDBLocalizedString>
+
+            <!--Unit description-->
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_MECHANIC_DESCRIPTION</LocID>              <Text>Their original role was cleaning and maintenance. Despite this, they developed quite a feisty nature. Still, do not overstretch them. They are essentially just glorified floor sweepers, and if you throw them on the front line, you'll be mopping the Big Allmother's temple floor by yourself.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_MECHANIC_UPG_DESCRIPTION</LocID>          <Text>The Custodian Clerics could also heal organics, but I would rather wait for a proper medic. Don't get me wrong. They don't lack enthusiasm! It's just that they'd sooner weld than stitch.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CRUSADER_DESCRIPTION</LocID>              <Text>They gently guide you back if you step across a red velvet rope. If you take a picture in a no-photo zone, they kindly ask you to delete it. But if you tell a friend a joke about Allmother? They'll, with the utmost courtesy, rip your damn heretic heart out.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CRUSADER_UPG_DESCRIPTION</LocID>          <Text>Some ancient murals that adorn derelict, orbiting ships depict them side by side with similar beings, along with glyphs for water and fragility. Perhaps it is linked to a forgotten biological history buried under a millennium of contradictory church rhetoric. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_LASER_CANNON_DESCRIPTION</LocID>          <Text>The first of the xenomorphic species. They raise questions about the very origin of the Children of the Source. By morphology, they are clearly not a part of an origin species, and some scientists speculate that they were "assimilated" in some distant conquest. Of course, any such speculation is blasphemy.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_LASER_CANNON_UPG_DESCRIPTION</LocID>      <Text>The absence of verbal communication, personality, or even higher intelligence is not considered a problem by the church. The Blazing Ones can execute simple orders, recognize foes in combat, and ask no questions. In short, the ideal followers. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_KNIGHT_DESCRIPTION</LocID>                <Text>The Children of the Source are known for their peculiar rules on determining sentience. So, if you see a knight loudly challenging an enemy tank to an honorable duel, don't consider them dimwitted. It's just next-level dogmatism.</Text></GameDBLocalizedString> <!-- TODO creed obedience? Cavalry? Religious ...?-->
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_KNIGHT_UPG_DESCRIPTION</LocID>            <Text>Some of the clergy proclaim that the Siren System is a sort of purgatory and that all the scum in the universe is brought there by the Allmother to be cleansed by the order. And all that cleaning can get pretty dirty. Luckily, the knights are made of a stain-resistant alloy.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_UNIVERSAL_DESCRIPTION</LocID>             <Text>These high-ranking members of The Children of the Source are often entrusted with delicate church affairs. If the order ever decides you should be extinguished, it's them you find sitting on your couch in the middle of the night.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_UNIVERSAL_UPG_DESCRIPTION</LocID>         <Text>The Ziergals always wear a very friendly mask outside of the temple walls. Their web of contacts catches all secrets scurrying in the shadows. Not all fights are won by force. Not all heroes rise to claim the spotlight.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CENTIPEDE_DESCRIPTION</LocID>             <Text>Worshiping the Allmother's fire aspect borders the very edge of heresy. But no council dares stand against the Spitfire cult. The fire-wielding zealots are too valuable as allies and, more importantly, too dangerous as adversaries.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CENTIPEDE_UPG_DESCRIPTION</LocID>         <Text>At the war council, moments before the Holy War's start, the Spitfire cult hierarch proclaimed, "Burn them all now, and let the Allmother sift through the ashes later!" Centuries have passed, but the quote still burns bright in the spitfires' hearts. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_ANGEL_DESCRIPTION</LocID>                 <Text>Since the time of the Holy War, custodians have recorded the names of every fallen Acheron on the walls of the Great Allmother's Temple. After centuries, the intriguing mosaic of small engraved plates covers nearly every square inch of the walls. Once the last Acheron falls, the great work of art shall be complete. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_ANGEL_UPG_DESCRIPTION</LocID>             <Text>The Acherons' blessing is a curse in disguise. Reactor pulse, so efficient in combat, corrupts the mind core of the Acherons. Every time it's unleashed, it takes its toll. They descend deeper into the cold, uncaring ocean of tranquility with every use. </Text></GameDBLocalizedString>
+
+            <!--Unit abilities-->
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_LASER_CANNON_SPECIAL</LocID>             <Text>The cannon transforms into a turret. It hits all enemies moving into range (4 hexes around) with 50% of its original damage.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_UNIVERSAL_SPECIAL</LocID>                <Text>Creates a clone of themselves.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_ANGEL_SPECIAL</LocID>                    <Text>Creates an epic wave of energy, hitting all enemies.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_MECHANIC_PASSIVE_INFO_DESCRIPTION</LocID>        <Text>At the end of their turn, heals and replenishes units in nearby friendly stacks.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CRUSADER_PASSIVE_INFO_DESCRIPTION</LocID>        <Text>Can fly over obstacles.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CRUSADER_UPG_PASSIVE_INFO_DESCRIPTION</LocID>    <Text>Can fly over obstacles. Has limitless counter attacks.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_LASSE_CANNON_PASSIVE_INFO_DESCRIPTION</LocID>    <Text>Shots are always precise.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_KNIGHT_PASSIVE_INFO_DESCRIPTION</LocID>          <Text>Can attack up to 3 enemies standing next to each other.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_KNIGHT_UPG_PASSIVE_INFO_DESCRIPTION</LocID>      <Text>Can attack up to 3 adjacent enemies at once. 30% chance to cast Surface overcharge on themselves at the start of their turn.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_UNIVERSAL_PASSIVE_INFO_DESCRIPTION</LocID>       <Text>Can shoot, but must reload the next turn.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CENTIPEDE_PASSIVE_INFO_DESCRIPTION</LocID>       <Text>Can move and shoot with limited range causing burning damage. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_CENTIPEDE_UPG_PASSIVE_INFO_DESCRIPTION</LocID>   <Text>Can move and shoot with limited range causing burning and corrosive damage.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRUSADERS_ANGEL_PASSIVE_INFO_DESCRIPTION</LocID>           <Text>Can fly over obstacles. Can attack up to 3 enemies standing next to each other.</Text>  </GameDBLocalizedString>
+
+            <!--Hero names-->
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_1</LocID>     <Text>Roalan "The Oathbreaker"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_2</LocID>     <Text>Balinor "The Outcast"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_3</LocID>     <Text>Godray "The Warmonger"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_4</LocID>     <Text>Morehat "The Inflamator"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_5</LocID>     <Text>Cloki "The Advisor"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_6</LocID>     <Text>Rishard "The Adventurer"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_7</LocID>     <Text>Galwain "The Lorekeeper"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_8</LocID>     <Text>Igdraine "The Sailor"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_9</LocID>     <Text>Hierarch</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_10</LocID>    <Text>Keeper</Text>  </GameDBLocalizedString>   
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_11</LocID>    <Text>Tirstin "The Scholar" </Text>  </GameDBLocalizedString>   
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_12</LocID>    <Text>Artar "The Swordmaster"</Text>  </GameDBLocalizedString>  
+
+            <!--Hero description-->
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_1_DESCRIPTION</LocID>                 <Text>One day Roalan's unit wandered deep into Tumori territory. Nobody knows what horrors a knight must see to reject their oaths and become a dishonored mercenary, and Roalan is silent on the matter. (Though the enemy blow that tore off his lower jaw might have had something to do with that.) </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_2_DESCRIPTION</LocID>                 <Text>As an inquisitor, Balinor's duty was to judge the nature of confiscated Primal artifacts. Legend says that the cursed artifact reprogrammed Balinor's mind core, and he became one of the heretics he had sworn to destroy. Outcast from the order, he joined a bunch of sellswords. He's lived the life of a wanderer without purpose, a sense of loyalty or faith ever since. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_3_DESCRIPTION</LocID>                 <Text>During the holy war, Godray was renowned for his unquenchable bloodlust. Although never convicted of violating the code, other knights openly despised him. \n \n Centuries have passed, and the world has changed. Godray can once again satisfy his thirst for blood in the service of whoever gives him another battlefield. Without The Order holding him back, Godray has become a monster. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_4_DESCRIPTION</LocID>                 <Text>Nobody expects an inquisitor to be kind, compassionate, or open-minded. And Morehad is definitely none of those. He eats heretics for breakfast, and considers the day wasted if he does not burn at least three before noon. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_5_DESCRIPTION</LocID>                 <Text>Techo-clergy is the most popular branch of the church, and Cloki is a prime example of their kind. He's curious, sociable, and loves to talk. If it weren't for the Inquisition, he would have spilled the beans on all the Children of the Source's secrets by now. Even under threat of torture, he struggles to keep a lid on things.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_6_DESCRIPTION</LocID>                 <Text>Disciplined, focused, and formidable. All the things you'd expect from a knight and none of the things that describe Rishard. In formation is the last place you'd find him. Instead, he wanders all over the battlefield. One moment, he's fighting Tumori shamans in the thick of it; the next, he disassembling an ancient Primal warmachine halfway across the battlefield.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_7_DESCRIPTION</LocID>                 <Text>At first glance, Galwain is a respected, measured, meticulous academic who's probably never left the ivory halls of Temple City. But that boy's been around. He's widely considered the greatest field expert on Primal technology, and there isn't a dig site anywhere that he couldn't school you on. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_8_DESCRIPTION</LocID>                 <Text>Energy fields are unstable and unpredictable places. Only a handful of freaks are willing to risk a vessel riding their treacherous waves, and Igdraine is one of them. Looking to explore uncharted, isolated islands in unknown energy fields? Igdraine is your guide. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_9_DESCRIPTION</LocID>                 <Text>A fanatic, an unredeemable idiot, and the greatest warrior the Children have ever had. He's a type that sleeps through all of the war council, wakes up near the end, sweeps the maps from the table, points to the weakest point in the enemy line, and roars "The last of us alive is a coward, attack!". </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_11_DESCRIPTION</LocID>                <Text>Both hated and adored, the youngest and most progressive of the three high priests was elected right after the loss of the last crusade. He and his exceptional intellect alone are responsible for the series of changes that opened the church to newcomers. As long he lives, the order has a chance for tomorrow.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_12_DESCRIPTION</LocID>                <Text>Widely considered the best cold weapon combatant in the entire Siren System. Sadly, his extraordinary fighting skills are the only virtue he can be proud of and especially his verbosity has put him in front of the Zieregals more times than he can count. Which sadly means, literally, five times. </Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

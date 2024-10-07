@@ -1,0 +1,274 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_UK_EXPLORATION_MAP_OBJECTS">
+
+        <LanguageRef>LANG_UK</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BIOFARM_01</LocID>                                          <Text>Bio Farm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BIOFARM_01_DESCRIPTION</LocID>                              <Text><![CDATA[Produces <color=SOTS_COLOR_BIOMASS>1</color> (<color=SOTS_COLOR_BIOMASS>2</color> when upgraded) <color=SOTS_COLOR_BIOMASS>Biomass</color> per phase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_FIBERALLOYMILL_LVL1</LocID>                                 <Text>Alloy Mill</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_FIBERALLOYMILL_LVL1_DESCRIPTION</LocID>                     <Text><![CDATA[Produces <color=SOTS_COLOR_ALLOYS>1</color> (<color=SOTS_COLOR_ALLOYS>2</color> when upgraded) <color=SOTS_COLOR_ALLOYS>Alloy</color> per phase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_LIMERITMINE_LVL1</LocID>                                    <Text>Limerite Quarry</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_LIMERITMINE_LVL1_DESCRIPTION</LocID>                        <Text><![CDATA[Produces <color=SOTS_COLOR_LIMERITE>1</color> (<color=SOTS_COLOR_LIMERITE>2</color> when upgraded) <color=SOTS_COLOR_LIMERITE>Limerite</color> per phase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_NANO_COMPOUND_MINE</LocID>                                  <Text>Radiant Collider</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_NANO_COMPOUND_MINE_DESCRIPTION</LocID>                      <Text><![CDATA[Produces <color=SOTS_COLOR_RADIANT>1</color> (<color=SOTS_COLOR_RADIANT>2</color> when upgraded) <color=SOTS_COLOR_RADIANT>Radiants</color> per phase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GOLD_MINE</LocID>                                           <Text>Smelting Operation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GOLD_MINE_DESCRIPTION</LocID>                               <Text><![CDATA[Produces <color=SOTS_COLOR_GOLD>500</color> (<color=SOTS_COLOR_GOLD>1000</color> when upgraded) <color=SOTS_COLOR_GOLD>Aura Coins</color> each turn.]]></Text>  </GameDBLocalizedString>
+                                                                                                                      
+            <GameDBLocalizedString>         <LocID>MAPOBJ_WATCHTOWER_01</LocID>                                       <Text>Watch Tower</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_WATCHTOWER_01_DESCRIPTION</LocID>                           <Text>Immediately reveals the surrounding area and keeps it watched.</Text>  </GameDBLocalizedString>
+                                                                                                                      
+            <GameDBLocalizedString>         <LocID>MAPOBJ_AURA_COIN_STORAGE</LocID>                                   <Text>Aura Coin Storage</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_AURA_COIN_STORAGE_DESCRIPTION</LocID>                       <Text><![CDATA[Gives a visiting commander <color=SOTS_COLOR_GOLD>1000 Aura Coins</color> once per cycle.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SMUGGLERS_DEN</LocID>                                       <Text>Smugglers Den</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SMUGGLERS_DEN_DESCRIPTION</LocID>                           <Text><![CDATA[A visiting commander will receive a <color=SOTS_COLOR_GOLD>random reward</color>. Can be used once per cycle. <color=SOTS_COLOR_ATTACK>Attacking</color> gives you a <color=SOTS_COLOR_GOLD>bigger reward</color>, but will <color=SOTS_COLOR_GOLD>disable</color> the den for <color=SOTS_COLOR_GOLD>3 cycles</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SLAVECAMP</LocID>                                           <Text>Slave Camp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SLAVECAMP_DESCRIPTION</LocID>                               <Text><![CDATA[Heavily guarded by Mole units to protect their merchandise. Anyone <color=SOTS_COLOR_GOLD>can buy</color> what they see. What's on offer changes every phase, so do not hesitate if you see something you fancy. <color=SOTS_COLOR_ATTACK>Attacking</color> gives commanders <color=SOTS_COLOR_GOLD>more free enslaved units</color>, but will <color=SOTS_COLOR_GOLD>disable</color> the camp for <color=SOTS_COLOR_GOLD>3 cycles</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DOJO</LocID>                                                <Text>Swordsman's Sanctuary</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DOJO_DESCRIPTION</LocID>                                    <Text><![CDATA[A mojo restoring Dojo where commanders earn <color=SOTS_COLOR_XP>2000 experience points</color>. Each commander can use this building only once.]]></Text>  </GameDBLocalizedString> <!--Mojo restoring Dojo, that leads to -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BROTHEL</LocID>                                             <Text>Bored? Hello!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BROTHEL_DESCRIPTION</LocID>                                 <Text><![CDATA[This house of ill repute is well respected throughout the ranks and raises <color=SOTS_COLOR_GOLD>morale by 20</color> for one cycle. Each commander can use this building once per cycle.]]></Text>  </GameDBLocalizedString> <!--TODO put bac once brothel is fixed Each commander can use this building once per cycle.-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TOMB_OF_SWORDMASTER</LocID>                                 <Text>Tomb of a Swordmaster</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TOMB_OF_SWORDMASTER_DESCRIPTION</LocID>                     <Text><![CDATA[Learning from a stick-wielding master, a commander's <color=SOTS_COLOR_ATTACK>combat power permanently increases by 2</color>. Each commander can only train here once.]]></Text>  </GameDBLocalizedString>
+                                                                                                                      
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ENERGYNODE_SMALL</LocID>                                    <Text>Energy Node</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ENERGYNODE_SMALL_DESCRIPTION</LocID>                        <Text><![CDATA[Fully <color=SOTS_COLOR_GOLD>replenishes</color> a commander's <color=SOTS_COLOR_ENERGY>energy points pool</color> once per cycle. (First come, first serve.)]]></Text>  </GameDBLocalizedString>
+                                                                                                                      
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_SKILL_ACADEMY</LocID>                           <Text>Skill Academy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_SKILL_ACADEMY_DESCRIPTION</LocID>               <Text>Visiting commanders can learn any skill. Can be used once per commander.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_TECH_ABILITY_ACADEMY</LocID>                    <Text>Techie Academy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_TECH_ABILITY_ACADEMY_DESCRIPTION</LocID>        <Text><![CDATA[Visiting commanders can learn <color=SOTS_COLOR_GOLD>any Tech Ability</color>.. Can be used <color=SOTS_COLOR_GOLD>once per commander</color>.]]></Text>  </GameDBLocalizedString>
+           
+            <!-- Map objects - upgrades  DEMO revision -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINE_A_PRODUCTION_UPGRADE</LocID>                           <Text><![CDATA[+1 <color=SOTS_COLOR_LIMERITE>Limerite</color> produced each turn.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINE_B_PRODUCTION_UPGRADE</LocID>                           <Text><![CDATA[+1 <color=SOTS_COLOR_ALLOYS>Alloy</color> produced each turn.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINE_C_PRODUCTION_UPGRADE</LocID>                           <Text><![CDATA[+1 <color=SOTS_COLOR_BIOMASS>Biomass</color> produced each turn.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINE_D_PRODUCTION_UPGRADE</LocID>                           <Text><![CDATA[+1 <color=SOTS_COLOR_RADIANT>Radiant</color> produced each turn.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINE_CASH_PRODUCTION_UPGRADE</LocID>                        <Text><![CDATA[+500 <color=SOTS_COLOR_GOLD>Aura Coins</color> produced each turn.]]></Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <GameDBLocalizedString>         <LocID>MAPOBJ_WATCHTOWER_VISIBILITY_UPGRADE</LocID>                       <Text>Increases your visibility radius and provides extra info about enemies in range.</Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <!-- Map objects - TREASURES  DEMO  revision -->                                                         
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CHEST</LocID>                                               <Text>Container</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CHEST_DESCRIPTION</LocID>                                   <Text><![CDATA[Contains a <color=SOTS_COLOR_GOLD>Data Fragment</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CHEST_ITEM</LocID>                                          <Text>Cache</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CHEST_ITEM_DESCRIPTION</LocID>                              <Text><![CDATA[Contains a mysterious <color=SOTS_COLOR_GOLD>Item</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CHEST_RESOURCES</LocID>                                     <Text>Repository</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CHEST_RESOURCES_DESCRIPTION</LocID>                         <Text><![CDATA[Contains a hefty amount of <color=SOTS_COLOR_GOLD>Resources</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_RESOURCE_A</LocID>                                          <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Limerite</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_RESOURCE_A_DESCRIPTION</LocID>                              <Text><![CDATA[A small amount of <color=SOTS_COLOR_LIMERITE>Limerite</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_RESOURCE_B</LocID>                                          <Text><![CDATA[<color=SOTS_COLOR_ALLOYS>Alloy</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_RESOURCE_B_DESCRIPTION</LocID>                              <Text><![CDATA[A small amount of <color=SOTS_COLOR_ALLOYS>Alloy</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_RESOURCE_C</LocID>                                          <Text><![CDATA[<color=SOTS_COLOR_BIOMASS>Biomass</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_RESOURCE_C_DESCRIPTION</LocID>                              <Text><![CDATA[A small amount of <color=SOTS_COLOR_BIOMASS>Biomass</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_RESOURCE_D</LocID>                                          <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Radiant</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_RESOURCE_D_DESCRIPTION</LocID>                              <Text><![CDATA[A small amount of <color=SOTS_COLOR_RADIANT>Radiant</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CASH</LocID>                                                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Aura Coins</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CASH_DESCRIPTION</LocID>                                    <Text><![CDATA[A small amount of <color=SOTS_COLOR_GOLD>Aura Coins</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_RESOURCE_FUSION_CORE</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Fusion Core</color>]]></Text>  </GameDBLocalizedString>
+
+            <!-- For Chris: texts ready for proofreading 2024-01 START -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SHUTTLE_WRECKAGE</LocID>                                    <Text>Shuttle Wreckage</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SHUTTLE_WRECKAGE_DESCRIPTION</LocID>                        <Text><![CDATA[Visiting Commander gains <color=SOTS_COLOR_XP>200 Experience Points (XP)</color>, <color=SOTS_COLOR_GOLD>200 Aura Coins</color> and <color=SOTS_COLOR_GOLD>2 consumables</color>. But also has <color=SOTS_COLOR_GOLD>50% chance</color> of gaining a random <color=SOTS_COLOR_RED>Debuff</color>.]]></Text>  </GameDBLocalizedString>
+
+            <!--Text updated 27.02 after reward update-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BEAST_NEST</LocID>                                          <Text>Beast Nest</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BEAST_NEST_DESCRIPTION</LocID>                              <Text><![CDATA[As the name suggests, it is a place filled with <color=SOTS_COLOR_GOLD>beasts of an unknown type</color>. <color=SOTS_COLOR_GOLD>More</color> are drawn in <color=SOTS_COLOR_GOLD>each cycle</color>, so <color=SOTS_COLOR_RED>attacking sooner</color> than later is a <color=SOTS_COLOR_GOLD>better option</color>. Defeating them won't be easy, but it can give you a random <color=SOTS_COLOR_GOLD>Artifact</color> or <color=SOTS_COLOR_GOLD>Equipment with some resources</color> or <color=SOTS_COLOR_FUSION_CORE>Fusion core</color> reward.]]></Text>  </GameDBLocalizedString>
+
+            <!-- Related to: Biotic skill of commanders -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_BIO_ABILITY_ACADEMY</LocID>                     <Text>Biotic Academy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_BIO_ABILITY_ACADEMY_DESCRIPTION</LocID>         <Text><![CDATA[Visiting commander can learn <color=SOTS_COLOR_GOLD>any Bio Ability</color>. Can be used <color=SOTS_COLOR_GOLD>once per commander</color>.]]></Text>  </GameDBLocalizedString>
+
+            <!-- Related to: Globetrotter skill of commanders -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_EXPLO_ABILITY_ACADEMY</LocID>                   <Text>Globetrotter Academy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_EXPLO_ABILITY_ACADEMY_DESCRIPTION</LocID>       <Text><![CDATA[Visiting commander can learn <color=SOTS_COLOR_GOLD>any Exploration Ability</color>. Can be used <color=SOTS_COLOR_GOLD>once per commander</color>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BOOT_CAMP</LocID>                                           <Text>Boot Camp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BOOT_CAMP_DESCRIPTION</LocID>                               <Text><![CDATA[No sweat, no upgraded units. This is a place where a commander <color=SOTS_COLOR_GOLD>can</color> either <color=SOTS_COLOR_GOLD>upgrade units</color>(for the price they can in bases) or <color=SOTS_COLOR_UPGRADE>push units to upgrade for "free"</color>, but will <color=SOTS_COLOR_RED>lose 10%</color> of their units. (<color=SOTS_COLOR_RED>Always 1 unit</color> for small stack numbers).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BOOT_CAMP_UPGRADE_TEXT</LocID>                         <Text><![CDATA[Press the <color=SOTS_COLOR_GOLD>left</color> button (above unit) to <color=SOTS_COLOR_GOLD>upgrade</color> it or press the <color=SOTS_COLOR_UPGRADE>right</color> button (above unit) to <color=SOTS_COLOR_UPGRADE>"push"</color> the them.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BOOT_CAMP_NO_UPGRADE_TEXT</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_GOLD>No</color> unit can be <color=SOTS_COLOR_GOLD>upgraded</color> or <color=SOTS_COLOR_GOLD>trained</color>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MARKET</LocID>                                              <Text>Black Market</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MARKET_DESCRIPTION</LocID>                                  <Text><![CDATA[Place to <color=SOTS_COLOR_GOLD>trade resources</color> with the <color=SOTS_COLOR_GOLD>best conversion</color> ratio and <color=SOTS_COLOR_UPGRADE>sell</color> unwanted <color=SOTS_COLOR_UPGRADE>equipment</color> or <color=SOTS_COLOR_UPGRADE>consumables</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_MARKET_TEXT</LocID>                                    <Text><![CDATA[Come in and let's <color=SOTS_COLOR_GOLD>trade</color> or <color=SOTS_COLOR_UPGRADE>sell</color>! We have the best prices around. Just don't go looking anywhere else.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_ITEM_STORE</LocID>                                         <Text>Item Store</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_MARKET_NOTHING_TO_SELL</LocID>                         <Text>The commander has nothing to sell.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_MARKET_NOTHING_TO_BUY</LocID>                          <Text>Nothing to buy.</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TRAINING_GROUND</LocID>                                     <Text>Warrior Monk Temple</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TRAINING_GROUND_DESCRIPTION</LocID>                         <Text><![CDATA[Place to <color=SOTS_COLOR_GOLD>hone</color> your <color=SOTS_COLOR_GOLD>battle skills</color>. You can <color=SOTS_COLOR_UPGRADE>fight without losing your units</color> and get the added bonus of <color=SOTS_COLOR_UPGRADE>gaining</color> some <color=SOTS_COLOR_XP>Experience points</color>. Each commander can use this building once per cycle.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BATTLE_ARENA</LocID>                                        <Text>Battle Arena</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BATTLE_ARENA_DESCRIPTION</LocID>                            <Text><![CDATA[Place to <color=SOTS_COLOR_GOLD>put</color> your <color=SOTS_COLOR_GOLD>battle skills</color> to the test. You will <color=SOTS_COLOR_GOLD>participate</color> in <color=SOTS_COLOR_GOLD>three rounds</color> againts random armies. Each round will be <color=SOTS_COLOR_GOLD>rewarded</color>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TOOLTIP_HEADING_TRAIN</LocID>                                      <Text>Train Units</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_CAN_TRAIN</LocID>                                          <Text>Training will upgrade To {1}.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_TRAIN_LOST</LocID>                                         <Text><![CDATA[You will <color=SOTS_COLOR_RED>lose {1} unit(s)</color> in the training process.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_NOT_ENOUGH_TO_TRAIN</LocID>                           <Text><![CDATA[You <color=SOTS_COLOR_GOLD>need</color>  at least <color=SOTS_COLOR_GOLD>2 units</color> to train them.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_EXPLORATION_SHUTTLE_WRECKAGE</LocID>                        <Text>Shuttle Wreckage</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_SHUTTLE_WRECKAGE_PICKUP</LocID>                        <Text>You did not find the black box, so you still do not know what happened here. You recovered all you could and will try to forget such an awful sight.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINE_CASH</LocID>                                           <Text>Coin Foundry</Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TOXIC_CLOUD</LocID>                                         <Text>Supercharged Cloud</Text>  </GameDBLocalizedString><!--UPDATED 29.4-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_FORCE_SHIELD</LocID>                                        <Text>Force Shield</Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ACADEMY</LocID>                                             <Text>Academy</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ACADEMY_DESCRIPTION</LocID>                                 <Text>You can learn some cool abilities here. But not yet. You must be patient.</Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <!-- Upgrades -->                                                                                        
+            <GameDBLocalizedString>         <LocID>RESOURCE_GENERATION</LocID>                                        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Production Upgrade</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GARRISON_UPGRADE</LocID>                                           <Text><![CDATA[<color=SOTS_COLOR_UPGRADE>Defensive Upgrade</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VISIBILITY_UPGRADE</LocID>                                         <Text><![CDATA[<color=SOTS_COLOR_GOLD>Visibility Upgrade</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACTIVATION_UPGRADE</LocID>                                         <Text><![CDATA[<color=SOTS_COLOR_GOLD>Activation Upgrade</color>]]></Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINE_A_DEFENSIVE_UPGRADE</LocID>                            <Text>Defensive Upgrade</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GARRISON_UPGRADE_SMALL</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_GOLD>Adds three slots for defending units</color> and for commanders with the Builder skill, <color=SOTS_COLOR_GOLD>10 defensive Sentry Guns</color> per skill level.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SMUGGLERS_DEN_DISABLED</LocID>                              <Text>Disable Smugglers Den</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SMUGGLERS_DEN_VISITED</LocID>                               <Text>Visit Smugglers Den</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SLAVE_CAMP_DISABLED</LocID>                                 <Text>Disable Slave Camp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SLAVE_CAMP_VISITED</LocID>                                  <Text>Visit Slave Camp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SPAWNER_UPGRADE</LocID>                                     <Text>Upgraded Units</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_AURA_COIN_VISITED</LocID>                                   <Text>Visit Aura Coin</Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-01 END -->                                             
+                                                                                                                     
+            <!-- For Chris: texts ready for proofreading 2024-02 START -->                                           
+            <GameDBLocalizedString>         <LocID>DIALOG_EXPLORATION_BEAST_NEST</LocID>                              <Text>Beast Nest</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BEAST_NEST_PICKUP</LocID>                              <Text>You have purged the nest and gained a reward.</Text></GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-02 END -->
+
+
+            <!-- For Chris: texts ready for proofreading 2024-08 START -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BIOFARM_VEIN</LocID>                                        <Text>Plundered Farm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BIOFARM_VEIN_DESCRIPTION</LocID>                            <Text>A great place to build a Bio Farm!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_FIBER_ALLOY_VEIN</LocID>                                    <Text>Metal Dump</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_FIBER_ALLOY_VEIN_DESCRIPTION</LocID>                        <Text>A great place to build an Alloy Mill!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_LIMERIT_VEIN</LocID>                                        <Text>Abandoned Quarry</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_LIMERIT_VEIN_DESCRIPTION</LocID>                            <Text>A great place to build a Limerite Quarry!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_NANO_COMPOUND_VEIN</LocID>                                  <Text>Derelict Collider</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_NANO_COMPOUND_VEIN_DESCRIPTION</LocID>                      <Text>This can be rebuilt into a working Radiant Collider</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GOLD_VEIN</LocID>                                           <Text>Ruptured Smelter</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GOLD_VEIN_DESCRIPTION</LocID>                               <Text>A great place to start a Smelting Operation!</Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ALTAR_OF_CLEAN_SLATE</LocID>                                <Text>Altar of Clean Slate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ALTAR_OF_CLEAN_SLATE_DESCRIPTION</LocID>                    <Text>Visiting commander can forget one skill. Can be used once per cycle.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CORPSE</LocID>                                              <Text>Fallen Warrior</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CORPSE_DESCRIPTION</LocID>                                  <Text>Gives a random resource reward, artifact or equipment.</Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TELEPORT</LocID>                                            <Text>Teleportation Device</Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <GameDBLocalizedString>         <LocID>MAPOBJ_HERO_WASH</LocID>                                           <Text>Commander Wash</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_HERO_WASH_DESCRIPTION</LocID>                               <Text>Removes all debuffs from visiting commanders. Can be used once per cycle.</Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <GameDBLocalizedString>         <LocID>MAPOBJ_UNDER_CONSTRUCTION</LocID>                                  <Text>Under Construction</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_UNDER_CONSTRUCTION_DESCRIPTION</LocID>                      <Text>This structure is currently under construction.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BUILDING_ZONE</LocID>                                       <Text>Building Zone</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BUILDING_ZONE_DESCRIPTION</LocID>                           <Text>Select a structure:</Text>  </GameDBLocalizedString>
+
+            
+            <!-- ==================================== GAMMA building ==================================== -->
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SIDE_QUEST</LocID>                                          <Text>Keepers Guild</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SIDE_QUEST_DESCRIPTION</LocID>                              <Text>Gives a side quest.</Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <GameDBLocalizedString>         <LocID>MAPOBJ_COSMOPORT_UP</LocID>                                        <Text>Teleportation Device to Orbit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_COSMOPORT_DOWN</LocID>                                      <Text>Teleportation Device from Orbit</Text>  </GameDBLocalizedString>
+                                                                                                                     
+            <!--NEW JULY-->                                                                                          
+            <GameDBLocalizedString>         <LocID>MAPOBJ_XENOSLIME_STRAIGHT</LocID>                                  <Text>Xenoslime</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_XENOSLIME_RIGHT</LocID>                                     <Text>Xenoslime</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_XENOSLIME_LEFT</LocID>                                      <Text>Xenoslime</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_XENOSLIME_DESCRIPTION</LocID>                               <Text>Very strange looking slime. It retracts when you feed it resources. Commanders with the Builder skill can do it cheaper.</Text>  </GameDBLocalizedString>
+            <!--NEW JULY-->
+
+            <!-- NEW 22/07/2024 -->
+            <GameDBLocalizedString>         <LocID>DIALOG_EXPLORATION_WISHING_WELL</LocID>                            <Text>Wishing Well</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_EXPLORATION_WISHING_WELL_PICKUP</LocID>                     <Text>You have no idea if your wish came trough or if you just ransacked someone's hidding spot. You gained the following item:</Text></GameDBLocalizedString>
+            <!-- NEW 22/07/2024 -->
+
+            <!--Updated 22/07/24-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ENERGYNODE</LocID>                                          <Text>Wishing well</Text>  </GameDBLocalizedString>
+            <!--Updated 22/07/24-->
+
+            <!--NEW 22/07/24-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_WISHING_WELL_DESCRIPTION</LocID>                            <Text><![CDATA[Grants a wish to a commander once per cycle. As long as the wish is a <color=SOTS_COLOR_GOLD>random item</color>.]]></Text>  </GameDBLocalizedString>
+            <!--NEW 22/07/24-->
+
+            <!--NEW AUGUST-->                                                                                        
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_STRAIGHT_LOCKED</LocID>                                <Text>Gate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_STRAIGHT_UNLOCKED</LocID>                              <Text>Gate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_RIGHT_LOCKED</LocID>                                   <Text>Gate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_RIGHT_UNLOCKED</LocID>                                 <Text>Gate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_LEFT_LOCKED</LocID>                                    <Text>Gate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_LEFT_UNLOCKED</LocID>                                  <Text>Gate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_DESCRIPTION</LocID>                                    <Text>A gate that can opened with a key of the same color or remotely by a particular event.</Text>  </GameDBLocalizedString>
+
+            <!-- Objects from the BUILDER skill -->                                                               
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_SMALL</LocID>                                        <Text>Small Turret</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_SMALL_DESCRIPTION</LocID>                            <Text>Shoots everything unfiendly.</Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_BIG</LocID>                                          <Text>Big Turret</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_BIG_DESCRIPTION</LocID>                              <Text>Shoots everything unfiendly. Adds three unit slots for more defenders.</Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DRONE_DOG</LocID>                                           <Text>Drone Dog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DRONE_DOG_UPG</LocID>                                       <Text>Long-range Dog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DRONE_DOG_DESCRIPTION</LocID>                               <Text>A small drone that will keep the fog at bay once the commander leaves.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DRONE_DOG_UPG_DESCRIPTION</LocID>                           <Text>A small drone that will keep the fog at bay once the commander leaves. Provides extra info about enemies, similar to upgraded Watchtowers.</Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINING_PROBE</LocID>                                        <Text>Mining Probe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINING_PROBE_DESCRIPTION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_GOLD>Keeps mining</color> until a visiting Commander <color=SOTS_COLOR_RED>destroys</color> it and recovers all the mined resources. <color=SOTS_COLOR_GOLD>More time</color> passed = <color=SOTS_COLOR_GOLD>more resources</color>.]]></Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINING_PROBE_UPG</LocID>                                    <Text>Boosted Mining Probe</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINING_PROBE_UPG_DESCRIPTION</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Keeps mining</color> until a visiting Commander <color=SOTS_COLOR_RED>destroys</color> it and recovers all the mined resources. <color=SOTS_COLOR_GOLD>More time</color> passed = <color=SOTS_COLOR_GOLD>more resources</color>.]]></Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINING_PROBE_PRODUCES_ONLY</LocID>                          <Text>This probe can only produce {1}.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINING_PROBE_VEIN</LocID>                                   <Text>This probe sits on a {1} vein. Other resources might be mined here as well, but {1} will be the most common.</Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST</LocID>                                             <Text>Remote Outpost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_DESCRIPTION</LocID>                                 <Text><![CDATA[Outposts allow you to <color=SOTS_COLOR_GOLD>leave guards</color> on the map.\n\nIf a commander has the <color=SOTS_COLOR_GOLD>negotiator skill</color> when negotiating, they can send units to the nearest outpost.\nIf your base has a <color=SOTS_COLOR_GOLD>transport building</color>, it can send one unit stack to an outpost each round.]]></Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_UPG</LocID>                                         <Text>Superior Outpost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_UPG_DESCRIPTION</LocID>                             <Text><![CDATA[Outposts allow you to <color=SOTS_COLOR_GOLD>leave guards</color> on the map. Superior outpost guards a larger area.\n\nIf a commander has the <color=SOTS_COLOR_GOLD>negotiator skill</color> when negotiating, they can send units to the nearest outpost.\nIf your base has a <color=SOTS_COLOR_GOLD>transport building</color>, it can send one unit stack to an outpost each round.]]></Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_COMMANDER_TRAP</LocID>                                      <Text>Cybersnare</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_COMMANDER_TRAP_DESCRIPTION</LocID>                          <Text>Catches unsuspecting enemy commanders and leaves them without movement and energy for a turn!</Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_SMALL_ACTIVATION</LocID>                             <Text>Immediate Activation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_BIG_ACTIVATION</LocID>                               <Text>Immediate Activation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DRONE_DOG_ACTIVATION</LocID>                                <Text>Immediate Activation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MINING_PROBE_ACTIVATION</LocID>                             <Text>Immediate Activation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_ACTIVATION</LocID>                                  <Text>Immediate Activation</Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <!-- Environment hazards -->                                                                          
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TOXIC_FOG</LocID>                                           <Text>Toxic Fog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TOXIC_FOG_DESCRIPTION</LocID>                               <Text>Entering the area without protective gear is not advised.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GIANT_MUSHROOM</LocID>                                      <Text>Giant Mushroom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GIANT_MUSHROOM_2</LocID>                                    <Text>Giant Mushroom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GIANT_MUSHROOM_3</LocID>                                    <Text>Giant Mushroom</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GIANT_MUSHROOM_DESCRIPTION</LocID>                          <Text>Stay a while and take a whiff.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CARNIVOROUS_TREE</LocID>                                    <Text>Carnivorous Flora</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CARNIVOROUS_TREE_2</LocID>                                  <Text>Carnivorous Flora</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CARNIVOROUS_TREE_3</LocID>                                  <Text>Carnivorous Flora</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CARNIVOROUS_TREE_DESCRIPTION</LocID>                        <Text>This area looks a bit suspicious. Better stay away from that creepy abomination.</Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DANGEROUS_AREA_IDLE</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_GRAY>Dormant</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DANGEROUS_AREA_TRIGGERED</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_YELLOW>Excited</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DANGEROUS_AREA_ACTIVATED</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_RED>Activated</color>]]></Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DANGEROUS_AREA_STATUS_EFFECTS</LocID>                       <Text>Inflicts status effects:</Text>  </GameDBLocalizedString>
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BRIDGE_START</LocID>                                        <Text>Disabled Bridge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BRIDGE_START_DESCRIPTION</LocID>                            <Text><![CDATA[A disabled bridge. Some bridges can be reactivated using a <color=SOTS_COLOR_FUSION_CORE>Fusion Core</color>.]]></Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-08 END -->
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CONSUMABLE_DESCRIPTION</LocID>                              <Text>Consumable</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_MANUAL</LocID>                                              <Text><![CDATA[Combat manual: <color=SOTS_COLOR_GOLD>{1}</color>]]></Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

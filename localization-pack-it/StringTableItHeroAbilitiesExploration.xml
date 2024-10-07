@@ -1,0 +1,116 @@
+<Database>
+    <GameDBStringTable ID="LOC_IT_HERO_ABILITIES_EXPLORATION">
+
+        <LanguageRef>LANG_IT</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH</LocID>                              <Text>Rush</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION</LocID>                  <Text><![CDATA[Restores commander's <color=SOTS_COLOR_MOVEMENT>Movement Points</color>. Ability Strength increases the effect.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL1</LocID>             <Text><![CDATA[Restores (3 + Ability Strength) <color=SOTS_COLOR_MOVEMENT>Movement Points</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL2</LocID>             <Text><![CDATA[Restores (6 + Ability Strength) <color=SOTS_COLOR_MOVEMENT>Movement Points</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL3</LocID>             <Text><![CDATA[Restores (9 + Ability Strength) <color=SOTS_COLOR_MOVEMENT>Movement Points</color>.]]></Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK</LocID>                        <Text>Death Mark</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION</LocID>            <Text><![CDATA[Tracks enemy commander in the fog of war. Targeted commander loses <color=SOTS_COLOR_MOVEMENT>movement points</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL1</LocID>       <Text><![CDATA[ 4 tiles range, 2 turns.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL2</LocID>       <Text><![CDATA[ 5 tiles range, 3 turns.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL3</LocID>       <Text><![CDATA[ 6 tiles range, 4 turns.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_DEATH_MARK</LocID>                                   <Text><![CDATA[<color=SOTS_COLOR_RED>Death mark active!</color>]]></Text>  </GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY</LocID>                        <Text>Battle Cry</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION</LocID>            <Text>Increase your army morale!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL1</LocID>       <Text>+5 morale for 1 turn.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL2</LocID>       <Text>+10 morale and -5 morale to your enemies for 3 turns.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL3</LocID>       <Text>+15 morale and -10 morale to your enemies for 4 turns.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BATTLE_CRY_1</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Battle Cry</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BATTLE_CRY_2</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Battle Cry</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BATTLE_CRY_3</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Battle Cry</color>]]></Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES</LocID>                    <Text>Show Resources</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION</LocID>        <Text>Immediately discovers resources in the area around the commander.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL1</LocID>   <Text>Discovers basic resources.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL2</LocID>   <Text>Discovers all resources.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL3</LocID>   <Text>Discovers all resources and fusion cores.</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES</LocID>                    <Text>Show Treasures</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION</LocID>        <Text>Immediately discovers valuable items in the area around the commander.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL1</LocID>   <Text>Discovers chests.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL2</LocID>   <Text>Discovers chests and equipment.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL3</LocID>   <Text>Discovers chests, equipment and artifacts.</Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE</LocID>                   <Text>Barbarian Horde</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION</LocID>       <Text>Appear as your strongest commander!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION_LVL2</LocID>  <Text>Forces enemies to question whether to attack.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION_LVL3</LocID>  <Text>Also fools the Scout skill.</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY</LocID>                         <Text>Easy Prey</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION</LocID>             <Text>Appear as your weakest commander!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL2</LocID>        <Text>Pretend to be weak to trick others to attack you!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL3</LocID>        <Text>Also fools the Scout skill.</Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY</LocID>                      <Text>Invisibility</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION</LocID>          <Text>Makes the commander invisible to enemies until somebody approaches too closely.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION_LVL2</LocID>     <Text>Invisible until 4 tiles from enemy commanders.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION_LVL3</LocID>     <Text>Invisible until 2 tiles from enemy commanders.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_INVISIBILITY_2</LocID>                               <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Invisible</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_INVISIBILITY_3</LocID>                               <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Invisible</color>]]></Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD</LocID>                  <Text>Protective Field</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION</LocID>      <Text>Casts a protective field that prevents negative effects from visited objects and from abilities.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_LVL2</LocID> <Text>Protects the commander.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_LVL3</LocID> <Text>Protects commanders within a 2 tile range from the caster.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_PROTECTIVE_FIELD</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Protective Field</color>]]></Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_REINFORCEMENT</LocID>                     <Text>Reinforce!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_REINFORCEMENT_DESCRIPTION</LocID>         <Text>Summon units of a specific type available at your bases directly to this commander's army.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_REINFORCEMENT</LocID>                               <Text>Summon Reinforcements!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_REINFORCEMENT_TEXT</LocID>                          <Text><![CDATA[Choose one available unit type! Units available at all your bases and not assigned to a garrisoned hero will be called to action!\nYou can only summon units with a level up to your commander's <color=SOTS_COLOR_GOLD>Ability Strength</color>.]]></Text>  </GameDBLocalizedString>
+
+      
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE</LocID>                         <Text>Eagle Eye</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION</LocID>             <Text>Doubles commander's vision range for one phase.</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD</LocID>                       <Text>Supercharged Cloud</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION</LocID>           <Text>Place an artificial cloud on the map. If a commander enters, they will lose movement and their army gets damaged in the next combat.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_SUPERCHARGED_CLOUD_DAMAGE</LocID>                    <Text><![CDATA[Passed through a supercharged cloud. Your units are <color=SOTS_COLOR_RED>shocked and poisoned</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_ELECTRONIC_EQUIPMENT_DISABLED</LocID>                <Text><![CDATA[<color=SOTS_COLOR_RED>Electronic equipment has been disabled.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ELECTRONIC_EQUIPMENT_DISABLED</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_RED>Electronic equipment has been disabled by a status effect on this commander.</color>]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EVACUATION</LocID>                        <Text>Evacuation</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EVACUATION_DESCRIPTION</LocID>            <Text>Teleports the commander and their army to the nearest base.</Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_MIMIC</LocID>                             <Text>Mimic</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_MIMIC_DESCRIPTION</LocID>                 <Text>Call an autonomous holographic friend so you can appear in multiple places at once. Don't let it touch anything!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_MIMIC</LocID>                                                 <Text>I'm a mimic!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_ROOTS</LocID>                                        <Text><![CDATA[<color=SOTS_COLOR_RED>Chomped. Movement reduced.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MUSHROOM_SPORES</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Inhaled spores. Combat power increased.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_IN_TRAINING</LocID>                                  <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>In training. Gains XP each turn. Defensive bonus, tactics.</color>]]></Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,86 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_IT_INVENTORY_ITEMS_EXPLORATION_EQUIPMENT">
+
+        <LanguageRef>LANG_IT</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>ITEM_ACTIVATION_COST</LocID>                             <Text>Activation Cost: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ITEM_ACTIVATION_COST_ENERGY</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_ENERGY> energy points</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ITEM_ACTIVATION_NO_ENERGY</LocID>                        <Text>Not enough<![CDATA[<color=SOTS_COLOR_ENERGY> energy points</color>]]> for activation.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ITEM_ACTIVATION_NO_DUPLICATES</LocID>                    <Text>Only one item of each kind can be equipped at a time.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DATAPAD</LocID>                                <Text>Datapad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DATAPAD_DESCRIPTION</LocID>                    <Text><![CDATA[Every time the commander gains <color=SOTS_COLOR_XP>XP</color>, they will gain <color=SOTS_COLOR_XP>10% XP</color> more as a bonus.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DATAPAD_LORE</LocID>                           <Text>Most of us carried a little notepad or something. He had this big Datapad. He looked funny going door to door like a taxman, but you know what? He is already an admiral, while our soles are still getting thinner.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BAIT_FLAG</LocID>                              <Text>Bait Flag</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BAIT_FLAG_DESCRIPTION</LocID>                  <Text>Shows the statistics of a commander as weaker than they actually are, luring the enemy to attack them. Does not work on commanders with the Spy skill. (Similar to the Easy prey ability.)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BAIT_FLAG_LORE</LocID>                         <Text>Common! A white flag? It is the laziest trap in the galaxy. Why do they fall for it again and again? The next time I see a white flag, I shoot first and ask ... never!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HOLO_SCARECROW</LocID>                         <Text>Holo Scarecrow</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HOLO_SCARECROW_DESCRIPTION</LocID>             <Text>Removes 20% of the units from a neutral army before the battle.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HOLO_SCARECROW_LORE</LocID>                    <Text>During the holy war, the Brotherhood used to carry them as battle altars. It emits a huge menacing 3D image of Allmother above an army. It gives me shivers every time I see it.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_KINETIC_GENERATOR</LocID>                      <Text>Kinetic Generator</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_KINETIC_GENERATOR_DESCRIPTION</LocID>          <Text><![CDATA[Every 7 consumed <color=SOTS_COLOR_MOVEMENT>movement points</color> will generate <color=SOTS_COLOR_ENERGY>1 energy point</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_KINETIC_GENERATOR_LORE</LocID>                 <Text>Recuperation. Because everyone who grew up as a poor child in some "beyond the galaxy's edge" colony simply hates the idea of wasted energy. An hour on a spin bike generator for a fried egg. Yeah, happy memories, happy indeed.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_NAVICOMP</LocID>                               <Text>Navicomp</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_NAVICOMP_DESCRIPTION</LocID>                   <Text><![CDATA[Adds <color=SOTS_COLOR_MOVEMENT>3 movement points</color> for each turn]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_NAVICOMP_LORE</LocID>                          <Text>Finally! Screw those paper maps! Now we look like a space military and not like some dirty pirates from the 21st century. Stupid, 21st century, freaking middle ages!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TAX_COLLECTORS_WHIP</LocID>                    <Text>Tax Collectors Whip</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TAX_COLLECTORS_WHIP_DESCRIPTION</LocID>        <Text><![CDATA[Adds 30% to the amount of picked up <color=SOTS_COLOR_GOLD>RESOURCES</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TAX_COLLECTORS_WHIP_LORE</LocID>               <Text>No pain - no gain... Literally! And this time, as a bonus, it is not your pain! </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PARADE_BANNER</LocID>                          <Text>Parade Banner</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PARADE_BANNER_DESCRIPTION</LocID>              <Text>Shows a commander as your strongest hero. The commander will appear stronger than they actually are, forcing the enemy to question whether to attack or run. Does not work on commanders with the Spy skill (Similar to the Barbarian horde ability.)</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PARADE_BANNER_LORE</LocID>                     <Text>A relic from the Holy War. In its shadow, even a dozen of weary fighters looks like a whole company ready to crusade like there is no tomorrow!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_ENCOURAGEMENT_WHIP</LocID>                     <Text>Encouragement Whip</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_ENCOURAGEMENT_WHIP_DESCRIPTION</LocID>         <Text><![CDATA[Encouragement whip will <color=SOTS_COLOR_GOLD>bestow</color> or make <color=SOTS_COLOR_GOLD>cheaper use</color> of <color=SOTS_COLOR_GOLD>Rush ability</color>, based on the Globetrotter skill level. <color=SOTS_COLOR_GOLD>Each level</color> will make the ability <color=SOTS_COLOR_ENERGY>5 energy points</color> cheaper.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_ENCOURAGEMENT_WHIP_LORE</LocID>                <Text>Move you maggots! Every crack reeks of mutiny but whip is certainly one of the most cost-effective encouraging tools. It has been proven not only by mankind's history.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_AUXILIARY_GENERATOR</LocID>                    <Text>Capacitor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_AUXILIARY_GENERATOR_DESCRIPTION</LocID>        <Text><![CDATA[Adds <color=SOTS_COLOR_ENERGY>20 energy points</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_AUXILIARY_GENERATOR_LORE</LocID>               <Text>Every campaign eventually comes to the point when you desperately need to plug yet another field fridge, tactical hair dryer, or predator-class laser cannon into the overloaded network.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_FUEL_ADDITIVES</LocID>                         <Text>Fuel Additives</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_FUEL_ADDITIVES_DESCRIPTION</LocID>             <Text><![CDATA[Adds <color=SOTS_COLOR_MOVEMENT>2 movement points</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_FUEL_ADDITIVES_LORE</LocID>                    <Text>Banned in the Solar system about 20 years ago. Too late for penguins though. Although we cultivate substitutes, everybody knows the wild ones tasted much, much better</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TURRET_JAMMER</LocID>                          <Text>Turret Jammer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TURRET_JAMMER_DESCRIPTION</LocID>              <Text>Commander is ignored by enemy turrets.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TURRET_JAMMER_LORE</LocID>                     <Text>The remote control was the gate to their system and the so-called impenetrable firewall turned silent with just a few lines in PHP. Oh my!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HAZMAT_GEAR</LocID>                            <Text>Hazmat Gear</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HAZMAT_GEAR_DESCRIPTION</LocID>                <Text>Protects the commander against the effects of toxic fog.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HAZMAT_GEAR_LORE</LocID>                       <Text>Really, it's just duct tape, foil, plexiglass, a breather. Imagine, the poorest workers in Jupiter belt cannot afford even this basic level of protection. Get involved! Even a small amount may change lives!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LOCKPICKER</LocID>                             <Text>Lockpicker</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LOCKPICKER_DESCRIPTION</LocID>                 <Text><![CDATA[Containers give <color=SOTS_COLOR_GOLD> 50% more Aura coins</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LOCKPICKER_LORE</LocID>                        <Text>Did you think you just shoot the open button with your blaster and it just opens? This is not a movie and you are not a space smuggler with a 7 feet 6 inches tall furry friend by your side.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE</LocID>                            <Text>Recon Drone</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE_DESCRIPTION</LocID>                <Text>Increases commander scouting range.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE_LORE</LocID>                       <Text>The holy texts of Children of the Source describe a pair of moths that fly all over the world and bring information to the Allmother. Funny how certain elements are universal for a number of religions.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LURE</LocID>                                   <Text>Lure</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LURE_DESCRIPTION</LocID>                       <Text><![CDATA[Increases the number of units in <color=SOTS_COLOR_GOLD>neutral guardian armies</color> this commander attacks by <color=SOTS_COLOR_RED>400%</color>!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LURE_LORE</LocID>                              <Text>Feromon-based lures are absolute necessities for the Fossorian hunters. Partly due to the poor eyesight of the mole-people, partly due to the high consumption of fermented beverages. But to be fair, the latter applies to almost every hunter in the universe.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DEEP_SCANNER</LocID>                           <Text>Deep Scanner</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DEEP_SCANNER_DESCRIPTION</LocID>               <Text><![CDATA[<color=SOTS_COLOR_GOLD>Reveals mines</color> in a vast area <color=SOTS_COLOR_GOLD>around Commander</color> through Fog Of War (<color=SOTS_COLOR_GOLD>11 tiles</color>).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DEEP_SCANNER_LORE</LocID>                      <Text>After an endless row of useless doomsday devices, you found the first real contribution of Fossorian science that is providing a genuine benefit and making the world a better place to live! Also, nobody is going to believe you!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PROSPECTOR_DATABANK</LocID>                    <Text>Prospector Databank</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PROSPECTOR_DATABANK_DESCRIPTION</LocID>        <Text><![CDATA[Prospector databank will <color=SOTS_COLOR_GOLD>make available</color> or make <color=SOTS_COLOR_GOLD>cheaper use</color> of <color=SOTS_COLOR_GOLD>Show resources ability</color>, based on the Globetrotter skill level. <color=SOTS_COLOR_GOLD>Each level</color> will make the ability <color=SOTS_COLOR_ENERGY>2 energy points</color> cheaper.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PROSPECTOR_DATABANK_LORE</LocID>               <Text>Scribbled notes in Fossorian script and chaotic map sketches! Mole prospectors are greedy bastards! Usually, they keep the info about the richest sites to themselves but this time the nuggets will fill your pockets! Let's dig! </Text>  </GameDBLocalizedString>
+       
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

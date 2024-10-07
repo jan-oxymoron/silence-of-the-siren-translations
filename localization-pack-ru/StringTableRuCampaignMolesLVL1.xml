@@ -1,0 +1,320 @@
+<Database>
+    <GameDBStringTable ID="LOC_RU_CAMPAIGN_MOLES_LVL_1">
+
+        <LanguageRef>LANG_RU</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--DIALOGUES-->
+
+            <!--NOTE ABOUT CHARACTERS 
+            KRTKOV in different text IDs is Furret
+            DIGIN in different text IDs is Muff
+            -->
+            
+            <!-- Snif and Furret - opening dialog-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_START_SNIF1</LocID>                      <Text><![CDATA[Penal Legion, that's rock bottom, Furret.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_START_KRTKOV1</LocID>                    <Text><![CDATA[Not for long, Snif. The Supreme Leader promised to liberate all volunteers!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_START_SNIF2</LocID>                      <Text><![CDATA[But until then, you are less than a Ratling dropping. \nAnd you will address me as "sir"!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_START_SNIF6</LocID>                      <Text><![CDATA[Now, listen carefully! A sizable group of hostile Cyberbugs is digging in the ruins to the southeast. Activate the radio beacon there, and we will fry them from the orbit. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_START_KRTKOV3</LocID>                    <Text><![CDATA[But my escort is too small for such a task! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_START_SNIF4</LocID>                      <Text><![CDATA[The vanguard has established a base down south, and fresh troops are waiting for you at a couple of chosen rally points.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_START_SNIF5</LocID>                      <Text><![CDATA[Now go! And remember, this is a covert operation! We cannot risk a full-scale war with Cyberbugs ... Yet.]]></Text>  </GameDBLocalizedString>
+            
+            <!-- Furret is angry at Snif -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SNIF_COMMNETARY_KRTKOV1</LocID>          <Text><![CDATA[I will remember that arrogant idiot and one day; I will repay him tenfold.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SNIF_COMMNETARY_SNIF</LocID>             <Text><![CDATA[I doubt that. Now turn down your shortwave, you moron!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SNIF_COMMNETARY_KRTKOV2</LocID>          <Text><![CDATA[Oh no! I did not mean ... Damn!]]></Text>  </GameDBLocalizedString>
+
+            <!--Spiders-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SPIDERS_KRTKOV</LocID>                   <Text><![CDATA[Spiders?! I hate spiders! Kill them! Kill them before they lay eggs!! ]]></Text>  </GameDBLocalizedString>
+
+            <!--SNAILS-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SLURM_FURRET</LocID>                     <Text><![CDATA[Get me some salt, boys!]]></Text>  </GameDBLocalizedString>
+																															<!-- OR if you meant "Get some of my salt" then, "Get some of me salt, boys!" -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SLURM_MUFF</LocID>                       <Text><![CDATA[Slurm ahead! Beware, troops! They vomit acid that melts through metal!]]></Text>  </GameDBLocalizedString>
+
+
+            <!--Primal Collector-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_COLECTOR_KRTKOV</LocID>                  <Text><![CDATA[Oh! This robot looks centuries old, but I bet it's still hostile. Maybe it's an old Primal creation. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_COLECTOR_MUFF</LocID>                    <Text><![CDATA[The Collectors created by the ancient Primals! Their masters are long gone, but nothing has changed for them. ]]></Text>  </GameDBLocalizedString>
+
+
+            <!--Base discovery - two event triggets, one 3x3x on the road and one on the whatchtower, the setup ensures this will only trigger once-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_BASE_DISCOVERY_KRTKOV1</LocID>           <Text><![CDATA[The base's windows are still lit. That's a good sign!]]></Text>  </GameDBLocalizedString>
+
+            <!--Rattling deserters seen from a distance  -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SECOND_ENEMY_KRTKOV</LocID>              <Text><![CDATA[Ratlings! Those little halfbreeds are on our side - but why are they wandering around without a commander? I should fix that!]]></Text>  </GameDBLocalizedString>
+
+            <!-- Rattlings - dialog -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FIRST_ENEMY_MEETING_KRTKOV2</LocID>      <Text><![CDATA[Where are you heading, halfbreeds?! The battle is the other way!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FIRST_ENEMY_MEETING_RATLINGS2</LocID>    <Text><![CDATA[We ... erm ... regroup ... erm ... orders ... ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FIRST_ENEMY_MEETING_KRTKOV3</LocID>      <Text><![CDATA[I see. You are lucky I am not accompanied by a commissar!!]]></Text>  </GameDBLocalizedString>
+
+            <!-- Rattling diggers - dialog -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_RATLINGS_DIGGERS_KRTKOV1</LocID>         <Text><![CDATA[What have you done, you filthy halfbreeds?! We cannot go through!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_RATLINGS_DIGGERS_RATLINGS1</LocID>       <Text><![CDATA[We dig. Orders. We few. Lots of digging! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_RATLINGS_DIGGERS_KRTKOV2</LocID>         <Text><![CDATA[I see. You are lucky I have a job to do in the meantime. But dig faster, you idiots! ]]></Text>  </GameDBLocalizedString>
+
+            <!-- meatboys deserter -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEATBOYS_DEFECTORS_KRTKOV1</LocID>       <Text><![CDATA[This is complete chaos! Where is your commander?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEATBOYS_DEFECTORS_DIGIN1</LocID>        <Text><![CDATA[We only obey the greatest of warriors. You are not a great warrior. You are just some fatman!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEATBOYS_DEFECTORS_KRTKOV2</LocID>       <Text><![CDATA[I'm a general! You will pay for this insult!]]></Text>  </GameDBLocalizedString>
+
+            <!--watchtower -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_WATCHTOWER1_KRTKOV</LocID>               <Text><![CDATA[A watchtower!]]></Text>  </GameDBLocalizedString>
+
+            <!--DIALOG - Furret and Muff, first meeting-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_KRTKOV1</LocID>                  <Text><![CDATA[Glory to the Supreme Leader!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_DIGIN1</LocID>                   <Text><![CDATA[I doubt the Penal Legion flag will bring him or us any glory.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_KRTKOV2</LocID>                  <Text><![CDATA[I will pretend I didn't hear that. \n\nI am General Furret, and you must be part of the vanguard.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_DIGIN2</LocID>                   <Text><![CDATA[Name's Muff.\n\nOnce a pilot, now the commander of the labor unit tasked to complete the construction of this base.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_KRTKOV3</LocID>                  <Text><![CDATA[So, technically, I am your superior!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_DIGIN3</LocID>                   <Text><![CDATA[I suppose so, but the order to finish the base comes from the high command, so it overrides you. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_KRTKOV4</LocID>                  <Text><![CDATA[Well, this is your lucky day! I need to recruit an army at this base. So, I will help you.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_DIGIN4</LocID>                   <Text><![CDATA[I will probably regret it, but as of now, I've got nothing to lose.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_DIGIN5</LocID>                   <Text><![CDATA[Straight to the point then. The lack of resources has hindered construction work. I've sent our Earthshakers to a nearby Limerite quarry, but they have yet to return.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_KRTKOV6</LocID>                  <Text><![CDATA[I will check the quarry right after I finish the base inspection!]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MEETING_DIGIN7</LocID>                   <Text><![CDATA[Let me show you the way.]]></Text>  </GameDBLocalizedString>
+
+            <!--hak the rat dialogue-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_HAK_KRTKOV1</LocID>                      <Text><![CDATA[Ah, my reinforcements! Glory to the Supreme Leader!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_HAK_HAK1</LocID>                         <Text><![CDATA[Oh, shut up! He can't hear you here, you bootlicker!\nIt's just the two of us, and only one can lead the army. Bend your knee! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_HAK_KRTKOV2</LocID>                      <Text><![CDATA[No! My instructions clearly ...]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_HAK_HAK2</LocID>                         <Text><![CDATA[Instructions? The command doesn't care! All that matters is the results, and only I can deliver them!]]></Text>  </GameDBLocalizedString>
+
+            <!--After Hak the Rat dialogue with Snif-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_REINF3_KRTKOV1</LocID>                   <Text><![CDATA[Mutiny! The Supreme Leader should be informed. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_REINF3_SNIF1</LocID>                     <Text><![CDATA[What do you want, Furret?! Do you need me to tie your shoelaces? ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_REINF3_KRTKOV2</LocID>                   <Text><![CDATA[The troops at the rally point rebelled! I had to destroy them! But I still need reinforcements! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_REINF3_SNIF2</LocID>                     <Text><![CDATA[Do you need more troops? Then STOP KILLING THEM! I don't care how, but that beacon WILL REACH THE COORDINATES! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_REINF3_KRTKOV3</LocID>                   <Text><![CDATA[The Supreme Leader would never ...]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_REINF3_DIGIN3</LocID>                    <Text><![CDATA[Yeah, you can tell him once you complete the mission. Now, MOVE YOUR LAZY ASS! Several Penal Legion commanders are waiting to take your place. AM I CLEAR?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_REINF3_KRTKOV4</LocID>                   <Text><![CDATA[Crystal clear.]]></Text>  </GameDBLocalizedString>
+
+            <!--Sniff sends the first commander to replace Furret -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO1_SNIF1</LocID>                 <Text><![CDATA[Hey! Furret, what are you doing down there? The orbital laser is approaching the optimal position! Report!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO1_KRTKOV2</LocID>               <Text><![CDATA[We have secured the base and are making a steady ... ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO1_SNIF2</LocID>                 <Text><![CDATA[You were supposed to enter the ruins by now, you incompetent! ... Enough of this... I am sending a replacement!]]></Text>  </GameDBLocalizedString>
+
+            <!--Sniff sends the second commander to replace Furret -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO2_SNIF1</LocID>                 <Text><![CDATA[Furret! Time is running out! The Beacon should already be transmitting a signal, but you haven't even reached the ruins!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO2_KRTKOV2</LocID>               <Text><![CDATA[With all due respect, sir, you are not here! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO2_SNIF2</LocID>                 <Text><![CDATA[Is that an excuse?! Enough! I am sending someone capable of making some progress! ]]></Text>  </GameDBLocalizedString>
+
+            <!--Buletproof benni - before fight-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO1_BF_BENI</LocID>               <Text><![CDATA[What an honor! The high command thinks your progress has stalled, so they've sent me. ME! Now, be a good chap and peacefully hand over command. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO1_BF_KRTKOV2</LocID>            <Text><![CDATA[Oh, look! A RAT IN FOSSORIAN CLOTHES! Squeek, squeak, squeak ... All I can hear are some animal noises, you stupid pest! Now, I will show you peaceful submission!]]></Text>  </GameDBLocalizedString>
+            
+            <!-- JB: wiki: wager of battle, trial by battle? -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO1_BF_DIGIN2</LocID>             <Text><![CDATA[According to the ancient laws, a trial by battle will decide the leadership!]]></Text>  </GameDBLocalizedString>
+
+            <!--Buletproof benni - after fight-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO1_AF_FURRET</LocID>             <Text><![CDATA[GIVE ME THE RADIO! You sent a braindead halfbreed to replace me?! WHAT AN INSULT! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO1_AF_SNIF</LocID>               <Text><![CDATA[This one looked quite promising. Ah well, you've defended your command ... For now. ]]></Text>  </GameDBLocalizedString>
+
+            <!--Moleson - before fight-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO2_BF_MOLESON</LocID>            <Text><![CDATA[Don't think I'm happy they've chosen me as a replacement but things will go much smoother with me in charge. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO2_BF_KRTKOV</LocID>             <Text><![CDATA[I bet you volunteered.]]></Text>  </GameDBLocalizedString>
+
+            <!--Moleson - after fight-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FOSS_HERO2_AF_MOLESONT</LocID>           <Text><![CDATA[You are so efficient in defending your command. I cannot comprehend why you keep failing to deliver the beacon!  ]]></Text>  </GameDBLocalizedString>
+
+            <!--  Furret considers his chances-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_BASE_FURRET</LocID>                      <Text><![CDATA[So much for the reinforcements ...]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_BASE_FURRET1</LocID>                     <Text><![CDATA[The base I saw from the watchtower is my only chance now!]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_REINF_FAIL_FURRET</LocID>                <Text><![CDATA[No one is left here to reinforce my troops, but there is still one more rallying point!]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_RETREAT_NOOPTION</LocID>                <Text><![CDATA[No way I am going that way. I would just get shot.]]></Text>  </GameDBLocalizedString>
+
+
+            <!-- Furret encounters Knights in the north-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_KNIGHT_DIVERSION_Furret1</LocID>         <Text><![CDATA[What have you done? Where are the Fossorians that were supposed to be waiting here? ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_KNIGHT_DIVERSION_KNIGHT1</LocID>         <Text><![CDATA[The vermin has been slain. We've collapsed the pillar, and the path has been blocked. Our voices may be silenced, but you shall never enter the ruins. An acceptable sacrifice.]]></Text>  </GameDBLocalizedString>
+            
+            <!-- Furrets encounter Knights by the north earthshaker - narrator-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_DIVERSION_NARRATOR</LocID>               <Text><![CDATA[I just heard an explosion from the south. That's where the reinforcements should be waiting for me! I must hurry!]]></Text>  </GameDBLocalizedString>
+
+            <!--Pickups site quest-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FIRST_PICKUP_DIGIN1</LocID>              <Text><![CDATA[Surely, this isn't the last useful toy around!? It would be great to face the Cyberbugs well-equipped!]]></Text>  </GameDBLocalizedString>
+         
+            <!-- Limerite mine-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_QUARRY_PART4_KRTKOV1</LocID>         <Text><![CDATA[That's it! Limerite! Did you know that the Supreme Leader invented how microbes get injected into the tiny air bubbles within it? And those little devils will repair cracks and stuff!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_QUARRY_PART4_DIGIN1</LocID>          <Text><![CDATA[Hard to believe. Did you learn this at the military academy?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_QUARRY_PART4_KRTKOV2</LocID>         <Text><![CDATA[No. If you must know, I joined during the Revolution. Before that, I was ... It does not matter. Only turncoats have an academic past.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_QUARRY_PART4_DIGIN2</LocID>          <Text><![CDATA[... yes, turncoats. They are untrustworthy. ]]></Text>  </GameDBLocalizedString>
+
+            <!-- BIOFARM -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_BIOFARM_PART4_KRTKOV1</LocID>            <Text><![CDATA[The Biofarm is ours! Muff, did you know that ...]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_BIOFARM_PART4_DIGIN1</LocID>             <Text><![CDATA[What kind of a general are you? I have not heard anything from you about tactics or strategy, but you are like an encyclopedia whenever we speak about resources.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_BIOFARM_PART4_KRTKOV2</LocID>            <Text><![CDATA[Well, first of all, SHUT UP! Second, you just lost the opportunity to hear the fun fact of your lifetime! ]]></Text>  </GameDBLocalizedString>
+
+            <!-- Alloy -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_ALLOY_PART4_KRTKOV1</LocID>              <Text><![CDATA[Did you know that over 90% of Alloy is produced in Fossorian territories? ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_ALLOY_PART4_DIGIN1</LocID>               <Text><![CDATA[Yes, that's why the biodiversity of Fossorian territory is in such decline.  ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_ALLOY_PART4_KRTKOV2</LocID>              <Text><![CDATA[It's natural selection, you treehugger! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_ALLOY_PART4_DIGIN2</LocID>               <Text><![CDATA[Sigh.]]></Text>  </GameDBLocalizedString>
+
+            
+            <!-- Limerite mine guardians -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_QUARRY_GUARD_PART4_CUSTODIANS</LocID>  <Text><![CDATA[We do not want to fight you, but we cannot let anybody use the quarry. It could collapse the tunnels our brothers have been exploring in the East. ]]></Text>  </GameDBLocalizedString>
+
+            <!-- Limerite mine guardians Muff - unique dialog -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_QUARRY_GUARD_PART4_DIGIN</LocID>       <Text><![CDATA[We have no choice but to start mining. ]]></Text>  </GameDBLocalizedString>
+
+            <!-- Limerite mine guardians Furret - unique dialog   | JB: The first line is a DUPLICATE?-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_QUARRY_GUARD_PART4_KRTKOV</LocID>      <Text><![CDATA[That would be neat! The more of you that get buried under rubble, the less I'll have to kill. ]]></Text>  </GameDBLocalizedString>
+
+            
+            <!-- Melting Operation-traccks Furret - unique dialog -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_EARTHSHAKERS_TRACKS_KRTKOV1</LocID>    <Text><![CDATA[Tracks in the mud! Maybe Muff's Earthshakers are headed this way.]]></Text>  </GameDBLocalizedString>
+
+            <!-- Melting Operation-tracks Muff - unique dialog -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_EARTHSHAKERS_TRACKS_DIGIN</LocID>      <Text><![CDATA[Tracks of the missing Earthshakers. It seems they followed the orders and were heading north. ]]></Text>  </GameDBLocalizedString>
+
+            
+            <!-- Melting Operations Furret - unique dialog -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_EARTHSHAKERS_NARRATOR</LocID>              <Text><![CDATA[The missing Earthshakers! Cyberbugs must have driven them to the North! Mystery solved.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_EARTHSHAKERS_KRTKOV1</LocID>               <Text><![CDATA[Come on, boys! We must help them! We need those Earthshakers!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_EARTHSHAKER_DEFECTORS_3_DEFECTORS</LocID>  <Text><![CDATA[While we were waiting to be rescued, we at least confiscated all the revenue this mining operation produces!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_EARTHSHAKERS_REWARD</LocID>                <Text><![CDATA[Here it is!]]></Text>  </GameDBLocalizedString>
+
+            <!-- Melting Operation- Muff  - unique dialog -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_EARTHSHAKERS_DIGIN</LocID>           <Text><![CDATA[The Earthshakers must be saved!]]></Text>  </GameDBLocalizedString>
+
+            
+            <!-- Radiant collider -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_RADIANT_COLLIDer_KRTKOV1</LocID>         <Text><![CDATA[A Radiant Collider! Muff, you were a pilot; Radiant is also the primary power source for spacecraft, isn't it? ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_RADIANT_COLLIDER_DIGIN1</LocID>          <Text><![CDATA[Maybe for the newest models. We only had a primitive nuclear core that leaked radiation all over the ship. I never thought I would miss it so much.]]></Text>  </GameDBLocalizedString>
+
+            <!-- Taking over mines - rewards -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_LIM_QARRY_REWARD</LocID>                 <Text><![CDATA[Excellent! A large stock of Limerite is stored here!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_BIO_FARM_REWARD</LocID>                  <Text><![CDATA[Excellent! A large stock of biomass is stored here!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_ALLOY_MILL_REWARD</LocID>                <Text><![CDATA[Excellent! A large stock of Alloy is stored here!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_RADIANT_COLLIDER_REWARD</LocID>          <Text><![CDATA[Excellent! A large stock of Radiant is stored here!]]></Text>  </GameDBLocalizedString>
+
+            <!-- Reward for taking over all mines -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MINE_5_KRTOKOV1</LocID>                  <Text><![CDATA[That was the last one. Now that we have secured the resources, the iron foot of Fossorians will crash the bugs!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MINE_5_DIGIN1</LocID>                    <Text><![CDATA[How ... poetic? But do you have a real plan? ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MINE_5_KRTKOV2</LocID>                   <Text><![CDATA[Why don't we take everyone and charge?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_MINE_5_DIGIN2</LocID>                    <Text><![CDATA[Sigh. What a brilliant "plan," general.]]></Text>  </GameDBLocalizedString>
+
+            <!-- Warning for the player: pops up before entering the ruins if they haven't taken over enough mines  -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_TOOEARLY_5_DIGIN3</LocID>                <Text><![CDATA[The center of the ruins is not far, but first, we must secure a stable resource flow to the base! ]]></Text>  </GameDBLocalizedString>
+            
+            <!-- Furret sees a parked up spaceship -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SHIP_KRTKOV1</LocID>                     <Text><![CDATA[Look, Muff! A ship! I thought that the Cyberbugs lost all of them centuries ago. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SHIP_DIGIN1</LocID>                      <Text><![CDATA[Not all, but still ... I don't like this. If they risk one of their precious remaining ships, the stakes must be really, really high! ]]></Text>  </GameDBLocalizedString>
+
+            <!-- Cyberbug inquisitor dialog -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FINALE_SHIP_PROTECTOR1</LocID>           <Text><![CDATA[Fossorians! This is an act of war! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FINALE_SHIP_FURRET1</LocID>              <Text><![CDATA[We are an independent militia ... ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FINALE_SHIP_PROTECTOR2</LocID>           <Text><![CDATA[You fool nobody! Our sensors report high levels of radioactivity wherever you step. What doom do you carry? ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FINALE_SHIP_FURRET2</LocID>              <Text><![CDATA[Muff, what is he talking about?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FINALE_SHIP_MUFF</LocID>                 <Text><![CDATA[I don't know. Maybe it's the beacon's power source. It must be tremendously powerful to reach orbit. ]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FINAL_FIGHT_INQUISITOR1</LocID>          <Text><![CDATA[I am the Grand Zieregal. I watched my brothers die by your hand, yet duty-bound, I could not intervene. But now I have what I came for in my grasp. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FINAL_FIGHT_FURRET</LocID>               <Text><![CDATA[*Gulps*]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FINAL_FIGHT_INQUISITOR2</LocID>          <Text><![CDATA[Although my orders command me to flee at any cost, you now stand between me and my ship. The Allmother smiles upon me. Our clash is inevitable! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_FINAL_FIGHT_FURRET2</LocID>              <Text><![CDATA[I knew it could get bad, but if they sent a Zieregal ... Oh my!]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_INQUISITOR_DEFEATED_INQUISITOR1</LocID>  <Text><![CDATA[Allmother, I have failed you! Let my name be forgotten for eternity! ]]></Text>  </GameDBLocalizedString>
+
+
+            <!-- End Furret x Snif dialog -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_KRTKOV1</LocID>                  <Text><![CDATA[This is the place! I can almost taste the freedom! *Click* The beacon is ON. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_SNIF1</LocID>                    <Text><![CDATA[Congratulations, general! I wouldn't have guessed you two could make it so far! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_KRTKOV2</LocID>                  <Text><![CDATA[We've done everything you've asked us to do! We've earned our freedom! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_SNIF2</LocID>                    <Text><![CDATA[Yes, breathe as a free Fossorian for one last time! You fools, you carried NO BEACON! It is a NUKE, and you useful idiots have served your purpose. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_KRTKOV3</LocID>                  <Text><![CDATA[Damn you, Snif! The Supreme Leader will find ...]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_SNIF3</LocID>                    <Text><![CDATA[Oh, you poor overgrown baby! It was his idea all along! A shame you will never meet your idol. You would be surprised. So long! ... r actually not.]]></Text>  </GameDBLocalizedString>
+																															<!-- Not sure what "or actually not refers to here" -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_BEACON1</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_YELLOW>Beacon:</color> 3 MINUTES TO DETONATION. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_DIGIN1</LocID>                   <Text><![CDATA[We are doomed. There are no wires to cut and no interface except the START button! General? ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_KRTKOV4</LocID>                  <Text><![CDATA[I am no demolition expert! I am just a GENERAL OF PRODUCTION, a glorified clerk in a uniform who got led astray and ended up ears deep in ...]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_BEACON2</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_YELLOW>Beacon:</color> 2 MINUTES AND 30 SECONDS TO DETONATION. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END_KRTKOV5</LocID>                  <Text><![CDATA[WAIT! OF COURSE! THE SHIP! THE CYBERBUGS SHIP! YOU ARE A PILOT, MUFF! WE CAN FLY OFF!]]></Text>  </GameDBLocalizedString>
+
+            <!-- end text -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_THE_END</LocID>                          <Text>The ship with Furret and Muff on board flew straight for orbit as the nuclear blast destroyed the Primal ruins. For now, the explosion covered their tracks. They are considered dead by all sides. \n\nBut soon, our commanders will discover that their stolen ship carries some unexpected cargo.   </Text>  </GameDBLocalizedString>
+
+            <!-- Reaching the edge of the ruins -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_PRIMAL_RUINS_DIGIN1</LocID>              <Text><![CDATA[Look at those structures! Unmistakably, the edge of the Primals ruins. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_PRIMAL_RUINS_KRTKOV1</LocID>             <Text><![CDATA[The famous long-gone alien race that I know so little ...]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_PRIMAL_RUINS_DIGIN2</LocID>              <Text><![CDATA[They are fascinating! While we were bashing our heads with stone axes, they already had a type 2 civilization! Sentient artifacts, teleporters, and anti-gravity tech. Thousands of years after they disappeared, their technology still surpasses...]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_PRIMAL_RUINS_KRTKOV2</LocID>             <Text><![CDATA[... You did not let me finish! They're a race I know so little about, and I'd prefer it stayed that way. ]]></Text>  </GameDBLocalizedString>
+
+            <!--__________________________________________________________________________________________________________________________________________________________________________________________________________-->
+            <!-- ______________________________________________________OBJECTIVES_________________________________________________________________________________________________________________________________________-->
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_MAIN</LocID>                 <Text>Carry the radio beacon to enemy territory.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_REINF1_PART2</LocID>         <Text>Visit rally points 0/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_REINF2_PART2</LocID>         <Text>Visit rally points 1/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_REINF3_PART2</LocID>         <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Visit rally points 2/2 - FINISHED</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_BASE_PART2</LocID>           <Text>Reach the base</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_RUINS_ENTER_PART2</LocID>    <Text>Enter the Primal ruins</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_RUINS_ENTER_PART1</LocID>    <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Enter the Primal ruins - Finished</color>]]> </Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_MINE_0_PART3</LocID>         <Text>Secure resource flow 0/4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_MINE_1_PART3</LocID>         <Text>Secure resource flow 1/4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_MINE_2_PART3</LocID>         <Text>Secure resource flow 2/4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_MINE_3_PART3</LocID>         <Text>Secure resource flow 3/4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_MINE_4_PART3</LocID>         <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Secure resource flow 4/4 - FINISHED</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_ACTIVATE_BEACON</LocID>      <Text>Activate the radio beacon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_ACTIVATE_BEACON_DONE</LocID> <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Activate the radio beacon - FINISHED</color>]]></Text>  </GameDBLocalizedString>
+
+            <!-- Earthshakers - sec quest-->
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_SEC_EARTHSHAKERS</LocID>     <Text>Find the missing scouting party</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL1_OBJECTIVE_SEC_EARTHSHAKERS1</LocID>    <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Find the missing scouting party - FINISHED</color>]]></Text>  </GameDBLocalizedString>
+
+            <!--DIALOGUES__SECONDARY-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SEC_BROTHEL_PART2</LocID>                <Text><![CDATA[Yep, that was ... Whoo! ]]></Text>  </GameDBLocalizedString>
+
+    
+            <!-- Dialog with temple guards (west)  -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_TEMPLEGUARD_GUARD1</LocID>               <Text><![CDATA[This land is under the protection of the Children of the Source. Leave now, and you shall live! I swear on my honor.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_TEMPLEGUARD_KRTKOV1</LocID>              <Text><![CDATA[I agree, we are leaving now! On my honor! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_TEMPLEGUARD_KRTKOV2</LocID>              <Text><![CDATA[Listen, boys, as soon as they turn their back to us, we will use the moment of surprise! ]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_TEMPLEGUARD_GUARD2</LocID>               <Text><![CDATA[This land is under the protection of the Children of the Source. Leave now, and you shall live! I swear on my honor.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_TEMPLEGUARD_DIGIN1</LocID>               <Text><![CDATA[Sadly, this is not how things will go, my friend.]]></Text>  </GameDBLocalizedString>
+
+            <!--  Knight dialog   -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_KNIGHTS_KNIGHT1</LocID>                  <Text><![CDATA[Fossorian! Those are not the banners of your Supreme Leader! Whom do you serve?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_KNIGHTS_KRTKOV1</LocID>                  <Text><![CDATA[We have no master. You attacked this land, and you will suffer the consequences! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_KNIGHTS_KNIGHT2</LocID>                  <Text><![CDATA[We attacked no one! This land is not a part of any territory! You're just common thieves! And the Allmother will claim your lives! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_KNIGHTS_KRTKOV2</LocID>                  <Text><![CDATA[Why do we even bother talking to them?!]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_KNIGHTS_KNIGHT3</LocID>                  <Text><![CDATA[Fossorian! Those are not the banners of your Supreme Leader! Whom do you serve?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_KNIGHTS_DIGIN1</LocID>                   <Text><![CDATA[We are an independent militia! We defend the Fossorian people living in this territory! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_KNIGHTS_KNIGHT4</LocID>                  <Text><![CDATA[Liar! Your people appeared only after we claimed the ruins in the East! Go home, or face the Allmother's wrath! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_KNIGHTS_DIGIN2</LocID>                   <Text><![CDATA[Well, that escalated quickly! ]]></Text>  </GameDBLocalizedString>
+
+            <!-- Zieregal dialog-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_ZIEREGALS_ZIEREGAL1</LocID>              <Text><![CDATA[Your adventure ends here! This mission may decide the future of our whole order! Our sacrifice means nothing in comparison! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_ZIEREGALS_KRTKOV1</LocID>                <Text><![CDATA[I'm starting to wonder what they are looking for in the ruins. ]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_ZIEREGALS_ZIEREGAL2</LocID>              <Text><![CDATA[Your adventure ends here! This mission may decide the future of our whole order! Our sacrifice means nothing in comparison! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_ZIEREGALS_DIGIN1</LocID>                 <Text><![CDATA[I guess command knows much more about what's hidden in the ruins.]]></Text>  </GameDBLocalizedString>
+
+            <!--BASE-->
+            <!--Slave camp-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SEC_SLAVE_PART4_DIGIN</LocID>            <Text><![CDATA[Slavers. I would gladly put an end to their foul business! ]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SEC_SLAVE_PART5_KRTKOV</LocID>           <Text><![CDATA[A Slavers Camp. Let's buy some slaves! It could be an excellent boost to our army. ]]></Text>  </GameDBLocalizedString>
+            
+            <!-- Abandoned Limerite quary -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SEC_QUARRY_PART4_KRTKOV1</LocID>         <Text><![CDATA[An Abandoned Quarry, but nearly all the equipment is still intact. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SEC_QUARRY_PART4_DIGIN1</LocID>          <Text><![CDATA[Do we truly need more Limerite? ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL1_SEC_QUARRY_PART4_KRTKOV2</LocID>         <Text><![CDATA[We can always sell the surplus. ]]></Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
