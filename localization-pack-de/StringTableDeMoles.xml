@@ -1,0 +1,136 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_MOLES">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>FACTION_MOLES</LocID>                               <Text>Wühler</Text></GameDBLocalizedString>
+                                                                                                  
+            <!--Unit names-->                                                                     
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT</LocID>                          <Text>Rattling-Rabauke</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_UPG</LocID>                      <Text>Rattling-Schütze</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER</LocID>                       <Text>Fleischling</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_UPG</LocID>                   <Text>Fleischling-Häcksler</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER</LocID>                           <Text>Hammeride</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_UPG</LocID>                       <Text>Hammeriden-Ehrengarde</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO</LocID>                          <Text>Erdrüttler</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_UPG</LocID>                      <Text>Erdrüttler Modell II</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_PROJECTILE</LocID>               <Text>Erdrüttler-Torpedo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM</LocID>                             <Text>Tunnelwurm</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_UPG</LocID>                         <Text>Panzerwurm</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER</LocID>                      <Text>Kommissar-Kadett</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_UPG</LocID>                  <Text>Kommissar-Veteran </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH</LocID>                             <Text>Befreier</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_UPG</LocID>                         <Text>Massenbefreier</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WAR_MACHINE_BLAST_WAVE_CANNON</LocID>                 <Text>Schockwellenkanone</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WAR_MACHINE_BLAST_WAVE_CANNON_DESCRIPTION</LocID>     <Text><![CDATA[Feuert einmal pro Runde mächtige Schockwellen ab, die Schaden verursachen und Einheiten aus dem Epizentrum verdrängen. Äußerst effektiv gegen Konstruktionen.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_TORPEDO</LocID>                        <Text>Torpedo</Text></GameDBLocalizedString>
+
+            <!--Unit DESCRIPTIONs. These need to be in sync with descriptions of buildings that produce these units - see StringTableEnMolesBases.xml-->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_DESCRIPTION</LocID>              <Text>Ihre jämmerliche Ausrüstung ist mit dem Vertrauen der Befehlshaber in ihre Kampffähigkeiten vergleichbar. Es gibt sogar einen alten Armeewitz, der mit folgender Frage beginnt: „Welcher organische Dünger wird von Wühlern besonders häufig zur Wiederaufbereitung der Schlachtfelder eingesetzt?“ Nun, die Antwort kannst du dir vermutlich schon ausmalen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_UPG_DESCRIPTION</LocID>          <Text>Die Rattling-Schützen sind das Beste, was in den Slums zu finden ist – und der wahre Grund, weshalb diese Halbblüter in der Kolonie toleriert werden. In den Slums regieren Gewalt, Drogen und ein traditioneller Voodoo-Kult, vermischt mit verdrehter Wühler-Propaganda. Eine Woche in einem derartigen Höllenloch macht jeden Krieger irre gut – oder einfach nur irre.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_DESCRIPTION</LocID>           <Text>Die Fleischling-Tradition stammt ursprünglich von den Kriegern der alten Zeiten, die im blutgetränkten Sand der Arenen um Ruhm und Ehre kämpften. Eine nette Geschichte, die nichts als bloße Propaganda ist. Die Wahrheit liegt in den unterirdischen Forschungskomplexen voller toter Wissenschaftler und schrecklich mutierter Testsubjekte begraben. Hoffen wir, dass diese „Wahrheit“ nie aus ihrem Gefängnis ausbrechen kann.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_UPG_DESCRIPTION</LocID>       <Text>Mit dem richtigen Training und einem ordentlichen Ernährungsplan kann jeder so stark wie ein Fleischling werden! Inspirierend, nicht wahr? Was ein schlanker Wühler nicht sieht, sind die unzähligen Nadeln, die einen Steroid-Cocktail in jeden einzelnen Muskel des Körpers jagen. Na dann, auf Nimmerwiedersehen Schwäche, Lebwohl Angst, tschüss Hoden, wir sehen u– ... warte, was?!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_DESCRIPTION</LocID>               <Text>Nur einer von zehn Adepten überlebt die umfassende kybernetische Augmentation, die erforderlich ist, um Hammeriden-Panzerung bedienen zu können. Sie denken, dass sie von der Panzerung „auserwählt“ wurden ... Wenn man sich allerdings die Hygienebedingungen in den Werkstätten so ansieht, möchte man meinen, dass allein ihr starkes Immunsystem dafür verantwortlich gewesen sein muss.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_UPG_DESCRIPTION</LocID>           <Text>Der Raketenhammer ist eine mächtige Waffe. Hammeriden verbringen viele Jahre mit dem Studium des „Weg des Hammers“. Aber wenn mal eilig frisches Blut benötigt wird, ist es eher ein „Hey, hier ist dein neuer Hammer, mit dieser Taste wird die Schubdüse gestartet, bitte wisch das Blut des Vorbesitzers einfach ab“-Schnellkurs.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_DESCRIPTION</LocID>              <Text>Erdrüttler-Bediener bezeichnen sich gegenseitig auch als „Himmelfahrer“. Falls du dich fragst, warum dies so ist, solltest du dich daran erinnern, dass sie auf einem Riesenhaufen Sprengstoff sitzen, der kaum wirksam gegen spontane Entzündung gesichert ist. Sie sind entweder ungeheuer tapfer oder ganz einfach nur unglaublich dämlich. Ich schätze, das hängt davon ab, wie nahe man ihnen am Abschusstag kommt. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_UPG_DESCRIPTION</LocID>          <Text>Nach vielen erfolglosen Jahren hat das Projekt „Aufgewertete Erdrüttler“ schließlich das Interesse des Oberanführers geweckt. Als die Köpfe zu rollen begannen, erzielte das Projektteam einen unerwarteten Durchbruch. Die Bauweise des Modell II verstärkte nur einen einzigen Aspekt: die Feuerkraft! </Text></GameDBLocalizedString>
+
+            <!-- Chris I've "edited" the next two but need clarification on the context. -->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_DESCRIPTION</LocID>                 <Text>Für Tunnelwürmer bedeutet der Tod keineswegs das Ende der Dienstzeit. Nein, nein, wir reden hier nicht von „Urowurmos“ und diesem Jenseits-Unsinn, der von den sternhagelvollen Hexendoktoren in den Rattling-Slums gepredigt wird. Wir reden über diesen seltsamen Kebab, der dir neulich in der örtlichen Kantine serviert wurde.</Text></GameDBLocalizedString>
+            
+            <!-- JB: Chris accidentally deleted this, so still TODO :) -->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_UPG_DESCRIPTION</LocID>             <Text>In prähistorischen Zeiten wurde die gesamte Rasse der Wühler beinahe von diesen gefräßigen Räubern ausgerottet. Heute sind Panzerwürmer das Ergebnis sorgsamer Zucht und Neuro-Kastration. Doch nach wie vor können weder Beruhigungsmittel noch ein grausamer Zähmungsprozess die fleischlustigen Instinkte dieser lebendigen Waffen gänzlich auslöschen.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_DESCRIPTION</LocID>          <Text>Die Kommissare sind ideologisch dermaßen besessen, dass sie selbst ein planetares Bombardement ihrer eigenen Truppen als großen Sieg bezeichnen könnten. Doch vielleicht gebührt ihnen ja ein wenig Anerkennung dafür, dass sie die Zahl der Deserteure, Feiglinge und Faulenzer reduzieren konnten, indem sie Truppen mit ebendiesen Eigenschaften schlicht vernichteten. Ein weiterer klarer Sieg, oder etwa nicht? </Text></GameDBLocalizedString>
+            <!-- Chris I've "edited" the two above but need clarification on the context. -->       
+	        <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_UPG_DESCRIPTION</LocID>      <Text>Sobald die Reihen der Kommissare von den lauten, selbstmörderischen Zeitgenossen bereinigt sind (hauptsächlich durch Eigenbeschuss), erkennen überraschte Kommandanten, dass die Verbleibenden im Kampf eine Menge Schwerarbeit leisten – ganz ohne große Heldentaten.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_DESCRIPTION</LocID>                 <Text>Jeder weiß, dass sich der Oberanführer selbst gerne als Befreier sieht. Alle anderen, die es ihm gleichtaten, sind verschwunden (gemeinsam mit ihren Freunden und Familien). Selbst der Goldfisch im Teambüro ist weg und der gesamte Technikflügel wurde obendrein auch noch abgerissen.  </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_UPG_DESCRIPTION</LocID>             <Text>Die Mechaniker haben ein Sprichwort: „Jede Maschine raucht, wenn man sie nur falsch genug bedient“. Doch diesmal ist es tatsächlich andersrum. Das Giftgas, das von einem Massenbefreier produziert wird, ist auf dem Schlachtfeld ausdrücklich ERWÜNSCHT. Bevorzugt in den Lungen der Feinde, klar.</Text></GameDBLocalizedString>
+            
+            <!--Unit special abilities-->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_UPG_PASSIVE_INFO_DESCRIPTION</LocID> <Text>Erlangt einen Distanzangriff.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_PASSIVE_INFO_DESCRIPTION</LocID>  <Text>Verursacht eine Blutung.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_BLINDPILER_SPECIAL</LocID>             <Text>Verwandelt sich in eine unkontrollierbare Bestie, die den nächstgelegenen Feind zweimal attackiert.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_PASSIVE_INFO_DESCRIPTION</LocID>  <Text>Kann bis zu 3 nebeneinanderstehende Feinde angreifen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_HAMMER_SPECIAL</LocID>                 <Text>Eine seismische Welle, die drei feindliche Reihen trifft.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_PASSIVE_INFO_DESCRIPTION</LocID>      <Text><![CDATA[Feuert einen Torpedo ab, der am Ende der Runde explodiert und Brandschaden verursacht. <color=SOTS_COLOR_GOLD>Kein Eigenbeschuss</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_UPG_PASSIVE_INFO_DESCRIPTION</LocID>  <Text><![CDATA[Feuert zwei Torpedos ab, die am Ende der Runde explodieren und Brandschaden verursachen. <color=SOTS_COLOR_GOLD>Kein Eigenbeschuss</color>.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_UPG_PASSIVE_INFO_DESCRIPTION</LocID>     <Text>Verbirgt sich am Beginn des Zugs im Untergrund.\nMuss nach drei Zügen wieder an die Oberfläche zurückkehren.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_PASSIVE_INFO_DESCRIPTION</LocID>  <Text>Kann Hindernisse überspringen.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_PASSIVE_INFO_DESCRIPTION</LocID>        <Text>Kann bis zu 3 nebeneinanderstehende Feinde angreifen.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_BEASTMASTER_SPECIAL</LocID>            <Text>Schleudert einen explodierenden Speer.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_MECH_SPECIAL</LocID>                   <Text>Feuert giftige Geschosse in alle Richtungen ab.</Text>  </GameDBLocalizedString>
+
+            <!--Commander's names-->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_1</LocID>                                 <Text>Maj. Skaurov</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_2</LocID>                                 <Text>Kommissar Snif</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_3</LocID>                                 <Text>Hak „die Ratte“</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_4</LocID>                                 <Text>Agent Molsson</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_5</LocID>                                 <Text>Sgt. Moltair</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_6</LocID>                                 <Text>Steuereintreiber Tott</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_7</LocID>                                 <Text>Lt. Moletoff</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_8</LocID>                                 <Text>Capt. Holester</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_9</LocID>                                 <Text>Gen. Truda </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_10</LocID>                                <Text>Bulletproof Beni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_11</LocID>                                <Text>Long Molly</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_12</LocID>                                <Text>Oberanführer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_13</LocID>                                <Text>Cmdr. Muff</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_14</LocID>                                <Text>Gen. Furret</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_15</LocID>                                <Text>Relikt</Text>  </GameDBLocalizedString>
+
+            <!-- ======================== Commander's BIOs ======================== -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_1_DESCRIPTION</LocID>                     <Text>Skaurovs Gesicht gleicht einem Schlachtfeld. Schreckliche Narben sind ein stummes Zeugnis langer, gründlicher Folter. Manche sagen, er war einst direkt dem Oberanführer unterstellt und während der Revolution gar ein Kindheitsfreund gewesen. Doch nur eine Sache ist gewiss: Alle großen Namen der Revolution wurden kurz nach deren Erfolg wegen Verrats verurteilt – nur Skaurov nicht.</Text>  </GameDBLocalizedString>
+            
+            <!-- For Chris: texts ready for proofreading 2024-01 START -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_2_DESCRIPTION</LocID>                     <Text>Der selbsternannte Kommandant der Spezialkräfte ist arrogant wie ein Rockstar. Mit seiner perfekt geschneiderten Uniform und der schwarzen Brille wurde er schneller zum Gesicht auf den Propaganda-Postern, ehe man ihn beseitigen konnte. Gegenwärtig ist er unantastbar, doch er selbst weiß gut genug, dass sein Schicksal buchstäblich auf Messers Schneide steht. </Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-01 END -->
+            
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_3_DESCRIPTION</LocID>                     <Text>Ein berüchtigter Söldner. Bis zum ersten Anzeichen für Probleme ist er der loyalste Kommandant überhaupt. Einen Augenblick später entkleidet er bereits eine Leiche eines feindlichen Offiziers und läuft zum Feind über.\n \nWenngleich er bei vielen anderen Kriegsherren unbeliebt ist, so ist er dennoch fixer Bestandteil der meisten Geheimoperationen der Wühler.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_4_DESCRIPTION</LocID>                     <Text>Wenn man die Persönlichkeit von Judas Ischariot und die Haut eines Chamäleons kombiniert, erhält man einen Molsson. In den letzten Monate hat er mehr Revolutionen entfacht als das Pamphlet dieses bärtigen Typen im Sommer 1848. Alsdann liefert sie allesamt wegen Hochverrats aus. Agent Molsson hält sich selbst für einen Meister der Verkleidungen und einen redegewandten Schürzenjäger.\n\nFür seine Spezies ungewöhnlich ist die Vorliebe für ein von Menschenhand gebrautes Getränk namens Martini. „Geschüttelt, nicht gerührt“.</Text>  </GameDBLocalizedString>  
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_5_DESCRIPTION</LocID>                     <Text>Ein Panzerhirn mit Muskelverstand – und doch könnten sich unsere heroischen Befreier-Brigaden keinen besseren Anführer wünschen. Sgt. Moltairs Siege gleichem dem Stoff, aus dem Legenden sind (und laut Enzyklopädie basieren viele Legenden tatsächlich auf einem wahren Kernelement). Die Berichte vom Schlachtfeld überschlagen sich vor lauter Lob über seine Errungenschaften! 27 Siege in 22 Schlachten. Was für ein Maulwurf!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_6_DESCRIPTION</LocID>                     <Text>Niemand weiß genau, welchen Gefallen Tott dem Oberanführer getan haben muss, um einen so illustren Posten zu erhalten. Doch es ist offensichtlich, dass sein Einfluss auf die Wühlerkolonien stetig zunahm, seit er in den Rang eines Steuereintreibers befördert wurde. Sein ausufernder Lebensstil voller schicker Uniformen und dekadenter Partys riecht förmlich nach Steuerhinterziehung im epischen Ausmaß ... Und doch findet sich niemand, der eine Aussage gegen ihn wagen würde – wohl, weil die Betroffenen entweder selbst auf den Partys verkehren oder dies unbedingt anstreben.</Text></GameDBLocalizedString> <!-- In any other circumstance, he would be reported by some "true-hearted" party member, but it seems that all VIPs are regulars at his little banquets or just hopes that they will be soon invited and don't want to ruin their chances for the golden ticket by snitching. -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_7_DESCRIPTION</LocID>                     <Text>Ein ehemaliger heldenhafter Partisanenkommandant während der Nemek-Rebellion.\n\nDie Nemek war das einzige landwirtschaftliche Schiff der gesamten Wühlerflotte. Die Kommandanten des Schiffs wollten diese Tatsache ausnutzen, indem sie einen der Admirale zum neuen Oberanführer machten. Dies führte zu einer zwei Wochen andauernden Schlacht in den Anbautunneln des Schiffs, die schließlich zu dessen vollständiger Zerstörung durch Moletoffs Kommandos führte. Der Rest der Flotte starb in der Folge beinahe am Hunger, doch glücklicherweise war das Siren-System nicht weit. Zu seinem eigenen Erstaunen wurde Moletoff nicht hingerichtet, sondern in den Rang eines Lieutenants befördert. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_8_DESCRIPTION</LocID>                     <Text>Während des ersten Konflikts zwischen den Wühlern und den VNSS befehligte er das berühmt-berüchtigte Schlachtschiff „Mächtige Faust“ und wurde selbst zur Ikone, da er den ersten dokumentierten Raumschiff-Rammversuch des 24. Jahrhunderts unternahm. Jetzt ist er ein Kapitän ohne Schiff. Die anderen Kriegsherren machen sich über ihn lustig, doch tatsächlich war er es, der eine bedeutende Schwachstelle im Abwehrring der VNSS-Schiffe entdeckte – ihre Unfähigkeit, Objekte mit langsamer Geschwindigkeit aufzuhalten.</Text>  </GameDBLocalizedString>
+<!--            <GameDBLocalizedString>         <LocID>HERO_MOLE_8_DESCRIPTION</LocID>                     <Text>One of the leaders of the Nemek rebellion. A message about Holester's death was published only the moment before the ship's destruction. It was fabricated and meant to lower the morale of the rebels but in the chaos of the rebellion aftermath, nobody remembered and death was the best point for starting a new life.        </Text>  </GameDBLocalizedString>-->
+            
+            <!-- For Chris: texts ready for proofreading 2024-01 START -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_9_DESCRIPTION</LocID>                     <Text>Der einzige echte Offizier, der sich der Rebellion angeschlossen und trotzdem seinen Rang ... und seinen Kopf behalten konnte.\n\nDer Unterschied zu anderen ist sofort ersichtlich, da dieser Absolvent der Militärakademie in der Regel eine intellektuellere strategische Herangehensweise an den Tag legt als die ehemaligen Klempner in grüner Uniform, die normalerweise nach dem Prinzip „Wir schicken einfach immer mehr Maulwürfe rein und sehen, was passiert!“ handeln.</Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-01 END -->
+            
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_10_DESCRIPTION</LocID>                    <Text>Gerüchten zufolge wurde Beni mindestens dreimal von den Wühler-Kriegsherren gefangen genommen und vor ein Erschießungskommando gestellt. Dennoch schafft er es irgendwie, immer noch frei und unversehrt zu existieren. Es gibt allerdings ein weiteres, völlig unzusammenhängendes Gerücht über fünf identische Zwillingsbrüder, die angeblich in den Slums von Alt-Fossoria geboren wurden ...\n\nViele glauben, dass auch das vierte Erschießungskommando scheitern wird. Das fünfte hingegen hat tatsächlich recht gute Erfolgschancen.</Text>  </GameDBLocalizedString>
+
+            <!-- For Chris: texts ready for proofreading 2024-01 START -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_11_DESCRIPTION</LocID>                    <Text>Ein ehemaliger Kinderstar, für ihre wunderschönen Gesichtszüge, die dem wühlerischen Schönheitsideal entsprechen, weithin bekannt.\n\nAls sie sich den Hammeriden anschloss, wurde dies als Macke einer verwöhnten Prominenten abgetan. Niemand konnte ahnen, dass die psychotische Irre, die von den Studioproduzenten herangezüchtet worden war, eines Tages die nächste Oberkommandantin werden würde. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_12_DESCRIPTION</LocID>                    <Text>Die Tradition will es, dass der Oberanführer auf eine ruhmreiche Vergangenheit zurückblickt – wenngleich diese meist bloß erfunden ist.\n\nDas Wort „meist“ spielt an dieser Stelle eine wichtige Rolle, da wir es in diesem Fall nicht mit dem fetten, verwöhnten Kind einer degenerierten Dynastie zu tun haben. Dieses fette, verwöhnte degenerierte Kind wurde nämlich direkt in den Fleischwolf der größten und kühnsten Revolution in der Geschichte der Wühler geworfen und ging siegreich daraus hervor. Er ist gefährlich. Vielleicht der gefährlichste Wühler von allen.</Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-01 END -->
+
+            <!-- For Chris: texts ready for proofreading 2024-03 START -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_13_DESCRIPTION</LocID>                    <Text>Ein Flieger-Ass der Nemek-Rebellion. Er steuerte so gut wie jeden Schiffstyp der Wühler-Flotte und zerstörte dabei unzählige andere Schiffe. Wie all die erfolglosen Rebellen versuchte auch er, sich unerkannt unters Volk zu mischen. Doch sein idealistischer Charakter ließ ihn schnell auffliegen. Er wurde erkannt und in die Gefängniskolonie am Rande des Wühler-Territoriums geschickt. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_14_DESCRIPTION</LocID>                    <Text>Wie die Revolution viele Personen höhere Ränge erklimmen ließ, die für diese Rollen gänzlich ungeeignet waren, so kehrte die erste große Säuberung den Prozess um. Viele der Unantastbaren lernten die Grenzen ihrer Immunität schnell kennen. Zwar war der Korruptionsskandal, der Furret schließlich den Boden unter den Füßen wegzog, teilweise konstruiert und es schwimmen zweifellos größere Fische im Teich des schmutzigen Geldes ... doch am Beginn einer solchen Geschichte stehen stets Bauernopfer.   </Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-03 END -->
+            
+            <!--Single handedly kindled a Revolution at the old Fossoria and led the biggest mass exodus in the Fossorian history.-->
+            <!--Though carefuly watching her every step, Supreme Leader would be stupid to waste a sutch a gifted strategist.-->
+            <!--to keep appointed rank through all the way from the homeworld instead of being decorated in the hasty chaos of the escape from the Old Fossoria.-->
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

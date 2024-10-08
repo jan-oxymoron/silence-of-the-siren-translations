@@ -1,0 +1,45 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_02">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>        <LocID>HERO_MOLE_8_DESCRIPTION_V2</LocID>                                      <Text>Holesters Beteiligung am Nemek-Aufstand veranlasste den Oberanführer dazu, eine falsche Todesnachricht über ihn zu verlautbaren. Damit wollte er die Moral der Rebellen schwächen, rettete aber damit überraschenderweise Holester das Leben. Im Chaos nach dem Ende der Rebellion konnte niemand mehr Wahrheit und Propaganda unterscheiden. „Der Tod eignet sich bestens dazu, ein neues Leben zu beginnen“ wurde fortan zu Holesters Lebensmotto.  </Text>  </GameDBLocalizedString>
+
+            <!--MAP Bridges too far - translate by google-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_BRIDGES_TOO_FAR_BLOCKED_PATH</LocID>                         <Text>Der Weg ist versperrt.</Text>  </GameDBLocalizedString>
+            
+            <!--New descriptions with new IDs-->
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_EXTRA_RATIONS_DESCRIPTION_V2</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_GOLD>Steigert die Moral</color> bis zum <color=SOTS_COLOR_GOLD>Ende</color> der <color=SOTS_COLOR_RED>nächsten Schlacht</color> um <color=SOTS_COLOR_GOLD>5</color>. Diese Art von Verbrauchsgegenstand kann nur <color=SOTS_COLOR_GOLD>3-mal</color> <color=SOTS_COLOR_GOLD>eingesetzt</color> werden.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_V2</LocID>            <Text>Gib dich als dein schwächster Kommandant aus!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL2_V2</LocID>       <Text>Täusche eigene Schwäche vor, damit andere dich angreifen!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_SWITCH_TO_RATLING_PROJECTS_V2</LocID>               <Text><![CDATA[<color=SOTS_COLOR_GOLD>Klicke jetzt</color> auf den <color=SOTS_COLOR_GOLD>Rattling-Slum</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_OUT_OFF_RATLING_PROJECTS_V2</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_GOLD>Verlasse</color> den <color=SOTS_COLOR_GOLD>Rattling-Slum</color>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_BLOODTHIRSTY_SOUL_DESCRIPTION_V2</LocID>                    <Text>Ein Artefakt.\nJedes Mal, wenn eine Einheit im Gefecht getötet wird, kann der Kommandant seine Fähigkeiten erneut einsetzen.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_REINFORCEMENT_TEXT_V2</LocID>                         <Text><![CDATA[Wähle einen verfügbaren Einheitentyp! Einheiten, die in all deinen Basen verfügbar und keinem stationierten Kommandanten zugewiesen sind, werden zum Kampf aufgerufen!\nDu kannst nur Einheiten mit einer Stufe herbeirufen, die der <color=SOTS_COLOR_GOLD>Fähigkeitsstärke</color> deines Kommandanten entspricht.]]></Text>  </GameDBLocalizedString>
+            
+            <!-- Updated lines, can't change IDs here (we can delete the original lines after translation) -->
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BARBARIAN_HORDE_3</LocID>                              <Text>„Stärkere“ Armee: Führt selbst Kommandanten mit dem Aufklärer-Skill in die Irre.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EASY_PREY_3</LocID>                                    <Text>„Schwächere“ Armee: Führt selbst Kommandanten mit dem Aufklärer-Skill in die Irre.</Text></GameDBLocalizedString>
+
+            <!-- Shared names for common objects on all battlefields -->
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_LOOPHOLE</LocID>                          <Text>Energieschild</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_GATE</LocID>                              <Text>Tor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_WALL</LocID>                              <Text>Mauer</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_WALL_UPG</LocID>                          <Text>Verstärkte Mauer</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NO_FREE_PLAYER_BASE_ON_MAP_LAYER</LocID>         <Text>Keine Basis zur Evakuierung auf dieser Kartenebene.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EARLY_ACCESS_HEADING</LocID>                                         <Text>Early Access</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

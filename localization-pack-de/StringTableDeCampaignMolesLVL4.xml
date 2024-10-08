@@ -1,0 +1,241 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_CAMPAIGN_MOLES_LVL_4">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- OBJECTIVES -->
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_WAY_ACROSS</LocID>             <Text>Finde eine Weg auf die andere Seite</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_WAY_ACROSS_DONE</LocID>        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Finde eine Weg auf die andere Seite – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_ORBITAL_TELEPORT</LocID>       <Text>Betritt den Orbital-Teleporter mit General Furret</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_ORBITAL_TELEPORT_DONE</LocID>  <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Betritt den Orbital-Teleporter mit General Furret – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_BRIDGES</LocID>                <Text>Reaktiviere die Brücke</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_BRIDGES_DONE</LocID>           <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Reaktiviere die Brücke – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_AIRDEFENCE</LocID>             <Text>Sichere den Luftraum 0/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_AIRDEFENCE_0_1</LocID>         <Text>Sichere den Luftraum 1/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_AIRDEFENCE_1_1</LocID>         <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Sichere den Luftraum 2/2 – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_SNIFF_END</LocID>              <Text><![CDATA[Finde einen Weg zum <color=SOTS_COLOR_RED>OBERANFÜHRER</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL4_SNIFF_END_1</LocID>            <Text><![CDATA[Besiege <color=SOTS_COLOR_YELLOW>Snif</color>]]></Text>  </GameDBLocalizedString>
+
+
+            <!-- DIALOGS -->
+            <!-- Start -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_FURRET_1</LocID>                   <Text>Hör auf, davonzurennen, du Feigling!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_SNIF_1</LocID>                     <Text>Schnell, schließe die Brücke, Generalin Truda!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_GATEKEEPER_1</LocID>               <Text>Jawohl, Kommissar!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_FURRET_2</LocID>                   <Text>Es ist nur eine Frage der Zeit, bis ich einen Weg auf die andere Seite finde!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_SNIF_3</LocID>                     <Text>Die Brücke wird für dich geschlossen bleiben, bis ich unsere Hauptstreitmacht versammelt habe, also halte die Stellung auf deiner Seite! In der Zwischenzeit werden dir meine Söldner Gesellschaft leisten. Du bist nicht der Einzige, der sich die Hilfe von kurznasigen Fremden leisten kann. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_FURRET_3</LocID>                   <Text>Muff, ist unser Schiff schon in der Luft? Wir könnten zum anderen Ufer fliegen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_MUFF_1</LocID>                     <Text>Ja, ist es, aber ich kann dort nicht landen. Die Luftabwehr ihrer Basis würde kurzen Prozess mit mir machen. Du musst einen anderen Weg finden. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_MUFF_3</LocID>                     <Text>Sobald du den Brückenkopf gesichert hast, werde ich mit der vereinten Armee aller unserer Territorien landen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_FURRET_4</LocID>                   <Text>Ich werde mich bei dir melden, sobald ich die Luftabwehr ausgeschaltet habe. Du solltest außerdem den interplanetaren Raum im Auge behalten. Das Fehlen der Wühler-Flotte bereitet mir große Sorgen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_MUFF_4</LocID>                     <Text>Das werde ich, aber im Moment haben wir vor Ort dringendere Angelegenheiten zu erledigen. An unserem Ufer befindet sich eine Basis der Monarchenflotte. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_FURRET_5</LocID>                   <Text>Das müssen die Söldner sein, von denen Snif gesprochen hat. </Text>  </GameDBLocalizedString>
+
+            <!-- turret recommendation in the Valley of death-->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_START_TURRET_RECOM_1</LocID>             <Text>Sie können die Brücke jederzeit aktivieren. Ich könnte hier einen Turm oder einen Außenposten errichten, um die Straße zu bewachen, nur für den Fall, dass sie einen Saboteur schicken.</Text>  </GameDBLocalizedString>
+
+
+            <!-- Relic day two -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAY_ACROSS_RELIC_1</LocID>               <Text>Träger! Ich spüre Adern voller Energie hinter dem Schleier. Es gibt keinen physischen Weg auf die andere Seite, außer der uralten Maschine der Übertragung.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAY_ACROSS_FURRET_1</LocID>              <Text>Übertragung ... was? Sieht für mich wie ein alter Orbital-Teleporter aus, aber ... Woher weißt du das?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAY_ACROSS_RELIC_2</LocID>               <Text>Die lokale Psychosphäre wurde durch die Emotionen all diese Kämpfe erfüllt. Jetzt ist es einfach, sich im Informationsfeld zu bewegen, das alle Primal-Schöpfungen verbindet. Es ist wie ein lebendiges Netz mit Tausenden von Fäden aus reinem Licht. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAY_ACROSS_RELIC_3</LocID>               <Text>Ohne die „Sicht“ wirkt die Maschine kaputt, doch meine Berührung wird sie erwecken. Und jetzt aus dem Weg!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAY_ACROSS_FURRET_2</LocID>              <Text>AUS DEM WEG? Ich bin keine Marionette! Ich entscheide selbst! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAY_ACROSS_RELIC_4</LocID>               <Text>Dann stoß mich zur Seite ... wenn du kannst!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAY_ACROSS_FURRET_3</LocID>              <Text>Kein Grund zur Aufregung! Nach all der Zeit, in der ich dich wie Ballast herumgeschleppt habe, bist du endlich zu etwas nutze!</Text>  </GameDBLocalizedString>
+
+            <!-- Broken orbital teleport -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_SOUTHERN_GATE_1</LocID>                  <Text>Dies ist die Straße, über die wir in die Zentralgebiete gelangt sind. Wir müssen unseren Teil beitragen, während der Admiral die Truppen dort unten versammelt.  </Text>  </GameDBLocalizedString>
+
+
+            <!-- Broken orbital teleport -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_ORBITAL_TELEPORT_RANDOM_H</LocID>        <Text>Das Ding ist kaputt ... Es würde mich in Millionen Stücke zerreißen, wenn ich hineingehen würde.</Text>  </GameDBLocalizedString>
+
+            <!-- Broken orbital teleport -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_ORBITAL_TELEPORT_FURET_1</LocID>         <Text>Wird schon schiefgehen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_ORBITAL_TELEPORT_FURET_2</LocID>         <Text>Ich bin am Leben! Das ist ein Wunder!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_ORBITAL_TELEPORT_FURET_3</LocID>         <Text>Ich hasse Portale, aber das hier ist eine Ausnahme. Trotzdem können es meine Füße kaum erwarten, wieder auf festem Boden zu gehen! </Text>  </GameDBLocalizedString>
+
+            <!-- Relic in the long valley-->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_LONG_VALLEY_RELIC_1</LocID>              <Text>Es ist also doch nicht ganz kaputt. Ich spüre einen schwachen Lebensfunken! Oder ein Echo der alten Stimme, die von hier rief. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_LONG_VALLEY_FURRET_2</LocID>             <Text>Hey! Die Realität ruft! Komm mal wieder auf den Boden der Tatsachen zurück. Wir führen einen Krieg an der Oberfläche! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_LONG_VALLEY_RELIC_2</LocID>              <Text>Ich offenbare dir die Geheimnisse der Vergangenheit. Du solltest dich glücklich schätzen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_LONG_VALLEY_FURRET_3</LocID>             <Text>Sei lieber still, das würde mich glücklicher machen. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_TELEPORT</LocID>                         <Text>Der Teleporter hat sein Ziel verloren, aber er wird sich wahrscheinlich neu kalibrieren, sobald jemand vom anderen Eingang hierherreist.</Text>  </GameDBLocalizedString>
+
+
+            <!-- Orbit-->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_ORBIT_FURRET_1</LocID>                   <Text>Sieht aus wie ein verlassenes Raumschiff. Der Orbit ist voller alter Wracks. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_ORBIT_RELIC_1</LocID>                    <Text>Das Herz des Schiffes muss vor Jahrtausenden ausgebrannt sein. Ich kann dort drinnen nur kalte Maschinen und dunkle Korridore spüren.\nBring mich näher heran! </Text>  </GameDBLocalizedString>
+
+            <!-- after being teleported to Gatekeeper area -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAY_GATEKEEPER_FURRET_1</LocID>          <Text>Das ist eine der Basen, die den Luftraum auf der Seite der Loyalisten kontrollieren. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAY_GATEKEEPER_RELIC_1</LocID>           <Text>Und die Brückensteuerung ist nicht weit von hier! </Text>  </GameDBLocalizedString>
+
+            <!-- Gatekeeperbase is ours but Truda still lives -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_TRUDA_LIVES_FURRET_1</LocID>             <Text>Generalin Truda wird nicht einfach zusehen, während wir ihre Basis besetzen. Wir werden die Schwerter kreuzen müssen, sonst wird sie kommen, um sie zurückerobern. </Text>  </GameDBLocalizedString>
+
+            <!-- Gatekeeper base captured -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_GATEKEEPER_BASE_FURRET_1</LocID>         <Text>Noch eine und du kannst mit Verstärkung landen, Muff! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_GATEKEEPER_BASE_MUFF_1</LocID>           <Text>Gut gemacht, Furret. Die Flotte der Loyalisten ist immer noch nicht aufgetaucht, aber sobald wir die Lufthoheit haben, wird kein Raumschiff ohne unsere Erlaubnis auf dem Boden aufsetzen. </Text>  </GameDBLocalizedString>
+
+            <!--Furret does not want to return via O teleport -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_RETURN_GATEKEEPER_FURRET_1</LocID>       <Text>Auf keinen Fall nehme ich diesen Weg zurück. Vor allem, wenn diese Basis eine funktionierende Tunnelbahn hat! </Text>  </GameDBLocalizedString>
+
+            <!-- Gen Truda before fight -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_GEN_TRUDA_BF_FURRET_1</LocID>            <Text>Die Tage des Oberanführers an der Spitze sind gezählt! Wir könnten die Hilfe einer hochrangigen Offizierin wie dir gebrauchen. Schließe dich uns an, Truda! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_GEN_TRUDA_BF_GTRUDA_1</LocID>            <Text>Ohhh, das glaube ich nicht. Er hat einen Plan. Er heckt ständig irgendwelche Pläne aus. </Text>  </GameDBLocalizedString>
+
+            <!-- Furret and Relic are opening the bridges -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_BRIDGE_CONTROLLS_FURRET_1</LocID>        <Text>Truda muss das Interface beschädigt haben, als ich aus dem Teleporter gekommen bin! Es sind nur noch ein paar Kristalle übrig. Das ist alte Primal-Technologie. Ich habe keine Ahnung ...   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_BRIDGE_CONTROLLS_RELIC_1</LocID>         <Text>Darf ich? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_BRIDGE_CONTROLLS_FURRET_2</LocID>        <Text>Wie hast du das gemacht? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_BRIDGE_CONTROLLS_RELIC_2</LocID>         <Text>Es ist ganz einfach, wenn man mit „der Sicht“ gesegnet ist. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_BRIDGE_CONTROLLS_RELIC_3</LocID>         <Text>Es gibt noch ein paar unterbrochene Lichtfäden, die verbunden werden müssen.</Text>  </GameDBLocalizedString>
+
+            <!-- Fossorian fleet is approaching the orbit -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FOSSORAIN_FLEET_MUFF_1</LocID>           <Text>Oh nein! Die Flotte der Loyalisten nähert sich! Ich werde den Sinkflug in eine niedrigere Umlaufbahn starten. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FOSSORAIN_FLEET_MUFF_2</LocID>           <Text>Die Flotte der Loyalisten ist hier! Sie haben bereits eine kleine Gruppe von Landungsbooten geschickt. Ihre Triebwerke laufen auf Hochtouren, trotzdem fallen sie wie Steine vom Himmel. Sie müssen schwer beladen sein! </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FOSSORAIN_FLEET_SUPREME_1</LocID>        <Text>Nachricht an alle Rebellen auf allen Frequenzen! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FOSSORAIN_FLEET_SUPREME_2</LocID>        <Text>Die Brücken zu überqueren, ändert rein gar nichts! Ihr habt vergessen, dass alle Wühler am Boden meine Geiseln sind! Wenn ihr es wagt, meine Hauptbasis zu belagern, werde ich meiner Flotte im Orbit befehlen, das Feuer zu eröffnen und alle Lebewesen im Zentralgebiet auszulöschen!</Text>  </GameDBLocalizedString>
+
+            <!-- Western base is not captured yet -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_ONLY_CONQUER_WESTERN_BASE</LocID>        <Text>Wenn wir wollen, dass uns Muffs Armee verstärkt, müssen wir zuerst die Luftabwehr der westlichen Basis ausschalten!</Text>  </GameDBLocalizedString>
+
+            <!-- Holester encounter optimistic -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_HOLESTER_OPTIMISTIC_1</LocID>            <Text>Sobald sich Admiral Muffs Armee uns anschließt, werden wir den Oberanführer endlich vernichten können. </Text>  </GameDBLocalizedString>
+
+            <!-- Holester encounter after betrail -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_HOLESTER_PESIMISTIC_1</LocID>            <Text>Ohne Muffs Armee ... ich weiß nicht. Vielleicht ist es an der Zeit, mit den Loyalisten zu verhandeln. </Text>  </GameDBLocalizedString>
+
+            <!-- Skaurov encounter optimistic -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_SKAUROV_OPTIMISTIC_1</LocID>             <Text>Ich kann es kaum erwarten, das Gesicht des Oberanführers zu sehen, wenn wir durch die Straßen seiner Stadt marschieren! </Text>  </GameDBLocalizedString>
+
+            <!-- Skaurov encounter after betrail -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_SKAUROV_PESIMISTIC_1</LocID>             <Text>Muff hat uns alle reingelegt! Für mich ändert sich dadurch jedoch nichts. Nur stehen jetzt ZWEI Namen ganz oben auf meiner Racheliste. </Text>  </GameDBLocalizedString>
+
+            <!-- Meeting Moletoff -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_MOLETOFF_1</LocID>                       <Text>Der berühmte Lieutenant Moletoff, ausgezeichnet für die endgültige Vernichtung der Nemek! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_MOLETOFF_2</LocID>                       <Text>Ich hatte schon damals vollstes Vertrauen in das Urteilsvermögen des Oberanführers und es ist bis heute ungebrochen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_MOLETOFF_3</LocID>                       <Text>Dein Vertrauen wird bald ins Wanken geraten! </Text>  </GameDBLocalizedString>
+
+            <!--Western base and Muffs betrail-->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WESTERN_BASE_FURRET_1</LocID>            <Text>Die Luft ist rein, Muff! Du kannst landen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WESTERN_BASE_MUFF_1</LocID>              <Text>Nun, mein lieber Freund, ich habe es mir anders überlegt. Ich bin bereits mit der Erlaubnis des Oberanführers im Norden gelandet ...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WESTERN_BASE_FURRET_2</LocID>            <Text>Was redest du da? Wir haben einen Plan! Und bisher läuft alles wunderbar! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WESTERN_BASE_MUFF_2</LocID>              <Text>Es ist wieder wie auf der Nemek! Du verstehst den Oberanführer nicht so wie ich. Wenn er sieht, dass eine Niederlage unvermeidlich ist, wird er seinen Schiffen befehlen, den Boden zu bombardieren und alle zu töten. Ich kann nicht zulassen, dass sich eine Katastrophe wie damals auf der Nemek wiederholt. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WESTERN_BASE_MUFF_3</LocID>              <Text>Ich habe für dich und die anderen Kommandanten einen sicheren Weg ins permanente Exil ausgehandelt ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WESTERN_BASE_FURRET_4</LocID>            <Text>NEIN! Ich bin der General der Rebellenarmee! Ich werde mich nicht wie früher herauswieseln! Ich werde es auf die Wühler-Art machen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WESTERN_BASE_MUFF_4</LocID>              <Text>Bei der Wühler-Art geht es nicht um Ehre oder epische Opfer ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WESTERN_BASE_FURRET_5</LocID>            <Text>Nein.\n\nEs geht um den Mut, alles zu riskieren. </Text>  </GameDBLocalizedString>
+
+            <!-- Only Furret can go further and defeat Sniff -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_ONLY_F_CAN_ENTER_1</LocID>               <Text>General Furret, du bist der erfahrenste Kommandant in unserer Armee. Nur dir sollte die Ehre zuteilwerden, den Angriff anzuführen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_ONLY_F_CAN_ENTER_2</LocID>               <Text>Was?! Das Primal-Tor funktioniert?! Alle haben behauptet, es sei kaputt. Die Loyalisten müssen es als letzte Überraschung geheim gehalten haben. Die Kraftfelder der Primals sind praktisch unzerstörbar. Wir müssen einen anderen Weg finden!   </Text>  </GameDBLocalizedString> <!-- TODO PLACEHOLDER -->
+
+            <!--GATE-->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_GATE_RELIC</LocID>           <Text>Moment mal! Ich kann dich durchbringen, Träger, aber der Riss wird nur ein paar Augenblicke geöffnet sein. Sobald wir drin sind, sind wir komplett von der Außenwelt abgeschnitten.</Text>  </GameDBLocalizedString> <!-- TODO PLACEHOLDER -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_GATE_RELIC_1</LocID>         <Text>Das war ... zu viel, ich bin jetzt ... zu schwach ... es liegt an dir.</Text>  </GameDBLocalizedString>  <!-- TODO PLACEHOLDER -->
+
+            <!--Furret vs Snif before fight-->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_SNIF_1</LocID>               <Text>Das ist das Ende, Furret. Du wurdest von Muff manipuliert. Er wird wieder als Admiral eingesetzt werden. Du warst von Anfang an seine Marionette. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_FURRET_1</LocID>             <Text>Wir sind beide Marionetten, oder nicht? Ich sehe, der Oberanführer hat dir nicht genug Krieger zur Verfügung gestellt. Du wurdest nicht hierhergeschickt, um mich zu stoppen, sondern nur, um meinen Fortschritt zu verzögern. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_SNIF_2</LocID>               <Text>Er würde mich, seinen Sohn, niemals in den Tod schicken.</Text>  </GameDBLocalizedString> <!-- upraveno URB -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_FURRET_2</LocID>             <Text>An deiner Stelle wäre ich mir da nicht so sicher.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_SNIF_3</LocID>               <Text>Dann sieh zu und verzweifle! Er hat mir das Kommando über seine Söldnerarmeen anvertraut.</Text>  </GameDBLocalizedString> <!-- TODO PLACEHOLDER -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_SNIF_4</LocID>               <Text>Angriff!</Text>  </GameDBLocalizedString> <!-- TODO PLACEHOLDER -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_SNIF_5</LocID>               <Text>Beim pelzigen Bein! Hört auf zu sterben, das ist ein Befehl! Zweite Welle, Angriff!</Text>  </GameDBLocalizedString> <!-- TODO PLACEHOLDER -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_RELIC_1</LocID>              <Text>Kämpft ... weiter, ich werde ... stärker! </Text>  </GameDBLocalizedString><!-- TODO PLACEHOLDER -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_SNIF_6</LocID>               <Text>Sie haben dich schon genug geschwächt. Es ist an der Zeit, dass ich dir den Todesstoß versetze.</Text>  </GameDBLocalizedString><!-- TODO PLACEHOLDER -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_RELIC_2</LocID>              <Text>Nicht, solange ich zur Wehr setzen kann!</Text>  </GameDBLocalizedString><!-- TODO PLACEHOLDER -->
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_FURET_1</LocID>           <Text>Jetzt sind wir quitt.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_MUFF_0</LocID>            <Text>Ich melde mich zum Dienst, Oberanführer!</Text>  </GameDBLocalizedString> <!-- TODO PLACEHOLDER -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_MUFF_1</LocID>            <Text>Cyber-Käfer? Hier?! Die Kinder der Quelle haben nur ein paar Raumschiffe, trotzdem ist ihre Streitmacht so groß ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_SUPREME_LEADER_1</LocID>  <Text>Ich habe meine eigenen Schiffe zu ihnen geschickt, nachdem du in den Zentralgebieten angekommen bist. Einige meiner Captains hätten sich dir angeschlossen, aber sie waren abwesend. Und jetzt, da mein Sieg unvermeidlich ist, wagen sie es nicht. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_MUFF_2</LocID>            <Text>Wie hast du es geschafft, die Kinder der Quelle davon zu überzeugen, für dich zu kämpfen?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_SUPREME_LEADER_2</LocID>  <Text>Ich habe ihnen versprochen, wonach sie sich am meisten sehnten, Admiral. Das Relikt. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_SNIF_1</LocID>            <Text>Aber das Relikt ist gefährlich! Ich habe gesehen, wie sich Furret unter seinem Einfluss innerhalb weniger Tage von einem Feigling zum kompetentesten Anführer gewandelt hat! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_SUPREME_LEADER_3</LocID>  <Text>Es ist noch viel schlimmer, aber das Problem mit den Cyber-Käfern müssen wir auf einen anderen Tag verschieben. Es gab sonst niemanden, den ich um Verstärkung bitten konnte, und ich würde lieber sterben, als gestürzt zu werden!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_MUFF_3</LocID>            <Text>Ich kann dir dabei helfen. Kennst du die „PEILSENDER“-Strategie? Ich habe nämlich einen mitgebracht. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_SUPREME_LEADER_4</LocID>  <Text>UNMÖGLICH! Furrets Atombombe ist vor Ewigkeiten im Randgebiet explodiert!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_MUFF_4</LocID>            <Text>Du hast sie Skaurov gegeben, erinnerst du dich? Und damit hast du die erste Regel einer nuklear gestützten Herrschaft gebrochen. Behalte deine Atombomben im Auge! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_NARRATOR_1</LocID>        <Text>15 MINUTEN BIS ZUR DETONATION!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_SUPREME_LEADER_5</LocID>  <Text>Nein, das darf nicht wahr sein! Kein Wühler würde sein Leben für jemand anderes opfern! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_MUFF_5</LocID>            <Text>Du hast mich in den Flammen der Nemek zu einem solchen Wühler gemacht. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_AF_MUFF_6</LocID>            <Text>Mach’s gut, Furret! Du wirst ein besserer Oberanführer sein, als unsere verdorbene Rasse verdient. Jetzt liegt alles in deiner ... </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_INTRO_PIRATES_LEADER_WARNING</LocID>     <Text>Wenn Gen. Furret vorrückt, gibt es kein Zurück mehr. Bist du bereit?!</Text>  </GameDBLocalizedString> <!-- upraveno URB -->
+
+            <!-- End text -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_VICTORY_TEXT</LocID>                     <Text><![CDATA[Das alte Regime ging in einem atomaren Feuersturm unter. Der Aufstand von Furret und Muff schwächte die Wühler, doch ständige Rebellionen sind fester Bestandteil der Geschichte der Wühler. Eine neue Zeit bricht heran. Oberanführer Furret hat den Thron an sich gerissen. In wenigen Monaten werden die Wühler stärker sein als je zuvor. Denn dieses Mal wird nicht nur Furret über ihr Schicksal entscheiden. Das Relikt ist auf Chaos aus, und bis es eine bessere Alternative findet, werden die Wühler als seine Werkzeuge dienen, um auf interplanetarischer Ebene Unruhe zu stiften.\n\n\n<b>Danke, dass du die Wühler-Kampagne gespielt hast!\n\nWeitere Handlungsstränge befinden sich in Entwicklung, als Nächstes sollte die Monarchenflotte im Anflug sein!</b>]]></Text>  </GameDBLocalizedString>
+
+
+            <!-- Pirates part -->
+            <!-- entering the east - the first meeting -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_PIRATES_FIRTS_MEETING_P_1</LocID>        <Text>Die Arbeiter in den Ausbeuterbetrieben des Oberanführers werden Sägemehlbrei zu Mittag essen, nachdem er uns das Kopfgeld bezahlt, das er auf dich ausgesetzt hat!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_PIRATES_FIRTS_MEETING_RH_1</LocID>       <Text>Du hättest auf eine Vorauszahlung bestehen sollen. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_PIRATES_SECOND_MEETING_P_1</LocID>       <Text>Glänzend, ich bin frei! Diese Söldner haben mich eingesperrt. Danke, dass du mich rausgelassen hast. Ich schulde dir was ...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_PIRATES_SECOND_MEETING_RH_1</LocID>      <Text>Hm, du schuldest mir also was?! Ich könnte etwas Hilfe gebrauchen, um diese Basis in Schuss zu halten. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_PIRATES_SECOND_MEETING_P_2</LocID>       <Text>Na klar, Boss! </Text>  </GameDBLocalizedString>
+
+            <!-- ENEMY WAVES -->
+            <!-- first wave -->
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_1_MUFF_1</LocID>                    <Text>Einer der Kommandanten der Loyalisten nähert sich der Brücke. Furret, deine Truppen sollten sich auf einen bevorstehenden Angriff vorbereiten.   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_1_FURRET_1</LocID>                  <Text>Schon wieder haben die Loyalisten dieses kleine, halbblütige Fellknäuel geschickt! Ich dachte, ich hätte diese widerliche Scheusal beim letzten Mal getötet! Für mich sehen die alle gleich aus.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_1_BENNI_BC_1</LocID>                <Text>Wir haben dich schon einmal besiegt, Halbblut! Bereit für Runde zwei?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_1_BENNI_BC_2</LocID>                <Text>Deine Arroganz wird dein Untergang sein!\nOhne die Arbeit der Rattlinge würdet ihr reinrassigen Wühler nicht einmal euren Hintern abwischen können!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_1_BENNI_BC_3</LocID>                <Text>Es tut mir leid, aber ich kann die Worte, die durch deine großen, hässlichen Halbblut-Zähne dringen, kaum verstehen. </Text>  </GameDBLocalizedString>
+
+            <!-- second wave -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_2_MUFF_1</LocID>                    <Text>Ein weiterer feindlicher Kommandant ist dabei, die Brücke zu überqueren! </Text>  </GameDBLocalizedString> <!-- Didn't see this! -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_2_FURRET_1</LocID>                  <Text>Und wie wäre es mit ein paar guten Nachrichten? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_2_MUFF_2</LocID>                    <Text>Hm ... ich sehe keine Regenwolken am Himmel? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_2_FURRET_2</LocID>                  <Text>Das war eine rhetorische Frage! Beim nächsten Mal möchte ich nur Folgendes hören: „Feinde nähern sich, aber ich habe dir Verstärkung geschickt.“ </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_2_MUFF_3</LocID>                    <Text>Okay ... ich werde mir beim nächsten Mal mehr Mühe geben. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_2_MOLLY_BC_1</LocID>                <Text>Ich bin die Oberkommandantin der Hammeriden. Solange ich atme, werdet ihr Abtrünnigen niemals die Brücke überqueren! Das schwöre ich!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_2_MOLLY_BC_2</LocID>                <Text>Das ist ein großes Versprechen, aber du hast nicht genug Hämmer, um sie zu halten. </Text>  </GameDBLocalizedString>
+
+            <!-- third wave -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_3_MUFF_1</LocID>                    <Text>Ähm, wie war das gleich noch mal ...?\n\n„Feinde nähern sich, aber ich habe dir Verstärkung geschickt.“</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_3_FURRET_1</LocID>                  <Text>Guter Witz, Muff. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_3_MUFF_2</LocID>                    <Text>Schau selbst!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_3_FURRET_2</LocID>                  <Text>Du hast mir gerade den Tag versüßt!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_3_HACK_BC_1</LocID>                 <Text>Wenn wir deinen Kopf zurückbringen, wird man mich und meine Gruppe ausgebildeter Killer zu Helden von Fossoria ernennen! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_3_HACK_BC_2</LocID>                 <Text>Ausgebildete Killer? Für mich sehen sie wie Trainingsattrappen aus.</Text>  </GameDBLocalizedString>
+
+            <!-- fourth wave -->
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_4_MUFF_1</LocID>                    <Text>Die Verstärkung ist da!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_4_FURRET_1</LocID>                  <Text>Aber ...? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_4_MUFF_2</LocID>                    <Text>Aber es nähert sich noch ein weiterer Kommandant der Loyalisten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_4_FURRET_2</LocID>                  <Text>Immerhin ist es schön sonnig. Ich meine ... immerhin keine Landeflotten der Loyalisten, die die Sonne verdecken. Stimmt’s?! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_4_MUFF_3</LocID>                    <Text>Stimmt. Wollen wir hoffen, dass diese „Vorhersage“ Bestand hat.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_4_MOLTAIR_BC_1</LocID>              <Text>Spürt, wie die Welt erzittert! Fürchtet die Macht meines Befreier-Bataillons! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_4_MOLTAIR_BC_2</LocID>              <Text>Meinst du etwa deine rostigen, schlecht gepflegten Antiquitäten? Ich wette, die haben vor zwei Zyklen noch im Museum Staub gefangen.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_4_MOLESON_BC_1</LocID>              <Text>So sieht man sich also wieder. Ich habe von meinen vorherigen „Fehltritten“ gelernt. Dieses Mal bin ich besser vorbereitet! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMPAIGN_MOLES_LVL4_WAVE_4_MOLESON_BC_2</LocID>              <Text>Bereite dich auf einen weiteren Fehlschlag vor! </Text>  </GameDBLocalizedString>
+
+          </LocalizedStrings>
+      </GameDBStringTable>
+  </Database>

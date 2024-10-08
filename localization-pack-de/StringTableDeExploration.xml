@@ -1,0 +1,336 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_EXPLORATION">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>DIALOG_CUSTOM_MESSAGE</LocID>                                 <Text>Willkommen!</Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>DIALOG_CUSTOM_MESSAGE_TEXT</LocID>                            <Text></Text>  </GameDBLocalizedString> <!-- Currently needs to be empty -->
+
+            <GameDBLocalizedString>         <LocID>DIALOG_CAMPAIGN_MESSAGE</LocID>                               <Text>Es wird ein Ereignis ausgelöst!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CAMPAIGN_MESSAGE_TEXT</LocID>                          <Text></Text>  </GameDBLocalizedString> <!-- Currently needs to be empty -->
+
+            <GameDBLocalizedString>         <LocID>DIALOG_CHEST</LocID>                                          <Text>...</Text>  </GameDBLocalizedString><!-- The dialog shows the name of what's inside -->
+            <GameDBLocalizedString>         <LocID>DIALOG_HERO_MEETING</LocID>                                   <Text>...</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_CHEST_RESOURCE</LocID>                                 <Text>Ein Haufen kostenloser Ressourcen ...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CHEST_DATAPAD</LocID>                                  <Text>Datenfragment</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_CHEST_ITEM</LocID>                                     <Text></Text>  </GameDBLocalizedString><!-- The dialog shows the name of what's inside -->
+            <GameDBLocalizedString>         <LocID>DIALOG_ITEM_PICKUP</LocID>                                    <Text></Text>  </GameDBLocalizedString><!-- The dialog shows the name of what's inside -->
+            <GameDBLocalizedString>         <LocID>DIALOG_EXPLORATION_CORPSE_PICKUP</LocID>                      <Text>Gefallener Krieger</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_START_TURN</LocID>                                     <Text>Nächste Runde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_START_TURN_REPLAY</LocID>                              <Text>Nächste Runde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_START_TURN_REPLAYED</LocID>                            <Text>Nächste Runde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_START_WEEK</LocID>                                     <Text>Neuer Zyklus</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_LOST</LocID>                                    <Text>Spieler wurde besiegt!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_LOST_YOU</LocID>                                <Text>Niederlage!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_LOST_YOU_SOMEBODY_WON</LocID>                   <Text>Niederlage!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_WON</LocID>                                     <Text>Sieg!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_PLAYER_WON_YOU</LocID>                                 <Text>Sieg!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BREAKABLE_OBJECT</LocID>                               <Text>Daran kommen wir vorbei!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_EMPTIED</LocID>                                 <Text>Das Objekt wurde bereits geleert!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_REVISITED</LocID>                               <Text>Willkommen zurück!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_NEUTRAL_MONSTERS_FLEE</LocID>                          <Text>Neutrale Einheiten fangen an, zu fliehen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE</LocID>                                 <Text></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_CONSTRUCTION_UPGRADE</LocID>                    <Text></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_CONSTRUCTION_UPGRADE_TEXT</LocID>               <Text>Diese Konstruktion befindet sich derzeit im Bau. Bei Bedarf kannst du sie wieder zerlegen und einige Ressourcen zurückgewinnen.</Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>DIALOG_CONSTRUCTION_ZONE</LocID>                              <Text>Baubereich</Text>  </GameDBLocalizedString> <!-- Note: needs to match the building zone map object -->
+            <GameDBLocalizedString>         <LocID>DIALOG_CONSTRUCTION_ZONE_TEXT</LocID>                         <Text>Ein Gebiet, das für den schnellen Bau verschiedener Konstruktionen vorbereitet wurde. Kommandanten können hier zum halben Preis bauen.</Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MINING_PROBE</LocID>                            <Text></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MINING_PROBE_TEXT</LocID>                       <Text>Diese Abbausonde hat einige Ressourcen eingesammelt. Durch das Einsammeln dieser Ressourcen wird die Sonde außer Betrieb gesetzt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MINING_PROBE_EMPTY</LocID>                      <Text></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MINING_PROBE_EMPTY_TEXT</LocID>                 <Text>Diese Abbausonde hat noch keine Ressourcen gesammelt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_DECONSTRUCTABLE</LocID>                         <Text></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_DECONSTRUCTABLE_TEXT</LocID>                    <Text>Dies ist eine temporäre, von einem Spieler errichtete Konstruktion, in deinem Besitz. Du kannst sie zerlegen und einige Ressourcen zurückgewinnen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_DECONSTRUCTABLE_NO_MONEY</LocID>                <Text></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_DECONSTRUCTABLE_NO_MONEY_TEXT</LocID>           <Text>Dies ist eine temporäre, von einem Spieler errichtete Konstruktion, in deinem Besitz. Du kannst sie zerlegen und einige Ressourcen zurückgewinnen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_WITH_ARMY</LocID>                       <Text>Aufwertbare Konstruktion</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_LEARN_ABILITY</LocID>                                  <Text>Wissen wurde bereits heruntergeladen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_LEARN_ABILITY_TEXT</LocID>                             <Text><![CDATA[Wähle eine Fähigkeit des <color=SOTS_COLOR_GOLD>{1}-Skills</color>, die du erlernen möchtest!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_LEARN_ABILITY_TEXT_DETAILS</LocID>                     <Text><![CDATA[Du kannst weitere Fähigkeiten des <color=SOTS_COLOR_GOLD>{1}-Skills</color> erlernen, indem du eine Basis mit einer <color=SOTS_COLOR_GOLD>Akademie</color> aufsuchst.\nJede <color=SOTS_COLOR_GOLD>Akademie</color> bringt dem Kommandanten automatisch alle <color=SOTS_COLOR_GOLD>{1}</color> Fähigkeiten in ihrer Datenbank bis Stufe {2} bei.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_EVACUATION_ABILITY</LocID>                             <Text>Zeit zu gehen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_EVACUATION_ABILITY_TEXT</LocID>                        <Text>Möchtest du diese Basis evakuieren?</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_FIELD_RESEARCH_HERO_LEARNED_ABILITY</LocID>            <Text>Der Kommandant hat eine neue Fähigkeit erlernt!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_FIELD_RESEARCH_HERO_LEARNED_ABILITY_TEXT</LocID>       <Text>{1} hat mithilfe des Feldforschung-Skills {2} erlernt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_VEIN</LocID>                                    <Text></Text></GameDBLocalizedString><!-- The dialog shows the name of what's inside -->
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SMUGGLERS_DEN</LocID>                           <Text>Schmugglerversteck</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SLAVE_CAMP</LocID>                              <Text>Sklavenlager</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_HERO_EQUIPMENT_INVENTORY_SLOT_INCREASE</LocID>         <Text>Ich kann mehr tragen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_HERO_EQUIPMENT_INVENTORY_SLOT_INCREASE_TEXT</LocID>    <Text><![CDATA[Der Sammler-Skill hat deinem Kommandanten einen zusätzlichen <color=SOTS_COLOR_EQUIPMENT>Ausrüstungs-Slot</color> gewährt.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_HERO_ARTIFACT_INVENTORY_SLOT_INCREASE</LocID>          <Text>Ich kann mehr tragen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_HERO_ARTIFACT_INVENTORY_SLOT_INCREASE_TEXT</LocID>     <Text><![CDATA[Der Sammler-Skill hat deinem Kommandanten einen zusätzlichen <color=SOTS_COLOR_ARTIFACT>Artefakt-Slot</color> gewährt.]]></Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_BUILD_BRIDGE</LocID>                                   <Text>Inaktive Brücke</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BUILD_BRIDGE_TEXT</LocID>                              <Text>Die Stromkreise, die einst einen gefährlichen Pfad über einem tödlichen Abgrund mit Strom versorgt haben, scheinen intakt zu sein.\n\nMöchtest du die Brücke mit einem Fusionskern aktivieren?</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BUILD_BRIDGE</LocID>                              <Text>Aktivieren!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_CAN_NOT_BUILD_BRIDGE</LocID>                           <Text>Eine versperrte Brücke</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CAN_NOT_BUILD_BRIDGE_TEXT</LocID>                      <Text>Diese Brücke kann von hier aus nicht aktiviert werden.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_END_TURN_ACTIONS</LocID>                               <Text>Es sind noch Aktionen verfügbar!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_END_TURN_ACTIONS_TEXT</LocID>                          <Text>Du kannst noch Basen aufwerten oder Kommandanten bewegen!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_VEIN_TEXT</LocID>                               <Text>Das wäre der perfekte Standort für eine Mine, um unsere Produktion anzukurbeln. Was hältst du davon?</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_CORPSE_PICKUP</LocID>                             <Text>Eine Leiche. Ich frage mich, was ihm zugestoßen ist. Als Dank für seine Großzügigkeit sollte ich ihn wenigstens begraben.\nDu hast Folgendes gefunden:</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_DONT_SHOW_AGAIN</LocID>                                <Text>Diesen Dialog nicht mehr anzeigen. Kann in den Optionen wieder aktiviert werden.</Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>DIALOG_CONFIRM_DISMISS_HERO</LocID>                           <Text>Einen Kommandanten entlassen?</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CONFIRM_DISMISS_HERO_TEXT</LocID>                      <Text>Möchtest du diesen Kommandanten wirklich entlassen?\n\nDu bist dir bewusst, was passiert, wenn das dein letzter Kommandant ist und du keine Basis mehr kontrollierst?</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DISMISS</LocID>                                   <Text>Entlassen!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_CHEST_RESOURCE_TEXT</LocID>                       <Text>Da liegt ein Haufen nützlicher Ressourcen einfach so herum.</Text></GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_CHEST_DATAPAD_TEXT</LocID>                        <Text><![CDATA[Der Kommandant erhält <b><color=SOTS_COLOR_XP>+500 EP</color></b>.\n\nAußerdem kannst du das <b><color=SOTS_COLOR_GOLD>Datenfragment</color></b> aufbewahren, um es später zu verwenden oder für 500 Aura-Münzen zu verkaufen. Bei Verwendung gewährt es sofort +250 Bonus-EP.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_CONSUME</LocID>                           <Text>Verwenden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_CONSUME_INFO_TEXT</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_XP>+750 EP</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_SELL</LocID>                              <Text>Verkaufen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_SELL_INFO_TEXT</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_GOLD>+{1}</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DATAPAD_KEEP</LocID>                              <Text>Behalten</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SMUGGLERS_DEN_TEXT</LocID>                      <Text>Hallo, erschöpfter Reisender. Lass uns in Ruhe und wir überlassen dir diese Belohnung.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SLAVE_CAMP_TEXT</LocID>                         <Text>Hallo, Herr Kommandant, Sir. Hast du vielleicht Interesse an unseren völlig legal erworbenen Sklaven? Ähm, Anlagegütern?</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_ATTACK_UNKNOWN_TEXT</LocID>                       <Text><![CDATA[GEFAHR: <color=SOTS_COLOR_RED>UNBEKANNT</color>]]></Text></GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_TURN</LocID>                                <Text>Zug von {1}.</Text></GameDBLocalizedString> <!-- Parameter {1} is color/name, so "Red player's turn etc." -->
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_ONLY</LocID>                                <Text>Starten</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_WEEK</LocID>                                <Text><![CDATA[Ein neuer Zyklus hat begonnen.\nIn allen Basen und Gebäuden, die Einheiten produzieren können, stehen <color=SOTS_COLOR_GOLD>neue Rekruten zur Verfügung</color>, die angeheuert werden können!]]></Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_DEFEATED</LocID>                           <Text>{1} wurde besiegt!</Text></GameDBLocalizedString> <!-- Parameter {1} is full name -->
+            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_DEFEATED_YOU</LocID>                       <Text>Du wurdest besiegt!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_WON</LocID>                                <Text>{1} hat gewonnen!</Text></GameDBLocalizedString> <!-- Parameter {1} is name -->
+            <GameDBLocalizedString>         <LocID>EXPLORATION_PLAYER_WON_YOU</LocID>                            <Text>Du hast gewonnen!</Text></GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OK</LocID>                                        <Text>Okay</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_QUIT</LocID>                                      <Text>Verlassen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_SPECTATE</LocID>                                  <Text>Zuschauen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BREAK</LocID>                                     <Text>Durchbrechen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DISABLE</LocID>                                   <Text>Deaktivieren</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_LEAVE_UNTOUCHED</LocID>                           <Text>Unverändert lassen</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_CLOSE</LocID>                                     <Text>Schließen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_COLLECT</LocID>                                   <Text>Einsammeln</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_PASS</LocID>                                      <Text>Passen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DISMANTLE</LocID>                                 <Text>Zerlegen</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_DIALOG_BREAKABLE_OBJECT_TEXT</LocID>              <Text>Möchtest du durchbrechen?</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISITED_STATE</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_GOLD>Besucht-Status:</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISITED</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Besucht</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_NOT_VISITED</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Nicht besucht</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISIT_WAIT_PHASE</LocID>                   <Text>Bis zur nächsten Phase warten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISIT_WAIT_CYCLE</LocID>                   <Text>Bis zum nächsten Zyklus warten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISIT_HERO</LocID>                         <Text>Kommandant bereits besucht. (Verwende einen anderen.)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_DISABLED</LocID>                           <Text><![CDATA[<color=SOTS_COLOR_DISABLED>Deaktiviert</color>]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_EMPTIED</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_RED>Geleert</color>]]></Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_DISABLED_WAIT_CYCLE</LocID>                <Text>Zyklus/Zyklen bis zur Betriebsbereitschaft.</Text></GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_TELEPORT_SELECTION</LocID>                 <Text>Teleportieren zu:</Text></GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NEUTRAL_MONSTERS_FLEE</LocID>                     <Text>Überwältigt von der Größe dein Streitkräfte versuchen deine Gegner zu fliehen!\nDu kannst sie laufen lassen und keine EP erhalten oder die Initiative ergreifen und den Kampf trotzdem beginnen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NEGOTIATION</LocID>                               <Text>Die Verhandlungen beginnen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NEUTRAL_MONSTERS_NEGOTIATION</LocID>              <Text>Ein Teil der Armee, gegen die du kämpfen willst, würde sich dir gerne anschließen. Natürlich zu einem Preis, der von deinen Verhandlungsfähigkeiten abhängt!\nKein Interesse? Dann mach sie einfach fertig!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BACK_TO_HERO</LocID>                              <Text>Zu Kommandant wechseln</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NEAREST_OUTPOST</LocID>                           <Text>Zum nächsten Außenposten wechseln</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NEUTRAL_MONSTERS_NEGOTIATION_FLEE</LocID>         <Text>Ein Teil der Armee, gegen die du kämpfen willst, würde sich dir gerne anschließen. Natürlich zu einem Preis, der von deinen Verhandlungsfähigkeiten abhängt!\nKein Interesse? Du kannst sie auch laufen lassen!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_LET_FLEE</LocID>                                  <Text>Lasst sie laufen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FIGHT</LocID>                                     <Text>Feuer frei!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FIGHT_REST</LocID>                                <Text>Den anderen angreifen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FINISH_NEGOTIATION</LocID>                        <Text>Erledigen!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_WANTS_TO_JOIN_HEADING</LocID>                    <Text>Das war einfach!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_WANTS_TO_JOIN</LocID>                            <Text>Die neutralen Truppen zittern vor Angst und bieten an, sich deinen Streitkräften anzuschließen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_EXTRA_UNITS</LocID>                              <Text>Einige Einheiten würden sich dir nach der Schlacht gerne anschließen, aber in deiner Armee ist nicht genug Platz!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BOOT_CAMP_TRAIN_ALL</LocID>                       <Text>Alle ausbilden!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BOOT_CAMP_UPGRADE_ALL</LocID>                     <Text>Alle aufwerten!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_CAN_TRAIN_ALL_TEXT</LocID>                            <Text>Folgende Aufwertung durch Ausbildung: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_CAN_TRAIN_ALL_INFO</LocID>                            <Text>{1} auf {2}.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_TRAIN_LOST_ALL</LocID>                                <Text><![CDATA[ <color=SOTS_COLOR_RED>{1} Einheit(en) verloren</color>]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNITS_UPGRADE_ALL_HEADING</LocID>                             <Text>Alle Einheiten aufwerten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_UPGRADE_ALL</LocID>                                     <Text>Du kannst alle Einheiten aufwerten für:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_CAN_NOT_UPGRADE_ALL</LocID>                             <Text>Du hast nicht genug Ressourcen, um alle Einheiten aufzuwerten:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FINISH_NEGOTIATION_BOUGHT</LocID>                 <Text>Wir sehen uns im nächsten Zyklus!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FINISH_NEGOTIATION_DESTROYED</LocID>              <Text>Lasst die anderen laufen!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_SLAVE_CAMP_NEGOTIATION</LocID>                    <Text>Das ist unsere erlesene Auswahl. Triff deine Entscheidung.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_SLAVE_CAMP_LIBERATION</LocID>                     <Text>Die Sklaventreiber sind erledigt. Ihre Sklaven möchten sich dir jetzt anschließen.</Text>  </GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>         <LocID>EXPLORATION_JOIN</LocID>                                      <Text>Nehmt sie alle auf!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NO_ABILITY_TO_LEARN</LocID>                       <Text>Der Kommandant kann hier mit seinen Skills keine weiteren Fähigkeiten erlernen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NO_SKILL_TO_LEARN</LocID>                         <Text>Der Kommandant kann keine weiteren Skills erlernen.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_NOTHING_TO_FORGET</LocID>                         <Text>Es gibt nichts zu vergessen.</Text></GameDBLocalizedString>
+                                                                                                                
+            <GameDBLocalizedString>         <LocID>EXPLORATION_BUILD_COST</LocID>                                <Text>Baukosten: </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_MINING_PROBE_EMPTY</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_RED>Noch nichts</color> <color=SOTS_COLOR_GOLD>abgebaut</color>.</b>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_ACADEMY_FORGET_SKILL_TEXT</LocID>                 <Text>Welchen Skill möchtest du vergessen?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_ACADEMY_LEARN_SKILL_TEXT</LocID>                  <Text>Welchen Skill möchtest du lernen?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_ACADEMY_LEARN_ABILITY_TEXT</LocID>                <Text>Welche Fähigkeit möchtest du lernen?</Text>  </GameDBLocalizedString>
+            
+            <!--Map objects dialogs-->
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_TEXT</LocID>                            <Text>Wir kontrollieren diese Konstruktion jetzt. Es stehen Aufwertungen zur Verfügung!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_WITH_ARMY_TEXT</LocID>                  <Text>Vergiss nicht, dir die verfügbaren Aufwertungen anzusehen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_AVAILABLE_UPGRADES</LocID>                      <Text><![CDATA[<b>Verfügbare Aufwertungen:</b>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_BUILD</LocID>                           <Text>Aufwertung kaufen: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_COSTS</LocID>                           <Text>Kosten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_UPGRADE_GENERATES</LocID>                       <Text>Generiert</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_WATCHTOWER</LocID>                              <Text>...</Text>  </GameDBLocalizedString> <!-- Object name is used in the dialog heading -->
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_WATCHTOWER_TEXT</LocID>                         <Text>Jenseits des Horizonts blicken</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_EVACUATE</LocID>                                <Text>Evakuieren</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_VEIN_BUILD</LocID>                              <Text>Bauen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BUILDABLE_OBJECT_NAME</LocID>                          <Text>Verfügbares Gebäude</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STRUCTURE_ATTACK</LocID>                        <Text>Angreifen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SMUGGLERS_DEN_REWARD</LocID>                    <Text>Belohnung abholen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SLAVE_CAMP_NEGOTIATE</LocID>                    <Text>Sklaven kaufen</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNDISCOVERED</LocID>                                          <Text>Unentdecktes Territorium</Text></GameDBLocalizedString>
+            
+            <!-- Status effects -->                                                                              
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MOVE_POINTS_REDUCTION</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_RED>Bewegungspunkte-Reduktion</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MOVE_POINTS_INCREASE</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Bewegungspunkte-Erhöhung</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_RUSH_ABILITY_MOVE_POINTS_INCREASE</LocID>       <Text><![CDATA[Beeilen-Fähigkeit 20%<color=SOTS_COLOR_MOVEMENT> Bewegungspunkte-Erhöhung</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EAGLE_EYE_ABILITY_RANGE_INCREASE</LocID>        <Text>Verdoppelte Aufklärungsreichweite. (Adlerauge-Fähigkeit)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BARBARIAN_HORDE_2</LocID>                       <Text>„Stärkere“ Armee</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EASY_PREY_2</LocID>                             <Text>„Schwächere“ Armee</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MORALE_BOOST</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Moralschub</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_COMBAT_POWER_BOOST</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Kampfkraftschub</color>]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_TRAP_COMMANDER</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_RED>Gefangen!</color>]]></Text>  </GameDBLocalizedString>
+            
+            <!-- Tooltips -->                                                                                    
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_ARMY_STRENGTH</LocID>                     <Text>Gefahr:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_PREDICTED_LOSSES</LocID>                  <Text>Erwartete Verluste:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_ARMY_COUNT</LocID>                        <Text>Armeestärke: </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_STATUS_EFFECTS</LocID>               <Text><![CDATA[<b><i>Statuseffekte:</i></b>\n]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_STATS</LocID>                        <Text><![CDATA[<b><i>Kommandantenwerte:</i></b>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_ATTRIBUTES</LocID>                   <Text>Attribute</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_SKILLS</LocID>                       <Text>Skills</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_HERO_ABILITIES</LocID>                    <Text>Fähigkeiten</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_NONE</LocID>                              <Text>Keine</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_MONSTER_ARMY</LocID>                      <Text><![CDATA[<b>Monsterarmee</b>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_MONSTER_ARMY_CHANGES</LocID>              <Text><![CDATA[<b>Monsterarmee</b>\n(Passt sich der Tageszeit an!)]]></Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_NOT_IN_RANGE</LocID>                      <Text>Nicht in Reichweite</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_SEEN_BY</LocID>                           <Text>Gesehen von:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_BASE_NO_ARMY</LocID>                      <Text>Durch keine Armee geschützt</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_CYCLE</LocID>                             <Text>Aktueller Stand des Tag-Nacht-Zyklus</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP</LocID>                                        <Text>EP</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_UNKNOWN</LocID>                               <Text>Unbekannt</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_0</LocID>                                     <Text>Vernachlässigbar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_1</LocID>                                     <Text>Niedrig</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_2</LocID>                                     <Text>Moderat</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_3</LocID>                                     <Text>Hoch</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_4</LocID>                                     <Text>Extrem</Text></GameDBLocalizedString>                        
+            <GameDBLocalizedString>         <LocID>LOSS_PREDICTION_5</LocID>                                     <Text>Chancenlos!</Text></GameDBLocalizedString>   
+            
+            <!--Exploration XP-->
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_NONE</LocID>                                   <Text>Führe verschiedene Aktionen aus, um Erfahrung zu erhalten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_COMBAT</LocID>                                 <Text>Kampf</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_MOVEMENT</LocID>                               <Text>Bewegung</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_FOG_OF_WAR</LocID>                             <Text>Nebel des Krieges</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_CASTING</LocID>                                <Text>Fähigkeiten verwenden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_TAKING_OVER_BUILDING</LocID>                   <Text>Konstruktion(en) erobert</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_DISABLING_BUILDING</LocID>                     <Text>Konstruktion(en) ausgeschaltet</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_BUILDING_VISIT</LocID>                         <Text>Konstruktion(en) besucht</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_USING_CONSUMABLE</LocID>                       <Text>Verbrauchsgegenstände verwenden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_BUILDING_UPGRADE</LocID>                       <Text>Aufwertungen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_ITEM_PICK_UP</LocID>                           <Text>Beutegegenstände</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_ITEM_EQUIP</LocID>                             <Text>Ausgerüstete Gegenstände (mit Kosten)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_SHORTCUT_CREATION</LocID>                      <Text>Tastenkürzel</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_TRAINING</LocID>                               <Text>Ausbildung</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_OTHER</LocID>                                  <Text>Sonstiges</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_XP_DEBUG</LocID>                                  <Text>Debug</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>FORGET</LocID>                                                <Text>Vergessen</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_ACADEMY_HERO_LEARNED_ABILITY</LocID>                   <Text>Der Kommandant hat Fähigkeiten erlernt!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ACADEMY_HERO_LEARNED_ABILITY_TEXT</LocID>              <Text>{1} hat in der Akademie dieser Basis Spezialfähigkeiten erlernt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_WIN_TOOLTIP_MODIFIED_XP</LocID>                 <Text>In dieser Schlacht gab es bis zu {1} EP zu verdienen. Dein Kommandant hat jedoch nicht alles verstanden, was gerade passiert ist.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_WIN_TOOLTIP_MAX_LEVEL_REACHED</LocID>           <Text>In dieser Schlacht gab es bis zu {1} EP zu verdienen. Dein Kommandant kann in dieser Existenzebene jedoch keine weitere Erfahrung mehr sammeln.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_CONSUMABLE_USE</LocID>                                 <Text>Jetzt verwenden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_EQUIPMENT_EQUIP</LocID>                                <Text>Ausrüsten</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL_DIALOG_INFO</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_ENERGY>+20 Energie</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_DATA_FRAGMENT_DIALOG_INFO</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_XP>+500 EP</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_FUEL_STOCK_DIALOG_INFO</LocID>                     <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>+{1} Bewegungspunkte</color>]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_GOTO</LocID>                                      <Text>Gehen zu</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_ABILITY_ACADEMY</LocID>                    <Text>Akademie der Fähigkeiten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_ABILITY_ACADEMY_DESCRIPTION</LocID>        <Text><![CDATA[Kommandanten können hier <color=SOTS_COLOR_GOLD>eine Fähigkeit ihrer Wahl erlernen</color>. Kann <color=SOTS_COLOR_GOLD>einmal pro Kommandant verwendet werden</color>. <color=SOTS_COLOR_RED>Erfordert</color> den entsprechenden Fähigkeits-Skill.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_BUY_ABILITY</LocID>                              <Text>Wähle eine Fähigkeit aus, die du gegen eine Gebühr zu dieser Akademie hinzufügen möchtest.\nDu benötigst eine passende Fakultät, um hier die Fähigkeiten der Stufen 2 und 3 zu sehen. Wähle mit Bedacht!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_HAS_BOUGHT_ABILITY</LocID>                       <Text>Du hast bereits eine zusätzliche Fähigkeit in dieser Akademie gekauft:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MORALE_REDUCTION</LocID>                        <Text>Moralverlust</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_FUSION_CORE</LocID>                                    <Text>Du hast einen Fusionskern gefunden!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_FUSION_CORE_TEXT</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Fusionskerne</color> sind eine seltene Ressource, mit der du sowohl auf der Karte als auch in einer Basis <color=SOTS_COLOR_GOLD>jedes Gebäude bauen oder aufwerten</color> kannst.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_1</LocID>                          <Text>Kampfarena</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_2</LocID>                          <Text>Kampfarena</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_3</LocID>                          <Text>Kampfarena</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY</LocID>                    <Text>Kampfarena</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_TEXT</LocID>                       <Text><![CDATA[Kämpfe drei Runden gegen zufällige Armeen. Belohnung für <color=SOTS_COLOR_GOLD>Runde 1</color>: <color=SOTS_COLOR_GOLD>Zufällige Ressource</color>. Belohnung für <color=SOTS_COLOR_GOLD>Runde 2</color>: <color=SOTS_COLOR_GOLD>25 Moralschub</color> (4 Phasen). Belohnung für <color=SOTS_COLOR_GOLD>Runde 3</color>: Zufälliges <color=SOTS_COLOR_GOLD>Attribut</color> permanent um 1 <color=SOTS_COLOR_GOLD>erhöht</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY_TEXT</LocID>               <Text>Glückwunsch! Du hast alle drei Runden überstanden. Nimm am nächsten Zyklus teil und versuche, deinen Erfolg zu wiederholen.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_TRAINING_GROUND</LocID>                         <Text>Ausbildungsgelände</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_TRAINING_GROUND_TEXT</LocID>                    <Text><![CDATA[Du kannst dich dazu entscheiden, gegen <color=SOTS_COLOR_GOLD>deine eigene Armee</color> (ohne Kommandant) oder eine <color=SOTS_COLOR_GOLD>zufällige Armee</color> zu kämpfen.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_RANDOM_ARMY</LocID>                             <Text>Zufällige Armee</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MIRROR_ARMY</LocID>                             <Text>Eigene Armee</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_1</LocID>                    <Text>Runde 1/3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_2</LocID>                    <Text>Runde 2/3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_3</LocID>                    <Text>Runde 3/3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY_BUTTON</LocID>             <Text>Sieg</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISITED_ROUND</LocID>                      <Text>Runde</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_CONQUERED</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Erobert</color>]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MORALE_BOOST_BATTLE_ARENA</LocID>               <Text>Kampfarena-Moralschub</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_WITH_REPLAY</LocID>                         <Text>Wiederholung</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_TURN_REPLAYED</LocID>                       <Text>Wiederholung abgeschlossen! Bereit zum Starten?</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_START_REPLAY_AGAIN</LocID>                        <Text>Erneut wiederholen</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MAP_STATS</LocID>                                             <Text>Statistiken</Text></GameDBLocalizedString>
+         
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_NORMAL</LocID>                                    <Text>Normaler Zyklus.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_NORMAL_DESCIPTION</LocID>                         <Text>Heute passiert nichts Ungewöhnliches auf der Karte.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_UNITS</LocID>                               <Text>Überbevölkerung!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_UNITS_DESCRIPTION</LocID>                   <Text>Mehr Einheiten zur Rekrutierung in allen Basen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_LESS_UNITS</LocID>                                <Text>Pandemie!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_LESS_UNITS_DESCRIPTION</LocID>                    <Text>Weniger Einheiten zur Rekrutierung in allen Basen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_PRODUCTION</LocID>                          <Text>Stellarer Höhepunkt!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_PRODUCTION_DESCRIPTION</LocID>              <Text>Alle Basen und Konstruktionen produzieren mehr Ressourcen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_REDUCED_PRODUCTION</LocID>                        <Text>Stellares Minimum!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_REDUCED_PRODUCTION_DESCRIPTION</LocID>            <Text>Alle Basen und Konstruktionen produzieren weniger Ressourcen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_BAD_VISIBILITY</LocID>                            <Text>Atmosphärische Störung!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_BAD_VISIBILITY_DESCRIPTION</LocID>                <Text>Alle Kommandanten und Konstruktionen verfügen über reduzierte Sichtweite!</Text></GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

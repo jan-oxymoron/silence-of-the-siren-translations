@@ -1,0 +1,116 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_DE_HERO_ABILITIES_EXPLORATION">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH</LocID>                              <Text>Eile</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION</LocID>                  <Text><![CDATA[Stellt die <color=SOTS_COLOR_MOVEMENT>Bewegungspunkte</color> des Kommandanten wieder her. Fähigkeitsstärke erhöht den Effekt.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL1</LocID>             <Text><![CDATA[Stellt (3 + Fähigkeitsstärke) <color=SOTS_COLOR_MOVEMENT>Bewegungspunkte</color> wieder her.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL2</LocID>             <Text><![CDATA[Stellt (6 + Fähigkeitsstärke) <color=SOTS_COLOR_MOVEMENT>Bewegungspunkte</color> wieder her.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL3</LocID>             <Text><![CDATA[Stellt (9 + Fähigkeitsstärke) <color=SOTS_COLOR_MOVEMENT>Bewegungspunkte</color> wieder her.]]></Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK</LocID>                        <Text>Todgeweiht</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION</LocID>            <Text><![CDATA[Verfolgt den feindlichen Kommandanten im Nebel des Krieges. Der betroffene Kommandant verliert <color=SOTS_COLOR_MOVEMENT>Bewegungspunkte</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL1</LocID>       <Text><![CDATA[ Reichweite von 4 Feldern, 4 Züge.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL2</LocID>       <Text><![CDATA[ Reichweite von 4 Feldern, 4 Züge.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL3</LocID>       <Text><![CDATA[ Reichweite von 4 Feldern, 4 Züge.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_DEATH_MARK</LocID>                                   <Text><![CDATA[<color=SOTS_COLOR_RED>Todgeweiht aktiviert!</color>]]></Text>  </GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY</LocID>                        <Text>Schlachtruf</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION</LocID>            <Text>Steigert die Moral deiner Armee!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL1</LocID>       <Text>+5 Moral für 1 Zug.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL2</LocID>       <Text>+10 Moral für deine Einheiten und -5 Moral für deine Feinde für 3 Züge.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL3</LocID>       <Text>+15 Moral für deine Einheiten und -10 Moral für deine Feinde für 4 Züge.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BATTLE_CRY_1</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Schlachtruf</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BATTLE_CRY_2</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Schlachtruf</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BATTLE_CRY_3</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Schlachtruf</color>]]></Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES</LocID>                    <Text>Ressourcen anzeigen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION</LocID>        <Text>Deckt sofort Ressourcen in der Umgebung des Kommandanten auf.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL1</LocID>   <Text>Deckt grundlegende Ressourcen auf.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL2</LocID>   <Text>Deckt alle Ressourcen auf.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL3</LocID>   <Text>Deckt alle Ressourcen und Fusionskerne auf.</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES</LocID>                    <Text>Schätze anzeigen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION</LocID>        <Text>Deckt sofort wertvolle Gegenstände in der Umgebung des Kommandanten auf.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL1</LocID>   <Text>Deckt Truhen auf.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL2</LocID>   <Text>Deckt Truhen und Ausrüstung auf.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL3</LocID>   <Text>Deckt Truhen, Ausrüstung und Artefakte auf.</Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE</LocID>                   <Text>Barbarenhorde</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION</LocID>       <Text>Gib dich für deinen stärksten Kommandanten aus!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION_LVL2</LocID>  <Text>Zwingt Feinde dazu, sich ihren Angriff noch einmal zu überlegen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION_LVL3</LocID>  <Text>Täuscht außerdem den Aufklärer-Skill.</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY</LocID>                         <Text>Leichte Beute</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION</LocID>             <Text>Täusche eigene Schwäche vor, damit andere dich angreifen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL2</LocID>        <Text>Täuscht eine Schwäche des Kommandanten vor.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL3</LocID>        <Text>Täuscht außerdem den Aufklärer-Skill.</Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY</LocID>                      <Text>Unsichtbarkeit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION</LocID>          <Text>Macht den Kommandanten für Feinde unsichtbar, bis ihm jemand zu nahe kommt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION_LVL2</LocID>     <Text>Unsichtbar innerhalb von 4 Feldern rund um feindliche Kommandanten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION_LVL3</LocID>     <Text>Unsichtbar innerhalb von 2 Feldern rund um feindliche Kommandanten.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_INVISIBILITY_2</LocID>                               <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Unsichtbar</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_INVISIBILITY_3</LocID>                               <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Unsichtbar</color>]]></Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD</LocID>                  <Text>Schutzfeld</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION</LocID>      <Text>Erzeugt ein Schutzfeld, das negative Effekte verhindert, die durch besuchte Objekte oder Fähigkeiten ausgelöst wurden.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_LVL2</LocID> <Text>Schützt den Kommandanten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_LVL3</LocID> <Text>Schützt Kommandanten innerhalb von 2 Feldern Entfernung zum Nutzer.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_PROTECTIVE_FIELD</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Schutzfeld</color>]]></Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_REINFORCEMENT</LocID>                     <Text>Verstärken!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_REINFORCEMENT_DESCRIPTION</LocID>         <Text>Ruft Einheiten eines bestimmten Typs, die in deinen Basen verfügbar sind, zur Unterstützung der Armee dieses Kommandanten herbei.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_REINFORCEMENT</LocID>                               <Text>Verstärkung herbeirufen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_REINFORCEMENT_TEXT</LocID>                          <Text><![CDATA[Wähle einen verfügbaren Einheitentyp! Einheiten, die in all deinen Basen verfügbar und keinem stationierten Helden zugewiesen sind, werden zum Kampf aufgerufen!\nDu kannst nur Einheiten mit einer Stufe herbeirufen, die der <color=SOTS_COLOR_GOLD>Fähigkeitsstärke</color> deines Kommandanten entspricht.]]></Text>  </GameDBLocalizedString>
+
+      
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE</LocID>                         <Text>Adlerauge</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION</LocID>             <Text>Verdoppelt die Sichtweite des Kommandanten für eine Phase.</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD</LocID>                       <Text>Überladene Wolke</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION</LocID>           <Text>Erzeugt eine künstliche Wolke auf der Karte. Wenn sich ein Kommandant hineinbewegt, wird er bewegungsunfähig und seine Armee erleidet im nächsten Gefecht Schaden.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_SUPERCHARGED_CLOUD_DAMAGE</LocID>                    <Text><![CDATA[Überladene Wolke durchschritten. Deine Einheiten sind <color=SOTS_COLOR_RED>geschockt und vergiftet</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_ELECTRONIC_EQUIPMENT_DISABLED</LocID>                <Text><![CDATA[<color=SOTS_COLOR_RED>Elektronische Ausrüstung wurde deaktiviert.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ELECTRONIC_EQUIPMENT_DISABLED</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_RED>Elektronische Ausrüstung wurde aufgrund eines an diesem Kommandanten wirkenden Statuseffekts deaktiviert.</color>]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EVACUATION</LocID>                        <Text>Evakuierung</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EVACUATION_DESCRIPTION</LocID>            <Text>Teleportiert den Kommandanten und seine Armee zur nächstgelegenen Basis.</Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_MIMIC</LocID>                             <Text>Imitiert</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_MIMIC_DESCRIPTION</LocID>                 <Text>Rufe einen unabhängigen, holografischen Freund herbei, damit du an mehreren Orten gleichzeitig sein kannst. Sieh bloß zu, dass er nichts berührt!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_MIMIC</LocID>                                                 <Text>Ich bin ein Imitator!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_ROOTS</LocID>                                        <Text><![CDATA[<color=SOTS_COLOR_RED>Angeknabbert. Bewegung reduziert.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MUSHROOM_SPORES</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Sporen inhaliert. Kampfkraft erhöht.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_IN_TRAINING</LocID>                                  <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>In Ausbildung. Erlangt in jeden Zug EP. Verteidigungsbonus, Taktik.</color>]]></Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
