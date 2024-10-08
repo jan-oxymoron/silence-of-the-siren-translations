@@ -11,7 +11,7 @@ If you'd like to edit the files on your desktop, make sure you use an editor tha
 
 <h2>Best practices for the actual translations</h2>
 
-- For commonly used terms please check how these got translated in other files, it might make sense to make a little glossary file if you're the first one starting the translation
+- For commonly used terms please check how these got translated in other files, it might make sense to make a little glossary file if you're the first one starting the translation.
 
 - Try to keep similar length as the English original. A lot of text boxes get resized to fit the texts, but it's always safer not to make the translated versions much different in length (yes, this can sometimes be a challenge).
 
@@ -43,6 +43,6 @@ Find the Streaming Assets folder in your game install folder and copy all the fi
 
 If the game fails to load or if some of the translated texts don't show up, it's quite likely there's an issue with the xml/formatting tags. Checking the log file from the game can help.
 
-Please check if all texts fit, if not, the issue might be on the sode of the game, so please let us know!
+Please check if all texts fit, if not, the issue might be on the side of the game, so please let us know!
 
 
