@@ -45,4 +45,12 @@ If the game fails to load or if some of the translated texts don't show up, it's
 
 Please check if all texts fit, if not, the issue might be on the side of the game, so please let us know!
 
+<h2>Attribution</h2>
 
+Don't forget to fill in your names, there's a section in each file for these the game gathers them and shows them in a tooltip for each language in options.
+Here's an example mostly to show that multiple names can be filled even in a single file. (:
+
+    <Contributors>
+        <Name>First translator who worked on this file</Name>
+        <Name>Another translator who did for example some corrections</Name>
+    </Contributors>
