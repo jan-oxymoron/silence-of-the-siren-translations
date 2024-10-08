@@ -39,7 +39,7 @@ https://discord.gg/DAeGEtqHNS
 
 <h2>Testing in game</h2>
 
-Find the Streaming Assets folder in your game install folder and copy all the files to a separate folder under Modules. The xmls themselvese need to sit in a Database subfolder, please have a look at for example LanguagePackCZ.
+Find the Streaming Assets folder in your game install folder and copy all the files to a separate folder under Modules. The xmls themselves need to sit in a Database subfolder, please have a look at for example LanguagePackCZ.
 
 If the game fails to load or if some of the translated texts don't show up, it's quite likely there's an issue with the xml/formatting tags. Checking the log file from the game can help.
 
