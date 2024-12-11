@@ -12,7 +12,22 @@
 
 **Расы**
 * Fossorians - Фоссорианцы
+    * Ratling Goon - Крысолюд-головорез
+    * Ratling Gunner - Крысолюд-стрелок
+    * Meatboy - Мясник
+    * Meatboy Shredder - Мясник-дробитель
+    * Hammerite - Молотобоец
+    * Hammerite Honor Guard - Молотобоец почётного караула
+    * Earthshaker - Землетряс
+    * Earthshaker MK II - Землетряс MK II
+    * Tunnel Worm - Туннельный червь
+    * Panzer Worm - Панцирный червь
+    * Commissar Cadet - Комиссар-кадет
+    * Seasoned Commissar - Опытный комиссар
+    * Liberator - Освободитель
+    * Mass Liberator - Освободитель масс
 
 **Прочее:**
 * consumables - расходники
 * unit - юнит
+* slurm - слёрм (?) - например: "Slurm ahead! Beware, troops! They vomit acid that melts through metal!"

@@ -2,87 +2,267 @@
     <GameDBStringTable ID="LOC_RU_BASIC">
 
         <LanguageRef>LANG_RU</LanguageRef>
-        
+
         <Contributors>
             <Name>Oxymoron Games</Name>
         </Contributors>
 
         <LocalizedStrings>
             <!-- Resources -->
-            <GameDBLocalizedString>         <LocID>RESOURCE_A</LocID>                                               <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Лимерит</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_B</LocID>                                               <Text><![CDATA[<color=SOTS_COLOR_ALLOYS>Сплав</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_C</LocID>                                               <Text><![CDATA[<color=SOTS_COLOR_BIOMASS>Биомасса</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_D</LocID>                                               <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Радиант</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_EXPLORATION</LocID>                                     <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Ядро синтеза</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_CASH</LocID>                                            <Text><![CDATA[<color=SOTS_COLOR_GOLD>Аура-монеты</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_MOVEMENT_POINTS</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Очки движения</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_ENERGY</LocID>                                          <Text><![CDATA[<color=SOTS_COLOR_ENERGY>Очки энергии</color>]]></Text>  </GameDBLocalizedString>            
-            
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_OTHER_PLAYERS_DEFEATED</LocID>             <Text>Победить других игроков</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_OTHER_PLAYERS_DEFEATED_MESSAGE</LocID>     <Text>Другие игроки повержены</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_CAPTURE_BASE</LocID>                       <Text>Захватить базу</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_CAPTURE_BASE_MESSAGE</LocID>               <Text>База захвачена</Text></GameDBLocalizedString>            
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_HOLD_BASE_FOR_N_ROUNDS</LocID>             <Text>Удерживать базу N раундов</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_WIN_HOLD_BASE_FOR_N_ROUNDS_MESSAGE</LocID>     <Text>База удерживалась в течение заданного времени</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_PLAYER_ELIMINATED</LocID>                 <Text>Потерять всех командиров и базы</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_PLAYER_ELIMINATED_MESSAGE</LocID>         <Text>Все командиры и базы потеряны. Нет никакой надежды.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_OUT_OF_TIME</LocID>                       <Text>Истекло время</Text></GameDBLocalizedString>                      
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_OUT_OF_TIME_MESSAGE</LocID>               <Text>Время вышло</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_LOSE_HERO</LocID>                         <Text>Потерять командира</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_LOSE_SECONDARY_HERO</LocID>               <Text>Потерять ещё одного командира</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_LOSE_HERO_MESSAGE</LocID>                 <Text>Командир, которого вы должны были защищать, больше не с нами!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>RESOURCE_A</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Лимерит</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>RESOURCE_B</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_ALLOYS>Сплав</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>RESOURCE_C</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_BIOMASS>Биомасса</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>RESOURCE_D</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Радиант</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>RESOURCE_EXPLORATION</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Ядро синтеза</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>RESOURCE_CASH</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Аура-монеты</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>RESOURCE_MOVEMENT_POINTS</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Очки движения</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>RESOURCE_ENERGY</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_ENERGY>Очки энергии</color>]]></Text>
+            </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>KEEP_COMMANDER_ALIVE</LocID>                                     <Text>Сохранить командиру жизнь: {1}</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>HERO_HAS_EARNED_XP</LocID>                                       <Text><![CDATA[Командир заработал<color=SOTS_COLOR_XP> {1} опыта</color>!]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_WOULD_HAVE_EARNED_XP</LocID>                                <Text><![CDATA[Заработал бы <color=SOTS_COLOR_XP> {1} опыта</color> в настоящей битве!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_WIN_OTHER_PLAYERS_DEFEATED</LocID>
+                <Text>Победить других игроков</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_WIN_OTHER_PLAYERS_DEFEATED_MESSAGE</LocID>
+                <Text>Другие игроки повержены</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_WIN_CAPTURE_BASE</LocID>
+                <Text>Захватить базу</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_WIN_CAPTURE_BASE_MESSAGE</LocID>
+                <Text>База захвачена</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_WIN_HOLD_BASE_FOR_N_ROUNDS</LocID>
+                <Text>Удерживать базу N раундов</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_WIN_HOLD_BASE_FOR_N_ROUNDS_MESSAGE</LocID>
+                <Text>База удерживалась в течение заданного времени</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_LOST_PLAYER_ELIMINATED</LocID>
+                <Text>Потерять всех командиров и базы</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_LOST_PLAYER_ELIMINATED_MESSAGE</LocID>
+                <Text>Все командиры и базы потеряны. Нет никакой надежды.</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_LOST_OUT_OF_TIME</LocID>
+                <Text>Истекло время</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_LOST_OUT_OF_TIME_MESSAGE</LocID>
+                <Text>Время вышло</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_LOST_LOSE_HERO</LocID>
+                <Text>Потерять командира</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_LOST_LOSE_SECONDARY_HERO</LocID>
+                <Text>Потерять ещё одного командира</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>VICTORY_CONDITION_LOST_LOSE_HERO_MESSAGE</LocID>
+                <Text>Командир, которого вы должны были защищать, больше не с нами!</Text>
+            </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_RED</LocID>                                         <Text>Красный</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_YELLOW</LocID>                                      <Text>Жёлтый</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_GREEN</LocID>                                       <Text>Зелёный</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_TEAL</LocID>                                        <Text>Циановый</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_BRONZE</LocID>                                      <Text>Бронзовый</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_BLUE</LocID>                                        <Text>Синий</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_INDIGO</LocID>                                      <Text>Индиго</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_TURQUOISE</LocID>                                   <Text>Бирюзовый</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_PINK</LocID>                                        <Text>Розовый</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_COLOR_NEUTRAL</LocID>                                     <Text>Нейтральный</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>NEUTRAL_PLAYER</LocID>                                           <Text>Окружающая среда</Text></GameDBLocalizedString>
-            
+            <GameDBLocalizedString>
+                <LocID>KEEP_COMMANDER_ALIVE</LocID>
+                <Text>Сохранить командиру жизнь: {1}</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>HERO_HAS_EARNED_XP</LocID>
+                <Text><![CDATA[Командир заработал<color=SOTS_COLOR_XP> {1} опыта</color>!]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>HERO_WOULD_HAVE_EARNED_XP</LocID>
+                <Text><![CDATA[Заработал бы <color=SOTS_COLOR_XP> {1} опыта</color> в настоящей битве!]]></Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>PLAYER_COLOR_RED</LocID>
+                <Text>Красный</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>PLAYER_COLOR_YELLOW</LocID>
+                <Text>Жёлтый</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>PLAYER_COLOR_GREEN</LocID>
+                <Text>Зелёный</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>PLAYER_COLOR_TEAL</LocID>
+                <Text>Циановый</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>PLAYER_COLOR_BRONZE</LocID>
+                <Text>Бронзовый</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>PLAYER_COLOR_BLUE</LocID>
+                <Text>Синий</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>PLAYER_COLOR_INDIGO</LocID>
+                <Text>Индиго</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>PLAYER_COLOR_TURQUOISE</LocID>
+                <Text>Бирюзовый</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>PLAYER_COLOR_PINK</LocID>
+                <Text>Розовый</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>PLAYER_COLOR_NEUTRAL</LocID>
+                <Text>Нейтральный</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>NEUTRAL_PLAYER</LocID>
+                <Text>Окружающая среда</Text>
+            </GameDBLocalizedString>
+
             <!-- ENUMS-->
-            <GameDBLocalizedString>         <LocID>MapLayerRole_SURFACE</LocID>                                     <Text>Поверхность</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MapLayerRole_SPACE</LocID>                                       <Text>Космос</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MapLayerRole_DUNGEON</LocID>                                     <Text>Подземелье</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MapLayerRole_SURFACE</LocID>
+                <Text>Поверхность</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MapLayerRole_SPACE</LocID>
+                <Text>Космос</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MapLayerRole_DUNGEON</LocID>
+                <Text>Подземелье</Text>
+            </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>TimedGateVariant_PERMANENT</LocID>                               <Text>Постоянный</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TimedGateVariant_REPEATING</LocID>                               <Text>Повторяющийся</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TimedGateVariant_PERMANENT</LocID>
+                <Text>Постоянный</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>TimedGateVariant_REPEATING</LocID>
+                <Text>Повторяющийся</Text>
+            </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>ConstructionAvailability_AVAILABLE</LocID>                       <Text>Доступно</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ConstructionAvailability_NOT_ENOUGH_RESOURCES</LocID>            <Text>Недостаточно ресурсов</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ConstructionAvailability_ALREADY_BUILT_THIS_TURN</LocID>         <Text>Этот командир уже что-то построил в этом раунде</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ConstructionAvailability_TOO_CLOSE_TO_ENEMY_BASE</LocID>         <Text>Нельзя строить так близко к вражеской базе</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ConstructionAvailability_TOO_FAR_FROM_OWN_BASE</LocID>           <Text>Нельзя строить так далеко от вашей базы</Text></GameDBLocalizedString>            
-            <GameDBLocalizedString>         <LocID>ConstructionAvailability_NO_BUILDING_SPOTS</LocID>               <Text>Нет подходящего места для строительства в этом районе</Text></GameDBLocalizedString>            
+            <GameDBLocalizedString>
+                <LocID>ConstructionAvailability_AVAILABLE</LocID>
+                <Text>Доступно</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ConstructionAvailability_NOT_ENOUGH_RESOURCES</LocID>
+                <Text>Недостаточно ресурсов</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ConstructionAvailability_ALREADY_BUILT_THIS_TURN</LocID>
+                <Text>Этот командир уже что-то построил в этом раунде</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ConstructionAvailability_TOO_CLOSE_TO_ENEMY_BASE</LocID>
+                <Text>Нельзя строить так близко к вражеской базе</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ConstructionAvailability_TOO_FAR_FROM_OWN_BASE</LocID>
+                <Text>Нельзя строить так далеко от вашей базы</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ConstructionAvailability_NO_BUILDING_SPOTS</LocID>
+                <Text>Нет подходящего места для строительства в этом районе</Text>
+            </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>UNIT_TYPE_TECH</LocID>                                           <Text>Технические юниты</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_TYPE_BIO</LocID>                                            <Text>Био-юниты</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>UNIT_TYPE_TECH</LocID>
+                <Text>Технические юниты</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>UNIT_TYPE_BIO</LocID>
+                <Text>Био-юниты</Text>
+            </GameDBLocalizedString>
 
             <!-- Misc-->
-            <GameDBLocalizedString>         <LocID>LEVEL_LOC</LocID>                                                <Text>Уровень </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>XP_LOC</LocID>                                                   <Text><![CDATA[<color=SOTS_COLOR_XP>Опыт </color>]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EFFECT_TURNS_LOC</LocID>                                         <Text> Ход(ы)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EFFECT_COMBAT_START_LOC</LocID>                                  <Text>До следующей битвы</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EFFECT_OR</LocID>                                                <Text> или </Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>SHOW_SURFACE</LocID>                                             <Text>Показать поверхность</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SHOW_SPACE</LocID>                                               <Text>Показать орбиту</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SHOW_DUNGEON</LocID>                                             <Text>Показать подземелье</Text></GameDBLocalizedString>
-      
-            <GameDBLocalizedString>         <LocID>DIFFICULTY</LocID>                                               <Text>Сложность</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIFFICULTY_EASY</LocID>                                          <Text>Лёгкая</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIFFICULTY_MEDIUM</LocID>                                        <Text>Средняя</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIFFICULTY_HARD</LocID>                                          <Text>Сложная</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>LEVEL_LOC</LocID>
+                <Text>Уровень </Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>XP_LOC</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_XP>Опыт </color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>EFFECT_TURNS_LOC</LocID>
+                <Text> Ход(ы)</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>EFFECT_COMBAT_START_LOC</LocID>
+                <Text>До следующей битвы</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>EFFECT_OR</LocID>
+                <Text> или </Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>SHOW_SURFACE</LocID>
+                <Text>Показать поверхность</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>SHOW_SPACE</LocID>
+                <Text>Показать орбиту</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>SHOW_DUNGEON</LocID>
+                <Text>Показать подземелье</Text>
+            </GameDBLocalizedString>
+
+            <GameDBLocalizedString>
+                <LocID>DIFFICULTY</LocID>
+                <Text>Сложность</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DIFFICULTY_EASY</LocID>
+                <Text>Лёгкая</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DIFFICULTY_MEDIUM</LocID>
+                <Text>Средняя</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>DIFFICULTY_HARD</LocID>
+                <Text>Сложная</Text>
+            </GameDBLocalizedString>
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
