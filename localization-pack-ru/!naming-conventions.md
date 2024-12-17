@@ -29,5 +29,6 @@
 
 **Прочее:**
 * consumables - расходники
-* unit - юнит
+* unit - юнит, отряд, солдат
+* units - отряды, армия
 * slurm - слёрм (?) - например: "Slurm ahead! Beware, troops! They vomit acid that melts through metal!"

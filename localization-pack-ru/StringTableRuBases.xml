@@ -4,13 +4,13 @@
         <LanguageRef>LANG_RU</LanguageRef>
 
         <Contributors>
-            <Name>Oxymoron Games</Name>
+            <Name>AlexSnowLeo, EtoYoshimura03</Name>
         </Contributors>
 
         <LocalizedStrings>
             <GameDBLocalizedString>
                 <LocID>UNITS_AVAILABLE</LocID>
-                <Text>Доступные юниты: </Text>
+                <Text>Доступные отряды: </Text>
             </GameDBLocalizedString>
 
             <GameDBLocalizedString>
@@ -75,7 +75,7 @@
 
             <GameDBLocalizedString>
                 <LocID>UNITS_GROW</LocID>
-                <Text>ЮНИТЫ (+РОСТ):</Text>
+                <Text>ОТРЯДЫ (+РОСТ):</Text>
             </GameDBLocalizedString>
 
             <GameDBLocalizedString>
@@ -224,7 +224,7 @@
 
             <GameDBLocalizedString>
                 <LocID>TOOLTIP_HEADING_UPGRADE</LocID>
-                <Text>УЛУЧШЕНИЕ ЮНИТОВ</Text>
+                <Text>УЛУЧШЕНИЕ ОТРЯДОВ</Text>
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>TOOLTIP_CAN_UPGRADE</LocID>
@@ -240,7 +240,7 @@
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>TOOLTIP_UNIT_INFO_SPLIT</LocID>
-                <Text>Разделить этот отряд юнитов и/или посмотреть подробную информацию о юнитах. Горячая клавиша: Щелчок правой кнопкой мыши по слоту юнита.</Text>
+                <Text>Разделить этот отряд и/или посмотреть подробную информацию об отряде. Горячая клавиша: Щелчок правой кнопкой мыши по слоту отряда.</Text>
             </GameDBLocalizedString>
 
             <GameDBLocalizedString>
@@ -259,7 +259,7 @@
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>TOOLTIP_BASE_HIRE_UNITS</LocID>
-                <Text>Нанять юнитов \nГорячая клавиша по умолчанию: [R]</Text>
+                <Text>Нанять отряд \nГорячая клавиша по умолчанию: [R]</Text>
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>TOOLTIP_BASE_HIRE_HEROES</LocID>
@@ -287,7 +287,7 @@
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>TOOLTIP_BASE_TRANSMOGRIFY</LocID>
-                <Text>Преобразовать юнитов \nГорячая клавиша по умолчанию: [X]</Text>
+                <Text>Преобразовать отряд \nГорячая клавиша по умолчанию: [X]</Text>
             </GameDBLocalizedString>
 
             <GameDBLocalizedString>
@@ -313,19 +313,19 @@
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>TOOLTIP_MERGE_UP</LocID>
-                <Text>Объединить юнитов в верхнюю армию. (Командиры остаются на своих местах).</Text>
+                <Text>Объединить отряды в верхнюю армию. (Командиры остаются на своих местах).</Text>
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>TOOLTIP_MERGE_DOWN</LocID>
-                <Text>Объединить юнитов в нижнюю армию. (Командиры остаются на своих местах).</Text>
+                <Text>Объединить отряды в нижнюю армию. (Командиры остаются на своих местах).</Text>
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>TOOLTIP_UNIT_MANIPULATION</LocID>
-                <Text>Нажмите, чтобы взять этот отряд юнитов. Правый клик, чтобы разделить его.\nПри перемещении отряда правый клик по соответствующему слоту, чтобы разместить юнитов по одному.</Text>
+                <Text>Нажмите, чтобы взять этот отряд. Правый клик, чтобы разделить его.\nПри перемещении отряда правый клик по соответствующему слоту, чтобы разместить юнитов по одному.</Text>
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>TOOLTIP_UNDO_ARMY_CHANGES</LocID>
-                <Text>Отменить изменения в армии. Используйте, когда вы случайно потратили на перемещение юнитов больше очков движения, чем планировали.</Text>
+                <Text>Отменить изменения в армии. Используйте, когда вы случайно потратили на перемещение отрядов больше очков движения, чем планировали.</Text>
             </GameDBLocalizedString>
 
             <GameDBLocalizedString>
@@ -480,8 +480,11 @@
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>ACADEMY_HINT_SKILL_LEVELS</LocID>
-                <Text><![CDATA[- Повышение уровня этих навыков даёт доступ к <color=SOTS_COLOR_GOLD>более мощным способностям командира</color>.]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_LEARNING</LocID>                            <Text><![CDATA[- Командиры автоматически изучают способности при посещении базы с <color=SOTS_COLOR_GOLD>Академией</color>.]]></Text>
+                <Text><![CDATA[- Повышение уровня этих навыков даёт доступ к <color=SOTS_COLOR_GOLD>более мощным способностям командира</color>.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>ACADEMY_HINT_LEARNING</LocID>
+                <Text><![CDATA[- Командиры автоматически изучают способности при посещении базы с <color=SOTS_COLOR_GOLD>Академией</color>.]]></Text>
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>ACADEMY_HINT_ABILITIES</LocID>
@@ -494,7 +497,7 @@
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>GATEWAY_UNITS_TO_OUTPOSTS</LocID>
-                <Text>Отправляет юнитов на аванпосты.</Text>
+                <Text>Отправляет отряды на аванпосты.</Text>
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>GATEWAY_WHO</LocID>
@@ -514,7 +517,7 @@
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>GATEWAY_PLACE_A_UNIT</LocID>
-                <Text>Разместите юнит!</Text>
+                <Text>Разместите отряд!</Text>
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>GATEWAY_OUTPOST</LocID>
@@ -522,7 +525,7 @@
             </GameDBLocalizedString>
             <GameDBLocalizedString>
                 <LocID>GATEWAY_ONE_STACK_PER_ROUND</LocID>
-                <Text>Каждый раунд можно отправить только один отряд юнитов.</Text>
+                <Text>Каждый раунд можно отправить только один отряд.</Text>
             </GameDBLocalizedString>
 
             <GameDBLocalizedString>
