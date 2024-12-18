@@ -1,4 +1,4 @@
-﻿<Database>
+﻿<Database>      
     <GameDBStringTable ID="LOC_RU_EXPLORATION_MAP_OBJECTS">
         <LanguageRef>LANG_RU</LanguageRef>
         <Contributors>
@@ -298,6 +298,116 @@
                 <LocID>MAPOBJ_AURA_COIN_VISITED</LocID>
                 <Text>Посетить хранилище Аура-монет</Text>
             </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-01 END -->                                             
+                                                                                                                     
+            <!-- For Chris: texts ready for proofreading 2024-02 START -->                                           
+            <GameDBLocalizedString>
+                <LocID>DIALOG_EXPLORATION_BEAST_NEST</LocID>
+                <Text>Гнездо зверей</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>EXPLORATION_BEAST_NEST_PICKUP</LocID>
+                <Text>Вы очистили гнездо и получили награду.</Text>
+            </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-02 END -->            
+
+            <!-- Map objects - upgrades DEMO revision -->
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_MINE_A_PRODUCTION_UPGRADE</LocID>
+                <Text><![CDATA[+1 ед. <color=SOTS_COLOR_LIMERITE>Лимерита</color> производится за ход.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_MINE_B_PRODUCTION_UPGRADE</LocID>
+                <Text><![CDATA[+1 ед. <color=SOTS_COLOR_ALLOYS>Сплава</color> производится за ход.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_MINE_C_PRODUCTION_UPGRADE</LocID>
+                <Text><![CDATA[+1 ед. <color=SOTS_COLOR_BIOMASS>Биомассы</color> производится за ход.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_MINE_D_PRODUCTION_UPGRADE</LocID>
+                <Text><![CDATA[+1 ед. <color=SOTS_COLOR_RADIANT>Радианта</color> производится за ход.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_MINE_CASH_PRODUCTION_UPGRADE</LocID>
+                <Text><![CDATA[+500 <color=SOTS_COLOR_GOLD>Аура-монет</color> производится за ход.]]></Text>
+            </GameDBLocalizedString>
+                                                                                                                         
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_WATCHTOWER_VISIBILITY_UPGRADE</LocID>
+                <Text>Увеличивает радиус видимости и предоставляет дополнительную информацию о врагах в диапазоне.</Text>
+            </GameDBLocalizedString>
+                                                                                                                         
+            <!-- Map objects - TREASURES DEMO revision -->
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_CHEST</LocID>
+                <Text>Контейнер</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_CHEST_DESCRIPTION</LocID>
+                <Text><![CDATA[Содержит <color=SOTS_COLOR_GOLD>фрагмент данных</color>.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_CHEST_ITEM</LocID>
+                <Text>Тайник</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_CHEST_ITEM_DESCRIPTION</LocID>
+                <Text><![CDATA[Содержит загадочный <color=SOTS_COLOR_GOLD>предмет</color>.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_CHEST_RESOURCES</LocID>
+                <Text>Хранилище</Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_CHEST_RESOURCES_DESCRIPTION</LocID>
+                <Text><![CDATA[Содержит значительное количество <color=SOTS_COLOR_GOLD>ресурсов</color>.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_RESOURCE_A</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Лимерит</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_RESOURCE_A_DESCRIPTION</LocID>
+                <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_LIMERITE>Лимерита</color>.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_RESOURCE_B</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_ALLOYS>Сплав</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_RESOURCE_B_DESCRIPTION</LocID>
+                <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_ALLOYS>Сплава</color>.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_RESOURCE_C</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_BIOMASS>Биомасса</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_RESOURCE_C_DESCRIPTION</LocID>
+                <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_BIOMASS>Биомассы</color>.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_RESOURCE_D</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Радиант</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_RESOURCE_D_DESCRIPTION</LocID>
+                <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_RADIANT>Радианта</color>.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_CASH</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Аура-монеты</color>]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_CASH_DESCRIPTION</LocID>
+                <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_GOLD>Аура-монет</color>.]]></Text>
+            </GameDBLocalizedString>
+            <GameDBLocalizedString>
+                <LocID>MAPOBJ_RESOURCE_FUSION_CORE</LocID>
+                <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Термоядерный реактор</color>]]></Text>
+            </GameDBLocalizedString>
+
             
             <!-- For Chris: texts ready for proofreading 2024-01 START -->
             <GameDBLocalizedString>
