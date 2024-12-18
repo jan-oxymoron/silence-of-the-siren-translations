@@ -1,19 +1,22 @@
 <Database>
-    <GameDBStringTable ID="LOC_RU_PLANETS">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!-- JB: notes for Urbik:
+  <GameDBStringTable ID="LOC_RU_PLANETS">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Oxymoron Games</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!-- JB: notes for Urbik:
             UNSC = UNSS SC = united nations of the solar system star catalog
             Siren Star would have a number
             And exoplanets are usually designated with a letter, fourth planet would be 'd' -->
-            <GameDBLocalizedString>        <LocID>PLANET_EA_ID</LocID>                                                  <Text>UNSC 4298d</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>        <LocID>PLANET_EA_DESCRIPTION</LocID>                                         <Text><![CDATA[The fourth planet of the Siren System is a rocky world with a breathable atmosphere, but also a very dangerous place, not really ruled by anyone.\n\nOn the other hand, it provides a lot of opportunities for local militia and rebels to improve their standing.\n\nBecause of a past collision with a rogue moon, the planet rotates very quickly and the local day-night cycle only has four phases.]]></Text>  </GameDBLocalizedString>
-        </LocalizedStrings>
-    </GameDBStringTable>
+      <GameDBLocalizedString>
+        <LocID>PLANET_EA_ID</LocID>
+        <Text>UNSC 4298d</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PLANET_EA_DESCRIPTION</LocID>
+        <Text>Четвертая планета системы Сирен это скалистый мир с пригодной для дыхания атмосферой, но при этом очень опасный, никем не управляемый.\n\n С другой стороны, он предоставляет местным ополченцам и повстанцам массу возможностей улучшить свое положение.\n\nПосле столкновения с луной-изгоем планета вращается очень быстро, и местный цикл день-ночь состоит всего из четырех фаз.</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
