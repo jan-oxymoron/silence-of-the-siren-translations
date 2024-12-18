@@ -1,822 +1,770 @@
-﻿<Database>      
-    <GameDBStringTable ID="LOC_RU_EXPLORATION_MAP_OBJECTS">
-        <LanguageRef>LANG_RU</LanguageRef>
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-        <LocalizedStrings>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BIOFARM_01</LocID>
-                <Text>Биоферма</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BIOFARM_01_DESCRIPTION</LocID>
-                <Text><![CDATA[Производит <color=SOTS_COLOR_BIOMASS>1</color> (<color=SOTS_COLOR_BIOMASS>2</color> после улучшения) ед. <color=SOTS_COLOR_BIOMASS>Биомассы</color> за фазу.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_FIBERALLOYMILL_LVL1</LocID>
-                <Text>Завод сплавов</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_FIBERALLOYMILL_LVL1_DESCRIPTION</LocID>
-                <Text><![CDATA[Производит <color=SOTS_COLOR_ALLOYS>1</color> (<color=SOTS_COLOR_ALLOYS>2</color> после улучшения) ед. <color=SOTS_COLOR_ALLOYS>Сплава</color> за фазу.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_LIMERITMINE_LVL1</LocID>
-                <Text>Лимеритовый карьер</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_LIMERITMINE_LVL1_DESCRIPTION</LocID>
-                <Text><![CDATA[Производит <color=SOTS_COLOR_LIMERITE>1</color> (<color=SOTS_COLOR_LIMERITE>2</color> после улучшения) ед. <color=SOTS_COLOR_LIMERITE>Лимерита</color> за фазу.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_NANO_COMPOUND_MINE</LocID>
-                <Text>Радиантный коллайдер</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_NANO_COMPOUND_MINE_DESCRIPTION</LocID>
-                <Text><![CDATA[Производит <color=SOTS_COLOR_RADIANT>1</color> (<color=SOTS_COLOR_RADIANT>2</color> после улучшения) ед. <color=SOTS_COLOR_RADIANT>Радиантов</color> за фазу.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GOLD_MINE</LocID>
-                <Text>Плавильня</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GOLD_MINE_DESCRIPTION</LocID>
-                <Text><![CDATA[Производит <color=SOTS_COLOR_GOLD>500</color> (<color=SOTS_COLOR_GOLD>1000</color> после улучшения) ед. <color=SOTS_COLOR_GOLD>Аура-монет</color> за ход.]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_WATCHTOWER_01</LocID>
-                <Text>Сторожевая башня</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_WATCHTOWER_01_DESCRIPTION</LocID>
-                <Text>Немедленно раскрывает окружающую местность и держит её под наблюдением.</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_AURA_COIN_STORAGE</LocID>
-                <Text>Хранилище Аура-монет</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_AURA_COIN_STORAGE_DESCRIPTION</LocID>
-                <Text><![CDATA[Дает посетившему командиру <color=SOTS_COLOR_GOLD>1000 Аура-монет</color> один раз за цикл.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SMUGGLERS_DEN</LocID>
-                <Text>Приют контрабандистов</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SMUGGLERS_DEN_DESCRIPTION</LocID>
-                <Text><![CDATA[Посетивший командир получит <color=SOTS_COLOR_GOLD>случайную награду</color>. Можно использовать один раз за цикл. <color=SOTS_COLOR_ATTACK>Атака</color> даст <color=SOTS_COLOR_GOLD>большую награду</color>, но <color=SOTS_COLOR_GOLD>отключит</color> приют на <color=SOTS_COLOR_GOLD>3 цикла</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SLAVECAMP</LocID>
-                <Text>Лагерь рабов</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SLAVECAMP_DESCRIPTION</LocID>
-                <Text><![CDATA[Тяжело охраняется кротами для защиты товара. Кто угодно <color=SOTS_COLOR_GOLD>может купить</color> то, что видит. Ассортимент меняется каждую фазу, так что не медлите, если видите что-то интересное. <color=SOTS_COLOR_ATTACK>Атака</color> дает командиру <color=SOTS_COLOR_GOLD>больше освобождённых рабов</color>, но <color=SOTS_COLOR_GOLD>отключит</color> лагерь на <color=SOTS_COLOR_GOLD>3 цикла</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DOJO</LocID>
-                <Text>Святилище мечника</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DOJO_DESCRIPTION</LocID>
-                <Text><![CDATA[Восстанавливающее моджо додзё, где командиры получают <color=SOTS_COLOR_XP>2000 очков опыта</color>. Каждый командир может использовать это здание только один раз.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BROTHEL</LocID>
-                <Text>Скучно? Привет!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BROTHEL_DESCRIPTION</LocID>
-                <Text><![CDATA[Этот дом терпимости пользуется уважением во всех слоях общества и повышает <color=SOTS_COLOR_GOLD>боевой дух на 20</color> на один цикл. Каждый командир может использовать это здание один раз за цикл.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TOMB_OF_SWORDMASTER</LocID>
-                <Text>Гробница мастера меча</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TOMB_OF_SWORDMASTER_DESCRIPTION</LocID>
-                <Text><![CDATA[Изучая уроки у мастера с палкой, боевые умения командира <color=SOTS_COLOR_ATTACK>постоянно увеличиваются на 2</color>. Каждый командир может тренироваться здесь только один раз.]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_ENERGYNODE_SMALL</LocID>
-                <Text>Энергетический узел</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_ENERGYNODE_SMALL_DESCRIPTION</LocID>
-                <Text><![CDATA[Полностью <color=SOTS_COLOR_GOLD>восполняет</color> запас <color=SOTS_COLOR_ENERGY>очков энергии</color> командира один раз за цикл. (Кто первый пришел, того и энергия.)]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_EXPLORATION_SKILL_ACADEMY</LocID>
-                <Text>Академия навыков</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_EXPLORATION_SKILL_ACADEMY_DESCRIPTION</LocID>
-                <Text>Посетивший командир может изучить любой навык. Можно использовать один раз за командира.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_EXPLORATION_TECH_ABILITY_ACADEMY</LocID>
-                <Text>Техническая академия</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_EXPLORATION_TECH_ABILITY_ACADEMY_DESCRIPTION</LocID>
-                <Text><![CDATA[Посетивший командир может изучить <color=SOTS_COLOR_GOLD>любое техническое умение</color>. Можно использовать <color=SOTS_COLOR_GOLD>один раз за командира</color>.]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_EXPLORATION_EXPLO_ABILITY_ACADEMY</LocID>
-                <Text>Исследовательская академия</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_EXPLORATION_EXPLO_ABILITY_ACADEMY_DESCRIPTION</LocID>
-                <Text><![CDATA[Посетивший командир может изучить <color=SOTS_COLOR_GOLD>любое умение исследователя</color>. Можно использовать <color=SOTS_COLOR_GOLD>один раз за командира</color>.]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BOOT_CAMP</LocID>
-                <Text>Тренировочный лагерь</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BOOT_CAMP_DESCRIPTION</LocID>
-                <Text><![CDATA[Без пота - нет улучшенных отрядов. Это место, где командир <color=SOTS_COLOR_GOLD>может</color> либо <color=SOTS_COLOR_GOLD>улучшить отряды</color> (за ту же цену, что и на базе), либо <color=SOTS_COLOR_UPGRADE>"подтолкнуть отряды к улучшению бесплатно"</color>, но <color=SOTS_COLOR_RED>потеряет 10%</color> своих юнитов. (<color=SOTS_COLOR_RED>Всегда 1 юнит</color> при малом количестве).]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>EXPLORATION_BOOT_CAMP_UPGRADE_TEXT</LocID>
-                <Text><![CDATA[Нажмите <color=SOTS_COLOR_GOLD>левую</color> кнопку (над отрядом) для <color=SOTS_COLOR_GOLD>улучшения</color> или нажмите <color=SOTS_COLOR_UPGRADE>правую</color> кнопку (над отрядом) для <color=SOTS_COLOR_UPGRADE>"подталкивания"</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>EXPLORATION_BOOT_CAMP_NO_UPGRADE_TEXT</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Ни один</color> отряд не может быть <color=SOTS_COLOR_GOLD>улучшен</color> или <color=SOTS_COLOR_GOLD>обучен</color>.]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MARKET</LocID>
-                <Text>Черный рынок</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MARKET_DESCRIPTION</LocID>
-                <Text><![CDATA[Место для <color=SOTS_COLOR_GOLD>торговли ресурсами</color> с <color=SOTS_COLOR_GOLD>лучшим курсом обмена</color> и для <color=SOTS_COLOR_UPGRADE>продажи</color> ненужного <color=SOTS_COLOR_UPGRADE>снаряжения</color> или <color=SOTS_COLOR_UPGRADE>расходников</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>EXPLORATION_MARKET_TEXT</LocID>
-                <Text><![CDATA[Заходите, давайте <color=SOTS_COLOR_GOLD>торговать</color> или <color=SOTS_COLOR_UPGRADE>продавать</color>! У нас лучшие цены. И не смотрите никуда больше.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HEADING_ITEM_STORE</LocID>
-                <Text>Магазин предметов</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>EXPLORATION_MARKET_NOTHING_TO_SELL</LocID>
-                <Text>У командира нет ничего на продажу.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>EXPLORATION_MARKET_NOTHING_TO_BUY</LocID>
-                <Text>Нет ничего для покупки.</Text>
-            </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TRAINING_GROUND</LocID>
-                <Text>Храм воинов-монахов</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TRAINING_GROUND_DESCRIPTION</LocID>
-                <Text><![CDATA[Место для <color=SOTS_COLOR_GOLD>оттачивания</color> ваших <color=SOTS_COLOR_GOLD>боевых навыков</color>. Вы можете <color=SOTS_COLOR_UPGRADE>сражаться, не теряя отрядов</color> и получить бонус в виде <color=SOTS_COLOR_UPGRADE>получения</color> некоторых <color=SOTS_COLOR_XP>очков опыта</color>. Каждый командир может использовать это здание один раз за цикл.]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BATTLE_ARENA</LocID>
-                <Text>Боевая арена</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BATTLE_ARENA_DESCRIPTION</LocID>
-                <Text><![CDATA[Место для <color=SOTS_COLOR_GOLD>проверки</color> ваших <color=SOTS_COLOR_GOLD>боевых навыков</color>. Вы <color=SOTS_COLOR_GOLD>участвуете</color> в <color=SOTS_COLOR_GOLD>трех раундах</color> против случайных армий. Каждый раунд будет <color=SOTS_COLOR_GOLD>награжден</color>.]]></Text>
-            </GameDBLocalizedString>
-    
-            <GameDBLocalizedString>
-                <LocID>TOOLTIP_HEADING_TRAIN</LocID>
-                <Text>Обучение отрядов</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>TOOLTIP_CAN_TRAIN</LocID>
-                <Text>Обучение улучшит до {1}.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>TOOLTIP_TRAIN_LOST</LocID>
-                <Text><![CDATA[Вы <color=SOTS_COLOR_RED>потеряете {1} отряд(ов)</color> в процессе обучения.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>TOOLTIP_UNIT_NOT_ENOUGH_TO_TRAIN</LocID>
-                <Text><![CDATA[Вам <color=SOTS_COLOR_GOLD>нужно</color> по крайней мере <color=SOTS_COLOR_GOLD>2 отряда</color> для их обучения.]]></Text>
-            </GameDBLocalizedString>
-    
-            <GameDBLocalizedString>
-                <LocID>DIALOG_EXPLORATION_SHUTTLE_WRECKAGE</LocID>
-                <Text>Обломки шаттла</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>EXPLORATION_SHUTTLE_WRECKAGE_PICKUP</LocID>
-                <Text>Вы не нашли черный ящик, так что все еще не знаете, что здесь произошло. Вы собрали все, что могли, и постараетесь забыть такое ужасное зрелище.</Text>
-            </GameDBLocalizedString>
-    
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINE_CASH</LocID>
-                <Text>Монетный двор</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TOXIC_CLOUD</LocID>
-                <Text>Перезаряженное облако</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_FORCE_SHIELD</LocID>
-                <Text>Силовой щит</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_ACADEMY</LocID>
-                <Text>Академия</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_ACADEMY_DESCRIPTION</LocID>
-                <Text>Здесь вы можете изучить несколько классных умений. Но пока не время. Вы должны быть терпеливы.</Text>
-            </GameDBLocalizedString>
-            
-            <!-- Upgrades -->
-            <GameDBLocalizedString>
-                <LocID>RESOURCE_GENERATION</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Улучшение производства</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>GARRISON_UPGRADE</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_UPGRADE>Улучшение обороны</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>VISIBILITY_UPGRADE</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Улучшение видимости</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ACTIVATION_UPGRADE</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Улучшение активации</color>]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINE_A_DEFENSIVE_UPGRADE</LocID>
-                <Text>Улучшение обороны</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GARRISON_UPGRADE_SMALL</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Добавляет три слота для защитных отрядов</color> и для командиров с навыком Строителя, <color=SOTS_COLOR_GOLD>10 оборонительных турелей</color> за уровень навыка.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SMUGGLERS_DEN_DISABLED</LocID>
-                <Text>Отключить приют контрабандистов</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SMUGGLERS_DEN_VISITED</LocID>
-                <Text>Посетить приют контрабандистов</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SLAVE_CAMP_DISABLED</LocID>
-                <Text>Отключить лагерь рабов</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SLAVE_CAMP_VISITED</LocID>
-                <Text>Посетить лагерь рабов</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SPAWNER_UPGRADE</LocID>
-                <Text>Улучшенные отряды</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_AURA_COIN_VISITED</LocID>
-                <Text>Посетить хранилище Аура-монет</Text>
-            </GameDBLocalizedString>
-            <!-- For Chris: texts ready for proofreading 2024-01 END -->                                             
-                                                                                                                     
-            <!-- For Chris: texts ready for proofreading 2024-02 START -->                                           
-            <GameDBLocalizedString>
-                <LocID>DIALOG_EXPLORATION_BEAST_NEST</LocID>
-                <Text>Гнездо зверей</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>EXPLORATION_BEAST_NEST_PICKUP</LocID>
-                <Text>Вы очистили гнездо и получили награду.</Text>
-            </GameDBLocalizedString>
-            <!-- For Chris: texts ready for proofreading 2024-02 END -->            
-
-            <!-- Map objects - upgrades DEMO revision -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINE_A_PRODUCTION_UPGRADE</LocID>
-                <Text><![CDATA[+1 ед. <color=SOTS_COLOR_LIMERITE>Лимерита</color> производится за ход.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINE_B_PRODUCTION_UPGRADE</LocID>
-                <Text><![CDATA[+1 ед. <color=SOTS_COLOR_ALLOYS>Сплава</color> производится за ход.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINE_C_PRODUCTION_UPGRADE</LocID>
-                <Text><![CDATA[+1 ед. <color=SOTS_COLOR_BIOMASS>Биомассы</color> производится за ход.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINE_D_PRODUCTION_UPGRADE</LocID>
-                <Text><![CDATA[+1 ед. <color=SOTS_COLOR_RADIANT>Радианта</color> производится за ход.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINE_CASH_PRODUCTION_UPGRADE</LocID>
-                <Text><![CDATA[+500 <color=SOTS_COLOR_GOLD>Аура-монет</color> производится за ход.]]></Text>
-            </GameDBLocalizedString>
-                                                                                                                         
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_WATCHTOWER_VISIBILITY_UPGRADE</LocID>
-                <Text>Увеличивает радиус видимости и предоставляет дополнительную информацию о врагах в диапазоне.</Text>
-            </GameDBLocalizedString>
-                                                                                                                         
-            <!-- Map objects - TREASURES DEMO revision -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CHEST</LocID>
-                <Text>Контейнер</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CHEST_DESCRIPTION</LocID>
-                <Text><![CDATA[Содержит <color=SOTS_COLOR_GOLD>фрагмент данных</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CHEST_ITEM</LocID>
-                <Text>Тайник</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CHEST_ITEM_DESCRIPTION</LocID>
-                <Text><![CDATA[Содержит загадочный <color=SOTS_COLOR_GOLD>предмет</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CHEST_RESOURCES</LocID>
-                <Text>Хранилище</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CHEST_RESOURCES_DESCRIPTION</LocID>
-                <Text><![CDATA[Содержит значительное количество <color=SOTS_COLOR_GOLD>ресурсов</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_RESOURCE_A</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Лимерит</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_RESOURCE_A_DESCRIPTION</LocID>
-                <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_LIMERITE>Лимерита</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_RESOURCE_B</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_ALLOYS>Сплав</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_RESOURCE_B_DESCRIPTION</LocID>
-                <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_ALLOYS>Сплава</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_RESOURCE_C</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_BIOMASS>Биомасса</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_RESOURCE_C_DESCRIPTION</LocID>
-                <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_BIOMASS>Биомассы</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_RESOURCE_D</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Радиант</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_RESOURCE_D_DESCRIPTION</LocID>
-                <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_RADIANT>Радианта</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CASH</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Аура-монеты</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CASH_DESCRIPTION</LocID>
-                <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_GOLD>Аура-монет</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_RESOURCE_FUSION_CORE</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Термоядерный реактор</color>]]></Text>
-            </GameDBLocalizedString>
-
-            
-            <!-- For Chris: texts ready for proofreading 2024-01 START -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SHUTTLE_WRECKAGE</LocID>
-                <Text>Обломки шаттла</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SHUTTLE_WRECKAGE_DESCRIPTION</LocID>
-                <Text><![CDATA[Посетивший командир получает <color=SOTS_COLOR_XP>200 очков опыта (XP)</color>, <color=SOTS_COLOR_GOLD>200 Аура-монет</color> и <color=SOTS_COLOR_GOLD>2 расходника</color>. Но также есть <color=SOTS_COLOR_GOLD>50% шанс</color> получить случайное <color=SOTS_COLOR_RED>ослабление</color>.]]></Text>
-            </GameDBLocalizedString>
-            
-            <!-- Text updated 27.02 after reward update -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BEAST_NEST</LocID>
-                <Text>Гнездо зверей</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BEAST_NEST_DESCRIPTION</LocID>
-                <Text><![CDATA[Как следует из названия, это место, кишащее <color=SOTS_COLOR_GOLD>зверями неизвестного типа</color>. <color=SOTS_COLOR_GOLD>Их количество</color> увеличивается <color=SOTS_COLOR_GOLD>с каждым циклом</color>, поэтому чем <color=SOTS_COLOR_RED>раньше атаковать</color>, тем <color=SOTS_COLOR_GOLD>лучше</color>. Победить их будет непросто, но это может дать вам случайный <color=SOTS_COLOR_GOLD>артефакт</color> или <color=SOTS_COLOR_GOLD>снаряжение с некоторыми ресурсами</color> или <color=SOTS_COLOR_FUSION_CORE>термоядерный реактор</color> в награду.]]></Text>
-            </GameDBLocalizedString>
-            
-            <!-- Related to: Biotic skill of commanders -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_EXPLORATION_BIO_ABILITY_ACADEMY</LocID>
-                <Text>Биотическая академия</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_EXPLORATION_BIO_ABILITY_ACADEMY_DESCRIPTION</LocID>
-                <Text><![CDATA[Посетивший командир может изучить <color=SOTS_COLOR_GOLD>любое биотическое умение</color>. Можно использовать <color=SOTS_COLOR_GOLD>один раз за командира</color>.]]></Text>
-            </GameDBLocalizedString>
-            <!-- For Chris: texts ready for proofreading 2024-02 END -->
-    
-            <!-- For Chris: texts ready for proofreading 2024-08 START -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BIOFARM_VEIN</LocID>
-                <Text>Разграбленная ферма</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BIOFARM_VEIN_DESCRIPTION</LocID>
-                <Text>Отличное место для строительства биофермы!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_FIBER_ALLOY_VEIN</LocID>
-                <Text>Свалка металлолома</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_FIBER_ALLOY_VEIN_DESCRIPTION</LocID>
-                <Text>Отличное место для строительства завода сплавов!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_LIMERIT_VEIN</LocID>
-                <Text>Заброшенный карьер</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_LIMERIT_VEIN_DESCRIPTION</LocID>
-                <Text>Отличное место для строительства лимеритового карьера!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_NANO_COMPOUND_VEIN</LocID>
-                <Text>Заброшенный коллайдер</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_NANO_COMPOUND_VEIN_DESCRIPTION</LocID>
-                <Text>Это можно перестроить в рабочий радиантный коллайдер</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GOLD_VEIN</LocID>
-                <Text>Разорванная плавильня</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GOLD_VEIN_DESCRIPTION</LocID>
-                <Text>Отличное место для запуска плавильни!</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_ALTAR_OF_CLEAN_SLATE</LocID>
-                <Text>Алтарь Чистого Листа</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_ALTAR_OF_CLEAN_SLATE_DESCRIPTION</LocID>
-                <Text>Посетивший командир может забыть один навык. Можно использовать один раз за цикл.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CORPSE</LocID>
-                <Text>Павший воин</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CORPSE_DESCRIPTION</LocID>
-                <Text>Дает случайную награду ресурсов, артефакт или снаряжение.</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TELEPORT</LocID>
-                <Text>Устройство телепортации</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_HERO_WASH</LocID>
-                <Text>Очищение командира</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_HERO_WASH_DESCRIPTION</LocID>
-                <Text>Убирает все ослабления у посетивших командиров. Можно использовать один раз за цикл.</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_UNDER_CONSTRUCTION</LocID>
-                <Text>В процессе строительства</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_UNDER_CONSTRUCTION_DESCRIPTION</LocID>
-                <Text>Это сооружение сейчас находится в процессе строительства.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BUILDING_ZONE</LocID>
-                <Text>Строительная зона</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BUILDING_ZONE_DESCRIPTION</LocID>
-                <Text>Выберите строение:</Text>
-            </GameDBLocalizedString>
-    
-            <!-- ==================================== GAMMA building ==================================== -->
-    
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SIDE_QUEST</LocID>
-                <Text>Гильдия Хранителей</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_SIDE_QUEST_DESCRIPTION</LocID>
-                <Text>Дает побочное задание.</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_COSMOPORT_UP</LocID>
-                <Text>Устройство телепортации на орбиту</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_COSMOPORT_DOWN</LocID>
-                <Text>Устройство телепортации с орбиты</Text>
-            </GameDBLocalizedString>
-            
-            <!-- NEW JULY -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_XENOSLIME_STRAIGHT</LocID>
-                <Text>Ксенослизь</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_XENOSLIME_RIGHT</LocID>
-                <Text>Ксенослизь</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_XENOSLIME_LEFT</LocID>
-                <Text>Ксенослизь</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_XENOSLIME_DESCRIPTION</LocID>
-                <Text>Очень странная слизь. Сжимается, когда вы кормите её ресурсами. Командиры с навыком Строителя могут делать это дешевле.</Text>
-            </GameDBLocalizedString>
-            <!-- NEW JULY -->
-    
-            <!-- NEW 22/07/2024 -->
-            <GameDBLocalizedString>
-                <LocID>DIALOG_EXPLORATION_WISHING_WELL</LocID>
-                <Text>Колодец желаний</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>DIALOG_EXPLORATION_WISHING_WELL_PICKUP</LocID>
-                <Text>Вы не имеете понятия, сбылось ли ваше желание или вы просто разграбили чье-то тайное место. Вы получили следующий предмет:</Text>
-            </GameDBLocalizedString>
-            <!-- NEW 22/07/2024 -->
-    
-            <!-- Updated 22/07/24 -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_ENERGYNODE</LocID>
-                <Text>Колодец желаний</Text>
-            </GameDBLocalizedString>
-            <!-- Updated 22/07/24 -->
-    
-            <!-- NEW 22/07/24 -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_WISHING_WELL_DESCRIPTION</LocID>
-                <Text><![CDATA[Дает командиру желание один раз за цикл. Пока желание - это <color=SOTS_COLOR_GOLD>случайный предмет</color>.]]></Text>
-            </GameDBLocalizedString>
-            <!-- NEW 22/07/24 -->
-    
-            <!-- NEW AUGUST -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GATE_STRAIGHT_LOCKED</LocID>
-                <Text>Ворота</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GATE_STRAIGHT_UNLOCKED</LocID>
-                <Text>Ворота</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GATE_RIGHT_LOCKED</LocID>
-                <Text>Ворота</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GATE_RIGHT_UNLOCKED</LocID>
-                <Text>Ворота</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GATE_LEFT_LOCKED</LocID>
-                <Text>Ворота</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GATE_LEFT_UNLOCKED</LocID>
-                <Text>Ворота</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GATE_DESCRIPTION</LocID>
-                <Text>Ворота, которые можно открыть ключом того же цвета или дистанционно определенным событием.</Text>
-            </GameDBLocalizedString>
-    
-            <!-- Objects from the BUILDER skill -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TURRET_SMALL</LocID>
-                <Text>Малая турель</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TURRET_SMALL_DESCRIPTION</LocID>
-                <Text>Стреляет во все враждебные цели.</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TURRET_BIG</LocID>
-                <Text>Большая турель</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TURRET_BIG_DESCRIPTION</LocID>
-                <Text>Стреляет во все враждебные цели. Добавляет три слота для дополнительных защитников.</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DRONE_DOG</LocID>
-                <Text>Дрон-пёс</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DRONE_DOG_UPG</LocID>
-                <Text>Дальнобойный дрон-пёс</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DRONE_DOG_DESCRIPTION</LocID>
-                <Text>Маленький дрон, который будет удерживать туман войны после ухода командира.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DRONE_DOG_UPG_DESCRIPTION</LocID>
-                <Text>Маленький дрон, который будет удерживать туман войны после ухода командира. Предоставляет дополнительную информацию о врагах, аналогично улучшенным сторжевым башням.</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINING_PROBE</LocID>
-                <Text>Разведывательный зонд</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINING_PROBE_DESCRIPTION</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Продолжает добывать</color> ресурсы, пока посетивший командир их <color=SOTS_COLOR_RED>не уничтожит</color> и не вернет все добытое. <color=SOTS_COLOR_GOLD>Больше времени</color> прошло = <color=SOTS_COLOR_GOLD>больше ресурсов</color>.]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINING_PROBE_UPG</LocID>
-                <Text>Улучшенный разведывательный зонд</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINING_PROBE_UPG_DESCRIPTION</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Продолжает добывать</color> ресурсы, пока посетивший командир их <color=SOTS_COLOR_RED>не уничтожит</color> и не вернет все добытое. <color=SOTS_COLOR_GOLD>Больше времени</color> прошло = <color=SOTS_COLOR_GOLD>больше ресурсов</color>.]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINING_PROBE_PRODUCES_ONLY</LocID>
-                <Text>Этот зонд может производить только {1}.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINING_PROBE_VEIN</LocID>
-                <Text>Этот зонд располагается на жиле {1}. Здесь могут быть добыты и другие ресурсы, но {1} будет наиболее распространенным.</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_OUTPOST</LocID>
-                <Text>Удаленный аванпост</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_OUTPOST_DESCRIPTION</LocID>
-                <Text><![CDATA[Аванпосты позволяют вам <color=SOTS_COLOR_GOLD>оставлять охрану</color> на карте./n
+<Database>
+  <GameDBStringTable ID="LOC_RU_EXPLORATION_MAP_OBJECTS">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>EtoYoshimura03</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BIOFARM_01</LocID>
+        <Text>Биоферма</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BIOFARM_01_DESCRIPTION</LocID>
+        <Text><![CDATA[Производит <color=SOTS_COLOR_BIOMASS>1</color> (<color=SOTS_COLOR_BIOMASS>2</color> после улучшения) ед. <color=SOTS_COLOR_BIOMASS>Биомассы</color> за фазу.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_FIBERALLOYMILL_LVL1</LocID>
+        <Text>Завод сплавов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_FIBERALLOYMILL_LVL1_DESCRIPTION</LocID>
+        <Text><![CDATA[Производит <color=SOTS_COLOR_ALLOYS>1</color> (<color=SOTS_COLOR_ALLOYS>2</color> после улучшения) ед. <color=SOTS_COLOR_ALLOYS>Сплава</color> за фазу.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_LIMERITMINE_LVL1</LocID>
+        <Text>Лимеритовый карьер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_LIMERITMINE_LVL1_DESCRIPTION</LocID>
+        <Text><![CDATA[Производит <color=SOTS_COLOR_LIMERITE>1</color> (<color=SOTS_COLOR_LIMERITE>2</color> после улучшения) ед. <color=SOTS_COLOR_LIMERITE>Лимерита</color> за фазу.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_NANO_COMPOUND_MINE</LocID>
+        <Text>Радиантный коллайдер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_NANO_COMPOUND_MINE_DESCRIPTION</LocID>
+        <Text><![CDATA[Производит <color=SOTS_COLOR_RADIANT>1</color> (<color=SOTS_COLOR_RADIANT>2</color> после улучшения) ед. <color=SOTS_COLOR_RADIANT>Радиантов</color> за фазу.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GOLD_MINE</LocID>
+        <Text>Плавильня</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GOLD_MINE_DESCRIPTION</LocID>
+        <Text><![CDATA[Производит <color=SOTS_COLOR_GOLD>500</color> (<color=SOTS_COLOR_GOLD>1000</color> после улучшения) ед. <color=SOTS_COLOR_GOLD>Аура-монет</color> за ход.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_WATCHTOWER_01</LocID>
+        <Text>Сторожевая башня</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_WATCHTOWER_01_DESCRIPTION</LocID>
+        <Text>Немедленно раскрывает окружающую местность и держит её под наблюдением.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_AURA_COIN_STORAGE</LocID>
+        <Text>Хранилище Аура-монет</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_AURA_COIN_STORAGE_DESCRIPTION</LocID>
+        <Text><![CDATA[Дает посетившему командиру <color=SOTS_COLOR_GOLD>1000 Аура-монет</color> один раз за цикл.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SMUGGLERS_DEN</LocID>
+        <Text>Приют контрабандистов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SMUGGLERS_DEN_DESCRIPTION</LocID>
+        <Text><![CDATA[Посетивший командир получит <color=SOTS_COLOR_GOLD>случайную награду</color>. Можно использовать один раз за цикл. <color=SOTS_COLOR_ATTACK>Атака</color> даст <color=SOTS_COLOR_GOLD>большую награду</color>, но <color=SOTS_COLOR_GOLD>отключит</color> приют на <color=SOTS_COLOR_GOLD>3 цикла</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SLAVECAMP</LocID>
+        <Text>Лагерь рабов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SLAVECAMP_DESCRIPTION</LocID>
+        <Text><![CDATA[Тяжело охраняется кротами для защиты товара. Кто угодно <color=SOTS_COLOR_GOLD>может купить</color> то, что видит. Ассортимент меняется каждую фазу, так что не медлите, если видите что-то интересное. <color=SOTS_COLOR_ATTACK>Атака</color> дает командиру <color=SOTS_COLOR_GOLD>больше освобождённых рабов</color>, но <color=SOTS_COLOR_GOLD>отключит</color> лагерь на <color=SOTS_COLOR_GOLD>3 цикла</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DOJO</LocID>
+        <Text>Святилище мечника</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DOJO_DESCRIPTION</LocID>
+        <Text><![CDATA[Восстанавливающее моджо додзё, где командиры получают <color=SOTS_COLOR_XP>2000 очков опыта</color>. Каждый командир может использовать это здание только один раз.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BROTHEL</LocID>
+        <Text>Скучно? Привет!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BROTHEL_DESCRIPTION</LocID>
+        <Text><![CDATA[Этот дом терпимости пользуется уважением во всех слоях общества и повышает <color=SOTS_COLOR_GOLD>боевой дух на 20</color> на один цикл. Каждый командир может использовать это здание один раз за цикл.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TOMB_OF_SWORDMASTER</LocID>
+        <Text>Гробница мастера меча</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TOMB_OF_SWORDMASTER_DESCRIPTION</LocID>
+        <Text><![CDATA[Изучая уроки у мастера с палкой, боевые умения командира <color=SOTS_COLOR_ATTACK>постоянно увеличиваются на 2</color>. Каждый командир может тренироваться здесь только один раз.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_ENERGYNODE_SMALL</LocID>
+        <Text>Энергетический узел</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_ENERGYNODE_SMALL_DESCRIPTION</LocID>
+        <Text><![CDATA[Полностью <color=SOTS_COLOR_GOLD>восполняет</color> запас <color=SOTS_COLOR_ENERGY>очков энергии</color> командира один раз за цикл. (Кто первый пришел, того и энергия.)]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_EXPLORATION_SKILL_ACADEMY</LocID>
+        <Text>Академия навыков</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_EXPLORATION_SKILL_ACADEMY_DESCRIPTION</LocID>
+        <Text>Посетивший командир может изучить любой навык. Можно использовать один раз за командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_EXPLORATION_TECH_ABILITY_ACADEMY</LocID>
+        <Text>Техническая академия</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_EXPLORATION_TECH_ABILITY_ACADEMY_DESCRIPTION</LocID>
+        <Text><![CDATA[Посетивший командир может изучить <color=SOTS_COLOR_GOLD>любое техническое умение</color>. Можно использовать <color=SOTS_COLOR_GOLD>один раз за командира</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_EXPLORATION_EXPLO_ABILITY_ACADEMY</LocID>
+        <Text>Исследовательская академия</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_EXPLORATION_EXPLO_ABILITY_ACADEMY_DESCRIPTION</LocID>
+        <Text><![CDATA[Посетивший командир может изучить <color=SOTS_COLOR_GOLD>любое умение исследователя</color>. Можно использовать <color=SOTS_COLOR_GOLD>один раз за командира</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BOOT_CAMP</LocID>
+        <Text>Тренировочный лагерь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BOOT_CAMP_DESCRIPTION</LocID>
+        <Text><![CDATA[Без пота - нет улучшенных отрядов. Это место, где командир <color=SOTS_COLOR_GOLD>может</color> либо <color=SOTS_COLOR_GOLD>улучшить отряды</color> (за ту же цену, что и на базе), либо <color=SOTS_COLOR_UPGRADE>"подтолкнуть отряды к улучшению бесплатно"</color>, но <color=SOTS_COLOR_RED>потеряет 10%</color> своих юнитов. (<color=SOTS_COLOR_RED>Всегда 1 юнит</color> при малом количестве).]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXPLORATION_BOOT_CAMP_UPGRADE_TEXT</LocID>
+        <Text><![CDATA[Нажмите <color=SOTS_COLOR_GOLD>левую</color> кнопку (над отрядом) для <color=SOTS_COLOR_GOLD>улучшения</color> или нажмите <color=SOTS_COLOR_UPGRADE>правую</color> кнопку (над отрядом) для <color=SOTS_COLOR_UPGRADE>"подталкивания"</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXPLORATION_BOOT_CAMP_NO_UPGRADE_TEXT</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Ни один</color> отряд не может быть <color=SOTS_COLOR_GOLD>улучшен</color> или <color=SOTS_COLOR_GOLD>обучен</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MARKET</LocID>
+        <Text>Черный рынок</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MARKET_DESCRIPTION</LocID>
+        <Text><![CDATA[Место для <color=SOTS_COLOR_GOLD>торговли ресурсами</color> с <color=SOTS_COLOR_GOLD>лучшим курсом обмена</color> и для <color=SOTS_COLOR_UPGRADE>продажи</color> ненужного <color=SOTS_COLOR_UPGRADE>снаряжения</color> или <color=SOTS_COLOR_UPGRADE>расходников</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXPLORATION_MARKET_TEXT</LocID>
+        <Text><![CDATA[Заходите, давайте <color=SOTS_COLOR_GOLD>торговать</color> или <color=SOTS_COLOR_UPGRADE>продавать</color>! У нас лучшие цены. И не смотрите никуда больше.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HEADING_ITEM_STORE</LocID>
+        <Text>Магазин предметов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXPLORATION_MARKET_NOTHING_TO_SELL</LocID>
+        <Text>У командира нет ничего на продажу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXPLORATION_MARKET_NOTHING_TO_BUY</LocID>
+        <Text>Нет ничего для покупки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TRAINING_GROUND</LocID>
+        <Text>Храм воинов-монахов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TRAINING_GROUND_DESCRIPTION</LocID>
+        <Text><![CDATA[Место для <color=SOTS_COLOR_GOLD>оттачивания</color> ваших <color=SOTS_COLOR_GOLD>боевых навыков</color>. Вы можете <color=SOTS_COLOR_UPGRADE>сражаться, не теряя отрядов</color> и получить бонус в виде <color=SOTS_COLOR_UPGRADE>получения</color> некоторых <color=SOTS_COLOR_XP>очков опыта</color>. Каждый командир может использовать это здание один раз за цикл.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BATTLE_ARENA</LocID>
+        <Text>Боевая арена</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BATTLE_ARENA_DESCRIPTION</LocID>
+        <Text><![CDATA[Место для <color=SOTS_COLOR_GOLD>проверки</color> ваших <color=SOTS_COLOR_GOLD>боевых навыков</color>. Вы <color=SOTS_COLOR_GOLD>участвуете</color> в <color=SOTS_COLOR_GOLD>трех раундах</color> против случайных армий. Каждый раунд будет <color=SOTS_COLOR_GOLD>награжден</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TOOLTIP_HEADING_TRAIN</LocID>
+        <Text>Обучение отрядов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TOOLTIP_CAN_TRAIN</LocID>
+        <Text>Обучение улучшит до {1}.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TOOLTIP_TRAIN_LOST</LocID>
+        <Text><![CDATA[Вы <color=SOTS_COLOR_RED>потеряете {1} отряд(ов)</color> в процессе обучения.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TOOLTIP_UNIT_NOT_ENOUGH_TO_TRAIN</LocID>
+        <Text><![CDATA[Вам <color=SOTS_COLOR_GOLD>нужно</color> по крайней мере <color=SOTS_COLOR_GOLD>2 отряда</color> для их обучения.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DIALOG_EXPLORATION_SHUTTLE_WRECKAGE</LocID>
+        <Text>Обломки шаттла</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXPLORATION_SHUTTLE_WRECKAGE_PICKUP</LocID>
+        <Text>Вы не нашли черный ящик, так что все еще не знаете, что здесь произошло. Вы собрали все, что могли, и постараетесь забыть такое ужасное зрелище.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINE_CASH</LocID>
+        <Text>Монетный двор</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TOXIC_CLOUD</LocID>
+        <Text>Перезаряженное облако</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_FORCE_SHIELD</LocID>
+        <Text>Силовой щит</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_ACADEMY</LocID>
+        <Text>Академия</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_ACADEMY_DESCRIPTION</LocID>
+        <Text>Здесь вы можете изучить несколько классных умений. Но пока не время. Вы должны быть терпеливы.</Text>
+      </GameDBLocalizedString>
+      <!-- Upgrades -->
+      <GameDBLocalizedString>
+        <LocID>RESOURCE_GENERATION</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Улучшение производства</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>GARRISON_UPGRADE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_UPGRADE>Улучшение обороны</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>VISIBILITY_UPGRADE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Улучшение видимости</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ACTIVATION_UPGRADE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Улучшение активации</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINE_A_DEFENSIVE_UPGRADE</LocID>
+        <Text>Улучшение обороны</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GARRISON_UPGRADE_SMALL</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Добавляет три слота для защитных отрядов</color> и для командиров с навыком Строителя, <color=SOTS_COLOR_GOLD>10 оборонительных турелей</color> за уровень навыка.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SMUGGLERS_DEN_DISABLED</LocID>
+        <Text>Отключить приют контрабандистов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SMUGGLERS_DEN_VISITED</LocID>
+        <Text>Посетить приют контрабандистов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SLAVE_CAMP_DISABLED</LocID>
+        <Text>Отключить лагерь рабов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SLAVE_CAMP_VISITED</LocID>
+        <Text>Посетить лагерь рабов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SPAWNER_UPGRADE</LocID>
+        <Text>Улучшенные отряды</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_AURA_COIN_VISITED</LocID>
+        <Text>Посетить хранилище Аура-монет</Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-01 END -->
+      <!-- For Chris: texts ready for proofreading 2024-02 START -->
+      <GameDBLocalizedString>
+        <LocID>DIALOG_EXPLORATION_BEAST_NEST</LocID>
+        <Text>Гнездо зверей</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EXPLORATION_BEAST_NEST_PICKUP</LocID>
+        <Text>Вы очистили гнездо и получили награду.</Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-02 END -->
+      <!-- Map objects - upgrades DEMO revision -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINE_A_PRODUCTION_UPGRADE</LocID>
+        <Text><![CDATA[+1 ед. <color=SOTS_COLOR_LIMERITE>Лимерита</color> производится за ход.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINE_B_PRODUCTION_UPGRADE</LocID>
+        <Text><![CDATA[+1 ед. <color=SOTS_COLOR_ALLOYS>Сплава</color> производится за ход.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINE_C_PRODUCTION_UPGRADE</LocID>
+        <Text><![CDATA[+1 ед. <color=SOTS_COLOR_BIOMASS>Биомассы</color> производится за ход.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINE_D_PRODUCTION_UPGRADE</LocID>
+        <Text><![CDATA[+1 ед. <color=SOTS_COLOR_RADIANT>Радианта</color> производится за ход.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINE_CASH_PRODUCTION_UPGRADE</LocID>
+        <Text><![CDATA[+500 <color=SOTS_COLOR_GOLD>Аура-монет</color> производится за ход.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_WATCHTOWER_VISIBILITY_UPGRADE</LocID>
+        <Text>Увеличивает радиус видимости и предоставляет дополнительную информацию о врагах в диапазоне.</Text>
+      </GameDBLocalizedString>
+      <!-- Map objects - TREASURES DEMO revision -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CHEST</LocID>
+        <Text>Контейнер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CHEST_DESCRIPTION</LocID>
+        <Text><![CDATA[Содержит <color=SOTS_COLOR_GOLD>фрагмент данных</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CHEST_ITEM</LocID>
+        <Text>Тайник</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CHEST_ITEM_DESCRIPTION</LocID>
+        <Text><![CDATA[Содержит загадочный <color=SOTS_COLOR_GOLD>предмет</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CHEST_RESOURCES</LocID>
+        <Text>Хранилище</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CHEST_RESOURCES_DESCRIPTION</LocID>
+        <Text><![CDATA[Содержит значительное количество <color=SOTS_COLOR_GOLD>ресурсов</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_RESOURCE_A</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Лимерит</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_RESOURCE_A_DESCRIPTION</LocID>
+        <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_LIMERITE>Лимерита</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_RESOURCE_B</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_ALLOYS>Сплав</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_RESOURCE_B_DESCRIPTION</LocID>
+        <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_ALLOYS>Сплава</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_RESOURCE_C</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_BIOMASS>Биомасса</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_RESOURCE_C_DESCRIPTION</LocID>
+        <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_BIOMASS>Биомассы</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_RESOURCE_D</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Радиант</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_RESOURCE_D_DESCRIPTION</LocID>
+        <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_RADIANT>Радианта</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CASH</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Аура-монеты</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CASH_DESCRIPTION</LocID>
+        <Text><![CDATA[Небольшое количество <color=SOTS_COLOR_GOLD>Аура-монет</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_RESOURCE_FUSION_CORE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Термоядерный реактор</color>]]></Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-01 START -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SHUTTLE_WRECKAGE</LocID>
+        <Text>Обломки шаттла</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SHUTTLE_WRECKAGE_DESCRIPTION</LocID>
+        <Text><![CDATA[Посетивший командир получает <color=SOTS_COLOR_XP>200 очков опыта (XP)</color>, <color=SOTS_COLOR_GOLD>200 Аура-монет</color> и <color=SOTS_COLOR_GOLD>2 расходника</color>. Но также есть <color=SOTS_COLOR_GOLD>50% шанс</color> получить случайное <color=SOTS_COLOR_RED>ослабление</color>.]]></Text>
+      </GameDBLocalizedString>
+      <!-- Text updated 27.02 after reward update -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BEAST_NEST</LocID>
+        <Text>Гнездо зверей</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BEAST_NEST_DESCRIPTION</LocID>
+        <Text><![CDATA[Как следует из названия, это место, кишащее <color=SOTS_COLOR_GOLD>зверями неизвестного типа</color>. <color=SOTS_COLOR_GOLD>Их количество</color> увеличивается <color=SOTS_COLOR_GOLD>с каждым циклом</color>, поэтому чем <color=SOTS_COLOR_RED>раньше атаковать</color>, тем <color=SOTS_COLOR_GOLD>лучше</color>. Победить их будет непросто, но это может дать вам случайный <color=SOTS_COLOR_GOLD>артефакт</color> или <color=SOTS_COLOR_GOLD>снаряжение с некоторыми ресурсами</color> или <color=SOTS_COLOR_FUSION_CORE>термоядерный реактор</color> в награду.]]></Text>
+      </GameDBLocalizedString>
+      <!-- Related to: Biotic skill of commanders -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_EXPLORATION_BIO_ABILITY_ACADEMY</LocID>
+        <Text>Биотическая академия</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_EXPLORATION_BIO_ABILITY_ACADEMY_DESCRIPTION</LocID>
+        <Text><![CDATA[Посетивший командир может изучить <color=SOTS_COLOR_GOLD>любое биотическое умение</color>. Можно использовать <color=SOTS_COLOR_GOLD>один раз за командира</color>.]]></Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-02 END -->
+      <!-- For Chris: texts ready for proofreading 2024-08 START -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BIOFARM_VEIN</LocID>
+        <Text>Разграбленная ферма</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BIOFARM_VEIN_DESCRIPTION</LocID>
+        <Text>Отличное место для строительства биофермы!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_FIBER_ALLOY_VEIN</LocID>
+        <Text>Свалка металлолома</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_FIBER_ALLOY_VEIN_DESCRIPTION</LocID>
+        <Text>Отличное место для строительства завода сплавов!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_LIMERIT_VEIN</LocID>
+        <Text>Заброшенный карьер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_LIMERIT_VEIN_DESCRIPTION</LocID>
+        <Text>Отличное место для строительства лимеритового карьера!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_NANO_COMPOUND_VEIN</LocID>
+        <Text>Заброшенный коллайдер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_NANO_COMPOUND_VEIN_DESCRIPTION</LocID>
+        <Text>Это можно перестроить в рабочий радиантный коллайдер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GOLD_VEIN</LocID>
+        <Text>Разорванная плавильня</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GOLD_VEIN_DESCRIPTION</LocID>
+        <Text>Отличное место для запуска плавильни!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_ALTAR_OF_CLEAN_SLATE</LocID>
+        <Text>Алтарь Чистого Листа</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_ALTAR_OF_CLEAN_SLATE_DESCRIPTION</LocID>
+        <Text>Посетивший командир может забыть один навык. Можно использовать один раз за цикл.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CORPSE</LocID>
+        <Text>Павший воин</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CORPSE_DESCRIPTION</LocID>
+        <Text>Дает случайную награду ресурсов, артефакт или снаряжение.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TELEPORT</LocID>
+        <Text>Устройство телепортации</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_HERO_WASH</LocID>
+        <Text>Очищение командира</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_HERO_WASH_DESCRIPTION</LocID>
+        <Text>Убирает все ослабления у посетивших командиров. Можно использовать один раз за цикл.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_UNDER_CONSTRUCTION</LocID>
+        <Text>В процессе строительства</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_UNDER_CONSTRUCTION_DESCRIPTION</LocID>
+        <Text>Это сооружение сейчас находится в процессе строительства.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BUILDING_ZONE</LocID>
+        <Text>Строительная зона</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BUILDING_ZONE_DESCRIPTION</LocID>
+        <Text>Выберите строение:</Text>
+      </GameDBLocalizedString>
+      <!-- ==================================== GAMMA building ==================================== -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SIDE_QUEST</LocID>
+        <Text>Гильдия Хранителей</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_SIDE_QUEST_DESCRIPTION</LocID>
+        <Text>Дает побочное задание.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_COSMOPORT_UP</LocID>
+        <Text>Устройство телепортации на орбиту</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_COSMOPORT_DOWN</LocID>
+        <Text>Устройство телепортации с орбиты</Text>
+      </GameDBLocalizedString>
+      <!-- NEW JULY -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_XENOSLIME_STRAIGHT</LocID>
+        <Text>Ксенослизь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_XENOSLIME_RIGHT</LocID>
+        <Text>Ксенослизь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_XENOSLIME_LEFT</LocID>
+        <Text>Ксенослизь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_XENOSLIME_DESCRIPTION</LocID>
+        <Text>Очень странная слизь. Сжимается, когда вы кормите её ресурсами. Командиры с навыком Строителя могут делать это дешевле.</Text>
+      </GameDBLocalizedString>
+      <!-- NEW JULY -->
+      <!-- NEW 22/07/2024 -->
+      <GameDBLocalizedString>
+        <LocID>DIALOG_EXPLORATION_WISHING_WELL</LocID>
+        <Text>Колодец желаний</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DIALOG_EXPLORATION_WISHING_WELL_PICKUP</LocID>
+        <Text>Вы не имеете понятия, сбылось ли ваше желание или вы просто разграбили чье-то тайное место. Вы получили следующий предмет:</Text>
+      </GameDBLocalizedString>
+      <!-- NEW 22/07/2024 -->
+      <!-- Updated 22/07/24 -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_ENERGYNODE</LocID>
+        <Text>Колодец желаний</Text>
+      </GameDBLocalizedString>
+      <!-- Updated 22/07/24 -->
+      <!-- NEW 22/07/24 -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_WISHING_WELL_DESCRIPTION</LocID>
+        <Text><![CDATA[Дает командиру желание один раз за цикл. Пока желание - это <color=SOTS_COLOR_GOLD>случайный предмет</color>.]]></Text>
+      </GameDBLocalizedString>
+      <!-- NEW 22/07/24 -->
+      <!-- NEW AUGUST -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GATE_STRAIGHT_LOCKED</LocID>
+        <Text>Ворота</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GATE_STRAIGHT_UNLOCKED</LocID>
+        <Text>Ворота</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GATE_RIGHT_LOCKED</LocID>
+        <Text>Ворота</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GATE_RIGHT_UNLOCKED</LocID>
+        <Text>Ворота</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GATE_LEFT_LOCKED</LocID>
+        <Text>Ворота</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GATE_LEFT_UNLOCKED</LocID>
+        <Text>Ворота</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GATE_DESCRIPTION</LocID>
+        <Text>Ворота, которые можно открыть ключом того же цвета или дистанционно определенным событием.</Text>
+      </GameDBLocalizedString>
+      <!-- Objects from the BUILDER skill -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TURRET_SMALL</LocID>
+        <Text>Малая турель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TURRET_SMALL_DESCRIPTION</LocID>
+        <Text>Стреляет во все враждебные цели.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TURRET_BIG</LocID>
+        <Text>Большая турель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TURRET_BIG_DESCRIPTION</LocID>
+        <Text>Стреляет во все враждебные цели. Добавляет три слота для дополнительных защитников.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DRONE_DOG</LocID>
+        <Text>Дрон-пёс</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DRONE_DOG_UPG</LocID>
+        <Text>Дальнобойный дрон-пёс</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DRONE_DOG_DESCRIPTION</LocID>
+        <Text>Маленький дрон, который будет удерживать туман войны после ухода командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DRONE_DOG_UPG_DESCRIPTION</LocID>
+        <Text>Маленький дрон, который будет удерживать туман войны после ухода командира. Предоставляет дополнительную информацию о врагах, аналогично улучшенным сторжевым башням.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINING_PROBE</LocID>
+        <Text>Разведывательный зонд</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINING_PROBE_DESCRIPTION</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Продолжает добывать</color> ресурсы, пока посетивший командир их <color=SOTS_COLOR_RED>не уничтожит</color> и не вернет все добытое. <color=SOTS_COLOR_GOLD>Больше времени</color> прошло = <color=SOTS_COLOR_GOLD>больше ресурсов</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINING_PROBE_UPG</LocID>
+        <Text>Улучшенный разведывательный зонд</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINING_PROBE_UPG_DESCRIPTION</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Продолжает добывать</color> ресурсы, пока посетивший командир их <color=SOTS_COLOR_RED>не уничтожит</color> и не вернет все добытое. <color=SOTS_COLOR_GOLD>Больше времени</color> прошло = <color=SOTS_COLOR_GOLD>больше ресурсов</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINING_PROBE_PRODUCES_ONLY</LocID>
+        <Text>Этот зонд может производить только {1}.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINING_PROBE_VEIN</LocID>
+        <Text>Этот зонд располагается на жиле {1}. Здесь могут быть добыты и другие ресурсы, но {1} будет наиболее распространенным.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_OUTPOST</LocID>
+        <Text>Удаленный аванпост</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_OUTPOST_DESCRIPTION</LocID>
+        <Text><![CDATA[Аванпосты позволяют вам <color=SOTS_COLOR_GOLD>оставлять охрану</color> на карте./n
 Если у командира есть <color=SOTS_COLOR_GOLD>навык переговорщика</color> во время переговоров, он может отправить отряды в ближайший аванпост.
 Если у вашей базы есть <color=SOTS_COLOR_GOLD>транспортное здание</color>, оно может отправить один стак отрядов в аванпост каждый раунд.]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_OUTPOST_UPG</LocID>
-                <Text>Улучшенный аванпост</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_OUTPOST_UPG_DESCRIPTION</LocID>
-                <Text><![CDATA[Аванпосты позволяют вам <color=SOTS_COLOR_GOLD>оставлять охрану</color> на карте. Улучшенный аванпост охраняет большую территорию./n
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_OUTPOST_UPG</LocID>
+        <Text>Улучшенный аванпост</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_OUTPOST_UPG_DESCRIPTION</LocID>
+        <Text><![CDATA[Аванпосты позволяют вам <color=SOTS_COLOR_GOLD>оставлять охрану</color> на карте. Улучшенный аванпост охраняет большую территорию./n
 Если у командира есть <color=SOTS_COLOR_GOLD>навык переговорщика</color> во время переговоров, он может отправить отряды в ближайший аванпост.
 Если у вашей базы есть <color=SOTS_COLOR_GOLD>транспортное здание</color>, оно может отправить один стак отрядов в аванпост каждый раунд.]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_COMMANDER_TRAP</LocID>
-                <Text>Киберловушка</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_COMMANDER_TRAP_DESCRIPTION</LocID>
-                <Text>Захватывает неожиданных вражеских командиров, оставляя их без движения и энергии на один ход!</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TURRET_SMALL_ACTIVATION</LocID>
-                <Text>Немедленная активация</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TURRET_BIG_ACTIVATION</LocID>
-                <Text>Немедленная активация</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DRONE_DOG_ACTIVATION</LocID>
-                <Text>Немедленная активация</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_MINING_PROBE_ACTIVATION</LocID>
-                <Text>Немедленная активация</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_OUTPOST_ACTIVATION</LocID>
-                <Text>Немедленная активация</Text>
-            </GameDBLocalizedString>
-            
-            <!-- Environment hazards -->
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TOXIC_FOG</LocID>
-                <Text>Токсичный туман</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_TOXIC_FOG_DESCRIPTION</LocID>
-                <Text>Входить в эту область без защитного снаряжения не рекомендуется.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GIANT_MUSHROOM</LocID>
-                <Text>Гигантский гриб</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GIANT_MUSHROOM_2</LocID>
-                <Text>Гигантский гриб</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GIANT_MUSHROOM_3</LocID>
-                <Text>Гигантский гриб</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_GIANT_MUSHROOM_DESCRIPTION</LocID>
-                <Text>Останьтесь на минутку и вдохните.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CARNIVOROUS_TREE</LocID>
-                <Text>Хищная флора</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CARNIVOROUS_TREE_2</LocID>
-                <Text>Хищная флора</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CARNIVOROUS_TREE_3</LocID>
-                <Text>Хищная флора</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CARNIVOROUS_TREE_DESCRIPTION</LocID>
-                <Text>Эта область выглядит немного подозрительно. Лучше держаться подальше от этой жуткой мерзости.</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DANGEROUS_AREA_IDLE</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_GRAY>Спящая</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DANGEROUS_AREA_TRIGGERED</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_YELLOW>Возбужденная</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DANGEROUS_AREA_ACTIVATED</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_RED>Активированная</color>]]></Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_DANGEROUS_AREA_STATUS_EFFECTS</LocID>
-                <Text>Накладывает эффекты статуса:</Text>
-            </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BRIDGE_START</LocID>
-                <Text>Отключенный мост</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_BRIDGE_START_DESCRIPTION</LocID>
-                <Text><![CDATA[Отключенный мост. Некоторые мосты можно активировать с помощью <color=SOTS_COLOR_FUSION_CORE>термоядерного реактора</color>.]]></Text>
-            </GameDBLocalizedString>
-            <!-- For Chris: texts ready for proofreading 2024-08 END -->
-    
-            <GameDBLocalizedString>
-                <LocID>MAPOBJ_CONSUMABLE_DESCRIPTION</LocID>
-                <Text>Расходник</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>COMBAT_MANUAL</LocID>
-                <Text><![CDATA[Боевой мануал: <color=SOTS_COLOR_GOLD>{1}</color>]]></Text>
-            </GameDBLocalizedString>
-        </LocalizedStrings>
-    </GameDBStringTable>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_COMMANDER_TRAP</LocID>
+        <Text>Киберловушка</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_COMMANDER_TRAP_DESCRIPTION</LocID>
+        <Text>Захватывает неожиданных вражеских командиров, оставляя их без движения и энергии на один ход!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TURRET_SMALL_ACTIVATION</LocID>
+        <Text>Немедленная активация</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TURRET_BIG_ACTIVATION</LocID>
+        <Text>Немедленная активация</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DRONE_DOG_ACTIVATION</LocID>
+        <Text>Немедленная активация</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MINING_PROBE_ACTIVATION</LocID>
+        <Text>Немедленная активация</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_OUTPOST_ACTIVATION</LocID>
+        <Text>Немедленная активация</Text>
+      </GameDBLocalizedString>
+      <!-- Environment hazards -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TOXIC_FOG</LocID>
+        <Text>Токсичный туман</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_TOXIC_FOG_DESCRIPTION</LocID>
+        <Text>Входить в эту область без защитного снаряжения не рекомендуется.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GIANT_MUSHROOM</LocID>
+        <Text>Гигантский гриб</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GIANT_MUSHROOM_2</LocID>
+        <Text>Гигантский гриб</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GIANT_MUSHROOM_3</LocID>
+        <Text>Гигантский гриб</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_GIANT_MUSHROOM_DESCRIPTION</LocID>
+        <Text>Останьтесь на минутку и вдохните.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CARNIVOROUS_TREE</LocID>
+        <Text>Хищная флора</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CARNIVOROUS_TREE_2</LocID>
+        <Text>Хищная флора</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CARNIVOROUS_TREE_3</LocID>
+        <Text>Хищная флора</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CARNIVOROUS_TREE_DESCRIPTION</LocID>
+        <Text>Эта область выглядит немного подозрительно. Лучше держаться подальше от этой жуткой мерзости.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DANGEROUS_AREA_IDLE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GRAY>Спящая</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DANGEROUS_AREA_TRIGGERED</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_YELLOW>Возбужденная</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DANGEROUS_AREA_ACTIVATED</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>Активированная</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DANGEROUS_AREA_STATUS_EFFECTS</LocID>
+        <Text>Накладывает эффекты статуса:</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BRIDGE_START</LocID>
+        <Text>Отключенный мост</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_BRIDGE_START_DESCRIPTION</LocID>
+        <Text><![CDATA[Отключенный мост. Некоторые мосты можно активировать с помощью <color=SOTS_COLOR_FUSION_CORE>термоядерного реактора</color>.]]></Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-08 END -->
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_CONSUMABLE_DESCRIPTION</LocID>
+        <Text>Расходник</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>COMBAT_MANUAL</LocID>
+        <Text><![CDATA[Боевой мануал: <color=SOTS_COLOR_GOLD>{1}</color>]]></Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

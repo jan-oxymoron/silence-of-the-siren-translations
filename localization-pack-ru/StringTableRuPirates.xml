@@ -1,100 +1,309 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_PIRATES">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-
-            <GameDBLocalizedString>         <LocID>FACTION_PIRATES</LocID>                   <Text>The Sovereign Fleet</Text></GameDBLocalizedString> 
-
-            <!--Unit names-->
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PARROT</LocID>              <Text>Saw-ty</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PARROT_UPG</LocID>          <Text>Saw-ty II</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PIRATE</LocID>              <Text>Marauder</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PIRATE_UPG</LocID>          <Text>Marauder Grenadier</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON</LocID>              <Text>Mortar</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_UPG</LocID>          <Text>Overclocked Mortar</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CRAB</LocID>                <Text>Scorch Sprayer</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CRAB_UPG</LocID>            <Text>Scorch Thrower</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_BOUNTYHUNTER</LocID>        <Text>Huntress</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_BOUNTYHUNTER_UPG</LocID>    <Text>Huntress Captain</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_FIRST_OFFICER</LocID>       <Text>Thunderbot</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_FIRST_OFFICER_UPG</LocID>   <Text>Elite Thunderbot</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CAPTAIN</LocID>             <Text>Antimat</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CAPTAIN_UPG</LocID>         <Text>Heavy Antimat</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_PROJECTILE</LocID>   <Text>Missile</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_WAR_MACHINE_HEALING_STATION</LocID> <Text>Healing station</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_WAR_MACHINE_HEALING_STATION_DESCRIPTION</LocID> <Text>Heals 10% of the most damaged unit stack once per round</Text></GameDBLocalizedString>
-
-            <!--Unit description-->
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PARROT_DESCRIPTION</LocID>               <Text>When advertised, "safety first" was the slogan for this series of universal helper robots. Truth be told, they were all but safe. Their creator also learned this hard lesson. While fixing one of the numerous glitches, the prototype's program switched to TrimHedgeShapeSwan.exe. </Text></GameDBLocalizedString> <!-- Imagine something like Edward Scissorhands shaping a hedge -->
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PARROT_UPG_DESCRIPTION</LocID>           <Text>After a series of lethal accidents, the whole production line ended up on its way to a recycling colony. Luckily for the cargo, the shipment was intercepted by the Sovereign Fleet, renowned for its love of all broken and unwanted things.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PIRATE_DESCRIPTION</LocID>               <Text>If you yearn to become a part of a Sovereign Fleet ship crew, this is the only position that requires absolutely no skillset except bandaging your own hands horribly burned by acid. No worries. You can always buy artificial fingers at any spaceport. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PIRATE_UPG_DESCRIPTION</LocID>           <Text>Fighting in a claustrophobic spacecraft is an exceptionally dirty job. No gravity, no rules. Poison gases or acid-covered blades are essential tools. No wonder the UNSS started relying so much on droids when breaching Sovereign Fleet ships. The losses were astronomical.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_DESCRIPTION</LocID>               <Text>When someone tries to explain the principle of the Ciky-Nebesh pulse gravitor, it usually ends with several bowling balls wildly swinging on wires and a pound of pen-punctured paper. That's because neither Ciky nor Nebesh truly knew what they did. Still, it can launch a grenade with astonishing velocity and that's all that matters.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_UPG_DESCRIPTION</LocID>           <Text>The pre-cognition software of the targeting unit is extremely efficient. So efficient it started a rumor that it can predict the future. Sadly, nobody can ask the author anymore. If it truly saw the future, he surely would have ran for the nearest cover when his simulation showed a Hesperidian death commando entering his backyard. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CRAB_DESCRIPTION</LocID>                 <Text>When the UNSS opened its first penal colonies, the harsh environmental conditions were considered part of the punishment. Nobody remembered the old (but true) saying that "Hard times create strong men." And life in a UNSS penal colony is really, really hard. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CRAB_UPG_DESCRIPTION</LocID>             <Text>Where the UNSS uses Hesperidian electronics, the Sovereigns apply biotech. Boosted cardio with a secondary circulatory system? Turning biceps into hexaceps? Nature can only take you so far if you want to go toe-to-toe with the UNSS. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_BOUNTYHUNTER_DESCRIPTION</LocID>         <Text>Lone wolves wading though the mud of the rim colonies, hunting those with a price on their heads. Despite the Huntress program being originally established by UNSS governors, they became too independent and got banned. Many of them found a new home amongst the Sovereigns.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_BOUNTYHUNTER_UPG_DESCRIPTION</LocID>     <Text>All huntresses undergo a series of augmentations. Implants and gene therapy produce tall valkyries with enhanced senses and a pinpoint accuracy. The day the UNSS turned its back on them was one of the luckiest days for the Sovereign Fleet. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_FIRST_OFFICER_DESCRIPTION</LocID>        <Text>When the colonies became sovereign, workers became fighters and tools became weapons. But after fruitless years of war, most fighting men lost all their ideals. But, the "tools" were literally unable to forget.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_FIRST_OFFICER_UPG_DESCRIPTION</LocID>    <Text>Slicing a playing card with a slash of a whip requires a skillful hand. But splitting a whole pack of cards stuffed under the breastplate of a trooper in a defensive formation while the two poor bastards in front of him are also cut in half?! Outside the UNSS territory, that's a talent-show-winning material! </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CAPTAIN_DESCRIPTION</LocID>              <Text>UNSS soldiers really hate this class of combat robots. The mere presence of such a machine on the deck of an unregistered starship equals the death sentence. No judge, no jury. Case closed. Only a few new pieces of debris are floating in space. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CAPTAIN_UPG_DESCRIPTION</LocID>          <Text>The first antimaterial beam was used to dismantle heavy armor of decommissioned spaceships. The bare-bones version the Sovereign use leaks high doses of radiation. But who cares about a newly grown pig tail when your expected lifespan is less than 2.6 years? </Text></GameDBLocalizedString>
-            
-
-            <!--Unit abilities-->
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PARROT_INFO_DESCRIPTION</LocID>               <Text>Can jump over obstacles.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PARROT_UPG_INFO_DESCRIPTION</LocID>           <Text>Can jump over obstacles. Counters the attack even before getting hit.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PIRATE_INFO_DESCRIPTION</LocID>               <Text>Melee attack inflicts poison damage.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PIRATE_UPG_INFO_DESCRIPTION</LocID>           <Text>Melee attack inflicts poison damage.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_PIRATE_SPECIAL</LocID>                        <Text>Throws a grenade that inflicts poison damage.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_INFO_DESCRIPTION</LocID>               <Text>Targets a unit and fires a missile. The unit gets hit at the end of the round.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_UPG_INFO_DESCRIPTION</LocID>           <Text>Targets two units and fires two missiles. The units get hit at the end of the round.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CRAB_INFO_DESCRIPTION</LocID>                 <Text>Melee attack inflicts corrosive damage.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CRAB_UPG_INFO_DESCRIPTION</LocID>             <Text>Can move and shoot with a limited range causing corrosive damage.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_BOUNTYHUNTER_INFO_DESCRIPTION</LocID>         <Text>Shoots precisely at a longer range, gets a penalty when shooting nearby targets.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_BOUNTYHUNTER_UPG_INFO_DESCRIPTION</LocID>     <Text>Shoots precisely at a longer range, gets a penalty when shooting nearby targets.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_PIRATES_BOUNTYHUNTER_UPG_SPECIAL</LocID>      <Text>Can teleport anywhere on the battlefield.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_FIRST_OFFICER_INFO_DESCRIPTION</LocID>        <Text></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_FIRST_OFFICER_UPG_INFO_DESCRIPTION</LocID>    <Text>Melee attack inflicts shock damage. Counters all units around and inflicts burning damage.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CAPTAIN_INFO_DESCRIPTION</LocID>              <Text>Can move and shoot.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CAPTAIN_UPG_INFO_DESCRIPTION</LocID>          <Text>Can move and shoot.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_PIRATES_CAPTAIN_UPG_SPECIAL</LocID>           <Text>The laser beam hits one row of enemies and causes burning damage.</Text></GameDBLocalizedString>
-
-            <!--Hero names-->
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_1</LocID>            <Text>Captain Monk</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_2</LocID>            <Text>Captain Borg</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_3</LocID>            <Text>Gran Manny</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_4</LocID>            <Text>Kali Chapek</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_5</LocID>            <Text>Doug Porter</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_6</LocID>            <Text>Demon Ragna</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_7</LocID>            <Text>Captain Pick</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_8</LocID>            <Text>Annika Finch</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_9</LocID>            <Text>"Winky" Rodgers</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_10</LocID>           <Text>Old Viletrax</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_11</LocID>           <Text>Profesor Zane</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_12</LocID>           <Text>#925</Text>  </GameDBLocalizedString>
-
-            <!--Hero description-->
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_1_DESCRIPTION</LocID>                        <Text>A treacherous mercenary who has worked for all the major factions within the Siren system, while benefiting from the network of Sovereign Fleet partisans. It seems that the only thing that motivates him is profit, but all his crewmates will unanimously swear that he lives like a hermit, owning only his sword and his gun. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_2_DESCRIPTION</LocID>                        <Text>One of the finest examples of transhumanism driven to the extreme. The UNSS intelligence file claims that he is building a state-of-the-art mainframe on his ship and planning to inhabit its core while getting rid of his own body. He appears to lack some crucial components though because he's still available for hire. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_3_DESCRIPTION</LocID>                        <Text>The oldest privateer still in business. Gran Manny almost became the head of the Council of Captains. Then, some of the opposition captains disappeared, and rumors started to spread that the UNSS secretly supported Manny's claim. Nothing was proven, but she lost the Council's and gradually the Fleet's trust and became a privateer. Some consider this a confession, but Manny still claims it was only a superb move by the UNSS intelligence service.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_4_DESCRIPTION</LocID>                        <Text>A legendary adventurer who steals from the rich... and that's it. He is not exactly a Robin Hood type, and his mercs are not charity enthusiasts either. \n \nThere are several legends about Kali's past, but the official UNSS record states that in 2315, the noodle stand owner from Sonargachi, the poorest district of Kolkata, snuck aboard the anchored UNCSS Rama. A humble start to one hell of a journey.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_5_DESCRIPTION</LocID>                        <Text>Some are born warriors; others become them along the way. And then there are people like Doug. "Fighting? Why, when we can have a chat?" If you want to bribe a UNSS officer, he is your man. The Tummori tribe is attacking your base? Doug will handle it. Zieregals kidnapped a friend and you need someone to negotiate their safe return? Ok, that's more than even Doug can chew. Forget your friend. But if ANYONE had a chance, it would be Dough. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_6_DESCRIPTION</LocID>                        <Text>Have you ever stared into the eyes of a shark? No? Try Ragnas eyes, then. You'll find precisely the same proportion of kindness, morality, and humanity in them—an extremist, terrorist, and mass murderer. Ragna did not gain these titles by negotiating. Despite this, she was granted safe harbor amidst the Sovereign Fleet. Why? Because if you wage war, it's good to have someone with the stomach for war crimes on your side. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_7_DESCRIPTION</LocID>                        <Text>One of only a handful of Fossorians who escaped from his race's totalitarian mind prison, he is currently the captain of a strong Sovereign Fleet starship in the Siren System. He is a great guy—a really great guy! And I am not saying that because he is in the room with me and pointing a gun at me, but because he truly is! There is no need to send help! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_8_DESCRIPTION</LocID>                        <Text>She was the only pilot who refused to leave the burning space station of Kelvin 2 during its siege by UNSS. More than 200 hundred innocent souls were saved because of this act of heroism. The Sovereign Fleet propaganda machine ensured the entire Solar System engraved her name over their hearts.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_9_DESCRIPTION</LocID>                        <Text>Nobody thought the old, bitter veterans could cooperate with the young, free-minded generation of Sovereign Fleet members. The newly established Head of the Council of Captains managed to do the unthinkable when she unified both generations under the Council's command.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_10_DESCRIPTION</LocID>                       <Text>After 48 years, the generation ship UNCSS Aldiss abandoned its mission and returned to Earth. Only a few survivors made it back and Viletrax looked the most human of the lot. Though his behavior is beyond strange, he's got an uncanny understanding of Primal technology. Maybe his bizarre implants allow him to see more than others. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_11_DESCRIPTION</LocID>                       <Text>Professor Robert Zane, former dean of the Faculty of Xenobiology at the University of Europa, is the supreme expert on Tumori tribes and their culture. Recently, the UNSS Research division put a bounty on his head. But, when you are friends with the Tumori, you can use paths others cannot. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_PIRATE_12_DESCRIPTION</LocID>                       <Text>The governmental program reintegrating fallen soldiers using engrams looks like a good idea on paper. Okay, it doesn't, but where there is funding, there is a will. #925 is the last of the tortured souls imprisoned in robotic bodies. Unlike his brothers, he managed to escape the lab and join the Sovereign Fleet, renowned for accepting anything weird and broken. </Text>  </GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+<Database>
+  <GameDBStringTable ID="LOC_RU_PIRATES">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Oxymoron Games</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>FACTION_PIRATES</LocID>
+        <Text>The Sovereign Fleet</Text>
+      </GameDBLocalizedString>
+      <!--Unit names-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PARROT</LocID>
+        <Text>Saw-ty</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PARROT_UPG</LocID>
+        <Text>Saw-ty II</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PIRATE</LocID>
+        <Text>Marauder</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PIRATE_UPG</LocID>
+        <Text>Marauder Grenadier</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CANNON</LocID>
+        <Text>Mortar</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CANNON_UPG</LocID>
+        <Text>Overclocked Mortar</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CRAB</LocID>
+        <Text>Scorch Sprayer</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CRAB_UPG</LocID>
+        <Text>Scorch Thrower</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_BOUNTYHUNTER</LocID>
+        <Text>Huntress</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_BOUNTYHUNTER_UPG</LocID>
+        <Text>Huntress Captain</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_FIRST_OFFICER</LocID>
+        <Text>Thunderbot</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_FIRST_OFFICER_UPG</LocID>
+        <Text>Elite Thunderbot</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CAPTAIN</LocID>
+        <Text>Antimat</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CAPTAIN_UPG</LocID>
+        <Text>Heavy Antimat</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CANNON_PROJECTILE</LocID>
+        <Text>Missile</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_WAR_MACHINE_HEALING_STATION</LocID>
+        <Text>Healing station</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_WAR_MACHINE_HEALING_STATION_DESCRIPTION</LocID>
+        <Text>Heals 10% of the most damaged unit stack once per round</Text>
+      </GameDBLocalizedString>
+      <!--Unit description-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PARROT_DESCRIPTION</LocID>
+        <Text>When advertised, "safety first" was the slogan for this series of universal helper robots. Truth be told, they were all but safe. Their creator also learned this hard lesson. While fixing one of the numerous glitches, the prototype's program switched to TrimHedgeShapeSwan.exe. </Text>
+      </GameDBLocalizedString>
+      <!-- Imagine something like Edward Scissorhands shaping a hedge -->
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PARROT_UPG_DESCRIPTION</LocID>
+        <Text>After a series of lethal accidents, the whole production line ended up on its way to a recycling colony. Luckily for the cargo, the shipment was intercepted by the Sovereign Fleet, renowned for its love of all broken and unwanted things.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PIRATE_DESCRIPTION</LocID>
+        <Text>If you yearn to become a part of a Sovereign Fleet ship crew, this is the only position that requires absolutely no skillset except bandaging your own hands horribly burned by acid. No worries. You can always buy artificial fingers at any spaceport. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PIRATE_UPG_DESCRIPTION</LocID>
+        <Text>Fighting in a claustrophobic spacecraft is an exceptionally dirty job. No gravity, no rules. Poison gases or acid-covered blades are essential tools. No wonder the UNSS started relying so much on droids when breaching Sovereign Fleet ships. The losses were astronomical.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CANNON_DESCRIPTION</LocID>
+        <Text>When someone tries to explain the principle of the Ciky-Nebesh pulse gravitor, it usually ends with several bowling balls wildly swinging on wires and a pound of pen-punctured paper. That's because neither Ciky nor Nebesh truly knew what they did. Still, it can launch a grenade with astonishing velocity and that's all that matters.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CANNON_UPG_DESCRIPTION</LocID>
+        <Text>The pre-cognition software of the targeting unit is extremely efficient. So efficient it started a rumor that it can predict the future. Sadly, nobody can ask the author anymore. If it truly saw the future, he surely would have ran for the nearest cover when his simulation showed a Hesperidian death commando entering his backyard. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CRAB_DESCRIPTION</LocID>
+        <Text>When the UNSS opened its first penal colonies, the harsh environmental conditions were considered part of the punishment. Nobody remembered the old (but true) saying that "Hard times create strong men." And life in a UNSS penal colony is really, really hard. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CRAB_UPG_DESCRIPTION</LocID>
+        <Text>Where the UNSS uses Hesperidian electronics, the Sovereigns apply biotech. Boosted cardio with a secondary circulatory system? Turning biceps into hexaceps? Nature can only take you so far if you want to go toe-to-toe with the UNSS. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_BOUNTYHUNTER_DESCRIPTION</LocID>
+        <Text>Lone wolves wading though the mud of the rim colonies, hunting those with a price on their heads. Despite the Huntress program being originally established by UNSS governors, they became too independent and got banned. Many of them found a new home amongst the Sovereigns.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_BOUNTYHUNTER_UPG_DESCRIPTION</LocID>
+        <Text>All huntresses undergo a series of augmentations. Implants and gene therapy produce tall valkyries with enhanced senses and a pinpoint accuracy. The day the UNSS turned its back on them was one of the luckiest days for the Sovereign Fleet. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_FIRST_OFFICER_DESCRIPTION</LocID>
+        <Text>When the colonies became sovereign, workers became fighters and tools became weapons. But after fruitless years of war, most fighting men lost all their ideals. But, the "tools" were literally unable to forget.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_FIRST_OFFICER_UPG_DESCRIPTION</LocID>
+        <Text>Slicing a playing card with a slash of a whip requires a skillful hand. But splitting a whole pack of cards stuffed under the breastplate of a trooper in a defensive formation while the two poor bastards in front of him are also cut in half?! Outside the UNSS territory, that's a talent-show-winning material! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CAPTAIN_DESCRIPTION</LocID>
+        <Text>UNSS soldiers really hate this class of combat robots. The mere presence of such a machine on the deck of an unregistered starship equals the death sentence. No judge, no jury. Case closed. Only a few new pieces of debris are floating in space. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CAPTAIN_UPG_DESCRIPTION</LocID>
+        <Text>The first antimaterial beam was used to dismantle heavy armor of decommissioned spaceships. The bare-bones version the Sovereign use leaks high doses of radiation. But who cares about a newly grown pig tail when your expected lifespan is less than 2.6 years? </Text>
+      </GameDBLocalizedString>
+      <!--Unit abilities-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PARROT_INFO_DESCRIPTION</LocID>
+        <Text>Can jump over obstacles.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PARROT_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Can jump over obstacles. Counters the attack even before getting hit.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PIRATE_INFO_DESCRIPTION</LocID>
+        <Text>Melee attack inflicts poison damage.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_PIRATE_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Melee attack inflicts poison damage.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_PIRATE_SPECIAL</LocID>
+        <Text>Throws a grenade that inflicts poison damage.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CANNON_INFO_DESCRIPTION</LocID>
+        <Text>Targets a unit and fires a missile. The unit gets hit at the end of the round.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CANNON_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Targets two units and fires two missiles. The units get hit at the end of the round.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CRAB_INFO_DESCRIPTION</LocID>
+        <Text>Melee attack inflicts corrosive damage.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CRAB_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Can move and shoot with a limited range causing corrosive damage.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_BOUNTYHUNTER_INFO_DESCRIPTION</LocID>
+        <Text>Shoots precisely at a longer range, gets a penalty when shooting nearby targets.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_BOUNTYHUNTER_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Shoots precisely at a longer range, gets a penalty when shooting nearby targets.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_PIRATES_BOUNTYHUNTER_UPG_SPECIAL</LocID>
+        <Text>Can teleport anywhere on the battlefield.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_FIRST_OFFICER_INFO_DESCRIPTION</LocID>
+        <Text>
+        </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_FIRST_OFFICER_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Melee attack inflicts shock damage. Counters all units around and inflicts burning damage.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CAPTAIN_INFO_DESCRIPTION</LocID>
+        <Text>Can move and shoot.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_PIRATES_CAPTAIN_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Can move and shoot.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_PIRATES_CAPTAIN_UPG_SPECIAL</LocID>
+        <Text>The laser beam hits one row of enemies and causes burning damage.</Text>
+      </GameDBLocalizedString>
+      <!--Hero names-->
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_1</LocID>
+        <Text>Captain Monk</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_2</LocID>
+        <Text>Captain Borg</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_3</LocID>
+        <Text>Gran Manny</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_4</LocID>
+        <Text>Kali Chapek</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_5</LocID>
+        <Text>Doug Porter</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_6</LocID>
+        <Text>Demon Ragna</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_7</LocID>
+        <Text>Captain Pick</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_8</LocID>
+        <Text>Annika Finch</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_9</LocID>
+        <Text>"Winky" Rodgers</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_10</LocID>
+        <Text>Old Viletrax</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_11</LocID>
+        <Text>Profesor Zane</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_12</LocID>
+        <Text>#925</Text>
+      </GameDBLocalizedString>
+      <!--Hero description-->
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_1_DESCRIPTION</LocID>
+        <Text>A treacherous mercenary who has worked for all the major factions within the Siren system, while benefiting from the network of Sovereign Fleet partisans. It seems that the only thing that motivates him is profit, but all his crewmates will unanimously swear that he lives like a hermit, owning only his sword and his gun. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_2_DESCRIPTION</LocID>
+        <Text>One of the finest examples of transhumanism driven to the extreme. The UNSS intelligence file claims that he is building a state-of-the-art mainframe on his ship and planning to inhabit its core while getting rid of his own body. He appears to lack some crucial components though because he's still available for hire. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_3_DESCRIPTION</LocID>
+        <Text>The oldest privateer still in business. Gran Manny almost became the head of the Council of Captains. Then, some of the opposition captains disappeared, and rumors started to spread that the UNSS secretly supported Manny's claim. Nothing was proven, but she lost the Council's and gradually the Fleet's trust and became a privateer. Some consider this a confession, but Manny still claims it was only a superb move by the UNSS intelligence service.  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_4_DESCRIPTION</LocID>
+        <Text>A legendary adventurer who steals from the rich... and that's it. He is not exactly a Robin Hood type, and his mercs are not charity enthusiasts either. \n \nThere are several legends about Kali's past, but the official UNSS record states that in 2315, the noodle stand owner from Sonargachi, the poorest district of Kolkata, snuck aboard the anchored UNCSS Rama. A humble start to one hell of a journey.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_5_DESCRIPTION</LocID>
+        <Text>Some are born warriors; others become them along the way. And then there are people like Doug. "Fighting? Why, when we can have a chat?" If you want to bribe a UNSS officer, he is your man. The Tummori tribe is attacking your base? Doug will handle it. Zieregals kidnapped a friend and you need someone to negotiate their safe return? Ok, that's more than even Doug can chew. Forget your friend. But if ANYONE had a chance, it would be Dough. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_6_DESCRIPTION</LocID>
+        <Text>Have you ever stared into the eyes of a shark? No? Try Ragnas eyes, then. You'll find precisely the same proportion of kindness, morality, and humanity in them—an extremist, terrorist, and mass murderer. Ragna did not gain these titles by negotiating. Despite this, she was granted safe harbor amidst the Sovereign Fleet. Why? Because if you wage war, it's good to have someone with the stomach for war crimes on your side. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_7_DESCRIPTION</LocID>
+        <Text>One of only a handful of Fossorians who escaped from his race's totalitarian mind prison, he is currently the captain of a strong Sovereign Fleet starship in the Siren System. He is a great guy—a really great guy! And I am not saying that because he is in the room with me and pointing a gun at me, but because he truly is! There is no need to send help! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_8_DESCRIPTION</LocID>
+        <Text>She was the only pilot who refused to leave the burning space station of Kelvin 2 during its siege by UNSS. More than 200 hundred innocent souls were saved because of this act of heroism. The Sovereign Fleet propaganda machine ensured the entire Solar System engraved her name over their hearts.  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_9_DESCRIPTION</LocID>
+        <Text>Nobody thought the old, bitter veterans could cooperate with the young, free-minded generation of Sovereign Fleet members. The newly established Head of the Council of Captains managed to do the unthinkable when she unified both generations under the Council's command.  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_10_DESCRIPTION</LocID>
+        <Text>After 48 years, the generation ship UNCSS Aldiss abandoned its mission and returned to Earth. Only a few survivors made it back and Viletrax looked the most human of the lot. Though his behavior is beyond strange, he's got an uncanny understanding of Primal technology. Maybe his bizarre implants allow him to see more than others. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_11_DESCRIPTION</LocID>
+        <Text>Professor Robert Zane, former dean of the Faculty of Xenobiology at the University of Europa, is the supreme expert on Tumori tribes and their culture. Recently, the UNSS Research division put a bounty on his head. But, when you are friends with the Tumori, you can use paths others cannot. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_PIRATE_12_DESCRIPTION</LocID>
+        <Text>The governmental program reintegrating fallen soldiers using engrams looks like a good idea on paper. Okay, it doesn't, but where there is funding, there is a will. #925 is the last of the tortured souls imprisoned in robotic bodies. Unlike his brothers, he managed to escape the lab and join the Sovereign Fleet, renowned for accepting anything weird and broken. </Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

@@ -1,295 +1,283 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_CRUSADERS">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-
-            <GameDBLocalizedString>
-                <LocID>FACTION_CRUSADERS</LocID>
-                <Text>Дети Источника</Text>
-            </GameDBLocalizedString>
-
-            <!--Unit names-->
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_MECHANIC</LocID>
-                <Text>Послушник-Хранитель</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_MECHANIC_UPG</LocID>
-                <Text>Клирик-Хранитель</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CRUSADER</LocID>
-                <Text>Храмовая стража</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CRUSADER_UPG</LocID>
-                <Text>Воин-тамплиер</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_LASER_CANNON</LocID>
-                <Text>Сияющий</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_LASER_CANNON_UPG</LocID>
-                <Text>Пылающий</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_KNIGHT</LocID>
-                <Text>Рыцарь</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_KNIGHT_UPG</LocID>
-                <Text>Рыцарь-чемпион</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_UNIVERSAL</LocID>
-                <Text>Зирегал</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_UNIVERSAL_UPG</LocID>
-                <Text>Высший Зирегал</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CENTIPEDE</LocID>
-                <Text>Огнеплюй</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CENTIPEDE_UPG</LocID>
-                <Text>Огнеплюй-ревнитель</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_ANGEL</LocID>
-                <Text>Ахерон</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_ANGEL_UPG</LocID>
-                <Text>Благословенный Ахерон</Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_WAR_MACHINE_SHIELD_BLOCK_UNITS</LocID>
-                <Text>Щит от вторжения</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_WAR_MACHINE_SHIELD_BLOCK_UNITS_DESCRIPTION</LocID>
-                <Text><![CDATA[Создаёт барьер, блокирующий вражеские отряды.]]></Text>
-            </GameDBLocalizedString>
-
-            <!--Unit description-->
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_MECHANIC_DESCRIPTION</LocID>
-                <Text>Изначально их роль сводилась к уборке и техобслуживанию. Несмотря на это, у них развился довольно задорный нрав. Но не переусердствуйте: в сущности, это всего лишь прославленные уборщики пола. Если вы бросите их на передовую, то вам придётся драить пол храма Великой Всематери самому.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_MECHANIC_UPG_DESCRIPTION</LocID>
-                <Text>Клирики-Хранители могут лечить органиков, но я бы предпочёл дождаться настоящего медика. Не поймите неправильно, энтузиазма им не занимать! Просто они скорее возьмутся за сварку, чем за иглу с нитью.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CRUSADER_DESCRIPTION</LocID>
-                <Text>Они мягко вернут вас назад, если вы переступите через красный бархатный канат. Если вы сделаете снимок там, где это запрещено, они вежливо попросят его удалить. Но расскажете ли вы приятелю анекдот о Всемати? С предельной учтивостью они вырвут ваше еретическое сердце.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CRUSADER_UPG_DESCRIPTION</LocID>
-                <Text>Некоторые древние фрески на заброшенных орбитальных кораблях изображают их бок о бок с похожими существами, а также символы воды и хрупкости. Возможно, это отголосок забытой биологической истории, погребённой под тысячелетиями противоречивой церковной риторики.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_LASER_CANNON_DESCRIPTION</LocID>
-                <Text>Первые из ксеноморфных видов, они вызывают вопросы о происхождении Детей Источника. По морфологии они явно не часть исходного вида, и некоторые учёные считают, что их «ассимилировали» в ходе давнего завоевания. Разумеется, подобные догадки — богохульство.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_LASER_CANNON_UPG_DESCRIPTION</LocID>
-                <Text>Отсутствие речи, индивидуальности или высшего интеллекта церковь не считает проблемой. Пылающие исполняют простые приказы, распознают врагов и не задают вопросов. Одним словом, идеальные последователи.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_KNIGHT_DESCRIPTION</LocID>
-                <Text>Дети Источника известны своими странными критериями разумности. Так что не считайте рыцаря, громко вызывающего вражеский танк на честный бой, дураком. Это просто догматизм следующего уровня.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_KNIGHT_UPG_DESCRIPTION</LocID>
-                <Text>Некоторые представители духовенства утверждают, что система Сирены — это своего рода чистилище. Вселенскую мразь Всемать собирает здесь, чтобы орден её очистил. А очистка может быть очень грязной. К счастью, рыцари сделаны из пятноустойчивого сплава.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_UNIVERSAL_DESCRIPTION</LocID>
-                <Text>Этим высокопоставленным членам Детей Источника доверяют деликатные церковные дела. Если орден решит, что вас нужно устранить, именно их вы обнаружите сидящими на вашем диване посреди ночи.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_UNIVERSAL_UPG_DESCRIPTION</LocID>
-                <Text>Зирегалы всегда надевают дружелюбную маску за стенами храма. Их сеть контактов улавливает любые тайны, скользящие в тенях. Не все битвы выигрываются силой. Не все герои жаждут сиять в лучах славы.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CENTIPEDE_DESCRIPTION</LocID>
-                <Text>Почитание огненного аспекта Всемати балансирует на грани ереси. Но никто не осмелится выступить против культа Огнеплюев. Эти владеющие огнём фанатики слишком ценны как союзники и слишком опасны как враги.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CENTIPEDE_UPG_DESCRIPTION</LocID>
-                <Text>На военном совете, за мгновения до начала Священной войны, иерарх культа Огнеплюев провозгласил: «Сожгите их всех сейчас, а Всемать потом разберётся в пепле!». Прошли столетия, но этот призыв всё ещё ярко пылает в их сердцах.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_ANGEL_DESCRIPTION</LocID>
-                <Text>Со времён Священной войны Хранители записывают имена всех павших Ахеронов на стенах Храма Великой Всемати. Спустя века эти стены покрыты причудливой мозаикой из крошечных гравированных пластин. Когда падёт последний Ахерон, великое творение будет завершено.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_ANGEL_UPG_DESCRIPTION</LocID>
-                <Text>Благословение Ахеронов — замаскированное проклятие. Реакторный импульс, столь эффективный в бою, разлагает их разум. С каждым применением они всё глубже погружаются в холодный, равнодушный океан безмятежности.</Text>
-            </GameDBLocalizedString>
-
-            <!--Unit abilities-->
-            <GameDBLocalizedString>
-                <LocID>ABILITY_UNIT_LASER_CANNON_SPECIAL</LocID>
-                <Text>Пушка трансформируется в турель. Все враги, входящие в радиус (4 клетки вокруг), получают 50% от первоначального урона.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_UNIT_UNIVERSAL_SPECIAL</LocID>
-                <Text>Создаёт копию самого себя.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_UNIT_ANGEL_SPECIAL</LocID>
-                <Text>Создаёт эпическую волну энергии, поражающую всех врагов.</Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_MECHANIC_PASSIVE_INFO_DESCRIPTION</LocID>
-                <Text>В конце своего хода лечит и восполняет силы дружественных отрядов рядом.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CRUSADER_PASSIVE_INFO_DESCRIPTION</LocID>
-                <Text>Может перелетать через препятствия.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CRUSADER_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
-                <Text>Может перелетать через препятствия. Обладает неограниченным количеством контратак.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_LASSE_CANNON_PASSIVE_INFO_DESCRIPTION</LocID>
-                <Text>Выстрелы всегда точны.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_KNIGHT_PASSIVE_INFO_DESCRIPTION</LocID>
-                <Text>Может атаковать до 3 стоящих рядом врагов одновременно.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_KNIGHT_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
-                <Text>Может атаковать до 3 соседних врагов одновременно. С вероятностью 30% накладывает на себя «Поверхностную перегрузку» в начале хода.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_UNIVERSAL_PASSIVE_INFO_DESCRIPTION</LocID>
-                <Text>Может стрелять, но в следующем ходу должен перезарядиться.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CENTIPEDE_PASSIVE_INFO_DESCRIPTION</LocID>
-                <Text>Может двигаться и стрелять на ограниченную дистанцию, нанося огненный урон.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_CENTIPEDE_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
-                <Text>Может двигаться и стрелять на ограниченную дистанцию, нанося огненный и едкий урон.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>UNIT_CRUSADERS_ANGEL_PASSIVE_INFO_DESCRIPTION</LocID>
-                <Text>Может перелетать через препятствия. Может атаковать до 3 соседних врагов одновременно.</Text>
-            </GameDBLocalizedString>
-
-            <!--Hero names-->
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_1</LocID>
-                <Text>Роалан «Клятвопреступник»</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_2</LocID>
-                <Text>Балинор «Изгой»</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_3</LocID>
-                <Text>Годрей «Поджигатель войны»</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_4</LocID>
-                <Text>Морхат «Воспламенитель»</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_5</LocID>
-                <Text>Клоки «Советник»</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_6</LocID>
-                <Text>Ришард «Искатель приключений»</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_7</LocID>
-                <Text>Гальвейн «Хранитель знаний»</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_8</LocID>
-                <Text>Игдрейна «Мореход»</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_9</LocID>
-                <Text>Иерарх</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_10</LocID>
-                <Text>Хранитель</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_11</LocID>
-                <Text>Тирстин «Учёный»</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_12</LocID>
-                <Text>Артар «Мастер меча»</Text>
-            </GameDBLocalizedString>
-
-            <!--Hero description-->
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_1_DESCRIPTION</LocID>
-                <Text>Однажды отряд Роалана забрёл далеко на земли туммори. Никто не знает, какие ужасы должен увидеть рыцарь, чтобы отвергнуть свои клятвы и стать бесчестным наёмником. Сам Роалан хранит молчание. (Хотя удар врага, сорвавший его нижнюю челюсть, возможно, сыграл в этом роль.)</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_2_DESCRIPTION</LocID>
-                <Text>Будучи инквизитором, Балинор определял природу конфискованных артефактов Первобытных. Говорят, один проклятый артефакт перепрограммировал его разум, и он стал одним из тех еретиков, которых поклялся уничтожить. Изгнанный из ордена, он примкнул к наёмникам. С тех пор он скитается без цели, веры и преданности.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_3_DESCRIPTION</LocID>
-                <Text>Во времена Священной войны Годрей славился неутолимой жаждой крови. Хотя его никогда официально не обвиняли в нарушении кодекса, другие рыцари презирали его открыто.\n\nПрошли столетия, и мир переменился. Теперь Годрей вновь может насытить свою кровожадность, служа тем, кто предоставит ему новое поле брани. Без оков Ордена Годрей превратился в настоящего монстра.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_4_DESCRIPTION</LocID>
-                <Text>Никто не ждёт от инквизитора доброты, сострадания или широты взглядов. Морхат точно не таков. Он «завтракает» еретиками и считает день напрасно прожитым, если до полудня не сожжёт хотя бы троих.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_5_DESCRIPTION</LocID>
-                <Text>Техно-духовенство — самая популярная ветвь церкви, и Клоки — яркий её образец. Любопытный, общительный, обожает говорить. Если бы не Инквизиция, он бы давно выдал все тайны Детей Источника. Даже под угрозой пыток ему трудно держать язык за зубами.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_6_DESCRIPTION</LocID>
-                <Text>Дисциплина, сосредоточенность, грозная мощь — всё, что вы ждёте от рыцаря, но ничего из этого не относится к Ришарду. В строю вы его не найдёте. Вместо этого он носится по всему полю боя: то сражается с шаманами туммори в гуще схватки, то разбирает древнюю боевую машину Первобытных на другом конце поля.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_7_DESCRIPTION</LocID>
-                <Text>На первый взгляд, Гальвейн — уважаемый, аккуратный учёный, вероятно, никогда не покидавший залы Храмового Города. Но он многое повидал. Его считают крупнейшим полевым экспертом по технологиям Первобытных. Не найдётся раскопок, о которых он не мог бы вас просветить.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_8_DESCRIPTION</LocID>
-                <Text>Энергетические поля — непредсказуемые и опасные пространства. Лишь горстка смельчаков рискует пускаться в плавание по их коварным волнам, и Игдрейна — одна из них. Хотите исследовать неизведанные, изолированные острова в неведомых энергетических просторах? Игдрейна — ваш проводник.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_9_DESCRIPTION</LocID>
-                <Text>Фанатик, неисправимый безумец и величайший воин, известный Детям Источника. Он проспит весь военный совет, проснётся к его концу, смахнёт карты со стола, укажет на слабое место в строю врага и взревёт: «Кто из нас выживет последним — тот и трус! В атаку!».</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_11_DESCRIPTION</LocID>
-                <Text>Ненавидимый и обожаемый одновременно, самый молодой и прогрессивный из трёх верховных священников был избран сразу после поражения в последнем крестовом походе. Лишь он и его исключительный ум ответственны за череду реформ, открывших церковь для новичков. Пока он жив, у ордена есть шанс на будущее.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_ROBO_CRUSADER_12_DESCRIPTION</LocID>
-                <Text>Считается лучшим бойцом холодным оружием во всей системе Сирены. Увы, помимо исключительного мастерства владения мечом у Артара не так много добродетелей. Его излишняя болтливость слишком часто приводила его на встречу с Зирегалами, чаще, чем он в состоянии сосчитать. К несчастью, это буквально пять раз.</Text>
-            </GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+<Database>
+  <GameDBStringTable ID="LOC_RU_CRUSADERS">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>EtoYoshimura03</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>FACTION_CRUSADERS</LocID>
+        <Text>Дети Источника</Text>
+      </GameDBLocalizedString>
+      <!--Unit names-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_MECHANIC</LocID>
+        <Text>Послушник-Хранитель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_MECHANIC_UPG</LocID>
+        <Text>Клирик-Хранитель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CRUSADER</LocID>
+        <Text>Храмовая стража</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CRUSADER_UPG</LocID>
+        <Text>Воин-тамплиер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_LASER_CANNON</LocID>
+        <Text>Сияющий</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_LASER_CANNON_UPG</LocID>
+        <Text>Пылающий</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_KNIGHT</LocID>
+        <Text>Рыцарь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_KNIGHT_UPG</LocID>
+        <Text>Рыцарь-чемпион</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_UNIVERSAL</LocID>
+        <Text>Зирегал</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_UNIVERSAL_UPG</LocID>
+        <Text>Высший Зирегал</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CENTIPEDE</LocID>
+        <Text>Огнеплюй</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CENTIPEDE_UPG</LocID>
+        <Text>Огнеплюй-ревнитель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_ANGEL</LocID>
+        <Text>Ахерон</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_ANGEL_UPG</LocID>
+        <Text>Благословенный Ахерон</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_WAR_MACHINE_SHIELD_BLOCK_UNITS</LocID>
+        <Text>Щит от вторжения</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_WAR_MACHINE_SHIELD_BLOCK_UNITS_DESCRIPTION</LocID>
+        <Text><![CDATA[Создаёт барьер, блокирующий вражеские отряды.]]></Text>
+      </GameDBLocalizedString>
+      <!--Unit description-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_MECHANIC_DESCRIPTION</LocID>
+        <Text>Изначально их роль сводилась к уборке и техобслуживанию. Несмотря на это, у них развился довольно задорный нрав. Но не переусердствуйте: в сущности, это всего лишь прославленные уборщики пола. Если вы бросите их на передовую, то вам придётся драить пол храма Великой Всематери самому.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_MECHANIC_UPG_DESCRIPTION</LocID>
+        <Text>Клирики-Хранители могут лечить органиков, но я бы предпочёл дождаться настоящего медика. Не поймите неправильно, энтузиазма им не занимать! Просто они скорее возьмутся за сварку, чем за иглу с нитью.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CRUSADER_DESCRIPTION</LocID>
+        <Text>Они мягко вернут вас назад, если вы переступите через красный бархатный канат. Если вы сделаете снимок там, где это запрещено, они вежливо попросят его удалить. Но расскажете ли вы приятелю анекдот о Всемати? С предельной учтивостью они вырвут ваше еретическое сердце.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CRUSADER_UPG_DESCRIPTION</LocID>
+        <Text>Некоторые древние фрески на заброшенных орбитальных кораблях изображают их бок о бок с похожими существами, а также символы воды и хрупкости. Возможно, это отголосок забытой биологической истории, погребённой под тысячелетиями противоречивой церковной риторики.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_LASER_CANNON_DESCRIPTION</LocID>
+        <Text>Первые из ксеноморфных видов, они вызывают вопросы о происхождении Детей Источника. По морфологии они явно не часть исходного вида, и некоторые учёные считают, что их «ассимилировали» в ходе давнего завоевания. Разумеется, подобные догадки — богохульство.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_LASER_CANNON_UPG_DESCRIPTION</LocID>
+        <Text>Отсутствие речи, индивидуальности или высшего интеллекта церковь не считает проблемой. Пылающие исполняют простые приказы, распознают врагов и не задают вопросов. Одним словом, идеальные последователи.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_KNIGHT_DESCRIPTION</LocID>
+        <Text>Дети Источника известны своими странными критериями разумности. Так что не считайте рыцаря, громко вызывающего вражеский танк на честный бой, дураком. Это просто догматизм следующего уровня.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_KNIGHT_UPG_DESCRIPTION</LocID>
+        <Text>Некоторые представители духовенства утверждают, что система Сирены — это своего рода чистилище. Вселенскую мразь Всемать собирает здесь, чтобы орден её очистил. А очистка может быть очень грязной. К счастью, рыцари сделаны из пятноустойчивого сплава.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_UNIVERSAL_DESCRIPTION</LocID>
+        <Text>Этим высокопоставленным членам Детей Источника доверяют деликатные церковные дела. Если орден решит, что вас нужно устранить, именно их вы обнаружите сидящими на вашем диване посреди ночи.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_UNIVERSAL_UPG_DESCRIPTION</LocID>
+        <Text>Зирегалы всегда надевают дружелюбную маску за стенами храма. Их сеть контактов улавливает любые тайны, скользящие в тенях. Не все битвы выигрываются силой. Не все герои жаждут сиять в лучах славы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CENTIPEDE_DESCRIPTION</LocID>
+        <Text>Почитание огненного аспекта Всемати балансирует на грани ереси. Но никто не осмелится выступить против культа Огнеплюев. Эти владеющие огнём фанатики слишком ценны как союзники и слишком опасны как враги.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CENTIPEDE_UPG_DESCRIPTION</LocID>
+        <Text>На военном совете, за мгновения до начала Священной войны, иерарх культа Огнеплюев провозгласил: «Сожгите их всех сейчас, а Всемать потом разберётся в пепле!». Прошли столетия, но этот призыв всё ещё ярко пылает в их сердцах.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_ANGEL_DESCRIPTION</LocID>
+        <Text>Со времён Священной войны Хранители записывают имена всех павших Ахеронов на стенах Храма Великой Всемати. Спустя века эти стены покрыты причудливой мозаикой из крошечных гравированных пластин. Когда падёт последний Ахерон, великое творение будет завершено.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_ANGEL_UPG_DESCRIPTION</LocID>
+        <Text>Благословение Ахеронов — замаскированное проклятие. Реакторный импульс, столь эффективный в бою, разлагает их разум. С каждым применением они всё глубже погружаются в холодный, равнодушный океан безмятежности.</Text>
+      </GameDBLocalizedString>
+      <!--Unit abilities-->
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_LASER_CANNON_SPECIAL</LocID>
+        <Text>Пушка трансформируется в турель. Все враги, входящие в радиус (4 клетки вокруг), получают 50% от первоначального урона.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_UNIVERSAL_SPECIAL</LocID>
+        <Text>Создаёт копию самого себя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_ANGEL_SPECIAL</LocID>
+        <Text>Создаёт эпическую волну энергии, поражающую всех врагов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_MECHANIC_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>В конце своего хода лечит и восполняет силы дружественных отрядов рядом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CRUSADER_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может перелетать через препятствия.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CRUSADER_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может перелетать через препятствия. Обладает неограниченным количеством контратак.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_LASSE_CANNON_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Выстрелы всегда точны.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_KNIGHT_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может атаковать до 3 стоящих рядом врагов одновременно.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_KNIGHT_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может атаковать до 3 соседних врагов одновременно. С вероятностью 30% накладывает на себя «Поверхностную перегрузку» в начале хода.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_UNIVERSAL_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может стрелять, но в следующем ходу должен перезарядиться.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CENTIPEDE_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может двигаться и стрелять на ограниченную дистанцию, нанося огненный урон.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_CENTIPEDE_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может двигаться и стрелять на ограниченную дистанцию, нанося огненный и едкий урон.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_CRUSADERS_ANGEL_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может перелетать через препятствия. Может атаковать до 3 соседних врагов одновременно.</Text>
+      </GameDBLocalizedString>
+      <!--Hero names-->
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_1</LocID>
+        <Text>Роалан «Клятвопреступник»</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_2</LocID>
+        <Text>Балинор «Изгой»</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_3</LocID>
+        <Text>Годрей «Поджигатель войны»</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_4</LocID>
+        <Text>Морхат «Воспламенитель»</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_5</LocID>
+        <Text>Клоки «Советник»</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_6</LocID>
+        <Text>Ришард «Искатель приключений»</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_7</LocID>
+        <Text>Гальвейн «Хранитель знаний»</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_8</LocID>
+        <Text>Игдрейна «Мореход»</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_9</LocID>
+        <Text>Иерарх</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_10</LocID>
+        <Text>Хранитель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_11</LocID>
+        <Text>Тирстин «Учёный»</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_12</LocID>
+        <Text>Артар «Мастер меча»</Text>
+      </GameDBLocalizedString>
+      <!--Hero description-->
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_1_DESCRIPTION</LocID>
+        <Text>Однажды отряд Роалана забрёл далеко на земли туммори. Никто не знает, какие ужасы должен увидеть рыцарь, чтобы отвергнуть свои клятвы и стать бесчестным наёмником. Сам Роалан хранит молчание. (Хотя удар врага, сорвавший его нижнюю челюсть, возможно, сыграл в этом роль.)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_2_DESCRIPTION</LocID>
+        <Text>Будучи инквизитором, Балинор определял природу конфискованных артефактов Первобытных. Говорят, один проклятый артефакт перепрограммировал его разум, и он стал одним из тех еретиков, которых поклялся уничтожить. Изгнанный из ордена, он примкнул к наёмникам. С тех пор он скитается без цели, веры и преданности.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_3_DESCRIPTION</LocID>
+        <Text>Во времена Священной войны Годрей славился неутолимой жаждой крови. Хотя его никогда официально не обвиняли в нарушении кодекса, другие рыцари презирали его открыто.\n\nПрошли столетия, и мир переменился. Теперь Годрей вновь может насытить свою кровожадность, служа тем, кто предоставит ему новое поле брани. Без оков Ордена Годрей превратился в настоящего монстра.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_4_DESCRIPTION</LocID>
+        <Text>Никто не ждёт от инквизитора доброты, сострадания или широты взглядов. Морхат точно не таков. Он «завтракает» еретиками и считает день напрасно прожитым, если до полудня не сожжёт хотя бы троих.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_5_DESCRIPTION</LocID>
+        <Text>Техно-духовенство — самая популярная ветвь церкви, и Клоки — яркий её образец. Любопытный, общительный, обожает говорить. Если бы не Инквизиция, он бы давно выдал все тайны Детей Источника. Даже под угрозой пыток ему трудно держать язык за зубами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_6_DESCRIPTION</LocID>
+        <Text>Дисциплина, сосредоточенность, грозная мощь — всё, что вы ждёте от рыцаря, но ничего из этого не относится к Ришарду. В строю вы его не найдёте. Вместо этого он носится по всему полю боя: то сражается с шаманами туммори в гуще схватки, то разбирает древнюю боевую машину Первобытных на другом конце поля.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_7_DESCRIPTION</LocID>
+        <Text>На первый взгляд, Гальвейн — уважаемый, аккуратный учёный, вероятно, никогда не покидавший залы Храмового Города. Но он многое повидал. Его считают крупнейшим полевым экспертом по технологиям Первобытных. Не найдётся раскопок, о которых он не мог бы вас просветить.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_8_DESCRIPTION</LocID>
+        <Text>Энергетические поля — непредсказуемые и опасные пространства. Лишь горстка смельчаков рискует пускаться в плавание по их коварным волнам, и Игдрейна — одна из них. Хотите исследовать неизведанные, изолированные острова в неведомых энергетических просторах? Игдрейна — ваш проводник.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_9_DESCRIPTION</LocID>
+        <Text>Фанатик, неисправимый безумец и величайший воин, известный Детям Источника. Он проспит весь военный совет, проснётся к его концу, смахнёт карты со стола, укажет на слабое место в строю врага и взревёт: «Кто из нас выживет последним — тот и трус! В атаку!».</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_11_DESCRIPTION</LocID>
+        <Text>Ненавидимый и обожаемый одновременно, самый молодой и прогрессивный из трёх верховных священников был избран сразу после поражения в последнем крестовом походе. Лишь он и его исключительный ум ответственны за череду реформ, открывших церковь для новичков. Пока он жив, у ордена есть шанс на будущее.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ROBO_CRUSADER_12_DESCRIPTION</LocID>
+        <Text>Считается лучшим бойцом холодным оружием во всей системе Сирены. Увы, помимо исключительного мастерства владения мечом у Артара не так много добродетелей. Его излишняя болтливость слишком часто приводила его на встречу с Зирегалами, чаще, чем он в состоянии сосчитать. К несчастью, это буквально пять раз.</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

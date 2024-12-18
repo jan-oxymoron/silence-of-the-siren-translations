@@ -1,293 +1,279 @@
 <Database>
-    <GameDBStringTable ID="LOC_RU_HERO_ABILITIES_EXPLORATION">
-        <LanguageRef>LANG_RU</LanguageRef>
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-        <LocalizedStrings>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_RUSH</LocID>
-                <Text>Рывок</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION</LocID>
-                <Text><![CDATA[Восстанавливает <color=SOTS_COLOR_MOVEMENT>очки движения</color> командира. Сила способностей увеличивает эффект.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL1</LocID>
-                <Text><![CDATA[Восстанавливает (3 + Сила способностей) <color=SOTS_COLOR_MOVEMENT>очков движения</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL2</LocID>
-                <Text><![CDATA[Восстанавливает (6 + Сила способностей) <color=SOTS_COLOR_MOVEMENT>очков движения</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL3</LocID>
-                <Text><![CDATA[Восстанавливает (9 + Сила способностей) <color=SOTS_COLOR_MOVEMENT>очков движения</color>.]]></Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK</LocID>
-                <Text>Метка смерти</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION</LocID>
-                <Text><![CDATA[Отслеживает вражеского командира в тумане войны. Командир, на которого нацелена метка, теряет <color=SOTS_COLOR_MOVEMENT>очки движения</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL1</LocID>
-                <Text>Дальность 4 клеток, 2 хода.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL2</LocID>
-                <Text>Дальность 5 клеток, 3 хода.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL3</LocID>
-                <Text>Дальность 6 клеток, 4 хода.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_DEATH_MARK</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_RED>Метка смерти активна!</color>]]></Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY</LocID>
-                <Text>Боевой клич</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION</LocID>
-                <Text>Повышает боевой дух вашей армии!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL1</LocID>
-                <Text>+5 к боевому духу на 1 ход.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL2</LocID>
-                <Text>+10 к боевому духу и -5 к боевому духу ваших врагов на 3 хода.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL3</LocID>
-                <Text>+15 к боевому духу и -10 к боевому духу ваших врагов на 4 хода.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_BATTLE_CRY_1</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Боевой клич</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_BATTLE_CRY_2</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Боевой клич</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_BATTLE_CRY_3</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Боевой клич</color>]]></Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES</LocID>
-                <Text>Показать ресурсы</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION</LocID>
-                <Text>Мгновенно обнаруживает ресурсы в области вокруг командира.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL1</LocID>
-                <Text>Обнаруживает основные ресурсы.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL2</LocID>
-                <Text>Обнаруживает все ресурсы.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL3</LocID>
-                <Text>Обнаруживает все ресурсы и термоядерные реакторы.</Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES</LocID>
-                <Text>Показать сокровища</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION</LocID>
-                <Text>Мгновенно обнаруживает ценные предметы в области вокруг командира.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL1</LocID>
-                <Text>Обнаруживает сундуки.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL2</LocID>
-                <Text>Обнаруживает сундуки и снаряжение.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL3</LocID>
-                <Text>Обнаруживает сундуки, снаряжение и артефакты.</Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE</LocID>
-                <Text>Орда варваров</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION</LocID>
-                <Text>Появитесь в виде своего самого сильного командира!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION_LVL2</LocID>
-                <Text>Заставляет врагов задуматься, стоит ли атаковать.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION_LVL3</LocID>
-                <Text>Также обманывает навык разведки.</Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY</LocID>
-                <Text>Лёгкая добыча</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION</LocID>
-                <Text>Появитесь в виде своего самого слабого командира!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL2</LocID>
-                <Text>Притворитесь слабым, чтобы обманом заставить других напасть на вас!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL3</LocID>
-                <Text>Также обманывает навык разведки.</Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY</LocID>
-                <Text>Невидимость</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION</LocID>
-                <Text>Делает командира невидимым для врагов, пока кто-нибудь не подойдёт слишком близко.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION_LVL2</LocID>
-                <Text>Невидим, пока не окажется на расстоянии 4 клеток от вражеских командиров.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION_LVL3</LocID>
-                <Text>Невидим, пока не окажется на расстоянии 2 клеток от вражеских командиров.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_INVISIBILITY_2</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Невидим</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_INVISIBILITY_3</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Невидим</color>]]></Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD</LocID>
-                <Text>Защитное поле</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION</LocID>
-                <Text>Создаёт защитное поле, которое предотвращает негативные эффекты от посещённых объектов и способностей.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_LVL2</LocID>
-                <Text>Защищает командира.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_LVL3</LocID>
-                <Text>Защищает командиров в радиусе 2 клеток от заклинателя.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_PROTECTIVE_FIELD</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Защитное поле</color>]]></Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_REINFORCEMENT</LocID>
-                <Text>Подкрепление!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_REINFORCEMENT_DESCRIPTION</LocID>
-                <Text>Призывает отряды определённого типа, доступные на ваших базах, прямо в армию этого командира.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>DIALOG_ABILITY_REINFORCEMENT</LocID>
-                <Text>Призвать подкрепление!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>DIALOG_ABILITY_REINFORCEMENT_TEXT</LocID>
-                <Text><![CDATA[Выберите один доступный тип отряда! Отряды, доступные на всех ваших базах и не назначенные командиру гарнизона, будут призваны к действию!
+  <GameDBStringTable ID="LOC_RU_HERO_ABILITIES_EXPLORATION">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Oxymoron Games</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_RUSH</LocID>
+        <Text>Рывок</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION</LocID>
+        <Text><![CDATA[Восстанавливает <color=SOTS_COLOR_MOVEMENT>очки движения</color> командира. Сила способностей увеличивает эффект.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL1</LocID>
+        <Text><![CDATA[Восстанавливает (3 + Сила способностей) <color=SOTS_COLOR_MOVEMENT>очков движения</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL2</LocID>
+        <Text><![CDATA[Восстанавливает (6 + Сила способностей) <color=SOTS_COLOR_MOVEMENT>очков движения</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL3</LocID>
+        <Text><![CDATA[Восстанавливает (9 + Сила способностей) <color=SOTS_COLOR_MOVEMENT>очков движения</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK</LocID>
+        <Text>Метка смерти</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION</LocID>
+        <Text><![CDATA[Отслеживает вражеского командира в тумане войны. Командир, на которого нацелена метка, теряет <color=SOTS_COLOR_MOVEMENT>очки движения</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL1</LocID>
+        <Text>Дальность 4 клеток, 2 хода.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL2</LocID>
+        <Text>Дальность 5 клеток, 3 хода.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL3</LocID>
+        <Text>Дальность 6 клеток, 4 хода.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_DEATH_MARK</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>Метка смерти активна!</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY</LocID>
+        <Text>Боевой клич</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION</LocID>
+        <Text>Повышает боевой дух вашей армии!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL1</LocID>
+        <Text>+5 к боевому духу на 1 ход.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL2</LocID>
+        <Text>+10 к боевому духу и -5 к боевому духу ваших врагов на 3 хода.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL3</LocID>
+        <Text>+15 к боевому духу и -10 к боевому духу ваших врагов на 4 хода.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_BATTLE_CRY_1</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Боевой клич</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_BATTLE_CRY_2</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Боевой клич</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_BATTLE_CRY_3</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Боевой клич</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES</LocID>
+        <Text>Показать ресурсы</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION</LocID>
+        <Text>Мгновенно обнаруживает ресурсы в области вокруг командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL1</LocID>
+        <Text>Обнаруживает основные ресурсы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL2</LocID>
+        <Text>Обнаруживает все ресурсы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL3</LocID>
+        <Text>Обнаруживает все ресурсы и термоядерные реакторы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES</LocID>
+        <Text>Показать сокровища</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION</LocID>
+        <Text>Мгновенно обнаруживает ценные предметы в области вокруг командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL1</LocID>
+        <Text>Обнаруживает сундуки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL2</LocID>
+        <Text>Обнаруживает сундуки и снаряжение.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL3</LocID>
+        <Text>Обнаруживает сундуки, снаряжение и артефакты.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE</LocID>
+        <Text>Орда варваров</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION</LocID>
+        <Text>Появитесь в виде своего самого сильного командира!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION_LVL2</LocID>
+        <Text>Заставляет врагов задуматься, стоит ли атаковать.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION_LVL3</LocID>
+        <Text>Также обманывает навык разведки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY</LocID>
+        <Text>Лёгкая добыча</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION</LocID>
+        <Text>Появитесь в виде своего самого слабого командира!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL2</LocID>
+        <Text>Притворитесь слабым, чтобы обманом заставить других напасть на вас!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL3</LocID>
+        <Text>Также обманывает навык разведки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY</LocID>
+        <Text>Невидимость</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION</LocID>
+        <Text>Делает командира невидимым для врагов, пока кто-нибудь не подойдёт слишком близко.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION_LVL2</LocID>
+        <Text>Невидим, пока не окажется на расстоянии 4 клеток от вражеских командиров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION_LVL3</LocID>
+        <Text>Невидим, пока не окажется на расстоянии 2 клеток от вражеских командиров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_INVISIBILITY_2</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Невидим</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_INVISIBILITY_3</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Невидим</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD</LocID>
+        <Text>Защитное поле</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION</LocID>
+        <Text>Создаёт защитное поле, которое предотвращает негативные эффекты от посещённых объектов и способностей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_LVL2</LocID>
+        <Text>Защищает командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_LVL3</LocID>
+        <Text>Защищает командиров в радиусе 2 клеток от заклинателя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_PROTECTIVE_FIELD</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Защитное поле</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_REINFORCEMENT</LocID>
+        <Text>Подкрепление!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_REINFORCEMENT_DESCRIPTION</LocID>
+        <Text>Призывает отряды определённого типа, доступные на ваших базах, прямо в армию этого командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DIALOG_ABILITY_REINFORCEMENT</LocID>
+        <Text>Призвать подкрепление!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DIALOG_ABILITY_REINFORCEMENT_TEXT</LocID>
+        <Text><![CDATA[Выберите один доступный тип отряда! Отряды, доступные на всех ваших базах и не назначенные командиру гарнизона, будут призваны к действию!
 Вы можете призывать только отряды с уровнем, не превышающим <color=SOTS_COLOR_GOLD>силу способностей</color> вашего командира.]]></Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE</LocID>
-                <Text>Орлиный глаз</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION</LocID>
-                <Text>Удваивает дальность обзора командира на одну фазу.</Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD</LocID>
-                <Text>Перезаряженное облако</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION</LocID>
-                <Text>Разместите искусственное облако на карте. Если командир войдёт в него, он потеряет движение, а его армия получит урон в следующем бою.</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_SUPERCHARGED_CLOUD_DAMAGE</LocID>
-                <Text><![CDATA[Прошёл через перезаряженное облако. Ваши отряды <color=SOTS_COLOR_RED>ошеломлены и отравлены</color>.]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_ELECTRONIC_EQUIPMENT_DISABLED</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_RED>Электронное оборудование отключено.</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ELECTRONIC_EQUIPMENT_DISABLED</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_RED>Электронное оборудование отключено из-за эффекта статуса на этом командире.</color>]]></Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_EVACUATION</LocID>
-                <Text>Эвакуация</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_EVACUATION_DESCRIPTION</LocID>
-                <Text>Телепортирует командира и его армию на ближайшую базу.</Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_MIMIC</LocID>
-                <Text>Мимик</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>ABILITY_HERO_EXPLORATION_MIMIC_DESCRIPTION</LocID>
-                <Text>Призовите автономного голографического друга, чтобы вы могли появляться сразу в нескольких местах. Не позволяйте ему ничего трогать!</Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>HERO_MIMIC</LocID>
-                <Text>Я мимик!</Text>
-            </GameDBLocalizedString>
-
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_ROOTS</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_RED>Укушен. Движение уменьшено.</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_MUSHROOM_SPORES</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Вдохнул споры. Боевая мощь увеличена.</color>]]></Text>
-            </GameDBLocalizedString>
-            <GameDBLocalizedString>
-                <LocID>STATUS_EFFECT_IN_TRAINING</LocID>
-                <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>На тренировке. Получает опыт каждый ход. Бонус к защите, тактика.</color>]]></Text>
-            </GameDBLocalizedString>
-        </LocalizedStrings>
-    </GameDBStringTable>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE</LocID>
+        <Text>Орлиный глаз</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION</LocID>
+        <Text>Удваивает дальность обзора командира на одну фазу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD</LocID>
+        <Text>Перезаряженное облако</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION</LocID>
+        <Text>Разместите искусственное облако на карте. Если командир войдёт в него, он потеряет движение, а его армия получит урон в следующем бою.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_SUPERCHARGED_CLOUD_DAMAGE</LocID>
+        <Text><![CDATA[Прошёл через перезаряженное облако. Ваши отряды <color=SOTS_COLOR_RED>ошеломлены и отравлены</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_ELECTRONIC_EQUIPMENT_DISABLED</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>Электронное оборудование отключено.</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ELECTRONIC_EQUIPMENT_DISABLED</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>Электронное оборудование отключено из-за эффекта статуса на этом командире.</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_EVACUATION</LocID>
+        <Text>Эвакуация</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_EVACUATION_DESCRIPTION</LocID>
+        <Text>Телепортирует командира и его армию на ближайшую базу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_MIMIC</LocID>
+        <Text>Мимик</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_MIMIC_DESCRIPTION</LocID>
+        <Text>Призовите автономного голографического друга, чтобы вы могли появляться сразу в нескольких местах. Не позволяйте ему ничего трогать!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MIMIC</LocID>
+        <Text>Я мимик!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_ROOTS</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>Укушен. Движение уменьшено.</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_MUSHROOM_SPORES</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Вдохнул споры. Боевая мощь увеличена.</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STATUS_EFFECT_IN_TRAINING</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>На тренировке. Получает опыт каждый ход. Бонус к защите, тактика.</color>]]></Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

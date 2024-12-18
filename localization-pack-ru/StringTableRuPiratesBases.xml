@@ -1,176 +1,542 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_PIRATES_BASES">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!--Bases -->
-            <GameDBLocalizedString>         <LocID>BASE_PIRATES</LocID>                                       <Text>base</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_BASE_CORE</LocID>                         <Text>Anchorage</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_BASE_CORE_DESCRIPTION</LocID>             <Text>Generates 1000 cash each turn</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE1</LocID>                  <Text>Docks</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE1_DESCRIPTION</LocID>      <Text>Generates 500 additional cash</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE2</LocID>                  <Text>Harbour</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE2_DESCRIPTION</LocID>      <Text>Generates 1000 additional cash</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE_MAX</LocID>               <Text>Haven</Text></GameDBLocalizedString>
-                                                                                                              
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE_MAX_DESCRIPTION</LocID>     <Text><![CDATA[Generates<color=SOTS_COLOR_GOLD> 1000</color> additional <color=SOTS_COLOR_GOLD>Aura coins</color> per turn and further increases unit production.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REPLICATOR</LocID>                        <Text>Replicator</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REPLICATOR_DESCRIPTION</LocID>            <Text>Generates 1 Biomass and 1 Radiant</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_GATEWAY</LocID>                           <Text>Teleport</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_GATEWAY_DESCRIPTION</LocID>               <Text>Allows commanders to instantly travel between bases</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPACE_BAR</LocID>                         <Text>A Cushy Cabin</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPACE_BAR_DESCRIPTION</LocID>             <Text>Allows you to hire commanders.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_MUSIC_HALL</LocID>                        <Text>Space Bar</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_MUSIC_HALL_DESCRIPTION</LocID>            <Text>Adds one more commander for hire. Starting armies of hired commanders are 50% stronger.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_VISIBILITY_UPGRADE</LocID>                <Text>Crow's Nest</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_VISIBILITY_UPGRADE_DESCRIPTION</LocID>    <Text>Increases visibility range around the base and senses useful objects in an even larger area.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_RECYCLER</LocID>                          <Text>Recycler</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_RECYCLER_DESCRIPTION</LocID>              <Text>Generates 1 limerite and 1 Alloy</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACTORY</LocID>                           <Text>Workshop</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACTORY_DESCRIPTION</LocID>               <Text>Allows you to build healing stations for your armies.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_TRADING_POST</LocID>                      <Text>Bazaar</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_TRADING_POST_DESCRIPTION</LocID>          <Text>Allows to exchange resources and money</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_CORE</LocID>                    <Text>Hull Plating</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_CORE_DESCRIPTION</LocID>        <Text>Walls and gate and two shooting platforms are build and unlocks one defensive slot</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TOWER</LocID>                   <Text>Defense Posts</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TOWER_DESCRIPTION</LocID>       <Text>Walls and gate is stronger, two more range platforms and one more defensive slot</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_MINES</LocID>                   <Text>Minefield</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_MINES_DESCRIPTION</LocID>       <Text>3 mines appears on siege battlefield</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TURRET</LocID>                  <Text>Turrets</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TURRET_DESCRIPTION</LocID>      <Text>Two hidden turrets on siege battlefield</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TRENCH</LocID>                  <Text>Trench</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TRENCH_DESCRIPTION</LocID>      <Text>(Will be implemeted during Early Access development)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_FLYING_MINES</LocID>            <Text>Flying mines</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_FLYING_MINES_DESCRIPTION</LocID><Text>(Will be implemeted during Early Access development)</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ACADEMY</LocID>                           <Text>Foundation</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ACADEMY_DESCRIPTION</LocID>               <Text>Unlocks three random abilities to learn</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REMOTE_LEARNING</LocID>                   <Text>Neurolink</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REMOTE_LEARNING_DESCRIPTION</LocID>       <Text>Commander can lears ability outside of base</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_SPECIALIZATION</LocID>            <Text>Patronage</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_SPECIALIZATION_DESCRIPTION</LocID><Text>Unlocks posibility to buy new ability</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_BIO</LocID>                       <Text>Biolab</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_BIO_DESCRIPTION</LocID>           <Text>Unlocks bio abilities to learn</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_EXPLORE</LocID>                   <Text>Explorers Club</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_EXPLORE_DESCRIPTION</LocID>       <Text>Unlocks explore abilities to learn</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_PSY</LocID>                       <Text>Psychers Den</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_PSY_DESCRIPTION</LocID>           <Text>Unlocks psy abilities to learn</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_TECH</LocID>                      <Text>Techlab</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_TECH_DESCRIPTION</LocID>          <Text>Unlocks tech abilities to learn</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1</LocID>                         <Text>Saw-ty Workroom</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1_DESCRIPTION</LocID>             <Text>Allows to recruit Saw-ty</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1_UPG</LocID>                     <Text>Saw-ty Assembly line</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1_UPG_DESCRIPTION</LocID>         <Text>Allows to recruit Saw-ty II</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2</LocID>                         <Text>Tox Cabines</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2_DESCRIPTION</LocID>             <Text>Allows to recruit Marauder</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2_UPG</LocID>                     <Text>Acid Containers</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2_UPG_DESCRIPTION</LocID>         <Text>Allows to recruit Marauder Grenadier</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3</LocID>                         <Text>Mortar Shop</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3_DESCRIPTION</LocID>             <Text>Allows to recruit Mortar</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3_UPG</LocID>                     <Text>Mortar School</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3_UPG_DESCRIPTION</LocID>         <Text>Allows to recruit Overclocked Mortar</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4</LocID>                         <Text>Scorched Holds</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4_DESCRIPTION</LocID>             <Text>Allows to recruit Scorch Shower</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4_UPG</LocID>                     <Text>Scorched Halls</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4_UPG_DESCRIPTION</LocID>         <Text>Allows to recruit Scorch Thrower</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5</LocID>                         <Text>Snipers Tent</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5_DESCRIPTION</LocID>             <Text>Allows to recruit Huntress</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5_UPG</LocID>                     <Text>Snipers Nest</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5_UPG_DESCRIPTION</LocID>         <Text>Allows to recruit Huntress captain</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6</LocID>                         <Text>Cable Room</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6_DESCRIPTION</LocID>             <Text>Allows to recruit Thunderbot</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6_UPG</LocID>                     <Text>Powerplant</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6_UPG_DESCRIPTION</LocID>         <Text>Allows to recruit Thunderbot elite</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7</LocID>                         <Text>Antimat Garage</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7_DESCRIPTION</LocID>             <Text>Allows to recruit Antimat</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7_UPG</LocID>                     <Text>Antimat Hangar</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7_UPG_DESCRIPTION</LocID>         <Text>Allows to recruit Heavy Antimat</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_CREATURE_PRODUCTION_UPGRADE_1</LocID>     <Text>Sovereign Fleet Banner</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_CREATURE_PRODUCTION_UPGRADE_1_DESCRIPTION</LocID>     <Text>Generates 6 additional Mortar</Text></GameDBLocalizedString>
-
-            <!-- Lore description -->
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_BASE_CORE_LORE</LocID>                             <Text>It is humble, but it's enough. Life has truly started to return to the old derelict ship. But this time we aren't watching the growth of corrals in an oceanographic documentary. Instead, we are watching people from all the different worlds forming a unique community. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE1_LORE</LocID>                      <Text>Busy docks are booming with life. Sovereign Fleet welcomes all refugees, outcasts and castaways. The time of turmoil always creates many of these. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE2_LORE</LocID>                      <Text>A colorful flood of foreigners is moving through the corridors of a once silent derelict starship. Everybody contibuted by bringing something with them. A shard of know-how, a scrap of wealth, or a bit of a business idea. The pieces are small but there are many. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE_MAX_LORE</LocID>                   <Text>No regulations or restrictions, just a hive buzzing with energy and the yearning to build, create, and live to the fullest. Like the cowboys of the Old West, people cross the border and leave the past behind. A new home awaits here. </Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REPLICATOR_LORE</LocID>                            <Text>If you live under the never-ending UNSS restrictions and market blockades, the idea of consumerism will become only a distant memory. Then you start creating things not just to sell, but to last, and if something breaks, you fix it. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_GATEWAY_LORE</LocID>                               <Text>Don't pay any attention to those warning stickers that say "Under any circumstance do not use for transportation of living organisms!". Everybody uses it as public transport anyway. The alternative is to walk and risk the dangers outside the base. Your choice. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPACE_BAR_LORE</LocID>                             <Text>Space is neither good nor evil, it just doesn't care. In a world where a simple mistake can cost your life, you must have a place where you can feel safe and relaxed. Turn up the string lights and bring some cold beers, it's all you need after a rough day. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_MUSIC_HALL_LORE</LocID>                            <Text>The only place where you can have a laugh with a Fossorian, chant with Children of the Source, and drink with a former UNSS marine at the same time. Yeah, I know I did not mention Hesperidians... Oh, no, nobody would serve those bastards here. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_VISIBILITY_UPGRADE_LORE</LocID>                    <Text>With all those atmospheric disruptions and energy fields around the ancient Primal tech, it's nearly impossible to rely on any conventional recon ways except the old trusty eyesight. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_RECYCLER_LORE</LocID>                              <Text>There are places in space where the arrival of trader's ships is celebrated as a major holiday. If you come from such a place, you'll probably keep saving every scrap, piece of wire, and unused screw till the end of your life. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACTORY_LORE</LocID>                               <Text>There is a strong smell of thinner in the air, because a week or so ago, there was a Thunderbot painting line here and a week before that a lady was making necklaces from used fuse marbles. A Sovereign base is a living organism that adapts to any situation. </Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_TRADING_POST_LORE</LocID>                          <Text>Traders. Their ships are often nothing more than patch-quilts of home-made repairs and improvisations, but they are the glue that holds the secluded colonies together. Without them, the wilderness would swallow us one by one. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_CORE_LORE</LocID>                        <Text>Before the force field era, there was nothing to protect the ship except the hull plating. A thick layer of steel. Barbaric, but efficient. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TOWER_LORE</LocID>                       <Text>Holograms of battlefields and spaceships, nonstop running simulations, people stumbling on wires in an all-embracing entropy. But one man once said: Every plan goes to hell after the first shot is fired. Accept the entropy, and embrace the ever-changing chaos of the battle. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_MINES_LORE</LocID>                       <Text>There is a special type of land mines. If you pass it, the vortex field will not react, but each soldier is counted and only when the unit is deep in the minefield, the mines will start to explode. Not all the Sovereign Fleet warriors are paragons of virtue. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ACADEMY_LORE</LocID>                               <Text>To the Sovereigns, the idea of a systemic education that involves degrees and tests is just a joke. There is no need for tests, when life in the Sovereign Fleet is one big exam. Many frozen corpses are floating in space. Each one is a student who failed a test. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REMOTE_LEARNING_LORE</LocID>                       <Text>While the other factions spend fortunes building communication networks, the Sovereign Fleet chose a different approach. All you need to know is that all the ancient Primals devices are part of a single complex. If you hit the toe the eye will blink. Ones and zeroes. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_SPECIALIZATION_LORE</LocID>                <Text>Do you need to learn something? Then ask the Sovereigns! People from different cultures, races and backgrounds came to live and seek their dreams together. With such diversity, the probability that the guy with the right knowledge lives next door is pretty high.    </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_EXPLORE_LORE</LocID>                       <Text>Space merchants, adventures, explorers. Typical members of Sovereign Fleet. Those people will fill your empty maps quicker than an official expedition that must wait for funding approval and background checks. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_TECH_LORE</LocID>                          <Text>Living in space is a constant challenge. Every inhabitant survives thanks to the technology they take care of. One can't exist without the other. When you observe a 5-year-old child from a space station, you quickly realize that it is more skillful than an MIT graduate after 4 years of studies. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_BIO_LORE</LocID>                           <Text>One mistake in nutrient dosage can cause the whole hydroponic tank to die. As one cannot simply order a pizza in space, the starships, secluded colonies, or space stations without skilled bioengineers are as good as dead. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_CREATURE_PRODUCTION_UPGRADE_1_LORE</LocID>         <Text>Every open workshop and every new part of the base uplifts its morale. People from all walks of life come to build a new home together and they are doing their best. They live in an enchanted utopia at the moment, but every utopia is temporary. May it last as long as possible. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TRENCH_LORE</LocID>                      <Text> </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TURRET_LORE</LocID>                      <Text>Sovereign Fleet turrets are one of the safest devices of their kind, because the original target recognition software is overrun by a much more efficient program of the central aiming unit. Another reminder that all the Sovereign Fleet bases are repurposed starships. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1_LORE</LocID>                             <Text>Hammer, pliers, soldering iron... The tools in the workroom are cheap and simple like an offspring of a village idiot and a TV weathergirl, but if you ever managed to assemble literally anything made by Ikea, you are more than qualified for the Saw-ty assembling process. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1_UPG_LORE</LocID>                         <Text>How do the Sovereigns manage to acquire all the parts for their robots, you ask? With an inventive mind, all you need to build a combat mech are two washing machines, a central processing unit from any old car past 2205 - and one trip to the hardware store. </Text>  </GameDBLocalizedString>
-            
-            <!-- Logic ?? -->
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2_LORE</LocID>                             <Text>All militaries put immense effort into marching, tidy uniforms and carefully folded bedding. So why are the Tox commandos so efficient even if they look like a bunch of homeless near the main train station?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2_UPG_LORE</LocID>                         <Text>There is no artificial hierarchy among the Sovereign Fleet fighters. If you have the right skills and charisma, the men will obey even though you have no stars on your cap. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3_LORE</LocID>                             <Text>It all started as a joke when one of the captains complained that autonomous turrets were too vulnerable in close combat. "So give them knives or something" was the response from the crowd. The wave of laughter woke up a napping engineer who took a note. The rest is history. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3_UPG_LORE</LocID>                         <Text>Mortars are so precise that one smart guy persuaded the captains they could use them for field mail service. An empty grenade shell would carry the package right near the recipient. It actually worked pretty well untill someone mistook an empty shell for a standard one. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4_LORE</LocID>                             <Text>Even though most recruits come from prison colonies, the Scorchers are one of the most disciplined and loyal units in the Sovereign Fleet portfolio. The recipe is simple, liberate someone from a UNSS prison colony and they will be grateful for life. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4_UPG_LORE</LocID>                         <Text>A burning mixture of acid and napalm is barely controllable even in full gravity. Now imagine how wildly it behaves in zero G. I think you can imagine how tough the Scorchers really are. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5_LORE</LocID>                             <Text>There is a story about 7 Huntresses protecting a poor colony exploited by an evil governor and his goons. Eventually, the UNSS burned the place to the ground, but for a brief moment, the Huntresses managed to liberate it. Maybe this was the last drop that made the Huntresses' cup of UNSS tolerance run over. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5_UPG_LORE</LocID>                         <Text>Although any sharpshooter boosts your army's deadly potential, no one truly loves them. The enemy hates them for their deadly accuracy and friendly forces are afraid of retaliation in the form of artillery or an airstrike that might also sweep through their positions. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6_LORE</LocID>                             <Text>The Tesla Cord material is a great example of the first generation of energomorphic materials. A little bit of energy can turn it from rigid to flexible in a blink of an eye. Nikola would be proud of humanity. Or at least on some aspects. A few. A precious few. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6_UPG_LORE</LocID>                         <Text>Originally this series of robots was designed for heavy work on biofarms of the new world. For such a task they were equipped with a robust body and a gentle mind. It required a lot of coding to break their peaceful programming and turn them into the Dirty Dozen. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7_LORE</LocID>                             <Text>Downloading engrams to robotic bodies is usually compared to necromancy. But because the simple machine intelligence under the AI level is prone to hacking and you don't want this 20-tonne embodiment of destruction turning against you, let's ignore the moral issue for a moment. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7_UPG_LORE</LocID>                         <Text>The fact that the Sovereigns can build a mech able to compete with a UNSS Titan in a simple workshop is a clear evidence that the Sovereign Fleet will never be defeated by brute force or by resource superiority alone.  </Text>  </GameDBLocalizedString>
-
-
-            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_01</LocID>                               <Text>UNCSS Havana</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_02</LocID>                               <Text>UNCSS Hopper</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_03</LocID>                               <Text>UNCSS Rumbumbay</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_04</LocID>                               <Text>UNCSS Rama</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_05</LocID>                               <Text>UNCSS Boa Vista</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_06</LocID>                               <Text>UNCSS Baratarian</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_07</LocID>                               <Text>UNCSS St. Mary</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_08</LocID>                               <Text>UNCSS Fomalhaut</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_09</LocID>                               <Text>UNCSS Serenity</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_10</LocID>                               <Text>UNCSS Quiquita </Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SKILL_ACADEMY</LocID>                     <Text>Old Memory Core</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SKILL_ACADEMY_DESCRIPTION</LocID>         <Text>Teach a new skill to your commanders!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SKILL_ACADEMY_LORE</LocID>                <Text>Old ships are full of memories. No, we aren't talking about metaphysics or in metaphors. Everything that happened on board was recorded and analyzed by the mainframe. The older the ship, the clearer the patterns of information "distilled" from the lives of the countless crews. A well of knowledge waiting for you to jack in. </Text></GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+<Database>
+  <GameDBStringTable ID="LOC_RU_PIRATES_BASES">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Oxymoron Games</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!--Bases -->
+      <GameDBLocalizedString>
+        <LocID>BASE_PIRATES</LocID>
+        <Text>base</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_BASE_CORE</LocID>
+        <Text>Anchorage</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_BASE_CORE_DESCRIPTION</LocID>
+        <Text>Generates 1000 cash each turn</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE1</LocID>
+        <Text>Docks</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE1_DESCRIPTION</LocID>
+        <Text>Generates 500 additional cash</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE2</LocID>
+        <Text>Harbour</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE2_DESCRIPTION</LocID>
+        <Text>Generates 1000 additional cash</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE_MAX</LocID>
+        <Text>Haven</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE_MAX_DESCRIPTION</LocID>
+        <Text><![CDATA[Generates<color=SOTS_COLOR_GOLD> 1000</color> additional <color=SOTS_COLOR_GOLD>Aura coins</color> per turn and further increases unit production.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_REPLICATOR</LocID>
+        <Text>Replicator</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_REPLICATOR_DESCRIPTION</LocID>
+        <Text>Generates 1 Biomass and 1 Radiant</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_GATEWAY</LocID>
+        <Text>Teleport</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_GATEWAY_DESCRIPTION</LocID>
+        <Text>Allows commanders to instantly travel between bases</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPACE_BAR</LocID>
+        <Text>A Cushy Cabin</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPACE_BAR_DESCRIPTION</LocID>
+        <Text>Allows you to hire commanders.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_MUSIC_HALL</LocID>
+        <Text>Space Bar</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_MUSIC_HALL_DESCRIPTION</LocID>
+        <Text>Adds one more commander for hire. Starting armies of hired commanders are 50% stronger.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_VISIBILITY_UPGRADE</LocID>
+        <Text>Crow's Nest</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_VISIBILITY_UPGRADE_DESCRIPTION</LocID>
+        <Text>Increases visibility range around the base and senses useful objects in an even larger area.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_RECYCLER</LocID>
+        <Text>Recycler</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_RECYCLER_DESCRIPTION</LocID>
+        <Text>Generates 1 limerite and 1 Alloy</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACTORY</LocID>
+        <Text>Workshop</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACTORY_DESCRIPTION</LocID>
+        <Text>Allows you to build healing stations for your armies.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_TRADING_POST</LocID>
+        <Text>Bazaar</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_TRADING_POST_DESCRIPTION</LocID>
+        <Text>Allows to exchange resources and money</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_CORE</LocID>
+        <Text>Hull Plating</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_CORE_DESCRIPTION</LocID>
+        <Text>Walls and gate and two shooting platforms are build and unlocks one defensive slot</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_TOWER</LocID>
+        <Text>Defense Posts</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_TOWER_DESCRIPTION</LocID>
+        <Text>Walls and gate is stronger, two more range platforms and one more defensive slot</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_MINES</LocID>
+        <Text>Minefield</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_MINES_DESCRIPTION</LocID>
+        <Text>3 mines appears on siege battlefield</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_TURRET</LocID>
+        <Text>Turrets</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_TURRET_DESCRIPTION</LocID>
+        <Text>Two hidden turrets on siege battlefield</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_TRENCH</LocID>
+        <Text>Trench</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_TRENCH_DESCRIPTION</LocID>
+        <Text>(Will be implemeted during Early Access development)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_FLYING_MINES</LocID>
+        <Text>Flying mines</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_FLYING_MINES_DESCRIPTION</LocID>
+        <Text>(Will be implemeted during Early Access development)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ACADEMY</LocID>
+        <Text>Foundation</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ACADEMY_DESCRIPTION</LocID>
+        <Text>Unlocks three random abilities to learn</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_REMOTE_LEARNING</LocID>
+        <Text>Neurolink</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_REMOTE_LEARNING_DESCRIPTION</LocID>
+        <Text>Commander can lears ability outside of base</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_SPECIALIZATION</LocID>
+        <Text>Patronage</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_SPECIALIZATION_DESCRIPTION</LocID>
+        <Text>Unlocks posibility to buy new ability</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_BIO</LocID>
+        <Text>Biolab</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_BIO_DESCRIPTION</LocID>
+        <Text>Unlocks bio abilities to learn</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_EXPLORE</LocID>
+        <Text>Explorers Club</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_EXPLORE_DESCRIPTION</LocID>
+        <Text>Unlocks explore abilities to learn</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_PSY</LocID>
+        <Text>Psychers Den</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_PSY_DESCRIPTION</LocID>
+        <Text>Unlocks psy abilities to learn</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_TECH</LocID>
+        <Text>Techlab</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_TECH_DESCRIPTION</LocID>
+        <Text>Unlocks tech abilities to learn</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_1</LocID>
+        <Text>Saw-ty Workroom</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_1_DESCRIPTION</LocID>
+        <Text>Allows to recruit Saw-ty</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_1_UPG</LocID>
+        <Text>Saw-ty Assembly line</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_1_UPG_DESCRIPTION</LocID>
+        <Text>Allows to recruit Saw-ty II</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_2</LocID>
+        <Text>Tox Cabines</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_2_DESCRIPTION</LocID>
+        <Text>Allows to recruit Marauder</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_2_UPG</LocID>
+        <Text>Acid Containers</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_2_UPG_DESCRIPTION</LocID>
+        <Text>Allows to recruit Marauder Grenadier</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_3</LocID>
+        <Text>Mortar Shop</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_3_DESCRIPTION</LocID>
+        <Text>Allows to recruit Mortar</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_3_UPG</LocID>
+        <Text>Mortar School</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_3_UPG_DESCRIPTION</LocID>
+        <Text>Allows to recruit Overclocked Mortar</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_4</LocID>
+        <Text>Scorched Holds</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_4_DESCRIPTION</LocID>
+        <Text>Allows to recruit Scorch Shower</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_4_UPG</LocID>
+        <Text>Scorched Halls</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_4_UPG_DESCRIPTION</LocID>
+        <Text>Allows to recruit Scorch Thrower</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_5</LocID>
+        <Text>Snipers Tent</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_5_DESCRIPTION</LocID>
+        <Text>Allows to recruit Huntress</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_5_UPG</LocID>
+        <Text>Snipers Nest</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_5_UPG_DESCRIPTION</LocID>
+        <Text>Allows to recruit Huntress captain</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_6</LocID>
+        <Text>Cable Room</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_6_DESCRIPTION</LocID>
+        <Text>Allows to recruit Thunderbot</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_6_UPG</LocID>
+        <Text>Powerplant</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_6_UPG_DESCRIPTION</LocID>
+        <Text>Allows to recruit Thunderbot elite</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_7</LocID>
+        <Text>Antimat Garage</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_7_DESCRIPTION</LocID>
+        <Text>Allows to recruit Antimat</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_7_UPG</LocID>
+        <Text>Antimat Hangar</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_7_UPG_DESCRIPTION</LocID>
+        <Text>Allows to recruit Heavy Antimat</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_CREATURE_PRODUCTION_UPGRADE_1</LocID>
+        <Text>Sovereign Fleet Banner</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_CREATURE_PRODUCTION_UPGRADE_1_DESCRIPTION</LocID>
+        <Text>Generates 6 additional Mortar</Text>
+      </GameDBLocalizedString>
+      <!-- Lore description -->
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_BASE_CORE_LORE</LocID>
+        <Text>It is humble, but it's enough. Life has truly started to return to the old derelict ship. But this time we aren't watching the growth of corrals in an oceanographic documentary. Instead, we are watching people from all the different worlds forming a unique community. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE1_LORE</LocID>
+        <Text>Busy docks are booming with life. Sovereign Fleet welcomes all refugees, outcasts and castaways. The time of turmoil always creates many of these. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE2_LORE</LocID>
+        <Text>A colorful flood of foreigners is moving through the corridors of a once silent derelict starship. Everybody contibuted by bringing something with them. A shard of know-how, a scrap of wealth, or a bit of a business idea. The pieces are small but there are many. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE_MAX_LORE</LocID>
+        <Text>No regulations or restrictions, just a hive buzzing with energy and the yearning to build, create, and live to the fullest. Like the cowboys of the Old West, people cross the border and leave the past behind. A new home awaits here. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_REPLICATOR_LORE</LocID>
+        <Text>If you live under the never-ending UNSS restrictions and market blockades, the idea of consumerism will become only a distant memory. Then you start creating things not just to sell, but to last, and if something breaks, you fix it. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_GATEWAY_LORE</LocID>
+        <Text>Don't pay any attention to those warning stickers that say "Under any circumstance do not use for transportation of living organisms!". Everybody uses it as public transport anyway. The alternative is to walk and risk the dangers outside the base. Your choice. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPACE_BAR_LORE</LocID>
+        <Text>Space is neither good nor evil, it just doesn't care. In a world where a simple mistake can cost your life, you must have a place where you can feel safe and relaxed. Turn up the string lights and bring some cold beers, it's all you need after a rough day. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_MUSIC_HALL_LORE</LocID>
+        <Text>The only place where you can have a laugh with a Fossorian, chant with Children of the Source, and drink with a former UNSS marine at the same time. Yeah, I know I did not mention Hesperidians... Oh, no, nobody would serve those bastards here. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_VISIBILITY_UPGRADE_LORE</LocID>
+        <Text>With all those atmospheric disruptions and energy fields around the ancient Primal tech, it's nearly impossible to rely on any conventional recon ways except the old trusty eyesight. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_RECYCLER_LORE</LocID>
+        <Text>There are places in space where the arrival of trader's ships is celebrated as a major holiday. If you come from such a place, you'll probably keep saving every scrap, piece of wire, and unused screw till the end of your life. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACTORY_LORE</LocID>
+        <Text>There is a strong smell of thinner in the air, because a week or so ago, there was a Thunderbot painting line here and a week before that a lady was making necklaces from used fuse marbles. A Sovereign base is a living organism that adapts to any situation. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_TRADING_POST_LORE</LocID>
+        <Text>Traders. Their ships are often nothing more than patch-quilts of home-made repairs and improvisations, but they are the glue that holds the secluded colonies together. Without them, the wilderness would swallow us one by one. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_CORE_LORE</LocID>
+        <Text>Before the force field era, there was nothing to protect the ship except the hull plating. A thick layer of steel. Barbaric, but efficient. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_TOWER_LORE</LocID>
+        <Text>Holograms of battlefields and spaceships, nonstop running simulations, people stumbling on wires in an all-embracing entropy. But one man once said: Every plan goes to hell after the first shot is fired. Accept the entropy, and embrace the ever-changing chaos of the battle. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_MINES_LORE</LocID>
+        <Text>There is a special type of land mines. If you pass it, the vortex field will not react, but each soldier is counted and only when the unit is deep in the minefield, the mines will start to explode. Not all the Sovereign Fleet warriors are paragons of virtue. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_ACADEMY_LORE</LocID>
+        <Text>To the Sovereigns, the idea of a systemic education that involves degrees and tests is just a joke. There is no need for tests, when life in the Sovereign Fleet is one big exam. Many frozen corpses are floating in space. Each one is a student who failed a test. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_REMOTE_LEARNING_LORE</LocID>
+        <Text>While the other factions spend fortunes building communication networks, the Sovereign Fleet chose a different approach. All you need to know is that all the ancient Primals devices are part of a single complex. If you hit the toe the eye will blink. Ones and zeroes. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_SPECIALIZATION_LORE</LocID>
+        <Text>Do you need to learn something? Then ask the Sovereigns! People from different cultures, races and backgrounds came to live and seek their dreams together. With such diversity, the probability that the guy with the right knowledge lives next door is pretty high.    </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_EXPLORE_LORE</LocID>
+        <Text>Space merchants, adventures, explorers. Typical members of Sovereign Fleet. Those people will fill your empty maps quicker than an official expedition that must wait for funding approval and background checks. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_TECH_LORE</LocID>
+        <Text>Living in space is a constant challenge. Every inhabitant survives thanks to the technology they take care of. One can't exist without the other. When you observe a 5-year-old child from a space station, you quickly realize that it is more skillful than an MIT graduate after 4 years of studies. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_FACULTY_BIO_LORE</LocID>
+        <Text>One mistake in nutrient dosage can cause the whole hydroponic tank to die. As one cannot simply order a pizza in space, the starships, secluded colonies, or space stations without skilled bioengineers are as good as dead. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_CREATURE_PRODUCTION_UPGRADE_1_LORE</LocID>
+        <Text>Every open workshop and every new part of the base uplifts its morale. People from all walks of life come to build a new home together and they are doing their best. They live in an enchanted utopia at the moment, but every utopia is temporary. May it last as long as possible. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_TRENCH_LORE</LocID>
+        <Text>
+        </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_DEFENSIVE_TURRET_LORE</LocID>
+        <Text>Sovereign Fleet turrets are one of the safest devices of their kind, because the original target recognition software is overrun by a much more efficient program of the central aiming unit. Another reminder that all the Sovereign Fleet bases are repurposed starships. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_1_LORE</LocID>
+        <Text>Hammer, pliers, soldering iron... The tools in the workroom are cheap and simple like an offspring of a village idiot and a TV weathergirl, but if you ever managed to assemble literally anything made by Ikea, you are more than qualified for the Saw-ty assembling process. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_1_UPG_LORE</LocID>
+        <Text>How do the Sovereigns manage to acquire all the parts for their robots, you ask? With an inventive mind, all you need to build a combat mech are two washing machines, a central processing unit from any old car past 2205 - and one trip to the hardware store. </Text>
+      </GameDBLocalizedString>
+      <!-- Logic ?? -->
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_2_LORE</LocID>
+        <Text>All militaries put immense effort into marching, tidy uniforms and carefully folded bedding. So why are the Tox commandos so efficient even if they look like a bunch of homeless near the main train station?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_2_UPG_LORE</LocID>
+        <Text>There is no artificial hierarchy among the Sovereign Fleet fighters. If you have the right skills and charisma, the men will obey even though you have no stars on your cap. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_3_LORE</LocID>
+        <Text>It all started as a joke when one of the captains complained that autonomous turrets were too vulnerable in close combat. "So give them knives or something" was the response from the crowd. The wave of laughter woke up a napping engineer who took a note. The rest is history. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_3_UPG_LORE</LocID>
+        <Text>Mortars are so precise that one smart guy persuaded the captains they could use them for field mail service. An empty grenade shell would carry the package right near the recipient. It actually worked pretty well untill someone mistook an empty shell for a standard one. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_4_LORE</LocID>
+        <Text>Even though most recruits come from prison colonies, the Scorchers are one of the most disciplined and loyal units in the Sovereign Fleet portfolio. The recipe is simple, liberate someone from a UNSS prison colony and they will be grateful for life. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_4_UPG_LORE</LocID>
+        <Text>A burning mixture of acid and napalm is barely controllable even in full gravity. Now imagine how wildly it behaves in zero G. I think you can imagine how tough the Scorchers really are. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_5_LORE</LocID>
+        <Text>There is a story about 7 Huntresses protecting a poor colony exploited by an evil governor and his goons. Eventually, the UNSS burned the place to the ground, but for a brief moment, the Huntresses managed to liberate it. Maybe this was the last drop that made the Huntresses' cup of UNSS tolerance run over. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_5_UPG_LORE</LocID>
+        <Text>Although any sharpshooter boosts your army's deadly potential, no one truly loves them. The enemy hates them for their deadly accuracy and friendly forces are afraid of retaliation in the form of artillery or an airstrike that might also sweep through their positions. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_6_LORE</LocID>
+        <Text>The Tesla Cord material is a great example of the first generation of energomorphic materials. A little bit of energy can turn it from rigid to flexible in a blink of an eye. Nikola would be proud of humanity. Or at least on some aspects. A few. A precious few. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_6_UPG_LORE</LocID>
+        <Text>Originally this series of robots was designed for heavy work on biofarms of the new world. For such a task they were equipped with a robust body and a gentle mind. It required a lot of coding to break their peaceful programming and turn them into the Dirty Dozen. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_7_LORE</LocID>
+        <Text>Downloading engrams to robotic bodies is usually compared to necromancy. But because the simple machine intelligence under the AI level is prone to hacking and you don't want this 20-tonne embodiment of destruction turning against you, let's ignore the moral issue for a moment. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SPAWNER_7_UPG_LORE</LocID>
+        <Text>The fact that the Sovereigns can build a mech able to compete with a UNSS Titan in a simple workshop is a clear evidence that the Sovereign Fleet will never be defeated by brute force or by resource superiority alone.  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PIRATES_BASE_NAME_01</LocID>
+        <Text>UNCSS Havana</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PIRATES_BASE_NAME_02</LocID>
+        <Text>UNCSS Hopper</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PIRATES_BASE_NAME_03</LocID>
+        <Text>UNCSS Rumbumbay</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PIRATES_BASE_NAME_04</LocID>
+        <Text>UNCSS Rama</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PIRATES_BASE_NAME_05</LocID>
+        <Text>UNCSS Boa Vista</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PIRATES_BASE_NAME_06</LocID>
+        <Text>UNCSS Baratarian</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PIRATES_BASE_NAME_07</LocID>
+        <Text>UNCSS St. Mary</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PIRATES_BASE_NAME_08</LocID>
+        <Text>UNCSS Fomalhaut</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PIRATES_BASE_NAME_09</LocID>
+        <Text>UNCSS Serenity</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PIRATES_BASE_NAME_10</LocID>
+        <Text>UNCSS Quiquita </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SKILL_ACADEMY</LocID>
+        <Text>Old Memory Core</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SKILL_ACADEMY_DESCRIPTION</LocID>
+        <Text>Teach a new skill to your commanders!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_PIRATES_SKILL_ACADEMY_LORE</LocID>
+        <Text>Old ships are full of memories. No, we aren't talking about metaphysics or in metaphors. Everything that happened on board was recorded and analyzed by the mainframe. The older the ship, the clearer the patterns of information "distilled" from the lives of the countless crews. A well of knowledge waiting for you to jack in. </Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
