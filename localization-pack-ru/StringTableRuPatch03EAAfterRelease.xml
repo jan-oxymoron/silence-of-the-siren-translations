@@ -173,12 +173,12 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>SKILL_EFFECT_EXPLORATION_XP_BOOST</LocID>
-        <Text><![CDATA[Increases exploration <color=SOTS_COLOR_XP>Experience points</color> by <color=SOTS_COLOR_GOLD>{1}%</color>.]]></Text>
+        <Text><![CDATA[Увеличивает <color=SOTS_COLOR_XP>очки опыта</color> за разведку территории на <color=SOTS_COLOR_GOLD>{1}%</color>.]]></Text>
       </GameDBLocalizedString>
       <!--Skills and attributes redesign-->
       <GameDBLocalizedString>
         <LocID>OPTION_GRAPHICS_FULLSCREEN</LocID>
-        <Text>Полноэкранный режим</Text>
+        <Text>Режим экрана</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>OPTION_GRAPHICS_FULLSCREEN_ON</LocID>
@@ -336,83 +336,83 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MESSAGE_WALKING_RATIONS</LocID>
-        <Text>Благодаря Блуждающим Рационам, атака {CombatActor} отремонтировала {Stack}, восстановив {int} очков.</Text>
+        <Text>Благодаря Ходячим Пайкам, атака {CombatActor} отремонтировала {Stack}, восстановив {int} очков.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MESSAGE_WALKING_RATIONS_REVIVED</LocID>
-        <Text>Thanks to Walking Rations, attacking {CombatActor} has repaired {Stack}, repairing {int} points. {int} unit(s) got a second chance.</Text>
+        <Text>Благодаря Ходячим Пайкам, атакующий {CombatActor} восстановил {Stack}, восстановив {int} очков. {int} отряд(ы) получили второй шанс.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION_LVL2</LocID>
-        <Text>Relocates friendly unit to any place on the battlefield.</Text>
+        <Text>Перемещает дружественный отряд в любое место на поле боя.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION_LVL3</LocID>
-        <Text>Relocates any unit to any place on the battlefield.</Text>
+        <Text>Перемещает любой отряд в любое место на поле боя.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL2</LocID>
-        <Text>The creature attacks enemy units.</Text>
+        <Text>Существо атакует вражеские отряды.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL3</LocID>
-        <Text>You gain control of the creature.</Text>
+        <Text>Вы получаете контроль над существом.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_ARTIFICIAL_MUSCLE_FIBERS_DESCRIPTION</LocID>
-        <Text>Increases unit's damage and defense.</Text>
+        <Text>Увеличивает урон и защиту отряда.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_RESTORING_BIOFILM_LVL1</LocID>
-        <Text>Removes all status effects from selected unit.</Text>
+        <Text>Снимает все эффекты состояния с выбранного отряда.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_DISRUPTIVE_ULTRASOUND_DESCRIPTION</LocID>
-        <Text>Temporarily disables active special abilities of enemy units.</Text>
+        <Text>Временно отключает активные специальные умения вражеских отрядов.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_DESRIPTION_AREA_OF_EFFECT_HUGE</LocID>
-        <Text>Has a huge area of effect.</Text>
+        <Text>Обладает огромной зоной действия.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_DISPEL_DESCRIPTION_LVL1</LocID>
-        <Text>Removes all status effects from selected unit.</Text>
+        <Text>Снимает все эффекты состояния с выбранного отряда.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL2</LocID>
-        <Text>An automatic sentry cannon.</Text>
+        <Text>Автоматическая сторожевая пушка.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL3</LocID>
-        <Text>An automatic double-cannon sentry.</Text>
+        <Text>Автоматический двухпушечный часовой.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_WALKING_RATIONS_DESCRIPTION</LocID>
-        <Text>Turns enemy units into walking rations. Received damage heals attacker. Inflicts daze, so your lunch won't fight back.</Text>
+        <Text>Превращает вражеские отряды в Ходячие Пайки. Полученный урон исцеляет атакующего. Накладывает оцепенение, чтобы ваш обед не сопротивлялся.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_COMBAT_ENERGY_DRAIN_DESCRIPTION</LocID>
-        <Text><![CDATA[Enemy commander loses half of their remaining <color=SOTS_COLOR_ENERGY>energy</color>.]]></Text>
+        <Text><![CDATA[[Вражеский командир теряет половину своей оставшейся <color=SOTS_COLOR_ENERGY>энергии</color>.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MESSAGE_FIELD_REPAIR</LocID>
-        <Text>Thanks to the Field Repair skill, attacking {CombatActor} has repaired {Stack}, repairing {int} points.</Text>
+        <Text>Благодаря навыку «Полевой ремонт» атакующий {CombatActor} отремонтировал {Stack}, восстановив {int} очков.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MESSAGE_FIELD_REPAIR_REVIVED</LocID>
-        <Text>Thanks to the Field Repair skill, attacking {CombatActor} has repaired {Stack}, repairing {int} points. {int} unit(s) got a second chance.</Text>
+        <Text>Благодаря навыку «Полевой ремонт» атакующий {CombatActor} отремонтировал {Stack}, восстановив {int} очков. {int} отряд(ы) получили второй шанс.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_TRANSPORTER_PSYCHOSIS</LocID>
-        <Text>Transporter psychosis.</Text>
+        <Text>Транспортировочный психоз.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_TRANSPORTER_PSYCHOSIS_DESCRIPTION</LocID>
-        <Text>Yes, this medical condition is very real. Unit's damage, defense, movement and initiative are crippled.</Text>
+        <Text>Да, это медицинское состояние вполне реально. Урон, защита, передвижение и инициатива отряда снижены.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STATUS_EFFECT_HERO_TRANSPORTER_PSYCHOSIS</LocID>
-        <Text><![CDATA[<color=SOTS_COLOR_RED>Commander suffers from transporter psychosis caused by a glitch during recent transport. His army might endure negative side effects.</color>]]></Text>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>Командир страдает от телепортационного психоза, вызванного сбоем во время недавней транспортировки. Его армия может испытывать негативные побочные эффекты.</color>]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>HERO_SKILL_WAR_HAWK</LocID>
@@ -420,24 +420,24 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>HERO_SKILL_WAR_HAWK_DESCRIPTION</LocID>
-        <Text><![CDATA[Improves <color=SOTS_COLOR_MOVEMENT>movement</color> and <color=SOTS_COLOR_GOLD>intiative</color> of all units in this commander's army.]]></Text>
+        <Text><![CDATA[Улучшает <color=SOTS_COLOR_MOVEMENT>подвижность</color> и <color=SOTS_COLOR_GOLD>инициативу</color> всех отрядов в армии этого командира.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>SKILL_EFFECT_UNIT_MOVEMENT_BONUS</LocID>
-        <Text><![CDATA[All units: <color=SOTS_COLOR_MOVEMENT>movement in combat +{1}</color>.]]></Text>
+        <Text><![CDATA[Все отряды: <color=SOTS_COLOR_MOVEMENT>движение в бою +{1}</color>.]]></Text>
       </GameDBLocalizedString>
       <!-- Overrides from heroes string table -->
       <GameDBLocalizedString>
         <LocID>SKILL_EFFECT_INITIATIVE_BOOST</LocID>
-        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Initiative Boost +{1}</color>]]></Text>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Усиление Инициативы +{1}</color>]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>SKILL_EFFECT_SCAVENGE_RESOURCES</LocID>
-        <Text><![CDATA[Commander claims {1}% of maximum <color=SOTS_COLOR_GOLD>resources available to be scavenged</color> from defeated enemies.]]></Text>
+        <Text><![CDATA[Командир получает {1}% от максимального количества <color=SOTS_COLOR_GOLD>ресурсов, которые можно собрать</color> с поверженных врагов.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>SKILL_EFFECT_EXTRA_COMBAT_XP_PERCENT</LocID>
-        <Text><![CDATA[Commander gains <color=SOTS_COLOR_XP>{1}% extra XP</color> from combat encounters.]]></Text>
+        <Text><![CDATA[Командир получает <color=SOTS_COLOR_XP>{1}% дополнительных XP</color> от боевых столкновений.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>HIDDEN_STATUS_EFFECT</LocID>
@@ -446,31 +446,31 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ENERGY_COST_TO_EQUIP</LocID>
-        <Text>Energy required to equip this item.</Text>
+        <Text>Энергия, необходимая для экипировки этого предмета.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>OBJECT_CYCLES_REMAINING</LocID>
-        <Text>Time remaining: {1} turn(s)/phases(s).</Text>
+        <Text>Оставшееся время: {1} ход(а)/фазы(ы).</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES</LocID>
-        <Text>Show Resources and Treasures</Text>
+        <Text>Показать ресурсы и сокровища</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_V2</LocID>
-        <Text>Immediately discovers resources and valuable items in a large area around the commander.</Text>
+        <Text>Сразу же обнаруживает ресурсы и ценные предметы на большой территории вокруг командира.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL1_V2</LocID>
-        <Text>Discovers resources.</Text>
+        <Text>Обнаруживает ресурсы.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL2_V2</LocID>
-        <Text>Also discovers chests, equipment and consumables.</Text>
+        <Text>Также обнаруживает сундуки, снаряжение и расходные материалы.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL3_V2</LocID>
-        <Text>Also discovers artifacts and fusion cores.</Text>
+        <Text>Также обнаруживает артефакты и ядра синтеза.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL2</LocID>
@@ -482,24 +482,24 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_V2</LocID>
-        <Text>Immediately discovers enemy commander positions around this commander.</Text>
+        <Text>Немедленно обнаруживает позиции вражеских командиров вокруг этого командира.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL1</LocID>
-        <Text>Range: 15 tiles.</Text>
+        <Text>Радиус: 15 плиток.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL2</LocID>
-        <Text>Range: 20 tiles.</Text>
+        <Text>Радиус: 20 плиток.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL3</LocID>
-        <Text>Range: 25 tiles.</Text>
+        <Text>Радиус: 25 плиток.</Text>
       </GameDBLocalizedString>
       <!--Scenarios skirmish -->
       <GameDBLocalizedString>
         <LocID>EA_CONFLUENCE_DESCRIPTION_V2</LocID>
-        <Text><![CDATA[Energy fields divide the land into three disconnected regions. In the jungle, a ruthless leader is draining the territory of its resources, while in the desert, another faction is outraged by the desecration of ancient resting places. Meanwhile, a power-hungry warlord uses the chaos to test devastating new weapons on anyone within reach! ]]></Text>
+        <Text><![CDATA[Энергетические поля разделяют землю на три не связанных между собой региона. В джунглях безжалостный лидер опустошает территорию, а в пустыне другая фракция возмущена осквернением древних мест отдыха. Тем временем жаждущий власти военачальник использует хаос, чтобы испытать новое разрушительное оружие на всех, кто окажется в пределах досягаемости!]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>EA_GOLD_FEVER_DESCRIPTION_V2</LocID>
