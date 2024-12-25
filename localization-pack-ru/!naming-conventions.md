@@ -35,3 +35,4 @@
 * slurm - слёрм (?) - например: "Slurm ahead! Beware, troops! They vomit acid that melts through metal!"
 * Sentry gun, Sentry cannon, Sentry turret, Sentry I, II, III - турель (?)
 * Jerry-rig - ????
+* Saw-ty, Saw-ty II - Пила-тес, Пила-тес II
