@@ -163,11 +163,11 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>DIALOG_LEARN_ABILITY_TEXT</LocID>
-        <Text><![CDATA[Выберите способность из навыка <color=SOTS_COLOR_GOLD>{1}</color> для изучения!]]></Text>
+        <Text><![CDATA[Выберите умение из навыка <color=SOTS_COLOR_GOLD>{1}</color> для изучения!]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>DIALOG_LEARN_ABILITY_TEXT_DETAILS</LocID>
-        <Text><![CDATA[Вы можете изучить больше способностей из навыка <color=SOTS_COLOR_GOLD>{1}</color>, посетив базу с <color=SOTS_COLOR_GOLD>Академией</color>.\nЛюбая <color=SOTS_COLOR_GOLD>Академия</color> автоматически обучит командира всем способностям <color=SOTS_COLOR_GOLD>{1}</color>, которые есть в её базе данных, до {2} уровня.]]></Text>
+        <Text><![CDATA[Вы можете изучить больше умений из навыка <color=SOTS_COLOR_GOLD>{1}</color>, посетив базу с <color=SOTS_COLOR_GOLD>Академией</color>.\nЛюбая <color=SOTS_COLOR_GOLD>Академия</color> автоматически обучит командира всем умениям <color=SOTS_COLOR_GOLD>{1}</color>, которые есть в её базе данных, до {2} уровня.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>DIALOG_EVACUATION_ABILITY</LocID>
@@ -179,7 +179,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>DIALOG_FIELD_RESEARCH_HERO_LEARNED_ABILITY</LocID>
-        <Text>Командир освоил новую способность!</Text>
+        <Text>Командир освоил новое умение!</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>DIALOG_FIELD_RESEARCH_HERO_LEARNED_ABILITY_TEXT</LocID>
@@ -552,7 +552,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>EXPLORATION_ACADEMY_LEARN_ABILITY_TEXT</LocID>
-        <Text>Какую способность вы хотели бы изучить?</Text>
+        <Text>Какое умение вы хотели бы изучить?</Text>
       </GameDBLocalizedString>
       <!--Map objects dialogs-->
       <GameDBLocalizedString>
@@ -626,23 +626,23 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STATUS_EFFECT_RUSH_ABILITY_MOVE_POINTS_INCREASE</LocID>
-        <Text><![CDATA[Способность "Рывок" на 20% <color=SOTS_COLOR_MOVEMENT>увеличивает очки движения</color>]]></Text>
+        <Text><![CDATA[Умение «Рывок» на 20% <color=SOTS_COLOR_MOVEMENT>увеличивает очки движения</color>]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STATUS_EFFECT_EAGLE_EYE_ABILITY_RANGE_INCREASE</LocID>
-        <Text>Удвоенная дальность разведки. (Способность "Орлиный глаз")</Text>
+        <Text>Удвоенная дальность разведки. (Умение «Орлиный глаз»)</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STATUS_EFFECT_BARBARIAN_HORDE_2</LocID>
-        <Text>"Сильнее" армия</Text>
+        <Text>«Сильнейшая» армия</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STATUS_EFFECT_EASY_PREY_2</LocID>
-        <Text>"Слабее" армия</Text>
+        <Text>«Слабейшая» армия</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STATUS_EFFECT_MORALE_BOOST</LocID>
-        <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Повышение боевого духа</color>]]></Text>
+        <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Повышение морали</color>]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STATUS_EFFECT_COMBAT_POWER_BOOST</LocID>
@@ -683,7 +683,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>EXPLORATION_TOOLTIP_HERO_ABILITIES</LocID>
-        <Text>Способности</Text>
+        <Text>Умения</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>EXPLORATION_TOOLTIP_NONE</LocID>
@@ -764,7 +764,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>EXPLORATION_XP_CASTING</LocID>
-        <Text>Использование способностей</Text>
+        <Text>Использование умений</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>EXPLORATION_XP_TAKING_OVER_BUILDING</LocID>
@@ -816,11 +816,11 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>DIALOG_ACADEMY_HERO_LEARNED_ABILITY</LocID>
-        <Text>Командир изучил способности!</Text>
+        <Text>Командир изучил умения!</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>DIALOG_ACADEMY_HERO_LEARNED_ABILITY_TEXT</LocID>
-        <Text>{1} изучил особые способности в Академии на этой базе.</Text>
+        <Text>{1} изучил особые умения в Академии на этой базе.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>DIALOG_COMBAT_WIN_TOOLTIP_MODIFIED_XP</LocID>
@@ -856,19 +856,19 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MAPOBJ_EXPLORATION_ABILITY_ACADEMY</LocID>
-        <Text>Академия способностей</Text>
+        <Text>Академия умений</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MAPOBJ_EXPLORATION_ABILITY_ACADEMY_DESCRIPTION</LocID>
-        <Text><![CDATA[Посещающие командиры могут <color=SOTS_COLOR_GOLD>изучить способность по своему выбору</color>. Можно использовать <color=SOTS_COLOR_GOLD>один раз за командира</color>. <color=SOTS_COLOR_RED>Требуется</color> соответствующий навык способности]]></Text>
+        <Text><![CDATA[Посещающие командиры могут <color=SOTS_COLOR_GOLD>изучить умение по своему выбору</color>. Можно использовать <color=SOTS_COLOR_GOLD>один раз каждым командиром</color>. <color=SOTS_COLOR_RED>Требуется</color> навык соответствующий умению]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ACADEMY_HINT_BUY_ABILITY</LocID>
-        <Text>Выберите одну способность, чтобы добавить в эту академию за плату.\nВам нужен соответствующий факультет, чтобы увидеть здесь способности 2 и 3 уровня. Выбирайте с умом!</Text>
+        <Text>Выберите одно умение, чтобы добавить в эту академию за плату.\nВам нужен соответствующий факультет, чтобы увидеть здесь умения 2 и 3 уровня. Выбирайте с умом!</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ACADEMY_HINT_HAS_BOUGHT_ABILITY</LocID>
-        <Text>Вы уже купили дополнительную способность в этой академии</Text>
+        <Text>Вы уже купили дополнительное умение в этой академии</Text>
       </GameDBLocalizedString>
       <!--Exploration XP-->
       <GameDBLocalizedString>
@@ -993,7 +993,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STATUS_EFFECT_MORALE_REDUCTION</LocID>
-        <Text>Снижение боевого духа</Text>
+        <Text>Снижение морали</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>DIALOG_FUSION_CORE</LocID>
