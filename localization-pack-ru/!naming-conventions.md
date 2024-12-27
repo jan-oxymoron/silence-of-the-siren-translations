@@ -29,9 +29,9 @@
 
 **Прочее:**
 * consumables - расходники
-* unit - юнит, отряд, солдат
+* unit - отряд, боец
 * units - отряды, армия
-* ability - навык
+* ability - умение
 * slurm - слёрм (?) - например: "Slurm ahead! Beware, troops! They vomit acid that melts through metal!"
 * Sentry gun, Sentry cannon, Sentry turret, Sentry I, II, III - турель (?)
 * Jerry-rig - ????
