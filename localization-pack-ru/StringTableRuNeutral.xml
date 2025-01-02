@@ -1,68 +1,185 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_NEUTRAL">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-
-            <GameDBLocalizedString>         <LocID>FACTION_NEUTRAL</LocID>                            <Text>Neutral Faction</Text></GameDBLocalizedString> 
-
-            <!--Unit names-->
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY</LocID>           <Text>Crystal Lizard (day)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_NIGHT</LocID>         <Text>Crystal Lizard (night)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_NIGHT_DESERT</LocID>  <Text>Crystal Lizard desert (night)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_DESERT</LocID>    <Text>Crystal Lizard desert (day)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_LIMERITE_BADGER</LocID>              <Text>Limerite Collector</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ALLOY_BADGER</LocID>                 <Text>Alloy Collector</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_BIOMASS_BADGER</LocID>               <Text>Biomass Collector</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RADIANT_BADGER</LocID>               <Text>Radiant Collector</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CASH_BADGER</LocID>                  <Text>Aura Collector</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPIDER</LocID>                       <Text>Weaver</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_NIGHT_SPIDER</LocID>                 <Text>Night Weaver</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPACESLUG</LocID>                    <Text>Slurm</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_VEHICLE_SHIELD</LocID>               <Text>Shield</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_TURRET</LocID>                       <Text>Light Turret</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_TURRET_UPG</LocID>                   <Text>Heavy Turret</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_1</LocID>                     <Text>Sentry gun I</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_2</LocID>                     <Text>Sentry gun II</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_3</LocID>                     <Text>Sentry gun III</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_BASE</LocID>                  <Text>Garrison sentry</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ROBOZOMBIE</LocID>                   <Text>Jerry-rig</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_UNCORRUPTED_BEHOLDER</LocID>         <Text>Baloo</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_PRIMALS_TURRET</LocID>               <Text>Sparkling Pillar</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_1_DESCRIPTION</LocID>         <Text>A defensive sentry turret that automatically fires at hostile units once per round.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_2_DESCRIPTION</LocID>         <Text>A stronger defensive sentry turret that automatically fires at hostile units once per round.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_3_DESCRIPTION</LocID>         <Text>A strong defensive sentry turret with manual control mode.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_BASE_DESCRIPTION</LocID>      <Text>The sentry has a proximity detector that activates it when a hostile unit gets close. It then automatically fires once per round.</Text></GameDBLocalizedString>
-
-
-            <!--Unit description-->
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPACESLUG_DESCRIPTION</LocID>                           <Text>Surprisingly intelligent and agile creatures that will probably replace the man's best friends. Poor monkeys, let's hope that they don't take that personally and won't start an uprising or something.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPIDER_DESCRIPTION</LocID>                              <Text>These jumping spiders are large enough to make even New Sydney colonists regret their decision to leave Earth. They also have a nasty habit of weaving large nests near bio farms and feeding off their waste. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_NIGHT_SPIDER_DESCRIPTION</LocID>                        <Text>Please note that military-grade insecticides make these spiders even stronger and more furious. Furthermore, imagine that there are flies of appropriate size. No more trips outside the colony walls. Never again! </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ROBOZOMBIE_DESCRIPTION</LocID>                          <Text>First manufactured by a nameless castaway stranded in the wasteland. Maybe he wanted protection or just something to keep him company. Anyway, this "robozombie" became a popular security detail in all remote sectors.</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_GENERIC_BADGER_DESCRIPTION</LocID>                      <Text>No one knows what their purpose is or what they do with the resources thay collect and take underground. One thing is crystal clear though. Those who dare to follow them never return.</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_DESCRIPTION</LocID>                  <Text>The very crystals that allow them to shoot beams of energy will not stop growing once the lizards reach their adult size. Eventually, the poor sun-loving lizards are ripped from within. Natural evolution? I don't think so. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_NIGHT_DESCRIPTION</LocID>                <Text>Without the sun recharging their crystals, they can't shoot beams of energy anymore. Although their body is reinforced with the retracted crystals, all hunters unanimously agree that prey that does not shoot back is much easier to hunt.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_UNCORRUPTED_BEHOLDER_DESCRIPTION</LocID>                <Text>Don't be fooled by the fluffy fur. Underneath, Baloos are all muscles. If you're not a Steve Irwin type of badass, shaving a Baloo might be a really bad idea. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_GENERIC_TURRET_DESCRIPTION</LocID>                      <Text>Heavy autonomous turrets made by UNSS. Thanks to large caliber ammunition these models are capable of putting down even big pests like Sovereign fleets elite Thundermechs. </Text></GameDBLocalizedString>
-
-            <!--Unit abilities-->
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_VEHICLE_SHIELD_INFO_DESCRIPTION</LocID>                 <Text><![CDATA[Protects your army from <color=SOTS_COLOR_GOLD>ranged attacks</color>.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_INFO_DESCRIPTION</LocID>             <Text>Has a ranged attack.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_DESERT_INFO_DESCRIPTION</LocID>      <Text>Shots are always precise.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RADIANT_BADGER_INFO_DESCRIPTION</LocID>                 <Text>Has a ranged attack.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPIDER_PASSIVE_INFO_DESCRIPTION</LocID>                 <Text>Can jump over obstacles. Melee attack inflicts poison damage.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPIDER_NIGHT_PASSIVE_INFO_DESCRIPTION</LocID>           <Text>Can jump over obstacles. Melee attack inflicts poison damage.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPACESLUG_PASSIVE_INFO_DESCRIPTION</LocID>              <Text>Melee attack inflicts poison damage.</Text></GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+<Database>
+  <GameDBStringTable ID="LOC_RU_NEUTRAL">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Alk Cap0ne</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>FACTION_NEUTRAL</LocID>
+        <Text>Нейтральная фракция</Text>
+      </GameDBLocalizedString>
+      <!--Unit names-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY</LocID>
+        <Text>Кристальный ящер (день)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_NIGHT</LocID>
+        <Text>Кристальный ящер (ночь)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_NIGHT_DESERT</LocID>
+        <Text>Пустынный кристальный ящер (ночь)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_DESERT</LocID>
+        <Text>Пустынный кристальный ящер (ночь)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_LIMERITE_BADGER</LocID>
+        <Text>Сборщик лимерита</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_ALLOY_BADGER</LocID>
+        <Text>Сборщик сплава</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_BIOMASS_BADGER</LocID>
+        <Text>Сборщик биомассы</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_RADIANT_BADGER</LocID>
+        <Text>Сборщик радианта</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_CASH_BADGER</LocID>
+        <Text>Сборщик аура-монет</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SPIDER</LocID>
+        <Text>Ткач</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_NIGHT_SPIDER</LocID>
+        <Text>Ночной ткач</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SPACESLUG</LocID>
+        <Text>Слёрм</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_VEHICLE_SHIELD</LocID>
+        <Text>Щит</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_TURRET</LocID>
+        <Text>Лёгкая турель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_TURRET_UPG</LocID>
+        <Text>Тяжёлая турель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SENTRY_1</LocID>
+        <Text>Турель I</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SENTRY_2</LocID>
+        <Text>Турель II</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SENTRY_3</LocID>
+        <Text>Турель III</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SENTRY_BASE</LocID>
+        <Text>Гарнизонная турель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_ROBOZOMBIE</LocID>
+        <Text>Робозомби</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_UNCORRUPTED_BEHOLDER</LocID>
+        <Text>Балу</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_PRIMALS_TURRET</LocID>
+        <Text>Сверкающая колонна</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SENTRY_1_DESCRIPTION</LocID>
+        <Text>Оборонительная турель, автоматически открывающая огонь по вражеским отрядам раз за раунд.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SENTRY_2_DESCRIPTION</LocID>
+        <Text>Усиленная оборонительная турель, автоматически открывающая огонь по вражеским отрядам раз за раунд.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SENTRY_3_DESCRIPTION</LocID>
+        <Text>Мощная оборонительная турель с ручным управлением.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SENTRY_BASE_DESCRIPTION</LocID>
+        <Text>Турель оснащена датчиком приближения, активирующимся при приближении вражеского отряда. После этого она автоматически стреляет один раз за раунд.</Text>
+      </GameDBLocalizedString>
+      <!--Unit description-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SPACESLUG_DESCRIPTION</LocID>
+        <Text>Удивительно умные и проворные существа, которые, возможно, заменят человеку лучших друзей. Бедные обезьянки, будем надеяться, что они не примут это близко к сердцу и не начнут восстание или что-то в этом духе.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SPIDER_DESCRIPTION</LocID>
+        <Text>Эти прыгающие пауки достаточно велики, чтобы заставить даже колонистов Нового Сиднея пожалеть о своем решении покинуть Землю. А ещё у них есть отвратительная привычка вить большие гнёзда рядом с биофермами и кормиться их отходами. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_NIGHT_SPIDER_DESCRIPTION</LocID>
+        <Text>Имейте в виду, что боевые инсектициды делают этих пауков сильнее и яростнее. А представьте, что здесь есть мухи подходящего размера. Больше никаких вылазок за стены колонии. Никогда больше! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_ROBOZOMBIE_DESCRIPTION</LocID>
+        <Text>Первым ечто-то подобное изготовил безымянный бродяга, застрявший в пустоши. Возможно, ему нужна была защита или просто кто-то, кто составил бы ему компанию. Как бы то ни было, этот "робозомби" стал популярным средством охраны во всех удалённых секторах.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_GENERIC_BADGER_DESCRIPTION</LocID>
+        <Text>Никто не знает, какова их цель и что они делают с ресурсами, которые собирают и уносят под землю. Но одно совершенно ясно - из тех, кто осмелился последовать за ними, никто не вернулся.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_DESCRIPTION</LocID>
+        <Text>Те самые кристаллы, которые позволяют ящерам испускать лучи энергии, не перестают расти, даже когда ящеры достигают взрослого размера. В конечном итоге бедные солнцелюбивые ящеры будут разорваны изнутри. Естественная эволюция? Не думаю. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_NIGHT_DESCRIPTION</LocID>
+        <Text>Без солнца, заряжающего кристаллы, ящеры больше не могут стрелять энергетическими лучами. Хотя их тело укреплено за счёт втянутых кристаллов, все охотники сходятся во мнении, что на добычу, которая не отстреливается, охотиться гораздо легче.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_UNCORRUPTED_BEHOLDER_DESCRIPTION</LocID>
+        <Text>Пусть вас не обманывает пушистый мех. Под ним у Балу одни мускулы. Если вы не относитесь к категории крутых типа Стива Ирвина, бритьё Балу может оказаться очень плохой идеей. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_GENERIC_TURRET_DESCRIPTION</LocID>
+        <Text>Тяжёлые автономные турели производства UNSS. Благодаря крупнокалиберным боеприпасам эти модели способны уничтожить даже таких крупных вредителей, как элитные Громовержцы Суверенного флота. </Text>
+      </GameDBLocalizedString>
+      <!--Unit abilities-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_VEHICLE_SHIELD_INFO_DESCRIPTION</LocID>
+        <Text><![CDATA[Защищает вашу армию от <color=SOTS_COLOR_GOLD>атак дальнего боя</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_INFO_DESCRIPTION</LocID>
+        <Text>Обладает атакой дальнего боя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_DESERT_INFO_DESCRIPTION</LocID>
+        <Text>Выстрелы всегда точны.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_RADIANT_BADGER_INFO_DESCRIPTION</LocID>
+        <Text>Обладает атакой дальнего боя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SPIDER_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может перепрыгивать через препятствия. Атака в ближнем бою наносит урон ядом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SPIDER_NIGHT_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может перепрыгивать через препятствия. Атака в ближнем бою наносит урон ядом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SPACESLUG_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Атака в ближнем бою наносит урон ядом.</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

@@ -1,165 +1,396 @@
 <Database>
-    <GameDBStringTable ID="LOC_RU_SCENARIOS_EA">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!-- GENERAL OBJECTIVE(s)-->
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_GENERAL_SKIRMISH</LocID>                                   <Text>Defeat all enemies!</Text>  </GameDBLocalizedString>
-            
-            <!--_______________CONFLUENCE__________________________-->
-            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_ID</LocID>                                              <Text>Confluence</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_DESCRIPTION</LocID>                                     <Text><![CDATA[Energy fields divide the land into three disconnected regions. The <b>Sovereign masterchief</b> in the jungle is trying to milk the entire territory dry, while the <b>Children of the Source</b> in the desert cannot stand the desecration of their ancient resting places. And a <b>Fossorian leader</b> just wants to test new weapons on anyone within reach! ]]></Text>  </GameDBLocalizedString>
-           <GameDBLocalizedString>         <LocID>EA_CONFLUENCE_INTRO</LocID>                                           <Text>An ancient collapse of a gargantuan terraforming tower has divided the territory into three separate regions. Escaped conductive liquid flows into an unpassable confluence. Several ancient bridges connecting the shores have recently powered up, and the newly opened paths have led the colonies on opposite banks straight into conflict.</Text>  </GameDBLocalizedString>
-           <GameDBLocalizedString>         <LocID>EA_CONFLUENCE_VICTORY</LocID>                                         <Text>Victory! The whole territory is unified! The success of your colonies may even attract the attention of the Temple City Alliance and you will finally gain the well-deserved protection and trade roads connection. However, in the confusion of the clash, one question remains unanswered. Who built the bridges that now connect the regions? Who else could profit from this bloody clash?</Text>    </GameDBLocalizedString>
-
-
-            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER</LocID>                                    <Text>Greetings, commander. I am with the Keepers Guild. I have a well-paying job for you.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_COMANDER</LocID>                                  <Text>I'm listening.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER1</LocID>                                   <Text>Not far from here, there's a slave camp. The chief slaver has been a thorn in my side for some time. If you burn it down, I'll give you one Fusion Core.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER2</LocID>                                   <Text>Now, return for your reward.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER3</LocID>                                   <Text>I have no more tasks for you.</Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER_NOT_DONE</LocID>                           <Text>Burn down the slave camp first. Then you'll receive your reward.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER_DONE</LocID>                               <Text>Thank you. Here is your reward.</Text>  </GameDBLocalizedString>
- 
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CONFLUENCE_KEEPER</LocID>                                  <Text>Burn down the slave camp!</Text>  </GameDBLocalizedString>
-            
-            
-            <!--_____________AWAIT_______________________-->
-            <GameDBLocalizedString>         <LocID>EA_AWAIT_ID</LocID>                                                  <Text>Await</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_AWAIT_DESCRIPTION</LocID>                                         <Text><![CDATA[Get your defenses ready before a powerful enemy reaches your base!\n\nDo you like the tower defense? Let's try the <b>Fossorian "defense"</b>!]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_AWAIT_INTRO</LocID>                                               <Text>Let's face it, we knew that those filthy Cyberbugs would eventually send their regards if we started a settlement in their borderlands. Nobody expected the Inquisition, though! The boys who built a base in the west went silent a couple of cycles ago. Let's check there. Maybe they left something to strengthen our defenses!   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_AWAIT_VICTORY</LocID>                                             <Text>We must have stumbled onto something big! Maybe one of the artifacts we've discovered in the Primal ruins is really valued by those stupid Cyberbugs. Anyway, our position is too strong for them now. They will not dare to send any more of their precious inquisitors to die!</Text>  </GameDBLocalizedString>
-
-
-            <GameDBLocalizedString>         <LocID>MESSAGE_AWAIT_KEEPER</LocID>                                         <Text>Greetings, commander! I am with the Keepers Guild. I don't have any tasks for you. Since a formidable enemy is approaching and you must be short of time, I'll give you some information instead.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_AWAIT_KEEPER1</LocID>                                        <Text>Here, you will find a teleport that will take you to a distant island where you can obtain rare items and strengthen yourself before the upcoming battle.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_AWAIT_KEEPER2</LocID>                                        <Text>I'm afraid I can't do more for you, but I'm keeping my fingers crossed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_AWAIT_KEEPER4</LocID>                                        <Text>Unfortunately, I can't help you any further.</Text>  </GameDBLocalizedString>
-
-            
-            <!--_________________GOLD FEVER_______________________-->
-            <GameDBLocalizedString>         <LocID>EA_GOLD_FEVER_ID</LocID>                                             <Text>Gold fever</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_GOLD_FEVER_DESCRIPTION</LocID>                                    <Text><![CDATA[Gold fever sweeps the land after the intel about a rich Primal site spread! <b>Fossorians from the southwest</b> are seaking the quickest path to the center of the ruins. At the same time, <b>Children of the Source</b> rush from the northeast.</b> Remember, second place is just a different name for defeat here!]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_GOLD_FEVER_INTRO</LocID>                                          <Text>The Primal ruins in the central area lured some cockroaches. The illegal "golddiggers" smelted massive amounts of ancient technology for its high gold content! Aura coins are littered all over the place now! Get there as quickly as possible, confiscate the wealth, and use it for something that would make your ancestors proud... Or, in your case, less ashamed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_GOLD_FEVER_VICTORY</LocID>                                        <Text>Now that the dust has settled using all the wealth solely for military production is no longer necessary! Imagine what is possible now! Perhaps a golden statue, a luxury mansion, or a private solar yacht? And they say that wealth corrupts! Nonsense! </Text>  </GameDBLocalizedString>
-
-
-            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER</LocID>                                    <Text>Greetings, commander! I am with the Keepers Guild. I have a difficult task for you today.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER1</LocID>                                   <Text>In the surrounding area, there are two monster nests.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER2</LocID>                                   <Text>If you manage to visit and clear out both of them, I will reward you gladly and generously.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER3</LocID>                                   <Text>Now return for your reward.</Text>  </GameDBLocalizedString>
-         
-            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER_NOT_DONE</LocID>                           <Text>You need to clear out both beast nests!</Text>  </GameDBLocalizedString>
-              
-            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER_DONE</LocID>                               <Text>Thank you. Here is your reward.</Text>  </GameDBLocalizedString>
-                
-            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_DONE_DONE</LocID>                                 <Text>I have no more tasks for you.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_GOLD_FEVER_KEEPER</LocID>                                  <Text>Clear out beast nests 0/2</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_GOLD_FEVER_KEEPER1</LocID>                                 <Text>Clear out beast nests 1/2</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_GOLD_FEVER_KEEPER2</LocID>                                 <Text>Return for your reward.</Text>  </GameDBLocalizedString>
-
-
-            <!--_____________________ARCH_____________________________________________________-->
-            <GameDBLocalizedString>         <LocID>MAP_SCENARIO_EA_ARCH</LocID>                                         <Text>Arch</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_SCENARIO_EA_ARCH_DESCRIPTION</LocID>                             <Text><![CDATA[Enter an unrelenting duel between <b>Fossorians</b> and <b>Children of the Source</b> on a dry and unwelcoming island. A distant, abandoned base could tip the balance of power in your favor.</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_SCENARIO_EA_ARCH_INTRODUCTION</LocID>                            <Text>Before the Collapse, the UNSS tried to police everything here. Now, they can barely control their own territory. So, this is our chance to settle the score with our "beloved" neighbors without any official reprisals. The resources of the abandoned base in the north should give us the edge. Let's give them a taste of our blades! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_SCENARIO_EA_ARCH_VICTORY</LocID>                                 <Text>We've crushed them and because their colony will become a protectorate, it can hardly be labeled as genocide. Now let the UNSS committee for war crimes come! We are clean as a... What's the thing making those high-pitched noises called?</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_KEEPER</LocID>                                          <Text>Greetings, commander! I am with the Keepers Guild. I have a straightforward task for you.</Text>  </GameDBLocalizedString>
-            
-            <!-- TODO the unit name -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_KEEPER1</LocID>                                         <Text>The thing is, I once captured a group of wild monsters called "Baloo." I wanted to tame them, but I couldn't. Instead, they multiplied, and now I don't know what to do with them. I'll open a path to them for you, and if you get rid of them for me, I will reward you generously.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_KEEPER2</LocID>                                         <Text>Now return for your reward.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_KEEPER_DONE</LocID>                                     <Text>Thank you. Here is your reward.</Text>  </GameDBLocalizedString>
-
-            <!-- TODO the unit name -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_KEEPER_NOT_DONE</LocID>                                 <Text>You must defeat the Baloo!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_DONE_DONE</LocID>                                       <Text>I have no more tasks for you.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_ARCH_KEEPER</LocID>                                        <Text>Defeat the Baloo!</Text>  </GameDBLocalizedString>
-
-
-            <!--_______________CRUMBS__________________________-->
-            <GameDBLocalizedString>         <LocID>EA_CRUMBS_ID</LocID>                                                 <Text>Crumbs</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_CRUMBS_DESCRIPTION</LocID>                                        <Text><![CDATA[Islands fragmented into energy fields, connected by ancient Primal bridges. <b>Sovereigns</b> in the red jungle crave new resources. The <b>Children of the Source</b> in a field of yellow vegetation have come to assimilate the enemies. And to make matters worse, two different groups of <b>Fossorians</b> destroy everything they encounter.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_CRUMBS_INTRO</LocID>                                              <Text><![CDATA[Islands like tiny crumbs connected by ancient bridges. <color=SOTS_COLOR_FUSION_CORE>Fusion cores</color> are the key to the bridges, but not the only one. The energy system has been overloaded by too many insatiable commanders. The control unit will soon be overwhelmed, and all the bridges will activate. Nothing will remain isolated, and the bridges will connect the path to death.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_CRUMBS_VICTORY</LocID>                                            <Text>The bridges created a path to VICTORY, and the islands were drenched in the blood of your enemies. The key was not some ancient technology but a cunning strategy to turn your enemies into puppets.</Text>    </GameDBLocalizedString>
-   
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_10</LocID>                                            <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate in <color=SOTS_COLOR_RED>10</color> cycles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_9</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate in <color=SOTS_COLOR_RED>9</color> cycles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_8</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate in <color=SOTS_COLOR_RED>8</color> cycles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_7</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate in <color=SOTS_COLOR_RED>7</color> cycles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_6</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate in <color=SOTS_COLOR_RED>6</color> cycles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_5</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate in <color=SOTS_COLOR_RED>5</color> cycles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_4</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate in <color=SOTS_COLOR_RED>4</color> cycles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_3</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate in <color=SOTS_COLOR_RED>3</color> cycles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_2</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate in <color=SOTS_COLOR_RED>2</color> cycles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_1</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate in <color=SOTS_COLOR_RED>1</color> cycle.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_0</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>WARNING!</color>\nSystem overload! Excess energy will be diverted, and all bridges will activate... <color=SOTS_COLOR_RED>NOW!</color>]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_KEEPER</LocID>                                        <Text>Greetings, commander! I am with the Keepers Guild. I have a simple task for you. You must visit the four locations I've marked on the map for you.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_KEEPER1</LocID>                                       <Text>These are places I camped while on my journey. I lost my ceremonial ring somewhere along the way. Find it, and I will reward you generously.</Text>  </GameDBLocalizedString>
-      
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_KEEPER2</LocID>                                       <Text>You haven't searched all the locations yet.</Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_KEEPER3</LocID>                                       <Text>I see that you've searched all the locations. I just remembered that I put it in a different mug.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_KEEPER4</LocID>                                       <Text>You've done your job. Here is you reward!</Text>  </GameDBLocalizedString>
-         
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_COMMANDER</LocID>                                     <Text>No matter how hard I search, I don't see any ring here.</Text>  </GameDBLocalizedString>
-     
-            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_DONE_DONE</LocID>                                     <Text>I have no more tasks for you.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CRUMBS_KEEPER</LocID>                                      <Text>Find the Keeper's ring.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CRUMBS_KEEPER1</LocID>                                     <Text>Return for your reward.</Text>  </GameDBLocalizedString>
-
-            
-            <!--_______________RIFT__________________________-->
-            <GameDBLocalizedString>         <LocID>EA_RIFT_ID</LocID>                                                   <Text>Rift</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_RIFT_DESCRIPTION</LocID>                                          <Text><![CDATA[A territory torn in two. A once fertile land is now ravaged by war. The <b>Fossorians</b>, the <b>Sovereigns</b>, and two groups of the <b>Children of the Source</b> are bound to clash in a ruthless battle. \nTo make things more complicated, everybody starts with their bases separated on the opposite banks!]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_RIFT_INTRO</LocID>                                                <Text>The Children of the Source once controlled this resource-rich environment, but a rift formed in the swamps, splitting the land in two. The Fossorians and Sovereigns took advantage of this, seizing territory for themselves. To make matters worse, the Children of the Source fell into discord and turned against each other. The situation is so dangerous that even the typically fearless local creatures prefer to stay as far away as possible from the main roads.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_RIFT_VICTORY</LocID>                                              <Text>This is the end. Once again, only one faction rules the land, extracting all available resources. A small step towards a great victory! Or will a new rift form, causing everything to collapse like a house of cards?</Text>    </GameDBLocalizedString>
-    
-    
-            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_TELEPORT</LocID>                                        <Text>It looks like this teleport was one-way only.</Text>  </GameDBLocalizedString>
-               
-            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER</LocID>                                          <Text>Greetings, commander! I am with the Keepers Guild. Before the rift formed, I ruled these lands.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER1</LocID>                                         <Text>After the strife began, I retreated here but can still influence events from the shadows. I would like to do one last thing and help you finally resolve the entire situation.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER2</LocID>                                         <Text>You now have a unique opportunity to switch sides. Behind me, you can see the teleporters in each warring faction's colors.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER3</LocID>                                         <Text>The teleporter you choose will determine which side you join. If you select the same color you currently represent, you will return to your faction.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER4</LocID>                                         <Text>Think it over carefully. You can join the side currently winning, but you will lose everything you have built so far. That's all from me! </Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER5</LocID>                                         <Text>Make your damn choice already. A brutal war rages below, and there's no time to waste!</Text>  </GameDBLocalizedString>
-
-                
-            <!--_______________TEAR__________________________-->
-            <GameDBLocalizedString>         <LocID>EA_TEAR_ID</LocID>                                                   <Text>Tear</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_TEAR_DESCRIPTION</LocID>                                          <Text><![CDATA[<b>Children of the Source</b> on one island, and more <b>Children of the Source</b> on the other island!\nA once unbroken land has been split into an archipelago, only connected by a chaotic network of teleporters. Will you find your way to your enemy?]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_TEAR_INTRO</LocID>                                                <Text>The Sovereign Fleet was exploring the ruins of the ancient Primals here when a catastrophe struck, tearing the land to pieces. Two factions of the Children of the Source were the first to arrive after the disaster, but only one can take control of the area. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_TEAR_VICTORY</LocID>                                              <Text>Once, a brother, now a rival, was torn to shreds, and not a single tear was shed.</Text>    </GameDBLocalizedString>
-        
-        
-            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER</LocID>                                          <Text>Greetings, commander! I am with the Keepers Guild. Before the catastrophe that tore this land to pieces, I was the caretaker here.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER1</LocID>                                         <Text>I need you to discover all the islands and, in doing so, determine how many there are. Then come back for your reward.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER2</LocID>                                         <Text>You have yet to discover all the islands. Come back after you visit them all.</Text>  </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER3</LocID>                                         <Text>Great! That was the last island. Now, return for your reward.</Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER4</LocID>                                         <Text>Seven islands—never in my wildest dreams did I imagine the catastrophe would be so devastating! Thank you so much for your help. Now, I can start with the cartographic work.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER5</LocID>                                         <Text>Here is your reward.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER6</LocID>                                         <Text>The islands have been counted. I don't know of anything else you could do for me.</Text>  </GameDBLocalizedString>
-                
-                
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_TEAR_KEEPER</LocID>                                        <Text>Find and count all the individual islands.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_TEAR_KEEPER1</LocID>                                       <Text>Return to the Keeper for your reward.</Text>  </GameDBLocalizedString>
-        
-        </LocalizedStrings>
-    </GameDBStringTable>
+  <GameDBStringTable ID="LOC_RU_SCENARIOS_EA">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>AlexSnowLeo</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!-- GENERAL OBJECTIVE(s)-->
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_GENERAL_SKIRMISH</LocID>
+        <Text>Разгромить всех врагов!</Text>
+      </GameDBLocalizedString>
+      <!--_______________CONFLUENCE__________________________-->
+      <GameDBLocalizedString>
+        <LocID>EA_CONFLUENCE_ID</LocID>
+        <Text>Слияние</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_CONFLUENCE_DESCRIPTION</LocID>
+        <Text><![CDATA[Энергетические поля делят землю на три отдельных региона. <b>Верховный главнокомандующий</b> в джунглях пытается выжать все соки из этой территории, в то время как <b>Дети Источника</b> в пустыне не выносят осквернения своих древних мест упокоения. А <b>Лидер фоссорианцев</b> просто хочет испытать новое оружие на любом, кто окажется поблизости!]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_CONFLUENCE_INTRO</LocID>
+        <Text>Древнее обрушение гигантской терраформирующей башни разделило территорию на три отдельных региона. Вытекшая проводящая жидкость образует непроходимое слияние. Несколько древних мостов, соединяющих берега, недавно заработали, и вновь открытые пути привели колонии на противоположных берегах к прямому конфликту.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_CONFLUENCE_VICTORY</LocID>
+        <Text>Победа! Вся территория объединена! Успех ваших колоний может даже привлечь внимание Альянса Города Храмов, и вы наконец-то получите заслуженную защиту и торговые пути. Однако в суматохе столкновения один вопрос остаётся без ответа. Кто построил мосты, которые теперь соединяют регионы? Кому ещё может быть выгодно это кровавое столкновение?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CONFLUENCE_KEEPER</LocID>
+        <Text>Приветствую, командир. Я из Гильдии Хранителей. У меня есть для вас хорошо оплачиваемая работа.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CONFLUENCE_COMANDER</LocID>
+        <Text>Я слушаю.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CONFLUENCE_KEEPER1</LocID>
+        <Text>Недалеко отсюда есть лагерь рабов. Главный работорговец уже давно мозолит мне глаза. Если вы сожжёте его дотла, я дам вам одно ядро синтеза.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CONFLUENCE_KEEPER2</LocID>
+        <Text>А теперь вернитесь за наградой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CONFLUENCE_KEEPER3</LocID>
+        <Text>У меня больше нет для вас заданий.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CONFLUENCE_KEEPER_NOT_DONE</LocID>
+        <Text>Сначала сожгите лагерь рабов. Тогда вы получите свою награду.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CONFLUENCE_KEEPER_DONE</LocID>
+        <Text>Спасибо. Вот ваша награда.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CONFLUENCE_KEEPER</LocID>
+        <Text>Сожгите лагерь рабов!</Text>
+      </GameDBLocalizedString>
+      <!--_____________AWAIT_______________________-->
+      <GameDBLocalizedString>
+        <LocID>EA_AWAIT_ID</LocID>
+        <Text>Ожидание</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_AWAIT_DESCRIPTION</LocID>
+        <Text><![CDATA[Подготовьте оборону, прежде чем могущественный враг достигнет вашей базы!\n\nВам нравится защита башни? Давайте попробуем <b>фоссорианскую "защиту"</b>!]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_AWAIT_INTRO</LocID>
+        <Text>Посмотрим правде в глаза, мы знали, что эти мерзкие кибержуки в конце концов пришлют свои приветствия, если мы начнём поселение на их пограничных землях. Однако никто не ожидал Инквизиции! Ребята, которые построили базу на западе, замолчали пару циклов назад. Давайте проверим там. Может быть, они оставили что-нибудь, чтобы укрепить нашу оборону!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_AWAIT_VICTORY</LocID>
+        <Text>Мы, должно быть, наткнулись на что-то большое! Может быть, один из артефактов, которые мы обнаружили в руинах Предтеч, действительно ценится этими глупыми кибержуками. В любом случае, наша позиция теперь слишком сильна для них. Они не посмеют послать ещё кого-нибудь из своих драгоценных инквизиторов на смерть!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_AWAIT_KEEPER</LocID>
+        <Text>Приветствую, командир! Я из Гильдии Хранителей. У меня нет для вас никаких заданий. Поскольку приближается грозный враг, и у вас, должно быть, мало времени, я вместо этого дам вам некоторую информацию.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_AWAIT_KEEPER1</LocID>
+        <Text>Здесь вы найдёте телепорт, который перенесёт вас на далёкий остров, где вы сможете получить редкие предметы и укрепить себя перед предстоящей битвой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_AWAIT_KEEPER2</LocID>
+        <Text>Боюсь, я больше ничего не могу для вас сделать, но я держу за вас кулачки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_AWAIT_KEEPER4</LocID>
+        <Text>К сожалению, я больше ничем не могу вам помочь.</Text>
+      </GameDBLocalizedString>
+      <!--_________________GOLD FEVER_______________________-->
+      <GameDBLocalizedString>
+        <LocID>EA_GOLD_FEVER_ID</LocID>
+        <Text>Золотая лихорадка</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_GOLD_FEVER_DESCRIPTION</LocID>
+        <Text><![CDATA[Золотая лихорадка охватила землю после того, как распространились сведения о богатом месте Предтеч! <b>Фоссорианцы с юго-запада</b> ищут самый быстрый путь к центру руин. В то же время <b>Дети Источника</b> спешат с северо-востока.</b> Помните, что "второе место" - это просто другое название для поражения!]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_GOLD_FEVER_INTRO</LocID>
+        <Text>Руины Предтеч в центральной области привлекли каких-то тараканов. Незаконные "золотоискатели" переплавили огромное количество древних технологий из-за высокого содержания в них золота! Аура-монеты теперь валяются повсюду! Доберитесь туда как можно скорее, конфискуйте богатство и используйте его для чего-нибудь, что могло бы заставить ваших предков гордиться... Или, в вашем случае, меньше стыдиться.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_GOLD_FEVER_VICTORY</LocID>
+        <Text>Теперь, когда пыль улеглась, использование всего богатства исключительно для военного производства больше не является необходимым! Представьте, что теперь возможно! Может быть золотая статуя, роскошный особняк или частная солнечная яхта? А говорят, что богатство развращает! Чепуха!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_GOLD_FEVER_KEEPER</LocID>
+        <Text>Приветствую, командир! Я из Гильдии Хранителей. У меня есть для вас сложное задание на сегодня.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_GOLD_FEVER_KEEPER1</LocID>
+        <Text>В окрестностях есть два логова монстров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_GOLD_FEVER_KEEPER2</LocID>
+        <Text>Если вам удастся посетить и очистить их оба, я с радостью и щедро вознагражу вас.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_GOLD_FEVER_KEEPER3</LocID>
+        <Text>А теперь возвращайтесь за наградой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_GOLD_FEVER_KEEPER_NOT_DONE</LocID>
+        <Text>Вам нужно очистить оба логова зверей!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_GOLD_FEVER_KEEPER_DONE</LocID>
+        <Text>Спасибо. Вот ваша награда.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_GOLD_FEVER_DONE_DONE</LocID>
+        <Text>У меня больше нет для вас заданий.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_GOLD_FEVER_KEEPER</LocID>
+        <Text>Очистить логово зверей 0/2</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_GOLD_FEVER_KEEPER1</LocID>
+        <Text>Очистить логово зверей 1/2</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_GOLD_FEVER_KEEPER2</LocID>
+        <Text>Вернитесь за наградой.</Text>
+      </GameDBLocalizedString>
+      <!--_____________________ARCH_____________________________________________________-->
+      <GameDBLocalizedString>
+        <LocID>MAP_SCENARIO_EA_ARCH</LocID>
+        <Text>Арка</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAP_SCENARIO_EA_ARCH_DESCRIPTION</LocID>
+        <Text><![CDATA[Вступите в беспощадную дуэль между <b>Фоссорианцами</b> и <b>Детьми Источника</b> на сухом и неприветливом острове. Отдалённая заброшенная база может склонить чашу весов в вашу пользу.</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAP_SCENARIO_EA_ARCH_INTRODUCTION</LocID>
+        <Text>До Коллапса, UNSS пытались контролировать здесь все. Теперь они едва могут контролировать свою собственную территорию. Итак, это наш шанс свести счёты с нашими "любимыми" соседями без каких-либо официальных репрессий. Ресурсы заброшенной базы на севере должны дать нам преимущество. Давайте дадим им распробовать наши клинки!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAP_SCENARIO_EA_ARCH_VICTORY</LocID>
+        <Text>Мы сокрушили их, и поскольку их колония станет протекторатом, это вряд ли можно назвать геноцидом. Пусть теперь приходит комитет UNSS по военным преступлениям! Мы чисты, как... Как называется эта штука, издающая пронзительные звуки?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_ARCH_KEEPER</LocID>
+        <Text>Приветствую, командир! Я из Гильдии Хранителей. У меня есть для вас простое задание.</Text>
+      </GameDBLocalizedString>
+      <!-- TODO the unit name -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_ARCH_KEEPER1</LocID>
+        <Text>Дело в том, что однажды я поймал группу диких монстров под названием "Балу". Я хотел приручить их, но не смог. Вместо этого они размножились, и теперь я не знаю, что с ними делать. Я открою вам к ним путь, и если вы избавитесь от их для меня, я щедро вознагражу вас.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_ARCH_KEEPER2</LocID>
+        <Text>А теперь возвращайтесь за наградой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_ARCH_KEEPER_DONE</LocID>
+        <Text>Спасибо. Вот ваша награда.</Text>
+      </GameDBLocalizedString>
+      <!-- TODO the unit name -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_ARCH_KEEPER_NOT_DONE</LocID>
+        <Text>Вы должны победить Балу!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_ARCH_DONE_DONE</LocID>
+        <Text>У меня больше нет для вас заданий.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_ARCH_KEEPER</LocID>
+        <Text>Победите Балу!</Text>
+      </GameDBLocalizedString>
+      <!--_______________CRUMBS__________________________-->
+      <GameDBLocalizedString>
+        <LocID>EA_CRUMBS_ID</LocID>
+        <Text>Крошки</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_CRUMBS_DESCRIPTION</LocID>
+        <Text><![CDATA[Острова, раздробленные на энергетические поля, соединённые древними мостами Предтеч. <b>Верховные</b> в красных джунглях жаждут новых ресурсов. <b>Дети Источника</b> в поле жёлтой растительности пришли, чтобы ассимилировать врагов. И что ещё хуже, две разные группы <b>Фоссорианцев</b> уничтожают все, что встречают на своём пути.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_CRUMBS_INTRO</LocID>
+        <Text><![CDATA[Острова, похожие на крошечные крошки, соединённые древними мостами. <color=SOTS_COLOR_FUSION_CORE>Ядра синтеза</color> являются ключом к мостам, но не единственным. Энергетическая система перегружена слишком большим количеством ненасытных командиров. Блок управления скоро будет перегружен, и все мосты активируются. Ничто не останется изолированным, и мосты соединят путь к смерти.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_CRUMBS_VICTORY</LocID>
+        <Text>Мосты создали путь к ПОБЕДЕ, и острова были залиты кровью ваших врагов. Ключом были не какие-то древние технологии, а хитрая стратегия превращения ваших врагов в марионеток.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_10</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются через <color=SOTS_COLOR_RED>10</color> циклов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_9</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются через <color=SOTS_COLOR_RED>9</color> циклов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_8</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются через <color=SOTS_COLOR_RED>8</color> циклов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_7</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются через <color=SOTS_COLOR_RED>7</color> циклов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_6</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются через <color=SOTS_COLOR_RED>6</color> циклов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_5</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются через <color=SOTS_COLOR_RED>5</color> циклов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_4</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются через <color=SOTS_COLOR_RED>4</color> циклов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_3</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются через <color=SOTS_COLOR_RED>3</color> циклов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_2</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются через <color=SOTS_COLOR_RED>2</color> цикла.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_1</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются через <color=SOTS_COLOR_RED>1</color> цикл.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_0</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>ВНИМАНИЕ!</color>\nПерегрузка системы! Избыточная энергия будет отведена, и все мосты активируются... <color=SOTS_COLOR_RED>СЕЙЧАС!</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_KEEPER</LocID>
+        <Text>Приветствую, командир! Я из Гильдии Хранителей. У меня есть для вас простое задание. Вы должны посетить четыре места, которые я отметил для вас на карте.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_KEEPER1</LocID>
+        <Text>Это места, где я разбивал лагерь во время своего путешествия. Я где-то по дороге потерял своё церемониальное кольцо. Найдите его, и я щедро вознагражу вас.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_KEEPER2</LocID>
+        <Text>Вы ещё не обыскали все локации.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_KEEPER3</LocID>
+        <Text>Я вижу, что вы обыскали все локации. Я только что вспомнил, что положил его в другую кружку.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_KEEPER4</LocID>
+        <Text>Вы выполнили свою работу. Вот ваша награда!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_COMMANDER</LocID>
+        <Text>Как бы я ни старался искать, я не обнаружил здесь никакого кольца.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CRUMBS_DONE_DONE</LocID>
+        <Text>У меня больше нет для вас заданий.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CRUMBS_KEEPER</LocID>
+        <Text>Найдите кольцо Хранителя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CRUMBS_KEEPER1</LocID>
+        <Text>Вернитесь за наградой.</Text>
+      </GameDBLocalizedString>
+      <!--_______________RIFT__________________________-->
+      <GameDBLocalizedString>
+        <LocID>EA_RIFT_ID</LocID>
+        <Text>Разлом</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_RIFT_DESCRIPTION</LocID>
+        <Text><![CDATA[Территория, разорванная надвое. Некогда плодородная земля теперь разорена войной. <b>Фоссорианцы</b>, <b>Верховные</b> и две группы <b>Детей Источника</b> обречены столкнуться в безжалостной битве. \nЧтобы ещё больше усложнить ситуацию, все начинают со своими базами, разделёнными на противоположных берегах!]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_RIFT_INTRO</LocID>
+        <Text>Когда-то Дети Источника контролировали эту богатую ресурсами среду, но в болотах образовался разлом, разделивший землю надвое. Фоссорианцы и Верховные воспользовались этим, захватив территорию для себя. Что ещё хуже, Дети Источника впали в раздор и обратились друг против друга. Ситуация настолько опасна, что даже обычно бесстрашные местные существа предпочитают держаться как можно дальше от основных дорог.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_RIFT_VICTORY</LocID>
+        <Text>Это конец. И снова только одна фракция правит землёй, добывая все доступные ресурсы. Небольшой шаг к великой победе! Или образуется новый разлом, из-за которого всё рухнет, как карточный домик?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_RIFT_TELEPORT</LocID>
+        <Text>Похоже, этот телепорт вёл только в одну сторону.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_RIFT_KEEPER</LocID>
+        <Text>Приветствую, командир! Я из Гильдии Хранителей. До того, как образовался разлом, я правил этими землями.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_RIFT_KEEPER1</LocID>
+        <Text>После начала раздора я отступил сюда, но всё ещё могу влиять на события из тени. Я хотел бы сделать последнее дело и помочь вам окончательно разрешить всю ситуацию.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_RIFT_KEEPER2</LocID>
+        <Text>Теперь у вас есть уникальная возможность перейти на другую сторону. Позади меня вы видите телепорты в цветах каждой воюющей фракции.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_RIFT_KEEPER3</LocID>
+        <Text>Телепорт, который вы выберете, определит, к какой стороне вы присоединитесь. Если вы выберете тот же цвет, который вы представляете в настоящее время, вы вернётесь к своей фракции.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_RIFT_KEEPER4</LocID>
+        <Text>Хорошенько подумайте. Вы можете присоединиться к стороне, которая в данный момент побеждает, но вы потеряете всё, что построили до сих пор. Это всё, что я могу сказать!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_RIFT_KEEPER5</LocID>
+        <Text>Сделайте уже свой чёртов выбор. Внизу бушует жестокая война, и нельзя терять ни минуты!</Text>
+      </GameDBLocalizedString>
+      <!--_______________TEAR__________________________-->
+      <GameDBLocalizedString>
+        <LocID>EA_TEAR_ID</LocID>
+        <Text>Разрыв</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_TEAR_DESCRIPTION</LocID>
+        <Text><![CDATA[<b>Дети Источника</b> на одном острове и другие <b>Дети Источника</b> на другом острове!\nНекогда цельная земля была разделена на архипелаг, соединённый только хаотичной сетью телепортов. Найдёте ли вы путь к своему врагу?]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_TEAR_INTRO</LocID>
+        <Text>Флот Верховных исследовал здесь руины древних Предтеч, когда произошла катастрофа, разорвавшая землю на части. Две фракции Детей Источника первыми прибыли после катастрофы, но только одна может взять под свой контроль этот район.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_TEAR_VICTORY</LocID>
+        <Text>Когда-то брат, теперь соперник, был разорван в клочья, и не пролито ни единой слезы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_TEAR_KEEPER</LocID>
+        <Text>Приветствую, командир! Я из Гильдии Хранителей. До катастрофы, разорвавшей эту землю на части, я был здесь смотрителем.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_TEAR_KEEPER1</LocID>
+        <Text>Мне нужно, чтобы вы обнаружили все острова и, таким образом, определили, сколько их всего. Затем вернитесь за наградой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_TEAR_KEEPER2</LocID>
+        <Text>Вы ещё не обнаружили все острова. Вернитесь после того, как посетите их все.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_TEAR_KEEPER3</LocID>
+        <Text>Отлично! Это был последний остров. Теперь вернитесь за наградой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_TEAR_KEEPER4</LocID>
+        <Text>Семь островов — даже в самых смелых мечтах я не мог представить, что катастрофа будет настолько разрушительной! Большое спасибо за вашу помощь. Теперь я могу начать картографическую работу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_TEAR_KEEPER5</LocID>
+        <Text>Вот ваша награда.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_TEAR_KEEPER6</LocID>
+        <Text>Острова подсчитаны. Я не знаю, что ещё вы могли бы для меня сделать.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_TEAR_KEEPER</LocID>
+        <Text>Найдите и подсчитайте все отдельные острова.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_TEAR_KEEPER1</LocID>
+        <Text>Вернитесь к Хранителю за наградой.</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

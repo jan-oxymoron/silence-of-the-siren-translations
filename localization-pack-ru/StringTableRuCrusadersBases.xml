@@ -1,178 +1,546 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_CRUSADERS_BASES">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-        <LanguageNameLocalized>English</LanguageNameLocalized>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!--Buildings -->
-            <GameDBLocalizedString>         <LocID>BASE_CRUSADERS</LocID>                                       <Text>Crusaders Base</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_BASE_CORE</LocID>                         <Text>Allmother's Shrine</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_BASE_CORE_DESCRIPTION</LocID>             <Text>Generates 1000 Aura Coins each turn.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE1</LocID>                  <Text>Allmother's Temple</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE1_DESCRIPTION</LocID>      <Text>Generates 500 additional Aura Coins.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE2</LocID>                  <Text>Allmother's Catedral</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE2_DESCRIPTION</LocID>      <Text>Generates 1000 additional Aura Coins.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE_MAX</LocID>               <Text>Allmother's Crown</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE_MAX_DESCRIPTION</LocID>   <Text><![CDATA[Generates<color=SOTS_COLOR_GOLD> 1000</color> additional <color=SOTS_COLOR_GOLD>Aura coins</color> per turn and further increases unit production.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_REPLICATOR</LocID>                        <Text>Replicator</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_REPLICATOR_DESCRIPTION</LocID>            <Text>Generates 1 Biomass and 1 Radiant.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_GATEWAY</LocID>                           <Text>Gateway</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_GATEWAY_DESCRIPTION</LocID>               <Text>Allows commanders to instantly travel between bases.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPACE_BAR</LocID>                         <Text>Cellars</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPACE_BAR_DESCRIPTION</LocID>             <Text>Allows you to hire commanders.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_MUSIC_HALL</LocID>                        <Text>Bath House</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_MUSIC_HALL_DESCRIPTION</LocID>            <Text>Adds one more commander for hire. Commanders start with one random piece of equipment.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_VISIBILITY_UPGRADE</LocID>                <Text>Altar of Purity</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_VISIBILITY_UPGRADE_DESCRIPTION</LocID>    <Text>Increases visibility range around the base and senses useful objects in an even larger area.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_RECYCLER</LocID>                          <Text>Recycler</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_RECYCLER_DESCRIPTION</LocID>              <Text>Generates 1 limerite and 1 Alloy</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACTORY</LocID>                           <Text>Factory</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACTORY_DESCRIPTION</LocID>               <Text>Allows you to build unit-blocking shields for your armies.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_TRADING_POST</LocID>                      <Text>Trading Post</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_TRADING_POST_DESCRIPTION</LocID>          <Text>Allows you to exchange of resources and money.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_CORE</LocID>                    <Text>Citadel</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_CORE_DESCRIPTION</LocID>        <Text>Builds walls, a gate, and two shooting platforms and unlocks an additional defensive slot.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_TOWER</LocID>                   <Text>Tower</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_TOWER_DESCRIPTION</LocID>       <Text>Walls and gate are stronger. Adds 2 additional range platforms and 1 more defensive slot.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_MINES</LocID>                   <Text>Mines</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_MINES_DESCRIPTION</LocID>       <Text>3 mines appear on a siege battlefield.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_TURRET</LocID>                  <Text>Turret</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_TURRET_DESCRIPTION</LocID>      <Text>Two hidden turrets on a siege battlefield.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_TRENCH</LocID>                  <Text>Gravitor belt</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_TRENCH_DESCRIPTION</LocID>      <Text>(Will be implemeted during Early Access development)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_ELECTRIC_GATE</LocID>           <Text>Electric Gate and Walls</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_ELECTRIC_GATE_DESCRIPTION</LocID>   <Text>(Will be implemeted during Early Access development)</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DISASSEMBLER</LocID>                      <Text>Ossuary</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DISASSEMBLER_DESCRIPTION</LocID>          <Text>Dismantles mechanical units into pieces and makes brand new Custodians instead.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ACADEMY</LocID>                           <Text>Grand Library</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ACADEMY_DESCRIPTION</LocID>               <Text>Unlocks three random abilities to learn.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_REMOTE_LEARNING</LocID>                   <Text>Feathered Antennae</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_REMOTE_LEARNING_DESCRIPTION</LocID>       <Text>Commander can learn abilitiesy outside of their base.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_SPECIALIZATION</LocID>            <Text>Great Archive</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_SPECIALIZATION_DESCRIPTION</LocID><Text>Unlocks the chance to buy new abilities.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_BIO</LocID>                       <Text>Library of Organics</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_BIO_DESCRIPTION</LocID>           <Text>Unlocks bio abilities to learn.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_EXPLORE</LocID>                   <Text>Library of Geograpy</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_EXPLORE_DESCRIPTION</LocID>       <Text>Unlocks exploration abilities to learn.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_PSY</LocID>                       <Text>Library of Indefinite Studies</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_PSY_DESCRIPTION</LocID>           <Text>Unlocks psy abilities to learn.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_TECH</LocID>                      <Text>Library of Technology</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_TECH_DESCRIPTION</LocID>          <Text>Unlocks tech abilities to learn.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_1</LocID>                         <Text>Custodians Tents</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_1_DESCRIPTION</LocID>             <Text>Allows you to recruit Custodian Novices.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_1_UPG</LocID>                     <Text>Cleric Tents</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_1_UPG_DESCRIPTION</LocID>         <Text>Allows you to recruit Custodian Clerics.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_2</LocID>                         <Text>Temple Guardpost</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_2_DESCRIPTION</LocID>             <Text>Allows you to recruit Temple Guards.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_2_UPG</LocID>                     <Text>Temple Barracks</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_2_UPG_DESCRIPTION</LocID>         <Text>Allows you to recruit Templar Warriors.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_3</LocID>                         <Text>Bright Nest</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_3_DESCRIPTION</LocID>             <Text>Allows you to recruit The Bright Ones.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_3_UPG</LocID>                     <Text>Blazing Hive</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_3_UPG_DESCRIPTION</LocID>         <Text>Allows you to recruit The Blazing Ones.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_4</LocID>                         <Text>Tower of Principle</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_4_DESCRIPTION</LocID>             <Text>Allows you to recruit Knights.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_4_UPG</LocID>                     <Text>Tower of Faith</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_4_UPG_DESCRIPTION</LocID>         <Text>Allows you to recruit Knight Champions.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_5</LocID>                         <Text>Windowless Fort</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_5_DESCRIPTION</LocID>             <Text>Allows you to recruit Zieregals</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_5_UPG</LocID>                     <Text>Windowless Keep</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_5_UPG_DESCRIPTION</LocID>         <Text>Allows you to recruit High Zieregals</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_6</LocID>                         <Text>Spitfire Maze</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_6_DESCRIPTION</LocID>             <Text>Allows you to recruit Spitfires.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_6_UPG</LocID>                     <Text>Spitfire Dungeon</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_6_UPG_DESCRIPTION</LocID>         <Text>Allows you to recruit Spitfire Zealots.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_7</LocID>                         <Text>Portal</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_7_DESCRIPTION</LocID>             <Text>Allows you to recruit Acherons.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_7_UPG</LocID>                     <Text>Ascended Portal</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_7_UPG_DESCRIPTION</LocID>         <Text>Allows you to recruit Blessed Acherons.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_CREATURE_PRODUCTION_UPGRADE_1</LocID>     <Text>Allmother's statue</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_CREATURE_PRODUCTION_UPGRADE_1_DESCRIPTION</LocID>  <Text>Generates 8 additional Temple Guards.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>CRUSADERS_BASE_NAME_01</LocID>                               <Text>Holy Arches</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CRUSADERS_BASE_NAME_02</LocID>                               <Text>Void Heart</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CRUSADERS_BASE_NAME_03</LocID>                               <Text>Tallest Steeple</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CRUSADERS_BASE_NAME_04</LocID>                               <Text>Cloudy Grace</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CRUSADERS_BASE_NAME_05</LocID>                               <Text>Altar of the Prism</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CRUSADERS_BASE_NAME_06</LocID>                               <Text>High Nexus</Text></GameDBLocalizedString>
-
-            <!--LORE -->
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_BASE_CORE_LORE</LocID>                    <Text>Drowned out by the velvety shadows of the nave, there is only one islet of light. On it stands a tall, sleek statue of the Goddess. The steel-casted body reflects a solitary beam of light on the small group of worshipers below.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE1_LORE</LocID>             <Text>Surprisingly, for most of the ceremony, worshipers stand with their backs to the Allmother statue. It isn't an act of defiance; it's a message. She isn't here for them; they've come to protect HER. Many have come today.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE2_LORE</LocID>             <Text>More pilgrims arrive seeking shelter in Allmother's stronghold - Not only robots and cyborgs but organics, too. The cathedral is crowded; the bright light banished the shadows once again. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE_MAX_LORE</LocID>          <Text>With the Crown, the cathedral has become a beacon, attracting a sea of worshipers. But still, the giant cathedral seems dwarfed by the distant mirage of the Great Allmother's Temple in Temple City.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_REPLICATOR_LORE</LocID>                   <Text>The offerings have become largely symbolic, but even now, a body piece is required. A scrap of wire, a few droplets of battery fluid or... Clearly, the church has not fully digested the idea of flesh-and-bone followers.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_RECYCLER_LORE</LocID>                     <Text>It's not about recycling. It's about consuming resources produced by others. In this case, long-dead Primals. But still! Clearly, species evolution was counting on more than just a single planet at its disposal.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_GATEWAY_LORE</LocID>                      <Text>One of the carefully guarded secrets is the gateway principle. It's either a curvature of space or a disintegration followed by a somewhat jarring reintegration. If you don't believe in the soul, it is not a problem, but if you do, the consequence of the latter option is rather scary.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPACE_BAR_LORE</LocID>                    <Text>When the Children of the Source opened their arms to organics, alcohol, traditionally used only for cleaning, found another purpose. Surprisingly, its quality is much higher than the swill served by the Fossorians.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_MUSIC_HALL_LORE</LocID>                   <Text>Only mechanical travelers come to wash their bodies. The rest can at least clean their dirty shoes or something. Remember, maintenance is the key to eternal function. Besides, you know... not getting killed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_VISIBILITY_UPGRADE_LORE</LocID>           <Text>Altars are cleaning the air around the base, enabling us to see much farther, but the latest discovery may put an end to this endeavor. A UNSS defector claims that the bases can now be easily targeted from orbit.</Text>  </GameDBLocalizedString>
- 
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACTORY_LORE</LocID>                      <Text>For centuries, the Children of the Source used their own "aggressive" version of a force shield. Yet when the humans introduced a superior version, it was abandoned with surprising swiftness. Maybe there is hope for the Children after all.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_TRADING_POST_LORE</LocID>                 <Text>After the last disastrous crusade, the Children of the Source can stand alone no more. Although the order still tries to project strength, their desperation shows through their hasty effort to establish trade roads and defense pacts.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_CREATURE_PRODUCTION_UPGRADE_1_LORE</LocID><Text>There is a common myth that the Children are simply manufactured. They are not. All new warriors are excavated from ancient battlefields and wrecks. Restarted, repaired, and re-equipped. The fast track to extinction, you say? Well, the council knows.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_ACADEMY_LORE</LocID>                      <Text>Learning should be easy because all knights are robots, right? It's not that simple. For every combatant with a personality, there needs to be a mechanism protecting them from emotional overload. And the most effective is a good old forgetting.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_REMOTE_LEARNING_LORE</LocID>              <Text>During the Holy War, both sides tried to silence the enemy's communication, and both succeeded with flying colors. The majority of ancient jammers are still online. Add to it gargantuan atmospheric distortions, and you'll celebrate every kilobyte that squeaks through.</Text>  </GameDBLocalizedString>
-             
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_SPECIALIZATION_LORE</LocID>       <Text>Precise record-keeping, established over the centuries, crumbled under the weight of new information only weeks after the newcomers appeared in the Siren system. No one knows why. You wouldn't think that robo-librarians could look exhausted, but they do.</Text>  </GameDBLocalizedString>
-             
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_EXPLORE_LORE</LocID>              <Text>There are no navigators more skillful than the Children of the Source. Many knights dedicated centuries to the precise mapping of the planets. As if looking for the Goddess wasn't only metaphorical.</Text>  </GameDBLocalizedString>
-             
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_TECH_LORE</LocID>                 <Text>Aside from their educational role, tech monks tackle some big theological questions. Can UNSS smart toasters be judged as heretic? It ended with a fire, but don't be prejudous. Exhausted from hours of lengthy questioning, the toasters' batteries self-ignited.</Text>  </GameDBLocalizedString>
-             
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_BIO_LORE</LocID>                  <Text>Tumori tribes. The sworn enemies of the Allmother are techno-barbarians except in one discipline - Biotechnology. Although the majority of the Children are inorganic, their understanding of the enemy helps them survive so long.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_FACULTY_PSY_LORE</LocID>                  <Text>Even though the Children of the Source are inorganic, centuries of Primal artifact research allowed them to uncover fundamental tools for influencing the mind. It appears that their minds aren't so different from the organics. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_CORE_LORE</LocID>               <Text>According to legend, Children of the Source pursued the Primals from Allmother's homeworld to the Siren system. It must have been a long "chase" because the Children's ships never had a hyperdrive. For some, age is truly only a number.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_TOWER_LORE</LocID>              <Text>Since the Holy War, the Children of the Source have focused solely on assault tactics. Walls and other defenses are just afterthoughts tacked on by the desperate battle outcomes.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_MINES_LORE</LocID>              <Text>Before the last crusade, this option would be swept off the table as dishonorable. But since most paragons of knighthood perished in the last crusade, brave new ideas are approved much much easier.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_IRON_GATE_LORE</LocID>          <Text>Today's church presents the Allmother as a kind goddess, but one look at the terrifying insectoid face that adorns the gates, and you realize that she ain't going to be handing out Christmas presents at the mall. Not in a million years.  </Text>  </GameDBLocalizedString> 
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_TRENCH_LORE</LocID>             <Text> </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_TURRET_LORE</LocID>             <Text> </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DISASSEMBLER_LORE</LocID>                 <Text>Sacrificing your mechanical body to help those in need is considered one of the church's most venerated doctrines. Whether you do so voluntarily is beside the point. </Text>  </GameDBLocalizedString><!--Idea of self sacrifice is encouradge by church both voluntary and unvoluntary variations.  -->
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_1_LORE</LocID>                    <Text>One of the Church's countless pledges encourages a life of minimalism. That's why the Custodians stay in simple tents. With their obsession with ornamental decorations, thick walls, and rare materials, the children's architects clearly have trouble with that one.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_1_UPG_LORE</LocID>                <Text>Though outstanding for physical violence, the giant, heavy frames of other Children of the Source tend to get stuck in service shafts—the natural domain of the Custodians. IT's only shame that no original ship is in flying condition.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_2_LORE</LocID>                    <Text>Usually silent and still as statues, do not mistake them for honor guards with funny furry hats that only exist for tourists to make faces at. A few guests foolish enough to openly criticize their temple remain missing to this day.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_2_UPG_LORE</LocID>                <Text>The template temple guard specimens must have been aggressive, "bad neighbor" types. Are they equipped with shields, the universal symbol of protection? Nope. They wield only assault weapons.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_3_LORE</LocID>                    <Text>The Bright One's took the concept of a living weapon quite literally. They ditched all their limbs so their enemies had nothing to grab, but now they can't even plug themselves in. Probably not the best idea in hindsight.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_3_UPG_LORE</LocID>                <Text>They communicate with each other in binary via flickering lights. Watching them argue can be pretty dazzling and is not recommended for those with light sensitivity issues or epilepsy. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_4_LORE</LocID>                    <Text>Despite orders, some knights joined the mercenary groups that operate against the hated Tumori tribes. The church claims they are malfunctioning, but they simply can't stand to hide beyond the walls when there is "work" to do.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_4_UPG_LORE</LocID>                <Text>You can easily recognize the Knights from the rest of the Children. If you hide behind an armored door, most Children try to cut through it with power blades, lasers, or concentrated flames. Knights simply rip the door off the wall.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_5_LORE</LocID>                    <Text>Zieregals supervise trials for new converts. Don't think of it as a barbaric box of pain or a fight to the death. It's a simple lore test—nothing to worry about. But if you fail, they WILL "deactivate you" like any other defective unit.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_5_UPG_LORE</LocID>                <Text>There is a reason the Zieregal keep has no windows, but it's only revealed once you're inside. I don't know about you, but I'll pass thanks. They always find something if they want to dig up some dirt on you. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_6_LORE</LocID>                    <Text>The Spitfire recipe for "Helly-water," a flaming cocktail, is not the secret of some Southern Colonel. They can use just about any flammable liquid, and their digestive organs take care of the rest.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_6_UPG_LORE</LocID>                <Text>It was sheer luck that the UNSS expedition didn't come across any Spitfire on day one and even greater luck that brought the Fossorians to a small Spitfire force or the balance would have shifted between the factions.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_7_LORE</LocID>                    <Text>How can a two-ton cyborg possibly soar like a leaf in the wind? They possess Gravitor technology that would be the envy of a fat man from Giedi Prime. It's only a matter of time till the other factions try to steal it.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_SPAWNER_7_UPG_LORE</LocID>                <Text>There are Holly War records that claim the Acheron legion is trapped in the Primal Vault. The legend says they will come to the Children's aid in a moment of great need. It's only a story, though otherwise, they would have shown up during the last crusade.</Text>  </GameDBLocalizedString>
-
-            <!-- EA updates -->
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_CONSUMABLE_MARKET</LocID>                 <Text>Consumable Market</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_CONSUMABLE_MARKET_DESCRIPTION</LocID>     <Text>Buy or sell consumables! Replenished at the beginning of each cycle.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_CONSUMABLE_MARKET_LORE</LocID>            <Text>The tradition of the clergy providing goods for the wider population has stood the test of time, even though the physical needs of artificial beings are somewhat limited.</Text></GameDBLocalizedString>
-       
-        </LocalizedStrings>
-    </GameDBStringTable>
+<Database>
+  <GameDBStringTable ID="LOC_RU_CRUSADERS_BASES">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <LanguageNameLocalized>English</LanguageNameLocalized>
+    <Contributors>
+      <Name>EtoYoshimura03</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!--Buildings -->
+      <GameDBLocalizedString>
+        <LocID>BASE_CRUSADERS</LocID>
+        <Text>База Детей Источника</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_BASE_CORE</LocID>
+        <Text>Святыня Всематери</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_BASE_CORE_DESCRIPTION</LocID>
+        <Text>Производит 1000 аура-монет за ход.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE1</LocID>
+        <Text>Храм Всематери</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE1_DESCRIPTION</LocID>
+        <Text>Производит дополнительные 500 аура-монет.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE2</LocID>
+        <Text>Собор Всематери</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE2_DESCRIPTION</LocID>
+        <Text>Производит дополнительные 1000 аура-монет.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE_MAX</LocID>
+        <Text>Корона Всематери</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE_MAX_DESCRIPTION</LocID>
+        <Text><![CDATA[Производит <color=SOTS_COLOR_GOLD>1000</color> дополнительных <color=SOTS_COLOR_GOLD>аура-монет</color> за ход и дополнительно увеличивает производство отрядов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_REPLICATOR</LocID>
+        <Text>Репликатор</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_REPLICATOR_DESCRIPTION</LocID>
+        <Text>Производит 1 биомассу и 1 радиант.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_GATEWAY</LocID>
+        <Text>Врата</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_GATEWAY_DESCRIPTION</LocID>
+        <Text>Позволяет командирам мгновенно перемещаться между базами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPACE_BAR</LocID>
+        <Text>Подвалы</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPACE_BAR_DESCRIPTION</LocID>
+        <Text>Позволяют нанимать командиров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_MUSIC_HALL</LocID>
+        <Text>Баня</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_MUSIC_HALL_DESCRIPTION</LocID>
+        <Text>Добавляет ещё одного командира для найма. Командиры начинают с одним случайным предметом снаряжения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_VISIBILITY_UPGRADE</LocID>
+        <Text>Алтарь чистоты</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_VISIBILITY_UPGRADE_DESCRIPTION</LocID>
+        <Text>Увеличивает дальность обзора вокруг базы и обнаруживает полезные объекты на ещё большей площади.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_RECYCLER</LocID>
+        <Text>Переработчик</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_RECYCLER_DESCRIPTION</LocID>
+        <Text>Производит 1 лимерит и 1 сплав.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACTORY</LocID>
+        <Text>Фабрика</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACTORY_DESCRIPTION</LocID>
+        <Text>Позволяет создавать щиты, блокирующие путь вражеским отрядам.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_TRADING_POST</LocID>
+        <Text>Торговый пост</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_TRADING_POST_DESCRIPTION</LocID>
+        <Text>Позволяет обменивать ресурсы и деньги.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_CORE</LocID>
+        <Text>Цитадель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_CORE_DESCRIPTION</LocID>
+        <Text>Строит стены, ворота и две стрелковые платформы, а также открывает дополнительный оборонительный слот.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_TOWER</LocID>
+        <Text>Башня</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_TOWER_DESCRIPTION</LocID>
+        <Text>Стены и ворота прочнее. Добавляет 2 дополнительные дальние платформы и ещё 1 оборонительный слот.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_MINES</LocID>
+        <Text>Мины</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_MINES_DESCRIPTION</LocID>
+        <Text>На поле боя осады появляются 3 мины.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_TURRET</LocID>
+        <Text>Турель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_TURRET_DESCRIPTION</LocID>
+        <Text>На поле боя осады появляются две скрытые турели.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_TRENCH</LocID>
+        <Text>Гравитационный пояс</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_TRENCH_DESCRIPTION</LocID>
+        <Text>(Будет реализовано в ходе раннего доступа)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_ELECTRIC_GATE</LocID>
+        <Text>Электрические ворота и стены</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_ELECTRIC_GATE_DESCRIPTION</LocID>
+        <Text>(Будет реализовано в ходе раннего доступа)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DISASSEMBLER</LocID>
+        <Text>Склеп</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DISASSEMBLER_DESCRIPTION</LocID>
+        <Text>Разбирает механические отряды на части и создаёт из них новых Хранителей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ACADEMY</LocID>
+        <Text>Большая библиотека</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ACADEMY_DESCRIPTION</LocID>
+        <Text>Открывает для изучения три случайных умения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_REMOTE_LEARNING</LocID>
+        <Text>Оперённые антенны</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_REMOTE_LEARNING_DESCRIPTION</LocID>
+        <Text>Командир может изучать умения, находясь вне своей базы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_SPECIALIZATION</LocID>
+        <Text>Большой архив</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_SPECIALIZATION_DESCRIPTION</LocID>
+        <Text>Открывает возможность покупать новые умения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_BIO</LocID>
+        <Text>Библиотека органики</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_BIO_DESCRIPTION</LocID>
+        <Text>Открывает биологические умения для изучения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_EXPLORE</LocID>
+        <Text>Библиотека географии</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_EXPLORE_DESCRIPTION</LocID>
+        <Text>Открывает исследовательские умения для изучения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_PSY</LocID>
+        <Text>Библиотека неопределённых исследований</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_PSY_DESCRIPTION</LocID>
+        <Text>Открывает пси-умения для изучения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_TECH</LocID>
+        <Text>Библиотека технологий</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_TECH_DESCRIPTION</LocID>
+        <Text>Открывает технические умения для изучения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_1</LocID>
+        <Text>Палатки Хранителей</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_1_DESCRIPTION</LocID>
+        <Text>Позволяют нанимать послушников-Хранителей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_1_UPG</LocID>
+        <Text>Палатки клириков</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_1_UPG_DESCRIPTION</LocID>
+        <Text>Позволяют нанимать клириков-Хранителей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_2</LocID>
+        <Text>Храмовой караульный пост</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_2_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать храмовую стражу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_2_UPG</LocID>
+        <Text>Храмовые казармы</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_2_UPG_DESCRIPTION</LocID>
+        <Text>Позволяют нанимать воинов-тамплиеров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_3</LocID>
+        <Text>Светлое гнездо</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_3_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Сияющих.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_3_UPG</LocID>
+        <Text>Пылающий улей</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_3_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Пылающих.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_4</LocID>
+        <Text>Башня принципов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_4_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать рыцарей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_4_UPG</LocID>
+        <Text>Башня веры</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_4_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать рыцарей-чемпионов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_5</LocID>
+        <Text>Крепость без окон</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_5_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать зирегалов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_5_UPG</LocID>
+        <Text>Цитадель без окон</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_5_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать высших зирегалов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_6</LocID>
+        <Text>Лабиринт огнеплюев</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_6_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать огнеплюев.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_6_UPG</LocID>
+        <Text>Подземелье огнеплюев</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_6_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать огнеплюев-ревнителей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_7</LocID>
+        <Text>Портал</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_7_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать ахеронов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_7_UPG</LocID>
+        <Text>Вознесённый портал</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_7_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать благословлённых ахеронов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_CREATURE_PRODUCTION_UPGRADE_1</LocID>
+        <Text>Статуя Всематери</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_CREATURE_PRODUCTION_UPGRADE_1_DESCRIPTION</LocID>
+        <Text>Производит 8 дополнительных храмовых стражей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CRUSADERS_BASE_NAME_01</LocID>
+        <Text>Святые арки</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CRUSADERS_BASE_NAME_02</LocID>
+        <Text>Пустое сердце</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CRUSADERS_BASE_NAME_03</LocID>
+        <Text>Высочайший шпиль</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CRUSADERS_BASE_NAME_04</LocID>
+        <Text>Облачная благодать</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CRUSADERS_BASE_NAME_05</LocID>
+        <Text>Алтарь призмы</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CRUSADERS_BASE_NAME_06</LocID>
+        <Text>Высокий Нексус</Text>
+      </GameDBLocalizedString>
+      <!--LORE -->
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_BASE_CORE_LORE</LocID>
+        <Text>Погружённый в бархатистые тени нефы, лишь один островок света выделяется под статуей Богини. Высокая, гладкая стальная фигура отражает единственный луч света на горстку верующих внизу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE1_LORE</LocID>
+        <Text>Удивительно, но большую часть церемонии прихожане стоят спиной к статуе Всематери. Это не акт неповиновения – это послание. Она здесь не для них; они пришли защитить ЕЁ. Сегодня пришло много народу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE2_LORE</LocID>
+        <Text>Всё больше паломников ищут убежища в оплоте Всематери – не только роботы и киборги, но и органики. Собор переполнен; яркий свет вновь изгнал тени.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ECONOMY_UPGRADE_MAX_LORE</LocID>
+        <Text>С Короной собор стал маяком, притягивающим бескрайнее море верующих. И всё же огромный собор кажется крохотным по сравнению с далёким миражом Великого Храма Всематери в Храмовом Городе.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_REPLICATOR_LORE</LocID>
+        <Text>Приношения стали в основном символическими, но и сейчас требуется фрагмент тела: обрывок провода, несколько капель аккумуляторной жидкости… Церковь, похоже, до конца не приняла идею последователей из плоти и крови.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_RECYCLER_LORE</LocID>
+        <Text>Речь не о переработке, а о потреблении ресурсов, созданных кем-то другим, в данном случае давно вымершими Предтечами. Видимо, эволюция видов рассчитывала на большее, чем одну планету под рукой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_GATEWAY_LORE</LocID>
+        <Text>Один из тщательно охраняемых секретов – принцип работы Врат. То ли это искривление пространства, то ли дезинтеграция с жёсткой реинтеграцией. Если вы не верите в душу – не проблема, но если верите, последствия второго варианта пугающи.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPACE_BAR_LORE</LocID>
+        <Text>Когда Дети Источника приняли в свои ряды органиков, алкоголь, ранее применявшийся лишь для очистки, обрёл новое назначение. Удивительно, но его качество гораздо выше той бурды, что подают фоссорианцы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_MUSIC_HALL_LORE</LocID>
+        <Text>Мыться сюда приходят только механические путешественники. Остальные хотя бы могут почистить грязную обувь. Помните: техобслуживание – ключ к вечной работе. И к тому, чтобы вас не убили.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_VISIBILITY_UPGRADE_LORE</LocID>
+        <Text>Алтари очищают воздух вокруг базы, позволяя видеть намного дальше, но последнее открытие может свести усилия на нет. Перебежчик из UNSS утверждает, что теперь базы легко нацелить с орбиты.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACTORY_LORE</LocID>
+        <Text>Веками Дети Источника использовали свою "агрессивную" версию силового щита. Но когда люди представили улучшенный вариант, от старого отказались на удивление быстро. Возможно, для Детей ещё есть надежда.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_TRADING_POST_LORE</LocID>
+        <Text>После последнего катастрофического крестового похода Дети Источника больше не могут стоять в одиночку. Хотя орден пытается демонстрировать силу, их отчаяние выдают поспешные попытки наладить торговые пути и заключить оборонительные пакты.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_CREATURE_PRODUCTION_UPGRADE_1_LORE</LocID>
+        <Text>Ходит миф, что Детей просто производят. Это не так. Новых воинов откапывают на древних полях сражений и среди обломков, затем перезапускают, чинят и переоснащают. Быстрый путь к вымиранию, скажете вы? Совет знает, что делает.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_ACADEMY_LORE</LocID>
+        <Text>Казалось бы, обучение рыцарей – пустяк, ведь они роботы. Но всё сложнее. Каждый боец с личностью нуждается в механизме, защищающем от эмоционального перенапряжения. Самый надёжный – доброе старое забвение.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_REMOTE_LEARNING_LORE</LocID>
+        <Text>Во время Священной войны обе стороны пытались заглушить связь противника и обе в этом преуспели. Большинство древних глушилок всё ещё работают. Добавьте к этому гигантские атмосферные искажения – и вы будете праздновать каждый килобайт, пробившийся сквозь помехи.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_SPECIALIZATION_LORE</LocID>
+        <Text>Тщательно выстроенная за века система учёта рухнула всего через несколько недель после прибытия новичков в систему Сирены. Никто не знает почему. Вы бы не подумали, что робо-библиотекари могут выглядеть измученными, но это так.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_EXPLORE_LORE</LocID>
+        <Text>Нет навигаторов искуснее Детей Источника. Многие рыцари посвятили столетия точному картированию планет. Словно поиск Богини был не просто метафорой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_TECH_LORE</LocID>
+        <Text>Помимо просветительской роли, техномонахи решают крупные теологические вопросы. Можно ли считать разумные тостеры UNSS еретиками? Закончилось всё пожаром, но не спешите с выводами – батареи тостеров самовозгорелись от долгих допросов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_BIO_LORE</LocID>
+        <Text>Племена туммори – заклятые враги Всематери, техноварвары, но в биотехнологиях они преуспели. Хотя большинство Детей неорганичны, понимание врага помогает им выживать столь долго.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_FACULTY_PSY_LORE</LocID>
+        <Text>Хотя Дети Источника неорганичны, многовековые исследования артефактов Предтеч позволили им открыть фундаментальные инструменты воздействия на разум. Похоже, их мышление не так уж отличается от органического.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_CORE_LORE</LocID>
+        <Text>По легенде, Дети Источника преследовали Предтеч от родного мира Всематери до системы Сирены. Погоня должна была быть долгой, ведь у кораблей Детей не было гипердвигателей. Для некоторых возраст – просто число.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_TOWER_LORE</LocID>
+        <Text>Со времён Священной войны Дети Источника сосредоточились лишь на штурмовой тактике. Стены и прочая оборона – поздние меры отчаяния, вызванные итогами боёв.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_MINES_LORE</LocID>
+        <Text>До последнего крестового похода такой ход сочли бы бесчестным. Но поскольку большинство образцов рыцарства пало, новые смелые идеи одобряют гораздо легче.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_IRON_GATE_LORE</LocID>
+        <Text>Сегодня церковь изображает Всемать доброй богиней, но стоит взглянуть на ужасающую насекомоподобную морду на вратах, и вы поймёте: никаких подарков на праздники она раздавать не собирается.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_TRENCH_LORE</LocID>
+        <Text />
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DEFENSIVE_TURRET_LORE</LocID>
+        <Text />
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_DISASSEMBLER_LORE</LocID>
+        <Text>Пожертвовать своим механическим телом ради нуждающихся – одна из самых почитаемых доктрин церкви. Добровольно ли вы это делаете – вопрос второй.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_1_LORE</LocID>
+        <Text>Один из бесчисленных обетов Церкви призывает к минимализму. Поэтому Хранители живут в простых палатках. С их же одержимостью орнаментами, толстыми стенами и редкими материалами архитекторам Детей явно нелегко сдерживаться.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_1_UPG_LORE</LocID>
+        <Text>Хотя громоздкие корпуса других Детей идеально подходят для насилия, они часто застревают в служебных шахтах – естественной среде Хранителей. Жаль только, что ни один из оригинальных кораблей уже не летает.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_2_LORE</LocID>
+        <Text>Они неподвижны и молчаливы, как статуи, но не стоит путать их с потешным караулом для туристов. Несколько гостей, осмелившихся открыто критиковать их храм, до сих пор числятся пропавшими без вести.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_2_UPG_LORE</LocID>
+        <Text>Похоже, типичные образцы храмовой стражи были "плохими соседями". Щиты – символ защиты – им неинтересны, они предпочитают лишь штурмовое оружие.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_3_LORE</LocID>
+        <Text>Сияющие буквально восприняли концепцию живого оружия. Они лишились конечностей, чтобы враг не мог их схватить, но теперь даже не могут подзарядиться. Задним числом – не лучшая идея.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_3_UPG_LORE</LocID>
+        <Text>Они общаются двоичным кодом, мигая огнями. Наблюдать за их спорами может быть ослепительно и не рекомендуется людям с фоточувствительностью или эпилепсией.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_4_LORE</LocID>
+        <Text>Несмотря на приказы, некоторые рыцари присоединились к наёмникам, сражающимся против ненавистных племён туммори. Церковь считает их неисправными, но они просто не могут сидеть за стенами, когда есть "работа".</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_4_UPG_LORE</LocID>
+        <Text>Рыцарей легко отличить от остальных Детей. Если вы спрятались за бронированной дверью, большинство Детей будут резать её клинками, лазерами или прожигать огнём. Рыцарь просто вырвет дверь из стены.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_5_LORE</LocID>
+        <Text>Зирегалы устраивают испытания для новообращённых. Не думайте о них как о варварской пытке или смертельном бою – это просто проверка знаний. Но провалитесь – и вас "деактивируют", как любой дефектный модуль.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_5_UPG_LORE</LocID>
+        <Text>Есть причина, по которой в цитадели зирегалов нет окон, но вы узнаете её, только оказавшись внутри. Лично я пас. Если они захотят накопать на вас компромат, они это сделают.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_6_LORE</LocID>
+        <Text>Рецепт "адской воды" огнеплюев – не секрет. Они могут использовать почти любую горючую жидкость, а их пищеварительные органы справятся с остальным.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_6_UPG_LORE</LocID>
+        <Text>UNSS повезло, что их экспедиция не наткнулась на огнеплюев в первый же день, а фоссорианцам – что они встретили лишь небольшой отряд. Иначе баланс сил мог изменить направление.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_7_LORE</LocID>
+        <Text>Как двухтонный киборг может парить, словно лист на ветру? Они владеют гравитор-технологией, которой позавидовал бы любой толстяк с Гиеди Прайм. Остальные фракции рано или поздно захотят её украсть.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_SPAWNER_7_UPG_LORE</LocID>
+        <Text>Некоторые записи Священной войны утверждают, что легион ахеронов заточён в хранилище Предтеч. Говорят, они явятся на помощь Детям в час великой нужды. Но это, видимо, лишь легенда, иначе они бы появились в последний крестовый поход.</Text>
+      </GameDBLocalizedString>
+      <!-- EA updates -->
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_CONSUMABLE_MARKET</LocID>
+        <Text>Рынок расходников</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_CONSUMABLE_MARKET_DESCRIPTION</LocID>
+        <Text>Покупайте или продавайте расходные материалы! Ассортимент обновляется в начале каждого цикла.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_CRUSADERS_CONSUMABLE_MARKET_LORE</LocID>
+        <Text>Традиция духовенства снабжать широкие массы товарами пережила века, хотя физические потребности искусственных существ весьма ограничены.</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

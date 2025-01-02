@@ -1,151 +1,447 @@
 <Database>
-    <GameDBStringTable ID="LOC_RU_TUTORIAL_01">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <GameDBLocalizedString>         <LocID>NEXT_STEP</LocID>                                <Text>Next</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_PLAYER_NAME</LocID>                     <Text>Red Cadet</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_TUTORIAL_WELCOME</LocID>             <Text>Welcome to the tutorial!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_WELCOME</LocID>                      <Text><![CDATA[Hi, welcome to a tutorial that will teach you the basics of how to play Silence of the Siren!\nFirst, let's look at the <color=SOTS_COLOR_GOLD>controls</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_STEP_MOVE_CAMERA</LocID>             <Text><![CDATA[<color=SOTS_COLOR_GOLD>Move the camera</color> with the WASD/arrow keys, by moving the cursor to the edge of the screen or by holding the middle mouse button.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_STEP_ZOOM_CAMERA</LocID>             <Text><![CDATA[Great! Next, let's use the mouse wheel to <color=SOTS_COLOR_GOLD>zoom the camera</color> in or out.]]></Text>  </GameDBLocalizedString><!--let's use the mouse wheel (or TODO buttons)-->
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_STEP_COMMANDERS</LocID>              <Text><![CDATA[Now, let's have a look at <color=SOTS_COLOR_GOLD>commanders</color>, your active actors on the world/exploration map.\nYour only commander is selected. <color=SOTS_COLOR_GOLD>Move him</color> by clicking the highlighted tile to plan a path, then click again to confirm the move!]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_STEP_DISCOVER</LocID>                <Text><![CDATA[Let's <color=SOTS_COLOR_GOLD>head west</color> and find a <color=SOTS_COLOR_GOLD>container</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_CHEST</LocID>                        <Text><![CDATA[You found <color=SOTS_COLOR_GOLD>a container</color>, open it, and <color=SOTS_COLOR_GOLD>use the data fragment</color> inside. You will obtain some <color=SOTS_COLOR_XP>Experience points</color> - this will <color=SOTS_COLOR_GOLD>level your commander up</color>!]]></Text>  </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_ATTRIBUTES</LocID>                   <Text><![CDATA[Each commander has <color=SOTS_COLOR_GOLD>three attributes</color>. <color=SOTS_COLOR_GOLD>Exploration efficiency</color> increases your commander's speed by adding movement points and revealing more of the war fog around them. <color=SOTS_COLOR_GOLD>Combat power</color> enhances the strength of the commander's army. <color=SOTS_COLOR_GOLD>Ability strength</color> strengthens the commander's abilities, increases the overall amount, and replenishes their energy.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_SKILLS</LocID>                       <Text><![CDATA[<color=SOTS_COLOR_GOLD>Skills</color> - each commander can learn up to <color=SOTS_COLOR_GOLD>8 skills</color>. Each skill has <color=SOTS_COLOR_GOLD>three levels</color>. Commanders can <color=SOTS_COLOR_GOLD>upgrade</color> skills from the <color=SOTS_COLOR_GOLD>first to second</color> level when they reach <color=SOTS_COLOR_GOLD>level 5</color>, then from <color=SOTS_COLOR_GOLD>second to third</color> level when they reach <color=SOTS_COLOR_GOLD>level 10</color>. To learn <color=SOTS_COLOR_GOLD>more info</color> about a skill, <color=SOTS_COLOR_GOLD>hover over</color> it.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_LEVEL_UP</LocID>                     <Text><![CDATA[When commanders <color=SOTS_COLOR_GOLD>level up</color>, you get to choose an <color=SOTS_COLOR_GOLD>attribute</color> and a <color=SOTS_COLOR_GOLD>skill</color> to improve or learn. Do it now!]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_TURN_BASED_EXPLANATION</LocID>       <Text><![CDATA[Let's discuss the game's fundamental principles. It's <color=SOTS_COLOR_GOLD>turn-based</color>, which means you have a <color=SOTS_COLOR_GOLD>limited number</color> of <color=SOTS_COLOR_GOLD>actions per turn</color>. When a commander <color=SOTS_COLOR_GOLD>uses all</color> of their <color=SOTS_COLOR_GOLD>movement points</color>, you must <color=SOTS_COLOR_GOLD>end the turn</color> to allow them to <color=SOTS_COLOR_GOLD>replenish</color> their movement points. On this planet, each turn represents one phase of its rotation, and <color=SOTS_COLOR_GOLD>four phases</color> make up <color=SOTS_COLOR_GOLD>one cycle</color>. You can recruit new units at your base at the start of each cycle.]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_RIGHT_PANEL_EXPLANATION</LocID>      <Text><![CDATA[On the right side of the screen, you can find the <color=SOTS_COLOR_GOLD>minimap</color>, a <color=SOTS_COLOR_GOLD>list of your bases</color>, <color=SOTS_COLOR_GOLD>list of your commanders</color>, <color=SOTS_COLOR_GOLD>buttons</color> for setting the <color=SOTS_COLOR_GOLD>animation speed</color> and a <color=SOTS_COLOR_GOLD>time panel with phase/cycle index</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_CHEST_HOARD</LocID>                  <Text><![CDATA[Let's pick up one more container. <color=SOTS_COLOR_GOLD>Head north</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_END_TURN</LocID>                     <Text><![CDATA[If you run out of movement points, you must end your turn to replenish them. <color=SOTS_COLOR_GOLD>Click</color> <color=SOTS_COLOR_GOLD>End turn</color> in the <color=SOTS_COLOR_GOLD>bottom right corner</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_CHEST_HOARD_PART_TWO</LocID>         <Text><![CDATA[Move forward, and when you find and pick up the container, let's <color=SOTS_COLOR_GOLD>hoard</color> its contents.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_OPEN_HERO_CARD</LocID>               <Text><![CDATA[Now, you should have a new <color=SOTS_COLOR_GOLD>consumable item</color> in your commander's inventory. <color=SOTS_COLOR_GOLD>Open the commander card</color> by right-clicking the commander on the map or selecting them from the list on the right side of the screen.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HERO_CARD_INFO</LocID>               <Text><![CDATA[This <color=SOTS_COLOR_GOLD>card</color> shows you all the essential information <color=SOTS_COLOR_GOLD>about your commander</color>—their bio, level, attributes, acquired skills, items, and army details.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HERO_CARD_UNDER_PORTRAIT</LocID>     <Text><![CDATA[Under the commander's portrait, you can find their <color=SOTS_COLOR_GOLD>attributes</color>. They are:\n<color=SOTS_COLOR_XP>Experience points</color> displays the experience required to reach the next level. \n<color=SOTS_COLOR_MOVEMENT>Movement points</color> indicates the number of moves you can make per phase. (Depends on the terrain.)  \n<color=SOTS_COLOR_ENERGY>Energy points</color> are required to cast abilities and equip items and artifacts.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HERO_CARD_MOVE_AND_ENERGY_POINTS</LocID><Text><![CDATA[After ending the turn, <color=SOTS_COLOR_MOVEMENT>Movement points</color> are completely replenished while some <color=SOTS_COLOR_ENERGY>Energy points</color> get restored depending on your commander's <color=SOTS_COLOR_GOLD>Ability strength</color> and equipment setup. You can check the replenished amount by hovering over the <color=SOTS_COLOR_ENERGY>Energy points</color> bar.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HERO_CARD_MORALE</LocID>             <Text><![CDATA[This is <color=SOTS_COLOR_GOLD>Morale</color>. When the Morale number is <color=SOTS_COLOR_GOLD>positive</color>, it represents a percentage chance of getting an <color=SOTS_COLOR_GOLD>extra turn</color> in combat for each unit. If it's <color=SOTS_COLOR_GOLD>negative</color>, it represents a percentage chance of <color=SOTS_COLOR_GOLD>losing a turn</color> with each unit.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HERO_CARD_ARMY</LocID>               <Text><![CDATA[This card also <color=SOTS_COLOR_GOLD>allows</color> you to <color=SOTS_COLOR_GOLD>manage</color> the <color=SOTS_COLOR_GOLD>commander's army</color>. You can check your units' details or shuffle your army around. ]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_CONSUMABLE</LocID>                   <Text><![CDATA[But we're now interested in the item visible in the CONSUMABLES section. <color=SOTS_COLOR_GOLD>Pick it up</color> and drop it <color=SOTS_COLOR_GOLD>onto your commander's portrait</color> - or just <color=SOTS_COLOR_GOLD>right click</color> on it.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_CLOSE_HERO_CARD</LocID>              <Text><![CDATA[Collecting these fragments lets you manage who gets that shiny experience and when. There are also a ton more consumable types!\nNow let's <color=SOTS_COLOR_GOLD>close the card</color> and let's go <color=SOTS_COLOR_GOLD>collect some more goodies!</color>]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_ITEM_PICK_UP</LocID>                 <Text><![CDATA[Find and collect one item. Use the Alt key to highlight all interactive objects and pickups.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_INVENTORY_AGAIN</LocID>              <Text><![CDATA[Now <color=SOTS_COLOR_GOLD>open your commander's card</color> with his inventory again!]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_ITEMS_AND_ENERGY</LocID>             <Text><![CDATA[Your commander has a few slots you can fill with valuable <color=SOTS_COLOR_GOLD>items</color> that will help you on the map or in battles.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_ITEM_EQUIP</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_GOLD>Equipping</color> most items will cost some amount of <color=SOTS_COLOR_ENERGY>energy points</color>. Lucky for you, this Datapad that increases Maj. Skaurov's XP income does not cost any! <color=SOTS_COLOR_GOLD>Equip</color> the <color=SOTS_COLOR_GOLD>Datapad</color>!]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_CLOSE_HERO_CARD_RESOURCES</LocID>    <Text><![CDATA[<color=SOTS_COLOR_GOLD>Close</color> the <color=SOTS_COLOR_GOLD>commander's card</color> and <color=SOTS_COLOR_GOLD>collect</color> some <color=SOTS_COLOR_GOLD>resources</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_RESOURCES_EXPLANATION</LocID>        <Text><![CDATA[There are several resources in the game. <color=SOTS_COLOR_GOLD>Aura Coins</color> serve as money. <color=SOTS_COLOR_LIMERITE>Limerite</color> and <color=SOTS_COLOR_ALLOYS>Alloy</color> are basic resources to build structures. <color=SOTS_COLOR_BIOMASS>Biomass</color> and <color=SOTS_COLOR_RADIANT>Radiant</color> are more unique resources needed for more advanced structures. <color=SOTS_COLOR_FUSION_CORE>Fusion Cores</color> are the most rare and valuable resource. You can activate special items on maps with them and buy any building for one fusion core.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_MINE_CAPTURE</LocID>                 <Text><![CDATA[Now <color=SOTS_COLOR_GOLD>capture the Limerite Quarry</color> on the left.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_MINE_EXIT</LocID>                    <Text><![CDATA[Each mine <color=SOTS_COLOR_GOLD>produces</color> a small amount of <color=SOTS_COLOR_GOLD>resources per phase</color>. You can <color=SOTS_COLOR_GOLD>upgrade the production</color> and the mine will generate more resources, or <color=SOTS_COLOR_GOLD>build a defensive upgrade</color> to add turrets that will defend it against other players. <color=SOTS_COLOR_GOLD>Close the upgrade dialog</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_MOVE_HERO_CLOSER_TO_BASE</LocID>     <Text><![CDATA[<color=SOTS_COLOR_GOLD>Move</color> your commander <color=SOTS_COLOR_GOLD>closer to your base</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HIGHLIGHT_EXPLAINED</LocID>          <Text><![CDATA[When exploring, you can check all the interactive objects around your commander. <color=SOTS_COLOR_GOLD>Hold</color> the <color=SOTS_COLOR_GOLD>Alt key</color>.]]></Text>  </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_SELECT_BASE</LocID>                  <Text><![CDATA[Now check out your base, <color=SOTS_COLOR_GOLD>Trench Edge</color>. If the <color=SOTS_COLOR_GOLD>icons</color> next to the name are <color=SOTS_COLOR_GOLD>green</color>, it means that you have <color=SOTS_COLOR_GOLD>unused actions</color> there. You can <color=SOTS_COLOR_GOLD>select your base</color> on the <color=SOTS_COLOR_GOLD>map</color> or in the <color=SOTS_COLOR_GOLD>list on the right</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_INTRODUCTION</LocID>                    <Text><![CDATA[This is your primary center of operations. Here, you can hire commanders and armies and build different upgrades. Let's have a look at the <color=SOTS_COLOR_GOLD>interface</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_LIST_AND_MINIMAP</LocID>                <Text><![CDATA[The <color=SOTS_COLOR_GOLD>minimap</color> shows the location of this base on the world map.\nThe <color=SOTS_COLOR_GOLD>list</color> below allows you to quickly switch between bases when you control more of them.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_BASE_DETAILS</LocID>                    <Text><![CDATA[The <color=SOTS_COLOR_GOLD>details panel</color> gives you more insight into resource and unit production at the base.\nBelow it, the <color=SOTS_COLOR_GOLD>eight small buttons</color> give you quick access to the main functions that are otherwise opened by <color=SOTS_COLOR_GOLD>clicking on individual buildings</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_BASE_GO_TO_BUILDING</LocID>             <Text><![CDATA[Now let's open the <color=SOTS_COLOR_GOLD>build & upgrade</color> catalog. Click the main building or the first shortcut button.]]></Text>  </GameDBLocalizedString><!--main building (TODO outline), shortcut button (TODO arrow) -->
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_BASE_BUILDING_CATALOG</LocID>           <Text><![CDATA[This is where you expand your base. The buildings and upgrades can improve your economy and defenses, teach your commanders new abilities thanks to the academy, and allow you to recruit different units.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_BASE_BUILDING_CATALOG_ACADEMY</LocID>   <Text><![CDATA[Let's build the <color=SOTS_COLOR_GOLD>Academy</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_BUILDING_EXPLANATION</LocID>            <Text><![CDATA[Each building can be bought for <color=SOTS_COLOR_GOLD>aura coins and resources</color> or by spending one <color=SOTS_COLOR_GOLD>Fusion Core</color>. Be careful with the second option, though. Only a few Fusion Cores are available on each map.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_SWITCH_TO_ACADEMY</LocID>           <Text><![CDATA[Now click the <color=SOTS_COLOR_GOLD>Academy</color> building or the academy button to learn more about <color=SOTS_COLOR_GOLD>commander abilities</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_IN_ACADEMY</LocID>                  <Text><![CDATA[Nice. We already have an info panel here. You can read the basics there, then click next.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_OUT_OFF_ACADEMY</LocID>             <Text><![CDATA[<color=SOTS_COLOR_GOLD>Leave</color> the academy by closing the window or clicking outside of it. Close the info window if it is still open.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_SWITCH_TO_RATLING_PROJECTS_V2</LocID>  <Text><![CDATA[Now <color=SOTS_COLOR_GOLD>click</color> on the <color=SOTS_COLOR_GOLD>Ratling Slum</color> building.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_IN_RATLING_PROJECTS</LocID>         <Text><![CDATA[You can see the <color=SOTS_COLOR_GOLD>hiring panel</color> for <color=SOTS_COLOR_GOLD>Ratlings</color>. Each unit comes in <color=SOTS_COLOR_GOLD>two variants</color>: <color=SOTS_COLOR_GOLD>basic</color> and <color=SOTS_COLOR_GOLD>upgraded</color>. The <color=SOTS_COLOR_GOLD>upgraded</color> units gain <color=SOTS_COLOR_GOLD>better stats</color> and also a <color=SOTS_COLOR_GOLD>passive or active special ability</color>. The Ratlings become a ranged unit after getting upgraded. You can switch between both and choose which one to hire.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_OUT_OFF_RATLING_PROJECTS_V2</LocID>    <Text><![CDATA[<color=SOTS_COLOR_GOLD>Leave</color> the <color=SOTS_COLOR_GOLD>Ratling Slum</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_IN_HIRING</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_GOLD>Click</color> on the <color=SOTS_COLOR_GOLD>Recruitment center building</color> or <color=SOTS_COLOR_GOLD>the Hire units button</color> to learn more about hiring units.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_HIRING_INFO</LocID>                 <Text><![CDATA[Here, you can hire all available units thanks to your constructed buildings. The <color=SOTS_COLOR_GOLD>Hire all button</color> is available when you have enough resources for all units. If not, you can use the hire max buttons to buy as many available units as possible, starting from the lowest or highest tiers. You can switch between basic or upgraded units on each panel.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_HIRE_ALL</LocID>                    <Text><![CDATA[For now, just <color=SOTS_COLOR_GOLD>Hire all</color> the units.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_HIRE_ALL_CLOSE</LocID>              <Text><![CDATA[<color=SOTS_COLOR_GOLD>Close</color> the <color=SOTS_COLOR_GOLD>Recruitment center</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_COMMANDERS</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_GOLD>Click</color> on the <color=SOTS_COLOR_GOLD>Hire commanders building</color> or the <color=SOTS_COLOR_GOLD>Hire commanders button</color> to learn more about hiring commanders.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_HIRE_COMMANDERS_INFO</LocID>        <Text><![CDATA[You can hire a new commander here. There will always be a commander from the base's faction each cycle. You will also find any commanders who retreated from battle here. If you hire more than one commander per phase, the available armies will decrease in size.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_HIRE_COMMANDER</LocID>              <Text><![CDATA[<color=SOTS_COLOR_GOLD>Hire</color> a new commander.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_ARMY_INFO</LocID>                   <Text><![CDATA[Let's take a look at armies. The upper panel in a base's army UI shows your <color=SOTS_COLOR_GOLD>garrisoned army</color>. If there's a siege, this army defends the base. The <color=SOTS_COLOR_GOLD>army</color> in the <color=SOTS_COLOR_GOLD>lower panel</color> is just visiting and will leave when you return to the exploration map. You can move the armies or switch commanders with buttons on the right.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_UNIT_INFO</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_GOLD>Right click</color> on a <color=SOTS_COLOR_GOLD>unit</color> to see its statistics.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_UNIT_SPLIT</LocID>                  <Text><![CDATA[If you have available army slots, you can fill them with your units. It may give you an advantage or more options during combat. Click "PICK" to <color=SOTS_COLOR_GOLD>Split the unit</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_UNIT_SPLIT_PLACE</LocID>            <Text><![CDATA[Place it in the empty slot, or cancel the selection.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_UNIT_UPGRADE</LocID>                <Text><![CDATA[Great! When you have upgraded barracks and hired basic units, you can upgrade them by clicking the gold button above the unit. (For a price, of course). Try to <color=SOTS_COLOR_GOLD>upgrade any unit</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_ARMY_MERGE</LocID>                  <Text><![CDATA[Use the shortcut button to <color=SOTS_COLOR_GOLD>move all garrisoned units</color> to the new commander.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_EXIT_BASE</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_GOLD>Return</color> to the exploration <color=SOTS_COLOR_GOLD>map</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HERO_MEETING</LocID>                     <Text><![CDATA[<color=SOTS_COLOR_GOLD>Move</color> your currently selected <color=SOTS_COLOR_GOLD>commander</color> to <color=SOTS_COLOR_GOLD>meet Major Skaurov, your original commander</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HERO_MEETING_CARD</LocID>                <Text><![CDATA[This is the <color=SOTS_COLOR_GOLD>commander's meeting card</color>. Here you can <color=SOTS_COLOR_GOLD>exchange items</color> and <color=SOTS_COLOR_GOLD>trade armies</color> (Trading armies will cost you some <color=SOTS_COLOR_MOVEMENT>movement points</color>)]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HERO_MEETING_CARD_MOVE_ARMY</LocID>      <Text><![CDATA[All commanders have to have at least one unit. <color=SOTS_COLOR_GOLD>Move</color> all the <color=SOTS_COLOR_GOLD>units to</color> your <color=SOTS_COLOR_GOLD>stronger commander</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HERO_MEETING_CARD_CLOSE</LocID>          <Text><![CDATA[<color=SOTS_COLOR_GOLD>Close</color> the meeting <color=SOTS_COLOR_GOLD>card</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_HERO_WEAK_ARMY_INFO</LocID>              <Text><![CDATA[It's time to start taking over some guarded structures. When you <color=SOTS_COLOR_GOLD>attack neutral armies</color> (these are just units with <color=SOTS_COLOR_GOLD>no commander</color>) and you are much <color=SOTS_COLOR_GOLD>stronger</color>, sometimes you will get the option to let them <color=SOTS_COLOR_GOLD>join</color> or let them <color=SOTS_COLOR_GOLD>run</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_GO_TO_COMBAT</LocID>                     <Text><![CDATA[If you <color=SOTS_COLOR_GOLD>hover over</color> the <color=SOTS_COLOR_GOLD>enemies on the left</color>, a tooltip gives you an indication of <color=SOTS_COLOR_GOLD>how dangerous</color> it's going to be. We changed your army a bit for this tutorial. <color=SOTS_COLOR_GOLD>Let's battle!</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_LAYOUT</LocID>              <Text><![CDATA[This is what a simple battlefield looks like. Attacking armies always start on the left side and have a slight advantage thanks to a higher initiative. Each unit has its own initiative that determines its order. You can see the order of the units at the bottom of the screen.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_UNIT_OPEN_CARD</LocID>      <Text><![CDATA[<color=SOTS_COLOR_GOLD>Right click</color> on the <color=SOTS_COLOR_GOLD>unit card</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_UNIT_INFO</LocID>           <Text><![CDATA[Here, you can check the details (like stats and special abilities) of any unit on the battlefield. <color=SOTS_COLOR_GOLD>Close the unit card</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_UNIT_RANGE</LocID>          <Text><![CDATA[You can see the movement range of any unit when you <color=SOTS_COLOR_GOLD>hover over them while holding Shift</color>. Let's <color=SOTS_COLOR_GOLD>try it now</color>!]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_BASIC_INFO</LocID>          <Text><![CDATA[Each unit has a <color=SOTS_COLOR_GOLD>range of possible actions</color> they can do during their turn:\n<color=SOTS_COLOR_GOLD>Move \nMove and attack\nShoot if a target is within their range \nLimited-range units move and shoot</color>, but we don't have any.)]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_WAIT</LocID>                <Text><![CDATA[Units can also <color=SOTS_COLOR_GOLD>choose to wait</color>, indicated by a yellow <color=SOTS_COLOR_GOLD>button</color> with a <color=SOTS_COLOR_GOLD>clock</color> icon above the active unit. This action <color=SOTS_COLOR_GOLD>moves</color> the unit to the <color=SOTS_COLOR_GOLD>end</color> of the <color=SOTS_COLOR_GOLD>current round's order</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_SKIP</LocID>                <Text><![CDATA[Units can also <color=SOTS_COLOR_GOLD>choose to pass</color> their <color=SOTS_COLOR_GOLD>turn</color>, represented by a <color=SOTS_COLOR_GOLD>button</color> located to the right of the 'wait' button.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_LOG_INFO</LocID>            <Text><![CDATA[You can see the <color=SOTS_COLOR_GOLD>combat log</color> on the right. It logs every move that happens in the combat.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_AUTO_BATTLE_BUTTON</LocID>  <Text><![CDATA[Above the log, there are some control buttons. The first is <color=SOTS_COLOR_GOLD>Auto combat</color>, which allows you to let the computer quickly finish the battle.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_RETREAT_BUTTON</LocID>      <Text><![CDATA[The second one is <color=SOTS_COLOR_GOLD>Retreat</color>. If you anticipate defeat but don't want to lose your commander, you can sacrifice your army and let your commander retreat to a base to re-hire some new mercs.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_SURRENDER_BUTTON</LocID>    <Text><![CDATA[The next button is to <color=SOTS_COLOR_GOLD>Surrender</color>. You can pay a price to leave the battle without losses.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_SPEED_BUTTONS</LocID>       <Text><![CDATA[The buttons in the next section allow you to adjust the <color=SOTS_COLOR_GOLD>speed of the animations and movement</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_HEXES</LocID>               <Text><![CDATA[With the last button, you can toggle the <color=SOTS_COLOR_GOLD>Hex grid</color><color=SOTS_COLOR_GOLD>on or off</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_RANGED_UNIT_SELECT</LocID>  <Text><![CDATA[Sometimes, it is better to let the enemy come to you, especially if you have a ranged unit and the enemy doesn't. Let's <color=SOTS_COLOR_GOLD>pass</color> this turn with our <color=SOTS_COLOR_GOLD>meelee units</color> to <color=SOTS_COLOR_GOLD>select</color> our <color=SOTS_COLOR_GOLD>shooter</color> unit.]]></Text>  </GameDBLocalizedString><!-- Wait for the enemy to come into the range.--> <!--Wait with “Ratling gunner”.-->
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_RANGED_UNIT_SHOOT</LocID>   <Text><![CDATA[Each shooter has a range where they shoot more precisely and inflict more damage. The <color=SOTS_COLOR_GOLD>Red outline</color> shows you where their <color=SOTS_COLOR_GOLD>precise range</color> ends. <color=SOTS_COLOR_GOLD>Shoot an enemy unit</color> even though they're still out of range.]]></Text>  </GameDBLocalizedString><!-- Wait for the enemy to come into the range.--> <!--Wait with “Ratling gunner”.-->
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_HEX_ATTACKS</LocID>         <Text><![CDATA[The battlefield layout and controls are based on hexes, so when you aim your <color=SOTS_COLOR_GOLD>attack</color>, aim at the <color=SOTS_COLOR_GOLD>hexes</color>, <color=SOTS_COLOR_GOLD>not at a unit</color> itself. If the situation becomes confusing, use the <color=SOTS_COLOR_GOLD>CTRL key</color> to <color=SOTS_COLOR_GOLD>shrink all units</color> to see the situation better. Each unit also has a <color=SOTS_COLOR_GOLD>counter attack</color> it can use when it gets <color=SOTS_COLOR_GOLD>attacked</color> the <color=SOTS_COLOR_GOLD>first time</color> during a round. <color=SOTS_COLOR_GOLD>Now move your melee units</color> closer so they can attack.]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_RANGE_UNIT_AGAIN</LocID>    <Text><![CDATA[It is your ranged unit's turn again. Use it to thin the enemy unit's stack some more. <color=SOTS_COLOR_GOLD>Attack</color> with your <color=SOTS_COLOR_GOLD>Ranged unit</color> again.]]></Text>  </GameDBLocalizedString><!--Try some melee attack. Aim on the border of hex under enemy units. -->
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_MELEE_UNIT</LocID>          <Text><![CDATA[You can <color=SOTS_COLOR_GOLD>attack</color> the enemy <color=SOTS_COLOR_GOLD>from any direction</color>, aiming at the hex's edge from the direction you want to attack. The direction has no effect on the inflicted damage. Now use your <color=SOTS_COLOR_GOLD>Melee unit to attack</color>.]]></Text>  </GameDBLocalizedString><!--Try some melee attack. Aim on the border of hex under enemy units. -->
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_WIN</LocID>                 <Text><![CDATA[You should know the basics now, so put them to good use and <color=SOTS_COLOR_GOLD>Win</color> the battle.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_FIRST_BATTLE_WON</LocID>           <Text><![CDATA[Congratulations, <color=SOTS_COLOR_GOLD>you won</color> your first battle! <color=SOTS_COLOR_GOLD>Click close</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_LEARN_SKILL_TECHIE</LocID>               <Text><![CDATA[With the XP from the battle, you leveled up your commander again. Now <color=SOTS_COLOR_GOLD>choose Techie</color>. It's a skill that allows you to use commander abilities. \nDon't forget to choose an attribute too.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_LEARN_ABILITY</LocID>                    <Text><![CDATA[Abilities have three skill levels. With each level, abilities become stronger. Every time you learn or improve an ability skill, you can choose a new ability. For now <color=SOTS_COLOR_GOLD>learn Long-range artillery</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_VISIT_DOJO</LocID>                       <Text><![CDATA[Back on the map, the structure in front of you is a <color=SOTS_COLOR_GOLD>Swordsman's Sanctuary</color>. Like many other structures on the map, the Swordsman's Sanctuary gives you a reward when you visit it. You can see info about the structure if you hover over it before you enter. Now <color=SOTS_COLOR_GOLD>go check it out!</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_LEARN_SKILL_CHESS_MASTER</LocID>         <Text><![CDATA[Chessmaster is a skill that allows you to position all your units freely in an area on your side of the battlefield before combat starts. <color=SOTS_COLOR_GOLD>Learn the skill</color>. \nDon't forget to choose an attribute too.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_LEARN_SKILL_GLOBETROTTER</LocID>         <Text><![CDATA[The <color=SOTS_COLOR_GOLD>Globetrotter</color> skill unlocks the option to learn various exploration abilities. <color=SOTS_COLOR_GOLD>Learn the skill</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_LEARN_ABILITY_RUSH</LocID>               <Text><![CDATA[<color=SOTS_COLOR_GOLD>Learn Rush</color>, a useful ability that allows you to restore a bit of movement each turn.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_USE_EXPLORATION_ABILITY</LocID>          <Text><![CDATA[There are two main categories of commander abilities: the ones used in combat and the abilities used on the exploration map. \nThe <color=SOTS_COLOR_GOLD>Globetrotter skill</color> allows you to use <color=SOTS_COLOR_GOLD>abilities</color> on the <color=SOTS_COLOR_GOLD>map</color>. You can use only one ability per turn. You can open abilities from the commander card, but let's try a <color=SOTS_COLOR_GOLD>shortcut</color> from the <color=SOTS_COLOR_GOLD>commander action menu</color> on the <color=SOTS_COLOR_GOLD>right panel</color>, or <color=SOTS_COLOR_GOLD>left click</color> on your <color=SOTS_COLOR_GOLD>commander</color>. <color=SOTS_COLOR_GOLD>Open</color> the <color=SOTS_COLOR_GOLD>ability book</color> and <color=SOTS_COLOR_GOLD>use Rush</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BUILDING_INFO</LocID>                    <Text><![CDATA[Each commander can <color=SOTS_COLOR_GOLD>build</color> various <color=SOTS_COLOR_GOLD>structures</color> on the <color=SOTS_COLOR_GOLD>exploration map</color>. They can be defensive or offensive, but we'll try a resource-gathering structure.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_MOVE_TO_BUILD</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_GOLD>Let's move</color> to a more <color=SOTS_COLOR_GOLD>convenient location</color> to try that.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_LEARN_PROBE_INFO</LocID>                 <Text><![CDATA[We will build a <color=SOTS_COLOR_GOLD>mining probe</color>. It will <color=SOTS_COLOR_GOLD>gather resources</color> for you. Which <color=SOTS_COLOR_GOLD>resource</color> will depend on the <color=SOTS_COLOR_GOLD>terrain</color>. The <color=SOTS_COLOR_GOLD>longer</color> you keep the probe <color=SOTS_COLOR_GOLD>active</color>, the <color=SOTS_COLOR_GOLD>more resources</color> it will collect. You can <color=SOTS_COLOR_GOLD>dismantle</color> the probe <color=SOTS_COLOR_GOLD>whenever you want</color>, but <color=SOTS_COLOR_GOLD>so can your enemies!</color>. It becomes active once the activation time passes or when an activation upgrade is added.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BUILD_PROBE</LocID>                      <Text><![CDATA[Use the <color=SOTS_COLOR_GOLD>left mouse button</color> on your <color=SOTS_COLOR_GOLD>commander</color> to <color=SOTS_COLOR_GOLD>open</color> a <color=SOTS_COLOR_GOLD>commander action menu</color> again and <color=SOTS_COLOR_GOLD>build</color> a <color=SOTS_COLOR_GOLD>mining probe</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BUILDER_SKILL</LocID>                    <Text><![CDATA[Once you learn the <color=SOTS_COLOR_GOLD>Builder skill</color>, you will be able to <color=SOTS_COLOR_GOLD>build more <color=SOTS_COLOR_GOLD>advanced versions</color> of the <color=SOTS_COLOR_GOLD>structures</color>.]]></Text>  </GameDBLocalizedString>
-           
-            <!-- Do we call it a book officially? :) -->
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_LAST_COMBAT</LocID>                      <Text><![CDATA[Now, let's battle some more and try to use a unit special and a commander's ability in combat. <color=SOTS_COLOR_GOLD>Attack the enemy</color> to the northwest!]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_START_COMBAT_TACTICS</LocID>             <Text><![CDATA[Your commander's Chessmaster skill lets you position your units before the start of the combat. When you are ready, <color=SOTS_COLOR_GOLD>click the end tactics button.</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_USE_UNIT_SPECIAL_ABILITY</LocID>         <Text><![CDATA[When units get <color=SOTS_COLOR_GOLD>upgraded</color>, they gain a <color=SOTS_COLOR_GOLD>special ability</color>. Try to use one of your unit's special abilities by <color=SOTS_COLOR_GOLD>clicking the button</color> and <color=SOTS_COLOR_GOLD>choosing a target</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_USE_COMBAT_ABILITY</LocID>               <Text><![CDATA[Let's try a <color=SOTS_COLOR_GOLD>commander combat ability</color> next. You can only use one commander ability each round. <color=SOTS_COLOR_GOLD>Click</color> on your <color=SOTS_COLOR_GOLD>commander's portrait</color> and select <color=SOTS_COLOR_GOLD>Long range artillery</color>. <color=SOTS_COLOR_GOLD>Use it</color> on a <color=SOTS_COLOR_GOLD>group of enemy units</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_LAST_BATTLE_WON</LocID>                  <Text><![CDATA[Congratulations, <color=SOTS_COLOR_GOLD>you won</color> your second battle. <color=SOTS_COLOR_GOLD>Click close</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TUTORIAL_01_TUTORIAL_COMPLETED</LocID>               <Text><![CDATA[Congratulations, you have <color=SOTS_COLOR_GOLD>completed the tutorial</color>. Ready for the real thing? <color=SOTS_COLOR_GOLD>Click Next</color> to <color=SOTS_COLOR_GOLD>return</color> to <color=SOTS_COLOR_GOLD>Main menu</color>.]]></Text>  </GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+  <GameDBStringTable ID="LOC_RU_TUTORIAL_01">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Alk Cap0ne</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>NEXT_STEP</LocID>
+        <Text>Дальше</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_PLAYER_NAME</LocID>
+        <Text>Красный кадет</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_TUTORIAL_WELCOME</LocID>
+        <Text>Добро пожаловать в обучение!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_WELCOME</LocID>
+        <Text><![CDATA[Привет, добро пожаловать в руководство, которое научит вас основам игры Silence of the Siren!\nСначала давайте рассмотрим <color=SOTS_COLOR_GOLD>управление</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_STEP_MOVE_CAMERA</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Перемещайте камеру</color> с помощью клавиш WASD/стрелок, перемещая курсор к краю экрана или удерживая среднюю кнопку мыши.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_STEP_ZOOM_CAMERA</LocID>
+        <Text><![CDATA[Отлично! Далее давайте воспользуемся колесиком мыши, чтобы <color=SOTS_COLOR_GOLD>увеличить или приблизить камеру</color>.]]></Text>
+      </GameDBLocalizedString>
+      <!--let's use the mouse wheel (or TODO buttons)-->
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_STEP_COMMANDERS</LocID>
+        <Text><![CDATA[Теперь давайте посмотрим на <color=SOTS_COLOR_GOLD>командиров</color>, ваших активных участников на карте мира/исследования.\nВыбран ваш единственный командир. <color=SOTS_COLOR_GOLD>Переместите его</color>, щёлкнув по выделенной плитке, чтобы наметить путь, затем щёлкните ещё раз, чтобы подтвердить перемещение.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_STEP_DISCOVER</LocID>
+        <Text><![CDATA[Давайте <color=SOTS_COLOR_GOLD>направимся на запад</color> и найдём <color=SOTS_COLOR_GOLD>контейнер</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_CHEST</LocID>
+        <Text><![CDATA[Вы нашли <color=SOTS_COLOR_GOLD>контейнер</color>, откройте его и <color=SOTS_COLOR_GOLD>используйте фрагмент данных</color> внутри. Вы получите немного <color=SOTS_COLOR_XP>очков опыта</color> - это <color=SOTS_COLOR_GOLD>повысит уровень вашего командира</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_ATTRIBUTES</LocID>
+        <Text><![CDATA[У каждого командира есть <color=SOTS_COLOR_GOLD>три характеристики</color>. <color=SOTS_COLOR_GOLD>Разведка</color> увеличивает скорость командира, добавляя ему очки движения и раскрывая больше тумана войны вокруг него. <color=SOTS_COLOR_GOLD>Боевая мощь</color> увеличивает силу армии командира. <color=SOTS_COLOR_GOLD>Сила умений</color> усиливает умения командира, увеличивает их общее количество и восполняет энергию.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_SKILLS</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Навыки</color> - каждый командир может изучить до <color=SOTS_COLOR_GOLD>8 навыков</color>. Каждый навык имеет <color=SOTS_COLOR_GOLD>три уровня</color>. Командиры могут <color=SOTS_COLOR_GOLD>совершенствовать</color> навыки с <color=SOTS_COLOR_GOLD>первого до второго</color> уровня при достижении <color=SOTS_COLOR_GOLD>пятого уровня</color>, затем с <color=SOTS_COLOR_GOLD>второго до третьего</color> уровня при достижении <color=SOTS_COLOR_GOLD>десятого уровня</color>. Чтобы узнать <color=SOTS_COLOR_GOLD>больше</color> о навыке, <color=SOTS_COLOR_GOLD>наведите курсор</color> на него.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_LEVEL_UP</LocID>
+        <Text><![CDATA[Когда командиры <color=SOTS_COLOR_GOLD>повышают уровень</color>, вы можете выбрать <color=SOTS_COLOR_GOLD>характеристику</color> и <color=SOTS_COLOR_GOLD>навык</color> для улучшения или изучения. Сделайте это сейчас!]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_TURN_BASED_EXPLANATION</LocID>
+        <Text><![CDATA[Давайте обсудим фундаментальные принципы игры. Это <color=SOTS_COLOR_GOLD>пошаговая</color> игра, что означает, что у вас есть <color=SOTS_COLOR_GOLD>ограниченное количество</color> <color=SOTS_COLOR_GOLD>действий за ход</color>. Когда командир <color=SOTS_COLOR_GOLD>использует все</color> свои <color=SOTS_COLOR_GOLD>очки передвижения</color>, вы должны <color=SOTS_COLOR_GOLD>закончить ход</color>, чтобы позволить ему <color=SOTS_COLOR_GOLD>восстановить</color> свои очки передвижения. На этой планете каждый ход представляет собой одну фазу её вращения, а <color=SOTS_COLOR_GOLD>четыре фазы</color> составляют <color=SOTS_COLOR_GOLD>один цикл</color>. В начале каждого цикла вы можете набирать новые отряды на своей базе.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_RIGHT_PANEL_EXPLANATION</LocID>
+        <Text><![CDATA[В правой части экрана находится <color=SOTS_COLOR_GOLD>мини-карта</color>, <color=SOTS_COLOR_GOLD>список ваших баз</color>, <color=SOTS_COLOR_GOLD>список ваших командиров</color>, <color=SOTS_COLOR_GOLD>кнопки</color> для настройки <color=SOTS_COLOR_GOLD>скорости анимации</color> и <color=SOTS_COLOR_GOLD>панель времени с индексом фазы/цикла</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_CHEST_HOARD</LocID>
+        <Text><![CDATA[Давайте подберем ещё один контейнер. <color=SOTS_COLOR_GOLD>Идите на север</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_END_TURN</LocID>
+        <Text><![CDATA[Если у вас закончились очки движения, вы должны завершить свой ход, чтобы пополнить их. <color=SOTS_COLOR_GOLD>Нажмите</color> <color=SOTS_COLOR_GOLD>Завершить ход</color> в <color=SOTS_COLOR_GOLD>правом нижнем углу</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_CHEST_HOARD_PART_TWO</LocID>
+        <Text><![CDATA[Двигайтесь вперёд, а когда найдете и подберете контейнер, давайте <color=SOTS_COLOR_GOLD>сохраним</color> его содержимое для дальнейшего использования.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_OPEN_HERO_CARD</LocID>
+        <Text><![CDATA[Теперь у вашего командира в инвентаре должен появиться новый <color=SOTS_COLOR_GOLD>расходуемый предмет</color>. <color=SOTS_COLOR_GOLD>Откройте карточку командира</color>, щёлкнув правой кнопкой мыши по командиру на карте или выбрав его из списка в правой части экрана.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HERO_CARD_INFO</LocID>
+        <Text><![CDATA[Эта <color=SOTS_COLOR_GOLD>карточка</color> показывает всю важную информацию <color=SOTS_COLOR_GOLD>о вашем командире</color>: его биографию, уровень, характеристики, приобретенные навыки, предметы и сведения об армии.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HERO_CARD_UNDER_PORTRAIT</LocID>
+        <Text><![CDATA[Под портретом командира вы можете найти его <color=SOTS_COLOR_GOLD>атрибуты</color>. К ним относятся:\n<color=SOTS_COLOR_XP>Очки опыта</color> - отображают опыт, необходимый для достижения следующего уровня. \n<color=SOTS_COLOR_MOVEMENT>Очки передвижения</color>  - показывают количество ходов, которые вы можете сделать за фазу. (Зависит от местности.)\n<color=SOTS_COLOR_ENERGY>Очки энергии</color> - требуются для использования умений, а также экипировки предметов и артефактов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HERO_CARD_MOVE_AND_ENERGY_POINTS</LocID>
+        <Text><![CDATA[После завершения хода <color=SOTS_COLOR_MOVEMENT>очки движения</color> полностью восполняются, а в зависимости от <color=SOTS_COLOR_GOLD>силы умений</color> вашего командира и настроек снаряжения восстанавливается некоторое количество <color=SOTS_COLOR_ENERGY>очков энергии</color>. Вы можете проверить количество восстанавливаемых очков, наведя курсор на полоску <color=SOTS_COLOR_ENERGY>очков энергии</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HERO_CARD_MORALE</LocID>
+        <Text><![CDATA[Это <color=SOTS_COLOR_GOLD>Мораль</color>. Когда значение морали <color=SOTS_COLOR_GOLD>положительное</color>, оно представляет собой процентный шанс получить <color=SOTS_COLOR_GOLD>дополнительный ход</color> в бою для каждого из отрядов. Если значение <color=SOTS_COLOR_GOLD>отрицательное</color>, оно представляет собой процентный шанс <color=SOTS_COLOR_GOLD>потерять ход</color>  для каждого из отрядов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HERO_CARD_ARMY</LocID>
+        <Text><![CDATA[Эта карточка также <color=SOTS_COLOR_GOLD>позволяет</color> вам <color=SOTS_COLOR_GOLD>управлять армией командира</color>. Вы можете проверить сведения о своих отрядах или переставить отряды в армии.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_CONSUMABLE</LocID>
+        <Text><![CDATA[Но сейчас нас интересует предмет, видимый в разделе РАСХОДНЫЕ МАТЕРИАЛЫ. <color=SOTS_COLOR_GOLD>Перетяните его</color> и бросьте <color=SOTS_COLOR_GOLD>на портрет командира</color> - или просто <color=SOTS_COLOR_GOLD>щёлкните</color> по нему правой кнопкой мыши.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_CLOSE_HERO_CARD</LocID>
+        <Text><![CDATA[Собирая эти фрагменты, вы сможете управлять, кто и когда получит этот блестящий опыт. Кроме того, есть еще куча видов расходных материалов!\nА теперь давайте <color=SOTS_COLOR_GOLD>закроем карточку</color> и пойдем <color=SOTS_COLOR_GOLD>собирём ещё немного вкусняшек!</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_ITEM_PICK_UP</LocID>
+        <Text><![CDATA[Найдите и заберите один предмет. Используйте клавишу Alt, чтобы выделить все интерактивные объекты и предметы для сбора.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_INVENTORY_AGAIN</LocID>
+        <Text>Я вижу, ты ещё не нашёл магниевый резак. Приходи, когда найдёшь.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_ITEMS_AND_ENERGY</LocID>
+        <Text><![CDATA[У вашего командира есть несколько слотов, которые вы можете заполнить ценными <color=SOTS_COLOR_GOLD>предметами</color>, которые помогут вам на карте или в бою.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_ITEM_EQUIP</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Снаряжение</color> большинства предметов потребует некоторого количества <color=SOTS_COLOR_ENERGY>очков энергии</color>. К счастью для вас, этот датапад майора Скаурова ,увеличивающий опыт (XP), не требует никаких затрат! <color=SOTS_COLOR_GOLD>Экипируйте Датапад</color>!]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_CLOSE_HERO_CARD_RESOURCES</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Закройте</color> карточку <color=SOTS_COLOR_GOLD>командира</color> и <color=SOTS_COLOR_GOLD>соберите</color> немного <color=SOTS_COLOR_GOLD>ресурсов</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_RESOURCES_EXPLANATION</LocID>
+        <Text><![CDATA[В игре есть несколько ресурсов. <color=SOTS_COLOR_GOLD>Аура-монеты</color> заменяют деньги. <color=SOTS_COLOR_LIMERITE>Лимерит</color> и <color=SOTS_COLOR_ALLOYS>Сплав</color> - основные ресурсы для строительства сооружений. <color=SOTS_COLOR_BIOMASS>Биомасса</color> и <color=SOTS_COLOR_RADIANT>Радиант</color> - более уникальные ресурсы, необходимые для более сложных построек. <color=SOTS_COLOR_FUSION_CORE>Ядра синтеза</color> - самый редкий и ценный ресурс. С их помощью можно активировать специальные предметы на картах или приобрести любое здание за одно ядро синтеза.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_MINE_CAPTURE</LocID>
+        <Text><![CDATA[Теперь <color=SOTS_COLOR_GOLD>захватите лимеритовый карьер</color> слева.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_MINE_EXIT</LocID>
+        <Text><![CDATA[Каждая шахта <color=SOTS_COLOR_GOLD>производит</color> небольшое количество <color=SOTS_COLOR_GOLD>ресурсов за фазу</color>. Вы можете <color=SOTS_COLOR_GOLD>улучшить производство</color>, и шахта будет производить больше ресурсов, или <color=SOTS_COLOR_GOLD>построить оборонительное улучшение</color>, чтобы добавить турели, которые будут защищать её от других игроков. <color=SOTS_COLOR_GOLD>Закройте диалог улучшения</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_MOVE_HERO_CLOSER_TO_BASE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Переместите</color> своего командира <color=SOTS_COLOR_GOLD>поближе к своей базе</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HIGHLIGHT_EXPLAINED</LocID>
+        <Text><![CDATA[Во время исследования вы можете подсветить все интерактивные объекты вокруг командира. <color=SOTS_COLOR_GOLD>Зажмите</color> клавишу <color=SOTS_COLOR_GOLD>Alt</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_SELECT_BASE</LocID>
+        <Text><![CDATA[Теперь посмотрите на свою базу, <color=SOTS_COLOR_GOLD>Окопный край</color>. Если <color=SOTS_COLOR_GOLD>иконки</color> рядом с названием <color=SOTS_COLOR_GOLD>зелёные</color>, это означает, что на вашей базе есть <color=SOTS_COLOR_GOLD>используемые действия</color>. Вы можете <color=SOTS_COLOR_GOLD>выбрать свою базу</color> на <color=SOTS_COLOR_GOLD>карте</color> или в <color=SOTS_COLOR_GOLD>списке справа</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_INTRODUCTION</LocID>
+        <Text><![CDATA[Это ваш основной центр операций. Здесь вы можете нанимать командиров и армии, а также строить различные укрепления. Давайте взглянем на <color=SOTS_COLOR_GOLD>интерфейс</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_LIST_AND_MINIMAP</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Мини-карта</color> показывает расположение этой базы на карте мира.\n<color=SOTS_COLOR_GOLD>Список</color> ниже позволяет быстро переключаться между базами, когда под вашим контролем находится несколько из них.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_BASE_DETAILS</LocID>
+        <Text><![CDATA[Панель <color=SOTS_COLOR_GOLD>подробностей</color> даёт вам больше информации о производстве ресурсов и отрядов на базе.\n<color=SOTS_COLOR_GOLD>Восемь маленьких кнопок</color> под ней дают вам быстрый доступ к основным функциям, которые обычно открываются при <color=SOTS_COLOR_GOLD>нажатии на отдельные здания</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_BASE_GO_TO_BUILDING</LocID>
+        <Text><![CDATA[Теперь откроем каталог <color=SOTS_COLOR_GOLD>построек и улучшений</color>. Нажмите на главное здание или на первую кнопку быстрого доступа.]]></Text>
+      </GameDBLocalizedString>
+      <!--main building (TODO outline), shortcut button (TODO arrow) -->
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_BASE_BUILDING_CATALOG</LocID>
+        <Text><![CDATA[Здесь вы расширяете свою базу. Здания и улучшения могут повысить вашу экономику и оборону, обучить ваших командиров новым умениям благодаря академии, а также позволить вам набирать различные отряды.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_BASE_BUILDING_CATALOG_ACADEMY</LocID>
+        <Text><![CDATA[Давайте построим <color=SOTS_COLOR_GOLD>Академию</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_BUILDING_EXPLANATION</LocID>
+        <Text><![CDATA[Каждое здание можно построить за <color=SOTS_COLOR_GOLD>аура-монеты и ресурсы</color> или потратив одно <color=SOTS_COLOR_GOLD>Ядро синтеза</color>. Однако будьте осторожны со вторым вариантом. На каждой карте доступно лишь несколько ядер синтеза.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_SWITCH_TO_ACADEMY</LocID>
+        <Text><![CDATA[Теперь нажмите на здание <color=SOTS_COLOR_GOLD>Академии</color> или на кнопку академии, чтобы узнать больше о <color=SOTS_COLOR_GOLD>умениях командира</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_IN_ACADEMY</LocID>
+        <Text><![CDATA[ Неплохо. У нас уже есть информационная панель. Вы можете прочесть там основные сведения, а затем нажмите кнопку "Дальше".]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_OUT_OFF_ACADEMY</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Покиньте</color> академию, закрыв окно или щёлкнув за его пределами. Закройте информационное окно, если оно ещё открыто.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_SWITCH_TO_RATLING_PROJECTS_V2</LocID>
+        <Text><![CDATA[Теперь <color=SOTS_COLOR_GOLD>щёлкните</color> по зданию <color=SOTS_COLOR_GOLD> Трущобы крысолюдов</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_IN_RATLING_PROJECTS</LocID>
+        <Text><![CDATA[Вы видите <color=SOTS_COLOR_GOLD>панель найма</color> для <color=SOTS_COLOR_GOLD>крысолюдов</color>. Каждый отряд доступен в <color=SOTS_COLOR_GOLD>двух вариантах</color>: <color=SOTS_COLOR_GOLD>базовый</color> и <color=SOTS_COLOR_GOLD>улучшенный</color>. У <color=SOTS_COLOR_GOLD>улучшенных</color> отрядов <color=SOTS_COLOR_GOLD>лучшие характеристики</color>, а также <color=SOTS_COLOR_GOLD>пассивные или активные специальные умения</color>. После улучшения Крысолюды становятся отрядом дальнего боя. Вы можете переключаться между ними и выбирать, кого из них нанимать.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_OUT_OFF_RATLING_PROJECTS_V2</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Выйдите</color> из <color=SOTS_COLOR_GOLD>Трущоб крысолюдов</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_IN_HIRING</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Нажмите</color> на <color=SOTS_COLOR_GOLD>здании Центра найма</color> или <color=SOTS_COLOR_GOLD>кнопке Нанять отряды</color>, чтобы узнать больше о найме отрядов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_HIRING_INFO</LocID>
+        <Text><![CDATA[Здесь вы можете нанять все доступные отряды из построенных вами зданий. Кнопка <color=SOTS_COLOR_GOLD>Нанять всех</color> доступна, если у вас достаточно ресурсов для всех отрядов. Если нет, вы можете воспользоваться кнопками Нанять максимум, чтобы купить как можно больше доступных отрядов, начиная с самого низкого или самого высокого уровня. На каждой панели можно переключаться между базовыми и улучшенными отрядами.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_HIRE_ALL</LocID>
+        <Text><![CDATA[Пока что просто <color=SOTS_COLOR_GOLD>Наймите все</color> отряды.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_HIRE_ALL_CLOSE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Закройте Центр найма</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_COMMANDERS</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Нажмите</color> на здание <color=SOTS_COLOR_GOLD>Нанять командиров</color> или на кнопку <color=SOTS_COLOR_GOLD>Нанять командиров</color>, чтобы узнать больше о найме командиров.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_HIRE_COMMANDERS_INFO</LocID>
+        <Text><![CDATA[Здесь вы можете нанять нового командира. В каждом цикле всегда будет командир из фракции базы. Здесь же вы найдёте командиров, отступивших из боя. Если вы нанимаете более одного командира за фазу, доступные армии уменьшаются в размерах.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_HIRE_COMMANDER</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Наймите</color> нового командира.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_ARMY_INFO</LocID>
+        <Text><![CDATA[Давайте посмотрим на армии. Верхняя панель в интерфейсе армии базы показывает <color=SOTS_COLOR_GOLD>армию гарнизона</color>. Во время осады эта армия защищает базу. <color=SOTS_COLOR_GOLD>Армия </color> на <color=SOTS_COLOR_GOLD>нижней панели</color> просто посещает базу и уйдет, когда вы вернетесь на карту исследований. Вы можете перемещать армии или менять командиров с помощью кнопок справа.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_UNIT_INFO</LocID>
+        <Text><![CDATA[Щёлкните <color=SOTS_COLOR_GOLD>правой кнопкой мыши</color> на <color=SOTS_COLOR_GOLD>отряде</color>, чтобы посмотреть его характеристики.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_UNIT_SPLIT</LocID>
+        <Text><![CDATA[Если в вашей армии есть свободные слоты, вы можете заполнить их своими отрядами. Это может дать вам преимущество или больше возможностей во время боя. Нажмите "ВЗЯТЬ", чтобы <color=SOTS_COLOR_GOLD>разделить отряд</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_UNIT_SPLIT_PLACE</LocID>
+        <Text><![CDATA[Переместите его в пустой слот или отмените выбор.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_UNIT_UPGRADE</LocID>
+        <Text><![CDATA[Отлично! Когда вы улучшили казармы и наняли базовые отряды, вы можете улучшить их, нажав на золотую кнопку над отрядом. (За определенную цену, конечно). Попробуйте <color=SOTS_COLOR_GOLD>улучшить любой отряд</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_ARMY_MERGE</LocID>
+        <Text><![CDATA[Используйте кнопку быстрого доступа, чтобы <color=SOTS_COLOR_GOLD>переместить все отряды гарнизона</color> к новому командиру.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BASE_EXIT_BASE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Вернитесь</color> на <color=SOTS_COLOR_GOLD>карту</color> исследований.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HERO_MEETING</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Переместите</color> выбранного <color=SOTS_COLOR_GOLD>командира навстречу майору Скаурову, вашему основному командиру</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HERO_MEETING_CARD</LocID>
+        <Text><![CDATA[Это <color=SOTS_COLOR_GOLD>карточка встречи командиров</color>. Здесь вы можете <color=SOTS_COLOR_GOLD>обменять предметы</color> и <color=SOTS_COLOR_GOLD>обменять армии</color> (Обмен армиями будет стоить вам <color=SOTS_COLOR_MOVEMENT>очков передвижения</color>).]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HERO_MEETING_CARD_MOVE_ARMY</LocID>
+        <Text><![CDATA[У каждого командира должен быть хотя бы один отряд. <color=SOTS_COLOR_GOLD>Переместите</color> все <color=SOTS_COLOR_GOLD> отряды к</color> вашему <color=SOTS_COLOR_GOLD> более сильному командиру</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HERO_MEETING_CARD_CLOSE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Закройте</color> <color=SOTS_COLOR_GOLD>карточку</color> встречи.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_HERO_WEAK_ARMY_INFO</LocID>
+        <Text><![CDATA[Пришло время начать захватывать охраняемые сооружения. Когда вы <color=SOTS_COLOR_GOLD>атакуете нейтральные армии</color> (это просто отряды  <color=SOTS_COLOR_GOLD>без командира</color>) и вы намного <color=SOTS_COLOR_GOLD>сильнее</color>, иногда у вас будет возможность позволить им <color=SOTS_COLOR_GOLD>присоединиться</color> или позволить им <color=SOTS_COLOR_GOLD>бежать</color>. ]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_GO_TO_COMBAT</LocID>
+        <Text><![CDATA[Если вы <color=SOTS_COLOR_GOLD>наведёте курсор на врага слева</color>, всплывающая подсказка укажет вам, <color=SOTS_COLOR_GOLD>насколько опасным</color> он будет. Для этого урока мы немного изменили вашу армию. <color=SOTS_COLOR_GOLD>Давайте сразимся!</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_LAYOUT</LocID>
+        <Text><![CDATA[Так выглядит простое поле боя. Атакующая армия всегда начинает с левой стороны и имеет небольшое преимущество благодаря более высокой инициативе. У каждого отряда есть собственная инициатива, которая определяет очередность действий. Порядок очерёдности отрядов вы можете увидеть в нижней части экрана.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_UNIT_OPEN_CARD</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Щёлкните правой кнопкой мыши на карточке отряда</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_UNIT_INFO</LocID>
+        <Text><![CDATA[Здесь вы можете узнать подробности (например, характеристики и специальные умения) любого отряда на поле боя. <color=SOTS_COLOR_GOLD>Закройте карточку отряда</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_UNIT_RANGE</LocID>
+        <Text><![CDATA[Вы можете увидеть дальность передвижения любого отряда, если <color=SOTS_COLOR_GOLD>наведёте на него курсор, удерживая Shift</color>. Давайте <color=SOTS_COLOR_GOLD>попробуем это сейчас</color>!]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_BASIC_INFO</LocID>
+        <Text><![CDATA[У каждого отряда есть <color=SOTS_COLOR_GOLD>диапазон возможных действий</color>, которые они могут совершать во время своего хода:\n<color=SOTS_COLOR_GOLD>- двигаться\n- двигаться и атаковать\n- стрелять, если цель находится в радиусе их действия\nНекоторые отряды могут двигаться и стрелять</color>, но у нас таких нет.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_WAIT</LocID>
+        <Text><![CDATA[Отряды также могут <color=SOTS_COLOR_GOLD>выбрать ожидание</color>, что обозначается жёлтой <color=SOTS_COLOR_GOLD>кнопкой</color> со <color=SOTS_COLOR_GOLD>значком часов</color> над активным отрядом. Это действие <color=SOTS_COLOR_GOLD>перемещает</color> юнит в <color=SOTS_COLOR_GOLD>конец</color> очереди <color=SOTS_COLOR_GOLD>текущего раунда</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_SKIP</LocID>
+        <Text><![CDATA[Отряды также могут <color=SOTS_COLOR_GOLD>выбрать пропуск</color> своего <color=SOTS_COLOR_GOLD> хода</color>, представленного <color=SOTS_COLOR_GOLD>кнопкой</color>, расположенной справа от кнопки "Ждать".]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_LOG_INFO</LocID>
+        <Text><![CDATA[Справа вы можете увидеть <color=SOTS_COLOR_GOLD>журнал боя</color>. В нём фиксируется каждое событие, происходящее в бою.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_AUTO_BATTLE_BUTTON</LocID>
+        <Text><![CDATA[Над журналом есть несколько кнопок управления. Первая - <color=SOTS_COLOR_GOLD>Автобой</color>, которая позволяет компьютеру быстро провести бой.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_RETREAT_BUTTON</LocID>
+        <Text><![CDATA[Вторая - <color=SOTS_COLOR_GOLD>Отступление</color>. Если вы предчувствуете поражение, но не хотите терять своего командира, вы можете пожертвовать своей армией и позволить командиру отступить на базу, чтобы нанять новых наёмников.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_SURRENDER_BUTTON</LocID>
+        <Text><![CDATA[Следующая кнопка - <color=SOTS_COLOR_GOLD>Сдаться</color>. Вы можете заплатить некоторую цену, чтобы выйти из боя без потерь.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_SPEED_BUTTONS</LocID>
+        <Text><![CDATA[Кнопки в следующем разделе позволяют регулировать <color=SOTS_COLOR_GOLD>скорость анимации и перемещений</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_HEXES</LocID>
+        <Text><![CDATA[С помощью последней кнопки вы можете включить или выключить <color=SOTS_COLOR_GOLD>сетку гексов</color><color=SOTS_COLOR_GOLD>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_RANGED_UNIT_SELECT</LocID>
+        <Text><![CDATA[Иногда лучше позволить врагу подойти к вам, особенно если у вас есть отряд дальнего боя, а у противника нет. Давайте <color=SOTS_COLOR_GOLD>пропустим</color> этот ход с нашими <color=SOTS_COLOR_GOLD>отрядами ближнего боя</color>, чтобы <color=SOTS_COLOR_GOLD>выбрать</color> наш <color=SOTS_COLOR_GOLD>отряд стрелков</color>.]]></Text>
+      </GameDBLocalizedString>
+      <!-- Wait for the enemy to come into the range.-->
+      <!--Wait with “Ratling gunner”.-->
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_RANGED_UNIT_SHOOT</LocID>
+        <Text><![CDATA[У каждого стрелка есть дальность, на которой он стреляет точнее и наносит больше урона. <color=SOTS_COLOR_GOLD>Красный контур</color> показывает, где заканчивается их <color=SOTS_COLOR_GOLD>точная стрельба</color>. <color=SOTS_COLOR_GOLD>Стреляйте во врага</color>, даже если он всё ещё находится вне зоны досягаемости.]]></Text>
+      </GameDBLocalizedString>
+      <!-- Wait for the enemy to come into the range.-->
+      <!--Wait with “Ratling gunner”.-->
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_HEX_ATTACKS</LocID>
+        <Text><![CDATA[Схема поля боя и элементы управления основаны на гексах, поэтому, когда вы нацеливаете <color=SOTS_COLOR_GOLD>атаку</color>, цельтесь в <color=SOTS_COLOR_GOLD>гексы</color>, <color=SOTS_COLOR_GOLD>а не в сам отряд</color>. Если ситуация становится запутанной, используйте клавишу <color=SOTS_COLOR_GOLD>CTRL</color> для <color=SOTS_COLOR_GOLD>уменьшения размера всех отрядов</color>, чтобы лучше видеть ситуацию. У каждого отряда есть <color=SOTS_COLOR_GOLD>контратака</color>, которую он может использовать, когда его <color=SOTS_COLOR_GOLD>атакуют</color> <color=SOTS_COLOR_GOLD>в первый раз</color> в течение раунда. <color=SOTS_COLOR_GOLD>Переместите свои отряды ближнего боя поближе, чтобы они могли атаковать</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_RANGE_UNIT_AGAIN</LocID>
+        <Text><![CDATA[Снова настала очередь вашего отряда дальнего боя. Используйте его, чтобы ещё больше проредить ряды вражеских отрядов. <color=SOTS_COLOR_GOLD>Атакуйте</color> своим <color=SOTS_COLOR_GOLD>стрелковым отрядом</color> снова.]]></Text>
+      </GameDBLocalizedString>
+      <!--Try some melee attack. Aim on the border of hex under enemy units. -->
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_MELEE_UNIT</LocID>
+        <Text><![CDATA[Вы можете <color=SOTS_COLOR_GOLD>атаковать</color> противника <color=SOTS_COLOR_GOLD>с любого направления</color>, прицелившись в край гекса с того направления, с которого вы хотите атаковать. Направление не влияет на наносимый урон. Теперь используйте свой <color=SOTS_COLOR_GOLD>отряд ближнего боя для атаки</color>.]]></Text>
+      </GameDBLocalizedString>
+      <!--Try some melee attack. Aim on the border of hex under enemy units. -->
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_WIN</LocID>
+        <Text><![CDATA[Теперь вы знаете основы, так что используйте их и <color=SOTS_COLOR_GOLD>победите</color> в битве.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_FIRST_BATTLE_WON</LocID>
+        <Text><![CDATA[Поздравляем, <color=SOTS_COLOR_GOLD>вы выиграли</color> свой первый бой! <color=SOTS_COLOR_GOLD>Нажмите ЗАКРЫТЬ</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_LEARN_SKILL_TECHIE</LocID>
+        <Text><![CDATA[С помощью XP, полученных в бою, вы снова повысили уровень своего командира. Теперь <color=SOTS_COLOR_GOLD>выберите Техника</color>. Это навык позволит вам использовать умения командира. \nНе забудьте также выбрать характеристику.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_LEARN_ABILITY</LocID>
+        <Text><![CDATA[Умения имеют три уровня мастерства. С каждым уровнем умения становятся сильнее. Каждый раз, когда вы изучаете или улучшаете навык умения, вы можете выбрать новое умение. Пока что <color=SOTS_COLOR_GOLD>выучите дальнобойную артиллерию</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_VISIT_DOJO</LocID>
+        <Text><![CDATA[Вернитесь на карту, перед вами строение <color=SOTS_COLOR_GOLD>Святилище мечника</color>. Как и многие другие строения на карте, Святилище мечника даёт вам награду при посещении. Вы можете увидеть информацию о строении, если наведете на него курсор перед тем, как войти. Теперь <color=SOTS_COLOR_GOLD>идите и проверьте его</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_LEARN_SKILL_CHESS_MASTER</LocID>
+        <Text><![CDATA[Шахматист - навык, позволяющий вам свободно расположить все свои отряды в области на вашей стороне поля боя перед началом сражения. <color=SOTS_COLOR_GOLD>Выучите навык</color>. \nНе забудьте также выбрать характеристику.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_LEARN_SKILL_GLOBETROTTER</LocID>
+        <Text><![CDATA[ Навык <color=SOTS_COLOR_GOLD>Путешественник</color> открывает возможность изучать различные исследовательские умения. <color=SOTS_COLOR_GOLD>Изучите этот навык</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_LEARN_ABILITY_RUSH</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Изучите Рывок</color>, полезное умение, которое позволяет вам восстанавливать немного очков движения каждый ход.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_USE_EXPLORATION_ABILITY</LocID>
+        <Text><![CDATA[Существует две основные категории умений командира: боевые и исследовательские. \nНавык <color=SOTS_COLOR_GOLD>Путешественник</color> позволяет вам использовать <color=SOTS_COLOR_GOLD>умения</color> на <color=SOTS_COLOR_GOLD>карте</color>. Вы можете использовать только одно умение за ход. Умения можно открыть с карточки командира, но давайте попробуем воспользоваться <color=SOTS_COLOR_GOLD>быстрой кнопкой</color> из <color=SOTS_COLOR_GOLD>меню действий командира</color> на <color=SOTS_COLOR_GOLD>правой панели</color>, или <color=SOTS_COLOR_GOLD>левым кликом</color> на вашем <color=SOTS_COLOR_GOLD>командире</color>. <color=SOTS_COLOR_GOLD>Откройте</color> книгу <color=SOTS_COLOR_GOLD> умений</color> и <color=SOTS_COLOR_GOLD>используйте Рывок</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BUILDING_INFO</LocID>
+        <Text><![CDATA[Каждый командир может <color=SOTS_COLOR_GOLD>построить</color> различные <color=SOTS_COLOR_GOLD>строения</color> на <color=SOTS_COLOR_GOLD>карте исследований</color>. Они могут быть оборонительными или атакующими, но мы попробуем строение для сбора ресурсов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_MOVE_TO_BUILD</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Переместимся</color> в более <color=SOTS_COLOR_GOLD>удобное место</color>, чтобы попробовать это.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_LEARN_PROBE_INFO</LocID>
+        <Text><![CDATA[Мы построим <color=SOTS_COLOR_GOLD>добывающий зонд</color>. Он будет <color=SOTS_COLOR_GOLD>собирать ресурсы</color> для вас. Какие это будут <color=SOTS_COLOR_GOLD>ресурсы</color> будут зависеть от <color=SOTS_COLOR_GOLD>территории</color>. Чем <color=SOTS_COLOR_GOLD>дольше</color> вы держите зонд <color=SOTS_COLOR_GOLD>активным</color>, тем <color=SOTS_COLOR_GOLD>больше ресурсов</color> он будет собирать. Вы можете <color=SOTS_COLOR_GOLD>отключить</color> зонд <color=SOTS_COLOR_GOLD>когда захотите</color>, но <color=SOTS_COLOR_GOLD>это могут сделать и ваши враги!</color>. Он активируется по истечении времени активации или при добавлении активационного улучшения.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BUILD_PROBE</LocID>
+        <Text><![CDATA[Используйте <color=SOTS_COLOR_GOLD>левую кнопку мыши</color> на вашем <color=SOTS_COLOR_GOLD>командире</color>, чтобы <color=SOTS_COLOR_GOLD>открыть</color> меню действий <color=SOTS_COLOR_GOLD>командира</color> снова и <color=SOTS_COLOR_GOLD>построить добывающий зонд</color>. ]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_BUILDER_SKILL</LocID>
+        <Text><![CDATA[После изучения навыка <color=SOTS_COLOR_GOLD>Строитель</color> вы сможете создавать более <color=SOTS_COLOR_GOLD>развитые версии строений</color>.]]></Text>
+      </GameDBLocalizedString>
+      <!-- Do we call it a book officially? :) -->
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_LAST_COMBAT</LocID>
+        <Text><![CDATA[Теперь давайте сразимся ещё раз и попробуем использовать в бою особые умения отряда и командира. <color=SOTS_COLOR_GOLD>Атакуйте врага</color> на северо-западе!]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_START_COMBAT_TACTICS</LocID>
+        <Text><![CDATA[Навык Шахматист вашего командира позволяет расставить отряды перед началом боя. Когда вы будете готовы, <color=SOTS_COLOR_GOLD>нажмите кнопку завершения тактической фазы.</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_USE_UNIT_SPECIAL_ABILITY</LocID>
+        <Text><![CDATA[Когда отряды получают <color=SOTS_COLOR_GOLD>улучшение</color>, они приобретают <color=SOTS_COLOR_GOLD>особое умение</color>. Попробуйте использовать одно из особых умений вашего отряда, <color=SOTS_COLOR_GOLD>нажав на кнопку</color> и <color=SOTS_COLOR_GOLD>выбрав цель</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_USE_COMBAT_ABILITY</LocID>
+        <Text><![CDATA[Дальше попробуем использовать <color=SOTS_COLOR_GOLD>боевое умение командира</color>. Вы можете использовать только одно умение командира в каждом раунде. <color=SOTS_COLOR_GOLD>Кликните</color> на портрете <color=SOTS_COLOR_GOLD>командира</color> и выберите <color=SOTS_COLOR_GOLD>Дальнобойную артиллерию</color>. <color=SOTS_COLOR_GOLD>Используйте её</color> на <color=SOTS_COLOR_GOLD>группе вражеских отрядов</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_LAST_BATTLE_WON</LocID>
+        <Text><![CDATA[Поздравляем, <color=SOTS_COLOR_GOLD>вы выиграли</color> свой второй бой. <color=SOTS_COLOR_GOLD>Нажмите ЗАКРЫТЬ</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TUTORIAL_01_TUTORIAL_COMPLETED</LocID>
+        <Text><![CDATA[Поздравляем, вы <color=SOTS_COLOR_GOLD>закончили обучение</color>. Готовы к настоящей игре? <color=SOTS_COLOR_GOLD>Нажмите кнопку ДАЛЬШЕ</color>, чтобы <color=SOTS_COLOR_GOLD>вернуться</color> в <color=SOTS_COLOR_GOLD>Главное меню</color>.]]></Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

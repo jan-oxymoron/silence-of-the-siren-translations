@@ -1,136 +1,330 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_MOLES">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <GameDBLocalizedString>         <LocID>FACTION_MOLES</LocID>                               <Text>Fossorians</Text></GameDBLocalizedString>
-                                                                                                  
-            <!--Unit names-->                                                                     
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT</LocID>                          <Text>Ratling Goon</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_UPG</LocID>                      <Text>Ratling Gunner</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER</LocID>                       <Text>Meatboy</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_UPG</LocID>                   <Text>Meatboy Shredder</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER</LocID>                           <Text>Hammerite</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_UPG</LocID>                       <Text>Hammerite Honor Guard</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO</LocID>                          <Text>Earthshaker</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_UPG</LocID>                      <Text>Earthshaker MK II</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_PROJECTILE</LocID>               <Text>Earthshaker Torpedo</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM</LocID>                             <Text>Tunnel Worm</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_UPG</LocID>                         <Text>Panzer Worm</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER</LocID>                      <Text>Commissar Cadet</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_UPG</LocID>                  <Text>Seasoned Commissar </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH</LocID>                             <Text>Liberator</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_UPG</LocID>                         <Text>Mass Liberator</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WAR_MACHINE_BLAST_WAVE_CANNON</LocID>                 <Text>Blast wave cannon</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WAR_MACHINE_BLAST_WAVE_CANNON_DESCRIPTION</LocID>     <Text><![CDATA[Shoots powerful blast wave once per round, dealing damage and pushing units away from epicenter. Very effective against structures.]]></Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_TORPEDO</LocID>                        <Text>Torpedo</Text></GameDBLocalizedString>
-
-            <!--Unit DESCRIPTIONs. These need to be in sync with descriptions of buildings that produce these units - see StringTableEnMolesBases.xml-->
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_DESCRIPTION</LocID>              <Text>Their pathetic equipment matches the command's trust in their fighting abilities. There is even an old military joke starting with a question: what is the most common organic fertilizer used by Fossorians to revitalize the battlefields? By now, you can surely guess the answer.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_UPG_DESCRIPTION</LocID>          <Text>The Ratling Gunners are the best goods made in the slums and the true reason these halfbreeds are tolerated in the colony. The slums are soaked in violence, drugs, and a traditional voodoo cult mixed with twisted Fossorian propaganda. A week in such a hellhole is enough to make a warrior crazy good - or simply crazy.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_DESCRIPTION</LocID>           <Text>The Meatboy tradition originates from ancient warriors seeking glory in the blood-soaked sand of the arena. A lovely story that is naturally pure propaganda. The truth is buried in the underground research complex full of dead scientists and horribly mutated test subjects. Let's hope that "the truth" will never break out of its containment.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_UPG_DESCRIPTION</LocID>       <Text>With the right training and a proper nutrition plan, everybody can become as buff as a Meatboy! Inspiring, right? What a skinny Fossorian doesn't see are the hundreds of needles pumping a cocktail of steroids into every muscle in the body. So long, weakness, farewell anxiety, goodbye testicles, see you ... wait, what?!</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_DESCRIPTION</LocID>               <Text>Only one in ten adepts survive the extensive cybernetic augmentation required to operate Hammerite power armor. They believe that the armor "chose" them, but if you saw the chop shop's sanitary conditions, you'd suspect it was just their immune systems.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_UPG_DESCRIPTION</LocID>           <Text>The rocket hammer is a mighty weapon. Hammerites spend years learning the martial "Way of the Hammer". But if they need fresh meat fast, it's a "Here is your new hammer; this button will ignite the thruster. Please clean the blood of the previous owner" crash course.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_DESCRIPTION</LocID>              <Text>Earthshaker operators address each other as One-way fliers. If you wonder why, remember that they sit on a big pile of explosives, sloppily secured against spontaneous combustion. They are either exceptionally brave or just monumentally stupid. I guess it depends on how close you stand on launch day. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_UPG_DESCRIPTION</LocID>          <Text>After many fruitless years, the Upgraded Earthshakers project caught the Supreme leader's attention. Once heads started rolling, the project team made a miraculous breakthrough. The mark-II design boosted only one thing. The firepower! </Text></GameDBLocalizedString>
-
-            <!-- Chris I've "edited" the next two but need clarification on the context. -->
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_DESCRIPTION</LocID>                 <Text>For Tunnel Worms, death doesn't mean the end of the service. No, no, we are not speaking about "The Urowormos", the afterlife nonsense taught by the high-as-a-kite witchdoctors in the Ratling Slums. We are discussing that weird kebab you've been served in the local cantina.</Text></GameDBLocalizedString>
-            
-            <!-- JB: Chris accidentally deleted this, so still TODO :) -->
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_UPG_DESCRIPTION</LocID>             <Text>In prehistoric times the entire Fossorians race was nearly wiped out by these ferocious predators. Nowadays, Panzer worms are a product of careful breading and neuro-castration. Still, no sedation nor a cruel taming process can extinguish the carnivore instincts of these living weapons.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_DESCRIPTION</LocID>          <Text>The commissars are so ideologically obsessed they can order a planetary bombardment on their own troops and call it a clear victory. But perhaps they get some credit for lowering the number of deserters, cowards, and loafers - by eliminating troops with those traits - another clear victory, ain't it? </Text></GameDBLocalizedString>
-            <!-- Chris I've "edited" the two above but need clarification on the context. -->       
-	        <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_UPG_DESCRIPTION</LocID>      <Text>Once the commissar ranks are cleared (primarily by fragging) of the loud, suicidal charge types, surprised commanders discover that those remaining do a ton of heavy lifting in combat without the over-the-top heroics.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_DESCRIPTION</LocID>                 <Text>Everybody knows that the Supreme Leader himself designed the Liberator. Anyone else who tried to take credit for it vanished. (Along with their families and friends.) Even the goldfish in the team's office disappeared and the entire engineering wing was wrecked for good measure.  </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_UPG_DESCRIPTION</LocID>             <Text>The mechanics have a saying, "Every machine is a smoke machine if you operate it wrong enough". But this time, it is actually the other way around. The toxic gas produced by a Mass Liberator is something you WANT to have on the battlefield. Preferably in the lungs of your enemies, though.</Text></GameDBLocalizedString>
-            
-            <!--Unit special abilities-->
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_UPG_PASSIVE_INFO_DESCRIPTION</LocID> <Text>Gains a Ranged Attack.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_PASSIVE_INFO_DESCRIPTION</LocID>  <Text>Inflicts bleeding.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_BLINDPILER_SPECIAL</LocID>             <Text>Turns into an uncontrollable beast that attacks the closest enemy twice.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_PASSIVE_INFO_DESCRIPTION</LocID>  <Text>Can attack up to 3 enemies standing next to each other.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_HAMMER_SPECIAL</LocID>                 <Text>A seismic wave that hits three rows of enemies.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_PASSIVE_INFO_DESCRIPTION</LocID>      <Text><![CDATA[Shoots a torpedo which explodes at the end of the round, causing burning damage. <color=SOTS_COLOR_GOLD>No friendly fire</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_UPG_PASSIVE_INFO_DESCRIPTION</LocID>  <Text><![CDATA[Shoots two torpedos which explodes at the end of the round, causing burning damage. <color=SOTS_COLOR_GOLD>No friendly fire</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_UPG_PASSIVE_INFO_DESCRIPTION</LocID>     <Text>Hides underground at the start of its turn. \nHas to re-emerge after three rounds.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_PASSIVE_INFO_DESCRIPTION</LocID>  <Text>Can jump over obstacles.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_PASSIVE_INFO_DESCRIPTION</LocID>        <Text>Can attack up to 3 enemies standing next to each other.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_BEASTMASTER_SPECIAL</LocID>            <Text>Throws an exploding spear.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_MECH_SPECIAL</LocID>                   <Text>Fires poisonous projectiles in all directions.</Text>  </GameDBLocalizedString>
-
-            <!--Commander's names-->
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_1</LocID>                                 <Text>Maj. Skaurov</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_2</LocID>                                 <Text>Commissar Snif</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_3</LocID>                                 <Text>Hak "the Rat"</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_4</LocID>                                 <Text>Agent Molsson</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_5</LocID>                                 <Text>Sgt. Moltair</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_6</LocID>                                 <Text>Tax Collector Tott</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_7</LocID>                                 <Text>Lt. Moletoff</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_8</LocID>                                 <Text>Capt. Holester</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_9</LocID>                                 <Text>Gen. Truda </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_10</LocID>                                <Text>Bulletproof Beni</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_11</LocID>                                <Text>Long Molly</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_12</LocID>                                <Text>Supreme Leader</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_13</LocID>                                <Text>Cmdr. Muff</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_14</LocID>                                <Text>Gen. Furret</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_15</LocID>                                <Text>Relic</Text>  </GameDBLocalizedString>
-
-            <!-- ======================== Commander's BIOs ======================== -->
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_1_DESCRIPTION</LocID>                     <Text>Skaurov's face looks like a battlefield. Terrifying scars silently testify to long and thorough torture. Some say he was the Supreme Leader's second, perhaps even a childhood friend during the revolution. Only one thing is known for sure. All the big names from the revolution were convicted of treason shortly after its success, except for Skaurov.</Text>  </GameDBLocalizedString>
-            
-            <!-- For Chris: texts ready for proofreading 2024-01 START -->
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_2_DESCRIPTION</LocID>                     <Text>The self-appointed commander of special forces carries the smug of a rock 'n' roll star. In a perfectly tailored uniform and black glasses, he became the face of the propaganda posters sooner than they managed to get rid of him. In the present he is untouchable but he knows he's running on the very edge of the blade. </Text>  </GameDBLocalizedString>
-            <!-- For Chris: texts ready for proofreading 2024-01 END -->
-            
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_3_DESCRIPTION</LocID>                     <Text>A notorious mercenary. He'll be your most loyal commander till the first hint of trouble. One heartbeat later, he's undressing the nearby corpse of an enemy officer and turning coat.\n \n Though unpopular among other warlords, he is an indispensable part of most black ops conducted by Fossorians.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_4_DESCRIPTION</LocID>                     <Text>Combine the personality of Judas with chameleon skin, and you'll get a Molsson. In the last few months, he has inspired more revolutionaries than the bearded fellow's brochure during the summer of 1848. He then turned them all in for treason. Agent Molsson considers himself a master of disguises and a smooth-talking womanizer.\n \nAn anomaly for his species, he has developed a taste for a human-made beverage known as a Martini. "Stirred, not shaken".</Text>  </GameDBLocalizedString>  
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_5_DESCRIPTION</LocID>                     <Text>A true muscle-minded tank-brain, but our heroic Liberator Brigades couldn't wish for a better leader. Srg. Moltair's victories are the stuff of legends (and according to the dictionary, many legends are based on truth). Reports from the battlefield proudly sing about his achievements! 27 victories in 22 battles. What a mole!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_6_DESCRIPTION</LocID>                     <Text>No one knows what kind of favor Tott provided the Supreme Leader to score such a lucrative post, but everyone can see that since granted the rank of Tax Collector, his influence over Fosorian colonies has grown steadily. His flamboyant lifestyle of chic uniforms and decadent parties reeks of tax evasion on an epic scale, but no one dares snitch on him because anyone with the power to do so either already attends these lavish shindigs or desperately wants to.</Text></GameDBLocalizedString> <!-- In any other circumstance, he would be reported by some "true-hearted" party member, but it seems that all VIPs are regulars at his little banquets or just hopes that they will be soon invited and don't want to ruin their chances for the golden ticket by snitching. -->
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_7_DESCRIPTION</LocID>                     <Text>A former hero partisan commander during the Nemek rebellion. \n \nThe Nemek was the only agricultural vessel in the Fosorian fleet. The ship's commanders tried to capitalize on this by establishing one of the Admirals as a new supreme leader. It led to a two-week-long battle in the ship's grow tunnels that ultimately concluded in the destruction of the ship by Moletoff's commandos. The rest of the fleet nearly died of hunger, but luckily the Siren system was not far. To his great wonder, Moletoff was not executed but promoted to the rank of Lieutenant. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_8_DESCRIPTION</LocID>                     <Text>During the first clash between Fossorians and the UNSS, he commanded the infamous dreadnought Supreme Fist and became notorious for the only spaceship ramming attempt recorded in the 24th century. Now he's a captain without a ship. Though mocked by the other warlords, he's the only captain to discover a fundamental flaw in the UNSS ship shielding — their inability to stop low-velocity objects.</Text>  </GameDBLocalizedString>
-<!--            <GameDBLocalizedString>         <LocID>HERO_MOLE_8_DESCRIPTION</LocID>                     <Text>One of the leaders of the Nemek rebellion. A message about Holester's death was published only the moment before the ship's destruction. It was fabricated and meant to lower the morale of the rebels but in the chaos of the rebellion aftermath, nobody remembered and death was the best point for starting a new life.        </Text>  </GameDBLocalizedString>-->
-            
-            <!-- For Chris: texts ready for proofreading 2024-01 START -->
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_9_DESCRIPTION</LocID>                     <Text>The only true officer, who joined the rebellion and kept the rank... and head. \n \nYou can tell the difference right away because the graduate of the military academy can come up with a much more sophisticated strategy than the usual evergreen of the former plumbers dressed in uniform "Just send mole wave after mole wave and we will see!".</Text>  </GameDBLocalizedString>
-            <!-- For Chris: texts ready for proofreading 2024-01 END -->
-            
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_10_DESCRIPTION</LocID>                    <Text>Rumor has it that Beni has been caught by Fossorian warlords and faced the firing squad at least three times but somehow still walks free and unharmed. Yet there is another, utterly unrelated rumor about five identical brothers born in the slums of old Fossoria.\n \nMany believe that the fourth firing squad will also fail. The fifth one, though, has a pretty good chance of succeeding.</Text>  </GameDBLocalizedString>
-
-            <!-- For Chris: texts ready for proofreading 2024-01 START -->
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_11_DESCRIPTION</LocID>                    <Text>The former child star adored for her beautiful facial features matching the ideal of Fossorian beauty.\n\n When she joined the Hammerites everybody considered it a mannerism of the spoiled starlet. Nobody knew the psychotic raised by the studio producers would be the next Lord Commander. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_12_DESCRIPTION</LocID>                    <Text>By Tradition, the Supreme Leader's past is glorious but mostly fabricated. \n \nThe word Mostly is of utmost importance because this is not your usual fat spoiled child of a degenerated dynasty. This fat spoiled degenerate was thrown to the meatgrinder of the biggest and boldest revolution in the Fossorian history and emerged victorious. He is dangerous. Perhaps the most dangerous Fossorian alive.</Text>  </GameDBLocalizedString>
-            <!-- For Chris: texts ready for proofreading 2024-01 END -->
-
-            <!-- For Chris: texts ready for proofreading 2024-03 START -->
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_13_DESCRIPTION</LocID>                    <Text>Flying ace of the Nemek rebellion. He has flown with nearly every type of ship Fossorian fleet and crushed many more. Like all the unsuccessful rebels, he tried to blend in with the population but betrayed by his idealist nature, he was swiftly recognized and sent to the prison colony on the edge of the Fossorian territory. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_MOLE_14_DESCRIPTION</LocID>                    <Text>As the revolution elevated many individuals unsuited for their role the first big purge reversed the process. Many untouchables quickly learn the limits of their immunity. Though the corruption scandal that kicked the stool from under Furret's feet was partially constructed and there are much bigger fish in the pool filled with dirty money, some children must be eaten first.   </Text>  </GameDBLocalizedString>
-            <!-- For Chris: texts ready for proofreading 2024-03 END -->
-            
-            <!--Single handedly kindled a Revolution at the old Fossoria and led the biggest mass exodus in the Fossorian history.-->
-            <!--Though carefuly watching her every step, Supreme Leader would be stupid to waste a sutch a gifted strategist.-->
-            <!--to keep appointed rank through all the way from the homeworld instead of being decorated in the hasty chaos of the escape from the Old Fossoria.-->
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+<Database>
+  <GameDBStringTable ID="LOC_RU_MOLES">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>AlexSnowLeo</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>FACTION_MOLES</LocID>
+        <Text>Фоссорианцы</Text>
+      </GameDBLocalizedString>
+      <!--Unit names-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MOLERAT</LocID>
+        <Text>Крысолюд-головорез</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MOLERAT_UPG</LocID>
+        <Text>Крысолюд-стрелок</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_BLINDPILER</LocID>
+        <Text>Мясник</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_BLINDPILER_UPG</LocID>
+        <Text>Мясник-дробитель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_HAMMER</LocID>
+        <Text>Молотобоец</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_HAMMER_UPG</LocID>
+        <Text>Молотобоец почётного караула</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_TORPEDO</LocID>
+        <Text>Землетряс</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_TORPEDO_UPG</LocID>
+        <Text>Землетряс MK II</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_TORPEDO_PROJECTILE</LocID>
+        <Text>Торпеда землетряса</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_WORM</LocID>
+        <Text>Туннельный червь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_WORM_UPG</LocID>
+        <Text>Панцирный червь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_BEASTMASTER</LocID>
+        <Text>Комиссар-кадет</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_BEASTMASTER_UPG</LocID>
+        <Text>Опытный комиссар</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MECH</LocID>
+        <Text>Освободитель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MECH_UPG</LocID>
+        <Text>Освободитель масс</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_WAR_MACHINE_BLAST_WAVE_CANNON</LocID>
+        <Text>Волновая пушка</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_WAR_MACHINE_BLAST_WAVE_CANNON_DESCRIPTION</LocID>
+        <Text><![CDATA[Стреляет мощной ударной волной один раз за раунд, нанося урон и отбрасывая отряды от эпицентра. Очень эффективна против сооружений.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_TORPEDO</LocID>
+        <Text>Торпеда</Text>
+      </GameDBLocalizedString>
+      <!--Unit DESCRIPTIONs. These need to be in sync with descriptions of buildings that produce these units - see StringTableEnMolesBases.xml-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MOLERAT_DESCRIPTION</LocID>
+        <Text>Их жалкое снаряжение соответствует доверию командования к их боевым умениям. Есть даже старая военная шутка, начинающаяся с вопроса: какое самое распространённое органическое удобрение используют фоссорианцы для оживления полей сражений? Теперь вы наверняка догадаетесь, каков ответ.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MOLERAT_UPG_DESCRIPTION</LocID>
+        <Text>Крысолюды-стрелки - лучший товар, производимый в трущобах, и истинная причина, по которой этих полукровок терпят в колонии. Трущобы пропитаны насилием, наркотиками и традиционным культом вуду, смешанным с извращённой фоссорианской пропагандой. Недели в такой дыре достаточно, чтобы сделать воина безумно крутым — или просто сумасшедшим.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_BLINDPILER_DESCRIPTION</LocID>
+        <Text>Традиция Мясников берёт своё начало от древних воинов, искавших славы в пропитанном кровью песке арены. Прекрасная история, которая, естественно, является чистой пропагандой. Правда похоронена в подземном исследовательском комплексе, полном мёртвых учёных и ужасно мутировавших испытуемых. Будем надеяться, что "правда" никогда не вырвется из своего заточения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_BLINDPILER_UPG_DESCRIPTION</LocID>
+        <Text>С правильной тренировкой и правильным планом питания каждый может стать таким же накачанным, как Мясник! Вдохновляет, правда? Тощий фоссорианец не видит сотен игл, закачивающих коктейль стероидов в каждую мышцу тела. Прощай, слабость, прощай, тревога, прощайте, яички, увидимся... погодите, что?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_HAMMER_DESCRIPTION</LocID>
+        <Text>Только один из десяти адептов переживает обширную кибернетическую аугментацию, необходимую для управления силовой бронёй Молотобойца. Они считают, что броня "выбрала" их, но если бы вы видели санитарные условия в мастерской, вы бы заподозрили, что дело просто в их иммунной системе.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_HAMMER_UPG_DESCRIPTION</LocID>
+        <Text>Ракетный молот — могущественное оружие. Молотобойцы годами изучают боевой "Путь молота". Но если им нужно быстро получить свежее мясо, это ускоренный курс: "Вот твой новый молот, эта кнопка запустит двигатель. Пожалуйста, отчистите кровь предыдущего владельца".</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_TORPEDO_DESCRIPTION</LocID>
+        <Text>Операторы землетрясов называют друг друга "летчиками в один конец". Если вам интересно, почему, помните, что они сидят на большой куче взрывчатки, небрежно защищённой от самовозгорания. Они либо исключительно храбрые, либо просто невероятно глупые. Думаю, это зависит от того, как близко ты стоишь в день запуска.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_TORPEDO_UPG_DESCRIPTION</LocID>
+        <Text>После многих бесплодных лет проект "Улучшенные Землетрясы" привлёк внимание Верховного лидера. Как только полетели головы, команда проекта совершила чудесный прорыв. Конструкция "Марк-II" улучшила всего одну вещь - огневую мощь!</Text>
+      </GameDBLocalizedString>
+      <!-- Chris I've "edited" the next two but need clarification on the context. -->
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_WORM_DESCRIPTION</LocID>
+        <Text>Для Туннельных червей смерть не означает конец службы. Нет-нет, мы говорим не об "Уровормосе", загробной чепухе, которой учат обкуренные знахари в Крысолюдских трущобах. Речь о том странном кебабе, который вам подали в местной забегаловке.</Text>
+      </GameDBLocalizedString>
+      <!-- JB: Chris accidentally deleted this, so still TODO :) -->
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_WORM_UPG_DESCRIPTION</LocID>
+        <Text>В доисторические времена вся раса фоссорианцев была почти уничтожена этими свирепыми хищниками. В настоящее время панцирные черви являются продуктом тщательного разведения и нейро-кастрации. Тем не менее, никакое успокоительное или жестокий процесс приручения не могут погасить хищнические инстинкты этого живого оружия.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_BEASTMASTER_DESCRIPTION</LocID>
+        <Text>Комиссары настолько одержимы идеологией, что могут приказать провести планетарную бомбардировку своих собственных войск и назвать это чистой победой. Но, пожалуй, им стоит отдать должное за то, что они сократили число дезертиров, трусов и бездельников — уничтожив войска с этими качествами — ещё одна чистая победа, не так ли?</Text>
+      </GameDBLocalizedString>
+      <!-- Chris I've "edited" the two above but need clarification on the context. -->
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_BEASTMASTER_UPG_DESCRIPTION</LocID>
+        <Text>Как только ряды Комиссаров очищаются (в основном путём фрагов) от громких, самоубийственных штурмовиков, удивлённые командиры обнаруживают, что оставшиеся выполняют массу тяжёлой работы в бою без чрезмерного героизма.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MECH_DESCRIPTION</LocID>
+        <Text>Всем известно, что сам Верховный лидер разработал Освободитель. Все остальные, кто пытался приписать себе эту заслугу, исчезли. (Вместе со своими семьями и друзьями). Даже золотые рыбки в кабинете команды исчезли, а всё инженерное крыло было разрушено для пущей убедительности.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MECH_UPG_DESCRIPTION</LocID>
+        <Text>У механиков есть поговорка: "Любая машина — это дымовая машина, если вы неправильно её эксплуатируете". Но на этот раз всё наоборот. Токсичный газ, производимый Освободителем масс, — это то, что вы ХОТИТЕ иметь на поле боя. Хотя предпочтительно в лёгких ваших врагов.</Text>
+      </GameDBLocalizedString>
+      <!--Unit special abilities-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MOLERAT_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Получает дальнобойную атаку.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_BLINDPILER_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Наносит кровотечение.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_BLINDPILER_SPECIAL</LocID>
+        <Text>Превращается в неуправляемого зверя, который дважды атакует ближайшего врага.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_HAMMER_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может атаковать до 3 врагов, стоящих рядом друг с другом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_HAMMER_SPECIAL</LocID>
+        <Text>Сейсмическая волна, поражающая три ряда врагов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_TORPEDO_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text><![CDATA[Выпускает торпеду, которая взрывается в конце раунда, нанося урон горением. <color=SOTS_COLOR_GOLD>Огонь по своим запрещён</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_TORPEDO_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text><![CDATA[Выпускает две торпеды, которые взрываются в конце раунда, нанося огненный урон. <color=SOTS_COLOR_GOLD>Огонь по своим запрещен</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_WORM_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Прячется под землёй в начале своего хода. \nВыйдет на поверхность через три раунда.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_BEASTMASTER_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может перепрыгивать через препятствия.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MECH_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может атаковать до 3 врагов, стоящих рядом друг с другом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_BEASTMASTER_SPECIAL</LocID>
+        <Text>Бросает взрывающееся копьё.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_MECH_SPECIAL</LocID>
+        <Text>Стреляет ядовитыми снарядами во всех направлениях.</Text>
+      </GameDBLocalizedString>
+      <!--Commander's names-->
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_1</LocID>
+        <Text>Майор Скауров</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_2</LocID>
+        <Text>Комиссар Снифф</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_3</LocID>
+        <Text>Хак "Крыса"</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_4</LocID>
+        <Text>Агент Молссон</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_5</LocID>
+        <Text>Сержант Молтаир</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_6</LocID>
+        <Text>Сборщик налогов Тотт</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_7</LocID>
+        <Text>Лейтенант Молетофф</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_8</LocID>
+        <Text>Капитан Холстер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_9</LocID>
+        <Text>Генерал Труда</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_10</LocID>
+        <Text>Пуленепробиваемый Бени</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_11</LocID>
+        <Text>Длинная Молли</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_12</LocID>
+        <Text>Верховный лидер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_13</LocID>
+        <Text>Командир Мафф</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_14</LocID>
+        <Text>Генерал Фуррет</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_15</LocID>
+        <Text>Реликвия</Text>
+      </GameDBLocalizedString>
+      <!-- ======================== Commander's BIOs ======================== -->
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_1_DESCRIPTION</LocID>
+        <Text>Лицо Скаурова похоже на поле битвы. Ужасающие шрамы молчаливо свидетельствуют о долгих и тщательных пытках. Некоторые говорят, что он был вторым после Верховного лидера, возможно, даже другом детства во время революции. Достоверно известно только одно. Все громкие имена революции были осуждены за измену вскоре после её успеха, кроме Скаурова.</Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-01 START -->
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_2_DESCRIPTION</LocID>
+        <Text>Самопровозглашённый командир спецназа носит самодовольство рок-звезды. В идеально сшитой форме и чёрных очках он стал лицом пропагандистских плакатов раньше, чем им удалось от него избавиться. В настоящее время он неприкосновенен, но знает, что ходит по лезвию бритвы. </Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-01 END -->
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_3_DESCRIPTION</LocID>
+        <Text>Печально известный наёмник. Он будет вашим самым верным командиром до первого намёка на неприятности. Мгновение спустя он снимает одежду с ближайшего трупа вражеского офицера и переходит на другую сторону.\n\nХотя он непопулярен среди других военачальников, он является неотъемлемой частью большинства чёрных операций, проводимых фоссорианцами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_4_DESCRIPTION</LocID>
+        <Text>Объедините личность Иуды с кожей хамелеона, и вы получите Молссона. За последние несколько месяцев он вдохновил больше революционеров, чем брошюра бородатого парня летом 1848 года. Затем он сдал их всех за измену. Агент Молссон считает себя мастером маскировки и красноречивым бабником.\n\nАномалия для своего вида, он пристрастился к напитку человеческого производства, известному как мартини. "Взболтать, но не смешивать".</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_5_DESCRIPTION</LocID>
+        <Text>Настоящий мускулистый тугодум, но наши героические бригады освободителей не могли мечтать о лучшем лидере. Победы сержанта Молтаира — это настоящие легенды (и, согласно словарю, многие легенды основаны на правде). Донесения с поля боя гордо поют о его достижениях! 27 побед в 22 битвах. Вот это крот!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_6_DESCRIPTION</LocID>
+        <Text>Никто не знает, какую услугу Тотт оказал Верховному лидеру, чтобы получить такой выгодный пост, но все видят, что с тех пор, как ему был присвоен ранг сборщика налогов, его влияние на фоссорианские колонии неуклонно растёт. Его экстравагантный образ жизни, шикарная форма и декадентские вечеринки отдают уклонением от уплаты налогов в эпических масштабах, но никто не осмеливается донести на него, потому что любой, у кого есть на это полномочия, либо уже посещает эти роскошные вечеринки, либо отчаянно хочет этого.</Text>
+      </GameDBLocalizedString>
+      <!-- In any other circumstance, he would be reported by some "true-hearted" party member, but it seems that all VIPs are regulars at his little banquets or just hopes that they will be soon invited and don't want to ruin their chances for the golden ticket by snitching. -->
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_7_DESCRIPTION</LocID>
+        <Text>Бывший герой-командир партизан во время восстания Немека. \n\n"Немек" был единственным сельскохозяйственным судном во флоте фоссорианцев. Командиры корабля попытались извлечь из этого выгоду, назначив одного из адмиралов новым верховным лидером. Это привело к двухнедельной битве в туннелях для выращивания растений на корабле, которая в конечном итоге завершилась уничтожением корабля коммандос Молетоффа. Остальная часть флота чуть не умерла от голода, но, к счастью, система Сирены была недалеко. К его великому удивлению, Молетоффа не казнили, а повысили до лейтенанта. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_8_DESCRIPTION</LocID>
+        <Text>Во время первого столкновения между фоссорианцами и UNSS он командовал печально известным дредноутом "Верховный кулак" и прославился единственной попыткой тарана космического корабля, зафиксированной в 24 веке. Теперь он капитан без корабля. Хотя другие военачальники насмехаются над ним, он единственный капитан, обнаруживший фундаментальный недостаток в защите кораблей UNSS — их неспособность останавливать объекты, движущиеся с низкой скоростью.</Text>
+      </GameDBLocalizedString>
+      <!--<GameDBLocalizedString>
+                <LocID>HERO_MOLE_8_DESCRIPTION</LocID>
+                <Text>One of the leaders of the Nemek rebellion. A message about Holester's death was published only the moment before the ship's destruction. It was fabricated and meant to lower the morale of the rebels but in the chaos of the rebellion aftermath, nobody remembered and death was the best point for starting a new life.        </Text>
+            </GameDBLocalizedString>-->
+      <!-- For Chris: texts ready for proofreading 2024-01 START -->
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_9_DESCRIPTION</LocID>
+        <Text>Единственный настоящий офицер, который присоединился к восстанию и сохранил звание... и голову. \n\nВы сразу можете заметить разницу, потому что выпускник военной академии может придумать гораздо более сложную стратегию, чем обычная вечнозелёная стратегия бывших сантехников в форме: "Просто посылайте волну за волной кротов, и там посмотрим!".</Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-01 END -->
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_10_DESCRIPTION</LocID>
+        <Text>Ходят слухи, что Бени был пойман фоссорианскими военачальниками и по крайней мере трижды предстал перед расстрельной командой, но каким-то образом всё ещё гуляет на свободе и невредим. Но есть ещё один, совершенно не связанный с этим слух о пяти братьях-близнецах, родившихся в трущобах старой Фоссории.\n\nМногие считают, что четвёртая расстрельная команда также потерпит неудачу. У пятой, однако, есть неплохие шансы на успех.</Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-01 START -->
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_11_DESCRIPTION</LocID>
+        <Text>Бывшая детская звезда, обожаемая за красивые черты лица, соответствующие идеалу фоссорианской красоты.\n\nКогда она присоединилась к молотобойцам, все сочли это манерностью избалованной старлетки. Никто не знал, что психопатка, воспитанная студийными продюсерами, станет следующим лордом-командующим. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_12_DESCRIPTION</LocID>
+        <Text>По традиции прошлое Верховного лидера славно, но в основном сфабриковано. \n\nСлово "в основном" имеет первостепенное значение, потому что это не обычный жирный избалованный ребёнок выродившейся династии. Этот жирный избалованный дегенерат был брошен в мясорубку самой большой и смелой революции в истории фоссорианцев и вышел из неё победителем. Он опасен. Возможно, самый опасный из ныне живущих фоссорианцев.</Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-01 END -->
+      <!-- For Chris: texts ready for proofreading 2024-03 START -->
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_13_DESCRIPTION</LocID>
+        <Text>Лётчик-ас восстания Немека. Он летал почти на всех типах кораблей фоссорианского флота и уничтожил ещё больше. Как и все неудачливые повстанцы, он пытался смешаться с населением, но, преданный своей идеалистической натурой, был быстро опознан и отправлен в исправительную колонию на окраине территории фоссорианцев. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_MOLE_14_DESCRIPTION</LocID>
+        <Text>Поскольку революция возвысила многих людей, не подходящих для своей роли, первая большая чистка обратила этот процесс вспять. Многие неприкасаемые быстро узнают пределы своего иммунитета. Хотя коррупционный скандал, выбивший табуретку из-под ног Фуррета, был частично сфабрикован, и в бассейне, полном грязных денег, есть рыба покрупнее, некоторые дети должны быть съедены в первую очередь.</Text>
+      </GameDBLocalizedString>
+      <!-- For Chris: texts ready for proofreading 2024-03 END -->
+      <!--Single handedly kindled a Revolution at the old Fossoria and led the biggest mass exodus in the Fossorian history.-->
+      <!--Though carefuly watching her every step, Supreme Leader would be stupid to waste a sutch a gifted strategist.-->
+      <!--to keep appointed rank through all the way from the homeworld instead of being decorated in the hasty chaos of the escape from the Old Fossoria.-->
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
