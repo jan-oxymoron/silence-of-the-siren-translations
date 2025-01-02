@@ -9,194 +9,196 @@
 
         <LocalizedStrings>
             <!-- Note: same value, this is from an enum -->
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_LEARN_ABILITY_EACH_CYCLE</LocID>            <Text><![CDATA[Commander can learn a random ability up to <color=SOTS_COLOR_UPGRADE>level {1}</color> the beginning of a new cycle.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_COMBAT_DESCRIPTION</LocID>                <Text><![CDATA[Each point of Combat power increases the <color=SOTS_COLOR_UPGRADE>defense</color> of your units by <color=SOTS_COLOR_UPGRADE>1</color> and <color=SOTS_COLOR_ATTACK>damage</color> by <color=SOTS_COLOR_ATTACK>10%</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>HERO_AT_BASE</LocID>                                     <Text>at</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_LEARN_ABILITY_EACH_CYCLE</LocID>            <Text><![CDATA[A Parancsnok egy új ciklus kezdetéig, egy<color=SOTS_COLOR_UPGRADE>szint{1}</color> kategóriájú véletlenszerű Képességet fog megtanulni.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_COMBAT_DESCRIPTION</LocID>                <Text><![CDATA[Minden egyes Harci Erő pont megnöveli <color=SOTS_COLOR_UPGRADE>Védelem értéket</color> az egységeidnek ennyivel: <color=SOTS_COLOR_UPGRADE>1</color> és a <color=SOTS_COLOR_ATTACK>Sebzés értéküket</color> ennyivel: <color=SOTS_COLOR_ATTACK>10%</color>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_AT_BASE</LocID>                                     <Text>A Bázisnál van</Text>  </GameDBLocalizedString>
 
             <!--   Missing description fot Mortar grenade     Assets\StreamingAssets\ModulePirates\Database\Localization\StringTableEnPirates.xml-->
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_PROJECTILE</LocID>   <Text>Mortar grenade</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_PROJECTILE</LocID>   <Text>Mozsárgránát</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_PROJECTILE_DESCRIPTION</LocID>   <Text>Mortgage overdue, mysterious lump on your neck, occasional rating noises from the engine?! Life is full of the swords of Damocles! But you should stop ignoring this one. Immediately!</Text></GameDBLocalizedString>
-          
-           <!--   Missing description fot Torpedo - projectile    Assets/StreamingAssets/ModuleMoles/Database/Localization/StringTableEnMoles.xml-->
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_PROJECTILE_DESCRIPTION</LocID>    <Text>Some of them fail to explode and turn former battlefields into minefields. Then after ten or more years, you go walk your genetically enhanced monkey, and suddenly BOOM! You walk an empty leash! Oh, those Fossorians!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_PROJECTILE_DESCRIPTION</LocID>   <Text>Lejárt jelzáloghitel, rejtélyes gombóc a nyakadon, időnként minősítő hangok a motorból?! Az élet tele van Damoklész kardjaival! De abba kell hagynod ennek figyelmen kívül hagyását. Azonnal!</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_ARCHIVE</LocID>                            <Text>Archive</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_ARCHIVE_ENABLED</LocID>                         <Text>Autosave archive enabled</Text>  </GameDBLocalizedString>
+            <!--   Missing description fot Torpedo - projectile    Assets/StreamingAssets/ModuleMoles/Database/Localization/StringTableEnMoles.xml-->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_PROJECTILE_DESCRIPTION</LocID>    <Text>Némelyikük nem képes felrobbanni, és az egykori csatatereket aknamezőkké változtatni. Aztán tíz vagy több év elteltével sétáltatod a genetikailag módosított majmot, és hirtelen BUMM! Üres pórázon sétál! Ó, azok a Földtúrók!</Text></GameDBLocalizedString>
 
-            
+            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_ARCHIVE</LocID>                            <Text>Archívum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_ARCHIVE_ENABLED</LocID>                         <Text>Szöveg archívum automatikus mentés engedélyezezése</Text>  </GameDBLocalizedString>
+
+
             <!--Equipment redesign-->
-            <GameDBLocalizedString>         <LocID>CONSUMABLE_PLANETFALL_BEACON_RESOURCES_DESCRIPTION_V2</LocID>        <Text><![CDATA[A large stock of resources, of which the player has the least, is dropped near the commander location. (In case of the same amount for multiple resources, it is chosen randomly)]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE_DESCRIPTION_V3</LocID>                         <Text><![CDATA[Increases the commander's <color=SOTS_COLOR_GOLD>Exploration Proficiency</color> attribute by<color=SOTS_COLOR_GOLD> 3</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EQUIPMENT_SIDEARM_DESCRIPTION_V3</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_RED>Retaliation Damage</color> increased by 50%.]]></Text>  </GameDBLocalizedString>
-            
-            
-            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_RANDOM_ABILITY</LocID>                      <Text>Random Ability Consumable</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_RANDOM_ABILITY_LEARNING_DESCRIPTION</LocID> <Text>The commander will learn the random ability.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CONSUMABLE_NO_PARENT_SKILL</LocID>                                   <Text><![CDATA[<color=SOTS_COLOR_RED>No suitable skill to learn ability.</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_CONSUMABLE_HERO_LEARNED_ABILITY</LocID>               <Text>Commander learned a new ability!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_CONSUMABLE_HERO_LEARNED_ABILITY_TEXT</LocID>          <Text>{1} learned {2} using the Ability Consumable.</Text></GameDBLocalizedString>
-            
-            
-            <GameDBLocalizedString>         <LocID>HERO_TOOLTIP_LURE_INFORMATION</LocID>                                <Text><![CDATA[Hazard <color=SOTS_COLOR_GOLD>influenced</color> by <color=SOTS_COLOR_GOLD>Lure</color>.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_TOOLTIP_HOLLOW_SCARECROW_INFORMATION</LocID>                    <Text><![CDATA[Hazard <color=SOTS_COLOR_GOLD>influenced</color> by <color=SOTS_COLOR_GOLD>Holo Scarecrow</color>.]]></Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>ARTIFACT_MOONWALKER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[An artifact.\nDuring the <color=SOTS_COLOR_GOLD>night</color>, it will <color=SOTS_COLOR_GOLD>raise</color> all of commander's <color=SOTS_COLOR_GOLD>atributes by 7</color>. During the <color=SOTS_COLOR_GOLD>day</color> the commander's atributes will <color=SOTS_COLOR_GOLD>return to normal</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EQUIPMENT_DEEP_SCANNER_DESCRIPTION_V2</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Reveals mines, veins and resources</color> in a vast area <color=SOTS_COLOR_GOLD>around Commander</color> through Fog Of War.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EQUIPMENT_ENCOURAGEMENT_WHIP_DESCRIPTION_V2</LocID>                  <Text><![CDATA[Will make <color=SOTS_COLOR_GOLD>use of Rush ability free</color>. Will also <color=SOTS_COLOR_GOLD>bestow Rush ability</color> for commanders without Globetrotter skill or have not learned the Rush ability.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_PLANETFALL_BEACON_RESOURCES_DESCRIPTION_V2</LocID>        <Text><![CDATA[Nyersanyagrőforrások nagy készlete, amely a játékoshoz legközelebbi helyre, a Parancsnok helyéhez közeli területre esik. (Több Nyersanyagerőforrás esetén egy azonos összeg esetén, véletlenszerűen kerül kiválasztásra)]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE_DESCRIPTION_V3</LocID>                         <Text><![CDATA[Megnöveli a Parancsnok <color=SOTS_COLOR_GOLD>Felfedezési Hatásfok</color> tulajdonság értékét ennyivel: <color=SOTS_COLOR_GOLD> 3</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SIDEARM_DESCRIPTION_V3</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_RED>Visszatámadó Sebzés</color> megnő 50%-al.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH_DESCRIPTION_V3</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_GOLD>Increases</color> the commanders <color=SOTS_COLOR_GOLD>vision</color> till the end of the round and <color=SOTS_COLOR_GOLD>reveals attributes</color> of enemy commanders.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MAGNESIUM_TORCH</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Increaseds</color> scouting <color=SOTS_COLOR_GOLD>range</color>. <color=SOTS_COLOR_GOLD>Revealed</color> enemy commanders <color=SOTS_COLOR_GOLD>attributes</color>.(Torch)]]></Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>MAPOBJ_DUST_FOG</LocID>                                              <Text>Dust Fog</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_SPORE_FOG</LocID>                                             <Text>Spore Fog</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_RANDOM_ABILITY</LocID>                      <Text>Véletlenszerű Képességtalálás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_RANDOM_ABILITY_LEARNING_DESCRIPTION</LocID> <Text>A Parancsnok megtanul egy véletlenszerű Képességet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NO_PARENT_SKILL</LocID>                                   <Text><![CDATA[<color=SOTS_COLOR_RED>Nincs, egy megfelelő olyan Készség sem a Parancsnoknál, amellyel megtanulhatna egy Képességet.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_CONSUMABLE_HERO_LEARNED_ABILITY</LocID>               <Text>A Parancsnok megtanult egy új Képességet!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_CONSUMABLE_HERO_LEARNED_ABILITY_TEXT</LocID>          <Text>{1} Megtanulta {2} használva a Képességtalálás lehetőséget.</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>HERO_TOOLTIP_LURE_INFORMATION</LocID>                                <Text><![CDATA[Veszélyes <color=SOTS_COLOR_GOLD>befolyásolás alá került</color> a <color=SOTS_COLOR_GOLD>a Csalógató Vonzerő által</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_TOOLTIP_HOLLOW_SCARECROW_INFORMATION</LocID>                    <Text><![CDATA[Veszélyes <color=SOTS_COLOR_GOLD>befolyásolás alá került</color> a <color=SOTS_COLOR_GOLD>a Madárijesztő Hologram által</color>.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_MOONWALKER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Egy Relikvia.\nAz <color=SOTS_COLOR_GOLD>éjszakai időszakok</color>során,<color=SOTS_COLOR_GOLD>megnöveli</color> a Parancsnok összes <color=SOTS_COLOR_GOLD>tulajdonságpontját 7-el</color>. A <color=SOTS_COLOR_GOLD>Nappali időszakok</color>során a Parancsnok tulajdonságpontjainak értékei <color=SOTS_COLOR_GOLD>visszakerülnek normál értékeikre</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DEEP_SCANNER_DESCRIPTION_V2</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Felfedi a bányákat, Nyersanyagpontokat és Nyersanyagerőforrásokat</color> egy nagy területen <color=SOTS_COLOR_GOLD>a Parancsnok körül</color> a Háború Ködén át is.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_ENCOURAGEMENT_WHIP_DESCRIPTION_V2</LocID>                  <Text><![CDATA[Mindez a <color=SOTS_COLOR_GOLD>s Roham Képesség használatát ingyenessé teszi</color>. Ezenkívül <color=SOTS_COLOR_GOLD>megadja a Roham Képességet</color> azon Parancsnokok számára, akiknek nincs meg a Világjáró Készség vagy ha magát, a Roham Képességet még nem tanulták meg.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH_DESCRIPTION_V3</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_GOLD>Megnöveli</color> a Parancsnok <color=SOTS_COLOR_GOLD>Látótávolságát</color> a Fázis végéig, és <color=SOTS_COLOR_GOLD>megmutatja a Tulajdonságpontjait</color> az ellenséges Parancsnokoknak.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MAGNESIUM_TORCH</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Megnövelt</color> felfedezési <color=SOTS_COLOR_GOLD>távolság</color>. <color=SOTS_COLOR_GOLD>Megmutatja</color> az ellenséges Parancsnokok<color=SOTS_COLOR_GOLD>Tulajdonságpontjait</color>.(Torch)]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DUST_FOG</LocID>                                              <Text>Porköd</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SPORE_FOG</LocID>                                             <Text>Spóraköd</Text>  </GameDBLocalizedString>
 
 
             <!--Equipment redesign-->
 
             <!--Skills and attributes redesign-->
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_ENGINEER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Adds a <color=SOTS_COLOR_ENERGY>5 Energy Point</color> daily recharge with each skill level.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER1_V2</LocID>                                    <Text><![CDATA[Recharges <color=SOTS_COLOR_ENERGY>5 Energy Points</color> daily.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER2_V2</LocID>                                    <Text><![CDATA[Recharges <color=SOTS_COLOR_ENERGY>10 Energy Points</color> daily.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER3_V2</LocID>                                    <Text><![CDATA[Recharges <color=SOTS_COLOR_ENERGY>15 energy points</color> daily.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_ENGINEER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Naponta ad <color=SOTS_COLOR_ENERGY>5 Energiapont</color> visszatöltést, minden egyes meglévő Készség szinttel]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER1_V2</LocID>                                    <Text><![CDATA[Visszatölt <color=SOTS_COLOR_ENERGY>5 Energiapontot</color> naponta.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER2_V2</LocID>                                    <Text><![CDATA[Visszatölt <color=SOTS_COLOR_ENERGY>10 Energiapontot</color> naponta.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER3_V2</LocID>                                    <Text><![CDATA[Visszatölt <color=SOTS_COLOR_ENERGY>15 Energiapontot</color> naponta.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>4 Movement Points</color> + <color=SOTS_COLOR_GOLD>Exploration efficiency</color> attribute with each skill level.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER1_V2</LocID>                                    <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>4 Movement Points</color> + <color=SOTS_COLOR_GOLD>Exploration efficiency</color> attribute.\nMeeting any friendly commander restores <color=SOTS_COLOR_MOVEMENT>2 Movement Points</color> once per phase.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER2_V2</LocID>                                    <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>8 Movement Points</color> + <color=SOTS_COLOR_GOLD>Exploration efficiency</color> attribute.\nMeeting any friendly commander restores <color=SOTS_COLOR_MOVEMENT>4 Movement Points</color> once per phase.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER3_V2</LocID>                                    <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>12 Movement Points</color> + <color=SOTS_COLOR_GOLD>Exploration efficiency</color> attribute.\nMeeting any friendly commander restores <color=SOTS_COLOR_MOVEMENT>6 Movement Points</color> once per phase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Tartósan ad <color=SOTS_COLOR_MOVEMENT>4 Mozgáspontot</color> + 1 <color=SOTS_COLOR_GOLD>Felfedezési Hatásfok</color> Tulajdonságpontot minden egyes meglévő Készség szinttel.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER1_V2</LocID>                                    <Text><![CDATA[Tartósan ad <color=SOTS_COLOR_MOVEMENT>4 Mozgáspontot</color> + 1 <color=SOTS_COLOR_GOLD>Felfedezési Hatásfok</color> attribute.\nEgy baráti Parancsnokkal találkozva visszatölt <color=SOTS_COLOR_MOVEMENT>2 Mozgáspontot</color> Fázisonként.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER2_V2</LocID>                                    <Text><![CDATA[Tartósan ad <color=SOTS_COLOR_MOVEMENT>8 Mozgáspontot</color> + 1 <color=SOTS_COLOR_GOLD>Felfedezési Hatásfok</color> attribute.\nEgy baráti Parancsnokkal találkozva visszatölt <color=SOTS_COLOR_MOVEMENT>4 Mozgáspontot</color> Fázisonként.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER3_V2</LocID>                                    <Text><![CDATA[Tartósan ad <color=SOTS_COLOR_MOVEMENT>12 Mozgáspontot</color> + 1 <color=SOTS_COLOR_GOLD>Felfedezési Hatásfok</color> attribute.\nEgy baráti Parancsnokkal találkozva visszatölt <color=SOTS_COLOR_MOVEMENT>6 Mozgáspontot</color> Fázisonként.]]></Text>  </GameDBLocalizedString>
 
 
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_COLLECTOR</LocID>                                       <Text><![CDATA[Equipment and Artifact <color=SOTS_COLOR_GOLD>activation cost</color> is reduced by <color=SOTS_COLOR_ENERGY>{1}%</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_COLLECTOR_DESCRIPTION_V2</LocID>                          <Text>Adds an extra slot for artifacts or equipment with each skill level. Allows picking up items from dangerous zones around neutral armies without triggering a battle. Items activation cost is reduced by 10% with each level.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_COLLECTOR</LocID>                                       <Text><![CDATA[A Felszerelések és Relikviák<color=SOTS_COLOR_GOLD>Aktivációs Költsége</color> lecsökken ennyivel: <color=SOTS_COLOR_ENERGY>{1}%</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_COLLECTOR_DESCRIPTION_V2</LocID>                          <Text>Minden Készség szinttel hozzáad egy extra helyet a Relikviák vagy Felszerelések számára. Lehetővé teszi tárgyak felvételét a semleges seregek körüli veszélyes zónákból anélkül, hogy csatába indulna a Parancsnok serege. A tárgyak aktiválási költsége minden szinten 10%-kal csökken.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_TRACKER_DESCRIPTION_V2</LocID>                            <Text><![CDATA[Reduces penalty for moving through rough terrain. Commander also has, based on skill level, various perks.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_TRAILS</LocID>                                  <Text><![CDATA[Can see tracks of <color=SOTS_COLOR_GOLD>last 20 steps</color> of <color=SOTS_COLOR_GOLD>enemy commanders</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_TURRETS</LocID>                                 <Text><![CDATA[+15% Chance to gain additional primal <color=SOTS_COLOR_FUSION_CORE>Fusion core</color> from pickup.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_FUSION_CORES</LocID>                            <Text><![CDATA[The commander <color=SOTS_COLOR_GOLD>is ignored</color> by Primal <color=SOTS_COLOR_GOLD>turrets and other defenses</color>.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_SCOUT_DESCRIPTION_V2</LocID>                              <Text><![CDATA[Gives info about hostile armies. Commander is unaffected by traps and hazards, visiting first building (object) each phase replenishes <color=SOTS_COLOR_MOVEMENT>30 movement points</color> and trading armies does not take them.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORATION_XP_BOOST</LocID>                            <Text><![CDATA[Increases exploration <color=SOTS_COLOR_XP>Experience points</color> by <color=SOTS_COLOR_GOLD>{1}%</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_TRACKER_DESCRIPTION_V2</LocID>                            <Text><![CDATA[Csökkenti a büntetés mértékét, ha durva terepen halad át. A Parancsnok, a Készség szintjétől függően különféle jutalmakat is kaphat.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_TRAILS</LocID>                                  <Text><![CDATA[Megmutatja a nyomvonalát, <color=SOTS_COLOR_GOLD>azaz utolsó 20 lépését</color> az, <color=SOTS_COLOR_GOLD>ellenséges Parancsnokoknak</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_TURRETS</LocID>                                 <Text><![CDATA[+15% Esély, arra hogy további 1 Ősi <color=SOTS_COLOR_FUSION_CORE>Fúziós Magot</color> szerezhessen, annak felvételekor.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_FUSION_CORES</LocID>                            <Text><![CDATA[A Parancsnokot <color=SOTS_COLOR_GOLD>figyelmen kívül hagyják</color> az Ősi <color=SOTS_COLOR_GOLD>Lövegtornyok és egyéb védelmi mechanizmusok</color>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SCOUT_DESCRIPTION_V2</LocID>                              <Text><![CDATA[Információkat ad az ellenséges hadseregekről. A parancsnokot nem érintik a csapdák és a veszélyek, az első épület (objektum) meglátogatásakor, minden fázis során, visszatölt <color=SOTS_COLOR_MOVEMENT>30 Mozgáspontot</color>, s az egymással kereskedő további hadseregek nem kapják viszont ezt meg.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORATION_XP_BOOST</LocID>                            <Text><![CDATA[Megnöveli a felfedezések során kapható <color=SOTS_COLOR_XP>Tapasztalati Pontok</color> mértékét ennyivel: <color=SOTS_COLOR_GOLD>{1}%</color>.]]></Text>  </GameDBLocalizedString>
 
             <!--Skills and attributes redesign-->
 
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_FULLSCREEN</LocID>                                   <Text>Fullscreen mode</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_FULLSCREEN_ON</LocID>                                <Text>Fullscreen</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_WINDOWED</LocID>                                     <Text>Windowed</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_FULLSCREEN</LocID>                                   <Text>Teljesképernyős Mód</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_FULLSCREEN_ON</LocID>                                <Text>Teljesképernyő</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_WINDOWED</LocID>                                     <Text>Ablakos képernyő</Text></GameDBLocalizedString>
 
             <!--Detailed tooltips for unit attributes-->
-            <GameDBLocalizedString>         <LocID>UNIT_HPPOOL_DESCRIPTION</LocID>                                      <Text><![CDATA[Maximum number of <color=SOTS_COLOR_GOLD>hit points</color> of each unit in this stack.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_ATTACK_DESCRIPTION</LocID>                                      <Text><![CDATA[Unit's attack number translates to how much <color=SOTS_COLOR_GOLD>damage</color> it deals when attacking other units and structures.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_CRITICAL_DESCRIPTION</LocID>                                    <Text><![CDATA[A percentage chance to inflict {1}% damage.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_DEFENSE_DESCRIPTION</LocID>                                     <Text><![CDATA[Unit's defense acts like <color=SOTS_COLOR_GOLD>damage reduction (in percent)</color>.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MOVE_DESCRIPTION</LocID>                                        <Text><![CDATA[Unit's movement range in hexes.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_INITIATIVE_DESCRIPTION</LocID>                                  <Text><![CDATA[Initiative determines the order in which units move. When units have the same initiative, attacker's units move first.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_RESIST_DESCRIPTION</LocID>                                      <Text><![CDATA[A percentage chance to <color=SOTS_COLOR_GOLD>resist negative effects</color> when getting hit by other units and commander's abilities.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_MORALE_DESCRIPTION</LocID>                                      <Text><![CDATA[This unit's effect on the morale of the whole army.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_HPPOOL_DESCRIPTION</LocID>                                      <Text><![CDATA[A Maximum számú <color=SOTS_COLOR_GOLD>Életerőpontja</color> minden egyes egységnek a lénycsoportban.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_ATTACK_DESCRIPTION</LocID>                                      <Text><![CDATA[Az egység TÁmadás értéke azt jelenti, hogy mennyi <color=SOTS_COLOR_GOLD>Sebzést</color> okoz, amikor más egységeket és szerkezeteket támad meg.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRITICAL_DESCRIPTION</LocID>                                    <Text><![CDATA[A százalékos esély {1}% sebzés okozásra.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_DEFENSE_DESCRIPTION</LocID>                                     <Text><![CDATA[Az egység Védelem értéke úgy működik, mint egy<color=SOTS_COLOR_GOLD>Sebző Csökkentő hatás (százalékban)</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOVE_DESCRIPTION</LocID>                                        <Text><![CDATA[Az egység mozgási tartománya, hatszögű mezőnként.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_INITIATIVE_DESCRIPTION</LocID>                                  <Text><![CDATA[A Kezdeményezés határozza meg az egységek mozgásának sorrendjét. Ha az egységeknek ugyanaz a Kezdeményezése, a támadó fél egységei lépnek először.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_RESIST_DESCRIPTION</LocID>                                      <Text><![CDATA[A százalékos esély mértéke <color=SOTS_COLOR_GOLD>a Negatív Hatások ellenállásának</color>amikor eltalálják más egységek és a Parancsnokok egyes képességei.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MORALE_DESCRIPTION</LocID>                                      <Text><![CDATA[Ennek az egységnek a hatása az egész hadsereg Moráljára.]]></Text></GameDBLocalizedString>
 
             <!--Scenario player configuration UI-->
-            <GameDBLocalizedString>         <LocID>UNIT_ATTRIBUTE_MODIFIERS_DESCRIPTION</LocID>                         <Text><![CDATA[The numbers are:\n<color=SOTS_COLOR_GOLD>Value modified by the commander's attributes, skills and equipment</color> / base value of the unit.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_ATTRIBUTE_MODIFIERS_DESCRIPTION</LocID>                         <Text><![CDATA[A számok kapcsán:\n<color=SOTS_COLOR_GOLD>A Parancsnok Tulajdonságpontjai, Készségei és Felszerelései által módosított érték</color> / az egység alapértékei.]]></Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>TEAM</LocID>                                                         <Text>Team</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>GIFT_RESOURCES</LocID>                                               <Text>Gift resources</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GIFT</LocID>                                                         <Text>Gift</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TEAM</LocID>                                                         <Text>Csapat</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>ADVANCED</LocID>                                                     <Text>Advanced</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>MAP_SIZE</LocID>                                                     <Text>Map Size</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_SIZE_SMALL</LocID>                                               <Text>Small</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_SIZE_MEDIUM</LocID>                                              <Text>Medium</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_SIZE_LARGE</LocID>                                               <Text>Large</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GIFT_RESOURCES</LocID>                                               <Text>Ajándék Nyersanyagok</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GIFT</LocID>                                                         <Text>Ajándék</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>MINIMAP</LocID>                                                      <Text>Minimap</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>MINIMAP_HIDE</LocID>                                                 <Text>Hide minimap</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MINIMAP_STARTING_LOCATIONS</LocID>                                   <Text>Show player's starting bases</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MINIMAP_ALL</LocID>                                                  <Text>Show full minimap</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_BASE_FACTION</LocID>                               <Text>Change faction</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_CRUSADERS_RENEWED_SPIRIT</LocID>                          <Text>Renewed Spirit</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_CRUSADERS_RENEWED_SPIRIT_DESCRIPTION</LocID>              <Text>Special skill of the Children of the Source.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MOVEMENT_REFILLED_AFTER_VICTORY</LocID>                 <Text><![CDATA[Victory in battle restores <color=SOTS_COLOR_MOVEMENT>{1} Movement Points</color>.]]></Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_RAIDEN</LocID>                                            <Text>Raiden</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_RAIDEN_DESCRIPTION</LocID>                                <Text><![CDATA[Increases commander <color=SOTS_COLOR_ENERGY>Energy pool</color> on each level. Also raises the effect of Recharge cell consumable.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENERGY_POOL_INCREASE</LocID>                            <Text><![CDATA[Increases commander <color=SOTS_COLOR_ENERGY>Energy pool</color> by <color=SOTS_COLOR_GOLD>{1}%</color>!]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_RECHARGE_CELL_BONUS</LocID>                             <Text><![CDATA[Raises the effect of <color=SOTS_COLOR_ENERGY>Recharge cell consumable</color> by <color=SOTS_COLOR_GOLD>{1}%</color>!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ADVANCED</LocID>                                                     <Text>Haladó</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_MOLES_BLOODLUST</LocID>                                   <Text>Bloodlust</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_MOLES_BLOODLUST_DESCRIPTION</LocID>                       <Text>Special skill of Fossorian commanders.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_CHANCE_TO_MOVE_AGAIN_AFTER_A_KILL</LocID>               <Text><![CDATA[Grants your units a <color=SOTS_COLOR_GOLD>{1}% chance to move again</color> after killing an enemy unit stack.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SIZE</LocID>                                                     <Text>Térképméret</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SIZE_SMALL</LocID>                                               <Text>Kicsi</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SIZE_MEDIUM</LocID>                                              <Text>Közepes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SIZE_LARGE</LocID>                                               <Text>Nagy</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_PIRATES_FIELD_REPAIR</LocID>                              <Text>Field repair</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_PIRATES_FIELD_REPAIR_DESCRIPTION</LocID>                  <Text>Special skill of Sovereign Fleet commanders.\nGives your units the ability to repair themselves by attacking similar enemies.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_DRAIN_LIFE_TECH_FROM_TECH</LocID>                       <Text><![CDATA[Grants your TECH units a <color=SOTS_COLOR_GOLD>{1}% life steal</color> from other TECH units.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_DRAIN_LIFE_BIO_FROM_BIO</LocID>                         <Text><![CDATA[Grants your BIO units a <color=SOTS_COLOR_GOLD>{1}% life steal</color> from other BIO units.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MINIMAP</LocID>                                                      <Text>Minitérkép</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>MESSAGE_WALKING_RATIONS</LocID>                                      <Text>Thanks to Walking Rations, attacking {CombatActor} has repaired {Stack}, repairing {int} points.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_WALKING_RATIONS_REVIVED</LocID>                              <Text>Thanks to Walking Rations, attacking {CombatActor} has repaired {Stack}, repairing {int} points. {int} unit(s) got a second chance.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MINIMAP_HIDE</LocID>                                                 <Text>Minitérkép elfedése</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MINIMAP_STARTING_LOCATIONS</LocID>                                   <Text>Mutassa a játékosok kezdő bázisát</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MINIMAP_ALL</LocID>                                                  <Text>Mutassa a teljes Minitérképet</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION_LVL2</LocID>                <Text>Relocates friendly unit to any place on the battlefield.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION_LVL3</LocID>                <Text>Relocates any unit to any place on the battlefield.</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL2</LocID>                    <Text>The creature attacks enemy units.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL3</LocID>                    <Text>You gain control of the creature.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ARTIFICIAL_MUSCLE_FIBERS_DESCRIPTION</LocID>     <Text>Increases unit's damage and defense.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_RESTORING_BIOFILM_LVL1</LocID>                   <Text>Removes all status effects from selected unit.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISRUPTIVE_ULTRASOUND_DESCRIPTION</LocID>        <Text>Temporarily disables active special abilities of enemy units.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DESRIPTION_AREA_OF_EFFECT_HUGE</LocID>           <Text>Has a huge area of effect.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISPEL_DESCRIPTION_LVL1</LocID>                  <Text>Removes all status effects from selected unit.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL2</LocID>          <Text>An automatic sentry cannon.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL3</LocID>          <Text>An automatic double-cannon sentry.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WALKING_RATIONS_DESCRIPTION</LocID>              <Text>Turns enemy units into walking rations. Received damage heals attacker. Inflicts daze, so your lunch won't fight back.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ENERGY_DRAIN_DESCRIPTION</LocID>                 <Text><![CDATA[Enemy commander loses half of their remaining <color=SOTS_COLOR_ENERGY>energy</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_BASE_FACTION</LocID>                               <Text>Frakció megváltoztatása</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>MESSAGE_FIELD_REPAIR</LocID>                                         <Text>Thanks to the Field Repair skill, attacking {CombatActor} has repaired {Stack}, repairing {int} points.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_FIELD_REPAIR_REVIVED</LocID>                                 <Text>Thanks to the Field Repair skill, attacking {CombatActor} has repaired {Stack}, repairing {int} points. {int} unit(s) got a second chance.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_CRUSADERS_RENEWED_SPIRIT</LocID>                          <Text>Megújító Szellem</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_CRUSADERS_RENEWED_SPIRIT_DESCRIPTION</LocID>              <Text>A Forrás Gyermekei Parancsnokainak különleges Készsége.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MOVEMENT_REFILLED_AFTER_VICTORY</LocID>                 <Text><![CDATA[Győztes csaták után a Parancsnok visszatölt <color=SOTS_COLOR_MOVEMENT>{1} Mozgáspontot</color>.]]></Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_TRANSPORTER_PSYCHOSIS</LocID>                    <Text>Transporter psychosis.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_TRANSPORTER_PSYCHOSIS_DESCRIPTION</LocID>        <Text>Yes, this medical condition is very real. Unit's damage, defense, movement and initiative are crippled.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_HERO_TRANSPORTER_PSYCHOSIS</LocID>                     <Text><![CDATA[<color=SOTS_COLOR_RED>Commander suffers from transporter psychosis caused by a glitch during recent transport. His army might endure negative side effects.</color>]]></Text></GameDBLocalizedString>            
-            
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_WAR_HAWK</LocID>                                          <Text>War Hawk</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_WAR_HAWK_DESCRIPTION</LocID>                              <Text><![CDATA[Improves <color=SOTS_COLOR_MOVEMENT>movement</color> and <color=SOTS_COLOR_GOLD>intiative</color> of all units in this commander's army.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_UNIT_MOVEMENT_BONUS</LocID>                             <Text><![CDATA[All units: <color=SOTS_COLOR_MOVEMENT>movement in combat +{1}</color>.]]></Text></GameDBLocalizedString>
-            
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_RAIDEN</LocID>                                            <Text>Energiarobbanás</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_RAIDEN_DESCRIPTION</LocID>                                <Text><![CDATA[Megnöveli a Parancsnok <color=SOTS_COLOR_ENERGY>Energia értékének Maximumát</color> minden egyes Készség szinttel. És megnöveli az egyszerhasználatos Cellafeltöltők hatásfokát is.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENERGY_POOL_INCREASE</LocID>                            <Text><![CDATA[Megnöveli a Parancsnok <color=SOTS_COLOR_ENERGY>Energia értékének Maximumát</color> ennyivel: <color=SOTS_COLOR_GOLD>{1}%</color>!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_RECHARGE_CELL_BONUS</LocID>                             <Text><![CDATA[Megnöveli a hatásfokát az <color=SOTS_COLOR_ENERGY>egyszerhasználatos Cellafeltöltőknek</color> ennyivel: <color=SOTS_COLOR_GOLD>{1}%</color>!]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_MOLES_BLOODLUST</LocID>                                   <Text>Vérszomj</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_MOLES_BLOODLUST_DESCRIPTION</LocID>                       <Text>A Földtúró Parancsnokok különleges Készsége.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_CHANCE_TO_MOVE_AGAIN_AFTER_A_KILL</LocID>               <Text><![CDATA[Az egységeid számára <color=SOTS_COLOR_GOLD>{1}% esélyt ad arra, hogy újra léphessenek</color> miután teljesen megöltek egy ellenséges lénycsoportot.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_PIRATES_FIELD_REPAIR</LocID>                              <Text>Terepjavítás</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_PIRATES_FIELD_REPAIR_DESCRIPTION</LocID>                  <Text>A Szuverén Flotta Parancsnokok különleges Készsége.\nLehetővé teszi egységeinek, hogy megjavítsák magukat hasonló ellenségek megtámadásával.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_DRAIN_LIFE_TECH_FROM_TECH</LocID>                       <Text><![CDATA[A Technikai egységek <color=SOTS_COLOR_GOLD>{1}% Életerőt</color> elszívnak az ellenséges Technikai egységektől, azok megtámadásakor.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_DRAIN_LIFE_BIO_FROM_BIO</LocID>                         <Text><![CDATA[A Biológiai egységek<color=SOTS_COLOR_GOLD>{1}% life steal</color>elszívnak az ellenséges Biológiai egységektől, azok megtámadásakor.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_WALKING_RATIONS</LocID>                                      <Text>A Gyalogadagok Képességnek köszönhetően, a támadáskor {CombatActor} megjavított {Stack}, Életerő {int} pontot.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_WALKING_RATIONS_REVIVED</LocID>                              <Text>A Gyalogadagok Képességnek köszönhetően, a támadáskor {CombatActor} megjavított {Stack}, Életerő {int} pontot. {int} az egység(ek) kapnak egy második esélyt is minderre.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION_LVL2</LocID>                <Text>A szövetséges egységet a csatatér bármely pontjára áthelyezi.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION_LVL3</LocID>                <Text>Bármely egységet áthelyezi a csatatér bármely pontjára.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL2</LocID>                    <Text>A lény megtámadja az ellenséges egységeket.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL3</LocID>                    <Text>Megszerzed az irányítást a lény felett.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ARTIFICIAL_MUSCLE_FIBERS_DESCRIPTION</LocID>     <Text>Növeli az egység Sebzés értékét és Védelem értékét.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_RESTORING_BIOFILM_LVL1</LocID>                   <Text>Eltávolítja az összes állapothatást a kiválasztott egységről.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISRUPTIVE_ULTRASOUND_DESCRIPTION</LocID>        <Text>Ideiglenesen letiltja az ellenséges egységek aktív speciális képességeit.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DESRIPTION_AREA_OF_EFFECT_HUGE</LocID>           <Text>Hatalmas területi hatással rendelkezik.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISPEL_DESCRIPTION_LVL1</LocID>                  <Text>Eltávolítja az összes állapothatást a kiválasztott egységről.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL2</LocID>          <Text>Egy Automata Őrágyú.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL3</LocID>          <Text>Automata Kétágyús Őrágyú.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WALKING_RATIONS_DESCRIPTION</LocID>              <Text>Az ellenséges egységeket Gyalogadagokká változtatja. A kapott sebzés meggyógyítja a támadót. Kábítást okoz, így az ebéded nem fog visszaütni.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ENERGY_DRAIN_DESCRIPTION</LocID>                 <Text><![CDATA[Az ellenség Parancsnoka elveszíti maradékának felét a még meglévő <color=SOTS_COLOR_ENERGY>Energiapontjaiból</color>.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_FIELD_REPAIR</LocID>                                         <Text>A Terepjavítás Készségnek köszönhetően, a támadáskor {CombatActor} megjavított {Stack}, Életerő {int} pontot. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_FIELD_REPAIR_REVIVED</LocID>                                 <Text>A Terepjavítás Készségnek köszönhetően, a támadáskor {CombatActor} megjavított {Stack}, Életerő {int} pontot. {int} az egység(ek) kapnak egy második esélyt is minderre.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_TRANSPORTER_PSYCHOSIS</LocID>                    <Text>Szállítmányozási Pszichózis.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_TRANSPORTER_PSYCHOSIS_DESCRIPTION</LocID>        <Text>Igen, ez az egészségügyi állapot nagyon is valós probléma. Az egység Sebzés értéke, Védelem, értéke, Mozgáspontjai és Kezdeményezés értéke, elsorvadt és lecsökkent.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_HERO_TRANSPORTER_PSYCHOSIS</LocID>                     <Text><![CDATA[<color=SOTS_COLOR_RED>Parancsnok Szállítmányozási Pszichózisban szenved, amelyet a közelmúltbeli szállítás során fellépő hiba okozott. A hadserege negatív mellékhatásokat szenvedhet el.</color>]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_WAR_HAWK</LocID>                                          <Text>Háborús Sólyom</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_WAR_HAWK_DESCRIPTION</LocID>                              <Text><![CDATA[Megnöveli a <color=SOTS_COLOR_MOVEMENT>Mozgáspontot</color> és <color=SOTS_COLOR_GOLD>Kezdeményezés értéket</color>a Parancsnok seregében lévő összes egység számára.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_UNIT_MOVEMENT_BONUS</LocID>                             <Text><![CDATA[Minden egység esetén: <color=SOTS_COLOR_MOVEMENT>A csaták során jár a Mozgáspontokhoz +{1} érték.</color>.]]></Text></GameDBLocalizedString>
+
             <!-- Overrides from heroes string table -->
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_INITIATIVE_BOOST</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Initiative Boost +{1}</color>]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SCAVENGE_RESOURCES</LocID>                              <Text><![CDATA[Commander claims {1}% of maximum <color=SOTS_COLOR_GOLD>resources available to be scavenged</color> from defeated enemies.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXTRA_COMBAT_XP_PERCENT</LocID>                         <Text><![CDATA[Commander gains <color=SOTS_COLOR_XP>{1}% extra XP</color> from combat encounters.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIDDEN_STATUS_EFFECT</LocID>                                         <Text></Text></GameDBLocalizedString>           
-            
-            <GameDBLocalizedString>         <LocID>ENERGY_COST_TO_EQUIP</LocID>                                         <Text>Energy required to equip this item.</Text></GameDBLocalizedString>           
-            
-            <GameDBLocalizedString>         <LocID>OBJECT_CYCLES_REMAINING</LocID>                                      <Text>Time remaining: {1} turn(s)/phases(s).</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_INITIATIVE_BOOST</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Kezdeményezés növekedés +{1}</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SCAVENGE_RESOURCES</LocID>                              <Text><![CDATA[A Parancsnok elvesz {1}% mértéknyit, a maximum <color=SOTS_COLOR_GOLD>fosztogatható, elérhető Nyersanyagokból</color> a legyőzött ellenségektől.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXTRA_COMBAT_XP_PERCENT</LocID>                         <Text><![CDATA[A Parancsnok kap <color=SOTS_COLOR_XP>{1}% extra Tapasztalati Pontot</color> a csaták során.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIDDEN_STATUS_EFFECT</LocID>                                         <Text></Text>></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES</LocID>                      <Text>Show Resources and Treasures</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_V2</LocID>       <Text>Immediately discovers resources and valuable items in a large area around the commander.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL1_V2</LocID>  <Text>Discovers resources.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL2_V2</LocID>  <Text>Also discovers chests, equipment and consumables.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL3_V2</LocID>  <Text>Also discovers artifacts and fusion cores.</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL2</LocID>        <Text>The cloud lasts 4 turns.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL3</LocID>        <Text>The cloud lasts 8 turns.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ENERGY_COST_TO_EQUIP</LocID>                                         <Text>E tárgy felszereléséhez szükséges Energiapont.</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_V2</LocID>            <Text>Immediately discovers enemy commander positions around this commander.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL1</LocID>          <Text>Range: 15 tiles.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL2</LocID>          <Text>Range: 20 tiles.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL3</LocID>          <Text>Range: 25 tiles.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECT_CYCLES_REMAINING</LocID>                                      <Text>Fenmmaradó idő: {1} kör(ök)/Fázis(ok).</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES</LocID>                      <Text>Nyersanyagok és Kincsek Felfedése</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_V2</LocID>       <Text>Azonnal felfedi a Nyersanyag erőforrásokat és az értékes tárgyakat a Parancsnok körüli nagy területen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL1_V2</LocID>  <Text>Felfedi a Nyersanyagokat.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL2_V2</LocID>  <Text>Ezenkívül felfedi a Kincseket, a Felszereléseket és az Egyszerhasználatos tárgyakat.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL3_V2</LocID>  <Text>Ezenkívül felfedi a Relikviákat és a Fuziós Magokat is.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL2</LocID>        <Text>A Felhő 4 körön/fázison át tart.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL3</LocID>        <Text>A Felhő 8 körön/fázison át tart.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_V2</LocID>            <Text>Azonnal felfedi az ellenséges Parancsnoki pozíciókat a Parancsnokod körül.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL1</LocID>          <Text>Távolság: 15 mező.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL2</LocID>          <Text>Távolság: 20 mező.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL3</LocID>          <Text>Távolság: 25 mező.</Text></GameDBLocalizedString>
 
             <!--Scenarios skirmish -->
-            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_DESCRIPTION</LocID>                                     <Text><![CDATA[Energy fields divide the land into three disconnected regions. In the jungle, a ruthless leader is draining the territory of its resources, while in the desert, another faction is outraged by the desecration of ancient resting places. Meanwhile, a power-hungry warlord uses the chaos to test devastating new weapons on anyone within reach! ]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>        <LocID>EA_GOLD_FEVER_DESCRIPTION</LocID>                                     <Text><![CDATA[Gold fever sweeps the land after intel about a rich Primal site spreads! Forces from the southwest are racing to reach the center of the ruins, while another group advances from the northeast. Remember, second place is just a different name for defeat here!]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>        <LocID>MAP_SCENARIO_EA_ARCH_DESCRIPTION</LocID>                              <Text><![CDATA[Enter an unrelenting duel on a dry and unwelcoming island. A distant, abandoned base could tip the balance of power in your favor.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>        <LocID>EA_CRUMBS_DESCRIPTION</LocID>                                         <Text><![CDATA[Islands fragmented into energy fields, connected by ancient Primal bridges. In the red jungle, one faction seeks to exploit new resources. In a field of yellow vegetation, another group arrives to assimilate their enemies. To make matters worse, two rival forces are wreaking havoc and destroying everything they encounter.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>        <LocID>EA_RIFT_DESCRIPTION</LocID>                                           <Text><![CDATA[A territory torn in two. A once fertile land is now ravaged by war. Multiple factions are bound to clash in a ruthless battle. To make things more complicated, everyone starts with their bases separated on the opposite banks!]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>        <LocID>EA_RIFT_INTRO</LocID>                                                 <Text>This resource-rich environment was once under control, but a rift formed in the swamps, splitting the land in two. Rival factions seized the opportunity, claiming territory for themselves. To make matters worse, internal discord broke out, leading to infighting. The situation is so dangerous that even the typically fearless local creatures prefer to stay as far away as possible from the main roads.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>        <LocID>EA_TEAR_DESCRIPTION</LocID>                                           <Text><![CDATA[What was once an unbroken land is now an archipelago, connected only by a chaotic network of teleporters. Will you find your way to your enemy?]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>        <LocID>EA_TEAR_INTRO</LocID>                                                 <Text>Explorers were investigating the ruins of the ancient Primals civilization here when a catastrophe struck, tearing the land to pieces. Two groups were the first to arrive after the disaster, but only one can take control of the area.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_DESCRIPTION_V2</LocID>                                  <Text><![CDATA[Az energiamezők három szétválasztott régióra osztják a földet. A dzsungelben egy kíméletlen vezető kiszipolyozza e hely nyersanyag erőforrásait, míg a sivatagban egy másik frakciót háborít fel az ősi pihenőhelyek meggyalázása. Eközben egy hatalomra éhes hadúr az itt kialakuló káoszt használja fel arra, hogy pusztító új fegyvereket teszteljen bárkin, aki csak elérhető! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_GOLD_FEVER_DESCRIPTION_V2</LocID>                                  <Text><![CDATA[Aranyláz söpör végig a földön, miután elterjedt egy gazdag az Ősiek régi lelőhelyeiről szóló értesülés! A délnyugati erők csak úgy száguldanak, hogy elérjék a romok közepét, míg egy másik csoport északkeletről halad előre. Ne feledd, a második hely itt csak a vereség másik neve!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>MAP_SCENARIO_EA_ARCH_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Vegyél részt egy könyörtelen párbajban egy száraz és kellemetlen szigeten. Egy távoli, elhagyott bázis a te javadra billentheti az erőviszonyokat.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_CRUMBS_DESCRIPTION_V2</LocID>                                      <Text><![CDATA[Energiamezőkre töredezett szigetek, amelyeket ősi ősi hidak kötnek össze. A vörös dzsungelben az egyik frakció új erőforrásokat igyekszik kiaknázni. A sárga növényzet mezőjébe egy másik csoport érkezik, hogy asszimilálja ellenségeit. A helyzetet rontja, hogy két rivális erő őrületes pusztítást végez, és mindent elpusztít, amivel találkoznak.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_RIFT_DESCRIPTION_V2</LocID>                                        <Text><![CDATA[Két részre szakadt terület. Az egykor termékeny földet most háború pusztítja. Több frakció kíméletlen csatában csap össze. Hogy a dolgokat még bonyolultabbá tegyük, mindenki úgy kezdi, hogy a bázisa az egymással szemközti partoknál van elválasztva!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_RIFT_INTRO_V2</LocID>                                              <Text>Ez az erőforrásokban gazdag környezet egykor ellenőrzés alatt állt, de a mocsarakban szakadás alakult ki, amely kettéosztotta a földet. A rivális frakciók megragadták a lehetőséget, területet követeltek maguknak. A helyzetet rontotta, hogy belső viszályok törtek ki, ami belharcokhoz vezetett. A helyzet annyira veszélyes, hogy még a tipikusan rettenthetetlen helyi lények is szívesebben tartózkodnak a lehető legtávolabb a főutaktól.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_TEAR_DESCRIPTION_V2</LocID>                                        <Text><![CDATA[Ami egykor töretlen föld volt, ma egy szigetcsoport, amelyet csak teleportációs átjárók kaotikus hálózata köt össze. Megtalálod az utat az ellenségedhez?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_TEAR_INTRO_V2</LocID>                                              <Text>Felfedezők a nagon régi Ősiek civilizációs romjait kutatták itt, amikor katasztrófa történt, darabokra tépve a földet. Két csoport érkezett elsőként a katasztrófa után, de csak egy tudja átvenni az irányítást a terület felett.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_CRYING_RIVER_DESCRIPTION_V2</LocID>                                <Text>A régi száraz folyó akadályt képez, amely három területre osztja a tájat. Vajon sikerül-e valakinek egyetlen uralom alá egyesítenie az összes területet?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_BRIDGES_TOO_FAR_DESCRIPTION_V2</LocID>                             <Text>Az utolsó két híd köti össze a kettéosztott tájat; ki találja meg őket először?</Text>  </GameDBLocalizedString>
 
 
         </LocalizedStrings>
