@@ -1,0 +1,217 @@
+<Database>
+    <GameDBStringTable ID="LOC_PTBR_MOLES_BASES">
+
+        <LanguageRef>LANG_PTBR</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- For Chris: texts CHECKED in round 0 :) START TODO there are ~10 lines with comments from Urbik (JU) or myself for you to double check -->
+
+            <!--Bases -->
+            <GameDBLocalizedString>         <LocID>BASE_MOLES</LocID>                                                <Text>Base Fossoriana</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_BASE_CORE</LocID>                                  <Text>Bureau de Impostos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_BASE_CORE_DESCRIPTION</LocID>                      <Text><![CDATA[Gera<color=SOTS_COLOR_GOLD> +1000 Moedas Aura</color> por turno.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE1</LocID>                           <Text>Escritório de Controle Interior</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE1_DESCRIPTION</LocID>               <Text><![CDATA[Gera<color=SOTS_COLOR_GOLD> +500 Moedas Aura</color> por turno.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE2</LocID>                           <Text>Escritório do Supervisor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE2_DESCRIPTION</LocID>               <Text><![CDATA[Gera<color=SOTS_COLOR_GOLD> +1000 Moedas Aura</color> por turno.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE_MAX</LocID>                        <Text>Alto Supervisor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE_MAX_DESCRIPTION</LocID>            <Text><![CDATA[Gera<color=SOTS_COLOR_GOLD> +1000 Aura coins</color> por turno e aumenta produção de unidades.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REPLICATOR</LocID>                                 <Text>Replicador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REPLICATOR_DESCRIPTION</LocID>                     <Text><![CDATA[Gera <color=SOTS_COLOR_BIOMASS>+1 Biomassa </color>e<color=SOTS_COLOR_RADIANT> +1 Radiante </color>por turno.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_GATEWAY</LocID>                                    <Text>Metrô</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_GATEWAY_DESCRIPTION</LocID>                        <Text>Permite que Comandantes viagem instantaneamente entre bases.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPACE_BAR</LocID>                                  <Text>Bar Espacial</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPACE_BAR_DESCRIPTION</LocID>                      <Text>Permite o recrutamento de Comandantes.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_MUSIC_HALL</LocID>                                 <Text>Clube de Oficiais</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_MUSIC_HALL_DESCRIPTION</LocID>                     <Text>Acrescenta mais um Comandante para recrutamento. Concede bônus de moral para Comandantes visitantes e alojados.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_VISIBILITY_UPGRADE</LocID>                         <Text>Vigia da Superfície</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_VISIBILITY_UPGRADE_DESCRIPTION</LocID>             <Text>Aumenta o raio de visibilidade da base e detecta objetos úteis em uma área ainda maior.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_RECYCLER</LocID>                                   <Text>Reciclador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_RECYCLER_DESCRIPTION</LocID>                       <Text><![CDATA[Gera <color=SOTS_COLOR_LIMERITE>+1 Limerita</color> e <color=SOTS_COLOR_ALLOYS>+1 Metal </color>por turno.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACTORY</LocID>                                    <Text>Fábrica</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACTORY_DESCRIPTION</LocID>                        <Text>Lhe permite construir Canhões de Onda de Choque para seus exércitos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_TRADING_POST</LocID>                               <Text>Posto de Comércio</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_TRADING_POST_DESCRIPTION</LocID>                   <Text>Comercializa recursos por Moedas Aura e vice-versa.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_CORE</LocID>                             <Text>Fortaleza Fossoriana</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_CORE_DESCRIPTION</LocID>                 <Text>Acrescenta muralhas, um portão e duas plataformas a distância e destrava um espaço defensivo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TOWER</LocID>                            <Text>Torre Defensiva</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TOWER_DESCRIPTION</LocID>                <Text>Aprimora a resistência das muralhas e portão, e acrescenta duas plataformas a distância e um espaço defensivo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_MINES</LocID>                            <Text>Campo Minado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_MINES_DESCRIPTION</LocID>                <Text>Acrescenta 3 minas ao campo durante um cerco.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TURRET</LocID>                           <Text>Torreta</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TURRET_DESCRIPTION</LocID>               <Text>Acrescenta duas torretas ocultas no campo durante um cerco.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TRENCH</LocID>                           <Text>Trincheira</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TRENCH_DESCRIPTION</LocID>               <Text>(A ser implementado durante o desenvolvimento)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_IRON_GATE</LocID>                        <Text>Portão de Concreto Maciço.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_IRON_GATE_DESCRIPTION</LocID>            <Text>(A ser implementado durante o desenvolvimento)</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ACADEMY</LocID>                                    <Text>Academia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ACADEMY_DESCRIPTION</LocID>                        <Text>Destrava habilidades que Comandantes visitantes podem aprender.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REMOTE_LEARNING</LocID>                            <Text>Neurolink</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REMOTE_LEARNING_DESCRIPTION</LocID>                <Text>Ensina habilidades a Comandantes de forma remota.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_SPECIALIZATION</LocID>                     <Text>Engenharia Reversa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_SPECIALIZATION_DESCRIPTION</LocID>         <Text>Acrescenta uma habilidade escolhida pra Academia, por um preço.</Text></GameDBLocalizedString>
+
+            <!-- Note: these match 4 commander skills, @Chris feel free to skip -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_BIO</LocID>                                <Text>Faculdade Bio</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_BIO_DESCRIPTION</LocID>                    <Text>Destrava habilidades Bio.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_EXPLORE</LocID>                            <Text>Faculdade Global de Geografia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_EXPLORE_DESCRIPTION</LocID>                <Text>Destrava uma seleção de Habilidades Viajante para aprender.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_PSY</LocID>                                <Text>Faculdade Psíquica</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_PSY_DESCRIPTION</LocID>                    <Text>Destrava uma seleção de Habilidades Psíquica para aprender.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_TECH</LocID>                               <Text>Faculdade Tech</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_TECH_DESCRIPTION</LocID>                   <Text>Destrava uma seleção de Habilidades Tech para aprender.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1</LocID>                                  <Text>Projeto de Ratóides</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1_DESCRIPTION</LocID>                      <Text>Recruta Capangas Ratóides.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1_UPG</LocID>                              <Text>Favela de Ratóides</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1_UPG_DESCRIPTION</LocID>                  <Text>Recruta Atiradores Ratóides.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2</LocID>                                  <Text>Escola de Carnudos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2_DESCRIPTION</LocID>                      <Text>Recruta Carnudos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2_UPG</LocID>                              <Text>Gináriso de Carnudos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2_UPG_DESCRIPTION</LocID>                  <Text>Recruta Destruidores Carnudos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3</LocID>                                  <Text>Torre dos Marteleiros</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3_DESCRIPTION</LocID>                      <Text>Recruta Marteleiros.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3_UPG</LocID>                              <Text>Guarnição dos Marteleiros</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3_UPG_DESCRIPTION</LocID>                  <Text>Recruta Guardas-Honrados Marteleiros.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4</LocID>                                  <Text>Oficina de Treme-Terras</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4_DESCRIPTION</LocID>                      <Text>Recruta Treme-Terras.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4_UPG</LocID>                              <Text>Fábrica de Treme-Terras</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4_UPG_DESCRIPTION</LocID>                  <Text>Recruta Treme-Terras MK II.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_5</LocID>                                  <Text>Ninho de Minhoca</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_5_DESCRIPTION</LocID>                      <Text>Recruta Minhocas de Túneis.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_5_UPG</LocID>                              <Text>Buraco de Minhoca</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_5_UPG_DESCRIPTION</LocID>                  <Text>Recruta Minhocas Panzer.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_6</LocID>                                  <Text>Departamento de Comissários</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_6_DESCRIPTION</LocID>                      <Text>Recruta Cadetes Comissários.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_6_UPG</LocID>                              <Text>Bureau de Comissários</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_6_UPG_DESCRIPTION</LocID>                  <Text>Recruta Comissários Veteranos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7</LocID>                                  <Text>Hangar de Libertadores</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_DESCRIPTION</LocID>                      <Text>Recruta Libertadores.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_UPG</LocID>                              <Text>Linha de Montagem de Libertadores</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_UPG_DESCRIPTION</LocID>                  <Text>Recruta Libertadores Maciços.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_CREATURE_PRODUCTION_UPGRADE_1</LocID>              <Text>Estátua do Líder Supremo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_CREATURE_PRODUCTION_UPGRADE_1_DESCRIPTION</LocID>  <Text>Gera 4 Marteleiros adicionais.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_BASE_CORE_LORE</LocID>                             <Text>Uma ferramenta testada e comprovada para opressão em massa. O Bureau de Impostos é um labirinto mau-iluminados de cubículos cheios de funcionários cansados e irritadiços que provavelmente jamais verão a luz do dia. </Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited. The neologism Aura (Auras) is a good idea but I would avoid the term in this early stage and use something more general/comprehensive as founds or coins ...  -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE1_LORE</LocID>                      <Text>Sua base está crescendo, mas também a sonegação, corrupção, e tentativas clandestinas de usurpar tudo que você construiu. Mas não tema! Uma legião de burocratas do Escritório de Controle Interior pode ajudar a rastrear tesouros sumidos e manter seus cofres cheios.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE2_LORE</LocID>                      <Text>O olhar perfurante do Grande Irmão vê tudo. Vigia incansávelmente for até um sinal de resistência. Quando o Escritório do Supervisor está caçando traidores, até os maiores recalcitrantes são espertos de não meterem as mãos no jarro ou sabotar a autoridade do Líder Supremo.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ECONOMY_UPGRADE_MAX_LORE</LocID>                   <Text>Burocracia é divertido, e até eficiente se criar uma atmosfera de suspeitas constantes e controle mútuo. Mas someone um tirano único, vivendo feito um monge em serviço ao Líder Supremo, pode instilar o verdadeiro medo e espremer até o último valor das massas exauridas.</Text></GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited: One more detail I would like to implement as I read the texts after a while. I would like to emphasize the non-critical consumption of facts by the Fossorian masses... something like "it's magically doubled its output".-->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REPLICATOR_LORE</LocID>                            <Text>Deram o nome de Replicador. Seu segredo é guardado de forma tão ciumenta pelos seus iniciados seletos, que as massas acreditam que os recuros são dobrados de forma mágica. Ciência, meu caro Watson! Mas na verdade, esse "dobramento" é uma ilusão. Ao invés disso, o matérial é dividido e diluido. Afinal, as massas cagam pra qualidade, contanto que a quantia esteja lá em cima.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited. When I read the new version "old Fossorian homeworld of Fossoria" the world Fossorian and Fossoria are somehow "too close" in the sentence. Let's end the sentence with "the old Fossorian homeworld." The name Fossoria will be mentioned elsewhere ;-). -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_GATEWAY_LORE</LocID>                               <Text>Viagens subterrâneas são uma necessidade absoluta no velho mundo natal Fossoriano. A superfície poluida do planeta é tão perigosa e inóspita que construir um novo túnel para alcançar até as regiões mais distintas sempre compensa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPACE_BAR_LORE</LocID>                             <Text>Qualquer viajante que tenha o azar de se acabar um Bar Espacial Fossoriano percebe logo que a bebida é pior do que um desengripante industrial. Mesmo assim, cada cachaceiro Fossoriano sabe que a quantidade sempre é melhor que qualidade. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_MUSIC_HALL_LORE</LocID>                            <Text>O Clube de Oficiais definitivamente é uma melhoria. Estranhos, mercenários, e todo tipo de aventureiro "corajoso" bastante pra entrar numa base Fossoriana provavelmente ficará excitado com a idéia de se tornar um "consultor militar".</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited. "are novel but alien concepts." alien is too strong here. Let's end the sentence with "are novel concepts." Sounds more like the concept is new but they are adopting the ideas to overcome the disadvantage of the new environment. -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_VISIBILITY_UPGRADE_LORE</LocID>                    <Text>A superfície da velha Fossoria é uma terra devastada, repleta de tempestades destrutivas. Após séculos de conflitos abaixo da superfície, um lado alto habitável e a necessidade de ver longas distâncias são conceitos exóticos. Mesmo assim, vamos construir pra cima, ao menos uma vez!</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited: I do believe that the part about the seal pups would make the text punchier if we move it back to the end of the text. Also, I would choose a more strait forward/brutal sentence. "No matter how many seal pups will perish." or a softer alternative "perishing seal pups is the last thing on their minds." -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_RECYCLER_LORE</LocID>                              <Text>Não se engage, reciclagem Fossoriana não tem NADA a ver com salvar o ambiente. Só querem recuperar materiais para criarem mais armas de destruição, pouco importa quantos filhotes de foca morram no processo.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited: "focuses exclusively on Force Shields" is not entirely what I meant... The sweatshop is a prerequisite for other buildings in the base (Production of Earthshaker Unit, a vehicle able to deploy underground torpedoes, overseers office)... the main benefit for the player though is shield generator production, so emphasis on put that but it is not the sole purpose. -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACTORY_LORE</LocID>                               <Text>A Fábrica anteriormente produzia máquinas pacíficas mas agora está focado em aplicações militares, especialmente Campos de Força. Os dias iniciais de colonização poderiam ter sido diferentes se tivessem tecnologia de escudos. Bem... agora eles tem.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_TRADING_POST_LORE</LocID>                          <Text>É proibido aos cidadãos comuns de acessar o mercado global. Não há necessidade. A base produz todas as necessidades e bens de luxo que poderiam querer. Gôndolas vazias?  Sem problemas! Serão re-estocadas amanhã. Ou depois de amanhã, com certeza... </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_CORE_LORE</LocID>                        <Text>Uma gigantesca fortaleza com muralhas de Limerita reforçada com 5 metros de grossura. Cheio até a boca de bunkers e chiques salas de reuniões estratégicas. De agendas de recrutamento até medições do tamanho das pás, toda e qualquer decisão dos esforços de guerra é feita aqui.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Edited. Let's divide the sentence more into two parts. The part about defense the building provides to the base and the part describing the roots of the revolution. "Additional defenses for the base and more..."  -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TOWER_LORE</LocID>                       <Text>Defesas adicionais para a base e mais espaços para oficiais de baixo-escalão desencantados. Talvez alguns comfortos mínimos pra eles deva prevenir outra revolução, como aquela que trouxe os Fossorianos de sua terra natal ao Sistema Siren.</Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_MINES_LORE</LocID>                       <Text>Humanos tem um ditado: "Onde quer que um pé Fossoriano pise, a grama nunca mais cresce. Exceto nas moitinhas onde minas terrestres estão escondidas." E apesar do pouquíssimo tempo que âmbas as raças compartilharam juntas em um único sistema solar, o ditado procede.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_ACADEMY_LORE</LocID>                               <Text>O Líder Supremo uma vez disse: "De que vale a ciência se ela não contribui ao esforço de guerra". Por isso, qualquer busca científica deve ter uma aplicação militar, pouco importa o quão obscura. Painéis solares nas residências? Pra quê essa bobagem? Relógio de pulso que jorra ácido? Aprovação imediata. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_REMOTE_LEARNING_LORE</LocID>                       <Text>Um Neurolink, implantando na medula espinhal, garante uma conexão de via única razoavelmente estável. (Mesmo no pesadelo da comunicação constantemente interferida do Sistema Siren.)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_SPECIALIZATION_LORE</LocID>                <Text>Durante qualquer conquista, muitas coisas trocam de dono. As vezes essas coisas SÃO os donos. Pessoas altamente inteligentes podem achar um lar em uma instalação de pesquisas Fossoriana em troca pelo total de seu conhecimento.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: Question: Chris, I would like to ask which one is more appropriate, sounds better in your opinion. High Party members or Inner Party members? I associate the High Party with more modern politics but the Inner Party is much more Orwellian.  -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_EXPLORE_LORE</LocID>                       <Text>Alguns filhos privilegiados de membros do partido fundaram o Clube para Exploradores e Aventureiros. A maioria de seus membros são totalmente inúteis, mas uns poucos seletos são viajantes experientes capazes de ensinar um novato um truque novo ou dois.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JU: A new suggested version, we know it needs editing :) -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_TECH_LORE</LocID>                          <Text>O mundo natal Fossoriano é tão inabitável que você acha que esse mundo sofreu um cataclisma natural. Houve um apocalipse, sim, mas causas naturais podem ser descartadas. (A não ser que você considere os Fossorianos - que mantém o título de "mais armas de destruição em massa já usadas" - como causa natural.)</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!--  JU: Edited. I would like to return to the original phrasing "A broad face with **heavy** black whiskers and ruggedly..." as it's a direct reference for my great inspiration, Orwels 1984: "the face of a man of about forty-five, with a heavy black moustache and ruggedly handsome features" -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_CREATURE_PRODUCTION_UPGRADE_1_LORE</LocID>         <Text>Uma cara larga com presas negras e pesadas feições belas e temidas. Todos conhecem, temem, e amam Líder Supremo (compulsoriamente). Suas feições de garantia dizem a base inteira que está indo tudo conforme o plano.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1_LORE</LocID>                             <Text>O nascedouro da casta mais baixa da sociedade Fossariana. Ninguém se importa com o que acontece nessa favela entupida de mestiços imundos e sem cérebro. Só o que interessa são as grandes quantias de conscritos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_1_UPG_LORE</LocID>                         <Text>Favelas expandidas são poços nojentos de violência desregulada aonde ganges batalham pra controlar distritos estratégicos. Simplesmente sobreviver tais condições já vira todo o treinamento de um guerreiro.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2_LORE</LocID>                             <Text>Seus cérebros devem ter diminuido para acomodar seus músculos porque esses brutos burros não precisam de mais nada além de quatro paredes. Um lugar pra dormir, um ferro pra malhar, e quantidades enormes de comida rica em proteína, e já ficam felizes como porquinhos. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_2_UPG_LORE</LocID>                         <Text>Até os membros mais burros do partido acharam RIDÍCULA a idéia que Carnudos descerebrados poderiam cuidar de seus novos equipamentos e armas de alta tecnologia. Por isso, pra cada Carnudo em combate, tem uma equipe técnica inteira cuidando deles.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3_LORE</LocID>                             <Text>Marteleiros leais são a extensão do punho do Líder Supremo, especialmente na questão de acabar com insurreições. Pra surpresa de ninguém, o quartel deles é uma fortaleza capaz de aguentar um cerco de toda a milícia da cidade...</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- JB: still original text -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_3_UPG_LORE</LocID>                         <Text>Um Comandante de base experiente sabe que a famosa lealdade dos Marteleiros não é tão inflexível como clama a propaganda. Na velha Fossoria, Lordes Marteleiros tiveram um papél vital em cada golpe bem-sucedido já feito.</Text>  </GameDBLocalizedString>
+
+                                                                                                                     <!-- Chris: Not sure about middle sentence meaning here; JB: recombined all versions -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4_LORE</LocID>                             <Text>Em colônias localizadas dentro do território Fossoriano, aonde a segurança não é uma questão tão importante, oficinas similares produzem máquinas similares, porém benignas. Alguém provavelmente foi promovido por redesenhar a máquina... ou simplesmente levou um tiro.</Text>  </GameDBLocalizedString>
+
+            <!-- For Chris: texts CHECKED in round 0 :) END -->
+
+
+            <!-- For Chris: feel free to skip -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_BIO_LORE</LocID>        <!--NOT IN DEMO--> <Text>Um aquário rachado, contendo um fungo alienígena devorador de carne? Um tanque de gás mutagênico, largado no meio do corredor? Sempre a um passo de uma falha de contenção catastrófica. Novidade nenhuma pra qualquer laboratório biológico no universo.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_FACULTY_PSY_LORE</LocID>        <!--NOT IN DEMO--> <Text>Psicotrônica. Cientistas sérios geralmente ridicularizam o assunto, embora a tecnologia dos Primais geralmente exceda os limites do possível. O patinho feio da ciência de repente vira um belo cisne e todos brigam com unhas e dentes pra tê-lo.   </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_IRON_GATE_LORE</LocID><!--NOT IN DEMO--> <Text>Todas as muralhas tem duplo sentido - Parar intrusos em potencial e prevenir que cidadãos fujam impunes. (Se é que eles fogem.) Um cinturão apertado de contenção e concreto reforçado com Limerita.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TRENCH_LORE</LocID>   <!--NOT IN DEMO--> <Text>Se os Fossorianos são bons em alguma coisa, é em cavar. Decorar isso com cabeças em lanças parece uma idéia maravilhosa. Espalhe alguns cadáveres pelas trincheiras, cereja do bolo. Voilá, uma obra de arte. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_TURRET_LORE</LocID>   <!--NOT IN DEMO--> <Text>Essa tecnologia foi "libertada" de armazens da NUSS. A desvantagem é que recalibrar o software de reconhecimento custou as vidas de um contêiner de cobaias. A vantagem é que cobaias são sempre um recurso renovável.</Text>  </GameDBLocalizedString>
+
+
+            <!-- For Chris: texts ready for proofreading START -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_4_UPG_LORE</LocID>                         <Text>Cadeias de suprimento entre bases Fossorianas geralmente só dão certo no papel. Por isso, se quiser disparar uma enorme quantidade de munições como se fossem torpedos subterrâneos, a melhor maneira é se tornar autônomo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_5_LORE</LocID>                             <Text>Cuidadosamente projetadas para manter essas invertebradas ferozes sob controle, ou pelo menos separados do resto da cidade. Embora até certas glândulas sejam cirurgicamente removidas dos corpos, elas permanecem indomáveis.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_5_UPG_LORE</LocID>                         <Text>Estas minhocas blindadas são valiosas no combate, mas ser o cuidador delas é uma escolha perigosa de carreira. E o pior, é para alguns membros de dentro do partido como uma forma menos pública de se livrar de alguém. É o papo dos dois coelhos... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_6_LORE</LocID>                             <Text>Pra surpresa de ninguém, pouquíssimos Comissários sobreviveram a fuga da velha Fossoria. Graças a composição "colorida" do exército Fossoriano, há uma pressão imensa de treinar sangue novo pra garantir que certos elementos permaneçam na linha.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_6_UPG_LORE</LocID>                         <Text>Um verdadeiro idealista sempre causa mais estrago. E a melhor forma de garantir que esse estrago chegue ao inimigo, é mantê-los no campo de batalha - porque assim que ficam com tédio, já enxergam traidores em todo canto. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_LORE</LocID>                             <Text>Cada Libertador terminado é um monumento honrando a dedicação e o sacrifício dos trabalhadores Fossorianos. Na realidade, são ameaças e violência que os mantém bem motivados.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_UPG_LORE</LocID>                         <Text>Todo o lixo tóxico da base é reciclado aqui para encher os tanques do Libertador Maciço. Muitos trabalhadores operando o coquetel maligno possuem marcas de mutação e por isso estão proibidos de acessar o resto da base.</Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading END -->
+
+            <!-- For Chris: Feel free to suggest more dirt/hole/mole related base names :D -->
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_01</LocID>                                        <Text>Toupeirópolis</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_02</LocID>                                        <Text>Pilheiras</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_03</LocID>                                        <Text>Cova Grossa do Norte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_04</LocID>                                        <Text>Cova Grossa do Sul</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_05</LocID>                                        <Text>Bura-Copos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_06</LocID>                                        <Text>Fosso Alegre</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_07</LocID>                                        <Text>Tatú-A-Pé</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_08</LocID>                                        <Text>Bragança Pólista</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_09</LocID>                                        <Text>Pótaleza</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_10</LocID>                                        <Text>Minas Mofais</Text></GameDBLocalizedString>
+			<!--
+			<GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_11</LocID>                                        <Text>Burrow's End</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_12</LocID>                                        <Text>Blind Man's Bluff</Text></GameDBLocalizedString>
+			<GameDBLocalizedString>         <LocID>MOLES_BASE_NAME_13</LocID>                                        <Text>Bedrock Bottom</Text></GameDBLocalizedString>
+			-->
+            
+            <!-- TODO - COMBAT OBJECTS-->
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_MOLE_WALL</LocID>                              <Text>Campo de Força</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_MOLE_LOOPHOLE</LocID>                          <Text>Brecha</Text></GameDBLocalizedString>
+
+            <!-- EA updates -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SLAVE_CAMP</LocID>                                 <Text>Posto Avançado do Enviado Escravagista</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SLAVE_CAMP_DESCRIPTION</LocID>                     <Text>Recrute unidades extras a cada ciclo!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SLAVE_CAMP_LORE</LocID>                            <Text>Até os burocratas mais sórdidos não falam desse local ao céu aberto... só que as vezes os fins justificam os meios!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_EQUIPMENT_MARKET</LocID>                           <Text>Mercado de Equipamentos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_EQUIPMENT_MARKET_DESCRIPTION</LocID>               <Text>Compre ou venda equipamentos! Renovado no início de cada ciclo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_EQUIPMENT_MARKET_LORE</LocID>                      <Text>Excedente militar oficial.  Definitivamente não furtado por trabalhadores revoltados!</Text></GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
