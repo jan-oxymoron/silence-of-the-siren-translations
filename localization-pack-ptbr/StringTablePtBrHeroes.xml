@@ -1,0 +1,190 @@
+<Database>
+    <GameDBStringTable ID="LOC_PTBR_HEROES">
+
+        <LanguageRef>LANG_PTBR</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--Hero info shown in hero details panel-->
+            <GameDBLocalizedString>         <LocID>HERO_LEVEL</LocID>                                       <Text>Nível</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_XP</LocID>                                          <Text><![CDATA[<color=SOTS_COLOR_XP>Pontos de Experiência (EXP)</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_COMBAT</LocID>                            <Text>Força de Combate</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_COMBAT_DESCRIPTION</LocID>                <Text><![CDATA[Cada ponto de Força de Combate aumenta a <color=SOTS_COLOR_UPGRADE>DEFESA</color> e <color=SOTS_COLOR_ATTACK>DANO</color> de suas unidades.]]></Text>  </GameDBLocalizedString>
+                                                                                                           
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_INTELLIGENCE</LocID>                      <Text>Força de Habilidade</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_INTELLIGENCE_DESCRIPTION</LocID>          <Text><![CDATA[Aumentar a Força de Habilidade aumenta a <color=SOTS_COLOR_ENERGY>Barra de Energia</color> do Comandante, e faz suas habilidades serem mais poderosas.]]></Text>  </GameDBLocalizedString>
+                                                                                                           
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_VISION</LocID>                            <Text>Visão</Text>  </GameDBLocalizedString>
+                                                                                                           
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MOVEMENT</LocID>                          <Text>Proficiência de Exploração</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MOVEMENT_DESCRIPTION</LocID>              <Text><![CDATA[Aumenta o número de <color=SOTS_COLOR_MOVEMENT>Pontos de Movimento</color>, e também aumenta o alcançe de visibilidade do Comandante.]]></Text>  </GameDBLocalizedString>
+                                                                                                           
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MORALE</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_GOLD>Moral</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MAX_ENERGY</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_ENERGY>Pontos de Energia</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_ENERGY_REPLENISHED_BY_DAY</LocID>         <Text>Energia recuperada cada turno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MOVEMENT_POINTS</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Pontos de Movimento</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MAX_MOVEMENT_POINTS</LocID>               <Text><![CDATA[Máximo de <color=SOTS_COLOR_MOVEMENT>Pontos de Movimento</color>]]></Text>  </GameDBLocalizedString>
+                                                                                                           
+            <GameDBLocalizedString>         <LocID>LEARN_SKILL</LocID>                                      <Text>Aprender</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_PANEL_HERO_INFO</LocID>                             <Text>Comandante</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_PANEL_ABILITIES</LocID>                             <Text>Habilidades</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_PANEL_BUFFS</LocID>                                 <Text>Incrementos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_PANEL_STATISTICS</LocID>                            <Text>Estatísticas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_NO_ABILITIES</LocID>                                <Text>Este Comandante ainda não aprendeu um talento que os permita aprender habilidades especiais.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_NO_BUFFS</LocID>                                    <Text>Este Comandante ainda não possui incrementos.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HEADING_EQUIPMENT</LocID>                                <Text>Equipamentos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_INVENTORY</LocID>                                <Text>Inventário</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_CONSUMABLES</LocID>                              <Text>Consumíveis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_SKILLS</LocID>                                   <Text>Talentos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_ABILITIES</LocID>                                <Text>Habilidades</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_ARMY</LocID>                                     <Text>Exército</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_USE_ABILITIES</LocID>                            <Text>Usar Habilidades</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_HERO_BUFFS</LocID>                               <Text>Incrementos de Herói</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_ARMY_BUFFS</LocID>                               <Text>Incrementos de Exército</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_MAP_BUFFS</LocID>                                <Text>Incrementos do Mapa</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>INVENTORY_FILTER_ARTIFACTS</LocID>                       <Text>Artefatos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_FILTER_EQUIPMENT</LocID>                       <Text>Equipamentos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_FILTER_CONSUMABLES</LocID>                     <Text>Consumíveis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_FILTER_EXPLORATION</LocID>                     <Text>Ítens de Mapa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_FILTER_ALL</LocID>                             <Text>Todos os Ítens</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>LEVEL_UP</LocID>                                         <Text>SUBIU DE NÍVEL!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LEVEL_UP_ATTRIBUTE</LocID>                               <Text>Escolha um ATRIBUTO para elevar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LEVEL_UP_SKILL</LocID>                                   <Text>Escolha um TALENTO para elevar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LEVEL_UP_NO_SKILL_AVAILABLE</LocID>                      <Text>Este Comandante não pode aprender mais nenhum talento.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>LEARN</LocID>                                            <Text>Aprender</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>SKILL_LEVEL_1</LocID>                                    <Text>NVL 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_LEVEL_2</LocID>                                    <Text>NVL 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_LEVEL_3</LocID>                                    <Text>NVL 3</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>NOT_ENOUGH_RESOURCES</LocID>                             <Text>Sem Moedas Aura suficientes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NO_SPACE_IN_BASE</LocID>                                 <Text>A base está cheia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOO_MANY_HEROES</LocID>                                  <Text>Limite Alcançado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NO_MORE_HEROES</LocID>                                   <Text>Não há Comandantes livres restando.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_NO_ABILITY_SKILLS</LocID>                           <Text>Este Comandante não possui os talentos pra aprender algo aqui.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_KNOWS_ABILITY</LocID>                               <Text>{1} aprendeu esta habilidade.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_NEEDS_SKILL_TO_ABILITY</LocID>                      <Text>{1} precisa do nível {2} do talento {3} para aprender esta habilidade.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_CAN_LEARN_ABILITY</LocID>                           <Text>{1} pode aprender esta habilidade visitando a base.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITIES_AVAILABLE</LocID>                              <Text>Disponíveis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITIES_ALL</LocID>                                    <Text>Todas</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>TOOLTIP_MOVE_ALL_ITEMS</LocID>                           <Text>Mover todos os ítens entre Comandantes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_MERGE_ARMY</LocID>                               <Text>Reunir Exércitos</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUFF_CARD_SKILL_EFFECT_ENGINEER</LocID>                  <Text>Recarregar Pontos de Energia.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUFF_CARD_SKILL_EFFECT_EXPLORER</LocID>                  <Text>Aumentar Pontos de Movimento.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_ACTION_SELECTOR_BUILD</LocID>                       <Text>Construir Estrutura</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ACTION_SELECTOR_BOOK</LocID>                        <Text>Livro de Habilidades</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ACTION_SELECTOR_VISIT</LocID>                       <Text>Revisitar o edifício que o Comandante está\nAtalho padrão: [Spacebar]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ACTION_SELECTOR_PARK_HERO</LocID>                   <Text>Armar um campo e deixar o exército treinar.\n\nO Comandante receberá um bônus defensivo no início do próximo turno e receberá EXP por cada turno que o exército dele gastou treinando.\n\n Nenhum diálogo avisará das ações disponíveis deste Comandante e o botão "Próximo Comandante" irá desconsiderá-lo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ACTION_SELECTOR_UNPARK_HERO</LocID>                 <Text>Cancelar treino e re-ativar este Comandante.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DISMISS_HERO</LocID>                                     <Text>Dispensar este Comandante!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_CURRENT_SKILLS</LocID>                           <Text>Talentos atuais</Text>  </GameDBLocalizedString>
+
+            <!--Exploration skills-->
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORER</LocID>                              <Text>Explorador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORER_DESCRIPTION</LocID>                  <Text><![CDATA[Acrescenta permanentemente <color=SOTS_COLOR_MOVEMENT>4 Pontos de Movimento</color> com cada nível de talento.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER1</LocID>                           <Text><![CDATA[Acrescenta permanentemente <color=SOTS_COLOR_MOVEMENT>4 Pontos de Movimento.</color>\nReunir-se com qualquer Comandante amigável restaura <color=SOTS_COLOR_MOVEMENT>2 Pontos de Movimento</color> uma vez for Fase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER2</LocID>                           <Text><![CDATA[Acrescenta permanentemente <color=SOTS_COLOR_MOVEMENT>8 Pontos de Movimento.</color>\nReunir-se com qualquer Comandante amigável restaura <color=SOTS_COLOR_MOVEMENT>4 Pontos de Movimento</color> uma vez for Fase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER3</LocID>                           <Text><![CDATA[Acrescenta permanentemente <color=SOTS_COLOR_MOVEMENT>12 Pontos de Movimento.</color>\nReunir-se com qualquer Comandante amigável restaura <color=SOTS_COLOR_MOVEMENT>6 Pontos de Movimento</color> uma vez for Fase.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_ENGINEER</LocID>                              <Text>Engenheiro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_ENGINEER_DESCRIPTION</LocID>                  <Text><![CDATA[Acrescenta uma recarga diária de <color=SOTS_COLOR_ENERGY>5 Pontos de Energia</color> com cada nível de talento, e aprimora outros aspectos de uso de Energia.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER1</LocID>                           <Text><![CDATA[Recarrega <color=SOTS_COLOR_ENERGY>5 Energy Points</color> diariamente.\nEquipamentos drenam <color=SOTS_COLOR_ENERGY>10% menos de Energia.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER2</LocID>                           <Text><![CDATA[Recarrega <color=SOTS_COLOR_ENERGY>10 Energy Points</color> diariamente.\nArtefatos drenam <color=SOTS_COLOR_ENERGY>10% menos de Energia.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER3</LocID>                           <Text><![CDATA[Recarrega <color=SOTS_COLOR_ENERGY>15 energy points</color> diariamente.\nAcrescenta <color=SOTS_COLOR_ENERGY>+30 pontos a reserva máxima de Energia</color> do Comandante.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_NEGOTIATOR</LocID>                            <Text>Negociador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_NEGOTIATOR_DESCRIPTION</LocID>                <Text>Algumas unidades de cada grupo em um exército neutro se juntarão ao seu Comandante antes da batalha. (Baseado em nível de talento e organização do exército)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_NEGOTIATOR1</LocID>                         <Text>10%, ou ao menos 1 unidade, de cada grupo irá se juntar.\n(80% do preço original)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_NEGOTIATOR2</LocID>                         <Text>20%, ou ao menos 1 unidade, de cada grupo irá se juntar.\n(60% do preço original)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_NEGOTIATOR3</LocID>                         <Text><![CDATA[30%, ou ao menos 1 unidade, de cada grupo irá se juntar.\nRemove <color=SOTS_COLOR_GOLD>Penalidade de Moral</color> para unidades de facções diferentes no exército.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_NEGOTIATOR3_TOOLTIP</LocID>                 <Text>(Negociador no Nível 3 cancelas penalidades para unidades de facções diferentes no exército)</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_BUILDER</LocID>                               <Text>Construtor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_BUILDER_DESCRIPTION</LocID>                   <Text><![CDATA[Estruturas no Mapa Mundial são construidas na sua <color=SOTS_COLOR_GOLD>forma aprimorada</color>. Nível 3 acrescenta <color=SOTS_COLOR_GOLD>Ciber-armadilhas</color> as estruturas disponíveis.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_CHEAPER_PRODUCTION_UPGRADES</LocID>         <Text><![CDATA[Aprimoramentos de Produção de edifícios no mapa custam <color=SOTS_COLOR_GOLD>{1}%</color> menos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_CHEAPER_GARRISON_UPGRADES</LocID>           <Text><![CDATA[Aprimoramentos Defensivos de edifícios no mapa são <color=SOTS_COLOR_GOLD>gratuitos!</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_BUILDER_DISCOUNT_PERCENT</LocID>            <Text><![CDATA[Construções de estruturas no mapa recebem <color=SOTS_COLOR_GOLD>{1}%</color> de desconto!]]> </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_DISCOUNT_PERCENT</LocID>            <Text><![CDATA[Remover Xeno-gosmas custa <color=SOTS_COLOR_GOLD>{1}%</color> menos!]]> </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SCOUT</LocID>                                 <Text>Patrulheiro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SCOUT_DESCRIPTION</LocID>                     <Text><![CDATA[Aumenta o alcançe de visibilidade, fornece mais informações de exércitos inimigos e prevê localizações de tesouros não descobertos. Comandante não é mais afetado por armadilhas e perigos do ambiente.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SCOUT1</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_GOLD>+1 Alcançe de Visibilidade.</color>\n<color=SOTS_COLOR_GOLD>Acrescenta um (?) ícone</color> para tesouros e recursos 5 casas dentro da neblina.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SCOUT2</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_GOLD>+2 Alcançe de Visibilidade.</color>\n<color=SOTS_COLOR_GOLD>Acrescenta um (?) ícone</color> para minas e outras estruturas não-ocupadas 5 casas dentro da neblina.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SCOUT3</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_GOLD>+3 Alcançe de Visibilidade.</color>\n<color=SOTS_COLOR_GOLD>Acrescenta um (?) ícone</color> para equipamentos, artefatos, bases e estruturas benéficas 5 casas dentro da neblina.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SPY1</LocID>                                <Text><![CDATA[Mostra os <color=SOTS_COLOR_GOLD>Atributos</color> do Comandante inimigo.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SPY2</LocID>                                <Text><![CDATA[Mostra os <color=SOTS_COLOR_GOLD>Atributos e Talentos</color> do Comandante inimigo.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SPY3</LocID>                                <Text><![CDATA[Mostra os <color=SOTS_COLOR_GOLD>Atributos e Talentos</color> do Comandante inimigo. Também mostra o tamanho do <color=SOTS_COLOR_GOLD>exército inimigo.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_COLLECTOR</LocID>                             <Text>Colecionador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_COLLECTOR_DESCRIPTION</LocID>                 <Text>Acrescenta um espaço extra para artefatos ou equipamentos com cada nível de talento. Permite recolher ítens de locais perigosos próximos a exércitos neutros sem causar uma batalha. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_COLLECTOR1</LocID>                          <Text>+1 espaço de equipamento.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_COLLECTOR2</LocID>                          <Text><![CDATA[+2 espaços de equipamentos.\n +10% de chance ganhar um <color=SOTS_COLOR_FUSION_CORE>Núcleo de Fusão</color> Primal.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_COLLECTOR3</LocID>                          <Text><![CDATA[+1 espaço de artefato.\nJogador pode ver um (?) ícone para <color=SOTS_COLOR_FUSION_CORE>Núcleos de Fusão</color> 5 casas dentro da neblina.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_TRACKER</LocID>                               <Text>Rastreador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_TRACKER_DESCRIPTION</LocID>                   <Text><![CDATA[Reduz a penalidade por movimentos em terreno bruto. Mostra trilhas de seus inimigos. O Comandante é ignorado por torretas Primais e outras defesas.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TERRAIN_COST_REDUCED</LocID>                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Penalidade por terreno bruto</color> reduzida em {1}%.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SEE_ENEMY_PATHS_TILES</LocID>               <Text><![CDATA[Pode ver trilhas de {1} passos de <color=SOTS_COLOR_GOLD>Comandantes inimigos.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXTRA_MOVE_POINTS_FROM_CONSUMABLES</LocID>  <Text><![CDATA[Consumíveis restauram {1}% a mais de <color=SOTS_COLOR_MOVEMENT>movimento.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SCOUTING_BONUS</LocID>                      <Text>Alcançe de patrulha +{1} casa(s).</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORATION_ABILITIES</LocID>                 <Text>Viajante</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORATION_ABILITIES_DESCRIPTION</LocID>     <Text><![CDATA[Aprender ou subir o nível de talento Viajante lhe permite aprender uma variedade de <color=SOTS_COLOR_GOLD>Habilidades de Exploração.</color> Após aprender este talento, visite uma base com uma <color=SOTS_COLOR_GOLD>Academia</color> para aprender mais habilidades.]]></Text>  </GameDBLocalizedString>
+
+            <!--Combat skills-->
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_BRAWLER</LocID>                               <Text>Porradeiro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_BRAWLER_DESCRIPTION</LocID>                   <Text>Aumenta os ataques corpo-a-corpo de suas unidades.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MELEE_DAMAGE_BONUS</LocID>                  <Text><![CDATA[Ataques corpo-a-corpo causam <color=SOTS_COLOR_RED>+{1}% de danos.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MELEE_UNIT_MOVEMENT_BONUS</LocID>           <Text>Unidades corpo-a-corpo: +{1} de movimento em combate.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SNIPER</LocID>                                <Text>Franco-Atirador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SNIPER_DESCRIPTION</LocID>                    <Text><![CDATA[Aumenta os <color=SOTS_COLOR_RED>danos</color> de ataques a distância.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_RANGED_DAMAGE_BONUS</LocID>                 <Text><![CDATA[Ataques a distância causam <color=SOTS_COLOR_RED>+{1}% de danos.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_LONG_RANGE_PENALTY_REDUCTION</LocID>        <Text><![CDATA[Ataques a distância fora do alcançe preciso causam <color=SOTS_COLOR_RED>+{1}% de danos.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_DEFENSIVE_SPECIALIST</LocID>                  <Text>Especialista Defensivo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_DEFENSIVE_SPECIALIST_DESCRIPTION</LocID>      <Text>Aprimora a defesa de suas unidades e lhes dá uma chance de retaliar contra ataques múltiplos em um único turno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_DEFENSE_BOOST</LocID>                       <Text><![CDATA[Aumenta o atributo de <color=SOTS_COLOR_UPGRADE>Defesa</color> de suas unidades em <color=SOTS_COLOR_UPGRADE>{1}.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SECOND_RETALIATION_CHANCE</LocID>           <Text>Unidades tem uma chance de {1}% de retaliarem contra dois ataques em um único turno.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_CHESS_MASTER</LocID>                          <Text>Mestre de Xadrez</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_CHESS_MASTER_DESCRIPTION</LocID>              <Text>Lhe permite posicionar o exército deste Comandante no início de uma batalha.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENABLE_TACTICS</LocID>                      <Text>Permite Fase Tática, {1} casas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MORALE_BOOST</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Aumento de Moral em +{1}%</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_INITIATIVE_BOOST</LocID>                    <Text>Aumento de Iniciativa em +{1}</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_COMBAT_TECH_ABILITIES</LocID>                 <Text>Técnico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_COMBAT_TECH_ABILITIES_DESCRIPTION</LocID>     <Text><![CDATA[Aprender ou subir o nível de talento Técnico lhe permite aprender uma variedade de <color=SOTS_COLOR_GOLD>Habilidades de Combate Tech.</color> Após aprender este talento, visite uma base com uma <color=SOTS_COLOR_GOLD>Academia</color> para aprender mais habilidades.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_COMBAT_BIO_ABILITIES</LocID>                  <Text>Biólogo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_COMBAT_BIO_ABILITIES_DESCRIPTION</LocID>      <Text><![CDATA[Aprender ou subir o nível de talento Biólogo lhe permite aprender uma variedade de <color=SOTS_COLOR_GOLD>Habilidades de Combate Bio.</color> Após aprender este talento, visite uma base com uma <color=SOTS_COLOR_GOLD>Academia</color> para aprender mais habilidades.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SCAVENGER</LocID>                             <Text>Escavador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SCAVENGER_DESCRIPTION</LocID>                 <Text>Permite que o Comandante recupere alguns materiais de um exército derrotado.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SCAVENGE_RESOURCES</LocID>                  <Text>Comandante recupera {1}% de recursos máximos disponíveis de inimigos derrotados.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXTRA_COMBAT_XP_PERCENT</LocID>             <Text>Comandante ganha {1}% de EXP extra de encontros em combate.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_FIELD_RESEARCH</LocID>                        <Text>Pesquisa de Campo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_FIELD_RESEARCH_DESCRIPTION</LocID>            <Text>Permite ao Comandante aprender novas habilidades no início de cada Ciclo e lhe dá uma chance de aprender habilidades usadas em combate ou de um artefato.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_LEARN_ABILITY_EACH_CYCLE</LocID>            <Text><![CDATA[Comandante pode aprender uma habilidade aleatória atá o <color=SOTS_COLOR_UPGRADE>Nível {1}</color> a cada fase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_LEARN_USED_ABILITY_CHANCE</LocID>           <Text><![CDATA[<color=SOTS_COLOR_UPGRADE>{1}%</color> de chance de aprender uma habilidade aleatória usada em combate ou de um item. Requer <color=SOTS_COLOR_RED>Talento referente</color> a habilidade.]]></Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
