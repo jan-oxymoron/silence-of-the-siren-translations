@@ -1,0 +1,131 @@
+<Database>
+    <GameDBStringTable ID="LOC_PTBR_CAMPAIGN_MOLES_LVL_3">
+
+        <LanguageRef>LANG_PTBR</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--OBJECTIVES MAIN QUESTS-->
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_RECRUIT_HERO_1</LocID>                 <Text>Visite o Cap. Holester com o Almirante Muff</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_RECRUIT_HERO_1_DONE</LocID>            <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Visite o Cap. Holester com o Almirante Muff - CONCLUIDO</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_RECRUIT_HERO_1_SUB</LocID>             <Text>Resgate o exército de Holester</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_RECRUIT_HERO_1_SUB_DONE</LocID>        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Resgate o exército de Holester - CONCLUIDO</color>]]></Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_RECRUIT_HERO_2</LocID>                 <Text>Visite o Major Skaurov com o Almirante Muff</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_RECRUIT_HERO_2_DONE</LocID>            <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Visite o Major Skaurov com o Almirante Muff - CONCLUIDO</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_RECRUIT_HERO_2_SUB</LocID>             <Text>Conquiste as bases da Frota Soberana</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_RECRUIT_HERO_2_SUB_DONE</LocID>        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Conquiste as bases da Frota Soberana - CONCLUIDO</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_ENTER_REALM</LocID>                    <Text>Adentre os Territórios Centrais</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_ENTER_REALM_DONE</LocID>               <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Adentre os Territórios Centrais - CONCLUIDO</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL3_CONQUERE_REALM</LocID>                 <Text>Conquiste os Territórios Centrais</Text>  </GameDBLocalizedString>
+
+            <!--DIALOGUES-->
+                                            <!--Start dialogue -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_START_FURRET_0</LocID>                   <Text>Nemek, a única nave agrícola da Frota. Eu me lembro da Rebelião. Quase todos os legalistas morreram de fome na época. Ha, quase que eu comi os meus sapatos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_START_MUFF_0</LocID>                     <Text>Fizemos o lance do "É quem pode destruir a coisa quem tem o controle", mas estávamos dispostos a ir até certo ponto.\nNinguém pensou que o Líder Supremo ordenaria a destruição da única fonte de comida pra Frota.\nNinguém pensou do que ele era capaz de arriscar, tudo pra ficar no poder. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_START_FURRET_1</LocID>                   <Text>Agora sabemos. Falando nisso, ainda tá esquisito eu te chamar de 'Almirante'. Nem acredito que aceitou levar ordens me mim, um reles General de Produção. Sou uma piada ambulante, se nos compararmos. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_START_MUFF_1</LocID>                     <Text>Quão notável auto-ciência da sua parte! Você com certeza era, quando nos encontramos. Mas olhe pra você agora, meu amigo. Um verdadeiro general revolucionário, testado em batalha. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_START_RELIC_1</LocID>                    <Text>'Amigo'? Não seja um tolo, você é só um instrumento.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_START_FURRET_3</LocID>                   <Text>Falando de revolução, seria melhor se você se encontrasse com os seus amigos pessoalmente. Afinal, vou ser um estranho pra eles. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_START_MUFF_3</LocID>                     <Text>Verdade. Vou começar com o Capitão Holester. Ele teve sorte, e com a nova identidade falsa, ele se tornou um guardião da colônia. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_START_MUFF_4</LocID>                     <Text>Skaurov, nosso espião no campo do Líder Supremo, foi descoberto. Mas milagrosamente, ele parou na Legião Penal ao invés de perante um pelotão de fuzilamento. </Text>  </GameDBLocalizedString>
+
+
+                                            <!-- Meeting first pirate hero  near the base -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_PIRATE_MEETING_PPIRATE_1</LocID>         <Text>Outro Fossoriano? Seus traidores felpudos, vocês quebraram a trégua torturando Kali Chapek, um capitão da Frota Soberana.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_PIRATE_MEETING_MOLE_1</LocID>            <Text>O quê!? Não fizemos nada pra ele! Aquele canalha estava livre e totalmente ileso, da última vez que o vi.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_PIRATE_MEETING_PPIRATE_2</LocID>         <Text>Mentiras não vão salvá-los quando a Frota Soberana der o troco. </Text>  </GameDBLocalizedString>
+
+                                            <!-- auxiliary hero -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_AUXILIARY_JOHN7A_1</LocID>               <Text>Meus guerreiros Fossorianos favoritos! Vim aqui proteger meu investimento, então trouxe um amigo para ajudar. Ele sabe como dirigir uma base da Frota Soberana e é tão leal quanto qualquer mercenário. </Text>  </GameDBLocalizedString>
+
+            <!--ALLY_1-->
+                                            <!--Holester meets Muff-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_1_HOLESTER_1</LocID>                <Text>Almirante Muff! Só pode haver um motivo pra você dar as caras. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_1_MUFF_1</LocID>                    <Text>Sim, Capitão, preciso de suas habilidades, de novo. O Líder Supremo tem uma dívida, e estou preparando uma cobrança sangrenta! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_1_HOLESTER_2</LocID>                <Text>Perdi o meu posto no dia que minha nave foi destruida sob a barragem. Sou só agora um guardião anônimo de uma colônia de mineração. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_1_MUFF_2</LocID>                    <Text>E como vai a sua vida normal?  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_1_HOLESTER_3</LocID>                <Text>...devia ter caido com a minha nave. Mas me juntar a você agora seria um suicídio. Além do mais, já tenho um problema meu. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_1_HOLESTER_4</LocID>                <Text>Sofri uma emboscada enquanto inspecionava um posto avançado ao sul. Consegui fugir, mas aqueles piratinhas da Frota Soberana cercaram meus guerreiros. Quebre o cerco, e daí podemos conversar.</Text>  </GameDBLocalizedString>
+
+                                            <!--Holester meets Skaurov-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SKAUROV_HOLESTER_1</LocID>               <Text>Saudações, velho amigo. O que te traz aqui?</Text>  </GameDBLocalizedString>
+
+                                            <!--Holester meets another commander-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_DO_NOT_KNOW_HOLESTER_1</LocID>           <Text>Vem cá, te conheço?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_DO_NOT_KNOW_RANDOM_H_1</LocID>           <Text>Seria melhor se conversasse com o Almirante Muff em pessoa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_DO_NOT_KNOW_HOLESTER_2</LocID>           <Text>O Almirante Muff está aqui? Traga-o a mim, gostaria de conversar com ele!</Text>  </GameDBLocalizedString>
+  
+                                            <!-- Holester army -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_1_HOLESTER_ARMY_1</LocID>           <Text>Lhe devemos nossas vidas, senhor da guerra. Vamos nos juntar-lhe em pagar essa dívida. </Text>  </GameDBLocalizedString>
+
+                                            <!-- Holester joins -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_1_JOIN_HOLESTER_1</LocID>           <Text>Impressionante, talvez tenhamos chance em seja lá o que for essa bobagem que está tramando...</Text>  </GameDBLocalizedString>
+                                         
+                                            <!--Relic on Holester-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_1_RELIC_1</LocID>                   <Text>Dias antes da Rebelião ser esmagada, ele forjou a própria morte e já estava buscando uma forma de voltar para os legalistas. Que inteligente, deveria fazer o mesmo, Furret.</Text>  </GameDBLocalizedString>
+																																<!-- was or is searching for a way back? I wasn't sure.. if it is the present.. use is -->
+                                            <!--Holester joined team-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_1_JOINED_TEAM</LocID>               <Text>Um Comandante se juntou a você!</Text>  </GameDBLocalizedString>
+
+           
+            <!--ALLY_2-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_SKAUROV_1</LocID>                 <Text>Almirante Muff! Em vias de derrubar o Líder Supremo, não é mesmo? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_MUFF_1</LocID>                    <Text>Pior que é mesmo, Major. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_SKAUROV_2</LocID>                 <Text>Espera, eu estava brincando! Não pode estar falando sério. Levamos uma surra da última vez! UMA SURRA! Esqueceu!?  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_MUFF_2</LocID>                    <Text>Ninguém se lembra melhor do que eu! O Líder Supremo destruiu minhas naves, executou meus amigos, e destruiu meus sonhos. Eram os SEUS amigos e sonhos também, Skaurov! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_SKAUROV_3</LocID>                 <Text>...as vezes eu quase que consigo esquecer. Me juntaria a você na hora, Almirante, não fosse esse problema em particular. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_SKAUROV_4</LocID>                 <Text>O Alto Comando me enviou para colocar um sinalizador de rádio entre as bases da Frota Soberana ao sul. Mas aqueles piratas nos impediram na hora que chegamos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_SKAUROV_5</LocID>                 <Text>Não vou poder ajudá-lo enquanto os piratas da Frota Soberana ameaçarem nossa retaguarda.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_MUFF_3</LocID>                    <Text>Conheço essa tática de SINALIZADOR bem demais. Não se preocupe com a retaguarda, eu vou cuidar dos piratas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_MUFF_ALTERNATE_3</LocID>          <Text>Conheço essa tática de SINALIZADOR bem demais. Não se preocupe com a retaguarda, eu já cuidei dos piratas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_MUFF_4</LocID>                    <Text>E quanto ao SINALIZADOR. Se importa de eu pegar emprestado? Pode acabar sendo útil, mais tarde... </Text>  </GameDBLocalizedString>
+
+                                            <!-- Skaurov joins -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_JOIN_SKAUROV_1</LocID>            <Text>Quais são minhas ordens?  </Text>  </GameDBLocalizedString>
+
+                                            <!--Relic on Holester-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_ALLY_2_RELIC_1</LocID>                   <Text>Eles eram apenas filhotes quando Skaurov ficou entre seu irmãozinho e uma Minhoca de Túnel bem raivosa. A cara deformada faz o Líder Supremo lembrar que ele se tremeu e mijou todinho enquanto seu irmão enfrentava o monstro. Nossa, o quanto ele o odeia! Consegue odiar tanto assim, Furret? Deveria aprender isso!</Text>  </GameDBLocalizedString>
+
+
+                                            <!-- To the Northern gate -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_NORTH_GATE_FURRET_1</LocID>              <Text>Os velhos rebeldes se reuniram! Mas cuidado: seremos atacados no momento em que pisarmos nos Territórios Centrais. Qual o plano, então? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_NORTH_GATE_MUFF_1</LocID>                <Text>Quer saber? Acho que vou pegar emprestado uma frase sua, Furret. Só pegar todo mundo e atacar! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_NORTH_GATE_FURRET_2</LocID>              <Text>ISSO! Assim que os Fossorianos resolvem! </Text>  </GameDBLocalizedString>
+
+
+                                            <!--SNIF encounter-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_1_SNIF1</LocID>           <Text>Esplêndido, consegui chegar bem a tempo de avisar o regimento local sobre vocês! Sargento Moltair! Traga-me a cabeça dele! Agora, preciso partir e informar o Líder Supremo!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_1_MOLTAIR1</LocID>        <Text>Uhh, Comissário? Não seria melhor o senhor e suas tropas ficarem para... supervisionar a vitória?  O exército rebelde é maior do que antecipávamos. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_1_SNIF2</LocID>           <Text>FAÇA O QUE EU MANDEI! A não ser que queira a alternativa, que seria o pelotão de fuzilamento!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_1_MOLTAIR2</LocID>        <Text>Conforme ordenado, Comissário!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_1_ANY</LocID>             <Text>Que covarde...</Text>  </GameDBLocalizedString>
+
+                                            <!--INDIGO player defeated-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_2_SNIF2</LocID>           <Text>IMBECIS! INCOMPETENTES! Mal saio pra comprar cigarro e tudo vira CINZAS! Sorte que sou de uma capacidade melhor. Vocês vão ver.    </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_2_SNIF1</LocID>           <Text>Pode ter guerreiros suficientes pra roubar uma província, mas contra o poderio do exército do Líder Supremo, vocês têm chance alguma! Podem ficar, correr, invadir, pouco importa... estão só no tempo comprado! </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_2_MUFF_1</LocID>          <Text>Diga a ele que o Almirante Muff manda um abraço! Ele vai entender.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_2_FURRET_1</LocID>        <Text>Eu prometi que você iria pagar pelo que me fez passar na Legião Penal.  E essa é a primeira prestação!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_2_OTHER HERO_1</LocID>    <Text>Isso é pelos nossos irmãos executados e pela Nemek! Abaixo a tirania do Líder Supremo! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_SNIF_ENCOUNTER_2_AUX_HERO_1</LocID>      <Text>Eu acho que não. Meus empregadores são guerreiros do tipo lendário. E acho que aqueles caras vão ARROMBAR a fechadura do seu chefe! </Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_WARNING_FOSSORIAN_TERRITORY</LocID>      <Text>Este vale leva ao centro do território Fossoriano.  Somente um tolo atravessaria sem os exércitos de outros senhores da guerra ao nosso lado! </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_FURRET_MEETS_BENI</LocID>                <Text>Outro dia, outro mestiço nojento! </Text>  </GameDBLocalizedString>
+
+                                            <!-- Ending -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL3_END_TEXT</LocID>                         <Text>O caminho ao coração do território Fossoriano está limpo. Claro, os rebeldes carecem de número, mas reconvocar os exércitos do Líder Supremo, a maioria ocupada com escaramuças nas fronteiras, vai demorar muito tempo.\nUm ataque rápido e preciso é tudo que eles precisam. Mas se nossos 'heróis' errarem, não haverá segunda chance. Felizmente, eles têm alguns ases na manga.\nE se tudo der azar? Ainda tem o SINALIZADOR adquirido do Almirante Muff. Você já deve saber o que é, nessa altura do campeonato, e como um sábio Fossoriano uma vez disse, "Uma arma nuclear é sempre o melhor trunfo pra iniciar qualquer negociação!".</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
