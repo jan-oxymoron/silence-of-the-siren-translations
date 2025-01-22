@@ -1,0 +1,45 @@
+<Database>
+    <GameDBStringTable ID="LOC_PTBR_PATCH_02">
+
+        <LanguageRef>LANG_PTBR</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>        <LocID>HERO_MOLE_8_DESCRIPTION_V2</LocID>                                      <Text>Por causa do envolvimento de Holester na Rebelião de Nemek, o Líder Supremo lançou uma falsa mensagem sobre a sua morte. Deveria diminuir a moral dos rebeldes, só que, surpreendentemente, isso salvou a vida de Holester. No caos da pós-rebelião, ninguém podia distinguir a verdade da propaganda. Por isso, "Morrer é o melhor ponto de início pra uma vida nova" se tornou o novo mantra de Holester.  </Text>  </GameDBLocalizedString>
+
+            <!--MAP Bridges too far - translate by google-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_BRIDGES_TOO_FAR_BLOCKED_PATH</LocID>                         <Text>O caminho está bloqueado.</Text>  </GameDBLocalizedString>
+            
+            <!--New descriptions with new IDs-->
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_EXTRA_RATIONS_DESCRIPTION_V2</LocID>                      <Text><![CDATA[Aumenta <color=SOTS_COLOR_GOLD>Moral</color> em <color=SOTS_COLOR_GOLD>+5</color> até o fim da <color=SOTS_COLOR_RED>próxima batalha</color>. Este tipo consumível pode ser <color=SOTS_COLOR_GOLD>usado</color> até <color=SOTS_COLOR_GOLD>3 vezes.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_V2</LocID>            <Text>Apareça como se fosse o Comandante mais fraco!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL2_V2</LocID>       <Text>Finja ser fraco para enganar outros em atacar você!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_SWITCH_TO_RATLING_PROJECTS_V2</LocID>               <Text><![CDATA[Agora clique <color=SOTS_COLOR_GOLD>com o botão esquerdo</color> no edifício <color=SOTS_COLOR_GOLD>Favela de Ratóides.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_OUT_OFF_RATLING_PROJECTS_V2</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_GOLD>Saia</color> da Favela de Ratóides.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_BLOODTHIRSTY_SOUL_DESCRIPTION_V2</LocID>                    <Text>Um artefato.\nToda vez que uma unidade for morta em combate, o Comandante poderá usar suas habilidades de novo.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_REINFORCEMENT_TEXT_V2</LocID>                         <Text><![CDATA[Escolha um tipo de unidade disponível! Unidades deste tipo disponíveis em todas as suas bases e não designadas a um Comandante alojado serão chamadas a ação!\nVocê só pode convocar unidades com um nível condizente a <color=SOTS_COLOR_GOLD>Força de Habilidade</color> do seu Comandante.]]></Text>  </GameDBLocalizedString>
+            
+            <!-- Updated lines, can't change IDs here (we can delete the original lines after translation) -->
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BARBARIAN_HORDE_3</LocID>                              <Text>Exército "mais forte": Engana até Comandantes com o talento Patrulheiro.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EASY_PREY_3</LocID>                                    <Text>Exército "mais fraco": Engana até Comandantes com o talento Patrulheiro.</Text></GameDBLocalizedString>
+
+            <!-- Shared names for common objects on all battlefields -->
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_LOOPHOLE</LocID>                          <Text>Brecha</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_GATE</LocID>                              <Text>Portão</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_WALL</LocID>                              <Text>Muro</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_WALL_UPG</LocID>                          <Text>Muro Fortificado</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NO_FREE_PLAYER_BASE_ON_MAP_LAYER</LocID>         <Text>Sem bases para evacuar neste nível de mapa.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EARLY_ACCESS_HEADING</LocID>                                         <Text>Acesso Antecipado</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
