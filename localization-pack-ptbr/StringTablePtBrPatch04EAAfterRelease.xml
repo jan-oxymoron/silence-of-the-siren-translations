@@ -1,0 +1,111 @@
+<Database>
+    <GameDBStringTable ID="LOC_PTBR_PATCH_04">
+
+        <LanguageRef>LANG_PTBR</LanguageRef>
+
+        <Contributors>
+            <Name>Felipe Augusto "DeltaCadimus" Godoy de Souza</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+        
+            <!-- Gates and keys -->
+            <GameDBLocalizedString>         <LocID>DIALOG_ITEM_ALREADY_OWNED</LocID>                                    <Text>Você já está carregando um desses!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ITEM_ALREADY_OWNED_TEXT</LocID>                               <Text>O Comandante já tem esse item no seu inventário:</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_GATE_NEED_KEY</LocID>                                         <Text>Este portão está trancado!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_GATE_NEED_KEY_TEXT</LocID>                                    <Text>Precisa da chave condizente para abrí-lo:</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_STRAIGHT_LOCKED</LocID>                                  <Text>Portão de Busca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_STRAIGHT_UNLOCKED</LocID>                                <Text>Portão de Busca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_RIGHT_LOCKED</LocID>                                     <Text>Portão de Busca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_RIGHT_UNLOCKED</LocID>                                   <Text>Portão de Busca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_LEFT_LOCKED</LocID>                                      <Text>Portão de Busca</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_LEFT_UNLOCKED</LocID>                                    <Text>Portão de Busca</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_STRAIGHT_LOCKED_KEY</LocID>                              <Text>Portão Trancado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_RIGHT_LOCKED_KEY</LocID>                                 <Text>Portão Trancado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_LEFT_LOCKED_KEY</LocID>                                  <Text>Portão Trancado</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_DESCRIPTION</LocID>                                      <Text>Um portão que pode ser aberto remotamente por um evento particular.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_DESCRIPTION_KEY</LocID>                                  <Text>Um portão que pode ser aberto com uma chave da cor condizente:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_DESCRIPTION</LocID>                               <Text>Uma chave que vai destrancar qualquer portão com a cor condizente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_LORE</LocID>                                      <Text>Tecnologia bem banal. Só que sem isso, os portões ficam pra sempre fechados.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_RED</LocID>                                       <Text>Chave de Portão Vermelho</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_YELLOW</LocID>                                    <Text>Chave de Portão Amarelo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_GREEN</LocID>                                     <Text>Chave de Portão Verde</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_LIGHT_BLUE</LocID>                                <Text>Chave de Portão Azul Claro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_WHITE</LocID>                                     <Text>Chave de Portão Branco</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_BLUE</LocID>                                      <Text>Chave de Portão Azul</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_ORANGE</LocID>                                    <Text>Chave de Portão Laranja</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_PURPLE</LocID>                                    <Text>Chave de Portão Roxo</Text>  </GameDBLocalizedString>
+            
+            <!-- Assorted gameplay texts -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MOVEMENT_NODE_SMALL</LocID>                                   <Text>Nódulo de Movimento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MOVEMENT_NODE_SMALL_DESCRIPTION</LocID>                       <Text><![CDATA[Totalmente <color=SOTS_COLOR_GOLD>reabastece os Pontos de Movimento</color> de um Comandante uma vez por Ciclo. (Chegou primeiro, levou primeiro.)]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TOMB_OF_SWORDMASTER_DESCRIPTION_V2</LocID>                    <Text><![CDATA[Aprendendo de uma consciência baixada de um velho mestre, estudar aqui irá <color=SOTS_COLOR_GOLD>permanentemente aumentar</color> um dos <color=SOTS_COLOR_GOLD>atributos</color> de seu Comandante em <color=SOTS_COLOR_GOLD>+2.</color>\nCada Comandante só pode estudar aqui uma vez.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_LEVEL_UP_ATTRIBUTE_TEXT</LocID>                               <Text><![CDATA[Bem vindo a minha Tumba, {1}.\nUm atributo de sua escolha será <color=SOTS_COLOR_GOLD>aprimorado em +2.</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>IMPROVE_ATTRIBUTE</LocID>                                            <Text>Escolha um atributo para APRIMORAR.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ATTRIBUTE_LEVEL_UP</LocID>                                           <Text>Aprimorar Atributo</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>RETREAT_NO_BASE</LocID>                                              <Text>Você não tem base para fugir!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RETREAT_NOT_FROM_HERE</LocID>                                        <Text>Você não pode fugir daqui!</Text>  </GameDBLocalizedString>
+
+            <!-- ability no target -->
+            <GameDBLocalizedString>         <LocID>NO_TARGET</LocID>                                                    <Text>Sem alvos</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CAMPAIGNSHUTTLE_LVL1</LocID>                                  <Text>Nave Ciber-Inseto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CAMPAIGNSHUTTLE_DESCRIPTION_LVL1</LocID>                      <Text>Uma pequena nave da frota dos Filhos da Fonte.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CAMPAIGNSHUTTLE</LocID>                                       <Text>Nave Ciber-Inseto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CAMPAIGNSHUTTLE_DESCRIPTION</LocID>                           <Text>Uma pequena nave da frota dos Filhos da Fonte que Furret e Muff usaram para fugir de uma explosão nuclear.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HOLD_BASE_FOR_N_ROUNDS</LocID>                                       <Text>Defenda a base {1} por {2} Fases.\n{3}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_GENERAL_OR</LocID>                                         <Text>ou</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EFFECTS_LAST_UNTIL_UNIT_ACTIVATES</LocID>                            <Text>Efeito dura até a próxima rodada da unidade.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EFFECTS_LAST_FOR_X_TURNS</LocID>                                     <Text>Efeito dura por {1} turno(s) da unidade.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EFFECTS_LAST_FOR_X_ROUNDS</LocID>                                    <Text>Efeito dura por {1} rodada(s).</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EFFECTS_REMAINING</LocID>                                            <Text>Restantes: {1}</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_MECH_SPECIAL_V2</LocID>                                 <Text>Lança granadas incendiárias em todas as direções.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MONSTER_ARMY_CHANGES_WEAKER</LocID>                                  <Text><![CDATA[Esta é a <color=SOTS_COLOR_GOLD>versão mais fraca</color> de uma unidade que se transforma de acordo com o nível da luz.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MONSTER_ARMY_CHANGES_STRONGER</LocID>                                <Text><![CDATA[Esta é a <color=SOTS_COLOR_GOLD>versão mais forte</color> de uma unidade que se transforma de acordo com o nível da luz.]]></Text>  </GameDBLocalizedString>
+            
+            <!-- New planet in SKIRMISH and its maps -->
+            <GameDBLocalizedString>         <LocID>PLANET_EA_01_ID</LocID>                                              <Text>CENU 4298d Scylla</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLANET_EA_02_ID</LocID>                                              <Text>CENU 4298e Charybdis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLANET_EA_02_DESCRIPTION</LocID>                                     <Text><![CDATA[Rotação artificialmente induzida sincroniza o ciclo dia-noite com seu gêmeo maior, CENU 4298d. Talvez os Primais, os regentes originais do planeta, gostavam desse jeito.\n\nO toque deles ainda é evidente mesmo da órbita, apesar da superfície do planeta ser densamente coberta por formações de cristais.\n\nEnquanto este bioma de cristal único lentamente consome as antigas maravilhas, muitos vem para pilhar os túmulos e saquear os tesouros.]]></Text>  </GameDBLocalizedString>
+
+            <!-- New versions of EA scenarios -->
+            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_6PLAYERS_ID</LocID>                                     <Text>Confluência (6 Jogadores)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_6PLAYERS_DESCRIPTION</LocID>                            <Text>Três ilhas. Seis campos em guerra. Só um pode vencer.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_RIFT_8PLAYERS_ID</LocID>                                           <Text>Fenda (8 Jogadores)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_RIFT_8PLAYERS_DESCRIPTION</LocID>                                  <Text>Quatro de um lado, quatro de outro. A batalha violenta vai começar.</Text>  </GameDBLocalizedString>
+
+            <!--_______________ONE_WAY_IN__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_IN_ID</LocID>                                             <Text>Um Caminho Dentro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_IN_DESCRIPTION</LocID>                                    <Text>Novas terras pra explorar, velhos inimigos pra derrotas. Irá destruir todos por força ou usará uma estratégia defensiva?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_IN_INTRO</LocID>                                          <Text>Há rumores de que no meio destas terras jaz uma velha base isolada do resto do mundo. Quem a possuir, terá uma chance melhor de sobrevivência. Conseguirá achar um jeito de alcançá-la a tempo?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_IN_VICTORY</LocID>                                        <Text>Vitória! Conseguiu derrotar toda a oposição, como um verdadeiro Rei da Montanha.</Text>    </GameDBLocalizedString>
+        
+            <!--_______________KEYS OF SUBVERSION__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_KEYS_OF_SUBVERSION_ID</LocID>                                     <Text>Chaves de Subversão</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_KEYS_OF_SUBVERSION_DESCRIPTION</LocID>                            <Text>Chaves, Portões, e quatro facções em guerra. As chaves são, literalmente, a chave do sucesso.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_KEYS_OF_SUBVERSION_INTRO</LocID>                                  <Text>Desde eras remotas, havia um limite que separava as antigas facções, com acesso a órbita bem no meio. Olhe lá, pois todas as chaves estão presentes, pois as chaves abrirão o caminho para a subversão. A questão é: Quem vai cair? Você ou seus inimigos?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_KEYS_OF_SUBVERSION_VICTORY</LocID>                                <Text>Vitória! Você conseguiu, destravou o caminho para a vitória. Lembre-se: "Sucesso não é a chave da felicidade. Felicidade é a chave do sucesso." Neste caso, felicidade foi ver o sangue dos seus inimigos.</Text>    </GameDBLocalizedString>
+
+            <!--_______________EYES__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_EYES_ID</LocID>                                                   <Text>Olhos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_EYES_DESCRIPTION</LocID>                                          <Text>Uma terra aberta, sem corredores ou gargalos. Há vários caminhos de chegar aos seus inimigos, de destruí-los ou ser destruido. As chaves podem lhe dar uma vantagem.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_EYES_INTRO</LocID>                                                <Text>Você não é o único que está lutando aqui em baixo. Explore estas ricas terras, construa um exército e tente derrotar todos os seus inimigos. Ganhe vantagens e supere toda a sua oposição.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_EYES_VICTORY</LocID>                                              <Text>Muito bem, Comandante! O território inteiro está sob o nosso controle. Agora, tire descanso algum e conquiste mais!</Text>    </GameDBLocalizedString>
+
+
+                  
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
