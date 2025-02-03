@@ -1,22 +1,28 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_NEUTRAL_PATCH_04">
-
+<Database>
+  <GameDBStringTable ID="LOC_RU_NEUTRAL_PATCH_04">
     <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-
-            <!--Unit names-->
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_PRIMALS_TURRET</LocID>                                  <Text>Primal Pylon</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SHARK</LocID>                                           <Text>Apex</Text></GameDBLocalizedString>
-
-            <!--Unit descriptions-->
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_PRIMALS_TURRET_DESCRIPTION</LocID>                      <Text>Perhaps these autonomous "butcher machines" had a peaceful purpose before the Holy War, but given their death-bringing potential, it isn't easy to imagine. So far, we have only discovered that they are deeply rooted in the Primals' underground energy system. Hey, science, you used to be useful, do you remember?!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SHARK_DESCRIPTION</LocID>                               <Text>Otudus Terrordon, widely known as Apex, hasn't originated in the Siren System, but from a population of a few strictly monitored individuals in an Earth lab. It's not clear how, why, or by whom it was brought here, but it's obvious this ferocious predator is prospering pretty well in its new home. Maybe too well.</Text></GameDBLocalizedString>
-            
-        </LocalizedStrings>
-    </GameDBStringTable>
+    <Contributors>
+      <Name>Rewalon</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!--Unit names-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_PRIMALS_TURRET</LocID>
+        <Text>Пилон Предтеч</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SHARK</LocID>
+        <Text>Апекс</Text>
+      </GameDBLocalizedString>
+      <!--Unit descriptions-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_PRIMALS_TURRET_DESCRIPTION</LocID>
+        <Text>Возможно когда-то, до Священной войны, у этих автономных "мясорубок" было мирное предназначение, но это сложно представить, учитывая их смертоносный потенциал. Пока нам известно только то, что они глубоко укоренились в подземной энергетической системе Предтеч. Эй, наука, ты ведь раньше была полезной, помнишь?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_SHARK_DESCRIPTION</LocID>
+        <Text>Отудус Терродон, широко известный как Апекс, появился не в системе Сирены, а в результате экспериментов с небольшой группой строго контролируемых особей в лаборатории на Земле. Неясно, как, почему и кем он был доставлен сюда, но очевидно, что этот свирепый хищник прекрасно прижился на новом месте. Возможно, даже слишком хорошо.</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
