@@ -191,11 +191,11 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MESSAGE_MORALE_EXTRA_TURN</LocID>
-        <Text>Благодаря высокому боевому духу {Stack} может снова двигаться.</Text>
+        <Text>Благодаря высокой морали {Stack} может снова двигаться.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MESSAGE_MORALE_LOSE_TURN</LocID>
-        <Text>Из-за низкого боевого духа {Stack} теряет свой ход.</Text>
+        <Text>Из-за низкой морали {Stack} теряет свой ход.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MESSAGE_EFFECT_BLEEDING</LocID>
@@ -275,7 +275,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MESSAGE_EFFECT_MORALE_BOOST</LocID>
-        <Text>{CombatActor} использует "Мотивационную речь" на {Stack}, добавляя {int} очков к боевому духу.</Text>
+        <Text>{CombatActor} использует "Мотивационную речь" на {Stack}, добавляя {int} очков к морали.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>MESSAGE_EFFECT_SPAWNED_SENTRY</LocID>
@@ -350,7 +350,7 @@
       <!-- TODO percentage of damage: should these mention "per turn" ? -->
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_POISON_DAMAGE</LocID>
-        <Text>Отравлен</Text>
+        <Text>Отравление</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_POISON_DAMAGE_DESCRIPTION</LocID>
@@ -358,7 +358,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_BURNING_DAMAGE</LocID>
-        <Text>Горит</Text>
+        <Text>Горение</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_BURNING_DAMAGE_DESCRIPTION</LocID>
@@ -366,7 +366,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_SHOCK_DAMAGE</LocID>
-        <Text>Шокирован</Text>
+        <Text>Шок</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_SHOCK_DAMAGE_DESCRIPTION</LocID>
@@ -374,7 +374,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_BLEEDING_DAMAGE</LocID>
-        <Text>Истекает кровью</Text>
+        <Text>Кровотечение</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_BLEEDING_DAMAGE_DESCRIPTION</LocID>
@@ -382,7 +382,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_CORROSIVE_DAMAGE</LocID>
-        <Text>Разъеден</Text>
+        <Text>Коррозия</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_CORROSIVE_DAMAGE_DESCRIPTION</LocID>
@@ -390,7 +390,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_DAZE</LocID>
-        <Text>Оглушён</Text>
+        <Text>Оглушение</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_DAZE_DESCRIPTION</LocID>
@@ -402,7 +402,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_CHARGE</LocID>
-        <Text>Заряжен</Text>
+        <Text>Заряд</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_BURY</LocID>
@@ -410,7 +410,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_INVISIBLE</LocID>
-        <Text>Невидим</Text>
+        <Text>Невидимость</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_INVISIBLE_DESCRIPTION</LocID>
@@ -434,7 +434,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_MORALE_BOOST</LocID>
-        <Text>Повышение боевого духа</Text>
+        <Text>Повышение морали</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>STACK_STATUS_EFFECT_MORALE_BOOST_DESCRIPTION</LocID>
