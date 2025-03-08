@@ -1,38 +1,68 @@
 <Database>
-    <GameDBStringTable ID="LOC_RU_PATCH_05_UNSS_EXTRAS">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!-- Run and gun as in "can move and still attack after", the term is from XCom https://xcom.fandom.com/wiki/Run_%26_Gun -->
-            <GameDBLocalizedString>         <LocID>TOOLTIP_LIMITED_RANGE_UNIT</LocID>                                   <Text>This is a limited-range unit, can run and gun.</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>SPECIAL_STARTS_ON_COOLDOWN</LocID>                                   <Text>Starts on cooldown.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER</LocID>                               <Text>Squad leader</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER_DESCRIPTION</LocID>                   <Text>Allows the commander to split unit stacks during combat, improves morale.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SPLIT_STACK_CHARGES</LocID>                             <Text><![CDATA[Split one unit stack once per round. Number of uses per battle: <color=SOTS_COLOR_GOLD>{1}</color>.]]> </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_SPLIT_STACK</LocID>                                   <Text>{CombatActor} has used {GameDBHeroSkill} to split {Stack}.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_1_OBJECTIVE_2</LocID>                       <Text>Deal with a rogue Fossorian warlord</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_2_OBJECTIVE_2</LocID>                       <Text>Learn more about her Sovereign Fleet captors</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_1</LocID>                       <Text>Go after Smith</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_2</LocID>                       <Text>Deal with everybody who stands in your way, even if it means fighting the UNNS itself</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_2</LocID>                       <Text>Go after Smith</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_3</LocID>                       <Text>Take your last chance to restore Rao's reputation</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>LOADING_TIP_13</LocID>                                               <Text>UNSS commanders can learn the Squad Leader skill allowing them to split unit stacks during battle.</Text>  </GameDBLocalizedString>
-            
-<!--            TODO Change to "Split FRIENDLY stack"-->
-            <GameDBLocalizedString>         <LocID>TOOLTIP_SPLIT_STACK</LocID>                                          <Text>Split friendly stack into two equal-sized stacks</Text>  </GameDBLocalizedString>
-        </LocalizedStrings>       
-        
-    </GameDBStringTable>
+  <GameDBStringTable ID="LOC_RU_PATCH_05_UNSS_EXTRAS">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Oxymoron Games</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!-- Run and gun as in "can move and still attack after", the term is from XCom https://xcom.fandom.com/wiki/Run_%26_Gun -->
+      <GameDBLocalizedString>
+        <LocID>TOOLTIP_LIMITED_RANGE_UNIT</LocID>
+        <Text>Этот отряд с ограниченным радиусом действия, который может бегать и стрелять.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SPECIAL_STARTS_ON_COOLDOWN</LocID>
+        <Text>Начинается с перезарядки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER</LocID>
+        <Text>Командир отряда</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER_DESCRIPTION</LocID>
+        <Text>Позволяет командиру разделять отряды во время боя, повышает боевой дух.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_EFFECT_SPLIT_STACK_CHARGES</LocID>
+        <Text><![CDATA[Разделить один отряд один раз за раунд. Количество использований в бою: <color=SOTS_COLOR_GOLD>{1}</color>.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_EFFECT_SPLIT_STACK</LocID>
+        <Text>{CombatActor} использовал {GameDBHeroSkill} разделение отряда {Stack}.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CUTSCENE_CAMPAIGN_EMPIRE_1_OBJECTIVE_2</LocID>
+        <Text>Разберитесь с фоссорианским мятежным военачальником</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CUTSCENE_CAMPAIGN_EMPIRE_2_OBJECTIVE_2</LocID>
+        <Text>Узнайте больше о ее похитителях из Суверенного флота</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_1</LocID>
+        <Text>Идите за Смитом</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_2</LocID>
+        <Text>Разберитесь со всеми, кто стоит на вашем пути, даже если это означает борьбу с самим UNNS.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_2</LocID>
+        <Text>Идите за Смитом</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_3</LocID>
+        <Text>Используйте свой последний шанс восстановить репутацию Рао</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>LOADING_TIP_13</LocID>
+        <Text>Командиры UNSS могут получить навык Командир отряда, позволяющий им разделять отряды во время боя.</Text>
+      </GameDBLocalizedString>
+      <!--            TODO Change to "Split FRIENDLY stack"-->
+      <GameDBLocalizedString>
+        <LocID>TOOLTIP_SPLIT_STACK</LocID>
+        <Text>Разделите дружескую отряд на два равных по размеру отряда</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
