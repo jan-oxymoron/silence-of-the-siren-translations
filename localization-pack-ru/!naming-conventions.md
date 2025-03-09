@@ -37,6 +37,7 @@
 * Furret - Фуррет
 * Long Molly - Длинная Молли
 * Captain Rao - капитан Рао
+* Major Smith - майор Смит
 
 **Прочее:**
 * consumables - расходники
