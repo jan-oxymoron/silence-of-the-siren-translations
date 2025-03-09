@@ -27,6 +27,17 @@
     * Liberator - Освободитель
     * Mass Liberator - Освободитель масс
 
+* Sovereign Fleet - Суверенный флот
+
+* Smuggler - Контрабандисты
+
+* Primals - Предтечи
+
+**Имена**
+* Furret - Фуррет
+* Long Molly - Длинная Молли
+* Captain Rao - капитан Рао
+
 **Прочее:**
 * consumables - расходники
 * unit - отряд, боец
@@ -37,3 +48,8 @@
 * Sentry gun, Sentry cannon, Sentry turret, Sentry I, II, III - турель (?)
 * Jerry-rig - ????
 * Saw-ty, Saw-ty II - Пила-тес, Пила-тес II
+
+**Ругательства**
+* Gergie-larh - Гёрги-ларх - (вымышленное ругательство или выражение)
+* Black Well of Nadir! - Чёрный Колодец Надира! - (возможно, проклятие или выражение гнева)
+* Seven steps of malevolence on - Семь ступеней злобы на тебя - (выражение, которое может означать пожелание зла или проклятие)
