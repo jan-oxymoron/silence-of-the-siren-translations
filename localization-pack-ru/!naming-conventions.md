@@ -10,7 +10,7 @@
 * teal - лазурный
 * turquoise - бирюзовый
 
-**Расы**
+**Фракции**
 * Fossorians - Фоссорианцы
     * Ratling Goon - Крысолюд-головорез
     * Ratling Gunner - Крысолюд-стрелок
@@ -28,6 +28,35 @@
     * Mass Liberator - Освободитель масс
 
 * Sovereign Fleet - Суверенный флот
+    * Saw-ty - Пила-тес
+    * Saw-ty II - Пила-тес II
+    * Marauder - Мародёр
+    * Marauder Grenadier - Мародёр-гренадёр
+    * Mortar - Мортира
+    * Overclocked Mortar - Разогнанная мортира
+    * Scorch Sprayer - Огнераспылитель
+    * Scorch Thrower - Огнеметатель
+    * Huntress - Охотница
+    * Huntress Captain - Капитан охотниц
+    * Thunderbot - Громобот
+    * Elite Thunderbot - Элитный громобот
+    * Antimat - Антимат
+    * Heavy Antimat - Тяжёлый антимат
+
+* United Nations of the Solar System (UNSS) - Объединенные Нации Солнечной Системы (UNSS)
+    * Volt - Вольт
+    * Bolt - Болт
+    * Trooper - Пехотинец
+    * Veteran Trooper - Ветеран Пехотинец
+    * Number 6 - Номер 6
+    * Number 6-M - Номер 6-М
+    * Crowd Suppressor - Подавитель толпы
+    * Crowd Crusher - Крушитель толпы
+    * Fifty CAL - КАЛИБР 50
+    * Sixty CAL - КАЛИБР 60
+    * Ares MK2 - Арес MK2
+    * Titan - Титан
+    * Titan shield bearer - Титан-щитоносец
 
 * Smuggler - Контрабандисты
 
