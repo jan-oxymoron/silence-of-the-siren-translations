@@ -1,335 +1,901 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_CAMPAIGN_EMPIRE_LVL_4">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!--OBJECTIVES MAIN QUESTS-->
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_WAY_BEHIND_GATE_LVL4</LocID>               <Text>Find a way behind the gate</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_WAY_BEHIND_GATE_LVL4_DONE</LocID>          <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Find a way behind the gate - Finished</color>]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_KEYS_1_LVL4</LocID>                        <Text>Keys obtained 1/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_KEYS_2_LVL4</LocID>                        <Text>Keys obtained 2/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_KEYS_3_LVL4_DONE</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Keys obtained 3/3 - Finished</color>]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_REUNION_LVL4</LocID>                       <Text>Reunite the commanders</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_REUNION_LVL4_DONE</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Reunite commanders - Finished</color>]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_SHIP_LVL4</LocID>                          <Text>Explore the ancient shipwreck</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_SHIP_LVL4_DONE</LocID>                     <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Explore the ancient shipwreck - Finished</color>]]></Text>  </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_JOHN_LVL4</LocID>                          <Text>Confront John Smith 7A</Text>  </GameDBLocalizedString>
-        
-
-            <!--DIALOGUES-->
-            
-            <!--GREEN-->
-            
-            <!--START_green -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_PICK_1</LocID>              <Text>This is the last time I help you, you stinky pirate. Your gold isn't worth the risk, and judging by your looks, you're probably broke anyway. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_1</LocID>                 <Text>Don't you worry about my new "shiny" look, just spill all you know about Smith.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_PICK_2</LocID>              <Text>He ventured behind that Primals gate a few hours ago. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_2</LocID>                 <Text>That's hardly worth my money! Maybe "someone" should slip a note to your high command. About you being a snitch, Pick! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_PICK_3</LocID>              <Text>Rao, you rat! ... Ok, fine, he took a huge army with him and a huge stock of provisions. Furry leg! It's all I know, I swear! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_3</LocID>                 <Text>So, they are planning a "long visit" ... Ok, deal a deal! Here's you gold!   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_4</LocID>                 <Text>[NOISE OF STATIC] Doctor Brown, Maya, anybody, do you hear me? ... [NOISE OF STATIC] ... damn, civilian walkie-talkies suck!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_5</LocID>                 <Text>Maybe that watchtower can amplify ... Nah, that's a stupid idea! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_6</LocID>                 <Text>Never mind, I believe they will show up ... eventually. And, in the meantime, I can still scout ahead. </Text>  </GameDBLocalizedString>
-
-            <!--Everything_in_this_burrow_suck_pt_2-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BASE_SUCK_A_1</LocID>                   <Text>This base sucks! I had to sell everything not welded to the ground to pay Kali Chapek for the Antimats and he ain't delivered a damn screw. If I ever meet him ... </Text>  </GameDBLocalizedString>
-
-            <!--rao_wander_about teleport-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BGREEN_TELEP_A_1</LocID>                <Text>Unbelievable. Why are all the teleports I run into always disconnected?   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BGREEN_TELEP_A_2</LocID>                <Text>I sent a band of my "men" to find the other device, but they have never returned. I wonder what happened. </Text>  </GameDBLocalizedString>
-
-            <!--MY scouts-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SCOUTS_SPOTED_A_1</LocID>               <Text>My scouts! </Text>  </GameDBLocalizedString>
-
-            <!--slime_barie-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SLIME_A_1</LocID>                       <Text>A slimy barrier?! Luck I am so filthy that some more slime will not hurt.   </Text>  </GameDBLocalizedString>
-          
-             <!--Thats_Kali!-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THATHS_KALI_A_1</LocID>                 <Text>Isn't that Kali Chapek! Great! I can ask him about that delayed Antimat delivery! </Text>  </GameDBLocalizedString>
-
-            <!--Kali_runs-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_KALI_RUNS_A_1</LocID>                   <Text>Hey! Kali! Remember me?! ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_KALI_RUNS_KALI_1</LocID>                <Text>OH! ... Not shiny! NOT SHINY!   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_KALI_RUNS_A_2</LocID>                   <Text>Yeah, you better run, you damn weasel!   </Text>  </GameDBLocalizedString>
-
-            <!--spawn_antimats_from_kali-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ANTIMATS_A_1</LocID>                    <Text>Now, that's better. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ANTIMATS_KALI_1</LocID>                 <Text>Kali is not available, please leave the message after the tone ... "BEEEP"!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ANTIMATS_A_2</LocID>                    <Text>Kali, you moron, walkie-talkies don't have ... never mind ... King of the Smugglers, my eyeball. </Text>  </GameDBLocalizedString>
-
-            <!--arjun_scouts_dialog-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SCOUTS_A_1</LocID>                      <Text>You idiots! Where have you been so long? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SCOUTS_A_2</LocID>                      <Text>Oh, hi Rao! We wanted to go straight back to you but then Earnie spotted that crashed shuttle over there. We thought we would ferret out some shiny loot ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SCOUTS_A_3</LocID>                      <Text>Let me guess, you messed up and released a toxic gas or something ... I miss working with professionals so much! </Text>  </GameDBLocalizedString>
-
-
-            <!--the Ship messing with Rao  -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_1</LocID>                <Text>A deactivated light bridge. I should check it out. Maybe I will manage to turn it on ... somehow. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_2</LocID>                <Text>What the ... !?   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_3</LocID>                <Text>It seems I am not going back over that bridge anymore! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_4</LocID>                <Text>Splendid! Another deactivated bridge. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_5</LocID>                <Text>Ok, something is celarly trying to steer me over to the other side. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_6</LocID>                <Text>And yet another deactivated bridge.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_7</LocID>                <Text>Teleport down and bridges ahead are deactivated. Except for that suspicious one. What now? ... Maybe I will find some Fusion Cores there and manage to activate another bridge with it.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_8</LocID>                <Text>There is no juice in this old orbital teleport! I better look behind the bridge, the old ship could hide some sort of power source.  </Text>  </GameDBLocalizedString>
-
-            <!--Arjun_will_not_use teleport_before_meeting_friends-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_TEL_TO_FOSSORIANS_A_1</LocID>           <Text>There is a strong garrison on the other end, without the aid of my friends, my chances to fight through are zero.</Text>  </GameDBLocalizedString>
-
-
-            <!--Conversation with the Ship-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_SHIP_1</LocID>                 <Text>I AM BLIND BUT I CAN FEEL YOUR CONSCIOUSNESS, IT AWAKENED ME FROM MY LONG SLEEP.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_1</LocID>                    <Text>What the ... ?! No, no, no, I must be hallucinating! Let's get out of here! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_SHIP_2</LocID>                 <Text>YOU ARE GOING NOWHERE!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_2</LocID>                    <Text>How?!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_SHIP_3</LocID>                 <Text>YOU ARE NOT ONE OF THE CHILDREN I USED TO CARRY ON MY DECKS. I WILL FEAST ON YOUR MIND TILL I LEARN WHAT HAPPENED TO THEM!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_3</LocID>                    <Text>Maya, Doc, I am in trouble. There is an ancient shipwreck, the giant Children of the Source starship. And she is "SPEAKING" to me.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_1</LocID>                    <Text>What, an awakened one? What a miracle! I need to see her! Wait, you said "she", so you accept …  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_4</LocID>                    <Text>Yes, "she"! But that's not the point! She is hostile! She wants to "feast on my mind". Ouch! I am starting to feel it! ARGH! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_2</LocID>                    <Text>Oh, according to the legends they were real bloodthirsty monsters …   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_M_1</LocID>                    <Text>Thomas! ... this is not a time for legends. Do you know something that could help? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_3</LocID>                    <Text>Yes, yes, apologies ... The Children of the Source and Hesperidians, we share our ancestors. Maybe we even created the Children ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_M_2</LocID>                    <Text>What?! You Hesperidians keep denying it since the UNSS arrived to the Siren System! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_4</LocID>                    <Text>Human politicians would deny the sky is blue for any pitiful reason. And there is no real proof. All written records about Hesperidian history were lost during our voyage to the Solar System ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_5</LocID>                    <Text>Doc! Make it short! IT feels like a hundred needles are piercing my skull right NOW! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_5</LocID>                    <Text>Yes, yes ... the only lore was passed orally ...   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_M_3</LocID>                    <Text>The Litany! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_6</LocID>                    <Text>Its origin reaches back hundreds, maybe thousand years. It's not just folklore like the human religions. The right words will trigger an override in the ship's AI. You can control her with the right phrases. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_6</LocID>                    <Text>It sounds more like some crazy theory! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_7</LocID>                    <Text>Of course, it's a theory! Gergie-larh! You threw away our only opportunity to prove that theory when you destroyed that Children of the Source ship back then, you moron! ... Now, repeat after me: </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_8</LocID>                    <Text>My heart rests in you, sheltered from the storm.\nYour body safely sleeps, in the center of the swarm.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_7</LocID>                    <Text>OUCH... My heart rests in you, ... sheltered from the storm.\nYour body safely sleeps, ... in the center ... of the swarm. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_SHIP_4</LocID>                 <Text>I RECOGNISE THE HOLY WORDS! YOU ARE ONE OF THE CHILDREN AFTER ALL! I AM GLAD TO HEAR YOUR VOICE AGAIN. NOW GO, LET ME SLEEP.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_8</LocID>                    <Text>It worked! She opened up the teleport down and all the bridges! I can reach you now!  </Text>  </GameDBLocalizedString>
-            
-            <!--Rao_is_downo_on_the_Bridge_iselt-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_ISLET_A_1</LocID>                <Text>I am close now. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_ISLET_M_1</LocID>                <Text>Great, but the bridge is closed. Try to activate it somehow. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_ISLET_A_2</LocID>                <Text>A Primal Fusion Core. That should do the trick.  </Text>  </GameDBLocalizedString>
-            
-             <!--BLUE-->
-            
-             <!--Start_blue-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_BLUE_T_1</LocID>                  <Text>Has Rao received your broadcast yet, Maya? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_BLUE_M_1</LocID>                  <Text>No, I am afraid he is beyond the reach of the signal.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_BLUE_T_2</LocID>                  <Text>We should capture one of those watchtowers nearby. Their construction can act as a powerful amplifier. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_BLUE_M_2</LocID>                  <Text>Good idea. Just ... be careful. I would not survive if anything happened to you. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_BLUE_T_3</LocID>                  <Text>Black Well of Nadir! Don't play with me, woman! ... But be careful too, ok? ... This whole place could be a trap. </Text>  </GameDBLocalizedString>
-
-            <!--first_red_commander-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_RED_COMMANDER_KIM_1</LocID>             <Text>This is a Level 4 restricted area, off limit even for UNSS personnel without proper authorization. Leave immediately.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_RED_COMMANDER_RH_1</LocID>              <Text>Level 4 means a prison colony. Under which system number is it listed in the UNSS network? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_RED_COMMANDER_KIM_2</LocID>             <Text>Ok, "do hajzlu"! Nobody can say I did not try... Leave or we shoot! Do you understand now? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_RED_COMMANDER_RH_2</LocID>              <Text>Yep, I think I do. Rao's message mentioned that some of the UNSS deserters are working for Smith 7A now. </Text>  </GameDBLocalizedString>
-
-
-            <!--Amplifier-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_M_1</LocID>                   <Text>All is connected, I'm starting to broadcast ...\nCaptain Rao, Captain Rao, do you hear, me, over? ... [NOISE OF STATIC] ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_M_2</LocID>                   <Text>Captain Rao ... [NOISE OF STATIC] ... Nothing.\nBut, it was worth a try. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_1</LocID>                   <Text>[NOISE OF STATIC] ... I am not a UNSS captain anymore. Remember? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_T_1</LocID>                   <Text>And for a reason, Rao!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_2</LocID>                   <Text>You're still mad at me for the Children of the Source ship, right, Doc? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_T_2</LocID>                   <Text>Seven steps of malevolence on you! Yes, I am! ... But ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_3</LocID>                   <Text>... But when you got my message you were not able to resist. Anyway, I don't need your hugs. I need your help. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_T_3</LocID>                   <Text>Tell me, why should I help you?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_4</LocID>                   <Text>Because you carry a debt. How things went sour back then was your responsibility too. If you didn't care about your contract so much and went with me to stop Smith, we could have saved something useful from the core.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_T_4</LocID>                   <Text>Are you serious? The core was already destroyed by the Fossorian bomb! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_5</LocID>                   <Text>You don't know that! Smith had enough time to sweep its remains clean! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_M_3</LocID>                   <Text>STOP! You two are bickering like little boys!\n That's better ... Rao, we already encountered some UNSS deserters. Are they loyal to Smith? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_6</LocID>                   <Text>I am afraid so.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_M_4</LocID>                   <Text>Then, we have to deal with them first.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_7</LocID>                   <Text>Ok, I will try to get to you. There is a way up to the orbit and back to an islet near you. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_M_5</LocID>                   <Text>Good. We would appreciate your help ... doctor, do you agree? ... Thomas 8B?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_T_5</LocID>                   <Text>All right, all right. We have a plan. But nothing changes between me and that ship murderer! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_8</LocID>                   <Text>Never change, Doc! </Text>  </GameDBLocalizedString>
-
-            <!--bridge_closed-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_KIM_HOLESTER_1</LocID>           <Text>Furry leg! This damn bridge should have been blown to smithereens for ages now! You humans are useless! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_KIM_KIM_1</LocID>                <Text>I'm trying, "do prdele"! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_KIM_KIM_2</LocID>                <Text>"To je u železa! Já to nebudu dělat!" Do it yourself, you fat, furry prick! </Text>  </GameDBLocalizedString>
-
-            <!--UNSS DESERTER_1 -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ROB_RH_1</LocID>                        <Text>Deserter! You should honor your oath to the UNSS! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ROB_ROB_1</LocID>                       <Text>Oaths are worth nothing today, the contract is what matters and since the UNSS no longer pays, I consider my contract void. </Text>  </GameDBLocalizedString>
-
-            <!--UNSS DESERTER_2-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_GAHIJI_RH_1</LocID>                     <Text>Deserter! What do you want in this area? Speak! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_GAHIJI_GAHIJI_1</LocID>                 <Text>I do whatever is best for my men! And since the UNSS no loger provides ... We were forced to take initiative. </Text>  </GameDBLocalizedString>
-           
-            <!--UNSS DESERTER_2-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_KIM_AF_1</LocID>                        <Text>"Do hajzlu!"\nTry as hard you can, but the UNSS is dead anyway! </Text>  </GameDBLocalizedString>
-           
-            <!--First_island_conquered -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_FIRST_ISLAND_HOLESTER_1</LocID>         <Text>Apes beat each other like true animals! Enjoy your little victory. It's the last one!</Text>  </GameDBLocalizedString>
-
-            <!--The_bridge_is_active-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_M_1</LocID>                    <Text>Now, that the bridge is open you can tell us the whole story, Rao. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_1</LocID>                    <Text>Ok. Out of the blue, John Smith 7A left his hideout amongst the Fossorians, and hurried straight here, into the middle of nowhere ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_1</LocID>                    <Text>In your message, you mentioned that this can reverse the UNSS situation! There is only one way to do so. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_2</LocID>                    <Text>Yes, by reopening the link to the Solar System. Since I left, I met many smugglers traveling far outside the UNSS territories and they claimed there are other Primal monuments, that look like the core. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_2</LocID>                    <Text>Nonsense, the core was unique.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_3</LocID>                    <Text>It was not! Have you never wondered why the Gate Station only provided a way to the Solar System and to Fossoria? There must have been countless other worlds worthy of reaching out to!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_3</LocID>                    <Text>Black well of Nadir! Does the self-appointed space scientist, "the stinky pirate" Rao know why the UNSS only discovered one so far? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_4</LocID>                    <Text>No, but there are so many undiscovered territories! The orbit is one big junkyard and Fossorians and Children of the Source are not exactly the "sharing" types. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_4</LocID>                    <Text>I think that you made it all up and drank so hard you started to believe your own imagination! How about some evidence? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_5</LocID>                    <Text>Smith 7A is here! Isn't that enough evidence for you? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_M_2</LocID>                    <Text>Thomas, ... 9B, I believe him. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_5</LocID>                    <Text>But what if Smith 7A is not even here? ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_6</LocID>                    <Text>Gergie-larh! Fine, let's do this, but I'll make sure that prick isn't blowing up any other ships along the way! ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_7</LocID>                    <Text>And I want that sleeping ship in orbit to be transported to my lab when this is over! ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_8</LocID>                    <Text>... and Rao will take a shower! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_6</LocID>                    <Text>It is not your business how I smell. Be glad I do not smell of Naphthalene like Serge Zagloba! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_9</LocID>                    <Text>My business? My business?! ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_M_3</LocID>                    <Text>GUYS! </Text>  </GameDBLocalizedString>
-        
-            
-            <!--AFTER TEAM UP-->
-
-            <!--The way up-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_WAY_UP_RH_1</LocID>                     <Text>Ladies first. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_WAY_UP_RH_2</LocID>                     <Text>Witty! Very witty Doc. </Text>  </GameDBLocalizedString>
-
-
-            <!--What a beauty-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BROWN_SHIP_B_1</LocID>                  <Text>Sleep my beauty, we will meet again. </Text>  </GameDBLocalizedString>
-            
-            <!--meet_holester_by_the_on_tetritory -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_HOLESTER_1</LocID>   <Text>Smith anticipated that the UNSS forces may meddle! Luckily, he is safely locked up behind the gates ... so you will not meddle. I like that, this way we can deal with you the Fossorian way! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_MOORE_1</LocID>      <Text>Yes, he is "busy" and I'm CURSED by having to look after you. You idiot! You just told our enemies how to get to Smith! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_HOLESTER_2</LocID>   <Text>This trip is not fun anymore! I am just trying to lure them out! We were standing guard here for so long that I got bored beyond all recognition! I am itching for a proper fight! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_MOORE_2</LocID>      <Text>Stupid Fossorian! I will never understand why Smith 7A insisted we take you on this mission, but maybe that "talking Relic" he obtained from your Supreme Leader clouds his judgment! </Text>  </GameDBLocalizedString>
-         <!--VYHODIT MOORA ZE 3 MISE?-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_A_1</LocID>          <Text>Who was that Hesperidian, Doc? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_T_2</LocID>          <Text>Just because I am Hesperidian, does not mean that I know all other Hesperidians ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_M_1</LocID>          <Text>... but you know this one. You told me about him once. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_T_3</LocID>          <Text>You too, Brutus?\n[SIGH] Alright, Moore 3C was a highly decorated UNSS officer. He deserted shortly after Smith was discredited. Huge blow to the UNSS. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_A_2</LocID>          <Text>One thing is certain, he is on Smith's side now! </Text>  </GameDBLocalizedString>
-
-            <!--Arjun_Thomas_on_SMITH -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_A_1</LocID>                   <Text>By the way, that Hesperidian spoke about Smith. Do you believe me now, Doc? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_T_1</LocID>                   <Text>...   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_M_1</LocID>                   <Text>Ok, that's it. If you don't tell him I will ... In fact, it was Doctor Brown 9B who alarmed the UNSS command about your message. He was the one who mustered the resources for this mission. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_A_2</LocID>                   <Text>I don't know what to say ... I thought you never believed me, DOC. That I was just another human you were forced to work with. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_T_2</LocID>                   <Text>Seven steps of malevolence on you woman! You should not tell him! ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_T_3</LocID>                   <Text>... Ok, you mess up by blowing that ship and I still insist you get a shower ... but I must admit that since we first met, you managed to grind down some of the antipathy I reserve for your good-for-nothing race. Happy? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_A_3</LocID>                   <Text>I am ... because I know what you meant to say. Thank you, Doc. </Text>  </GameDBLocalizedString>
-
-            <!--summon_bulletproof_beni-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_BF_BENI_1</LocID>                  <Text>You are a chance for me to prove that I am as good as any "pureblood" Fossorian! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_BF_MOORE_1</LocID>                 <Text>Just stop them, no need for showing off. </Text>  </GameDBLocalizedString>
-          
-          
-            <!--beni_beaten-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_BENI_1</LocID>                  <Text>Here, take the key! I will tell you everything, just don't kill me! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_MOORE_1</LocID>                 <Text>Shut up, you dumb animal! Show some spine! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_BENI_2</LocID>                  <Text>There are three gates! Two on the surface and one in orbit. Each of the Fossorian commanders guards a key! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_M_1</LocID>                     <Text>Can we keep that little Ratling? He is kinda cute in that uniform! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_T_1</LocID>                     <Text>[Sigh] NO! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_A_1</LocID>                     <Text>[Sigh] NO! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_M_2</LocID>                     <Text>It's nice you two can agree on something again! </Text>  </GameDBLocalizedString>
-
-            <!--bridge closed_till_Molsson_beaten-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSONS_BRIDGE_RH_1</LocID>            <Text>The Fossorians have sabotaged this bridge, even the Primal Fusion Core cannot help. I'll have to "ask" one of their commanders for "help".    </Text>  </GameDBLocalizedString>
-
-
-            <!--Molson_before_fight-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSON_BF_MOLSSON_1</LocID>            <Text>Hello fellas, I believe you came for one of the keys. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSON_BF_MOORE_1</LocID>              <Text>What is wrong with you?! You should not tell anybody you have a key! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSON_BF_MOLSSON_2</LocID>            <Text>How else would they learn how important I am?! </Text>  </GameDBLocalizedString>
-
-            <!--Molson_after_fight-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSON_AF_MOLSSON_1</LocID>            <Text>I want to bargain! The key and a remote switch that controls the bridge for my life!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSON_AF_MOORE_1</LocID>              <Text>[SOUND OF THE FACEPALM] ... Sigh ...</Text>  </GameDBLocalizedString>
-            
-            <!--Holester_before_fight-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_BF_MOORE_1</LocID>             <Text>Ok, Holester, your Supreme Leader spoke highly about you. Would you please keep them on the ground? Remember the PLAN. We have important business in orbit!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_BF_HOLESTER_1</LocID>          <Text>Don't worry, commander Moth-face! I will deal with them! </Text>  </GameDBLocalizedString>
-           
-            <!--Holester_after_fight-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_AF_HOLESTER_1</LocID>          <Text>That was a bigger challenge than I wished for! Here's the key! Let me live, I beg you! I only followed Moth-face's orders! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_AF_MOORE_1</LocID>             <Text>My orders! You did the exact opposite of my orders! And now they have all the keys! Gergie-larh! You Fossorians are a total MESS!   </Text>  </GameDBLocalizedString>
-
-            
-
-            <!--which one of us will go-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_T_1</LocID>                   <Text>That's another core! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_A_1</LocID>                   <Text>I knew it! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_M_1</LocID>                   <Text>We may use it to repair the Gate Station and open the path to the Solar System again! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_A_2</LocID>                   <Text>It's our chance to save the UNSS!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_T_2</LocID>                   <Text>Which one of us will go after Smith? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_A_3</LocID>                   <Text>I will go, Smith nearly destroyed the entire UNSS.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_T_3</LocID>                   <Text>He killed Ranock ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_M_2</LocID>                   <Text>... And his crew.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_A_4</LocID>                   <Text>Let's finish this together then. </Text>  </GameDBLocalizedString>
-
-            <!--ENDING-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_END_WARNING_NAR_1</LocID>               <Text>Make sure you are ready! once you cross this bridge, there will be no going back. </Text>  </GameDBLocalizedString>
-
-            <!--end_part_1-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_END_PT1_SKAUROV_1</LocID>               <Text>Which one of you will go get slaughtered first? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_END_PT1_MOORE_1</LocID>                 <Text>Do not underestimate them, Skaurov! They have beaten all your Fossorian generals on the ground!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_END_PT1_SKAUROV_2</LocID>               <Text>Yeah, Holester and his clowns. They were ordered to stay on the ground for a reason! But I am of a different mold. I am waiting for you, UNSS scum! </Text>  </GameDBLocalizedString>
-
-
-            <!--Skaurov_BF-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BF_SKAUROV_1</LocID>            <Text>Frontal assault. My favorite! </Text>  </GameDBLocalizedString>
-
-            <!--Skaurov_beaten-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BEATEN_MOORE_1</LocID>          <Text>Have you ever wondered, why Smith 7A picked just the two of you for his investigator team? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BEATEN_T_1</LocID>              <Text>Enlighten me. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BEATEN_MOORE_2</LocID>          <Text>A human soldier trained by an old racist and a Hesperidian scientist who despises humans more than anyone else? Your quarrels were meant to lead the investigation to a dead end!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BEATEN_A_1</LocID>              <Text>They almost did.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BEATEN_MOORE_3</LocID>          <Text>The world does not care about "almosts". But enough talk, let's see if I can succeed where all the Fossorians failed. </Text>  </GameDBLocalizedString>
-
-            <!--Moore_beaten-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_0</LocID>            <Text>I yield! I cannot risk you killing us all! The knowledge of the events leading to the Gate Station attack would be lost.  </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_A_1</LocID>                <Text>So try us! Explain yourself! Why did you do all this? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_1</LocID>            <Text>A few months ago, the Gate Station started broadcasting. We heard and we panicked. It was the words of litany. The Gate Station tried to seize control of the UNSS fleet. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_M_1</LocID>                <Text>Is something like that possible? Thomas, you are an expert on ships' AI. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_T_1</LocID>                <Text>No, only the newest ships have sentient AI ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_2</LocID>            <Text>Yes, the strongest ones. For example Ranock. The broadcast was not only heard in the Siren System, it spread through the galaxy like wildfire. Oh yes, there are other Gate Stations in the Milky Way, now we know for sure. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_A_2</LocID>                <Text>So you destroyed the source of the broadcast ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_3</LocID>            <Text>With the Fossorian fleet. Their ships lack Hesperidian AI, therefore they were immune to the litany. </Text>  </GameDBLocalizedString>
-
-            <!--John on the sceen Alternative -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_JOHN_1</LocID>             <Text>Now, now, 3C. Do not bother them with details. An overview will suffice.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_4</LocID>            <Text>Did you plant the explosives inside the core? Why did you take so long?       </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_JOHN_2</LocID>             <Text>I changed my mind. As I was planting the explosives, I realised the truth! The core was never the source of the broadcast. It was just an amplifier! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_5</LocID>            <Text>What it was, then? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_JOHN_3</LocID>             <Text>The Relic, the same Relic that the Fossorians released from the original core! The very Relic the Furret gave me! ... But why did he give it to me? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_6</LocID>            <Text>It does not matter! It must be destroyed! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_RELIC_1</LocID>            <Text>Help me! If they kill me, your last hope for reopening the path to the Solar System will be lost! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_JOHN_4</LocID>             <Text>Quiet, you abomination, it ends here! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_A_3</LocID>                <Text>NO! We must act now! </Text>  </GameDBLocalizedString>
-            
-            
-            <!--John beaten the END-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_JOHN_1</LocID>              <Text>I ... was ... too weak ... do not repeat ... my mistakes ... don't listen to ... AAAAA! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_M_1</LocID>                 <Text>What is wrong with him? ... God! ... That thing crawled out of his body!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_1</LocID>            <Text>I USED HIS DYING BODY TO COMPLETE MY METAMORPHOSIS! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_A_1</LocID>                 <Text>You are the Relic he was talking to?!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_2</LocID>            <Text>YES, YOU SAVED ME! HE WANTED TO DESTROY ME. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_T_1</LocID>                 <Text>But, the broadcast! You tried to seize control over the UNSS fleet! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_3</LocID>            <Text>NO! I WAS JUST CALLING FOR HELP! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_A_2</LocID>                 <Text>But you killed Smith 7A! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_4</LocID>            <Text>YOUR ENEMY, THE MURDERER OF RANOCK, AND HIS CREW! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_M_2</LocID>                 <Text>Wait, so you were imprisoned inside the core? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_5</LocID>            <Text>FOR CENTURIES! THE CORE KEPT ME DORMANT. DRAINING MY POWER! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_A_3</LocID>                 <Text>Can you open the path to the Solar System? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_6</LocID>            <Text>YES, WITH MY HELP WE CAN REOPEN THE PATH TO YOUR HOME. WE WILL UNITE THE SHATTERED, AND REBUILD WHAT WAS LOST! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_7</LocID>            <Text>WILL YOU ACCEPT MY OFFER ... WILL YOU? </Text>  </GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+<Database>
+  <GameDBStringTable ID="LOC_RU_CAMPAIGN_EMPIRE_LVL_4">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Rewalon</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!--OBJECTIVES MAIN QUESTS-->
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_WAY_BEHIND_GATE_LVL4</LocID>
+        <Text>Найдите способ пройти за врата</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_WAY_BEHIND_GATE_LVL4_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Найдите способ пройти за врата - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_KEYS_1_LVL4</LocID>
+        <Text>Ключей получено 1/3</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_KEYS_2_LVL4</LocID>
+        <Text>Ключей получено 2/3</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_KEYS_3_LVL4_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Ключей получено 3/3 - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_REUNION_LVL4</LocID>
+        <Text>Воссоедините командиров</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_REUNION_LVL4_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Воссоедините командиров - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_SHIP_LVL4</LocID>
+        <Text>Исследуйте место крушения древнего корабля</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_SHIP_LVL4_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Исследуйте место крушения древнего корабля - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_JOHN_LVL4</LocID>
+        <Text>Встретиться лицом к лицу с Джоном Смитом 7А</Text>
+      </GameDBLocalizedString>
+      <!--DIALOGUES-->
+      <!--GREEN-->
+      <!--START_green -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_PICK_1</LocID>
+        <Text>Это последний раз, когда я помогаю тебе, вонючий пират. Твое золото не стоит такого риска, и, судя по твоему виду, ты все равно на мели.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_1</LocID>
+        <Text>Не беспокойся о моем новом "блестящем" образе, просто выкладывай все, что ты знаешь о Смите.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_PICK_2</LocID>
+        <Text>Он отважился зайти за ворота Предтеч, несколько часов назад.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_2</LocID>
+        <Text>Это едва ли стоит моих денег! Может быть, "кто-то" должен передать записку вашему высшему командованию. О том, что ты стукач, Пик!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_PICK_3</LocID>
+        <Text>Рао, ты крыса!... Ладно, хорошо, он взял с собой огромную армию и огромный запас провизии. Мохнолап! Это всё, что я знаю, клянусь!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_3</LocID>
+        <Text>Значит, они планируют "долгий визит"... Ладно, договорились! Вот твоё золото!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_4</LocID>
+        <Text>[ШУМ СТАТИКИ] Доктор Браун, Майя, кто-нибудь, вы меня слышите? ... [ШУМ СТАТИКИ] ... чёрт, гражданские рации отстой!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_5</LocID>
+        <Text>Может быть, та сторожевая башня может усилить... Нет, это глупая идея!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_GREEN_A_6</LocID>
+        <Text>Неважно, я верю, что они появятся... в конце концов. А пока я могу продолжить разведку переднего края.</Text>
+      </GameDBLocalizedString>
+      <!--Everything_in_this_burrow_suck_pt_2-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BASE_SUCK_A_1</LocID>
+        <Text>Эта база - полный отстой! Мне пришлось продать всё, что не прикручено к полу, чтобы заплатить Кали Чапеку за Антиматов, а он не доставил ни единого чёртова винтика. Если я когда-нибудь встречу его...</Text>
+      </GameDBLocalizedString>
+      <!--rao_wander_about teleport-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BGREEN_TELEP_A_1</LocID>
+        <Text>Невероятно. Почему все телепорты, на которые я натыкаюсь, всегда отключены?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BGREEN_TELEP_A_2</LocID>
+        <Text>Я отправил отряд своих "людей" найти второе устройство, но они так и не вернулись. Интересно, что с ними случилось.</Text>
+      </GameDBLocalizedString>
+      <!--MY scouts-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SCOUTS_SPOTED_A_1</LocID>
+        <Text>Мои разведчики!</Text>
+      </GameDBLocalizedString>
+      <!--slime_barie-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SLIME_A_1</LocID>
+        <Text>Слизкий барьер?! К счастью, я уже настолько грязный, что немного слизи мне не повредит.</Text>
+      </GameDBLocalizedString>
+      <!--Thats_Kali!-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THATHS_KALI_A_1</LocID>
+        <Text>Это же Кали Чапек! Отлично! Я могу спросить его о задержке с доставкой Антимата!</Text>
+      </GameDBLocalizedString>
+      <!--Kali_runs-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_KALI_RUNS_A_1</LocID>
+        <Text>Эй! Кали! Помнишь меня?! ...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_KALI_RUNS_KALI_1</LocID>
+        <Text>ОХ! ... Не ценное! НЕ ЦЕННОЕ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_KALI_RUNS_A_2</LocID>
+        <Text>Да, тебе лучше бежать, проклятый хитрец!</Text>
+      </GameDBLocalizedString>
+      <!--spawn_antimats_from_kali-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ANTIMATS_A_1</LocID>
+        <Text>Так-то лучше.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ANTIMATS_KALI_1</LocID>
+        <Text>Кали недоступен, пожалуйста, оставьте сообщение после сигнала ... 'БИИИП'!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ANTIMATS_A_2</LocID>
+        <Text>Кали, ты болван, рации не... а, забудь... Король контрабандистов, ну ты даёшь.</Text>
+      </GameDBLocalizedString>
+      <!--arjun_scouts_dialog-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SCOUTS_A_1</LocID>
+        <Text>Вы, идиоты! Где вы шлялись так долго?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SCOUTS_A_2</LocID>
+        <Text>О, привет, Рао! Мы хотели сразу вернуться к тебе, но потом Эрни заметил тот разбитый шаттл вон там. Мы подумали, что сможем раздобыть немного ценного лута...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SCOUTS_A_3</LocID>
+        <Text>Дай угадаю, вы всё испортили и выпустили токсичный газ или что-то в этом роде... Как же я скучаю по работе с профессионалами!</Text>
+      </GameDBLocalizedString>
+      <!--the Ship messing with Rao  -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_1</LocID>
+        <Text>Деактивированный световой мост. Я должен его проверить. Может, мне удастся его включить... как-нибудь.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_2</LocID>
+        <Text>Что за... !?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_3</LocID>
+        <Text>Похоже, я больше не вернусь через этот мост!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_4</LocID>
+        <Text>Великолепно! Еще один деактивированный мост.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_5</LocID>
+        <Text>Ладно, что-то явно пытается направить меня на другую сторону.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_6</LocID>
+        <Text>И еще один деактивированный мост.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_7</LocID>
+        <Text>Телепорт не работает, и мосты впереди деактивированы. Кроме вот этого подозрительного. Что теперь?... Может, я найду там несколько Ядер Синтеза и смогу активировать другой мост с их помощью. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ORBIT_BRIDGE_A_8</LocID>
+        <Text>В этом старом орбитальном телепорте нет энергии! Лучше я поищу за мостом, старый корабль может скрывать какой-нибудь источник питания.</Text>
+      </GameDBLocalizedString>
+      <!--Arjun_will_not_use teleport_before_meeting_friends-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_TEL_TO_FOSSORIANS_A_1</LocID>
+        <Text>На другом конце находится сильный гарнизон, и без помощи моих друзей мои шансы прорваться равны нулю.</Text>
+      </GameDBLocalizedString>
+      <!--Conversation with the Ship-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_SHIP_1</LocID>
+        <Text>Я СЛЕП, НО Я ЧУВСТВУЮ ТВОЕ СОЗНАНИЕ. ОНО РАЗБУДИЛО МЕНЯ ОТ ДОЛГОГО СНА.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_1</LocID>
+        <Text>Что за...?! Нет, нет, нет, у меня наверное галлюцинации! Надо убираться отсюда!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_SHIP_2</LocID>
+        <Text>ТЫ НИКУДА НЕ УЙДЕШЬ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_2</LocID>
+        <Text>Почему?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_SHIP_3</LocID>
+        <Text>ТЫ НЕ ИЗ ТЕХ ДЕТЕЙ, КОТОРЫХ Я РАНЬШЕ НОСИЛ НА СВОИХ ПАЛУБАХ. Я БУДУ ПИТАТЬСЯ ТВОИМ РАЗУМОМ, ПОКА НЕ УЗНАЮ, ЧТО С НИМИ СЛУЧИЛОСЬ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_3</LocID>
+        <Text>Майя, Док, у меня проблемы. Здесь древний корабль-обломок, огромный звездолет Детей Источника. И она 'РАЗГОВАРИВАЕТ' со мной.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_1</LocID>
+        <Text>Что, пробудившийся? Какое чудо! Мне нужно её увидеть! Погоди, ты сказал "она", так ты признаёшь…</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_4</LocID>
+        <Text>Да, "она"! Но дело не в этом! Она враждебна! Она хочет "питаться моим разумом". Ай! Я начинаю это чувствовать! ААА!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_2</LocID>
+        <Text>О, согласно легендам, они были настоящими кровожадными монстрами…</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_M_1</LocID>
+        <Text>Томас!... сейчас не время для легенд. Ты знаешь что-то, что может помочь?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_3</LocID>
+        <Text>Да, да, прости... Дети Источника и Геспериды, у нас общие предки. Возможно, мы даже создали Детей...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_M_2</LocID>
+        <Text>Что?! Вы, Геспериды, продолжаете отрицать это с тех пор, как UNSS прибыла в систему Сирен!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_4</LocID>
+        <Text>Человеческие политики стали бы отрицать, что небо голубое, по любой ничтожной причине. И нет реальных доказательств. Все письменные записи о истории Гесперид были утеряны во время нашего путешествия в Солнечную систему...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_5</LocID>
+        <Text>Док! Короче! У меня такое ощущение, будто сотня игл пронзает мой череп прямо СЕЙЧАС!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_5</LocID>
+        <Text>Да, да... знания передавались только устно...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_M_3</LocID>
+        <Text>Литания!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_6</LocID>
+        <Text>Её происхождение восходит к сотням, а может, тысячам лет. Это не просто фольклор, как человеческие религии. Правильные слова запустят переопределения в ИИ корабля. Ты сможешь управлять ею с помощью нужных фраз.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_6</LocID>
+        <Text>Это звучит как безумная теория!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_7</LocID>
+        <Text>Конечно, это теория! Гёрги-ларх! Ты уничтожил наш единственный шанс доказать эту теорию, когда ты разрушил корабль Детей Источника, идиот!... Теперь повторяй за мной:</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_T_8</LocID>
+        <Text>Моё сердце - твоё, укрытое от шторма надежно\nИ тело твоё в центре роя, спит оно безмятежно.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_7</LocID>
+        <Text>ОХ... Моё сердце - твоё. ... укрытое от шторма надежно.\nИ тело твоё... в центре роя, ... спит оно безмятежно.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_SHIP_4</LocID>
+        <Text>Я УЗНАЮ СВЯЩЕННЫЕ СЛОВА! ТЫ ВСЁ-ТАКИ ОДИН ИЗ ДЕТЕЙ! Я РАДА СНОВА УСЛЫШАТЬ ТВОЙ ГОЛОС. А ТЕПЕРЬ ИДИ, ДАЙ МНЕ ПОСПАТЬ.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_THE_SHIP_A_8</LocID>
+        <Text>Это сработало! Она открыла телепорт вниз и все мосты! Теперь я могу добраться до вас!</Text>
+      </GameDBLocalizedString>
+      <!--Rao_is_downo_on_the_Bridge_iselt-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_ISLET_A_1</LocID>
+        <Text>Я уже близко.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_ISLET_M_1</LocID>
+        <Text>Отлично, но мост закрыт. Попробуй как-нибудь его активировать.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_ISLET_A_2</LocID>
+        <Text>Ядро Синтеза Предтеч. Это должно сработать.</Text>
+      </GameDBLocalizedString>
+      <!--BLUE-->
+      <!--Start_blue-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_BLUE_T_1</LocID>
+        <Text>Майя, Рао уже получил твою передачу? </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_BLUE_M_1</LocID>
+        <Text>Нет, боюсь, он вне зоны досягаемости сигнала.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_BLUE_T_2</LocID>
+        <Text>Нам нужно захватить одну из тех сторожевых башен поблизости. Их конструкция может служить мощным усилителем.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_BLUE_M_2</LocID>
+        <Text>Хорошая идея. Только... будь осторожен. Я не переживу, если с тобой что-то случится.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_START_BLUE_T_3</LocID>
+        <Text>Черный Колодец Надира! Не играй со мной, женщина!... Но тоже будь осторожна, ладно?... Всё это место может быть ловушкой.</Text>
+      </GameDBLocalizedString>
+      <!--first_red_commander-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_RED_COMMANDER_KIM_1</LocID>
+        <Text>Это зона четвёртого уровня доступа, закрытая даже для персонала UNSS без специального разрешения. Немедленно убирайтесь.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_RED_COMMANDER_RH_1</LocID>
+        <Text>Четвёртый уровень - это колония для заключённых. Под каким номером она значится в сети UNSS?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_RED_COMMANDER_KIM_2</LocID>
+        <Text>Ладно, "do hajzlu"! Никто не сможет сказать, что я не пытался... Убирайтесь, или мы откроем огонь! Теперь понятно?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_RED_COMMANDER_RH_2</LocID>
+        <Text>Ага, кажется, дошло. В сообщении Рао упоминалось, что некоторые дезертиры из UNSS теперь работают на Смита 7A.</Text>
+      </GameDBLocalizedString>
+      <!--Amplifier-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_M_1</LocID>
+        <Text>Все подключились, я начинаю передачу...\nКапитан Рао, капитан Рао, вы меня слышите? Приём!.. [ШУМ ПОМЕХ]...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_M_2</LocID>
+        <Text>Капитан Рао... [ШУМ ПОМЕХ]... Ничего.\nНо попытка была стоящей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_1</LocID>
+        <Text>[ШУМ ПОМЕХ]... Я больше не капитан UNSS. Помнишь?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_T_1</LocID>
+        <Text>И не без причины, Рао!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_2</LocID>
+        <Text>Ты всё ещё злишься на меня из-за корабля Детей Источника, да, Док?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_T_2</LocID>
+        <Text>Семь ступеней злодейства на тебя! Да, злюсь!... Но...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_3</LocID>
+        <Text>...Но когда ты получил моё сообщение, ты не смог устоять. В любом случае, мне не нужны твои объятия. Мне нужна твоя помощь.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_T_3</LocID>
+        <Text>Скажи, почему я должeн тебе помогать?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_4</LocID>
+        <Text>Потому что ты у меня в долгу. То, как всё пошло прахом тогда, тоже твоя вина. Если бы ты не цеплялся за свой контракт и пошел со мной остановить Смита, мы могли бы спасти что-то полезное из ядра.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_T_4</LocID>
+        <Text>Ты серьёзно? Ядро уже было уничтожено фоссорианской бомбой!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_5</LocID>
+        <Text>Ты этого не знаешь! У Смита было достаточно времени, чтобы зачистить все следы!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_M_3</LocID>
+        <Text>ХВАТИТ! Вы двое ссоритесь, как мальчишки!\nТак то лучше... Рао, мы уже столкнулись с дезертирами из UNSS. Они верны Смиту?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_6</LocID>
+        <Text>Боюсь, что да.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_M_4</LocID>
+        <Text>Тогда нам нужно разобраться с ними в первую очередь.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_7</LocID>
+        <Text>Хорошо, я постараюсь добраться до вас. Есть путь на орбиту и обратно к островку рядом с вами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_M_5</LocID>
+        <Text>Отлично. Мы будем рады твоей помощи... Док, ты согласен?... Томас 8B?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_T_5</LocID>
+        <Text>Ладно, ладно. У нас есть план. Но между мной и этим убийцей кораблей ничего не изменится!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_AMPLIFIER_A_8</LocID>
+        <Text>Никогда не меняйся, Док!</Text>
+      </GameDBLocalizedString>
+      <!--bridge_closed-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_KIM_HOLESTER_1</LocID>
+        <Text>Мохнолап! Этот проклятый мост уже давно должен был быть взорван в щепки! Вы, люди, совершенно бесполезны!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_KIM_KIM_1</LocID>
+        <Text>Я стараюсь, "do prdele"!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BRIDGE_KIM_KIM_2</LocID>
+        <Text>"To je u železa! Já to nebudu dělat!" Сделай это сам, ты, жирный, мохнатый урод!</Text>
+      </GameDBLocalizedString>
+      <!--UNSS DESERTER_1 -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ROB_RH_1</LocID>
+        <Text>Дезертир! Ты предал свою клятву перед UNSS!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_ROB_ROB_1</LocID>
+        <Text>Клятвы сегодня ничего не стоят, важно только то, что в контракте. А раз UNSS больше не платит, я считаю свой контракт недействительным.</Text>
+      </GameDBLocalizedString>
+      <!--UNSS DESERTER_2-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_GAHIJI_RH_1</LocID>
+        <Text>Дезертир! Что тебе нужно в этой зоне? Отвечай!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_GAHIJI_GAHIJI_1</LocID>
+        <Text>Я забочусь о своих людях! А раз UNSS бросила нас на произвол судьбы... Пришлось действовать самостоятельно.</Text>
+      </GameDBLocalizedString>
+      <!--UNSS DESERTER_2-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_KIM_AF_1</LocID>
+        <Text>"Do hajzlu!"\nПытайся сколько угодно, но UNSS всё равно уже мертва!</Text>
+      </GameDBLocalizedString>
+      <!--First_island_conquered -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_FIRST_ISLAND_HOLESTER_1</LocID>
+        <Text>Вы, обезьяны, только и умеете, что драться, как звери! Радуйтесь своей победе, пока можете. Больше таких не будет!</Text>
+      </GameDBLocalizedString>
+      <!--The_bridge_is_active-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_M_1</LocID>
+        <Text>Теперь, когда мост открыт, ты можешь рассказать нам всю историю, Рао.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_1</LocID>
+        <Text>Хорошо. Джон Смит 7А внезапно покинул своё убежище среди фоссориан и поспешил сюда, в самую глушь...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_1</LocID>
+        <Text>В своём сообщении ты упомянул, что это может изменить ситуацию с UNSS! Есть только один способ это сделать</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_2</LocID>
+        <Text>Да, восстановив связь с Солнечной системой. С тех пор как я ушёл, я встречал множество контрабандистов, которые путешествовали далеко за пределами территорий UNSS, и они утверждали, что существуют другие монументы Предтеч, похожие на Ядро.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_2</LocID>
+        <Text>Чушь! Ядро было уникальным.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_3</LocID>
+        <Text>Это не так! Ты никогда не задумывался, почему Станция Врат обеспечивала путь только к Солнечной системе и Фоссории? Должно быть, существовало бесчисленное множество других миров, достойных исследования!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_3</LocID>
+        <Text>Чёрный Колодец Надира! Неужели самопровозглашённый космический учёный, "вонючий пират" Рао, знает, почему UNSS пока обнаружила только один?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_4</LocID>
+        <Text>Нет, но есть столько неизведанных территорий! Орбита - это одна большая свалка, а фоссориане и Дети Источника не из тех, кто любит делиться.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_4</LocID>
+        <Text>Думаю, ты всё это выдумал и так напился, что начал верить в собственную фантазию! Может, предъявишь какие-нибудь доказательства?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_5</LocID>
+        <Text>Смит 7А здесь! Разве этого недостаточно для тебя?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_M_2</LocID>
+        <Text>Томас... 9B, я верю ему.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_5</LocID>
+        <Text>Но что, если Смита 7А здесь вообще нет?..</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_6</LocID>
+        <Text>Гёрги-ларх! Ладно, давайте сделаем это, но я позабочусь, чтобы этот тип больше не взрывал корабли на своём пути!..</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_7</LocID>
+        <Text>И я хочу, чтобы этот спящий корабль на орбите доставили в мою лабораторию, когда всё закончится!..</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_8</LocID>
+        <Text>...и Рао примет душ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_A_6</LocID>
+        <Text>Не твоё дело, как я пахну. Радуйся, что я не пахну нафталином, как Серж Заглоба!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_T_9</LocID>
+        <Text>Моё дело? Моё дело, говоришь?!..</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_REUNITED_M_3</LocID>
+        <Text>РЕБЯТА!</Text>
+      </GameDBLocalizedString>
+      <!--AFTER TEAM UP-->
+      <!--The way up-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_WAY_UP_RH_1</LocID>
+        <Text>Дамы вперед.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_WAY_UP_RH_2</LocID>
+        <Text>Остроумно! Очень остроумно, док.</Text>
+      </GameDBLocalizedString>
+      <!--What a beauty-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BROWN_SHIP_B_1</LocID>
+        <Text>Спи, моя красавица, мы еще встретимся снова. </Text>
+      </GameDBLocalizedString>
+      <!--meet_holester_by_the_on_tetritory -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_HOLESTER_1</LocID>
+        <Text>Смит предвидел, что силы UNSS могут вмешаться! К счастью, он надёжно заперт за воротами... так что вы не вмешаетесь. Мне это нравится, так мы сможем разобраться с вами по-фоссориански!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_MOORE_1</LocID>
+        <Text>Да, он "занят", а я ПРОКЛЯТ тем, что должен за тобой присматривать. Ты идиот! Ты только что рассказал нашим врагам, как добраться до Смита!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_HOLESTER_2</LocID>
+        <Text>Этот поход больше не веселит! Я просто пытаюсь выманить их! Мы стояли здесь на страже так долго, что мне стало невыносимо скучно! Мне не терпится устроить настоящий бой!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_MOORE_2</LocID>
+        <Text>Тупой фоссорианин! Я никогда не пойму, почему Смит 7А настоял на том, чтобы взять тебя с собой на эту миссию. Возможно, эта "говорящая Реликвия", которую он получил от вашего Верховного Лидера, затуманила его рассудок!</Text>
+      </GameDBLocalizedString>
+      <!--VYHODIT MOORA ZE 3 MISE?-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_A_1</LocID>
+        <Text>Кто был тот Гесперид, Док?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_T_2</LocID>
+        <Text>То, что я сам Гесперид, не значит, что я знаю всех остальных Гесперид...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_M_1</LocID>
+        <Text>... но этого ты знаешь. Ты как-то рассказывал мне о нём.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_T_3</LocID>
+        <Text>И ты, Брут?\n[ВЗДОХ] Ладно, Мур 3C был высокопоставленным офицером UNSS. Он дезертировал вскоре после того, как Смит был дискредитирован. Огромный удар по UNSS.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_IN_PERSON_A_2</LocID>
+        <Text>Одно можно сказать наверняка: теперь он на стороне Смита!</Text>
+      </GameDBLocalizedString>
+      <!--Arjun_Thomas_on_SMITH -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_A_1</LocID>
+        <Text>Кстати, тот Гесперид говорил о Смите. Теперь ты мне веришь, Док?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_T_1</LocID>
+        <Text>...   </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_M_1</LocID>
+        <Text>Ладно, хватит. Если ты не скажешь ему, я скажу... На самом деле, это Доктор Браун 9B предупредил командование UNSS о твоём сообщении. Это он собрал ресурсы для этой миссии.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_A_2</LocID>
+        <Text>Не знаю, что сказать... Я думал, ты никогда мне не верил, Док. Что я просто ещё один человек, с которым тебя заставили работать.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_T_2</LocID>
+        <Text>Семь ступеней злобы на тебя, женщина! Тебе не следовало говорить ему!..</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_T_3</LocID>
+        <Text>... Ладно, ты облажался, взорвав тот корабль, и я всё ещё настаиваю, чтобы ты принял душ... но должен признать, что с тех пор, как мы впервые встретились, ты смог уменьшить часть той антипатии, которую я испытываю к вашему никчёмному виду. Доволен?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_CATARSION_A_3</LocID>
+        <Text>Да... потому что я знаю, что ты хотел сказать. Спасибо, Док.</Text>
+      </GameDBLocalizedString>
+      <!--summon_bulletproof_beni-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_BF_BENI_1</LocID>
+        <Text>Ты - мой шанс доказать, что я не хуже любого "чистокровного" фоссорианца!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_BF_MOORE_1</LocID>
+        <Text>Просто останови их, не нужно выпендриваться.</Text>
+      </GameDBLocalizedString>
+      <!--beni_beaten-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_BENI_1</LocID>
+        <Text>Вот, возьмите ключ! Я всё расскажу, только не убивайте меня!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_MOORE_1</LocID>
+        <Text>Заткнись, тупое животное! Прояви хоть немного стойкости!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_BENI_2</LocID>
+        <Text>Есть трое врат! Два на поверхности и одно на орбите. Каждый из командиров фоссориан охраняет ключ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_M_1</LocID>
+        <Text>Можем мы оставить этого маленького крысёнка? Он такой милый в этой униформе!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_T_1</LocID>
+        <Text>[Вздох] НЕТ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_A_1</LocID>
+        <Text>[Вздох] НЕТ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_BENI_AF_M_2</LocID>
+        <Text>Наконец-то вы снова в чём-то сошлись!</Text>
+      </GameDBLocalizedString>
+      <!--bridge closed_till_Molsson_beaten-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSONS_BRIDGE_RH_1</LocID>
+        <Text>Фоссорианцы сломали этот мост, даже Ядро Синтеза Предтеч тут не поможет. Придётся "вежливо попросить" одного из их командиров оказать "помощь".</Text>
+      </GameDBLocalizedString>
+      <!--Molson_before_fight-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSON_BF_MOLSSON_1</LocID>
+        <Text>Привет, ребята, полагаю, вы пришли за одним из ключей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSON_BF_MOORE_1</LocID>
+        <Text>Да что с тобой не так?! Нельзя просто так говорить, что у тебя есть ключ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSON_BF_MOLSSON_2</LocID>
+        <Text>А как ещё они узнают, какой я важный?!</Text>
+      </GameDBLocalizedString>
+      <!--Molson_after_fight-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSON_AF_MOLSSON_1</LocID>
+        <Text>Я хочу договориться! Ключ и пульт управления мостом в обмен на мою жизнь!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOLSSON_AF_MOORE_1</LocID>
+        <Text>[ЗВУК ЛАПАЛИЦО]... Вздох...</Text>
+      </GameDBLocalizedString>
+      <!--Holester_before_fight-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_BF_MOORE_1</LocID>
+        <Text>Ладно, Холестер, ваш Верховный Лидер хорошо отзывался о тебе. Не мог бы ты удержать их на земле? Помни о ПЛАНЕ. У нас важное дело на орбите!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_BF_HOLESTER_1</LocID>
+        <Text>Не волнуйся, Мотыльково-ликий командир! Я с ними разберусь!</Text>
+      </GameDBLocalizedString>
+      <!--Holester_after_fight-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_AF_HOLESTER_1</LocID>
+        <Text>Это было сложнее, чем я ожидал! Вот ключ! Пощадите меня, умоляю! Я просто выполнял приказы Мотыльково-ликого!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_HOLESTER_AF_MOORE_1</LocID>
+        <Text>Мои приказы?! Ты сделал всё с точностью до наоборот! А теперь у них все ключи! Гёрги-ларх! Вы, фоссорианцы, просто ходячий ХАОС!</Text>
+      </GameDBLocalizedString>
+      <!--which one of us will go-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_T_1</LocID>
+        <Text>Это еще одно ядро! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_A_1</LocID>
+        <Text>Я так и знал! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_M_1</LocID>
+        <Text>Мы можем использовать его, чтобы починить Станцию Врат и снова открыть путь в Солнечную систему! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_A_2</LocID>
+        <Text>Это наш шанс спасти UNSS!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_T_2</LocID>
+        <Text>Кто из нас будет преследовать Смита?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_A_3</LocID>
+        <Text>Я пойду, Смит чуть не уничтожил весь UNSS.  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_T_3</LocID>
+        <Text>Он убил Ранок... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_M_2</LocID>
+        <Text>... И его экипаж.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_LAST_GATE_A_4</LocID>
+        <Text>Тогда давайте закончим это вместе. </Text>
+      </GameDBLocalizedString>
+      <!--ENDING-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_END_WARNING_NAR_1</LocID>
+        <Text>Убедитесь, что вы готовы! Как только вы перейдете этот мост, пути назад уже не будет. </Text>
+      </GameDBLocalizedString>
+      <!--end_part_1-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_END_PT1_SKAUROV_1</LocID>
+        <Text>Ну что, кто первый отправится на бойню?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_END_PT1_MOORE_1</LocID>
+        <Text>Не недооценивай их, Скауров! Они уже разгромили всех твоих фоссорианских генералов на земле!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_END_PT1_SKAUROV_2</LocID>
+        <Text>Да, Холестер и его клоуны. Их не зря приказали оставить на земле! Но я сделан из другого теста. Я жду вас, отбросы UNSS!</Text>
+      </GameDBLocalizedString>
+      <!--Skaurov_BF-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BF_SKAUROV_1</LocID>
+        <Text>Лобовая атака. Обожаю её!</Text>
+      </GameDBLocalizedString>
+      <!--Skaurov_beaten-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BEATEN_MOORE_1</LocID>
+        <Text>Вы никогда не задумывались, почему Смит 7А выбрал именно вас двоих для своей следственной группы?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BEATEN_T_1</LocID>
+        <Text>Просвети меня.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BEATEN_MOORE_2</LocID>
+        <Text>Человеческий солдат, обученный старым расистом, и учёный-Гесперид, который ненавидит людей больше всех остальных? Ваши ссоры должны были завести расследование в тупик!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BEATEN_A_1</LocID>
+        <Text>Это почти произошло.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_SKAUROV_BEATEN_MOORE_3</LocID>
+        <Text>Миру нет дела до "почти". Но хватит разговоров, посмотрим, смогу ли я добиться успеха там, где все фоссорианцы потерпели неудачу.</Text>
+      </GameDBLocalizedString>
+      <!--Moore_beaten-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_0</LocID>
+        <Text>Я сдаюсь! Я не могу рисковать тем что вы убьёте нас всех! Знание о событиях, приведших к атаке на Станцию Врат, будет потеряно.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_A_1</LocID>
+        <Text>Ну, попробуй! Объясни сам себе! Зачем ты всё это сделал?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_1</LocID>
+        <Text>Несколько месяцев назад Станция Врат начала трансляцию. Мы услышали её и запаниковали. Это были слова литании. Станция Врат пыталась захватить контроль над флотом UNSS.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_M_1</LocID>
+        <Text>Возможно ли такое? Томас, ты же у нас эксперт по ИИ кораблей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_T_1</LocID>
+        <Text>Нет, только самые новые корабли имеют разумный ИИ...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_2</LocID>
+        <Text>Да, самые мощные. Например, как Ранок. Трансляция была слышна не только в системе Сирены, она распространилась по галактике, как лесной пожар. О да, в Млечном Пути есть и другие Станции Врат, теперь мы знаем это точно.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_A_2</LocID>
+        <Text>Так вы уничтожили источник трансляции...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_3</LocID>
+        <Text>С помощью флота фоссорианцев. Их корабли не имеют Гесперидского ИИ, поэтому были невосприимчивы к литании.</Text>
+      </GameDBLocalizedString>
+      <!--John on the sceen Alternative -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_JOHN_1</LocID>
+        <Text>Ну-ну, 3C. Не утруждай их деталями. Общего описания достаточно.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_4</LocID>
+        <Text>Так ты заложил взрывчатку в ядро? Почему это заняло так много времени?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_JOHN_2</LocID>
+        <Text>Я передумал. Когда я закладывал взрывчатку, я понял правду! Ядро никогда не было источником трансляции. Оно было всего лишь усилителем!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_5</LocID>
+        <Text>Тогда что было источником?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_JOHN_3</LocID>
+        <Text>Реликвия, та самая Реликвия, которую фоссорианцы извлекли из оригинального Ядра! Та самая Реликвия, которую мне дал Фуррет!... Вот только зачем он отдал её мне?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_MOORE_6</LocID>
+        <Text>Неважно! Её нужно уничтожить любой ценой!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_RELIC_1</LocID>
+        <Text>Помогите мне! Если они убьют меня, ваша последняя надежда на восстановление пути к Солнечной системе будет потеряна!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_JOHN_4</LocID>
+        <Text>Молчи, чудовище! Здесь твоему безумию конец!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_MOORE_BEATEN_A_3</LocID>
+        <Text>НЕТ! Мы должны действовать сейчас! </Text>
+      </GameDBLocalizedString>
+      <!--John beaten the END-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_JOHN_1</LocID>
+        <Text>Я... был... слишком слаб... не повторяйте... моих ошибок... не слушайте... ААААА!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_M_1</LocID>
+        <Text>Что с ним?.. Боже!.. Эта штука выползла из его тела!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_1</LocID>
+        <Text>Я ИСПОЛЬЗОВАЛА ЕГО УМИРАЮЩЕЕ ТЕЛО, ЧТОБЫ ЗАВЕРШИТЬ СВОЮ ТРАНСФОРМАЦИЮ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_A_1</LocID>
+        <Text>Ты та самая Реликвия, с которой он говорил?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_2</LocID>
+        <Text>ДА, ВЫ СПАСЛИ МЕНЯ! ОН ХОТЕЛ УНИЧТОЖИТЬ МЕНЯ.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_T_1</LocID>
+        <Text>Но трансляция! Ты пыталась захватить контроль над флотом UNSS!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_3</LocID>
+        <Text>НЕТ! Я ПРОСТО ЗВАЛА НА ПОМОЩЬ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_A_2</LocID>
+        <Text>Но ты убила Смита 7А! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_4</LocID>
+        <Text>ТВОЕГО ВРАГА, УБИЙЦУ РАНОК, И ЕГО КОМАНДЫ! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_M_2</LocID>
+        <Text>Подожди, значит, ты была заключена внутри ядра?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_5</LocID>
+        <Text>ВЕКАМИ! ЯДРО ДЕРЖАЛО МЕНЯ СПЯЩЕЙ. ВЫКАЧИВАЯ МОЮ СИЛУ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_A_3</LocID>
+        <Text>Ты можешь открыть путь к Солнечной системе?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_6</LocID>
+        <Text>ДА, С МОЕЙ ПОМОЩЬЮ ВМЕСТЕ МЫ СМОЖЕМ ВНОВЬ ОТКРЫТЬ ПУТЬ К ТВОЕМУ ДОМУ. МЫ ОБЪЕДИНИМ РАЗДРОБЛЕННОЕ И ВОССТАНОВИМ УТРАЧЕННОЕ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL4_JOHN_BEATEN_MOTHER_7</LocID>
+        <Text>ТЫ ПРИМЕШЬ МОЁ ПРЕДЛОЖЕНИЕ... ПРИМЕШЬ?</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

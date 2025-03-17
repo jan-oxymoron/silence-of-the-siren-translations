@@ -1,56 +1,114 @@
 <Database>
-    <GameDBStringTable ID="LOC_RU_PATCH_05_UNSS">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <GameDBLocalizedString>         <LocID>EMPIRE_CAMPAIGN</LocID>                                              <Text>UNSS Campaign</Text></GameDBLocalizedString>
-            
-        <!--Units lore-->
-            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_UPG_DESCRIPTION_V2</LocID>                           <Text>After the last lost onslaught,\nSupreme Leader walked in thought.\n\nHow do we make them great again?\nYes, let's make them spew fiery rain!\n\nAnd if the crews get cooked inside?\nThen they burn and die with pride! </Text></GameDBLocalizedString>
-            
-        <!--Base - spawner lore   -->
-            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_UPG_LORE_V2</LocID>                         <Text>I was a little mole when I entered the Liberator Factory, the golden coupon in one hand and the Supreme Leader's hand in the other! He made me a slave there for thirty-two years! The machines took my arm and eyes. Please, give a crumb of bread to a hungry beggar!</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MOVE_AGAIN_AFTER_A_KILL_N_TIMES</LocID>                 <Text><![CDATA[Grants your units an <color=SOTS_COLOR_GOLD>extra move</color> after killing an enemy unit stack, up to {1} time(s) in a row.]]></Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL2_V2</LocID>     <Text>The cloud lasts 8 turns/phases or until a commander enters it.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL3_V2</LocID>     <Text>The cloud lasts 16 turns/phases or until a commander enters it.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS</LocID>                      <Text>Day-night cycle visuals</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS_FULL</LocID>                 <Text>Full</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS_REDUCED</LocID>              <Text>Reduced</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>MAPOBJ_MOVEMENT_NODE_SMALL_DESCRIPTION_V2</LocID>                    <Text><![CDATA[Replenishes <color=SOTS_COLOR_MOVEMENT>40 movement points</color> once per cycle. (First come, first served.)]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_ASYNC_AI_PATHFINDING</LocID>                      <Text>Async AI pathfinding</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>DIFFICULTY_EASY_DESCRIPTION</LocID>                                  <Text>The easiest difficulty that gives you various advantages against your computer opponents.\n - Extra starting resources\n - Bonus to starting armies compared to computer players\n - Weaker neutral armies</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIFFICULTY_MEDIUM_DESCRIPTION</LocID>                                <Text>The standard difficulty. All settings are the same for you and the computer players.</Text>  </GameDBLocalizedString>
-            
-            <!-- Note: gateways as in GATEWAY_BUTTON, the mechanic of fast travel between bases -->
-            <GameDBLocalizedString>         <LocID>DIFFICULTY_HARD_DESCRIPTION</LocID>                                  <Text>For those seeking some challenge.\n - Extra starting resources and higher resource income for computer players\n - Weaker starting armies compared to computer players\n - Stronger neutral armies\n - Computer players plan further ahead, hire more commanders, use gateways and are more aggressive in general</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_ACADEMY_DESCRIPTION</LocID>                         <Text>Unlocks a set of basic abilities that visiting commanders can learn.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_REMOTE_LEARNING_DESCRIPTION</LocID>                 <Text>Teach abilities to your commanders remotely.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_SPECIALIZATION_DESCRIPTION</LocID>          <Text>Add one chosen ability to the Academy for a fee.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_EXPLORE_DESCRIPTION</LocID>                 <Text>Unlocks a selection of Globetrotter Abilities to learn.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_PSY_DESCRIPTION</LocID>                     <Text>Unlocks a selection of Psy Abilities to learn.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_TECH_DESCRIPTION</LocID>                    <Text>Unlocks a selection of Tech Abilities to learn.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_BIO_DESCRIPTION</LocID>                     <Text>Unlocks a selection of Bio Abilities to learn.</Text></GameDBLocalizedString>
-
-
-            <!--_______________EA CHAOS MAP__________________________-->
-            <GameDBLocalizedString>         <LocID>EA_CHAOS_ID</LocID>                                                  <Text>Chaos</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_CHAOS_DESCRIPTION</LocID>                                         <Text>A quick map with a different twist, slightly reminiscent of roguelike games.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_CHAOS_INTRO</LocID>                                               <Text>In the center, there's a base you must capture and hold. Don’t worry if you don’t succeed on your first try - there's no shame in retrying!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EA_CHAOS_VICTORY</LocID>                                             <Text>Congratulations, you have won! Try again – you'll get different armies, and the whole situation might unfold completely differently. Do you dare?</Text>    </GameDBLocalizedString>
-
-        </LocalizedStrings>
-        
-    </GameDBStringTable>
+  <GameDBStringTable ID="LOC_RU_PATCH_05_UNSS">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Rewalon</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>EMPIRE_CAMPAIGN</LocID>
+        <Text>Кампания UNSS</Text>
+      </GameDBLocalizedString>
+      <!--Units lore-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_MOLES_MECH_UPG_DESCRIPTION_V2</LocID>
+        <Text>После последнего проигранного боя,\nВерховный был душой неспокоен.\n\nКак вернуть им величие былое?\nДа - изрыгать огонь над землёю!\n\nА если экипажи сгорят внутри?\nТогда с честью погибнут они! </Text>
+      </GameDBLocalizedString>
+      <!--Base - spawner lore   -->
+      <GameDBLocalizedString>
+        <LocID>BUILDING_MOLES_SPAWNER_7_UPG_LORE_V2</LocID>
+        <Text>Я был маленьким кротом, когда попал на завод "Освободитель", с золотым купоном в одной руке и рукой Верховного Лидера в другой! Он сделал меня рабом там на тридцать два года! Машины забрали мою руку и глаза. Пожалуйста, дайте крошку хлеба голодному нищему!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SKILL_EFFECT_MOVE_AGAIN_AFTER_A_KILL_N_TIMES</LocID>
+        <Text><![CDATA[Дает вашим отрядам <color=SOTS_COLOR_GOLD>дополнительное перемещение</color> после уничтожения стека вражеского отряда, до {1} раз(а) подряд.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL2_V2</LocID>
+        <Text>Облако длится 8 ходов/фаз или до тех пор, пока в него не войдет командир.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL3_V2</LocID>
+        <Text>Облако длится 16 ходов/фаз или до тех пор, пока в него не войдет командир.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS</LocID>
+        <Text>Отображение цикла День-Ночь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS_FULL</LocID>
+        <Text>Полный</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS_REDUCED</LocID>
+        <Text>Урезанный</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_MOVEMENT_NODE_SMALL_DESCRIPTION_V2</LocID>
+        <Text><![CDATA[Восстанавливает <color=SOTS_COLOR_MOVEMENT>40 очков перемещения</color> один раз за цикл. (Кто первый, тот и получил.)]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPTION_EXPLORATION_ASYNC_AI_PATHFINDING</LocID>
+        <Text>Асинхронный ИИ поиск пути</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DIFFICULTY_EASY_DESCRIPTION</LocID>
+        <Text>Самая лёгкая сложность, которая даёт вам различные преимущества против компьютерных оппонентов.\n - Дополнительные стартовые ресурсы\n - Бонус к стартовым армиям по сравнению с компьютерными игроками\n - Более слабые нейтральные армии</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DIFFICULTY_MEDIUM_DESCRIPTION</LocID>
+        <Text>Стандартная сложность. Все настройки для вас и компьютерных игроков одинаковы.</Text>
+      </GameDBLocalizedString>
+      <!-- Note: gateways as in GATEWAY_BUTTON, the mechanic of fast travel between bases -->
+      <GameDBLocalizedString>
+        <LocID>DIFFICULTY_HARD_DESCRIPTION</LocID>
+        <Text>Для тех, кто ищет испытаний.\n - Дополнительные стартовые ресурсы и повышенный доход ресурсов у компьютерных игроков\n - Более слабые стартовые армии по сравнению с компьютерными игроками\n - Более сильные нейтральные армии\n - Компьютерные игроки планируют дальше, нанимают больше командиров, используют шлюзы и в целом более агрессивны</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_GENERIC_ACADEMY_DESCRIPTION</LocID>
+        <Text>Разблокирует набор базовых способностей, которые могут изучать командиры.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_GENERIC_REMOTE_LEARNING_DESCRIPTION</LocID>
+        <Text>Обучайте способностям своих командиров дистанционно.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_GENERIC_FACULTY_SPECIALIZATION_DESCRIPTION</LocID>
+        <Text>Добавить одну выбранную способность в Академию за отдельную плату.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_GENERIC_FACULTY_EXPLORE_DESCRIPTION</LocID>
+        <Text>Открывает выбор умений Путешественника для изучения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_GENERIC_FACULTY_PSY_DESCRIPTION</LocID>
+        <Text>Открывает выбор Пси-умений для изучения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_GENERIC_FACULTY_TECH_DESCRIPTION</LocID>
+        <Text>Открывает выбор Технических умений для изучения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_GENERIC_FACULTY_BIO_DESCRIPTION</LocID>
+        <Text>Открывает выбор Биологических умений для изучения.</Text>
+      </GameDBLocalizedString>
+      <!--_______________EA CHAOS MAP__________________________-->
+      <GameDBLocalizedString>
+        <LocID>EA_CHAOS_ID</LocID>
+        <Text>Хаос</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_CHAOS_DESCRIPTION</LocID>
+        <Text>Быстрая карта с необычным поворотом, слегка напоминающая roguelike-игры</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_CHAOS_INTRO</LocID>
+        <Text>В центре находится база, которую вы должны захватить и удержать. Не волнуйтесь, если у вас не получится с первого раза - нет ничего зазорного в том, чтобы попробовать снова!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EA_CHAOS_VICTORY</LocID>
+        <Text>Поздравляем, вы победили! Попробуйте снова - вы получите другие армии, и вся ситуация может развернуться совершенно иначе. Вы осмелитесь?</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

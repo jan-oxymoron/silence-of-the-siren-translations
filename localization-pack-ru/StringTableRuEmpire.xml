@@ -1,107 +1,293 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_EMPIRE">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-
-            <GameDBLocalizedString>         <LocID>FACTION_EMPIRE</LocID>                    <Text>United Nations of the Solar System (UNSS)</Text></GameDBLocalizedString>
-
-            <!--Unit names-->
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SCOUT</LocID>                <Text>Volt</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SCOUT_UPG</LocID>            <Text>Bolt</Text></GameDBLocalizedString>
-<!--            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SOLDIER</LocID>              <Text>Trooper</Text></GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SOLDIER_UPG</LocID>          <Text>Veteran Trooper</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_AR84</LocID>                 <Text>Number 6</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_AR84_UPG</LocID>             <Text>Number 6-M</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_VANQUISHER</LocID>           <Text>Crowd Suppressor</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_VANQUISHER_UPG</LocID>       <Text>Crowd Crusher</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SNIPER</LocID>               <Text>Fifty CAL </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SNIPER_UPG</LocID>           <Text>Sixty CAL</Text></GameDBLocalizedString>
-<!--            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_BEAST</LocID>                <Text>Ares</Text></GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_BEAST_UPG</LocID>            <Text>Ares MK2</Text></GameDBLocalizedString>
-<!--            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WARMACHINE</LocID>           <Text>Titan</Text></GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WARMACHINE_UPG</LocID>       <Text>Titan shield bearer</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WAR_MACHINE_SHIELD_BLOCK_PROJECTILES</LocID>                 <Text>Ballistic Shield</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WAR_MACHINE_SHIELD_BLOCK_PROJECTILES_DESCRIPTION</LocID>     <Text><![CDATA[Generates an impenetrable barrier for enemy projectiles.]]></Text></GameDBLocalizedString>
-
-
-           <!--Unit description-->
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SCOUT_DESCRIPTION</LocID>                  <Text>The biggest Volt factories are usually built in colonies and are known to have the best working conditions. If you want to oppress someone, let them benefit from that oppression. It will take a long time until they realizes it and they seldom do anything against it. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SCOUT_UPG_DESCRIPTION</LocID>              <Text>Dispatching humans is pretty costly, thus Volts became the police force in most C-class neighborhoods. Crime statistics have never been so low, but maybe the people just stopped calling for help. They learned that only these stupid robots will arrive and tase everybody at the scene, regardless of whether they are doing anything illegal or not. </Text></GameDBLocalizedString>
-            <!--<GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SOLDIER_DESCRIPTION</LocID>            <Text>We have guided missiles, plasma rifles, RP drones, sonic rams and a load of vehicles of different tonnage, but most of the time we will just send the Troopers. You know, cost-effectiveness.</Text></GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SOLDIER_UPG_DESCRIPTION</LocID>            <Text>Everyone can tell you that UNSS Troopers wear protective spacesuits with basic life support and a fair share of affordable ballistic protection. But no one can truly describe that sweaty, itchy sensation in all of the wrong places at once. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_AR84_DESCRIPTION</LocID>                   <Text>Number 5 was a huge success, but its AI was too kind-hearted for UNSS military service. Soldiers were simply too tired of its constant whining over dead enemies: "Reassemble him, reassemble him!" "It's freaking DEAD, move along already, you useless tin can!". But NO, they just stood there feeling sad and sorry. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_AR84_UPG_DESCRIPTION</LocID>               <Text>Along with weapon and armor upgrades, a SW update got installed. Now it will say "neutralized" instead of "killed" and shout "weapon" instead of "that bastard is still alive, shoot his head off!". It's much more humane this way. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_VANQUISHER_DESCRIPTION</LocID>             <Text>Do you remember those fargile supermarket guards you could take down with one punch? Why do they even contract such weaklings? Only a few people know that those guards have a little box with a big button that summons the real-deal, face-tattooed, mental, meathead cavalry. In the UNSS, the crowd suppressor unit is this cavalry. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_VANQUISHER_UPG_DESCRIPTION</LocID>         <Text>The UNSS PR Division is something like the police of old. Back then, most people joined them because they genuinely liked people and they wanted to help society. And then there was the rest. The Crowd Crushers only employ that rest.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SNIPER_DESCRIPTION</LocID>                 <Text>The longest-serving anti-material caliber cartridge. Because who cares about the enemy, the solid wall he is hiding behind, and the forcefield that stops all regular projectiles!? You know, when you punch that field hard enough, it will overload and collapse. Yee-haa! In your face, you shield-bearing cowards! </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SNIPER_UPG_DESCRIPTION</LocID>             <Text>The bigger the stick, the fewer hits are needed to beat down an opponent. The moment when Homo Sapiens adopted this strategy was the beginning of the end for Homo not-so-Sapiens. </Text></GameDBLocalizedString>
-<!--            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_BEAST_DESCRIPTION</LocID>                  <Text>The invention of Force-shield technology led to a melee combat renaissance. Even now, when ranged weapons started to catch up, military droids rely on trusty old power-blades. These beauties have served for almost 30 years now.</Text></GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_BEAST_UPG_DESCRIPTION</LocID>              <Text>First, everybody feared serving with them because there was no kill switch or any "backdoor" for remote control. If there weas, the Ares would be too much of an easy prey for hackers. Despite this, there has been not a single incident. The Hesperidians are really good AI programmers. </Text></GameDBLocalizedString>
-<!--            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WARMACHINE_DESCRIPTION</LocID>             <Text>Ask any UNSS kid about their dream job. It's always a garbage man, a paleontologist, or a Titan pilot. Then, as an adult, nobody wants to work exposed to the weather or kneel in dirt all day. Soon, the paleontologists will join the extinct species, while the Titans still kick ass!</Text></GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WARMACHINE_UPG_DESCRIPTION</LocID>         <Text>The success of the Ares started a debate over the replacement of human pilots of the Titans. This never happened only because it is elevating the recruitment rates for all military branches. See, most people who enlist and hope to become Titan pilots end up in "other positions". For example a frontline position. </Text></GameDBLocalizedString>
-
-            
-            <!--Unit abilities-->
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_SCOUT_UPG_SPECIAL</LocID>                      <Text>Chain lightning that strikes targeted enemy unit as well as all enemies on neighbouring hexes.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_EMPIRE_SOLDIER_UPG_SPECIAL</LocID>             <Text>Hits multiple enemies with lower damage, using special ammunition that causes a bleeding effect.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_AR84_INFO_DESCRIPTION</LocID>                   <Text>Can move and shoot.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_EMPIRE_AR84_UPG_SPECIAL</LocID>                <Text>Shoots exploding projectiles.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_VANQUISHER_UPG_INFO_DESCRIPTION</LocID>         <Text>Knocks back enemy units.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SNIPER_INFO_DESCRIPTION</LocID>                 <Text>Shoots precisely at long range, gets a penalty when shooting nearby targets.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SNIPER_UPG_INFO_DESCRIPTION</LocID>             <Text>Counters ranged attacks. Shoots precisely at long range, gets a penalty when shooting nearby targets.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_BEAST_PASSIVE_INFO_DESCRIPTION</LocID>          <Text>Can jump over obstacles.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_EMPIRE_BEAST_UPG_SPECIAL</LocID>               <Text>Hits all enemies around.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_BEAST_PASSIVE_INFO_DESCRIPTION</LocID>          <Text>Can jump over obstacles.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WARMACHINE_UPG_INFO_DESCRIPTION</LocID>         <Text>Automatically activates a shield that makes him immune to ranged attacks until it attacks or counters. Can attack up to 3 enemies standing next to each other.</Text>  </GameDBLocalizedString>
-
-
-
-            <!--Hero names-->
-
-<!--        <GameDBLocalizedString>         <LocID>HERO_EMPIRE_1</LocID>     <Text>John Smith 7A</Text>  </GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_2</LocID>     <Text>Capt. Rao</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_3</LocID>     <Text>Navigator Maya</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_4</LocID>     <Text>Doctor Brown 9B</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_5</LocID>     <Text>"Sarge" Zagloba</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_6</LocID>     <Text>Michael Moore 3C </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_7</LocID>     <Text>Henry Williams 2B</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_8</LocID>     <Text>Rob "Scotty"</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_9</LocID>     <Text>Rosie Hart</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_10</LocID>    <Text>Kim Procházka</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_11</LocID>    <Text>General Takeshi</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_12</LocID>    <Text>Admiral Nyota</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_13</LocID>    <Text>Major Zolzaya </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_14</LocID>    <Text>Gahiji Jackson</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_15</LocID>    <Text>Adela</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_16</LocID>    <Text>Governor Burke</Text>  </GameDBLocalizedString>
-
-            <!--Hero description-->
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_1_DESCRIPTION</LocID>                 <Text>Hesperidian anthropologists studied the human culture based on years of broadcast that spread through space even before the Hesperidian generation ship finished its journey to the Solar System. Smith's understanding of humans made him a master manipulator. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_2_DESCRIPTION</LocID>                 <Text>Captain Arjun Rao comes from one of many arti-satellites of the Saturn belt. As a young man, he managed to get a stipend at the UNSS Military Academy. He truly believes that the UNSS is here to make the world a better place. True believers are dangerous men capable of great things. Both good and terrible. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_3_DESCRIPTION</LocID>                 <Text>The new generation of UNSS personnel was brought up in a world strongly affected by Hesperidian culture, philosophy, and religion. Since the dawn of humanity, all younger generations are a little bit alien to older people, but her generation is weirder than most. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_4_DESCRIPTION</LocID>                 <Text>Doctor Brown was involved in nearly all the inhumane research of the last decades. Mainly studies involving engrams and true AI development. Later, he capitalized on those experiences when working on UNSS Ranock, the strongest ship of the UNSS fleet. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_5_DESCRIPTION</LocID>                 <Text>Highly decorated officer but most medals are made of kebab, curry, and gravy. UNSS army is about order and discipline. So it is a complete enigma of why Andrzej Zagloba enlisted and how he managed to become a sergeant.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_6_DESCRIPTION</LocID>                 <Text>The chief astrophysicist of the Expedition fleet sent by the UNSS to explore the Siren System. His obsession with Greek mythology has not only maifested itself in the name of the Siren system, but is also to blame for the names of the planets and countless other things. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_7_DESCRIPTION</LocID>                 <Text>For 2B, the arrival to the Solar System meant a fall from grace. Hesperidian technicians lost their priviledged status as the survival of their species was no longer in their hands. Although he requalified and later joined the Expedition fleet as a xenotechnologist, some of the bitterness over the lost importance lasts. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_8_DESCRIPTION</LocID>                 <Text>This tall highlander with a strong accent comes from the fog-covered peaks of the NN-York scrapyard. It is remarkable how many UNSS officers with non-UNSS backgrounds volunteered for the Siren System expeditionary force. Almost as if they had "second class" written on their forehead. But, who would not want a fresh start? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_9_DESCRIPTION</LocID>                 <Text>Usually, the spoiled brats of wealthy families join the Sovereighn as a part of their "rebellion", but Rosie is a different type of "brat". Although she was born with a silver spoon in hand, she enlisted for the Trooper Core. Joining the military as a revolt, isn't that quite oxymoronic? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_10_DESCRIPTION</LocID>                <Text>A former student of the famous professor Zane. Procházka dedicated his life to getting admitted to an exclusively Hesperidian Research Division. After years of effort, he is still a lab assistant, but he is the only human who ever made it so far. A testament to his superior intellect. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_11_DESCRIPTION</LocID>                <Text>Famous for a quote commenting on the victory over Sovereign Colonies: "The Hesperidian involvement in the war was one of the greatest achievements of the UNSS and one of the biggest mistakes of humanity". His career only survived because Hesperidians were not good with words yet, back then.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_12_DESCRIPTION</LocID>                <Text>There were several "iron ladies" in human history and none of them was given this nickname for their gentle attitude and peaceful nature. No wonder the Hesperidians supported her appointment as the commanding officer of the Expedition Fleet heading for the Siren System. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_13_DESCRIPTION</LocID>                <Text>Her unit is called the "Sovereign Hunters" and gets deployed whenever the atmosphere in some colony reaches the boiling point. They are experts in "cooling" the "hot heads". Most often they cool them down to −270 °C (or −455 °F), the temperature of space. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_14_DESCRIPTION</LocID>                <Text>Gahigi is a commando-type that eats green berets for breakfast. He is tough, strong, an excellent shooter, and a tactical prodigy. But he is still going to action with his troops and has declined all promotions. Maybe he is scared that a higher rank would imprison him at the office. And he is right, the system does not work! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_15_DESCRIPTION</LocID>                <Text>She is in the Secret Service. Everybody knows that. The problem is, nobody knows in which one and what her rank is. Therefore, everybody is pre-emptively scared of her, which gives her that special femme fatale aura - and also acts as a friend repellent. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_16_DESCRIPTION</LocID>                <Text>If the concept of bureaucracy materialized into an avatar, his name would be Burke and he would serve as a governor of a UNSS colony. He is an efficient, precise, and a capable commander. Shame that he will not make a move without proper authorization. Not even if his mother was drowning. </Text>  </GameDBLocalizedString>
-<!-- and their encyclopedic knowledg of the ship-universe lost the critical importance. -->
-<!-- Hesperidians are bastards. They are rude, imperious and consider humans as bio-robots appropriate only for labour and combat, and are terrible to small animals. You would expect there is always at least one exception and that this exception is Michael Moore 3C. Keep expecing -->
-        </LocalizedStrings>
-    </GameDBStringTable>
+<Database>
+  <GameDBStringTable ID="LOC_RU_EMPIRE">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Rewalon</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>FACTION_EMPIRE</LocID>
+        <Text>Объединенные Нации Солнечной Системы (UNSS)</Text>
+      </GameDBLocalizedString>
+      <!--Unit names-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SCOUT</LocID>
+        <Text>Вольт</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SCOUT_UPG</LocID>
+        <Text>Болт</Text>
+      </GameDBLocalizedString>
+      <!--            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SOLDIER</LocID>              <Text>Trooper</Text></GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SOLDIER_UPG</LocID>
+        <Text>Ветеран Пехотинец</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_AR84</LocID>
+        <Text>Номер 6</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_AR84_UPG</LocID>
+        <Text>Номер 6-М</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_VANQUISHER</LocID>
+        <Text>Подавитель толпы</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_VANQUISHER_UPG</LocID>
+        <Text>Крушитель толпы</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SNIPER</LocID>
+        <Text>КАЛИБР 50</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SNIPER_UPG</LocID>
+        <Text>КАЛИБР 60</Text>
+      </GameDBLocalizedString>
+      <!--            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_BEAST</LocID>                <Text>Ares</Text></GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_BEAST_UPG</LocID>
+        <Text>Арес MK2</Text>
+      </GameDBLocalizedString>
+      <!--            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WARMACHINE</LocID>           <Text>Titan</Text></GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_WARMACHINE_UPG</LocID>
+        <Text>Титан-щитоносец</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_WAR_MACHINE_SHIELD_BLOCK_PROJECTILES</LocID>
+        <Text>Баллистический щит</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_WAR_MACHINE_SHIELD_BLOCK_PROJECTILES_DESCRIPTION</LocID>
+        <Text><![CDATA[Создает непроницаемый барьер для вражеских снарядов.]]></Text>
+      </GameDBLocalizedString>
+      <!--Unit description-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SCOUT_DESCRIPTION</LocID>
+        <Text>Самые крупные заводы по производству Вольтов обычно строятся в колониях и славятся лучшими условиями труда. Если вы хотите угнетать кого-то, позвольте им извлекать выгоду из этого угнетения. Пройдёт много времени, прежде чем они это осознают, и они редко что-то предпринимают против.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SCOUT_UPG_DESCRIPTION</LocID>
+        <Text>Направление человека обходится довольно дорого, поэтому Вольты стали полицейскими силами в большинстве районов C-класса. Статистика преступности никогда не была такой низкой, но, возможно, люди просто перестали звать на помощь. Они поняли, что приедут только эти глупые роботы и будут бить всех подряд, независимо от того, делают они что-то противозаконное или нет.</Text>
+      </GameDBLocalizedString>
+      <!--<GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SOLDIER_DESCRIPTION</LocID>            <Text>We have guided missiles, plasma rifles, RP drones, sonic rams and a load of vehicles of different tonnage, but most of the time we will just send the Troopers. You know, cost-effectiveness.</Text></GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SOLDIER_UPG_DESCRIPTION</LocID>
+        <Text>Каждый может сказать вам, что бойцы UNSS носят защитные скафандры с базовой системой жизнеобеспечения и приличной баллистической защитой. Но никто не сможет описать то потное, зудящее ощущение сразу во всех неподходящих местах.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_AR84_DESCRIPTION</LocID>
+        <Text>Модель номер 5 была огромным успехом, но её ИИ оказался слишком добросердечным для военной службы UNSS. Солдаты просто устали от его постоянного нытья по поводу мёртвых врагов: "Соберите его обратно, соберите его обратно!" "Он, чёрт возьми, МЁРТВ, двигайся уже, бесполезная консервная банка!". Но нет, они просто замирали, чувствуя грусть и сожаление.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_AR84_UPG_DESCRIPTION</LocID>
+        <Text>Вместе с улучшениями оружия и брони на модель было установлено обновление ПО. Теперь она говорит "нейтрализован" вместо "убит", и кричит "оружие" вместо "этот ублюдок ещё жив, отстрелите ему голову!". Так гораздо гуманнее.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_VANQUISHER_DESCRIPTION</LocID>
+        <Text>Помните тех хилых охранников из супермаркета, которых можно было бы сбить одним ударом? Зачем они вообще нанимают таких слабаков? Лишь немногие знают, что у этих охранников есть маленькая коробочка с большой кнопкой, которая вызывает настоящую кавалерию - с татуировками на лицах, психически неуравновешенных и туповатых. В UNSS такими кавалеристами является отряд по подавлению толпы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_VANQUISHER_UPG_DESCRIPTION</LocID>
+        <Text>Отдел по связям с общественностью UNSS это что-то вроде полиции старого образца. В те времена большинство людей шли именно туда, потому что искренне любили людей и хотели помогать обществу. Если вы не такой, вы вступали в Сокрушители толпы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SNIPER_DESCRIPTION</LocID>
+        <Text>Самый долгоиграющий патрон противоматериального калибра. Потому что кому какое дело до врага, до прочной стены, за которой он прячется, и до силового поля, которое останавливает все обычные снаряды!? Знаешь, если ударить по этому полю достаточно сильно, оно перегрузится и рухнет. Йи-ха! Вот вам, прямо по морде, щитоносные трусы!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SNIPER_UPG_DESCRIPTION</LocID>
+        <Text>Чем больше дубина, тем меньше ударов нужно, чтобы сбить противника. Момент, когда Хомо Сапиенс принял эту стратегию, стал началом конца для Хомо не-совсем-Сапиенс.</Text>
+      </GameDBLocalizedString>
+      <!--            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_BEAST_DESCRIPTION</LocID>                  <Text>The invention of Force-shield technology led to a melee combat renaissance. Even now, when ranged weapons started to catch up, military droids rely on trusty old power-blades. These beauties have served for almost 30 years now.</Text></GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_BEAST_UPG_DESCRIPTION</LocID>
+        <Text>Сначала все боялись служить с ними, потому что у них не было кнопки экстренного отключения или какого-либо «чёрного хода» для удалённого управления. Если бы он был, Арес стал бы слишком лёгкой добычей для хакеров. Несмотря на это, не произошло ни одного инцидента. Геспериды действительно хорошие программисты ИИ.</Text>
+      </GameDBLocalizedString>
+      <!--            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WARMACHINE_DESCRIPTION</LocID>             <Text>Ask any UNSS kid about their dream job. It's always a garbage man, a paleontologist, or a Titan pilot. Then, as an adult, nobody wants to work exposed to the weather or kneel in dirt all day. Soon, the paleontologists will join the extinct species, while the Titans still kick ass!</Text></GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_WARMACHINE_UPG_DESCRIPTION</LocID>
+        <Text>Успех Арес вызвал дебаты о замене пилотов-людей управляющих Титанами. Этого так и не произошло только потому, что они повышают показатели набора во все военные подразделения. Видите ли, большинство людей, которые записываются на службу в надежде стать пилотами Титанов, оказываются на "других должностях". Например, на передовой.</Text>
+      </GameDBLocalizedString>
+      <!--Unit abilities-->
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_SCOUT_UPG_SPECIAL</LocID>
+        <Text>Цепная молния, которая поражает выбранный вражеский отряд, а также всех врагов на соседних гексах.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_EMPIRE_SOLDIER_UPG_SPECIAL</LocID>
+        <Text>Поражает нескольких врагов с меньшим уроном, используя специальные боеприпасы, которые вызывают эффект кровотечения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_AR84_INFO_DESCRIPTION</LocID>
+        <Text>Может двигаться и стрелять.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_EMPIRE_AR84_UPG_SPECIAL</LocID>
+        <Text>Стреляет взрывающимися снарядами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_VANQUISHER_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Сбивает с ног вражеские отряды.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SNIPER_INFO_DESCRIPTION</LocID>
+        <Text>Точно стреляет на дальние дистанции, получает штраф при стрельбе по ближним целям.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_SNIPER_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Отбивает атаки дальнего боя. 
+Точно стреляет на дальние дистанции, получает штраф при стрельбе по ближним целям.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_BEAST_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может перепрыгивать через препятствия.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_EMPIRE_BEAST_UPG_SPECIAL</LocID>
+        <Text>Поражает всех врагов поблизости.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_BEAST_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Can jump over obstacles.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_EMPIRE_WARMACHINE_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Автоматически активирует щит, который делает его неуязвимым для атак на расстоянии, пока он не атакует или не контратакует. Может атаковать до 3 врагов, стоящих рядом.</Text>
+      </GameDBLocalizedString>
+      <!--Hero names-->
+      <!--        <GameDBLocalizedString>         <LocID>HERO_EMPIRE_1</LocID>     <Text>John Smith 7A</Text>  </GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_2</LocID>
+        <Text>Капитан Рао</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_3</LocID>
+        <Text>Навигатор Майя</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_4</LocID>
+        <Text>Доктор Браун 9B</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_5</LocID>
+        <Text>"Сержант" Заглоба</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_6</LocID>
+        <Text>Майкл Мур 3C </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_7</LocID>
+        <Text>Генри Уильямс 2B</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_8</LocID>
+        <Text>Роб "Скотти"</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_9</LocID>
+        <Text>Рози Харт</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_10</LocID>
+        <Text>Ким Прочажка</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_11</LocID>
+        <Text>Генерал Такеши</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_12</LocID>
+        <Text>Адмирал Ньота</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_13</LocID>
+        <Text>Майор Золзая</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_14</LocID>
+        <Text>Гахиги Джексон</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_15</LocID>
+        <Text>Адела</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_16</LocID>
+        <Text>Губернатор Бёрк</Text>
+      </GameDBLocalizedString>
+      <!--Hero description-->
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_1_DESCRIPTION</LocID>
+        <Text>Гесперидские антропологи изучали человеческие передачи, которые распространялись в космосе задолго до их прибытия в Солнечную систему. Понимание Смитом людей сделало его мастером манипуляции.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_2_DESCRIPTION</LocID>
+        <Text>Капитан Арджун Рао родом с одного из многих искусственных спутников в кольцах Сатурна. В молодости ему удалось получить стипендию от Военной академии UNSS. Он искренне верит, что UNSS существует, чтобы сделать мир лучше. Истинно верующие это опасные люди, способные на великие дела. Как хорошие, так и ужасные.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_3_DESCRIPTION</LocID>
+        <Text>Новое поколение персонала UNSS выросло в мире, сильно подверженном влиянию гесперидской культуры, философии и религии. Со времен рассвета человечества все новые поколения становились немного чужды к людям старших поколений, но её поколение еще более странное, чем большинство.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_4_DESCRIPTION</LocID>
+        <Text>Доктор Браун был вовлечён почти во все бесчеловечные исследования последних десятилетий. В основном это были исследования, связанные с энграммами и разработкой настоящего ИИ. Позже он использовал этот опыт, работая в UNSS над Ранок, самым мощным кораблём флота UNSS.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_5_DESCRIPTION</LocID>
+        <Text>Высоконаграждённый офицер, но большинство его медалей сделаны из кебаба, карри и подливки. Армия UNSS - это порядок и дисциплина. Так почему Анджей Заглоба записался на службу и как ему удалось стать сержантом - полная загадка.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_6_DESCRIPTION</LocID>
+        <Text>Главный астрофизик экспедиционного флота, отправленного UNSS для исследования системы Сирен. Его одержимость греческой мифологией проявилась не только в названии системы Сирен, но и в именах планет и бесчисленного множества других вещей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_7_DESCRIPTION</LocID>
+        <Text>Для 2B прибытие в Солнечную систему означало падение с высот. Гесперидские техники потеряли свой привилегированный статус, поскольку выживание их вида больше не находилось в их руках. Хотя он переквалифицировался и позже присоединился к Экспедиционному флоту в качестве ксенотехнолога, горечь от утраченной значимости до сих пор не покидает его. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_8_DESCRIPTION</LocID>
+        <Text>Этот высокий горец с сильным акцентом родом из покрытых туманом вершин свалки НН-Йорк. Удивительно, сколько офицеров UNSS с непрофильным прошлым добровольно записались в экспедиционные силы системы Сирен. Как будто у них на лбу написано "второй сорт". Но кто бы не хотел начать всё заново?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_9_DESCRIPTION</LocID>
+        <Text>Обычно избалованные дети из богатых семей присоединяются к Суверенному флоту как часть своего "бунта", но Рози - другой тип "балованного ребёнка". Хотя она родилась с серебряной ложкой во рту, она записалась в Корпус Пехотинцев. Вступить в армию как акт революции. Разве это не оксюморон?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_10_DESCRIPTION</LocID>
+        <Text>Бывший ученик знаменитого профессора Зейна. Прочажка посвятил свою жизнь тому, чтобы попасть в исключительно гесперидское исследовательское подразделение. После многих лет усилий он всё ещё лаборант, но единственный человек, добившийся такого успеха. Это свидетельствует о его высочайшем интеллекте.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_11_DESCRIPTION</LocID>
+        <Text>Известен своей цитатой о победе над Колониями Суверенного флота : "Участие гесперидов в войне было одним из величайших достижений UNSS и одной из самых больших ошибок человечества" Его карьера уцелела только потому, что в то время геспериды ещё не были сильны в словах.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_12_DESCRIPTION</LocID>
+        <Text>В истории человечества было несколько "железных леди", и ни одна из них не получила это имя за мягкий характер и миролюбивую натуру. Неудивительно, что геспериды поддержали её назначение на должность командующего экспедиционным флотом, направляющимся в систему Сирен.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_13_DESCRIPTION</LocID>
+        <Text>Её подразделение называется "Охотники на Суверенов" и отправляется туда, где атмосфера в колонии приближается к точке кипения. Они эксперты в "охлаждении горячих голов". Чаще всего их охлаждают до −270 °C (или −455 °F) - температуры космоса.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_14_DESCRIPTION</LocID>
+        <Text>Гахиги - это коммандос, который ест зелёные береты на завтрак. Он крут, силён, отличный стрелок и тактический вундеркинд. Он по-прежнему вступает в бой вместе со своими войсками и отказался от всех повышений. Возможно, он боится, что более высокое звание приковало бы его к бумажной работе. И он прав - система не работает!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_15_DESCRIPTION</LocID>
+        <Text>Она работает в Секретной службе. Все это знают. Проблема в том, что никто не знает, в какой именно и какого она звания. Поэтому все заранее боятся её, что придаёт ей особую ауру роковой женщины - и действует как репеллент для друзей.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_EMPIRE_16_DESCRIPTION</LocID>
+        <Text>Если бы концепция бюрократии материализовалась в аватара, его звали бы Бёрк, и он был бы губернатором колонии UNSS. Он эффективный, точный и способный командир. Жаль, что он не сделает ни шага без надлежащего разрешения. Даже если бы тонула его мать.</Text>
+      </GameDBLocalizedString>
+      <!-- and their encyclopedic knowledg of the ship-universe lost the critical importance. -->
+      <!-- Hesperidians are bastards. They are rude, imperious and consider humans as bio-robots appropriate only for labour and combat, and are terrible to small animals. You would expect there is always at least one exception and that this exception is Michael Moore 3C. Keep expecing -->
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
