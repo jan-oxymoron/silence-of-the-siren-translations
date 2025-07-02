@@ -1,0 +1,213 @@
+<Database>
+    <GameDBStringTable ID="LOC_HU_PATCH_07">
+
+        <LanguageRef>LANG_HU</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            
+            <!--NEW interactive object-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_EYEBALL_TOWER</LocID>                             <Text>EyeBall tower</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_EYEBALL_TOWER_DESCRIPTION</LocID>                 <Text>It can see ... EVERYTHING. And by that we mean various useful statistics and information about other players.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>BASE_LEGEND_BUILD</LocID>                                            <Text>Available structure</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_LEGEND_BUILD_UPGRADE</LocID>                                    <Text>Available/ unavailable upgrade</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_LEGEND_RESOURCES</LocID>                                        <Text>Not enough resources</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_LEGEND_DEPENDENCIES</LocID>                                     <Text>Missing prerequisites</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_LEGEND_ALREADY_BUILT</LocID>                                    <Text>You have already built here this turn</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_LEGEND_NO_FREE_SLOT</LocID>                                     <Text>All slots in the parent building are full</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_LEGEND_NOT_AT_THIS_BASE</LocID>                                 <Text>Disabled at this base</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_DEFENSIVE_CORE_DESCRIPTION</LocID>                  <Text>Comes with defensive walls, a gate, two loopholes your ranged units can safely shoot from and one slot for defensive upgrades.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_DROPPED_ITEMS</LocID>                                  <Text>Is this important?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_DROPPED_ITEMS_TEXT</LocID>                             <Text>The enemy who attacked your garrison was carrying something. The following item(s) are now lying nearby on the map.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_LOST_TRAINING</LocID>                                  <Text>You lost!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_LOST_TRAINING_TEXT</LocID>                             <Text>The training was unsuccessful. You lost this simulated battle and there's no experience to learn from this.</Text>  </GameDBLocalizedString>
+
+            <!-- From 3 to 4, update this in other languages ourselves? -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GARRISON_UPGRADE_SMALL</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Adds 4 slots for defending units</color> and for commanders with the Builder skill, <color=SOTS_COLOR_GOLD>10 defensive Sentry Guns</color> per skill level.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_TRAINING_RETREATED</LocID>                             <Text>Finish training?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_TRAINING_RETREATED_TEXT</LocID>                        <Text>You will not receive any Experience points for interrupted training. But you can try again next cycle.</Text>  </GameDBLocalizedString>
+                  
+            <!--Eyeball Tower texts-->
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_NAME</LocID>                                  <Text>Exploration statistics</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_NO_BASE</LocID>                               <Text>No base</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_NEUTRAL_BASES</LocID>                         <Text>Neutral bases</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_NEUTRAL_MINES</LocID>                         <Text>Neutral mines</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_RESOURCES_LEFT</LocID>                        <Text>Resources, chests</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_EQUIPMENT_LEFT</LocID>                        <Text>Equipment</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_CONSUMABLES_LEFT</LocID>                      <Text>Consumables</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_ARTIFACTS_LEFT</LocID>                        <Text>Artifacts</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_STRONGEST_COMMANDER</LocID>                   <Text>Strongest commander</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_STRONGEST_UNIT</LocID>                        <Text>Strongest unit</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_BASE_DEVELOPMENT</LocID>                      <Text>Base development</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_STATISTICS_ITEMS_LEFT_ON_MAP</LocID>                     <Text>Items left on map</Text>  </GameDBLocalizedString>
+
+            <!--Victory statistics texts-->
+            <GameDBLocalizedString>         <LocID>GAME_VICTORY_STATISTICS_NAME</LocID>                                 <Text>Game statistics</Text>  </GameDBLocalizedString>
+            <!--Exploration and stuff stats-->
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_EXPLORATION</LocID>                                     <Text>Exploration</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_TIME_PLAYED</LocID>                                     <Text>Time played</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_TIME_PLAYED_EXPLORATION</LocID>                         <Text>Time in exploration</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_TILES_MOVED</LocID>                                     <Text>Tiles moved</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_ENERGY_POINT</LocID>                                    <Text>Energy points used</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_EXP_GAINED</LocID>                                      <Text>Experience gained</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_AURA_COINS_PICKED_UP</LocID>                            <Text>Aura coins collected</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_RESOURCES_PICKED_UP</LocID>                             <Text>Resources collected</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_ARTIFACT_COLLECTED</LocID>                              <Text>Artifacts collected</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_EQUIPMENT_COLLECTED</LocID>                             <Text>Equipment collected</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_CONSUMABLES_COLLECTED</LocID>                           <Text>Consumables collected</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_CONSUMABLES_USED</LocID>                                <Text>Consumables used</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_CHESTS_OPENED</LocID>                                   <Text>Chests opened</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_BASES_LOST</LocID>                                      <Text>Bases lost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_BASES_TAKEN</LocID>                                     <Text>Bases taken</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_BASE_BUILDINGS</LocID>                                  <Text>Base structures built</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_COMMANDERS_LOST</LocID>                                 <Text>Commanders lost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_COMMANDERS_PURCHASED</LocID>                            <Text>Commanders hired</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_SHORTCUTS_CREATED</LocID>                               <Text>Shortcuts created</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_EXPLO_BUILDINGS_BUILD</LocID>                           <Text>Exploration buildings built</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_EXPLO_BUILDINGS_DESTROYED</LocID>                       <Text>Exploration buildings destroyed</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_FOG_OF_WAR_TILES_UNCOVERED</LocID>                      <Text>Uncovered FOW tiles</Text>  </GameDBLocalizedString>
+            
+            <!--Combat stats-->
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_ARMY_GROWTH</LocID>                                     <Text>Army strength</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_COMBAT</LocID>                                          <Text>Combat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_TIME_PLAYED_COMBAT</LocID>                              <Text>Time in combat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_LONGEST_COMBAT</LocID>                                  <Text>Longest combat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_SHORTEST_COMBAT</LocID>                                 <Text>Shortest combat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_BATTLES_WON</LocID>                                     <Text>Battles won</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_BATTLES_LOST</LocID>                                    <Text>Battles lost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_BATTLES_RESTARTED</LocID>                               <Text>Battles restarted</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_BATTLES_AUTO_COMBAT_WON</LocID>                         <Text>Auto combat battles won</Text>  </GameDBLocalizedString><!--needed or just autocombated is enough?-->
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_BATTLES_AUTO_COMBAT_LOST</LocID>                        <Text>Auto combat battles lost</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_BATTLES_AUTO_COMBAT_RESTARTED</LocID>                   <Text>Auto combat battles restarted</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_BATTLES_RETREATED</LocID>                               <Text>Battles retreated</Text>  </GameDBLocalizedString>
+            
+            <!--Hero stats-->
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_HERO</LocID>                                            <Text>Commander</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_SKILLS_LEARNED</LocID>                                  <Text>Skills learned</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_SKILLS_FORGOTTEN</LocID>                                <Text>Skills forgotten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_ABILITIES_LEARNED</LocID>                               <Text>Abilities learned</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_ABILITIES_USED</LocID>                                  <Text>Abilities used</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_MOST_LEARNED_SKILL</LocID>                              <Text>Most learned skill</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_LEAST_LEARNED_SKILL</LocID>                             <Text>Least learned skill</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_MOST_USED_ABILITY</LocID>                               <Text>Most used ability</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_LEAST_USED_ABILITY</LocID>                              <Text>Least used ability</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_STAT_ENEMY_TYPE_KILLED</LocID>                               <Text>killed</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_RENEWED_SPIRIT_SAVED_UNITS</LocID>                           <Text>Renewed spirit skill has saved {1} unit(s).</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_PHOENIX_AND_RENEWED_SPIRIT_SAVED_UNITS</LocID>               <Text>Phoenix artifact and Renewed Spirit skill have saved {1} unit(s).</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MOVE_AGAIN_AFTER_A_KILL_N_TIMES_DESCRIPTION</LocID>     <Text><![CDATA[Grants your units an <color=SOTS_COLOR_GOLD>extra move</color> after killing an enemy unit stack, up to {1} time(s) during the battle.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_DISPEL_NEGATIVE_EFFECTS</LocID>                         <Text><![CDATA[<color=SOTS_COLOR_GOLD>All negative status effects of the unit are removed.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_RENEWED_SPIRIT_REVIVE_UNITS_PERCENT</LocID>             <Text><![CDATA[After winning the battle, <color=SOTS_COLOR_GOLD>{1}% of units you lost are revived</color>.]]></Text>  </GameDBLocalizedString>
+
+            <!--Skills redesign-->
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SCOUT_DESCRIPTION_V3</LocID>                              <Text><![CDATA[Gives info about hostile armies. Commander is unaffected by traps and hazards (level 3), visiting the first building (object) each phase replenishes <color=SOTS_COLOR_MOVEMENT>10 movement points</color> per skill level and trading armies does not cost any.]]></Text>  </GameDBLocalizedString>
+            
+            
+            <GameDBLocalizedString>         <LocID>SCENARIO_CATEGORY_INGAME</LocID>                                     <Text>Scenarios</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SCENARIO_CATEGORY_PLAYER</LocID>                                     <Text>My scenarios</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SCENARIO_CATEGORY_WORKSHOP</LocID>                                   <Text>Workshop</Text>  </GameDBLocalizedString>
+
+
+            <!-- MAPS-->
+            <!--PYRAMID OF FAILURE-->
+            <GameDBLocalizedString>         <LocID>EA_PYRAMID_OF_FAILURE_ID</LocID>                                     <Text>PYRAMID OF FAILURE</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_PYRAMID_OF_FAILURE_DESCRIPTION</LocID>                            <Text>The climb was easy — but what rises fast, falls just as swiftly.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_PYRAMID_OF_FAILURE_INTRO</LocID>                                  <Text>You started from nothing — step by step, you climbed to the top and became the boss. But as time passed, everyone turned against you, working behind your back. Now they’ve made their move, and it’s up to you to take back control of the entire region. Almost everything is gone, but as the boss, you're still the only one with exclusive access to the keys of the colored gates. However, there are also the so-called grey gates — which only open when...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_PYRAMID_OF_FAILURE_VICTORY</LocID>                                <Text>From the bottom to the top — and from the top, back down to the depths. You made it through, and now you're back in control. Once again, you're the boss of all bosses!</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_PYRAMID_OF_FAILURE_GATE</LocID>                              <Text>Look, the gate is opening!</Text>  </GameDBLocalizedString>
+
+            
+            <!--OH RATS-->
+            <GameDBLocalizedString>         <LocID>EA_OH_RATS_ID</LocID>                                                <Text>Oh Rats</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_RATS_DESCRIPTION</LocID>                                          <Text>What happens when you don't take care of your pest problem? It only grows and when you don't act, it can be too late.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_RATS_INTRO</LocID>                                                <Text>Rats infestation is the worst in these parts, and we need you to clean it. And what is the best way to fight fire? Yes, with fire. Take your commander, recruit anyone and clean these lands.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_RATS_VICTORY</LocID>                                              <Text>Victory! You managed to clean the infestation. Now it's time for your reward, you can pick it up at our slaughterhouse.</Text>    </GameDBLocalizedString>
+  
+  
+            <!--DUEL-->
+            <GameDBLocalizedString>         <LocID>EA_DUEL_ID</LocID>                                                   <Text>Duel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_DUEL_DESCRIPTION</LocID>                                          <Text>One-on-one, two irreconcilable opponents face off.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_DUEL_INTRO</LocID>                                                <Text>Two separate territories connected by an ancient bridge — a path that opens only during the first phase of each cycle. A duel that will forever determine who is superior.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_DUEL_VICTORY</LocID>                                              <Text>Your opponent has fallen — how does it feel to be the victor? Is it just 1:0, or are you playing best out of five?</Text>    </GameDBLocalizedString>
+
+            <!--CREMATORIA-->
+            <GameDBLocalizedString>         <LocID>EA_CREMATORIA_ID</LocID>                                             <Text>Crematoria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CREMATORIA_DESCRIPTION</LocID>                                    <Text>Not very hospitable part of this planet, where standing still will cost you your life. Perfect spot for adrenaline junkies or as punishment.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CREMATORIA_INTRO</LocID>                                          <Text>You have been sent here for your crimes. Talking back to your superiors is something you just don't do. Nobody knows what exactly is in the Fog of War here, but if you are caught in it, you won't come out. So you better move. There are supposed to be some safe havens along the way, where you can rest for a bit, but your best chance is to escape to orbit.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CREMATORIA_VICTORY</LocID>                                        <Text>Victory! You survived and escaped. This time!</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CREMATORIA_SAVE_MESSAGE</LocID>                                   <Text>Looks like I will be safe here. At least for a while.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CREMATORIA_STARTING_AGAIN_MESSAGE_1</LocID>                       <Text>Oh no, its starting again.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CREMATORIA_HURRY_UP_MESSAGE_1</LocID>                             <Text>I should hurry, don't want get trapped here!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CREMATORIA_STARTING_AGAIN_MESSAGE_2</LocID>                       <Text>It was nice, while it lasted.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CREMATORIA_HURRY_UP_MESSAGE_2</LocID>                             <Text>Let's move!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CREMATORIA_FOW_WARNING_SKIRMISH</LocID>                    <Text>Stay out the dangerous areas, they will be covered by deadly FOW!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CREMATORIA_ESCAPE_SKIRMISH</LocID>                         <Text>Find orbital teleport and escape!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>CANT_TAKE_OVER_FRIENDLY_BUILDINGS</LocID>                            <Text>This is a friendly building you can't take over.</Text>  </GameDBLocalizedString>
+
+            <!--DUNES-->
+            <GameDBLocalizedString>         <LocID>EA_DUNES</LocID>                                                     <Text>Dunes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_DUNES_DESCRIPTION</LocID>                                         <Text>Dunes, dust and howling wind. That's what you will face when you explore the abandoned facilities and mines to collect the vast quantity of resources. The environment of this planet should grant you enough time to create an invincible army and defeat all opponents.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_DUNES_INTRO</LocID>                                               <Text>Up to six rivals can meet down here. Your task is clear, enter the dunes, seize valuable facilities, gain advantage over your opponents and defeat all hostile forces in the area.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_DUNES_VICTORY</LocID>                                             <Text>Excellent! All enemy forces has been sent to the afterlife! Enjoy this moment while it lasts!</Text>    </GameDBLocalizedString>
+
+
+            <!--Updated equipment description-->
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HAZMAT_GEAR_DESCRIPTION_V2</LocID>                         <Text>Protects the commander against the effects of toxic fog and transporter psychosis</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OPTION_COMBAT_ANIMATION_SPEED_AI</LocID>                             <Text>Autocombat speed</Text>  </GameDBLocalizedString>
+            
+            <!--NEW Units-->
+            <!--Unit names-->
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RUR</LocID>                                             <Text>F1-Cracker</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_CLAW</LocID>                                           <Text>Slugtor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_ASSSHOOTER</LocID>                                     <Text>Malarion</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_LUMINOVORE_DAY</LocID>                                  <Text>Luminovore (day)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_LUMINOVORE_NIGHT</LocID>                                <Text>Luminovore (night)</Text></GameDBLocalizedString>
+
+            <!--Unit description-->
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RUR_DESCRIPTION</LocID>                                 <Text>The true worth and value of a man is in his heart. The same can be said about this little robot. All his parts are made as cheaply as possible, but his heart is a whole different story. It's made of a fat chunk of plastic explosive. No skimping, no scrimping.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RUR_PASSIVE_INFO_DESCRIPTION</LocID>                    <Text>Losing over 70% of units in this stack will trigger its self-destruct sequence.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_CLAW_DESCRIPTION</LocID>                               <Text>Brutal monster, perfected by the parasitic swarm. It is said that the mind of the beast can't be completely subdued. It slowly blends with the swarm, which becomes addicted to the most gory ways of fighting.     </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_ASSSHOOTER_DESCRIPTION</LocID>                         <Text>The tribes from swamp territories are using the flying hosts to collect parts from the starship wreckages and ancient treasures hidden behind the impenetrable fog and murky waters. Some even incorporate pieces of salvaged devices into the bodies of their hosts.      </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_LUMINOVORE_DESCRIPTION</LocID>                          <Text>Luciferin, a light-emitting compound of Earth's fireflies, is a joke in comparison to Siren Systems' version, which not only emits light but also temperatures capable of melting metal. No other animal is crazy enough to eat the Siren System fireflies. Accept this cute loony, but it knows very well why it's doing it.    </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_LUMINOVORE_PASSIVE_INFO_DESCRIPTION</LocID>             <Text>Gains a ranged attack.</Text></GameDBLocalizedString>
+
+            <!-- Intentionally empty -->
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_RUR_SELF_DESTRUCT</LocID>                        <Text></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_RUR_SELF_DESTRUCT_DESCRIPTION</LocID>            <Text></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_RUR_SELF_DESTRUCT_TRIGGERED</LocID>              <Text>Self-destruct initiated!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_RUR_SELF_DESTRUCT_TRIGGERED_DESCRIPTION</LocID>  <Text>This unit will explode at the start of its next turn.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_2_ALTERNATIVE</LocID>                                    <Text>Rao</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_2_DESCRIPTION_ATLERNATIVE</LocID>                        <Text>For Arjun Rao, the discharge from the UNSS service was the fall. But the world will not stop spinning by the termination of a contract, and true loyalty is not measured by the tidiness of your uniform. So it's time to clench fists and dust off the old "Pirate" ways of the Sovereigns. Only the end justifies the means.  </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_13_ALTERNATIVE</LocID>                                     <Text>Admiral Muff</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_13_DESCRIPTION_ALTERNATIVE</LocID>                         <Text>Becoming a Fossorian Space Navy Admiral usually requires an excessive talent for leading ... and the backstabbing. The fact that Muff is certainly not your usual "backstabbing" Fossorian once brought him a cult following and a second place in the race for the Supreme Leader chair. Of course, there are no second places in a contest like this.    </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>RANDOM_HERO</LocID>                                                  <Text>Random</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RANDOM_HERO_TOOLTIP</LocID>                                          <Text>This player will start with a random commander from their faction.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOCKED_HERO</LocID>                                                  <Text>Locked</Text>  </GameDBLocalizedString>
+           
+            <!--New planet-->
+            <GameDBLocalizedString>         <LocID>PLANET_EA_03_ID</LocID>                                              <Text>UNSC 4298g Chimera</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLANET_EA_03_DESCRIPTION</LocID>                                     <Text><![CDATA[Its gaping wound, a reminder of the Holly War, offers the observer a peek into the true nature of Primal planets. They have been altered from the core to the surface. Only the thin layer of biosphere feels somewhat genuine.\n\n As the gargantuan gravitor in the Planet's heart takes its last breaths, its rotation returns to a slower, more natural cycle. Within a few years, the planet will begin to drift further into the cold void of space. \n\n Many have searched for the secrets of this pre-apocalyptic world, but found only the end of all roads.]]></Text>  </GameDBLocalizedString>
+            
+            <!--New AI Option-->
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_AI_VERSION</LocID>                                <Text>AI version</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_AI_VERSION_OLD</LocID>                            <Text>Old</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_AI_VERSION_NEW</LocID>                            <Text>New</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
