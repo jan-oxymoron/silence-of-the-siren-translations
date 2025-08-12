@@ -1,0 +1,45 @@
+<Database>
+    <GameDBStringTable ID="LOC_KO_PATCH_02">
+
+        <LanguageRef>LANG_KO</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>        <LocID>HERO_MOLE_8_DESCRIPTION_V2</LocID>                                      <Text>Because of Holester's involvement in the Nemek uprising, the Supreme Leader released a false message about his death. It was meant to lower the morale of the rebels, but it surprisingly saved Holster's life. In the chaos of the rebellion aftermath, nobody could distinguish the truth from the propaganda. So "Being dead is the best point for starting a new life" became Holester's motto.  </Text>  </GameDBLocalizedString>
+
+            <!--MAP Bridges too far - translate by google-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_BRIDGES_TOO_FAR_BLOCKED_PATH</LocID>                         <Text>The path is blocked.</Text>  </GameDBLocalizedString>
+            
+            <!--New descriptions with new IDs-->
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_EXTRA_RATIONS_DESCRIPTION_V2</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_GOLD>Raises morale</color> by <color=SOTS_COLOR_GOLD>5</color> till the <color=SOTS_COLOR_GOLD>end</color> of the <color=SOTS_COLOR_RED>next battle</color>. This consumable type can be <color=SOTS_COLOR_GOLD>used</color> up to <color=SOTS_COLOR_GOLD>3 times.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_V2</LocID>            <Text>Appear as your weakest commander!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL2_V2</LocID>       <Text>Pretend to be weak to trick others to attack you!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_SWITCH_TO_RATLING_PROJECTS_V2</LocID>               <Text><![CDATA[Now <color=SOTS_COLOR_GOLD>click</color> on the <color=SOTS_COLOR_GOLD>Ratling Slum</color> building.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_OUT_OFF_RATLING_PROJECTS_V2</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_GOLD>Leave</color> the <color=SOTS_COLOR_GOLD>Ratling Slum</color>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_BLOODTHIRSTY_SOUL_DESCRIPTION_V2</LocID>                    <Text>An artifact.\nEvery time a unit is killed in combat, the commander can use their abilities again.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_REINFORCEMENT_TEXT_V2</LocID>                         <Text><![CDATA[Choose one available unit type! Units available at all your bases and not assigned to a garrisoned commander will be called to action!\nYou can only summon units with a level up to your commander's <color=SOTS_COLOR_GOLD>Ability Strength</color>.]]></Text>  </GameDBLocalizedString>
+            
+            <!-- Updated lines, can't change IDs here (we can delete the original lines after translation) -->
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BARBARIAN_HORDE_3</LocID>                              <Text>"Stronger" army: Even fools commanders with the Scout Skill.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EASY_PREY_3</LocID>                                    <Text>"Weaker" army: Even fools commanders with the Scout Skill.</Text></GameDBLocalizedString>
+
+            <!-- Shared names for common objects on all battlefields -->
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_LOOPHOLE</LocID>                          <Text>Loophole</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_GATE</LocID>                              <Text>Gate</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_WALL</LocID>                              <Text>Wall</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_WALL_UPG</LocID>                          <Text>Fortified wall</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NO_FREE_PLAYER_BASE_ON_MAP_LAYER</LocID>         <Text>No base to evacuate to on this map layer.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EARLY_ACCESS_HEADING</LocID>                                         <Text>Early Access</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
