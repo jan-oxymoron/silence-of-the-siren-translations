@@ -1,0 +1,252 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_CAMPAIGN_EMPIRE_LVL_1">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--OBJECTIVES MAIN QUESTS-->
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_START_LVL1_DEBRIE</LocID>                  <Text>Busca el módulo de escape.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_DEBRIE</LocID>                        <Text>Registra los restos del módulo de escape.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_DEBRIE_DONE</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Registra los restos del módulo de escape. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_LOOK_FOR_MODULE</LocID>               <Text>Busca el módulo hacia el oeste.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_LOOK_FOR_MODULE_DONE</LocID>          <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Busca el módulo hacia el oeste. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_CATCH_MOLLY</LocID>                   <Text>Derrota a Molly «la Larga».</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_CATCH_MOLLY_DONE</LocID>              <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Derrota a Molly «la Larga». - Terminada</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEN</LocID>                 <Text>Saquea todas las guaridas de contrabandistas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEN_1_2</LocID>             <Text>Saquea las guaridas de contrabandistas 1/2.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEN_DONE</LocID>            <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Saquea todas las guaridas de contrabandistas. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_RECON</LocID>                <Text>Derrota al espía de la flota soberana.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_RECON_DONE</LocID>          <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Derrota al espía de la flota soberana. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+ 
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_NEGOTIATIONS</LocID>        <Text>Visita a los contrabandistas con el capitán Rao.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_NEGOTIATIONS_DONE</LocID>   <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Visita a los contrabandistas con el capitán Rao. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+
+            <!--DIALOGUES-->
+
+            <!--Start dialogue -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_START_Narrator_1</LocID>                <Text>En los límites del territorio fossoriano, un grupo de investigadores de la UNSS se reúne con un mensajero del nuevo Líder Supremo fossoriano.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_START_JOHN_1</LocID>                    <Text>La UNSS eliminará a la jefa traidora y, a cambio, dejaréis que busquemos nuestro módulo de escape en este territorio. ¿Acepta el Líder Supremo Furret estos términos?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_START_HOLESTER_1</LocID>                <Text>¡Claro, panda de idiotas! Vais a matar a esa bruja loca, Molly «la Larga», por un puñado de chatarra metálica. ¡Furret es un gran negociador!\n\nBueno, tengo trabajo que hacer. ¡Adiós, pringaos! </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_START_ARJUN_1</LocID>                   <Text>¿Es cierto, o esperamos encontrar algo útil ahí? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_START_THOMAS_1</LocID>                  <Text>Sin duda, estas criaturas inmundas habrán profanado el módulo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_START_JOHN_2</LocID>                    <Text>Seguro que los fossorianos se han llevado la caja negra, pero hay una copia de seguridad oculta. Tal vez la hayan pasado por alto. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_START_ARJUN_2</LocID>                   <Text>¿Y qué hay de la jefa traidora a la que tenemos que dar caza?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_START_JOHN_3</LocID>                    <Text>Capitán Rao, la UNSS no le hace los deberes a nadie. Además, probablemente haya construido defensas desde la caída del anterior Líder Supremo. No vale la pena.\n\nTenemos que encontrar el módulo. Detectamos muchos restos al norte. Estamos cerca.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_START_ARJUN_3</LocID>                   <Text>Entendido, comandante.</Text>  </GameDBLocalizedString>
+
+            <!--north teleport-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_TELEPORT_R_BLUE_CMDR_1</LocID>          <Text>Este está desconectado. Usar su «gemelo» bastará para restablecer la conexión. La pregunta es dónde está ese «gemelo».</Text>  </GameDBLocalizedString>
+
+            <!--Labyrinth teleport-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_TELEPORT_R_PURPLE_CMDR_1</LocID>        <Text>Otro teletransportador desconectado. Mmm... ¿Y dónde está tu «gemelo»?  </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_TELEPORT_R_PURPLE_CMDR_2</LocID>        <Text>¡Genial, un atajo por este laberinto de rocas! </Text>  </GameDBLocalizedString>
+            
+            <!--trooper south-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_BOOT_CAMP_SOLDIER_1</LocID>             <Text>¡Soldados de la UNSS listos para la acción, señor! </Text>  </GameDBLocalizedString>
+
+            
+            <!--broken teleport-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_BROKEN_TELEPORT_RH_1</LocID>            <Text>¡Un teletransportador roto!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_BROKEN_TELEPORT_ARJUN_1</LocID>         <Text>¿Doctor Brown, tiene arreglo?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_BROKEN_TELEPORT_THOMAS_1</LocID>        <Text>Puedo arreglarlo, pero no lo haré.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_BROKEN_TELEPORT_ARJUN_2</LocID>         <Text>¿Cómo? ¿Por qué?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_BROKEN_TELEPORT_THOMAS_2</LocID>        <Text>Desde que el sistema solar no puede reabastecernos, la UNSS anda escasa de... todo. Ni siquiera tenemos pasta de dientes. Vete estirando las piernas, humano, porque te va a tocar andar mucho. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_BROKEN_TELEPORT_ARJUN_3</LocID>         <Text>Vaya, veo que alguien se ha tenido que lavar los dientes «en seco».</Text>  </GameDBLocalizedString>
+
+
+            <!--Smugglers spotted-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_SPOTTED_RH_1</LocID>          <Text>¡Contrabandistas!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_SPOTTED_RH_2</LocID>          <Text>Será mejor no molestar. Suelen responder ante la flota soberana, y preferiríamos que no sepan que estamos. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_SPOTTED_RH_3</LocID>          <Text>Evitemos llamar su atención.</Text>  </GameDBLocalizedString>
+
+            <!--area with debris -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DEBRIS_AREA_RH_1</LocID>                <Text>Esta es la zona de la que hablaba el mayor Smith. Es una lástima que las distorsiones atmosféricas y los antiguos generadores de interferencia impidan usar las imágenes de satélite. Tendremos que buscar a la antigua.</Text>  </GameDBLocalizedString>
+
+
+            <!--false debris-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_FALSE_DEBRIS_1</LocID>                  <Text>A juzgar por los arbustos, este impacto es anterior al atentado contra la estación Umbral.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_FALSE_DEBRIS_2</LocID>                  <Text>Solo un meteorito. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_FALSE_DEBRIS_3</LocID>                  <Text>¿Un cristal? Desde luego, no es de la Ranock. Tal vez fuera obra de los primordiales. Usaban tecnología de cristales. </Text>  </GameDBLocalizedString>
+
+             <!--spread up-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SPREAD_UP_ARJUN_1</LocID>               <Text>Separémonos. Podremos cubrir más terreno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SPREAD_UP_THOMAS_1</LocID>              <Text>Afirmativo. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SPREAD_UP_ARJUN_2</LocID>               <Text>¿A qué viene tanta formalidad?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SPREAD_UP_THOMAS_2</LocID>              <Text>Ay. Seré completamente sincero contigo. Quería a un hesperidiano por compañero. No te ofendas, pero NO espero que un humano contribuya gran cosa.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SPREAD_UP_ARJUN_3</LocID>               <Text>El comandante Smith había dicho que te sentirías así. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SPREAD_UP_THOMAS_3</LocID>              <Text>¡¿Ah, sí?! ¿Y se ha molestado en explicar POR QUÉ te ha asignado como pareja? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SPREAD_UP_ARJUN_4</LocID>               <Text>Creo que ha dicho que sería una experiencia educativa para ti. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SPREAD_UP_THOMAS_4</LocID>              <Text>¡Será hijo de Gergie-larh! ¡Por el Pozo Negro del Nadir! ¡Que siete pasos de infortunio recaigan sobre él! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SPREAD_UP_ARJUN_5</LocID>               <Text>Eso, no cortes. Suéltalo. ¡Suéltalo TODO! </Text>  </GameDBLocalizedString>
+            
+            
+            <!--First debris-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_FIRST_DEBRIS_ARJUN_1</LocID>            <Text>¡Restos del módulo! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_FIRST_DEBRIS_THOMAS_1</LocID>           <Text>A juzgar por el ángulo del impacto, llegó del este y se estrelló más hacia el oeste. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_COLLIDER_ARJUN_1</LocID>                <Text>Un colisionador de fulgor. Siempre me ha gustado el espectáculo. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_COLLIDER_THOMAS_1</LocID>               <Text>Sí, he oído que las luces brillantes llenan el cerebro de un mono de dopamina.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_COLLIDER_ARJUN_2</LocID>                <Text>Y yo he oído que los hesperidianos quedan hipnotizados por luces brillantes como las polillas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_COLLIDER_THOMAS_2</LocID>               <Text>¡Que siete pasos de infortunio recaigan sobre ti! ¡Es una vulgar patraña! </Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_COLLIDER_2_THOMAS_1</LocID>             <Text>... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_COLLIDER_2_ARJUN_1</LocID>              <Text>Ejem. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_COLLIDER_2_THOMAS_2</LocID>             <Text>... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_COLLIDER_2_ARJUN_2</LocID>              <Text>¡Doctor, no mires a la luz! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_COLLIDER_2_THOMAS_3</LocID>             <Text>¡Sí...! ¡No estaba haciéndolo! Gergie-larh, ¿dónde estamos?  </Text>  </GameDBLocalizedString>
+
+            <!--Hacking the dronedogs - path_west_blocked -->
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_HACK_DRONEDOGS_RH_1</LocID>             <Text>El camino al oeste está bloqueado. Lo que faltaba. Tenemos que pasar para encontrar el módulo de escape. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_HACK_DRONEDOGS_ARJUN_1</LocID>          <Text>Por cierto, ¿has visto el perro dron? Esa arpía fossoriana ha descubierto nuestra presencia. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_HACK_DRONEDOGS_THOMAS_2</LocID>         <Text>Podría infiltrarme en su red usándolo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_HACK_DRONEDOGS_THOMAS_3</LocID>         <Text>Ese es el primer dispositivo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_HACK_DRONEDOGS_THOMAS_4</LocID>         <Text>El segundo... ¡Por el Pozo Negro del Nadir! ¡Nos ha bloqueado!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_HACK_DRONEDOGS_ARJUN_2</LocID>          <Text>¡Pero mira! ¡Debe ser el portal gemelo del teletransportador que hay junto a la base! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_HACK_DRONEDOGS_THOMAS_5</LocID>         <Text>Ya, ¡pero el nuestro está roto! ¡Y no hay piezas en los almacenes de la UNSS! ¿Ya te has olvidado, humano? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_HACK_DRONEDOGS_ARJUN_3</LocID>          <Text>Hay otros almacenes.</Text>  </GameDBLocalizedString>
+
+            <!--Arjun negotiates with smugglers and teleport path west is open -->
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_1</LocID>          <Text>Los contrabandistas podrían conseguirnos las piezas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_THOMAS_1</LocID>         <Text>¡El comandante nunca lo aprobaría! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_2</LocID>          <Text>No tiene por qué enterarse. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_THOMAS_2</LocID>         <Text>¡Yo tampoco lo apruebo! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_3</LocID>          <Text>Tomo nota de tu berrinche. ¡¿Quieres esa caja negra o no?!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_DOUG_1</LocID>           <Text>¿A qué grato accidente debo esta visita de un perro de la UNSS? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_4</LocID>          <Text>Sin faltar, colega. No soy madero. Soy del satélite, como tú. Solo necesito unos trastos que funcionen. ¡Esta es la lista!  </Text>  </GameDBLocalizedString>
+          
+            <!--odtud kontrolovat-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_DOUG_2</LocID>           <Text>Vas a apañar el teletransportador viejo del sur, ¿eh? Mola. Podría ayudarte...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_5</LocID>          <Text>... ¿Pero?   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_DOUG_3</LocID>           <Text>Si fuera de los soberanos, tendría condiciones, pero no lo soy. Te ayudaré gratis. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_6</LocID>          <Text>Nadie hace nada gratis. ¡Que no he nacido ayer!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_DOUG_4</LocID>           <Text>Ay, ¡mira que eres suspicaz! Ese teletransportador es el único camino hacia la fossoriana loca. Y tenerla cerca es malo para los negocios. Nos vendría bien que desapareciera, jefe. A eso habéis venido, ¿no? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_7</LocID>          <Text>Exacto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_DOUG_5</LocID>           <Text>¡Brillante! ¡Enviaré las partes a vuestra base ahora mismo!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_NARRATOR_1</LocID>       <Text>Más tarde, cerca de la base.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_THOMAS_3</LocID>         <Text>He terminado, puedes probar.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_8</LocID>          <Text>¡Estupendo!\n\nEspera, ¿por qué yo?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_THOMAS_4</LocID>         <Text>No te preocupes: ¡mi especie llegó a las estrellas mientras la tuya todavía se columpiaba de los árboles! Si digo que está arreglado, es que lo está, humano.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_9</LocID>          <Text>¡Te da miedo probarlo! Así que vamos a mandar a un humano. ¡Me parto!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_THOMAS_5</LocID>         <Text>¡No! Es que...\n\n¡Vale! Hay una probabilidad del 50 % de que te incinere. Si le dedico un par de días más... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_10</LocID>         <Text>¡No podemos esperar! Supongo que un 50 % es mejor que un 49 %. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SMUGGLERS_DEAL_ARJUN_11</LocID>         <Text>¡Gergie-larh! Ha sido un acto de valentía, humano. Y una imprudencia. Pero dado que no eres un montón de cenizas, supongo que es seguro. </Text>  </GameDBLocalizedString>
+
+
+            <!-- Entrering desert - Molly intimidates-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DESERT_MOLLY_1</LocID>                  <Text>¡EH! ¡MONO FEO! ¡Este es mi terreno! Un paso más y te meto el martillo por el...  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DESERT_ARJUN_1</LocID>                  <Text>Calma, señora, no buscamos problemas. Pero si nos los causas, acabaremos por cumplir el acuerdo con el líder fossoriano y matarte. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DESERT_MOLLY_2</LocID>                  <Text>Sé lo que estáis buscando. Vagad cuanto queráis por el desierto, pero como entréis a las rocas del norte, mi martillo... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DESERT_ARJUN_2</LocID>                  <Text>Sí, vale, entendido.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DESERT_MOLLY_4</LocID>                  <Text>¡EH! ¡BICHO FEO! ¡Este es mi terreno! Un paso más y te meto el martillo por el cu... por lo que tengas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DESERT_THOMAS_1</LocID>                 <Text>¡Menudo bicho más molesto! El líder fossoriano nos ha pedido que acabemos con tu santuario, pero si nos dejas hacer nuestro trabajo, lo pasaremos por alto. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DESERT_THOMAS_2</LocID>                 <Text>¡Ahórrame esas amenazas vacías! </Text>  </GameDBLocalizedString>
+
+
+            <!-- Entrering desert - Slavers-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_SLAVERS_MOLLY_1</LocID>                 <Text>¡OYE! ¡Que esos mestizos eran míos! Como volváis a entrometeros, ¡mi martillo caerá sobre vosotros!</Text>  </GameDBLocalizedString>
+           <!--Molly outpost rocky maze-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_OUTPOST_MOLLY_1</LocID>                 <Text>¡Ese puesto avanzado no es gratis! ¡Nunca me recuperaré económicamente! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_OUTPOST_MOLLY_2</LocID>                 <Text>¡Soldados, a mi martillo! ¡Manteneos firmes! Defendéis el último baluarte del verdadero Líder Supremo de los fossorianos. </Text>  </GameDBLocalizedString>
+
+            <!-- Entrering desert - Slavers-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_HAMMERITES_MOLLY_1</LocID>              <Text>¡Os enfrentaréis a la guardia de honor martilleadora! No pudieron salvar a mi querido Líder Supremo, ¡pero me protegerán hasta el fin! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_HAMMERITES_MOLLY_2</LocID>              <Text>¡NO! ¡Mis magníficos martilleadores! ¡Devolvedme mis legiones!</Text>  </GameDBLocalizedString>
+
+           
+            <!-- Do not go to the labyrinth yet -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_LABIRINTH_R_BLUE_CMDR_1</LocID>         <Text>Luchar contra la bruja fossoriana sería un desperdicio de recursos de la UNSS. Lo más probable es que el módulo se estrellara en el desierto.</Text>  </GameDBLocalizedString>
+
+            <!--Module - spoted-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_SPOTED_R_BLUE_CMDR_1</LocID>     <Text>¡El módulo de escape estrellado! ¡Lo he encontrado!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_SPOTED_R_BLUE_CMDR_2</LocID>     <Text>¡Espera, que voy!</Text>  </GameDBLocalizedString>
+
+            <!--Module - prayer-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_THOMAS_1</LocID>                 <Text>Tu motor quedó callado, y con él mi corazón.\nMe dejaste destrozado, causándome gran desazón.\nTu viaje termina, aunque tu esencia no se borre,\npues espesa las venas de nuestros hijos recorre. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_ARJUN_1</LocID>                  <Text>Es de la Letanía, ¿verdad? Había oído que algunos hesperidianos creen que cada nave tiene su alma. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_THOMAS_3</LocID>                 <Text>La mayoría, pero no espero que lo comprendas. Centrémonos en buscar la copia de la caja negra. </Text>  </GameDBLocalizedString>
+
+           <!-- Black box-->
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_ARJUN_1</LocID>          <Text>¡La he encontrado! Es hora de informar al comandante Smith. </Text>  </GameDBLocalizedString>
+
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_THOMAS_1</LocID>         <Text>Comandante 7A, aquí 9B. El módulo... está muerto, señor.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_JOHN_2</LocID>           <Text>Una tragedia, pero nos lo esperábamos. Escuchemos la caja negra.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_MAYA_2</LocID>          <Text>[CAJA NEGRA]... ¡Estamos CAYENDO! Le han dado al módulo. ¡MALDITOS FOSSORIANOS! ¡El campo de fuerza de la Ranock ha fallado repentinamente!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_MAYA_4</LocID>          <Text>[CAJA NEGRA] Si no lo conseguimos. El núcleo de la estación... [RUIDO DE ESTÁTICA]... atmósfera... [MÁS INTERFERENCIAS]... aterrizar... [ESTÁTICA] </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_ARJUN_2</LocID>         <Text>El resto de la grabación está demasiado dañada.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_JOHN_3</LocID>          <Text>No importa. Tenemos pruebas de que fueron los fossorianos. La investigación ha terminado. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_MAYA_5</LocID>          <Text>[CAJA NEGRA] [RUIDO DE ESTÁTICA]... ¡Quitadme las zarpas de encima, topos asquerosos!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_MOLLY_1</LocID>         <Text>[CAJA NEGRA] ¡Martilleadores, lleváosla! Los demás, ¡llevaos cualquier cosa de ese módulo que pueda relacionarnos con lo sucedido! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_ARJUN_3</LocID>         <Text>¡La caja negra siguió grabando tras el impacto! ¡Los fossorianos se han llevado a la chica! Tenemos que... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_JOHN_4</LocID>          <Text>Sé lo que vas a decir, pero una sola soldado no justifica el riesgo de una misión de rescate. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_ARJUN_4</LocID>         <Text>Pero señor, ¡es una de nosotros! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_JOHN_5</LocID>          <Text>Lo entiendo, pero no es tan importante a gran escala. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_THOMAS_2</LocID>        <Text>Es cierto, pero coincido con el capitán Rao. Podría ayudarnos a analizar los últimos momentos de la Ranock.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_JOHN_6</LocID>          <Text>Tus sentimientos nublan tu juicio, doctor 9B. A fin de cuentas, tú entrenaste la IA de la Ranock. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_THOMAS_3</LocID>        <Text>Es posible, pero hasta que sepamos cómo atravesaron los fossorianos los escudos de la Ranock, ¡todas las naves de la UNSS corren peligro! Enviaré una grabación de esta conversación y una petición formal a... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MODULE_BLACKBOX_JOHN_7</LocID>          <Text>No hace falta. Tienes razón. Atrapad a esa fossoriana renegada. Debemos averiguar lo que sabe. Corto.</Text>  </GameDBLocalizedString>
+            
+           <!-- Long Molly looking through the dronedog -->
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DRONEDOG_MOLLY_1</LocID>                 <Text>¡Y mira que he sido generosa, dejando que la escoria de la UNSS llegue a los restos! Pero no, ¡teníais que entrometeros! Mi martillo...   </Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DRONEDOG_ARJUN_1</LocID>                 <Text>Tienes a una de los nuestros encerrada. La UNSS no abandona a su gente. </Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DRONEDOG_MOLLY_2</LocID>                 <Text>¿Queréis a la chica? ¡Venid a por ella! ¡Pero primero tendréis que atravesar el laberinto de rocas! Y os lo advierto: ¡está lleno de sorpresas!  </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DRONEDOG_TOM_1</LocID>                  <Text>Has robado propiedad de la UNSS. Una hembra humana. Queremos recuperarla. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DRONEDOG_MOLLY_3</LocID>                <Text>¡Por ahí no es! ¡Los lacayos de la UNSS sois aún más idiotas de lo que esperaba! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DRONEDOG_MOLLY_4</LocID>                <Text>¡No, no! Por ahí no es. ¡Al final voy a haber recargado los cohetes del martillo en vano! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_DRONEDOG_MOLLY_5</LocID>                <Text>Ah, ¡¿los perros de Furret se han perdido?! ¿Necesitáis que envíe a alguien a buscaros? </Text>  </GameDBLocalizedString>
+
+            <!--Info about the Gate Station core-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_CORE_INFORMATION_THOMAS_1</LocID>       <Text>¡Alto! Antes de continuar, hay algo de lo que debemos hablar. Al comandante Smith y a ti se os ha pasado por alto que la caja negra mencionaba el núcleo de la estación Umbral. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_CORE_INFORMATION_ARJUN_2</LocID>        <Text>¿Cómo? ¿Qué núcleo es ese? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_CORE_INFORMATION_THOMAS_2.5</LocID>     <Text>El núcleo de la estación Umbral, creado por los primordiales, fue destruido completamente. No se puede reemplazar. Así que se acabaron los viajes interestelares. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_CORE_INFORMATION_ARJUN_3</LocID>        <Text>¡Pero si las noticias decían que la arreglarían en unos meses! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_CORE_INFORMATION_THOMAS_3</LocID>       <Text>Es mentira. Puedes imaginar que habría unos cuantos humanos insatisfechos si se descubriera la verdad. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_CORE_INFORMATION_ARJUN_4</LocID>        <Text>¿Insatisfechos? ¡Lo que estarán es furiosos! Sin el apoyo del sistema solar, ¡la UNSS ya ha empezado a desmoronarse! Cuando se sepa que no viene ayuda, ¡será el fin! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_CORE_INFORMATION_THOMAS_4</LocID>       <Text>¡Céntrate, capitán! El comandante sabe todo esto, pero ha decidido ignorarlo. Tenemos que vigilarle.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_CORE_INFORMATION_ARJUN_5</LocID>        <Text>¡Tú flipas! Los hesperidianos creasteis la UNSS, ¿qué sacaría con ello? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_CORE_INFORMATION_THOMAS_5</LocID>       <Text>Ahí está el problema: no tengo ni idea. </Text>  </GameDBLocalizedString>
+
+            <!-- Long Mollys base conquered -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MOLLYS_BASE_BLUE_RC_1</LocID>           <Text>Maldita sea, las celdas están vacías. ¡Tenemos que atrapar a esa arpía fossoriana y preguntarle dónde está la chica!  </Text>  </GameDBLocalizedString>
+
+            <!-- Long Molly before fight -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MOLLY_B_F_MOLLY_1</LocID>               <Text>¡Veo que mis trampas no os han detenido! Bien, llevaba demasiado tiempo sin blandir mi martillo. </Text>  </GameDBLocalizedString>
+  
+            <!-- Green place -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_GREEN_PLACE_RH_1</LocID>                <Text>Qué paraje más bonito. ¡No me extraña que esa fossoriana se oculte aquí! </Text>  </GameDBLocalizedString>
+
+            <!-- Long Molly beaten-->
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MOLLY_BEATEN_MOLLY_1</LocID>             <Text>¡Piedad! ¡Ya no tengo a la prisionera! Tras la caída de mi querido Líder Supremo, tuve que vender todo lo que no fuera esencial. Si me dejáis ir, ¡os lo contaré todo! </Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MOLLY_BEATEN_THOMAS_1</LocID>            <Text>¡Atadla y drogadla! ¡Gergie-larh! ¡Te sacaremos todo lo que sabes sobre el ataque a la estación Umbral, el asesinato de la Ranock y la chica! </Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MOLLY_BEATEN_MOLLY_2</LocID>             <Text>¡No! La vendí a los soberanos, ¡a una señora grande y fuerte! Tiene un campo de trabajo cerca de la colonia Campo Libre. ¡Yo no tuve nada que ver con el ataque a la estación Umbral! Solo me encargaron limpiar el lugar del impacto. </Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MOLLY_BEATEN_THOMAS_2</LocID>            <Text>Responderás por tus crímenes. ¡Soldados! Apartadla de mi vista. </Text>  </GameDBLocalizedString>
+
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MOLLY_BEATEN_ARJUN_1</LocID>             <Text>¡Bien jugado, doctor! Si no supiera que esas prácticas están estrictamente prohibidas por las leyes de la UNSS, a mí también me habría asustado.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL1_MOLLY_BEATEN_THOMAS_3</LocID>            <Text>Ah, sí... están prohibidas. Bueno, es hora de informar al comandante. Me pregunto cómo reaccionará. </Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

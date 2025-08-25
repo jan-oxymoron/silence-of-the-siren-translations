@@ -1,0 +1,86 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_INVENTORY_ITEMS_EXPLORATION_EQUIPMENT">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>ITEM_ACTIVATION_COST</LocID>                             <Text>Coste de activación: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ITEM_ACTIVATION_COST_ENERGY</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_ENERGY> puntos de energía</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ITEM_ACTIVATION_NO_ENERGY</LocID>                        <Text>No tienes suficientes<![CDATA[<color=SOTS_COLOR_ENERGY> puntos de energía</color>]]> para activar este objeto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ITEM_ACTIVATION_NO_DUPLICATES</LocID>                    <Text>Solo un objeto de cada tipo se puede equipar al mismo tiempo.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DATAPAD</LocID>                                <Text>Cuaderno de información</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DATAPAD_DESCRIPTION</LocID>                    <Text><![CDATA[Cada vez que tu comandante gana <color=SOTS_COLOR_XP>experiencia</color>, obtendrá un <color=SOTS_COLOR_XP>10 %</color> más como bonificación.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DATAPAD_LORE</LocID>                           <Text>La mayoría de nosotros llevábamos una pequeña libretita o algo parecido. Él tenía un gran cuaderno de información. Nos hacía gracia ver cómo iba de puerta en puerta como un recaudador de impuestos, ¿pero sabes qué? Él es ya un almirante, mientras que nosotros seguimos siendo unos mindundis.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BAIT_FLAG</LocID>                              <Text>Bandera provocativa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BAIT_FLAG_DESCRIPTION</LocID>                  <Text>Muestra las estadísticas de tu comandante, pero con unos valores más bajos de lo normal para atraer al enemigo y provocar una lucha. No funciona si tu comandante usa la habilidad Espía (similar a la destreza Presa fácil).</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BAIT_FLAG_LORE</LocID>                         <Text>¡Lo típico! ¿Una bandera blanca? ¡La trampa más chapucera de la galaxia! ¿Por qué caen en ella una y otra vez, eso sí? La próxima vez que vea una bandera blanca, dispararé primero y ya las preguntas... ¡no las haré nunca!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HOLO_SCARECROW</LocID>                         <Text>Holograma de espantapájaros</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HOLO_SCARECROW_DESCRIPTION</LocID>             <Text>Elimina un 20 % de las unidades de un ejército neutral antes de la batalla.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HOLO_SCARECROW_LORE</LocID>                    <Text>Durante la Guerra Santa, la Hermandad los llevaba como altares de batalla. Emite una imagen 3D gigante y amenazadora de la Madre Absoluta sobre un ejército. Se me ponen los pelos como escarpias cada vez que la veo.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_KINETIC_GENERATOR</LocID>                      <Text>Generador cinético</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_KINETIC_GENERATOR_DESCRIPTION</LocID>          <Text><![CDATA[Con cada siete <color=SOTS_COLOR_MOVEMENT>puntos de movimiento</color> consumidos se generará <color=SOTS_COLOR_ENERGY>un punto de energía</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_KINETIC_GENERATOR_LORE</LocID>                 <Text>Recuperación. Descansar es importante porque todo niño pobre que creciera en una colonia «en los confines más inexplorados de la galaxia» detesta la idea de malgastar cualquier pizca de energía. Aún recuerdan esas horas en una bicicleta estática para alimentar un generador que les friese un suculento huevo. Qué buenos recuerdos. Súper felices.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_NAVICOMP</LocID>                               <Text>Ordenador de navegación</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_NAVICOMP_DESCRIPTION</LocID>                   <Text><![CDATA[Añade <color=SOTS_COLOR_MOVEMENT>ocho puntos de movimiento</color> durante cada turno.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_NAVICOMP_LORE</LocID>                          <Text>¡Por fin! ¡Se acabaron los mapas en papel! Ahora tenemos madera de ejército espacial y no nos parecemos a esos desagradables piratas del siglo XXI. Qué siglo más nefasto, ¡un auténtico Medievo tecnológico!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TAX_COLLECTORS_WHIP</LocID>                    <Text>Látigo del recaudador de impuestos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TAX_COLLECTORS_WHIP_DESCRIPTION</LocID>        <Text><![CDATA[Se añade un 30 % a la cantidad obtenida de <color=SOTS_COLOR_GOLD>RECURSOS</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TAX_COLLECTORS_WHIP_LORE</LocID>               <Text>Sin esfuerzo... quiero decir, sin dolor, no hay ninguna recompensa. ¡Literal! Y mira, por una vez y por suerte, ¡tú no eres quien recibe los azotes! </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PARADE_BANNER</LocID>                          <Text>Estandarte de desfiles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PARADE_BANNER_DESCRIPTION</LocID>              <Text>Tu comandante se mostrará como tu héroe más fuerte. Su fuerza aparentará ser mayor de lo normal, por lo que tu enemigo dudará entre si es mejor atacar o huir. No funciona si tu comandante usa la habilidad Espía (similar a la destreza Horda bárbara).</Text> </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PARADE_BANNER_LORE</LocID>                     <Text>Una reliquia de los tiempos de la Guerra Santa. Cuando nadie se da cuenta, ¡incluso cientos de luchadores cansados parecen imparables y dispuestos a pelear como si no hubiese un mañana!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_ENCOURAGEMENT_WHIP</LocID>                     <Text>Látigo vigorizador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_ENCOURAGEMENT_WHIP_DESCRIPTION</LocID>         <Text><![CDATA[El látigo vigorizador te <color=SOTS_COLOR_GOLD>concederá</color> o hará que sea <color=SOTS_COLOR_GOLD>más barato usar</color> la <color=SOTS_COLOR_GOLD>destreza Celeridad</color> según el nivel de la habilidad Trotamundos. <color=SOTS_COLOR_GOLD>Cada nivel</color> hará que la destreza valga <color=SOTS_COLOR_ENERGY>cinco puntos de energía</color> menos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_ENCOURAGEMENT_WHIP_LORE</LocID>                <Text>¡Moveos, gusanos! Con cada azote una rebelión es más y más probable, pero un látigo es sin duda una de las armas más valiosas y útiles para alentar a las tropas. Y la especie humana no es la única que lo ha demostrado.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_AUXILIARY_GENERATOR</LocID>                    <Text>Condensador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_AUXILIARY_GENERATOR_DESCRIPTION</LocID>        <Text><![CDATA[Añade <color=SOTS_COLOR_ENERGY>20 puntos de energía</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_AUXILIARY_GENERATOR_LORE</LocID>               <Text>En cada campaña militar se llega a un punto en el que se necesita urgentemente conectar otro frigorífico portátil, secador de pelo táctico o cañón laser destructor en la ya de por sí saturada red.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_FUEL_ADDITIVES</LocID>                         <Text>Aditivos de combustible</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_FUEL_ADDITIVES_DESCRIPTION</LocID>             <Text><![CDATA[Añade <color=SOTS_COLOR_MOVEMENT>cuatro puntos de movimiento</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_FUEL_ADDITIVES_LORE</LocID>                    <Text>Se prohibieron en el sistema solar hace unos 20 años. Arrepentirse es inútil, eso sí. A pesar de que cultivamos sustitutos similares, todo el mundo sabe que los de antes eran mucho, mucho mejores.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TURRET_JAMMER</LocID>                          <Text>Inhibidor de torreta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TURRET_JAMMER_DESCRIPTION</LocID>              <Text>Las torretas enemigas no atacan a tu comandante.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TURRET_JAMMER_LORE</LocID>                     <Text>Gracias al control remoto accedimos a su sistema y el supuesto cortafuegos impenetrable no tuvo nada que hacer ante unas cuantas líneas de código. ¡Vaya, vaya!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HAZMAT_GEAR</LocID>                            <Text>Traje de protección contra materiales peligrosos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HAZMAT_GEAR_DESCRIPTION</LocID>                <Text>Protege a tu comandante contra los efectos de nubes tóxicas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_HAZMAT_GEAR_LORE</LocID>                       <Text>No es más que un poco de cinta aislante, aluminio, polimetacrilato y un respiradero. Fíjate, los currelas más pobres del cinturón de Júpiter no se pueden permitir ni este nivel basiquísimo de protección. ¡Ayúdalos! ¡Cada pequeña aportación salva vidas!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LOCKPICKER</LocID>                             <Text>Maestro de las cerraduras</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LOCKPICKER_DESCRIPTION</LocID>                 <Text><![CDATA[Los contenedores ofrecen <color=SOTS_COLOR_GOLD> un 50 % más de monedas de aura</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LOCKPICKER_LORE</LocID>                        <Text>¿Te creías que podrías dispararle a la cerradura con un arma láser y ya se abriría? No estamos en una película y no eres un contrabandista espacial con un amiguete peludito de 2,20 metros a tu lado de principio a fin.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE</LocID>                            <Text>Dron de reconocimiento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE_DESCRIPTION</LocID>                <Text>Aumenta el alcance de exploración de tu comandante.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE_LORE</LocID>                       <Text>Los textos sagrados de los Vástagos del Origen cuentan que existen un par de polillas que vuelan alrededor del mundo para compartir información con la Madre Absoluta. Qué cosas; siempre hay unos elementos determinados que son universales para unas cuantas religiones.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LURE</LocID>                                   <Text>Señuelo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LURE_DESCRIPTION</LocID>                       <Text><![CDATA[¡Aumenta el número de unidades en <color=SOTS_COLOR_GOLD>ejércitos guardianes neutrales</color> a las que ataca tu comandante en un <color=SOTS_COLOR_RED>400 %</color>!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_LURE_LORE</LocID>                              <Text>Los señuelos que contienen feromonas son indispensables para los cazadores fosorianos. En parte se debe a la deficiente vista de los habitantes topo, y también al gran consumo de bebidas fermentadas. Aunque, seamos sinceros, lo segundo se aplica a casi cualquier cazador del universo.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DEEP_SCANNER</LocID>                           <Text>Escáner avanzado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DEEP_SCANNER_DESCRIPTION</LocID>               <Text><![CDATA[<color=SOTS_COLOR_GOLD>Revela minas</color> en un área amplia <color=SOTS_COLOR_GOLD>alrededor de tu comandante</color> a través de la niebla de guerra (<color=SOTS_COLOR_GOLD>11 unidades de terreno</color>).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DEEP_SCANNER_LORE</LocID>                      <Text>Tras una serie interminable de dispositivos de supervivencia inútiles, ¡has encontrado la primera contribución de la ciencia fosoriana que ofrece un beneficio genuino y hará de nuestro mundo un lugar mejor en el que vivir! ¡Hurra! Ah, y nadie se lo va a creer, por cierto.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PROSPECTOR_DATABANK</LocID>                    <Text>Base de datos del buscador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PROSPECTOR_DATABANK_DESCRIPTION</LocID>        <Text><![CDATA[La base de datos del buscador <color=SOTS_COLOR_GOLD>te ofrecerá</color> o <color=SOTS_COLOR_GOLD>abaratará el uso</color> de <color=SOTS_COLOR_GOLD>la destreza Mostrar recursos</color> según el nivel de la habilidad Trotamundos. <color=SOTS_COLOR_GOLD>Cada nivel</color> hará que la destreza valga <color=SOTS_COLOR_ENERGY>dos puntos de energía</color> menos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PROSPECTOR_DATABANK_LORE</LocID>               <Text>¡Notas garabateadas en escritura fosoriana y esbozos de mapas incomprensibles! ¡Los buscadores topo son unos cabrones de lo más avariciosos! Normalmente no revelan nada acerca de sus ubicaciones con recursos más abundantes, ¡pero esta vez serás tú quien se haga con la mina de oro! ¡A excavar! </Text>  </GameDBLocalizedString>
+       
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

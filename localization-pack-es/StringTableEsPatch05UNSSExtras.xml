@@ -1,0 +1,36 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_PATCH_05_UNSS_EXTRAS">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Run and gun as in "can move and still attack after", the term is from XCom https://xcom.fandom.com/wiki/Run_%26_Gun -->
+            <GameDBLocalizedString>         <LocID>TOOLTIP_LIMITED_RANGE_UNIT</LocID>                                   <Text>Esta es una unidad de alcance limitado, puede correr y disparar.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>SPECIAL_STARTS_ON_COOLDOWN</LocID>                                   <Text>Empieza en recuperación.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER</LocID>                               <Text>Líder de escuadrón</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER_DESCRIPTION</LocID>                   <Text>Permite que el comandante divida unidades durante el combate, aumenta la moral.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SPLIT_STACK_CHARGES</LocID>                             <Text><![CDATA[Divide un grupo de unidades por ronda. Usos por batalla: <color=SOTS_COLOR_GOLD>{1}</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_SPLIT_STACK</LocID>                                   <Text>{CombatActor} ha usado {GameDBHeroSkill} para dividir el grupo de {Stack}.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_1_OBJECTIVE_2</LocID>                       <Text>Ocúpate de una jefa fossoriana renegada.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_2_OBJECTIVE_2</LocID>                       <Text>Averigua más sobre sus captores de la flota soberana.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_1</LocID>                       <Text>Persigue a Smith.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_2</LocID>                       <Text>Ocúpate de todos los que se interpongan, aunque suponga la guerra contra la propia UNSS.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_2</LocID>                       <Text>Persigue a Smith.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_3</LocID>                       <Text>Juega tu última baza para recuperar la reputación de Rao.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_13</LocID>                                               <Text>Los comandantes de la UNSS pueden aprender la habilidad Líder de escuadrón, que les permite dividir sus fuerzas durante el combate.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_SPLIT_STACK</LocID>                                          <Text>Divide este grupo de unidades en dos grupos de igual tamaño.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>       
+        
+    </GameDBStringTable>
+</Database>

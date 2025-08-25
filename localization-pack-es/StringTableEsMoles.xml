@@ -1,0 +1,136 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_MOLES">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>FACTION_MOLES</LocID>                               <Text>Fosorianos</Text></GameDBLocalizedString>
+                                                                                                  
+            <!--Unit names-->                                                                     
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT</LocID>                          <Text>Matón rátido</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_UPG</LocID>                      <Text>Artillero rátido</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER</LocID>                       <Text>Carnicero</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_UPG</LocID>                   <Text>Carnicero despedazador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER</LocID>                           <Text>Martilleador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_UPG</LocID>                       <Text>Guardia de honor martilleador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO</LocID>                          <Text>Sacudetierras</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_UPG</LocID>                      <Text>Sacudetierras MK II</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_PROJECTILE</LocID>               <Text>Sacudetierras torpedo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM</LocID>                             <Text>Gusano túnel</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_UPG</LocID>                         <Text>Gusano tanque</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER</LocID>                      <Text>Comisario cadete</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_UPG</LocID>                  <Text>Comisario veterano </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH</LocID>                             <Text>Liberador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_UPG</LocID>                         <Text>Liberador de masas</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WAR_MACHINE_BLAST_WAVE_CANNON</LocID>                 <Text>Cañón de onda expansiva</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WAR_MACHINE_BLAST_WAVE_CANNON_DESCRIPTION</LocID>     <Text><![CDATA[Dispara una onda expansiva poderosa una vez por ronda. Inflige daño y empuja a las unidades lejos del epicentro. Muy efectivo contra estructuras.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_TORPEDO</LocID>                        <Text>Torpedo</Text></GameDBLocalizedString>
+
+            <!--Unit DESCRIPTIONs. These need to be in sync with descriptions of buildings that produce these units - see StringTableEnMolesBases.xml-->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_DESCRIPTION</LocID>              <Text>Su patético equipamiento es igual que la confianza de sus superiores en sus capacidades de combate. Hay incluso una vieja coña militar que empieza así: ¿cuál es el fertilizante orgánico más común empleado por los fosorianos para revitalizar los campos de batalla? Seguro que ya sabes la respuesta.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_UPG_DESCRIPTION</LocID>          <Text>Los Artilleros rátidos son los mejores de los suburbios y la única razón por la que la colonia tolera estas criaturas mestizas. Los suburbios están repletos de violencia, drogas y una secta típica que combina vudú con propaganda fosoriana de lo más retorcida. Tan solo una semana en esos cuchitriles hace que un guerrero se convierta en uno increíble... o increíblemente loco.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_DESCRIPTION</LocID>           <Text>El origen de los Carniceros proviene de unos guerreros antiguos en busca de gloria en arenas de combate inundadas de sangre. Una bonita historia... llena de propaganda pura y dura. La realidad se esconde en un complejo de investigación subterráneo repleto de científicos muertos y sujetos de pruebas que han sufrido mutaciones horribles. Esperemos que «la verdad» nunca salga a la luz.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_UPG_DESCRIPTION</LocID>       <Text>Gracias a un entrenamiento y dieta adecuados, ¡todo el mundo puede ponerse tan cachas como un Carnicero! ¿Te vas a poner a entrenar ahora, verdad? Lo que un fosoriano delgaducho no logra ver son los cientos de agujas que inyectan un cóctel de esteroides en cada músculo del cuerpo. Di adiós a ser débil, ciao a la ansiedad, sayonara a los testículos, bye, bye... Un momento, ¿cómo has dicho?</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_DESCRIPTION</LocID>               <Text>Solo uno de diez expertos sobrevive al aumento cibernético exhaustivo necesario para controlar la gran armadura de un Martilleador. Se creen que la armadura los «eligió», pero si vieras las condiciones higiénicas de la sala de operaciones, te darías cuenta de que era una llamada de socorro proveniente del sistema inmunitario de cada uno.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_UPG_DESCRIPTION</LocID>           <Text>El martillo propulsado es un arma muy poderosa. Los Martilleadores necesitan años para aprender el «Camino del martillo» marcial. Ahora bien, si necesitan carne fresca cuanto antes, todo se resume en un curso intensivo cuya única lección es: «Toma, tu nuevo martillo. Con este botón activarás el propulsor. No te olvides de limpiar la sangre del antiguo dueño.»</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_DESCRIPTION</LocID>              <Text>Los operadores de tipo sacudetierras se llaman entre sí «pilotos de ida». Si te preguntas por qué, te recuerdo que se sientan encima de un gran montón de explosivos con medidas de seguridad prácticamente inexistentes ante una combustión espontánea. O son increíblemente valientes o más tontos que Abundio. Supongo que depende de lo cerca que estés de ellos cuando «despeguen». </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_UPG_DESCRIPTION</LocID>          <Text>Tras incontables años sin resultado, el proyecto de sacudetierras mejorados llamó la atención del Líder Supremo. Cuando empezaron a rodar cabezas, el equipo del proyecto dio con un descubrimiento milagroso. El diseño MK II potenció un único atributo. ¡La potencia de fuego! </Text></GameDBLocalizedString>
+
+            <!-- Chris I've "edited" the next two but need clarification on the context. -->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_DESCRIPTION</LocID>                 <Text>Para los Gusanos túnel, la muerte no significa el final de su labor. No, no te estoy vendiendo el «Urogusanóboros», esa tontuna del más allá que enseñan los chamanes hasta arriba de droga en los suburbios de rátidos. Tenemos que hablar del kebab ese raro que te zampaste en la cantina local...</Text></GameDBLocalizedString>
+            
+            <!-- JB: Chris accidentally deleted this, so still TODO :) -->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_UPG_DESCRIPTION</LocID>             <Text>Hace miles de años, toda la población fosoriana acabó casi extinta debido a estos violentos depredadores. Ahora, los Gusanos tanque han surgido a partir de una reproducción cuidadosa y neurocastración. Sin embargo, ni la sedación ni un proceso de domesticación cruel son capaces de calmar los instintos carnívoros de estas armas vivientes.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_DESCRIPTION</LocID>          <Text>Los comisarios están tan cegados por su ideología que llegarían a ordenar un bombardeo en el planeta donde están asentadas sus tropas y catalogarlo como victoria absoluta. Ahora bien, quizás debamos tener en cuenta lo positivo, que sería la reducción del número de desertores, cobardes y holgazanes tanto en filas propias como enemigas. Una victoria absoluta por partida doble, ¿no? </Text></GameDBLocalizedString>
+            <!-- Chris I've "edited" the two above but need clarification on the context. -->       
+	        <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_UPG_DESCRIPTION</LocID>      <Text>Una vez las filas de comisarios estuvieron exentas (por medios explosivos) de soldados ruidosos y suicidas, los comandantes, sorprendidos, descubrieron que el resto trabajaba muy duro en las batallas y no se dejaba llevar por epicidades desmesuradas.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_DESCRIPTION</LocID>                 <Text>Todo el mundo sabe que el Líder Supremo diseñó a los soldados de tipo Libertador. Cualquiera que intentase llevarse algo del mérito acababa desapareciendo (familia y amigos incluidos). Incluso la carpa dorada de la oficina del equipo desapareció y todo el ala de ingeniería acabó pagando bastante las consecuencias.  </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_UPG_DESCRIPTION</LocID>             <Text>Todo mecánico dice lo siguiente: «Cada máquina se convierte en un cacharro de humo si la manejas mal todo el rato.» Sin embargo, en este caso es todo lo contrario. El gas tóxico expulsado por un Libertador de masas es un arma NECESARIA en el campo de batalla. Preferiblemente en los pulmones de la facción rival, claro.</Text></GameDBLocalizedString>
+            
+            <!--Unit special abilities-->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MOLERAT_UPG_PASSIVE_INFO_DESCRIPTION</LocID> <Text>Consigue un ataque a distancia.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BLINDPILER_PASSIVE_INFO_DESCRIPTION</LocID>  <Text>Inflige sangrado.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_BLINDPILER_SPECIAL</LocID>             <Text>Se convierte en una bestia incontrolable que ataca al enemigo más cercano dos veces.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_HAMMER_PASSIVE_INFO_DESCRIPTION</LocID>  <Text>Es capaz de atacar a un máximo de 3 enemigos que estén juntos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_HAMMER_SPECIAL</LocID>                 <Text>Una onda sísmica que golpea tres filas de enemigos.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_PASSIVE_INFO_DESCRIPTION</LocID>      <Text><![CDATA[Dispara un torpedo que explota al final de la ronda y provoca daño ígneo. <color=SOTS_COLOR_GOLD>No afecta a las tropas amigas</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_UPG_PASSIVE_INFO_DESCRIPTION</LocID>  <Text><![CDATA[Dispara dos torpedos que explotan al final de la ronda y provocan daño ígneo. <color=SOTS_COLOR_GOLD>No afectan a las tropas amigas</color>.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_WORM_UPG_PASSIVE_INFO_DESCRIPTION</LocID>     <Text>Se esconde bajo tierra al comenzar su turno. \nVuelve a la superficie pasadas tres rondas.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_BEASTMASTER_PASSIVE_INFO_DESCRIPTION</LocID>  <Text>Puede saltar sobre obstáculos.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_PASSIVE_INFO_DESCRIPTION</LocID>        <Text>Es capaz de atacar a un máximo de 3 enemigos que estén juntos.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_BEASTMASTER_SPECIAL</LocID>            <Text>Tira una lanza explosiva.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_MECH_SPECIAL</LocID>                   <Text>Dispara proyectiles venenosos en todas las direcciones.</Text>  </GameDBLocalizedString>
+
+            <!--Commander's names-->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_1</LocID>                                 <Text>Mayor Skaurov</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_2</LocID>                                 <Text>Comisario Snif</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_3</LocID>                                 <Text>Hak «la Rata»</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_4</LocID>                                 <Text>Oficial Molsson</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_5</LocID>                                 <Text>Sargento Moltair</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_6</LocID>                                 <Text>Recaudador de impuestos Tott</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_7</LocID>                                 <Text>Teniente Moletoff</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_8</LocID>                                 <Text>Capitán Holester</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_9</LocID>                                 <Text>General Truda </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_10</LocID>                                <Text>Beni «el Blindado»</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_11</LocID>                                <Text>Molly «la Larga»</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_12</LocID>                                <Text>Líder Supremo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_13</LocID>                                <Text>Comandante Muff</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_14</LocID>                                <Text>General Furret</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_15</LocID>                                <Text>Reliquia</Text>  </GameDBLocalizedString>
+
+            <!-- ======================== Commander's BIOs ======================== -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_1_DESCRIPTION</LocID>                     <Text>La cara de Skaurov muestra todas sus heridas de guerra. Sus horribles cicatrices son más que suficientes para imaginar las largas y crueles torturas a las que lo han sometido. Algunos dicen que era la mano derecha del Líder Supremo, o un amigo de la infancia durante la revolución. Lo que sí se sabe con certeza es lo siguiente: todas las figuras importantes de la revolución fueron condenadas por traición poco después de su éxito... excepto Skaurov.</Text>  </GameDBLocalizedString>
+            
+            <!-- For Chris: texts ready for proofreading 2024-01 START -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_2_DESCRIPTION</LocID>                     <Text>El autoproclamado comandante de las fuerzas especiales se caracteriza por ser tan presumido como una estrella del rock and roll. Con un traje perfectamente a medida y gafas negras, se convirtió en la cara de los carteles de propaganda más rápido que cuando la cambiaron por otra. Hoy en día es alguien intocable, pero sabe perfectamente que pueden deshacerse de él de una vez por todas a la mínima. </Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-01 END -->
+            
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_3_DESCRIPTION</LocID>                     <Text>Un mercenario infame. Será tu comandante más leal hasta que empiece a oler el mínimo tufo de peligro. En cuanto lo haga, le quitará la ropa al cadáver del oficial enemigo más cercano e intentará apuñalarte por la espalda.\n \n Si bien cae mal a otros jefes militares, es un miembro indispensable de la mayoría de operaciones encubiertas llevadas a cabo por los fosorianos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_4_DESCRIPTION</LocID>                     <Text>Combina la personalidad de Judas con una piel de camaleón y el resultado es Molsson. Durante los últimos meses ha inspirado a más revolucionarios que el panfleto con el hombre barbudo durante el verano de 1848. Inmediatamente después, los entregó a todos por traición. El oficial Molsson se considera un maestro del disfraz y un donjuán con mucha labia.\n \nLo más extravagante para alguien de su especie es que le ha empezado a gustar una bebida humana llamada martini. «Agitado, no revuelto.»</Text>  </GameDBLocalizedString>  
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_5_DESCRIPTION</LocID>                     <Text>Un líder con mucho músculo y nada de cerebro, nuestro gran Libertador Brigadas no pudo haber elegido a alguien mejor. Las victorias del sargento Moltair son dignas de leyenda (y, según el diccionario, muchas leyendas se basan en hechos reales). ¡Los informes de guerra loan con orgullo todos sus hitos! Veintisiete victorias en 22 batallas. ¡Con menudo topo se han topado!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_6_DESCRIPTION</LocID>                     <Text>Nadie conoce qué tipo de favor le hizo Tott al Líder Supremo para conseguir un cargo tan lucrativo. Sin embargo, sí se nota que, desde que se le concedió el rango de recaudador de impuestos, su influjo sobre las colonias fosorianas no ha dejado de aumentar. Su estilo de vida ostentoso repleto de uniformes elegantes y fiestas llenas de excesos apesta a evasión de impuestos de aquí a Neptuno, pero nadie se atreve a chivarse porque todo el que sería capaz de hacerlo asiste a estos jolgorios de lujo o lo intenta por todos los medios posibles.</Text></GameDBLocalizedString> <!-- In any other circumstance, he would be reported by some "true-hearted" party member, but it seems that all VIPs are regulars at his little banquets or just hopes that they will be soon invited and don't want to ruin their chances for the golden ticket by snitching. -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_7_DESCRIPTION</LocID>                     <Text>Un antiguo y ferviente comandante y héroe durante la rebelión de Nemek. \n \nLa Nemek era la única embarcación agrícola de la flota fosoriana. Los comandantes del barco intentaron aprovechar esta faceta al nombrar a uno de sus almirantes como nuevo líder supremo. Se desencadenó una batalla larga en los túneles de cultivo que duró dos semanas y que finalmente concluyó con la destrucción de la embarcación por parte de las unidades de Moletoff. El resto de la flota casi murió de inanición, pero por suerte el Sistema Sirena no estaba lejos. Para su gran sorpresa, Moletoff no acabó ejecutado, sino ascendido al rango de lugarteniente. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_8_DESCRIPTION</LocID>                     <Text>Durante el primer enfrentamiento entre los fosorianos y la NUSS, dirigió el infame acorazado Puño supremo y consiguió su nefasta reputación por llevar a cabo el único intento de embestida con nave espacial del siglo XXIV. Ahora es un capitán sin nave. Si bien los otros jefes militares se burlan de él, es el único capitán que ha llegado a descubrir un defecto crítico en el escudo de la nave de la NUSS: su incapacidad de detener elementos que viajan a poca velocidad.</Text>  </GameDBLocalizedString>
+<!--            <GameDBLocalizedString>         <LocID>HERO_MOLE_8_DESCRIPTION</LocID>                     <Text>One of the leaders of the Nemek Rebellion. A message about Holester's death was published only the moment before the ship's destruction. It was fabricated and meant to lower the morale of the rebels but in the chaos of the rebellion aftermath, nobody remembered and death was the best point for starting a new life.        </Text>  </GameDBLocalizedString>-->
+            
+            <!-- For Chris: texts ready for proofreading 2024-01 START -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_9_DESCRIPTION</LocID>                     <Text>El único oficial de verdad. Se unió a la rebelión y mantuvo el rango... y la cabeza. \n \nSe nota su vocación de verdad a la mínima porque al típico graduado de la academia militar se le puede ocurrir una estrategia mucho más sofisticada que a los antiguos fontaneros con uniforme y amantes del intrusismo laboral que decían: «¡No paréis de enviar hordas de topos y ya veréis como ganamos!»</Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-01 END -->
+            
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_10_DESCRIPTION</LocID>                    <Text>Los rumores dicen que a Beni lo capturaron jefes militares fosorianos y lo enviaron al paredón en tres ocasiones como mínimo. Sin embargo, sigue vivito, coleando y sin ninguna herida a día de hoy. También existe otro rumor para nada relacionado sobre cinco hermanos idénticos nacidos en los suburbios de la antigua Fostoria.\n \nMuchos creen que la cuarta pasada por el paredón no será la buena. La quinta vez que ocurra, eso sí, puede que la cosa cambie. Solo quizás.</Text>  </GameDBLocalizedString>
+
+            <!-- For Chris: texts ready for proofreading 2024-01 START -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_11_DESCRIPTION</LocID>                    <Text>La hija estrella del anterior héroe y a la que todo el mundo adora por sus preciosos rasgos faciales, ya que coinciden con el canon de belleza fosoriano.\n \ Cuando se unió a los Martilleadores, todo el mundo la consideraba una copia de la típica actriz joven mimada. A nadie se le pasó por la cabeza que la psicótica criada por los productores del estudio se convertiría en la siguiente Gran comandante. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_12_DESCRIPTION</LocID>                    <Text>Según la tradición, el pasado del Líder Supremo está repleto de gloria, pero casi todas sus hazañas son completamente falsas. \n \nQue usemos la palabra «casi» es sumamente importante, ya que no estamos hablando del típico niño mimado y gordo criado en una dinastía de degenerados. A este degenerado gordo y mimado lo metieron en la trituradora de la revolución más grande y atrevida de la historia fosoriana y salió sano y salvo. Es alguien peligroso, quizás el fosoriano vivo más peligroso hoy en día.</Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-01 END -->
+
+            <!-- For Chris: texts ready for proofreading 2024-03 START -->
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_13_DESCRIPTION</LocID>                    <Text>Un maestro piloto de la rebelión de Nemek. Ha pilotado casi todos los tipos de naves de la flota fosoriana y destruido muchas más. Al igual que los demás rebeldes sin éxito, intentó camuflarse entre la población, pero, traicionado por su carácter soñador, lo acabaron reconociendo rápidamente y lo enviaron a la colonia usada como prisión y ubicada en el extremo del territorio fosoriano. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_14_DESCRIPTION</LocID>                    <Text>Si bien la revolución provocó que muchos soldados incapaces asumiesen un cargo fuera de sus posibilidades, la primera gran purga consiguió el efecto contrario. Muchos intocables aprendieron rápidamente que su inmunidad tenía límites. A pesar de que el escándalo de corrupción que pateó el taburete bajo los pies de Furret era en parte falso y hay muchos otros peces gordos con los bolsillos llenos de dinero negro, se debe despachar primero a los más pequeñitos.   </Text>  </GameDBLocalizedString>
+            <!-- For Chris: texts ready for proofreading 2024-03 END -->
+            
+            <!--Single handedly kindled a Revolution at the old Fossoria and led the biggest mass exodus in the Fossorian history.-->
+            <!--Though carefuly watching her every step, Supreme Leader would be stupid to waste a sutch a gifted strategist.-->
+            <!--to keep appointed rank through all the way from the homeworld instead of being decorated in the hasty chaos of the escape from the Old Fossoria.-->
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

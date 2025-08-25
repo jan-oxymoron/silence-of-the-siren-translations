@@ -1,0 +1,187 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_CAMPAIGN_MOLES_LVL_2">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--OBJECTIVES MAIN QUESTS-->
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_PRISON</LocID>                         <Text>Saca al contrabandista de la prisión.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_PRISON_DONE</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Saca al contrabandista de la prisión. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_DESTROY_CYBERBUGS</LocID>              <Text>Registra la base de los Vástagos del Origen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_DESTROY_CYBERBUGS_DONE</LocID>         <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Registra la base de los Vástagos del Origen. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_BLACK_MARKET</LocID>                   <Text>Llega al mercado negro.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_BLACK_MARKET_DONE</LocID>              <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Llega al mercado negro. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_MEET_BUYER</LocID>                     <Text>Reúnete con el extraño.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_MEET_BUYER_DONE</LocID>                <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Reúnete con el extraño. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+
+
+            <!--OBJECTIVES SIDE QUESTS-->
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_1</LocID>                    <Text>Visita a los contrabandistas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DONE</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Visita a los contrabandistas. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_FAILED</LocID>               <Text><![CDATA[<color=SOTS_COLOR_RED>Visita a los contrabandistas. - Fallida</color>]]></Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_ALLIES_1</LocID>             <Text>Alíate con contrabandistas (0/3).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_ALLIES_2</LocID>             <Text>Alíate con contrabandistas (1/3).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_ALLIES_3</LocID>             <Text>Alíate con contrabandistas (2/3). </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_ALLIES_DONE</LocID>          <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Alíate con contrabandistas (3/3). - Terminada</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_ALLIES_FAILED</LocID>        <Text><![CDATA[<color=SOTS_COLOR_RED>Alíate con contrabandistas. - Fallida</color>]]></Text>  </GameDBLocalizedString>
+
+
+            <!--DIALOGUES-->
+                                            <!-- cutscene text -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_CUTSCENE</LocID>                         <Text>Después de escapar por los pelos, nuestros dos fosorianos arrancaron llevando consigo una reliquia misteriosa. De momento, todos piensan que han muerto. Pero, si se descubre su paradero, tanto los fosorianos como los Vástagos del Origen querrían sus cabezas. Por suerte, el general Furret conoce a un contrabandista que puede vender la reliquia. Con el dinero, podrían comprar combustible y esconderse en las regiones más inexploradas.</Text>  </GameDBLocalizedString>
+                                            <!--Start dialogue -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_START_MUFF_1</LocID>                     <Text>Dime, ¿cómo os conocisteis tú y tu amigo contrabandista? </Text>  </GameDBLocalizedString> 
+			<GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_START_FURRET_1</LocID>                   <Text>No todas las acusaciones hacia mí eran cuentos. Kali traficaba con baratijas primordiales que le llevaba de vez en cuando, y puede hacer lo mismo con la reliquia que les robamos a los ciberinsectos.</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_START_MUFF_2</LocID>                     <Text>Pero mira dónde está ahora, en una prisión de la NUSS. No parece ser TAN bueno como dices.</Text>  </GameDBLocalizedString> <!-- Text to match camera movement -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_START_FURRET_2</LocID>                   <Text>Sí, es un tarado, pero eso es irrelevante. Lo atraparon por mi culpa. La Oficina de Control Fosoriana me estaba pisando los talones, así que me vi obligado a tirar a alguien por la borda.</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_START_MUFF_3</LocID>                     <Text>Ah, en ese caso el estado lamentable de la nave es mi garantía de que no me tirarás a mí también. No puedes arreglarla tú solo. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_START_MUFF_4</LocID>                     <Text>Mientras yo tapo grietas con cinta por aquí y por allá, deberías buscar la forma de entrar en la prisión. Te alcanzaré en un periquete.</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_START_RELIC_1</LocID>                    <Text> ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_START_MUFF_5</LocID>                     <Text>¿General? Te has quedado pasmado por un momento. ¿Va todo bien?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_START_FURRET_3</LocID>                   <Text>Sí... solo que... Arregla la nave, Muff. </Text>  </GameDBLocalizedString>
+
+
+                                            <!--Prison - OUTPOST approach -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_OUTPOST_GUARD1</LocID>            <Text>¡Alto! ¡Estáis ante un puesto fronterizo de la NUSS! ¡Cualquier intento de acceder a su perímetro tendrá consecuencias letales!</Text>  </GameDBLocalizedString>
+                                            <!--Prison - OUTPOST fight -->
+											
+			<GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_OUTPOST_GUARD2</LocID>            <Text>¡Tropas enemigas en masa! ¡CÓDIGO ROJO! ¡CÓDIGO ROJO! ¡Estamos en una situación crítica! ¡RETÍRADA!</Text>  </GameDBLocalizedString>
+																																<!-- I assume you are talking about this? https://en.wiktionary.org/wiki/FUBARed -->
+                                            <!--Prison guard Furret-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_G_Guard1</LocID>                  <Text>Estáis intentando acceder sin autorización a una prisión de nivel 4 de la NUSS. ¡Retiraos corriendo de INMEDIATO! Si no lo hacéis, ¡seréis castigados con todo el peso de la ley! </Text>  </GameDBLocalizedString>  
+			<GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_G_FURRET_1</LocID>                <Text>Lo siento, lo de correr ya me queda demasiado lejos. Demasiadas comidas grasientas, demasiados puros, demasiado... En fin, no importa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_G_RELIC_1</LocID>                 <Text>¡MÁTALOS A TODOS!</Text>  </GameDBLocalizedString>
+
+                                            <!--Prison smuggler-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_SMUGGLER_1</LocID>                <Text>¡General Furret, viejo amigo! ¡Dichosos los ojos! No esperaba para nada verte aquí, pero ¡qué grata sorpresa!</Text>  </GameDBLocalizedString>
+			<GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_FURRET_1</LocID>                  <Text>Hola, Kali. Me enteré de que el rey de los contrabandistas se había metido en un lío, ¡así que no lo pensé más y me subí a mi nave!</Text>  </GameDBLocalizedString>
+																																<!-- I'm not sure of the use of Shiny here, but perhaps I ain't up on the latest slang -->
+
+		  <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_SMUGGLER_2</LocID>                <Text>Llevo meses pudriéndome en esta cochiquera. Te conozco, sabandija peluda, quieres algo de mí.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_FURRET_2</LocID>                  <Text>Pues sí, necesito que me hagas un favor. Yo y mi ami... mi subordinado hemos descubierto una reliquia primordial y parece bastante valiosa. Como contrabandista, apuesto a que sabes a lo que me refiero.</Text>  </GameDBLocalizedString>            
+			<GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_SMUGGLER_3</LocID>                <Text>¡Enseñádmela!\nDebo admitir que no sé qué es. Parece obra tanto de Primordiales como de ciberinsectos.\n¡Pero no tiene sentido porque eran enemigos acérrimos! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_SMUGGLER_4</LocID>                <Text>En fin, sé de alguien que creo que puede ser de ayuda.\nId al mercado negro del sureste. Os organizaré una reunión. ¡Por un precio, claro está! </Text>  </GameDBLocalizedString>      
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_FURRET_5</LocID>                  <Text>¡Trato hecho! ¡No mentía cuando decía que eras el rey!</Text>  </GameDBLocalizedString>
+            
+                                            <!-- Approaching the black market -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_FURRET_6</LocID>                  <Text> El plan pinta de maravilla, pero ya tengo calados a los que trafican en el mercado negro. Te sonríen como un mestizo huelepegamento y, cuando te das cuenta, ya te han puesto un cuchillo en el cuello. Preferiría llevar escolta. </Text>  </GameDBLocalizedString>
+                                            <!--smuggler frieds-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_DEN_DISCOVERY_1</LocID>                  <Text>¡Contrabandistas! Puede que tengan más información sobre la prisión y sus defensas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_DEN_DISCOVERY_RELIC_1</LocID>            <Text>¡Asalta la prisión!</Text>  </GameDBLocalizedString>
+
+                                            <!-- Smugglers den 1 -->
+           <GameDBLocalizedString>          <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_1</LocID>                  <Text>Bienvenido, ¿qué desea? Un aceite aromático para su pelaje, ¿quizás? </Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>          <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_FURRET_1</LocID>           <Text>Soy un fosoriano en pie de guerra. ¡Tengo todo el derecho del mundo a oler a rátido mojado! A ver, estoy buscando a Kali Chapek, el rey de los contrabandistas. </Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>          <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_MUFF</LocID>               <Text>Prefiero conservar mi olor. A ver, estoy buscando a Kali Chapek, el rey de los contrabandistas.  </Text>  </GameDBLocalizedString>
+         
+
+		 <GameDBLocalizedString>          <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_2</LocID>                  <Text>¿El rey? ¡Kali casi ni se podría considerar un bufón!\n\nPero es nuestro amigo, y a un amigo que ayudaríamos con gusto. Pero en la prisión de la NUSS donde lo tienen encerrado hay guardias por todas partes. ¡Y las máquinas de guerra de clase Titán no son moco de pavo! </Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>          <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_FURRET_2</LocID>           <Text>Tengo pensado asaltar la prisión, pero me vendría bien algo de ayuda. </Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>          <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_3</LocID>                  <Text>¡Óptimo! Te ayudaré, entonces. Nos irá mejor si somos más. Además, Kali tiene muchos amigos. Deberíamos hablar con ellos, puede que se apunten. </Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>          <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_4</LocID>                  <Text>Mira aquí.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>          <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_5</LocID>                  <Text>Y aquí.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>          <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_FURRET_3</LocID>           <Text>¡Estupendo! Ah, y una cosa más: me llevaré ese aceite aromático. Es para un amigo, no te creas.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_AUXILIARY_HERO</LocID>                   <Text>Ahí tienes la prisión, jefe. En cuanto derrotemos a los guardias, nuestros caminos se separarán.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_AUXILIARY_HERO1</LocID>                  <Text>¿Es aceite aromático lo que huelo? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_AUXILIARY_HERO2</LocID>                  <Text>Todo este tiempo creí que me darías un golpe en la cabeza y te llevarías todas mis cosas, pero me has sorprendido gratamente.\nSi necesitas algo, no dudes en pasarte. </Text>  </GameDBLocalizedString>
+
+            
+                                            <!--Black market meeting prior fight -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BLACK_MARKET_ROALAN_1</LocID>            <Text>Unos días después de la inmensa explosión que mató a nuestro Gran Zieregal, quien estaba tras la pista de la reliquia, recibí un mensaje que hablaba de unos fosorianos que intentaban venderla. ¡Menuda coincidencia! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BLACK_MARKET_FURRET_1</LocID>            <Text>Ah... Entonces... ¿Te interesaría... comprarla? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BLACK_MARKET_ROALAN_2</LocID>            <Text>¿Crees que estoy negociando contigo? ¡Qué arrogante! Te arrancaré la reliquia de tus frías e inertes manos, te arrancaré el corazón, y empezaré a quemar tu cuerpo poco a poco...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BLACK_MARKET_FURRET_2</LocID>            <Text>¿Lo de quemarme va antes o después de arrancarme el corazón? ¡Es un detalle importante!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BLACK_MARKET_ROALAN_3</LocID>            <Text>Después, por supuesto, porque...\nUn momento, ¡te estás quedando conmigo, estúpido animal! Reconfiguraré la conexión de mi perro dron. ¡Prepárate para lo que se te viene encima!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BLACK_MARKET_GALWAIN_1</LocID>           <Text>¡Prepárate, hermano!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BLACK_MARKET_GODRAY_1</LocID>            <Text>¡En nombre de la Madre Absoluta!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BLACK_MARKET_ZIEREGAL_1</LocID>          <Text>¡MUERTE A LOS HEREJES!</Text>  </GameDBLocalizedString>
+
+
+                                            <!-- Confrontation with Kali -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_CONFRONTATION_FURRET_1</LocID>           <Text>¡¿Dónde está esa radio del demonio?! ¡KALI, ZOQUETE! ¡El comprador era un ciberinsecto cabreado con un ejército enorme a sus espaldas! ¿Te suena de algo? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_CONFRONTATION_KALI_1</LocID>             <Text>Mira, Furret, cuando me enteré de que fue culpa tuya que me metieran en ese vertedero, hice unas cuantas llamaditas. ¡Ahora estamos en paz!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_CONFRONTATION_FURRET_2</LocID>           <Text>¡¿A quién llamaste?!\n\n¡Por los pelos de mis bigotes! ¡Se ha desconectado! ¡Estamos acabados! ¡¡Los ciberinsectos nos van a comer vivos!!</Text>  </GameDBLocalizedString>
+																																	<!-- Furry leg? -->
+                                            <!-- Confrontation with Kali -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_CONFRONTATION_MUFF_1</LocID>             <Text>¡He encontrado la frecuencia correcta! La buena noticia es que la nave puede volar. Lo que pasa es que necesitamos combustible. Adivina cuál es la mala noticia. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_CONFRONTATION_MUFF_2</LocID>             <Text>Según el registro de vuelo de la nave, las únicas reservas de combustible más cercanas están en la base de los Vástagos del Origen. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_CRUSADER_HERO_GALWAIN_1</LocID>          <Text>¡Roland nos ha contado lo de la reliquia! Cuando se corra la voz, no tendréis dónde esconderos.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_CRUSADER_HERO_GODRAY_1</LocID>           <Text>¡El indómito poder de la reliquia será vuestro fin! Os consumirá a vosotros y acabará consumiéndonos a todos.</Text>  </GameDBLocalizedString>
+
+                                            <!-- UNSS Buyer -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BUYER_MOTH_1</LocID>                     <Text>Estoy buscando a dos comandantes fosorianos que llevan una reliquia antigua. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BUYER_RELIC_1</LocID>                    <Text>¡Dile que no estoy a la venta! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BUYER_FURRET_1</LocID>                   <Text>Pareces un oficial de la NUSS en cubierto. No me fío de la gente como tú.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BUYER_MOTH_3</LocID>                     <Text>No es necesario fiarse de nadie, solo pensar un poco. El Líder Supremo ya sabe que estáis vivos. Tarde o temprano, ¡sus lacayos os acabarán encontrando! Cambiad las tornas. ¡Atacad primero y tomad el poder! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BUYER_FURRET_2</LocID>                   <Text>¡Imposible! No tenemos dinero, y no somos más que unos luchadores cansados. ¿Cómo vamos a iniciar una revolución? ¿Te has vuelto majareta?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BUYER_MOTH_4</LocID>                     <Text>Todas las revoluciones empiezan con una pequeña ayudita «extranjera». Yo os ayudaré con el dinero. Además, tu amigo conoce a unos cuantos guerreros de su época que lideraron el levantamiento de Nemek. ¿No es así, almirante? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BUYER_MUFF_1</LocID>                     <Text>Cuando perdí mi nave, mi título también desapareció con ella. A día de hoy solo soy comandante Muff.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BUYER_FURRET_3</LocID>                   <Text>¿Almirante? ¿De qué está hablando? ¡¿Muff?! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BUYER_MOTH_5</LocID>                     <Text>Pensadlo bien. Y mientras tanto, mantened a salvo esa reliquia por mí. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BUYER_RELIC_2</LocID>                    <Text>¡Detecto una alteración en la psicoesfera! Por fin, tras tantos años de letargo, se aproxima una época de cambio.\n\n¡Una época de guerra! </Text>  </GameDBLocalizedString>
+
+            <!-- SIDEQUESTS AND THINGS-->
+            <!-- Smugglers den 2 -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_TWO</LocID>                <Text>Así que es cierto que queréis asaltar la prisión... Le debemos favores a algunos tipos que están encerrados ahí, así que contad con nosotros. </Text>  </GameDBLocalizedString>
+            <!-- Smugglers den 2 FAIL -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_TWO_FAIL</LocID>           <Text>¡Menuda cara tenéis! O sea que ¿destrozáis una de nuestras guaridas y luego venís pidieron favores?</Text>  </GameDBLocalizedString>
+            <!-- Smugglers den 3 -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_THREE</LocID>              <Text>El Sr. Chapek siempre fue bien con estos humildes robots de servicio. Sr. Chapek, CONDICIÓN: AMIGO=1. Os ayudamos a ayudarlo. </Text>  </GameDBLocalizedString>
+            <!-- Smugglers den 3 FAIL -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SMUGGLERS_DEN_THREE_FAIL</LocID>         <Text>Habéis destruido una de nuestras guaridas. CONDICIÓN: AMIGO=0. No recibir ayuda. CONDICIÓN: ENEMIGO=1. TIPO_DE_CASTIGO=MATAR. </Text>  </GameDBLocalizedString>
+            <!-- Blocked path near base -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_TREES_PATH_MUFF_WONDERS</LocID>          <Text>Hay árboles marchitos bloqueando el camino. Me pregunto a dónde llevará. En fin, ahora tenemos asuntos más importantes de los que ocuparnos. </Text>  </GameDBLocalizedString>
+            <!-- Crystal lizard -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_CRYSTAL_LIZARDS</LocID>                  <Text>Mirad, muchachos, ¡lagartos de cristal! Muff nos avisó de que disparan láseres durante el día. Y cuando cae la noche... ¡sacan los martillos! </Text>  </GameDBLocalizedString>
+            <!-- Broken teleport -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_BROKEN_TELEPORT</LocID>                  <Text>¡Un teletransportador de la era de los Primordiales! Muff me dijo que puede llevar cosas de un lado al otro, pero necesito encontrar el otro extremo para reestablecer la conexión.\n\nMmm... no estaría mal montar guardia aquí por si sale algo peligroso. </Text>  </GameDBLocalizedString>
+            <!-- Tunnel worm join -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_WORMS_JOIN</LocID>                       <Text>¡Gusanos túnel, mi aperitivo favorito! Aunque, hoy en día, prefiero verlos formando parte de un ejército que en mi plato. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_WORMS_JOIN2</LocID>                      <Text>Hola, grandullón, ¿quién es tu papi? ¡Con cuidado, CON CUIDADO! Sí, sí, puedes lamerme la nariz. ¡BUEN CHICO! </Text>  </GameDBLocalizedString>
+            <!--Path is closed-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_CHOKEPOINTS</LocID>                      <Text>Bloqueado. Y a propósito. Si intentamos volarlo por los aires podríamos atraer demasiado la atención. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_FALSE_ENDING1</LocID>                    <Text>Más tarde, cerca de la base de Furret y Muff, el comisario Snif intenta establecer una conexión estable. El Líder Supremo tiene órdenes urgentes. </Text>  </GameDBLocalizedString>
+
+        
+                                            <!-- Sniff start - Supreme Leader-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_START_SNIF_1</LocID>               <Text>¡POR FIN! ¡La conexión funciona! En posición, padre. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_START_LEADER_1</LocID>             <Text>¡¿Por qué has tardado tanto, pedazo de memo?! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_START_SNIF_2</LocID>               <Text>Creíamos que Furret y Muff habían muerto en la explosión, así que ya nos habíamos alejado medio sector cuando el contrabandista los delató. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_START_LEADER_2</LocID>             <Text>¡Esta es la última vez que los subestimáis! ¿Acaso tengo que recordarte el poder que tiene esa reliquia? ¿O qué pasará si cae en manos de los ciberinsectos?</Text>  </GameDBLocalizedString> <!-- JB: do bugs have hands? -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_START_SNIFF_3</LocID>              <Text>Yo me encargaré de detenerlos, padre. </Text>  </GameDBLocalizedString> <!-- JB: It, the relic, or I, Sniff? -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_START_LEADER_3</LocID>             <Text>Si se la cargan, y te puedo asegurar que el imbécil de Furret lo va a hacer, ¡nos las tendremos que ver con los Vástagos del Origen de antaño! Y no hablo de los honrados y pacíficos payasos en los que se han convertido, ¡sino de los cruzados genocidas del espacio que una vez fueron! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_START_SNIF_4</LocID>               <Text>Lo conseguiré, ¡tienes mi palabra! </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_TREES_SNIF_1</LocID>                <Text>¡Por mis bigotes! ¡Acabo de ver a Furret y Muff detrás de esos árboles! Reducid ese bosque a cenizas si es necesario, pero ¡DESPEJADME EL CAMINO! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_TREES_EARTHSHAKERS_1</LocID>        <Text>¡Recibido, comisario! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_TREES_EARTHSHAKERS_2</LocID>        <Text>¡Reducido a cenizas como usted ordenó! </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_KALI_KALI_1</LocID>                 <Text>¡Alto! ¡Solo yo saqueo esta base!\n\n¡Oh, no eres uno de los guerreros de Furret!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_KALI_SNIF_1</LocID>                 <Text>Déjame pasar. ¡Me estás haciendo perder el tiempo y al final Furret va a conseguir escaparse! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_KALI_KALI_2</LocID>                 <Text>Llegas tarde. Su nave acaba de despegar hace nada. Pero tengo un rastreador y un transmisor a bordo, ¿sabes? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_KALI_SNIF_2</LocID>                 <Text>¡Por mis bigotes! ¡Dame ese rastreador! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_KALI_KALI_3</LocID>                 <Text>No, no, no, solo se lo venderé al mejor postor. Y todavía no te he dicho la oferta inicial. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_KALI_SNIF_3</LocID>                 <Text>¡A por él, muchachos!\n\nHay formas mucho más baratas y placenteras de quitártelo. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_KALI_AF_KALI_1</LocID>              <Text>¡Olvídalo! ¡Te daré ese rastreador! Una vez que se acerquen a cualquier base de la flota soberana, lo sabrás. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_KALI_AF_SNIF_1</LocID>              <Text>Eso espero. Por tu bien. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_END_TEXT</LocID>                         <Text>Nuestros dos «héroes» han conseguido escaparse por segunda vez. Pero, ¿es escape el término adecuado? ¿Vivirán una nueva vida lejos de las zonas pobladas o se convertirán en la piedra que desencadena una avalancha, como sugirió ese misterioso extraño? Lo que está claro es que el comisario Snif está tras su pista.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_MOLES_LVL2_END_TEXT_1</LocID>                       <Text>FIN DE LA MISIÓN 2 DE LA CAMPAÑA FOSORIANA</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

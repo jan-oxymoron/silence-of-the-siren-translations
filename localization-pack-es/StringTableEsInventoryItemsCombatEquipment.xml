@@ -1,0 +1,61 @@
+﻿<Database>
+
+    <GameDBStringTable ID="LOC_ES_INVENTORY_ITEMS_COMBAT_EQUIPMENT">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SIDEARM</LocID>                                <Text>Arma secundaria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SIDEARM_DESCRIPTION</LocID>                    <Text><![CDATA[Otorga <color=SOTS_COLOR_RED>daño cuerpo a cuerpo</color> adicional a las unidades a distancia.]]></Text>  </GameDBLocalizedString> <!--todo create proper description-->
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SIDEARM_LORE</LocID>                           <Text>¿Están demasiado cerca para tu bonito cañón de riel?\n¡Saca tu cuchillo y hazlos picadillo!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SMARTGUN_AIMING_UNIT</LocID>                   <Text>Sistema de apuntado de arma inteligente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SMARTGUN_AIMING_UNIT_DESCRIPTION</LocID>       <Text><![CDATA[Otorga <color=SOTS_COLOR_RED>daño</color> adicional a los ataques a distancia.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SMARTGUN_AIMING_UNIT_LORE</LocID>              <Text>Cuando está fijado en el objetivo, es el mejor amigo de cualquier artillero, pero por favor, no toques la opción de apuntado automático a menos que quieras jugar al Solitario esta noche.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_MEDAL_OF_HONOR</LocID>                         <Text>Medalla de honor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_MEDAL_OF_HONOR_DESCRIPTION</LocID>             <Text><![CDATA[Esta antigua baratija, por alguna razón, aumenta mucho el <color=SOTS_COLOR_GOLD>ánimo</color> de tus tropas.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_MEDAL_OF_HONOR_LORE</LocID>                    <Text>En el sistema solar, una medalla de honor significaba una ciudadanía de clase A. En el Sistema Sirena, no tiene ningún valor material, solo el respeto ganado a través del sacrificio y el dolor del campo de batalla.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TARGETING_SYSTEM</LocID>                       <Text>Sistema de apuntado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TARGETING_SYSTEM_DESCRIPTION</LocID>           <Text>Elimina la penalización de lejanía de los ataques a distancia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TARGETING_SYSTEM_LORE</LocID>                  <Text>Las palabras «de tecnología punta» se emplean con exceso. A decir verdad, esta tecnología se remonta a los últimos años del siglo XXIII, y su calidad es media. Hablaríamos de una tecnología de hace 50 años, del tercer mundo. Una mercancía heredada por una insurgencia local de la Guerra Fría. Aun así, su uso bélico es más que adecuado.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RAZOR_BEAM</LocID>                             <Text>Haz cortante</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RAZOR_BEAM_DESCRIPTION</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_RED>Daño</color> adicional con armas de energía.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RAZOR_BEAM_LORE</LocID>                        <Text>Si bien una gran cantidad de tecnología está prohibida en el sistema solar, el Sistema Sirena es un lugar en el que no existen las multas por exceso de velocidad y donde coser a tiros a señores cubiertos con una armadura de tipo militar es de todo menos ilegal.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PANZER_BITING_PLASMA</LocID>                   <Text>Plasma quiebratanques</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PANZER_BITING_PLASMA_DESCRIPTION</LocID>       <Text>Las armas de energía derriten a enemigos con armadura (efecto mayor para Soldados, Observador, El Radiante, El Ardiente, El Zieregal y el Gran Zieregal).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PANZER_BITING_PLASMA_LORE</LocID>              <Text>Comprender la tecnología de los cristales de los Primordiales es algo inalcanzable, incluso para el chamán Tumori más habilidoso. Muchos la consideran pura magia. Ahora bien, ¿el desconocimiento ha provocado alguna vez que evitemos usar un fenómeno desconocido como arma?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SUBDERMAL_ARMOR</LocID>                        <Text>Armadura subcutánea</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SUBDERMAL_ARMOR_DESCRIPTION</LocID>            <Text>Una segunda piel para tus unidades (si tienen ya una, claro está).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SUBDERMAL_ARMOR_LORE</LocID>                   <Text>La biomancia Tumori de mayor calidad. Una pequeña capa de células impregna la membrana con dióxido de circonio. Ni el sistema inmunitario ni incluso los nanobots de reparación son capaces de ocultarla.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SMART_BALLISTIC_PLATING</LocID>                <Text>Cubierta protectora antibalas inteligente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SMART_BALLISTIC_PLATING_DESCRIPTION</LocID>    <Text>Descripción para testeo.</Text>  </GameDBLocalizedString> <!--todo create proper description-->
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SMART_BALLISTIC_PLATING_LORE</LocID>           <Text>Si fuese inteligente de verdad, habrías acabado los estudios y te habrías quitado el alistamiento de en medio. Así no te silbaría ninguna bala en la vida, pero al final no has tenido tanta suerte. ¡Choca esos cincuenta, recluta!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BURN_PUNCHER</LocID>                           <Text>Perforador ardiente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BURN_PUNCHER_DESCRIPTION</LocID>               <Text>Descripción para testeo.</Text>  </GameDBLocalizedString> <!--todo create proper description-->
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BURN_PUNCHER_LORE</LocID>                      <Text>Cuando se les acaban las ideas, siempre acaban tirando por algo que escupa una llama o lance una carga eléctrica y hala, mejora al canto. Esta vez ha tocado la primera opción. </Text>  </GameDBLocalizedString>
+             
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CEREMONIAL_FLAG</LocID>                        <Text>Bandera ceremonial</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CEREMONIAL_FLAG_DESCRIPTION</LocID>            <Text>Aumenta el ánimo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CEREMONIAL_FLAG_LORE</LocID>                   <Text>La pisotean, rompen, derriban, le escupen y tiene manchas por culpa del tiempo. Siempre acaba destrozada, pero alguien la termina izando otra vez. No es más que un trozo de tela de micelio, pero para muchas personas es algo sumamente importante.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CROSS_OF_VALOR</LocID>                         <Text>Cruz de coraje</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CROSS_OF_VALOR_DESCRIPTION</LocID>             <Text>Aumenta el ánimo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CROSS_OF_VALOR_LORE</LocID>                    <Text>Se dice que la voluntad divina de la Diosa fortalece a quien la porta y a su ejército. Otros afirman que la esperanza y la valentía no son más que conceptos artificiales y que tienes mucho serrín en la cabeza. Lo que sí se conoce es que no existe una manera de comprobar su influjo, pero haberlo, lo hay.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BESIEGER_TOOLS</LocID>                         <Text>Herramientas del asediador</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BESIEGER_TOOLS_DESCRIPTION</LocID>             <Text>Aumenta el daño infligido a estructuras.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BESIEGER_TOOLS_LORE</LocID>                    <Text>Muros imponentes, puertas robustas y enemigos cobardes disparándote desde las almenaras en lugar de enfrentarse a ti cara a cara. En definitiva, un asedio es todo menos divertido, pero, con un ariete adecuado puedes saltarte la parte aburrida y llegar a la distancia ideal para propinar martillazos en un abrir y cerrar de ojos.</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,173 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_EMPIRE_BASES">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+        <LanguageNameLocalized>English</LanguageNameLocalized>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--Buildings -->
+            <GameDBLocalizedString>         <LocID>BASE_EMPIRE</LocID>                                       <Text>Base del Imperio</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_BASE_CORE</LocID>                         <Text>Núcleo de reactor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_BASE_CORE_DESCRIPTION</LocID>             <Text><![CDATA[Genera<color=SOTS_COLOR_GOLD> 1000 monedas Aura</color> por turno.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ECONOMY_UPGRADE1</LocID>                  <Text>Circuitos de reactor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ECONOMY_UPGRADE1_DESCRIPTION</LocID>      <Text><![CDATA[Genera<color=SOTS_COLOR_GOLD> 500</color> <color=SOTS_COLOR_GOLD>monedas Aura</color> adicionales por turno.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ECONOMY_UPGRADE2</LocID>                  <Text>Armazón de reactor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ECONOMY_UPGRADE2_DESCRIPTION</LocID>      <Text><![CDATA[Genera<color=SOTS_COLOR_GOLD> 1000</color> <color=SOTS_COLOR_GOLD>monedas Aura</color> adicionales por turno.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ECONOMY_UPGRADE_MAX</LocID>               <Text>Refrigeración de reactor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ECONOMY_UPGRADE_MAX_DESCRIPTION</LocID>   <Text><![CDATA[Genera<color=SOTS_COLOR_GOLD> 1000</color> <color=SOTS_COLOR_GOLD>monedas Aura</color> adicionales por turno e incrementa aún más la producción de unidades.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_REPLICATOR</LocID>                        <Text>Guarida corporativa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_REPLICATOR_DESCRIPTION</LocID>            <Text><![CDATA[Elimina el coste de <color=SOTS_COLOR_RADIANT>fulgor</color> de unidades en esta base y aplica un descuento a los escudos balísticos.\n+1 a la producción de Ares.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_GATEWAY</LocID>                           <Text>Rayo de teletransporte</Text></GameDBLocalizedString>
+            <!-- Description is generic -->
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_RESTING</LocID>                           <Text>Bobina de carga</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_RESTING_DESCRIPTION</LocID>               <Text>Los comandantes salen de esta base con su movimiento al máximo.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPACE_BAR</LocID>                         <Text>Cantina</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPACE_BAR_DESCRIPTION</LocID>             <Text>Te permite contratar comandantes.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_MUSIC_HALL</LocID>                        <Text>Cubierta holográfica</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_MUSIC_HALL_DESCRIPTION</LocID>            <Text>Añade a un comandante más para contratar. Los comandantes comienzan con mejores niveles de atributo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_VISIBILITY_UPGRADE</LocID>                <Text>Torre de control</Text></GameDBLocalizedString>
+            <!-- Description is generic -->
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_RECYCLER</LocID>                          <Text>Recicladora</Text></GameDBLocalizedString>
+            <!-- Description is generic -->
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACTORY</LocID>                           <Text>Unidad industrial</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACTORY_DESCRIPTION</LocID>               <Text>Te permite construir escudos que bloquean unidades para tus ejércitos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_TRADING_POST</LocID>                      <Text>Tienda</Text></GameDBLocalizedString>
+            <!-- Description is generic -->
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_CORE</LocID>                    <Text>Cuartel general</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_CORE_DESCRIPTION</LocID>        <Text>Construye muros, un portón y dos plataformas de tiro, y desbloquea un espacio defensivo adicional.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_TOWER</LocID>                   <Text>Control de misión</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_TOWER_DESCRIPTION</LocID>       <Text>Se fortalecen los muros y el portón. Se añaden 2 plataformas adicionales para unidades a distancia y 1 espacio defensivo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_MINES</LocID>                   <Text>Campo de minas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_MINES_DESCRIPTION</LocID>       <Text>Añade 3 minas al campo de batalla de asedio.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_TURRET</LocID>                  <Text>Torretas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_TURRET_DESCRIPTION</LocID>      <Text>Dos torretas ocultas en el campo de batalla de asedio.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_TRENCH</LocID>                  <Text>Trinchera</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_TRENCH_DESCRIPTION</LocID>      <Text>(Se implementará durante el desarrollo del acceso anticipado).</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_HEDGEHOGS</LocID>               <Text>Erizos checos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_HEDGEHOGS_DESCRIPTION</LocID>   <Text>(Se implementará durante el desarrollo del acceso anticipado).</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_ELECTRIC_GATE</LocID>           <Text>Muro de escudos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_ELECTRIC_GATE_DESCRIPTION</LocID>   <Text>(Se implementará durante el desarrollo del acceso anticipado).</Text></GameDBLocalizedString>
+
+            <!-- Descriptions of academy and all its upgrades and faculties are generic -->
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ACADEMY</LocID>                           <Text>División de investigación</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_REMOTE_LEARNING</LocID>                   <Text>Subred</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_SPECIALIZATION</LocID>            <Text>Laboratorios de prueba</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_BIO</LocID>                       <Text>Bioinvestigación</Text></GameDBLocalizedString>                                                     
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_EXPLORE</LocID>                   <Text>Investigación de campo</Text></GameDBLocalizedString>                                     
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_PSY</LocID>                       <Text>Psicoinvestigación</Text></GameDBLocalizedString>                                                     
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_TECH</LocID>                      <Text>Investigación tecnológica</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_1</LocID>                         <Text>Células de batería</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_1_DESCRIPTION</LocID>             <Text>Puedes reclutar Voltios.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_1_UPG</LocID>                     <Text>Punto de recarga</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_1_UPG_DESCRIPTION</LocID>         <Text>Puedes reclutar Rayos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_2</LocID>                         <Text>Ubicaciones</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_2_DESCRIPTION</LocID>             <Text>Puedes reclutar Soldados.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_2_UPG</LocID>                     <Text>Barracones</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_2_UPG_DESCRIPTION</LocID>         <Text>Puedes reclutar Soldados veteranos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_3</LocID>                         <Text>Robótica</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_3_DESCRIPTION</LocID>             <Text>Puedes reclutar androides Número 6.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_3_UPG</LocID>                     <Text>Robótica avanzada</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_3_UPG_DESCRIPTION</LocID>         <Text>Puedes reclutar androides Número 6-M.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_4</LocID>                         <Text>División de RR. PP.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_4_DESCRIPTION</LocID>             <Text>Puedes reclutar Supresores de tumultos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_4_UPG</LocID>                     <Text>Centro de RR. PP.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_4_UPG_DESCRIPTION</LocID>         <Text>Puedes reclutar Aplastadores de tumultos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_5</LocID>                         <Text>Armería</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_5_DESCRIPTION</LocID>             <Text>Recluta unidades CAL Cincuenta.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_5_UPG</LocID>                     <Text>Arsenal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_5_UPG_DESCRIPTION</LocID>         <Text>Recluta unidades CAL Sesenta.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_6</LocID>                         <Text>Taller de triturado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_6_DESCRIPTION</LocID>             <Text>Puedes reclutar androides Ares.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_6_UPG</LocID>                     <Text>Molino de triturado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_6_UPG_DESCRIPTION</LocID>         <Text>Puedes reclutar androides Ares Mk II.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_7</LocID>                         <Text>Unidad de atraque de Titanes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_7_DESCRIPTION</LocID>             <Text>Puedes reclutar Titanes.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_7_UPG</LocID>                     <Text>Muelle de Titanes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_7_UPG_DESCRIPTION</LocID>         <Text>Puedes reclutar Portaescudos Titanes.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_CREATURE_PRODUCTION_UPGRADE_1</LocID>     <Text>Centro de reclutamiento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_CREATURE_PRODUCTION_UPGRADE_1_DESCRIPTION</LocID>  <Text>Genera 8 Soldados adicionales.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EMPIRE_BASE_NAME_01</LocID>                               <Text>Áquila C-04</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EMPIRE_BASE_NAME_02</LocID>                               <Text>Cefeo C-19</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EMPIRE_BASE_NAME_03</LocID>                               <Text>Casiopea C-24</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EMPIRE_BASE_NAME_04</LocID>                               <Text>Öesse C-33</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EMPIRE_BASE_NAME_05</LocID>                               <Text>Europa C-49</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EMPIRE_BASE_NAME_06</LocID>                               <Text>Andrómeda C-54</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EMPIRE_BASE_NAME_07</LocID>                               <Text>Lira C-68</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EMPIRE_BASE_NAME_08</LocID>                               <Text>Cisne C-72</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EMPIRE_BASE_NAME_09</LocID>                               <Text>Vega C-88</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EMPIRE_BASE_NAME_10</LocID>                               <Text>Auriga C-90</Text></GameDBLocalizedString>
+
+            <!--LORE -->
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_BASE_CORE_LORE</LocID>                    <Text>El reactor es el corazón de toda colonia. Sí, puedes usar baterías, reservas y generadores portátiles, pero la verdadera civilización empieza por las bujías. Ahora desde 3,99 al ciclo para los nuevos colonos. La UNSS cuida de los suyos. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ECONOMY_UPGRADE1_LORE</LocID>             <Text>¡Esto ya es otra cosa! Talleres, fábricas y forjas. ¡Todas las grandes corporaciones abrirán sucursales aquí! La energía fluirá, al igual que el capital. Y todo el mundo pagará impuestos. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ECONOMY_UPGRADE2_LORE</LocID>             <Text>Sí, cuanta más gente viva en la colonia, mayores serán sus ingresos. Y ahora que las zonas residenciales están protegidas contra la mayor parte de la radiación nociva, vendrá más gente. ¡Hora de subir el alquiler! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ECONOMY_UPGRADE_MAX_LORE</LocID>          <Text>Ahora el reactor es completamente seguro y podemos dejar de preocuparnos por posibles fusiones. Un minuto de silencio por Géminis C-02, Orión C-50 y Cráter C-69 (apropiado nombre, por cierto). 12, 13, 14... Un minuto es mucho, vuelta al trabajo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_REPLICATOR_LORE</LocID>                   <Text>Inmensas corporaciones espaciales con millones de empleados, todos al servicio de la versión moderna de la ley del más fuerte: siempre hay alguien que puede producirlo más barato y con menos recursos. No mires la letra pequeña, firma y punto... Firma... ¡QUE FIRMES! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_RECYCLER_LORE</LocID>                     <Text>Quitarse los zapatos en casa y reciclar. Dos actividades que nunca haremos. ¡Nunca...! Bueno, con los envíos de productos del sistema solar interrumpidos, hemos tenido que innovar, ¡pero conservamos la dignidad! </Text>  </GameDBLocalizedString>
+        
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_RESTING_LORE</LocID>                      <Text>Recargar una máquina es fácil, pero la carne es débil y, mientras me planteo las decisiones vitales que me han llevado hasta el sexto café del día, me canturreo «Estás en el ejército. Oh, oh, estás en el ejército».  </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_GATEWAY_LORE</LocID>                      <Text>Sigue sin estar al alcance de los ciudadanos de clase B y C, pero los envíos militares tienen descuento especial. Envía tus tropas a puestos avanzados u otras colonias. Orden y prosperidad a precios inmejorables. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPACE_BAR_LORE</LocID>                    <Text>El precio del alcohol está regulado. Hasta los ciudadanos de clase C tienen derecho a una cogorza para pasar el rato. La UNSS defiende las libertades... aunque las regule. Mientras tu bebida no me estorbe cuando bebo, podemos ser dos borrachos felices en nuestro tiempo libre sin problemas. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_MUSIC_HALL_LORE</LocID>                   <Text>Ah, la cubierta holográfica, con los maravillosos recuerdos de tantas aventuras. Aunque espero que el simulador de Wimbledon no guarde registros. Sí, esa PNJ era menor de edad, ¡pero los píxeles decían que sí! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_VISIBILITY_UPGRADE_LORE</LocID>           <Text>La vigilancia constante es la única garantía real de seguridad. Lamentablemente, el sistema Sirena está lleno de distorsiones atmosféricas y antiguos inhibidores, así que el equipo traído del sistema solar se niega a funcionar. Pero el personal de la UNSS es creativo. Ya se nos ocurrirá algo.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACTORY_LORE</LocID>                      <Text>Aunque la producción ha bajado tras la pérdida del viaje espacial, la UNSS sigue produciendo la versión más eficaz económicamente del generador de escudos. Fáciles de construir, imposibles de replicar. De no ser por esta medida de seguridad, los fossorianos y los soberanos ya bailarían sobre nuestras tumbas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_TRADING_POST_LORE</LocID>                 <Text>Todas las corporaciones a cargo de la logística tienen fuertes lazos con el ejército de la UNSS. Si no, ¿de dónde sacarían mercenarios, armas nucleares, naves artilladas y la aprobación encubierta que necesitan para proteger las rutas comerciales de los piratas de la flota soberana? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_CREATURE_PRODUCTION_UPGRADE_1_LORE</LocID><Text>¿Gozas de un estado razonable de salud? ¿Quieres ciudadanía de clase B, un sueldo digno y la oportunidad de viajar y aprender? ¡Alístate en la infantería! A lo largo de la historia, mensajes como este siempre han funcionado. ¿Sabes por qué? ¡Porque la gente es idiota! </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_ACADEMY_LORE</LocID>                      <Text>Una organización exclusivamente hesperidiana responsable de todo el progreso tecnológico de las últimas décadas. Es exclusiva porque los humanos nunca superan los exámenes de entrada. No es que los humanos sean tontos, pero... Bah, a la mierda la corrección política: los hesperidianos son mucho más inteligentes. Es lo que hay. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_REMOTE_LEARNING_LORE</LocID>              <Text>La gente hará lo que sea por aprender sin pasar horas en la biblioteca holográfica. Drogas de aprendizaje, hipnosis, electroshock... Todo es menos «doloroso» que hincar los codos. Con esa actitud, taladrarse otro puerto en el cráneo pasa a ser un estándar estético. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_SPECIALIZATION_LORE</LocID>       <Text>Todo el mundo sabe que la ética es un bonito tema de debate, pero que más allá de la teoría es un obstáculo, especialmente para la ciencia. Por eso, todos los laboratorios tienen tarjetas de acceso de diferentes colores. Las de la prensa no abren nada. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_EXPLORE_LORE</LocID>              <Text>El viaje de los hesperidianos al sistema solar en un arca interestelar tardó incontables generaciones. No es de sorprender que haya tantos que quieran dedicarse al trabajo de campo. La pena es que la agorafobia impide a muchos salir de sus instalaciones. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_TECH_LORE</LocID>                 <Text>Armas láser, campos de fuerza, tecnología gravitatoria... la humanidad no se ganó nada de eso. Los hesperidianos nos lo regalaron y no estábamos listos. Tal vez por eso ocuparon tantos puestos de liderazgo. La tecnología hesperidiana creó un mundo mucho más adecuado para ellos que para nosotros. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_BIO_LORE</LocID>                  <Text>Cuando la nave generacional hesperidiana abrió sus puertas, nos mostraron salas impolutas y luces blancas, pero el resto de la nave nos estaba vedado. Era comprensible, estaba en un estado lamentable tras siglos en el espacio. El hecho de que sobrevivieran a los últimos 50 años a base de una única especie de hierba hidropónica es testimonio de su habilidad y de su determinación. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_PSY_LORE</LocID>                  <Text>Los hesperidianos son inteligentes y extremadamente pragmáticos, pero en cuestiones de fe su mente puede llegar a conclusiones sorprendentes. Mantienen la misma apertura de miras en el sistema Sirena al investigar la tecnología de los primordiales, alcanzando nuevas definiciones de lo paranormal. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_CORE_LORE</LocID>               <Text>Durante los muchos años de conflicto desigual en las colonias, el ejército de la UNSS adoptó la función de organización defensora de la ley y protectora del régimen establecido. Sus armas y su equipo evolucionaron para atender a esas necesidades, lo que hizo que los primeros combates con otras facciones en el sistema Sirena fueran «educativos». </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_TOWER_LORE</LocID>              <Text>La guerra en el nivel estratégico más bajo es uno de los pocos ámbitos donde los humanos superan a los hesperidianos. En resumen, los reclutas primerizos humanos ganarían a las fuerzas especiales hesperidianas en nueve de cada diez batallas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_MINES_LORE</LocID>              <Text>El generador gravitacional hesperidiano, vulgo gravitador, revolucionó el transporte. También revolucionó el transporte de soldados enemigos hacia la carga explosiva. No puedes imaginar el pánico impotente que supone verte arrastrado hacia el dolor, las heridas y la muerte sin poder hacer nada al respecto. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_IRON_GATE_LORE</LocID>          <Text> NO - FALTA TRASFONDO </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_TRENCH_LORE</LocID>             <Text> NO - FALTA TRASFONDO </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_TURRET_LORE</LocID>             <Text>A la UNSS le encanta desplegar drones, robots y torretas automáticas. Más aún estos días, debido a la falta de personal y recursos causada por el colapso del viaje espacial y la falta de apoyo desde el sistema solar. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_1_LORE</LocID>                    <Text>¿Reconoces el plástico barato que se rompe en fragmentos puntiagudos y afilados como el cristal? Ese plástico que conduce sorprendentemente bien la electricidad, haciendo que si tocas la carcasa de un Voltio te lleves tal calambre que te aplaude el culo. ¿No? El general que aprobó el contrato tampoco lo reconocía. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_1_UPG_LORE</LocID>                <Text>Hay dos procesos mentales opuestos. Primero, es más fácil construir algo nuevo que arreglar algo roto. Segundo, deshacerse de algo roto es una pesadilla burocrática. Por eso hay muchos Rayos en servicio a pesar de estar en el mismo estado que un carrito de supermercado cochambroso, rueda floja incluida. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_2_LORE</LocID>                    <Text>¿Cuánto se tarda en crear un verdadero guerrero? ¿Meses? ¿Años? Es algo subjetivo. Lo que no es subjetivo es que el presupuesto solo alcanza para tres semanas de instrucción básica. Enhorabuena, sois los mejores asesinos que podemos pagar. Tomad, rifles y corazas. ¡Ahora fingid que sabéis lo que hacéis! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_2_UPG_LORE</LocID>                <Text>Todo el mundo sabe que con el equipo reglamentario no se llega muy lejos. Por eso hay todo un mercado negro de equipo que parece reglamentario pero que funciona de verdad. ¿Quieres sobrevivir? Pues piensa en qué gastar tu paga extra de alistamiento. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_3_LORE</LocID>                    <Text>La división de investigación quería dar al modelo Número 6 una herramienta para desescalar situaciones tensas. Por eso recibió una base de datos de chistes como «Me dijeron que tenía que soltarme un poco, así que necesito un destornillador». Independientemente de las buenas intenciones, conllevó un aumento drástico de reacciones violentas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_3_UPG_LORE</LocID>                <Text>En general, la gente reacciona a los robots con desconfianza. Un buen lanzagranadas es una herramienta ideal para animarla a «abrirse» un poco. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_4_LORE</LocID>                    <Text>Mantener la paz y el orden en las colonias exige mucho trabajo de relaciones públicas. Ocasionalmente se producen huelgas, o un gobernador se rebela, etc. Entonces llamamos a la división de RR. PP. para que organice un «recordatorio» de quién manda y quién perdió la guerra por la independencia. ¡Sí, os hablo a las colonias EXsoberanas!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_4_UPG_LORE</LocID>                <Text>Tienen un arma «dimensional». Elimina una dimensión del objetivo. Esto da a la frase «sacar a alguien de su zona de confort» una nueva... dimensión. (Pausa para risa, seguida de silencio incómodo). </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_5_LORE</LocID>                    <Text>El mayor factor negativo en la precisión de un rifle es el humano que lo sostiene. Es decir que si eliminas el humano de la ecuación obtienes un francotirador óptimo. Bueno, igual óptimo no, pero mucho más consistente. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_5_UPG_LORE</LocID>                <Text>Cuando la división de investigación preparó sus propios equipos de seguridad, eligieron unidades puramente robóticas. La opinión general de los hesperidianos es que los humanos no son de fiar. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_6_LORE</LocID>                    <Text>Dada la cantidad de soldados que necesita la UNSS para controlar las colonias, a nadie le sorprende que el personal de menor rango tiene el equipo y entrenamiento más «económicos». Los androides Ares son un punto de inflexión. Son máquinas costosas elaboradas con los mejores materiales, pero lo valen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_6_UPG_LORE</LocID>                <Text>La UNSS perdió una cantidad sorprendente de soldados, no en batallas espaciales sino en las calles de sus propias colonias. Los soberanos eran grandes combatientes cuerpo a cuerpo y sabían cómo acortar las distancias. El día en el que se desplegaron los drones Ares, los soberanos perdieron esa ventaja. Y la mayor parte de sus efectivos. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_7_LORE</LocID>                    <Text>La UNSS ha creado una secta entera dedicada a este icónico mech. Desde camisetas a películas, se representa a los Titanes como bestias de guerra indestructibles. Si bien los cineastas tienen fama de exagerar (merecida), en el caso de los Titanes no hace falta. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_SPAWNER_7_UPG_LORE</LocID>                <Text>La mejor tecnología hesperidiana combinada con talento innato humano para la violencia del piloto. Hay muy pocas fuerzas en el sector Sirena que puedan enfrentarse «cara a cara» a un Titán. </Text>  </GameDBLocalizedString>
+  
+
+         </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,68 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_NEUTRAL">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+            <GameDBLocalizedString>         <LocID>FACTION_NEUTRAL</LocID>                            <Text>Facción neutral</Text></GameDBLocalizedString> 
+
+            <!--Unit names-->
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY</LocID>           <Text>Lagarto de cristal (día)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_NIGHT</LocID>         <Text>Lagarto de cristal (noche)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_NIGHT_DESERT</LocID>  <Text>Lagarto de cristal del desierto (noche)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_DESERT</LocID>    <Text>Lagarto de cristal del desierto (día)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_LIMERITE_BADGER</LocID>              <Text>Coleccionista de limerita</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ALLOY_BADGER</LocID>                 <Text>Coleccionista de aleación</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_BIOMASS_BADGER</LocID>               <Text>Coleccionista de biomasa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RADIANT_BADGER</LocID>               <Text>Coleccionista de fulgor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CASH_BADGER</LocID>                  <Text>Coleccionista de Aura</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPIDER</LocID>                       <Text>Tejedora</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_NIGHT_SPIDER</LocID>                 <Text>Tejedora nocturna</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPACESLUG</LocID>                    <Text>Slurm</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_VEHICLE_SHIELD</LocID>               <Text>Escudo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_TURRET</LocID>                       <Text>Torreta ligera</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_TURRET_UPG</LocID>                   <Text>Torreta pesada</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_1</LocID>                     <Text>Arma centinela I</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_2</LocID>                     <Text>Arma centinela II</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_3</LocID>                     <Text>Arma centinela III</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_BASE</LocID>                  <Text>Arma centinela de la guarnición</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ROBOZOMBIE</LocID>                   <Text>Chapu-0</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_UNCORRUPTED_BEHOLDER</LocID>         <Text>Baloo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_PRIMALS_TURRET</LocID>               <Text>Columna centelleante</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_1_DESCRIPTION</LocID>         <Text>Una torreta centinela defensiva que dispara automáticamente a unidades enemigas una vez por ronda.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_2_DESCRIPTION</LocID>         <Text>Una torreta centinela defensiva más poderosa que dispara automáticamente a unidades enemigas una vez por ronda.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_3_DESCRIPTION</LocID>         <Text>Una torreta centinela defensiva poderosa con un modo de control manual.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SENTRY_BASE_DESCRIPTION</LocID>      <Text>La torreta tiene un detector de proximidad que se activa cuando una unidad enemiga se acerca. En ese momento, dispara automáticamente una vez por ronda.</Text></GameDBLocalizedString>
+
+
+            <!--Unit description-->
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPACESLUG_DESCRIPTION</LocID>                           <Text>Unas criaturas muy inteligentes y ágiles que seguramente sustituirán a los mejores amigos del hombre. Pobres monos; esperemos que no se lo tomen a mal y comiencen una revolución o algo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPIDER_DESCRIPTION</LocID>                              <Text>Estas arañas saltarinas son tan grandes como para hacer que los colonizadores de Nueva Sídney se arrepientan de haber abandonado la Tierra. Tienen también la asquerosa manía de tejer nidos gigantes cerca de granjas biológicas y alimentarse de sus desechos. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_NIGHT_SPIDER_DESCRIPTION</LocID>                        <Text>Ten en cuenta que los insecticidas de tipo militar hacen que estas arañas se vuelvan más fuertes y violentas. Además, imagínate ahora a las moscas, que también son tan gigantes como las arañas. Ya no querrás viajar fuera de los muros de la colonia. ¡Nunca, nunca más! </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ROBOZOMBIE_DESCRIPTION</LocID>                          <Text>Creado por un náufrago desconocido varado en el páramo. Quizás quería a alguien que lo protegiese o le hiciese compañía. Sea como fuere, este «robozombi» se ha convertido en un miembro de seguridad popular en todos los sectores remotos.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_GENERIC_BADGER_DESCRIPTION</LocID>                      <Text>Nadie conoce qué quieren conseguir ni lo que hacen con los recursos que obtienen y se llevan bajo tierra. Solo se sabe lo siguiente: a quienes se atreven a seguirlos no se les vuelve a ver nunca más.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_DESCRIPTION</LocID>                  <Text>Los cristales que les permiten disparar rayos de energía no paran de crecer hasta que el lagarto llega a su tamaño adulto. Con el paso del tiempo, los pobres lagartos amantes del solecito acaban destrozándose por la presión interior. ¿Evolución natural? No lo creo. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_NIGHT_DESCRIPTION</LocID>                <Text>Sin el sol para recargar sus cristales, ya no pueden disparar rayos de energía. Si bien tienen el cuerpo reforzado gracias al cristal, todos los cazadores están de acuerdo al afirmar que una presa que no dispara rayos es mucho más fácil de cazar.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_UNCORRUPTED_BEHOLDER_DESCRIPTION</LocID>                <Text>Que no te engañe su pelaje esponjoso. Debajo de él, los Baloos son todo músculo. A menos que seas un amante de los animales con muchísimas agallas, la idea de rasurar a un Baloo es muy mala. Nefasta, vaya. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_GENERIC_TURRET_DESCRIPTION</LocID>                      <Text>Torretas autónomas pesadas creadas por la NUSS. Gracias a su munición de gran calibre, estos modelos son capaces de eliminar incluso a grandes alimañas como la élite de la flota soberana, los Robotruenos. </Text></GameDBLocalizedString>
+
+            <!--Unit abilities-->
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_VEHICLE_SHIELD_INFO_DESCRIPTION</LocID>                 <Text><![CDATA[Protege a tu ejército de los <color=SOTS_COLOR_GOLD>ataques a distancia</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_INFO_DESCRIPTION</LocID>             <Text>Cuenta con un ataque a distancia.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRYSTAL_LIZARD_DAY_DESERT_INFO_DESCRIPTION</LocID>      <Text>Sus disparos son siempre precisos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RADIANT_BADGER_INFO_DESCRIPTION</LocID>                 <Text>Cuenta con un ataque a distancia.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPIDER_PASSIVE_INFO_DESCRIPTION</LocID>                 <Text>Puede saltar sobre obstáculos. Sus ataques cuerpo a cuerpo envenenan al enemigo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPIDER_NIGHT_PASSIVE_INFO_DESCRIPTION</LocID>           <Text>Puede saltar sobre obstáculos. Sus ataques cuerpo a cuerpo envenenan al enemigo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_SPACESLUG_PASSIVE_INFO_DESCRIPTION</LocID>              <Text>Sus ataques cuerpo a cuerpo envenenan al enemigo.</Text></GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

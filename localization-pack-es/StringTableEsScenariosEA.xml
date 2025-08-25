@@ -1,0 +1,165 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_SCENARIOS_EA">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- GENERAL OBJECTIVE(s)-->
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_GENERAL_SKIRMISH</LocID>                                   <Text>¡Derrota a tus enemigos!</Text>  </GameDBLocalizedString>
+            
+            <!--_______________CONFLUENCE__________________________-->
+            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_ID</LocID>                                              <Text>Confluencia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_DESCRIPTION</LocID>                                     <Text><![CDATA[Los campos de energía dividen el territorio en tres regiones desconectadas entre sí. El <b>jefe maestro de los Soberanos</b> en la jungla está explotando todos y cada uno de los recursos del territorio, mientras que los <b>Vástagos del Origen</b> en el desierto no toleran la profanación de sus antiguas tumbas. Por último, ¡<b>un líder fosoriano</b> tiene ganas de probar sus armas nuevas con cualquiera que se le ponga por delante! ]]></Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>EA_CONFLUENCE_INTRO</LocID>                                           <Text>La antigua caída de una torre colosal y terrafórmica dividió el territorio en tres regiones diferentes. Un líquido conductor y proveniente de una fuga empezó a fluir en una confluencia intransitable. Varios puentes antiguos que conectaban las costas han vuelto a recargarse, y las nuevas rutas que se han abierto han llevado a las colonias en riberas opuestas a librar arduas batallas.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>EA_CONFLUENCE_VICTORY</LocID>                                         <Text>¡Victoria! ¡Se ha unificado todo el territorio! El éxito de tus colonias llamará la atención de la Alianza de Ciudad Templo, por lo que finalmente obtendrás la muy merecida protección y conexión con las rutas de comercio que tanto ansiabas. Sin embargo, debido al caos provocado por el enfrentamiento, una pregunta sigue en el aire. ¿Quién construyó los puentes que ahora conectan las regiones? ¿Habría alguien más que se beneficiaría de este conflicto sangriento?</Text>    </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER</LocID>                                    <Text>Saludos, comandante. Pertenezco al Gremio de guardianes. Tengo un trabajo bien remunerado para ti.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_COMANDER</LocID>                                  <Text>Soy todo oídos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER1</LocID>                                   <Text>No muy lejos de aquí encontrarás un campamento de esclavos. El esclavista jefe me ha sido una gran molestia durante demasiado tiempo. Si incendias y acabas con el campamento, te daré un núcleo de fusión.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER2</LocID>                                   <Text>Bien; vuelve aquí para conseguir tu recompensa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER3</LocID>                                   <Text>No tengo más misiones para ti.</Text>  </GameDBLocalizedString>
+          
+            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER_NOT_DONE</LocID>                           <Text>Primero reduce a cenizas el campamento. Una vez lo hagas, la recompensa será tuya.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CONFLUENCE_KEEPER_DONE</LocID>                               <Text>Gracias. Aquí tienes la recompensa.</Text>  </GameDBLocalizedString>
+ 
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CONFLUENCE_KEEPER</LocID>                                  <Text>¡Destruye el campamento de esclavos!</Text>  </GameDBLocalizedString>
+            
+            
+            <!--_____________AWAIT_______________________-->
+            <GameDBLocalizedString>         <LocID>EA_AWAIT_ID</LocID>                                                  <Text>La espera</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_AWAIT_DESCRIPTION</LocID>                                         <Text><![CDATA[¡Prepara tus defensas antes de que un enemigo poderoso llegue a tu base!\n\n¿Te gusta la defensa de torres? ¡Pues te presento la <b>«defensa» fosoriana</b>!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_AWAIT_INTRO</LocID>                                               <Text>Seamos sinceros: sabíamos perfectamente que los asquerosos ciberinsectos vendrían a por nosotros si nos asentábamos en la frontera con su territorio. ¡Nadie esperaba a la Inquisición, eso sí! Los chicos que construyeron una base al oeste no han vuelto a comunicarse con nosotros tras pasar varios ciclos. Vamos a echar un vistazo; ¡quizás nos hayan dejado algo para fortalecer nuestras defensas!   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_AWAIT_VICTORY</LocID>                                             <Text>¡Creo que nos hemos topado con algo increíble! Sí que parece que uno de los artefactos que encontramos en las ruinas de los Primordiales es de gran valor para los estúpidos ciberinsectos. Todo se resume en que ahora nos tienen mucho más respeto que antes. ¡No enviarán a ninguno más de sus valiosos inquisidores a una muerte segura!</Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_AWAIT_KEEPER</LocID>                                         <Text>¡Saludos, comandante! Pertenezco al Gremio de guardianes. No tengo misiones para ti. Debido a que un enemigo desafiante se acerca y el tiempo apremia, te ofreceré un poco de información.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_AWAIT_KEEPER1</LocID>                                        <Text>Aquí encontrarás un teletransporte que te llevará a una isla lejana donde podrás obtener objetos difíciles de conseguir y mejorar tus aptitudes antes de la próxima batalla.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_AWAIT_KEEPER2</LocID>                                        <Text>Me temo que eso es todo lo que puedo hacer por ti. Te deseo la mejor de las suertes.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_AWAIT_KEEPER4</LocID>                                        <Text>Es una pena, pero no puedo ayudarte mucho más.</Text>  </GameDBLocalizedString>
+
+            
+            <!--_________________GOLD FEVER_______________________-->
+            <GameDBLocalizedString>         <LocID>EA_GOLD_FEVER_ID</LocID>                                             <Text>La fiebre del oro</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_GOLD_FEVER_DESCRIPTION</LocID>                                    <Text><![CDATA[¡La fiebre del oro se ha extendido por el territorio después de que se corriese la voz acerca de una zona primordial con recursos valiosos! <b>Los fosorianos del suroeste</b> están buscando el camino más rápido que lleve al centro de las ruinas. Por otro lado, los <b>Vástagos del Origen</b> se apresuran desde el noreste.</b> Recuerda, ¡llegar el último es sinónimo de derrota en esta carrera contra el tiempo!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_GOLD_FEVER_INTRO</LocID>                                          <Text>Las ruinas primordiales en el área central han atraído a unas cuantas cucarachas. ¡Los «cazafortunas» ilegales fundieron una cantidad ingente de tecnología para obtener una gran cantidad de oro! ¡Ahora hay un montón de monedas de aura esparcidas por todo el lugar! Llega a la zona lo antes posible, hazte con todas las riquezas y úsalas para enorgullecer a tus ancestros... o, en tu caso, algo que les haga dejar de sentir tanta vergüenza.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_GOLD_FEVER_VICTORY</LocID>                                        <Text>Ahora que se ha calmado la cosa, ¡ya no es necesario invertir todas estas ganancias solo en producción militar! ¡Imagínate todas las posibilidades! Una estatua de oro, una mansión de lujo, un yate impulsado por energía solar privado... ¡Y va la gente y dice que la riqueza corrompe a las personas! ¡Qué tontería! </Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER</LocID>                                    <Text>¡Saludos, comandante! Pertenezco al Gremio de guardianes. Tengo una misión complicada para ti hoy.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER1</LocID>                                   <Text>En el área circundante verás dos nidos de monstruos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER2</LocID>                                   <Text>Si logras entrar y eliminar a los monstruos que habitan ambos, te recompensaré con mucho gusto y de manera generosa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER3</LocID>                                   <Text>¡Bien hecho! Vuelve para obtener tu recompensa.</Text>  </GameDBLocalizedString>
+         
+            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER_NOT_DONE</LocID>                           <Text>¡Debes eliminar a los monstruos que hay en ambos nidos!</Text>  </GameDBLocalizedString>
+              
+            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_KEEPER_DONE</LocID>                               <Text>Gracias. Aquí tienes la recompensa.</Text>  </GameDBLocalizedString>
+                
+            <GameDBLocalizedString>         <LocID>MESSAGE_GOLD_FEVER_DONE_DONE</LocID>                                 <Text>No tengo más misiones para ti.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_GOLD_FEVER_KEEPER</LocID>                                  <Text>Elimina a los monstruos de los nidos 0/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_GOLD_FEVER_KEEPER1</LocID>                                 <Text>Elimina a los monstruos de los nidos 1/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_GOLD_FEVER_KEEPER2</LocID>                                 <Text>Vuelve para obtener tu recompensa.</Text>  </GameDBLocalizedString>
+
+
+            <!--_____________________ARCH_____________________________________________________-->
+            <GameDBLocalizedString>         <LocID>MAP_SCENARIO_EA_ARCH</LocID>                                         <Text>Puente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SCENARIO_EA_ARCH_DESCRIPTION</LocID>                             <Text><![CDATA[Únete a un continuo enfrentamiento entre <b>fosorianos</b> y los <b>Vástagos del Origen</b> en una isla árida y hostil. Quizás una base abandonada y remota cambie las tornas a tu favor...</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SCENARIO_EA_ARCH_INTRODUCTION</LocID>                            <Text>Antes de la Destrucción, la NUSS intentó mantener las cosas bajo control aquí. Ahora les es casi imposible controlar su propio territorio. Por ello, esta es nuestra oportunidad de saldar cuentas con nuestros «queridos» vecinos sin ningún tipo de represalia oficial. Los recursos de la base abandonada del norte nos darán la ventaja que necesitamos. ¡Manchemos nuestras espadas con su sangre! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SCENARIO_EA_ARCH_VICTORY</LocID>                                 <Text>Los hemos aplastado y, debido a que su colonia se convertirá en un protectorado, no se nos tildará de genocidas. ¡Que venga el comité de la NUSS a culparnos de delitos de guerra! No nos pasará nada, como es lógico. Blanco y en botella... ¿cómo se llama ese líquido que les gusta tanto a los humanos?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_KEEPER</LocID>                                          <Text>¡Saludos, comandante! Pertenezco al Gremio de guardianes. Tengo una misión muy sencilla para ti.</Text>  </GameDBLocalizedString>
+            
+            <!-- TODO the unit name -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_KEEPER1</LocID>                                         <Text>Bien, la cosa es que hace tiempo capturé un grupo de monstruos salvajes llamados «Baloo». Quise domesticarlos, pero no pude. Ahora se han multiplicado y no sé qué hacer con ellos. Abriré una ruta para que puedas llegar a ellos y los elimines por mí. La recompensa valdrá mucho la pena.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_KEEPER2</LocID>                                         <Text>¡Bien hecho! Vuelve para obtener tu recompensa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_KEEPER_DONE</LocID>                                     <Text>Gracias. Aquí tienes la recompensa.</Text>  </GameDBLocalizedString>
+
+            <!-- TODO the unit name -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_KEEPER_NOT_DONE</LocID>                                 <Text>¡Debes derrotar a los Baloo!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_ARCH_DONE_DONE</LocID>                                       <Text>No tengo más misiones para ti.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_ARCH_KEEPER</LocID>                                        <Text>¡Derrota a los Baloo!</Text>  </GameDBLocalizedString>
+
+
+            <!--_______________CRUMBS__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_CRUMBS_ID</LocID>                                                 <Text>Migajas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CRUMBS_DESCRIPTION</LocID>                                        <Text><![CDATA[Islas divididas en campos de energía y conectadas por puentes antiguos de los Primordiales. Los <b>Soberanos</b> en la jungla roja ansían recursos nuevos. Los <b>Vástagos del Origen</b>, en un campo de vegetación amarilla, han venido a evaluar a sus enemigos. Y, por si fuera poco, dos grupos diferentes de <b>fosorianos</b> destruyen todo lo que se les pone por delante.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CRUMBS_INTRO</LocID>                                              <Text><![CDATA[Islas como pequeñas migajas que están conectadas por puentes antiguos. Los <color=SOTS_COLOR_FUSION_CORE>núcleos de fusión</color> son la clave para usar estos puentes, pero no la única. El sistema de energía no puede aguantar más las ansias insaciables de los comandantes. La unidad de control acabará cediendo y todos los puentes se activarán. Ningún lugar quedará aislado de los demás y los puentes se convertirán en una vía directa a la muerte.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CRUMBS_VICTORY</LocID>                                            <Text>Los puentes crearon una vía a la VICTORIA y las islas acabaron empapadas con la sangre de tus enemigos. Al final, la verdadera clave no era saber emplear una tecnología antigua, sino idear una estrategia astuta para convertir a los enemigos en tus marionetas.</Text>    </GameDBLocalizedString>
+   
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_10</LocID>                                            <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán dentro de <color=SOTS_COLOR_RED>10</color> ciclos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_9</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán dentro de <color=SOTS_COLOR_RED>9</color> ciclos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_8</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán dentro de <color=SOTS_COLOR_RED>8</color> ciclos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_7</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán dentro de <color=SOTS_COLOR_RED>7</color> ciclos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_6</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán dentro de <color=SOTS_COLOR_RED>6</color> ciclos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_5</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán dentro de <color=SOTS_COLOR_RED>5</color> ciclos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_4</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán dentro de <color=SOTS_COLOR_RED>4</color> ciclos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_3</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán dentro de <color=SOTS_COLOR_RED>3</color> ciclos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_2</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán dentro de <color=SOTS_COLOR_RED>2</color> ciclos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_1</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán dentro de <color=SOTS_COLOR_RED>1</color> ciclo.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_0</LocID>                                             <Text><![CDATA[<color=SOTS_COLOR_RED>¡ATENCIÓN!</color>\n¡Sobrecarga del sistema! El exceso de energía se desviará y todos los puentes se activarán... <color=SOTS_COLOR_RED>¡YA!</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_KEEPER</LocID>                                        <Text>¡Saludos, comandante! Pertenezco al Gremio de guardianes. Tengo una misión fácil para ti. Debes visitar las cuatro ubicaciones que te acabo de marcar en el mapa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_KEEPER1</LocID>                                       <Text>Estas son ubicaciones en las que acampé durante mi viaje. En algún lugar del camino, perdí mi anillo ceremonial. Encuéntralo y te recompensaré generosamente.</Text>  </GameDBLocalizedString>
+      
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_KEEPER2</LocID>                                       <Text>Aún no has investigado todas las ubicaciones.</Text>  </GameDBLocalizedString>
+          
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_KEEPER3</LocID>                                       <Text>Veo que has buscado por todas las ubicaciones. Me acabo de acordar de que lo puse en una taza diferente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_KEEPER4</LocID>                                       <Text>Has cumplido con tu deber. ¡Disfruta de la recompensa!</Text>  </GameDBLocalizedString>
+         
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_COMMANDER</LocID>                                     <Text>He buscado por todos los rincones, pero no veo el anillo por ninguna parte.</Text>  </GameDBLocalizedString>
+     
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRUMBS_DONE_DONE</LocID>                                     <Text>No tengo más misiones para ti.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CRUMBS_KEEPER</LocID>                                      <Text>Encuentra el anillo del guardián.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CRUMBS_KEEPER1</LocID>                                     <Text>Vuelve para obtener tu recompensa.</Text>  </GameDBLocalizedString>
+
+            
+            <!--_______________RIFT__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_RIFT_ID</LocID>                                                   <Text>Fisura</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_RIFT_DESCRIPTION</LocID>                                          <Text><![CDATA[Un territorio dividido en dos. Una tierra otrora fértil es asolada ahora por la guerra. Los <b>fosorianos</b>, los <b>Soberanos</b> y dos grupos de los <b>Vástagos del Origen</b> están a punto de chocar en una batalla implacable. \nPara empeorar las cosas, ¡todo el mundo comienza con sus bases separadas en las orillas opuestas!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_RIFT_INTRO</LocID>                                                <Text>Los Vástagos del Origen controlaron en su día este entorno repleto de recursos, pero una fisura se formó en los pantanos y dividió el territorio en dos. Los fosorianos y Soberanos aprovecharon la oportunidad y se apoderaron del nuevo terreno. Lo peor es que entre los Vástagos del Origen hubo desavenencias y ahora lidian con un conflicto interno. Las circunstancias actuales son tan delicadas que incluso las criaturas locales, normalmente lejos de ser cobardes, prefieren alejarse lo máximo posible de las rutas principales.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_RIFT_VICTORY</LocID>                                              <Text>Se acabó. Una vez más, una única facción domina el territorio y explota todos los recursos disponibles. ¡Un pequeño paso hacia una gran victoria! ¿O se llegará a formar una nueva fisura que provoque que esta nueva «tranquilidad» se eche abajo tal castillo de naipes?</Text>    </GameDBLocalizedString>
+    
+    
+            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_TELEPORT</LocID>                                        <Text>Al parecer, este teletransporte solo ofrece un viaje de ida.</Text>  </GameDBLocalizedString>
+               
+            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER</LocID>                                          <Text>¡Saludos, comandante! Pertenezco al Gremio de guardianes. Antes de que se formase esta fisura, controlaba estas tierras.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER1</LocID>                                         <Text>Después del inicio del conflicto, me aislé aquí, pero aún puedo ser de ayuda incluso desde las sombras. Me gustaría ayudarte de la siguiente manera para así dar por finalizado todo este conflicto.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER2</LocID>                                         <Text>Ahora dispones de una oportunidad única para cambiar de bando. Detrás de mí verás los teletransportadores. Cada uno se distingue por el color de cada facción enfrentada.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER3</LocID>                                         <Text>El teletransportador que elijas determinará la facción a la que te unirás. Si eliges el mismo color que tienes ahora, volverás a tu facción.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER4</LocID>                                         <Text>Piénsatelo muy bien. Puedes unirte al lado que está en cabeza, pero perderás todo lo que has construido hasta ahora. ¡Eso es todo lo que te puedo decir! </Text>  </GameDBLocalizedString>
+          
+            <GameDBLocalizedString>         <LocID>MESSAGE_RIFT_KEEPER5</LocID>                                         <Text>Decídete de una puñetera vez. Cada segundo de la guerra cuenta; ¡no hay tiempo que perder!</Text>  </GameDBLocalizedString>
+
+                
+            <!--_______________TEAR__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_TEAR_ID</LocID>                                                   <Text>Separación</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_TEAR_DESCRIPTION</LocID>                                          <Text><![CDATA[¡<b>Vástagos del Origen</b> en una isla y más <b>Vástagos del Origen</b> en otra isla!\nUna tierra que otrora permanecía intacta se ha convertido en un archipiélago conectado solo por una red caótica de teletransportadores. ¿Encontrarás la manera de llegar a la zona enemiga?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_TEAR_INTRO</LocID>                                                <Text>La flota soberana estaba explorando estas ruinas de los antiguos Primordiales cuando ocurrió una catástrofe, la cual hizo pedazos el territorio. Dos facciones de los Vástagos del Origen fueron las primeras en llegar tras el desastre, pero solo una se hará con el control de la zona. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_TEAR_VICTORY</LocID>                                              <Text>Antes, una facción hermana. Ahora, una rival que aplastar. Un bando acabó destruido, y el otro, separado. Ninguna lágrima se derramó en el proceso.</Text>    </GameDBLocalizedString>
+        
+        
+            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER</LocID>                                          <Text>¡Saludos, comandante! Pertenezco al Gremio de guardianes. Antes de la catástrofe que destruyó esta zona, yo era quien cuidaba del territorio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER1</LocID>                                         <Text>Necesito que descubras todas las islas y, cuando lo hagas, me digas cuántas hay en total. Una vez termines, ven a por tu recompensa.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER2</LocID>                                         <Text>Aún tienes islas por descubrir. Vuelve cuando las hayas visitado todas.</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER3</LocID>                                         <Text>¡Genial! Esa era la última isla. Bien, vuelve para recibir tu recompensa.</Text>  </GameDBLocalizedString>
+          
+            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER4</LocID>                                         <Text>Siete islas... ¡Nunca me habría imaginado que la catástrofe llegaría a ser tan devastadora! Muchas gracias por tu ayuda. Ahora, si me permites, empezaré mi labor cartográfica.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER5</LocID>                                         <Text>Aquí tienes tu recompensa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_TEAR_KEEPER6</LocID>                                         <Text>Ya has descubierto y visitado todas las islas. No tengo ninguna misión más que ofrecerte.</Text>  </GameDBLocalizedString>
+                
+                
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_TEAR_KEEPER</LocID>                                        <Text>Encuentra y enumera todas las islas individuales.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_TEAR_KEEPER1</LocID>                                       <Text>Habla con el guardián para obtener tu recompensa.</Text>  </GameDBLocalizedString>
+        
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

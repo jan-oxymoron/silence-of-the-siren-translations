@@ -1,0 +1,176 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_PIRATES_BASES">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--Bases -->
+            <GameDBLocalizedString>         <LocID>BASE_PIRATES</LocID>                                       <Text>Base</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_BASE_CORE</LocID>                         <Text>Ancladero</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_BASE_CORE_DESCRIPTION</LocID>             <Text>Genera 1000 unidades de dinero en cada turno</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE1</LocID>                  <Text>Dársenas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE1_DESCRIPTION</LocID>      <Text>Genera 500 unidades de dinero adicionales</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE2</LocID>                  <Text>Puerto</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE2_DESCRIPTION</LocID>      <Text>Genera 1000 unidades de dinero adicionales</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE_MAX</LocID>               <Text>Refugio marítimo</Text></GameDBLocalizedString>
+                                                                                                              
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE_MAX_DESCRIPTION</LocID>     <Text><![CDATA[Genera<color=SOTS_COLOR_GOLD> 1000</color> <color=SOTS_COLOR_GOLD>monedas de aura</color> adicionales por turno e incrementa aún más la producción de unidades.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REPLICATOR</LocID>                        <Text>Replicador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REPLICATOR_DESCRIPTION</LocID>            <Text>Genera 1 biomasa y 1 fulgor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_GATEWAY</LocID>                           <Text>Teletransporte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_GATEWAY_DESCRIPTION</LocID>               <Text>Permite que tus comandantes viajen instantáneamente entre bases.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPACE_BAR</LocID>                         <Text>Un camarote cómodo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPACE_BAR_DESCRIPTION</LocID>             <Text>Te permite contratar comandantes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_MUSIC_HALL</LocID>                        <Text>Cantina espacial</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_MUSIC_HALL_DESCRIPTION</LocID>            <Text>Añade a un comandante más para contratar. Los ejércitos iniciales de comandantes contratados son un 50 % más fuertes.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_VISIBILITY_UPGRADE</LocID>                <Text>Puesto de vigía</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_VISIBILITY_UPGRADE_DESCRIPTION</LocID>    <Text>Aumenta el alcance de visibilidad alrededor de la base y notifica acerca de elementos útiles en un área incluso más amplia.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_RECYCLER</LocID>                          <Text>Recicladora</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_RECYCLER_DESCRIPTION</LocID>              <Text>Genera 1 limerita y 1 aleación.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACTORY</LocID>                           <Text>Taller</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACTORY_DESCRIPTION</LocID>               <Text>Te permite construir estaciones de curación para tus ejércitos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_TRADING_POST</LocID>                      <Text>Bazar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_TRADING_POST_DESCRIPTION</LocID>          <Text>Te permite intercambiar recursos y dinero</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_CORE</LocID>                    <Text>Placa de protección del casco</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_CORE_DESCRIPTION</LocID>        <Text>Se construyen muros, un portón y dos plataformas para tiradores y se desbloquea un espacio defensivo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TOWER</LocID>                   <Text>Puestos de defensa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TOWER_DESCRIPTION</LocID>       <Text>Se fortalecen los muros y el portón y se añaden dos plataformas para tiradores a distancia y un espacio defensivo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_MINES</LocID>                   <Text>Campo de minas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_MINES_DESCRIPTION</LocID>       <Text>Tres minas aparecen en un campo de batalla de asedio.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TURRET</LocID>                  <Text>Torretas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TURRET_DESCRIPTION</LocID>      <Text>Dos torretas ocultas para colocar en un campo de batalla de asedio.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TRENCH</LocID>                  <Text>Trinchera</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TRENCH_DESCRIPTION</LocID>      <Text>(Se implementará durante el desarrollo del acceso anticipado).</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_FLYING_MINES</LocID>            <Text>Minas voladoras</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_FLYING_MINES_DESCRIPTION</LocID><Text>(Se implementará durante el desarrollo del acceso anticipado).</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ACADEMY</LocID>                           <Text>Fundamento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ACADEMY_DESCRIPTION</LocID>               <Text>Desbloquea tres destrezas al azar para aprender.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REMOTE_LEARNING</LocID>                   <Text>Red neuronal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REMOTE_LEARNING_DESCRIPTION</LocID>       <Text>Tu comandante es capaz de aprender destrezas fuera de la base.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_SPECIALIZATION</LocID>            <Text>Mecenazgo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_SPECIALIZATION_DESCRIPTION</LocID><Text>Desbloquea la posibilidad de comprar una nueva destreza.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_BIO</LocID>                       <Text>Laboratorio biológico</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_BIO_DESCRIPTION</LocID>           <Text>Desbloquea destrezas biológicas para aprender.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_EXPLORE</LocID>                   <Text>Club de exploradores</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_EXPLORE_DESCRIPTION</LocID>       <Text>Desbloquea destrezas de exploración para aprender.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_PSY</LocID>                       <Text>Estudio de psicotrónica</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_PSY_DESCRIPTION</LocID>           <Text>Desbloquea destrezas psicotrónicas para aprender.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_TECH</LocID>                      <Text>Laboratorio tecnológico</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_TECH_DESCRIPTION</LocID>          <Text>Desbloquea destrezas tecnológicas para aprender.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1</LocID>                         <Text>Taller de Lo-ritos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1_DESCRIPTION</LocID>             <Text>Te permite reclutar Lo-ritos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1_UPG</LocID>                     <Text>Línea de ensamble de Lo-ritos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1_UPG_DESCRIPTION</LocID>         <Text>Te permite reclutar Lo-ritos II.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2</LocID>                         <Text>Almacén de productos tóxicos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2_DESCRIPTION</LocID>             <Text>Te permite reclutar Saqueadores.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2_UPG</LocID>                     <Text>Contenedores de ácido</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2_UPG_DESCRIPTION</LocID>         <Text>Te permite reclutar Saqueadores granaderos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3</LocID>                         <Text>Tienda de Morteros</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3_DESCRIPTION</LocID>             <Text>Te permite reclutar Morteros.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3_UPG</LocID>                     <Text>Colegio de Morteros</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3_UPG_DESCRIPTION</LocID>         <Text>Te permite reclutar Morteros maximizados</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4</LocID>                         <Text>Bodegas chamuscadas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4_DESCRIPTION</LocID>             <Text>Te permite reclutar Esparcequemaduras.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4_UPG</LocID>                     <Text>Cascos chamuscados</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4_UPG_DESCRIPTION</LocID>         <Text>Te permite reclutar Lanzaquemaduras.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5</LocID>                         <Text>Tienda de francotiradoras</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5_DESCRIPTION</LocID>             <Text>Te permite reclutar Cazadoras</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5_UPG</LocID>                     <Text>Puesto de francotiradoras</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5_UPG_DESCRIPTION</LocID>         <Text>Te permite reclutar Cazadoras capitanas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6</LocID>                         <Text>Cuadro eléctrico</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6_DESCRIPTION</LocID>             <Text>Te permite reclutar Robotruenos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6_UPG</LocID>                     <Text>Central eléctrica</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6_UPG_DESCRIPTION</LocID>         <Text>Te permite reclutar Robotruenos de élite</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7</LocID>                         <Text>Garaje de Antimate</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7_DESCRIPTION</LocID>             <Text>Te permite reclutar Antimates</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7_UPG</LocID>                     <Text>Hangar de Antimates</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7_UPG_DESCRIPTION</LocID>         <Text>Te permite reclutar Antimates pesados</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_CREATURE_PRODUCTION_UPGRADE_1</LocID>     <Text>Estandarte de la flota soberana</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_CREATURE_PRODUCTION_UPGRADE_1_DESCRIPTION</LocID>     <Text>Genera seis Morteros adicionales.</Text></GameDBLocalizedString>
+
+            <!-- Lore description -->
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_BASE_CORE_LORE</LocID>                             <Text>Una humilde morada, pero es mejor que nada. Esta nave vieja y abandonada empieza a rebosar de vida otra vez. Sin embargo, esta vez no vamos a ver un documental oceanográfico sobre el crecimiento de los corales. En su lugar, veremos cómo gente de mundos diferentes crean una comunidad única. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE1_LORE</LocID>                      <Text>Las dársenas no dejan de acoger a más y más gente. La flota soberana da la bienvenida a todo refugiado, paria y náufrago. Estos tiempos llenos de conflictos hacen que cada vez haya más y más víctimas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE2_LORE</LocID>                      <Text>Un grupo variopinto de extranjeros se desplaza por los pasillos de una nave espacial que antes estaba completamente abandonada. Todo tripulante contribuye a su mejora con un poco de buen saber hacer, una pizca de riqueza o un atisbo de idea comercial. Son piececitas pequeñas, pero todas juntas crean un todo más grande. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ECONOMY_UPGRADE_MAX_LORE</LocID>                   <Text>Sin normas ni limitaciones. Estamos ante una colonia rebosante de energía y con el deseo de construir, crear y vivir la vida al máximo. Al igual que los vaqueros del salvaje Oeste, la gente cruza la frontera y deja el pasado atrás, pues un nuevo hogar los espera aquí. </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REPLICATOR_LORE</LocID>                            <Text>Si sufres cada día las interminables restricciones de la NUSS y bloqueos al comercio, el concepto de consumismo se acabará convirtiendo en un recuerdo lejano para ti. Una vez ocurre lo anterior, empiezas a crear cosas no solo para venderlas, sino también para que duren. Y si se te rompe algo, lo debes arreglar. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_GATEWAY_LORE</LocID>                               <Text>¡Ni se te ocurra hacer caso a las pegatinas de peligro que dicen «Bajo ninguna circunstancia se deberá usar para el transporte de organismos vivos.»! Si todo el mundo ya lo usa como transporte público. La alternativa es caminar y enfrentarte a los peligros que hay fuera de la base. Allá tú. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPACE_BAR_LORE</LocID>                             <Text>El espacio no es que sea bueno o malo, sino que le importa todo un bledo. En un mundo en el que un mísero error te puede costar la vida, debes tener un lugar en el que sentirte a salvo y relajarte. Enciende las cadenas de luces decorativas y saca unas birras bien frías. Así es como disfruta uno tras un día duro. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_MUSIC_HALL_LORE</LocID>                            <Text>El único lugar en el que puedes echarte unas risas con un fosoriano, cantar con un miembro de los Vástagos del Origen y beber con un antiguo integrante de la marina de la NUSS al mismo tiempo. Sí, sí, no he dicho nada sobre los Hesperidianos... Ah, no, no. Nadie quiere tener a esos cabrones alienígenas en el bar. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_VISIBILITY_UPGRADE_LORE</LocID>                    <Text>Con todas las perturbaciones atmosféricas y campos de energía que rodean la antigua tecnología de los Primordiales, es prácticamente imposible confiar en las herramientas de exploración convencionales, excepto los dos ojitos que tenemos en la cara. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_RECYCLER_LORE</LocID>                              <Text>Hay lugares en el espacio donde la llegada de naves de comerciantes se celebra como si fuese Año Nuevo. Si vienes de un lugar como ese, seguramente seguirás atesorando cada montón de chatarra, cable suelto y tornillo sin usar hasta el final de tus días. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACTORY_LORE</LocID>                               <Text>Hay un fuerte olor a disolvente en el aire porque hace una semana más o menos un Robotrueno estuvo pintando líneas aquí. Ah, y una semana antes una señora se puso a hacer collares con canicas usadas. Una base soberana es un organismo vivo que se adapta a cualquier situación. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_TRADING_POST_LORE</LocID>                          <Text>Comerciantes. Sus naves casi siempre son placas unidas provenientes de reparaciones e improvisaciones caseras, pero oye, también son el pegamento que mantiene unidas a las colonias solitarias. Sin ellos, esta jungla de espacio nos comería uno por uno a la mínima. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_CORE_LORE</LocID>                        <Text>Antes de que llegasen los campos de fuerza, la placa de protección del casco de la nave era lo único que la protegía. Una capa gruesa de acero, literal. Una tecnología totalmente desfasada, pero que cumplía con su propósito. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TOWER_LORE</LocID>                       <Text>Hologramas de campos de batalla y naves espaciales, simulaciones de funcionalidad constantes, gente que se tropieza con los cables en una entropía que lo abarca todo... Sin embargo, un hombre dijo una vez: «Todo plan se va a la mierda tras oír el primer disparo. Aceptad la entropía y el caos de la batalla, que siempre cambia a cada segundo.» </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_MINES_LORE</LocID>                       <Text>Existe un tipo especial de minas terrestres. Si la atraviesas, el campo de vórtices no reaccionará, pero contará a cada soldado que pase y, solo cuando la unidad se haya metido de lleno en el campo de minas, estas empezarán a explotar. No todos los guerreros de la flota soberana juegan limpio siempre. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_ACADEMY_LORE</LocID>                               <Text>Para los Soberanos, la idea de una educación sistémica que incluye diplomas y exámenes es una broma. Nadie necesita enfrentarse a un examen cuando la vida en la flota soberana es una prueba constante. Una gran cantidad de cadáveres congelados está flotando en el espacio. Cada uno de ellos pertenece a un estudiante que no aprobó un examen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_REMOTE_LEARNING_LORE</LocID>                       <Text>Si bien las otras facciones invierten todo su dinero en la construcción de redes de comunicación, la flota soberana apuesta por un enfoque diferente. Lo único que necesitas saber es que todos los dispositivos antiguos de los Primordiales forman parte de un único complejo. Si golpeas el pie, el ojo parpadeará. Ceros y unos. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_SPECIALIZATION_LORE</LocID>                <Text>¿Necesitas aprender algo? ¡Pues pregunta a los Soberanos! La gente de diferentes culturas, razas y entornos han venido aquí para quedarse a vivir y hacer su sueño realidad juntos. Con tanta diversidad, la probabilidad de que la persona que sepa la respuesta a tu pregunta viva al lado es bastante alta.    </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_EXPLORE_LORE</LocID>                       <Text>Comerciantes espaciales, aventureros, exploradores... Todos son miembros típicos de la flota soberana. Estas personas llenarán tus mapas vacíos más rápido que una expedición oficial que aún está a la espera de la aprobación de su financiación y revisión de antecedentes. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_TECH_LORE</LocID>                          <Text>Vivir en el espacio es un desafío constante. Cada habitante sobrevive gracias a la tecnología que usan y dominan. Son como uña y carne. Cuando ves a un niño de cinco años en una estación espacial, te das cuenta a la mínima de que sabe mucho más que un graduado de Harvard tras pasar los últimos cuatro años de su vida empollando. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_FACULTY_BIO_LORE</LocID>                           <Text>Un único error en la dosis nutritiva provocará que las plantas del tanque hidropónico mueran. Al igual que nadie puede pedir una pizza tal cual en el espacio, las naves espaciales, colonias aisladas y estaciones espaciales sin bioingenieros expertos no son nada. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_CREATURE_PRODUCTION_UPGRADE_1_LORE</LocID>         <Text>Todo taller abierto y cada lugar nuevo añadido a la base aumenta el ánimo general. La gente de todas las edades, entornos y con especialidades diferentes vienen a construir un nuevo hogar juntos y siempre se esfuerzan al máximo. Viven en una utopía perfecta ahora mismo, pero toda utopía es temporal. Esperemos que dure lo máximo posible. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TRENCH_LORE</LocID>                      <Text></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_TURRET_LORE</LocID>                      <Text>Las torretas de la flota soberana son uno de los dispositivos más seguros, ya que al programa de reconocimiento de objetivos original lo ha sustituido un programa de la unidad de apuntado central que es mucho más eficaz. Otro recordatorio más de que las bases de la flota soberana hacen a la vez de naves espaciales. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1_LORE</LocID>                             <Text>Un martillo, alicates, soldadoras... Las herramientas del taller son baratas y simples como los hijos de un paleto y la chica del tiempo de la tele, pero si alguna vez has logrado montar cualquier cosa que te ha llegado de Ikea, estás más que listo para el proceso de ensamblaje de un Lo-rito. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_1_UPG_LORE</LocID>                         <Text>¿Que cómo consiguen los Soberanos hacerse con todas las partes para sus robots, dices? Si tienes una mente creativa, todo lo que necesitas para construir un robot de combate es dos lavadoras, una unidad central de procesamiento de cualquier coche antiguo de después del 2205 y pasarte por tu ferretería local. </Text>  </GameDBLocalizedString>
+            
+            <!-- Logic ?? -->
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2_LORE</LocID>                             <Text>Todos los militares se esfuerzan muchísimo durante sus desfiles, aparte de tener los uniformes limpitos y una ropa de cama bien dobladita. Entonces, ¿por qué los comandos que emplean productos tóxicos son tan buenos si se visten como los típicos vagabundos que se aglomeran en la estación de tren más concurrida del lugar?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_2_UPG_LORE</LocID>                         <Text>No existe una jerarquía artificial entre los luchadores de la flota soberana. Si dispones de las aptitudes adecuadas y carisma, los combatientes te obedecerán incluso si no tienes ninguna estrella en la gorra. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3_LORE</LocID>                             <Text>Todo empezó como una coña cuando uno de los capitanes se quejó de que las torretas autónomas eran demasiado vulnerables en luchas a corta distancia. «Pues ponles cuchillas o similar» fue la respuesta que se escuchó entre toda la muchedumbre. Las risas que generó el comentario despertaron de la siesta a un ingeniero que empezó a tomar notas. Ya te imaginas cómo terminó la cosa. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_3_UPG_LORE</LocID>                         <Text>Los Morteros son tan precisos que un tío listo convenció a los capitanes para usarlos como servicio de comunicación por correo en el campo. Mediante una granada sin pólvora, el correo se transportaba hasta donde se encontrase el destinatario. Fue un éxito rotundo hasta que alguien confundió una granada sin pólvora con una estándar. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4_LORE</LocID>                             <Text>Si bien la mayoría de los reclutas proviene de colonias de prisioneros, los Esparcequemaduras son las unidades más disciplinadas y leales que han tenido nunca en la flota soberana. La razón es fácil de entender: en cuanto liberas a alguien de una colonia de prisioneros de la NUSS, te estará agradecido de por vida. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_4_UPG_LORE</LocID>                         <Text>Una mezcla ardiente de ácido y napalm se mantiene a raya a duras penas en una zona con gravedad total. Imagínate ahora el caos que se monta en gravedad cero. Creo que ya te haces a la idea de lo duros que son los Lanzaquemaduras. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5_LORE</LocID>                             <Text>Hay una leyenda sobre siete Cazadoras que protegieron una pobre colonia explotada por un gobernador ruin y sus matones. Con el tiempo, la NUSS quemó el lugar por completo, pero, durante un brevísimo instante, las Cazadoras lograron liberarla. Muchos dicen que esta fue la gota que colmó el vaso de la tolerancia de las Cazadoras frente a las atrocidades de la NUSS. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_5_UPG_LORE</LocID>                         <Text>Si bien todo francotirador mejora la capacidad letal de tu ejército, nadie les tiene una pizca de aprecio. El enemigo los detesta debido a su gran precisión y las fuerzas aliadas tienen miedo de sufrir represalias en el sentido de abandonar su posición ante un ataque de artillería pesada o un bombardeo aéreo. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6_LORE</LocID>                             <Text>El material de la bobina de Tesla es un gran ejemplo de la primera generación de elementos energomórficos. Con un poco de energía, el material pasa de rígido a flexible en un abrir y cerrar de ojos. Nikola estaría muy orgulloso de la humanidad. Al menos con algunas invenciones. Con unas pocas. Unas pocas y muy contadas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_6_UPG_LORE</LocID>                         <Text>Al principio, esta serie de robots se diseñó para encargarse del trabajo pesado en biogranjas del nuevo mundo. Para llevar a cabo una tarea tan exigente, se les proveyó de un cuerpo resistente y un carácter amable. Hicieron falta muchas líneas de código para acabar con su programación pacífica y convertirlos en los Doce del patíbulo. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7_LORE</LocID>                             <Text>Descargar engramas en cuerpos robóticos es algo que se compara normalmente con la nigromancia. Sin embargo, debido a que la inteligencia robótica simplona bajo el nivel de la IA es fácil de piratear y que no sería ideal enfrentarse a una máquina de matar de 20 toneladas, es mejor que se no se haga caso al dilema moral por ahora. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SPAWNER_7_UPG_LORE</LocID>                         <Text>Que los Soberanos sean capaces de construir en un taller pequeñito un robot que puede hacer frente a un Titán de la NUSS es una prueba irrefutable de que a la flota soberana nunca la derrotarán si la batalla depende únicamente de la fuerza bruta o superioridad de recursos de las facciones.  </Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_01</LocID>                               <Text>UNCSS Habana</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_02</LocID>                               <Text>UNCSS Hopper</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_03</LocID>                               <Text>UNCSS Ronbombay</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_04</LocID>                               <Text>UNCSS Rama</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_05</LocID>                               <Text>UNCSS Boa Vista</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_06</LocID>                               <Text>UNCSS Barataria</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_07</LocID>                               <Text>UNCSS Santa María</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_08</LocID>                               <Text>UNCSS Fomalhaut</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_09</LocID>                               <Text>UNCSS Serenidad</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PIRATES_BASE_NAME_10</LocID>                               <Text>UNCSS Quiquita </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SKILL_ACADEMY</LocID>                     <Text>Núcleo de memoria antiguo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SKILL_ACADEMY_DESCRIPTION</LocID>         <Text>¡Enseña una nueva destreza a tus comandantes!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_SKILL_ACADEMY_LORE</LocID>                <Text>Las naves antiguas están repletas de recuerdos. No, no hablamos de cosas metafísicas o con metáforas. Todo lo que ocurrió a bordo lo grabó y analizó el ordenador central. Cuanto más antigua nave, más nítidos son los patrones de información «sintetizada» pertenecientes a las vida de innumerables tripulaciones. Una fuente de sabiduría que está esperando que la descubras. </Text></GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

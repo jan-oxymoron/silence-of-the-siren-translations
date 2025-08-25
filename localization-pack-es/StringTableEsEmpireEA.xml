@@ -1,0 +1,27 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_EMPIRE_EA">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--Unit names-->
+            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SOLDIER</LocID>          <Text>Soldado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_BEAST</LocID>            <Text>Ares</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WARMACHINE</LocID>       <Text>Titán</Text></GameDBLocalizedString>
+
+            <!--Unit description-->
+            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SOLDIER_DESCRIPTION</LocID>            <Text>Tenemos misiles guiados, rifles de plasma, drones RP, arietes sónicos y un montón de vehículos de diferentes tonelajes, pero la mayor parte del tiempo solo enviamos a soldados. Es una cuestión de optimizar costes.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_BEAST_DESCRIPTION</LocID>              <Text>La invención de la tecnología de escudos de fuerza dio lugar a un renacimiento del combate cuerpo a cuerpo. Aun cuando las armas de largo alcance han comenzado a avanzar, los droides militares siguen confiando en las antiguas y fiables espadas de energía. Estas maravillas llevan usándose casi 30 años.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WARMACHINE_DESCRIPTION</LocID>         <Text>Pregúntale a cualquier niño de la NUSS sobre qué quiere ser de mayor. La mayoría te responde «basurero», «paleontólogo» o «piloto de titanes». Luego, de adultos, nadie quiere trabajar bajo las inclemencias del tiempo o pasar el día en el barro. Los paleontólogos pronto acabarán formando parte de las especies extintas, mientras tanto ¡los titanes seguirán arrasando! </Text></GameDBLocalizedString>
+           
+            <!--Unit abilities-->
+            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_SOLDIER_INFO_DESCRIPTION</LocID>       <Text>Cuenta con un ataque a distancia.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_EMPIRE_WARMACHINE_INFO_DESCRIPTION</LocID>    <Text>Es capaz de atacar a un máximo de 3 enemigos que estén juntos.</Text></GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,45 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_PATCH_02">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>        <LocID>HERO_MOLE_8_DESCRIPTION_V2</LocID>                                      <Text>Debido a la implicación de Holester en el levantamiento de Nemek, el Líder Supremo difundió un mensaje falso sobre su muerte. Su intención era socavar la moral de los rebeldes, pero, sorprendentemente, acabó salvando la vida de Holester. En medio del caos que siguió a la rebelión, era imposible distinguir la verdad de la propaganda. Así fue como «Estar muerto es el mejor punto de partida para comenzar una nueva vida» se convirtió en el lema de Holester.  </Text>  </GameDBLocalizedString>
+
+            <!--MAP Bridges too far - translate by google-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_BRIDGES_TOO_FAR_BLOCKED_PATH</LocID>                         <Text>El camino está bloqueado.</Text>  </GameDBLocalizedString>
+            
+            <!--New descriptions with new IDs-->
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_EXTRA_RATIONS_DESCRIPTION_V2</LocID>                      <Text><![CDATA[<color=SOTS_COLOR_GOLD>Aumenta el ánimo</color> en <color=SOTS_COLOR_GOLD>5</color> puntos hasta el <color=SOTS_COLOR_GOLD>final</color> de la <color=SOTS_COLOR_RED>batalla siguiente</color>. Este tipo de consumible se puede <color=SOTS_COLOR_GOLD>usar</color> hasta <color=SOTS_COLOR_GOLD>3 veces.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_V2</LocID>            <Text>¡Muéstrate como tu comandante más débil!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL2_V2</LocID>       <Text>¡Finge que eres débil para engañar a tus enemigos y que te ataquen!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_SWITCH_TO_RATLING_PROJECTS_V2</LocID>               <Text><![CDATA[Ahora <color=SOTS_COLOR_GOLD>haz clic</color> en el edificio <color=SOTS_COLOR_GOLD>Suburbio rátido</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TUTORIAL_01_BASE_OUT_OFF_RATLING_PROJECTS_V2</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_GOLD>Sal</color> del edificio <color=SOTS_COLOR_GOLD>Suburbio rátido</color>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_BLOODTHIRSTY_SOUL_DESCRIPTION_V2</LocID>                    <Text>Un artefacto.\nCada vez que una unidad es asesinada en combate, el comandante puede usar sus destrezas de nuevo.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_REINFORCEMENT_TEXT_V2</LocID>                         <Text><![CDATA[¡Escoge un tipo de unidad disponible! Convoca a las unidades disponibles en todas tus bases que no estén asignadas a un comandante acuartelado.\nPuedes invocar unidades con un nivel igual o superior a la <color=SOTS_COLOR_GOLD>Fuerza de destrezas</color> de tu comandante.]]></Text>  </GameDBLocalizedString>
+            
+            <!-- Updated lines, can't change IDs here (we can delete the original lines after translation) -->
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BARBARIAN_HORDE_3</LocID>                              <Text>Ejército «más fuerte»: puede engañar a los comandantes con la habilidad Centinela.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_EASY_PREY_3</LocID>                                    <Text>Ejército «más débil»: puede engañar a los comandantes con la habilidad Centinela.</Text></GameDBLocalizedString>
+
+            <!-- Shared names for common objects on all battlefields -->
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_LOOPHOLE</LocID>                          <Text>Fisura</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_GATE</LocID>                              <Text>Puerta</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_WALL</LocID>                              <Text>Muro</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_GENERIC_WALL_UPG</LocID>                          <Text>Muro fortificado</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_NO_FREE_PLAYER_BASE_ON_MAP_LAYER</LocID>         <Text>No hay ninguna base a la que evacuar en esta capa del mapa.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EARLY_ACCESS_HEADING</LocID>                                         <Text>Acceso anticipado</Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

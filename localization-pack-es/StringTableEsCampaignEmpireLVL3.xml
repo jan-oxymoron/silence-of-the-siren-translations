@@ -1,0 +1,184 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_CAMPAIGN_EMPIRE_LVL_3">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--OBJECTIVES MAIN QUESTS-->
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_FACE_TRAITOR_LVL3</LocID>                  <Text>Enfréntate a los traidores junto al teletransportador.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_FACE_TRAITOR_LVL3_DONE</LocID>             <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Enfréntate a los traidores junto al teletransportador. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_CONTACT_CRUSADERS_LVL3</LocID>             <Text>Contacta con los Vástagos del Origen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_CONTACT_CRUSADERS_LVL3_DONE</LocID>        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Contacta con los Vástagos del Origen. - Terminada</color>]]></Text>  </GameDBLocalizedString>
+       
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_FACE_CRUSADERS_LVL3</LocID>                <Text>Evita que la nave de los Vástagos del Origen escape. Turno(s) restante(s):</Text>  </GameDBLocalizedString>
+          
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_FORCE_WAY_EAST_LVL3</LocID>                <Text>Accede al teletransportador al este.</Text>  </GameDBLocalizedString>
+
+            
+            <!--DIALOGUES-->
+            
+            <!--Start dialogue -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_BURKE_1</LocID>                   <Text>¡Capitán Rao! Me llamo Burke, soy el gobernador de la región. Acaban de informarme de que tu perfil en la red de la UNSS ha cambiado de estado a FUGITIVO. ¡Explícate! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_A_1</LocID>                       <Text>¡Estoy obligado a actuar sin órdenes! Persigo a un peligroso traidor, mi antiguo comandante, ¡John Smith 7A! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_BURKE_2</LocID>                   <Text>Ya está aquí y te aseguro que su perfil está impoluto. Es más, esperaba tu llegada. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_A_2</LocID>                       <Text>¡Claro! ¡Habrá cambiado mi estado él! Escucha, mis amigos están interrogando a una testigo clave. El estado de Smith cambiará en cuanto extraigan una confesión completa. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_BURKE_3</LocID>                   <Text>Bonito cuento, pero no cuela. ¡SARGENTO ZAGLOBA! ¡Ven y arresta a este desertor! </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_ZAG_1</LocID>                     <Text>¡Debo de tener un error en la vista! ¡Soldado Rao, mi cadete favorito! ¿Vienes a animar a tu viejo comandante?\n\n¡Un momento! ¿Por qué quiere ese botarate mugroso de Burke que te arreste? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_BURKE_4</LocID>                   <Text>¡Sargento! Es una orden directa... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_ZAG_2</LocID>                     <Text>¡Que te calles, archivador humano! ¡Estoy hablando con un amigo! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_A_3</LocID>                       <Text>Hola, sargento. Como iba diciendo, estoy persiguiendo al hesperidiano responsable del ataque a la estación Umbral y la UNSS Ranock. El núcleo de la estación cayó al este de aquí. Quiere destruirlo de una vez por todas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_ZAG_3</LocID>                     <Text>¡Eso explica por qué los otros hesperidianos y él intentan arreglar el viejo teletransporte que hay siguiendo la carretera! Malditos alienígenas, ¡te ayudaré a perseguir a ese desgraciado! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_BURKE_5</LocID>                   <Text>¡Los dos habéis perdido la cabeza! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_ZAG_4</LocID>                     <Text>Calla, maldito burócrata xenófilo. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_BURKE_6</LocID>                   <Text>¡Os espera un consejo de guerra! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_A_4</LocID>                       <Text>Gracias, sargento, te... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_ZAG_5</LocID>                     <Text>No digas nada, muchacho. Desde tu primer día en la academia vi algo en ti que los otros mocosos callejeros de la colonia no tenían. Siempre has servido con honor, ¡como buen soldado! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_A_5</LocID>                       <Text>Mi excomandante, John Smith 7A...  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_ZAG_6</LocID>                     <Text>Controla la base al sur y no está solo. Ha traído dos hesperidianos asquerosos más. Y esa rata de Burke hará lo que sea por sus amos alienígenas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_START_A_6</LocID>                       <Text>No será fácil arrestarlo, pero mis amigos vendrán con ayuda en cuanto terminen el interrogatorio. Hasta entonces, nos toca improvisar. </Text>  </GameDBLocalizedString>
+
+
+            <!--adela_before_fight-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ADELA_BF_AD_1</LocID>                   <Text>No es nada personal, pero órdenes son órdenes. </Text>  </GameDBLocalizedString>
+  
+            <!--Burke_before_fight-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_BURKE_BF_B_1</LocID>                    <Text>¡Cambiaré tu perfil de la UNSS a muerto personalmente! </Text>  </GameDBLocalizedString>
+        
+        
+            <!--Zagloba_meets_Arjun-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ZAG_MEETS_ARJ_ZAG_1</LocID>             <Text>¿Tienes idea de lo que ha sido de los niños callejeros de la academia? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ZAG_MEETS_ARJ_A_1</LocID>               <Text>Pues... perdimos el contacto. Peter se hizo vendedor y Anika volvió con los soberanos. No sé nada más. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ZAG_MEETS_ARJ_ZAG_2</LocID>             <Text>Y el resto se han vuelto a la cloaca de la que los saqué. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ZAG_MEETS_ARJ_A_2</LocID>               <Text>Déjalo, sargento. Ya han pasado 12 años. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ZAG_MEETS_ARJ_ZAG_3</LocID>             <Text>No puedo, muchacho. El proyecto entero fue idea mía. Erais mis chicos. Os encontré y os entrené... y todo en vano aparte de ti. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ZAG_MEETS_ARJ_A_3</LocID>               <Text>No seas tan duro contigo mismo, sargento. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ZAG_MEETS_ARJ_ZAG_4</LocID>             <Text>¡Tienes, razón, muchacho! Como siempre. ¡Vamos a reventar unos alienígenas! ¡Con eso me animaré! </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ARJ_MEETS_ZAG_A_1</LocID>               <Text>¿Qué tal va la vida, sargento? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ARJ_MEETS_ZAG_ZAG_1</LocID>             <Text>Pues cada vez me chirrían más las rodillas y veo menos la luz del sol. Me habré hecho viejo. Pero ¡mírate, muchacho! ¡Capitán, ya! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ARJ_MEETS_ZAG_A_2</LocID>               <Text>Me preocupa haberme pasado esta vez. Si no atrapamos a Smith, sin duda perderé el rango. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ARJ_MEETS_ZAG_ZAG_2</LocID>             <Text>No te preocupes, muchacho, que llegaré a verte con estrellas de general. </Text>  </GameDBLocalizedString>
+            
+            <!--first_meeting_with_Henry-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_HENRY_H_1</LocID>               <Text>¡Primero los Vástagos del Origen bloquean el camino al este y ahora tú! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_HENRY_J_1</LocID>               <Text>No pierdas el tiempo con él, 2A. Te necesito aquí abajo para arreglar el teletransportador. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_HENRY_H_2</LocID>               <Text>¡Es tu día de suerte, primate! Si volvemos a vernos, no dudaré en acabar contigo. </Text>  </GameDBLocalizedString>
+
+
+            <!--Spotting John Smith 7A-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_SPOTTING_JOHN_RH_1</LocID>              <Text>¡Es él, el traidor! ¡Es John Smith 7A! </Text>  </GameDBLocalizedString>
+
+
+            <!--fight_with_Henry-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FIGHT_HENRY_J_1</LocID>                 <Text>¡Imbécil! ¡Esto es mayor que tú y que yo! Estoy protegiendo toda la UNSS. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FIGHT_HENRY_Z_1</LocID>                 <Text>¿Quieres decirles algo, muchacho? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FIGHT_HENRY_A_1</LocID>                 <Text>¡Deliras, Smith! Nos has aislado del sistema solar y, sin él, ¡la UNSS se desmorona rápidamente! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FIGHT_HENRY_J_2</LocID>                 <Text>¡Exacto! ¡Se desmorona aquí y no en el sistema solar! ¡Solo aquí! ¡Hay que contener el sistema Sirena a cualquier precio! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FIGHT_HENRY_A_2</LocID>                 <Text>¡Había dos mil hombres en la Ranock! ¡Nada justifica esa clase de asesinato! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FIGHT_HENRY_H_1</LocID>                 <Text>¡Es un humano! No pierdas el tiempo, 7A.\n\nEl teletransportador no tiene arreglo y los Vástagos del Origen no nos dejarán usar el suyo. ¡Usa el teletransporte orbital cerca de la base! Será un viaje difícil, pero te llevará hasta el núcleo. Yo... me reuniré contigo más adelante. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FIGHT_HENRY_J_3</LocID>                 <Text>Gracias, 2A. ¡Nunca lo olvidaré! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FIGHT_HENRY_H_4</LocID>                 <Text>¡Un paso más, humano, y te mataré como animal que eres!  </Text>  </GameDBLocalizedString>
+
+
+            <!--Henry_beaten-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_HENRY_BEATEN_H_1</LocID>                <Text>Destruir cosas es lo único... que los humanos... hacéis bien. </Text>  </GameDBLocalizedString>
+           
+            <!--They did not lie about teleport-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_TELEPORT_BROKEN_RH_1</LocID>            <Text>No mentía. Está roto. </Text>  </GameDBLocalizedString>
+
+
+            <!--John_is_convicted_pt1-3-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_A_1</LocID>                <Text>¡Por fin! ¡Mis amigos han venido! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_M_1</LocID>                <Text>Traemos un mensaje de la almirante Nyota. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_B_1</LocID>                <Text>Transmite en todas las frecuencias, Maya. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_NYOTA_1</LocID>            <Text>[MENSAJE GRABADO] Me ha sido presentado un testimonio que incrimina al mayor John Smith 7A en un delito de traición. Se le acusa de tramar el ataque que destruyó la UNSS Ranock y dañó la estación Umbral. Debe ser arrestado y llevado ante la justicia. Además... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_B_2</LocID>                <Text>Con eso vale, Maya. Páralo. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_ADELA_1</LocID>            <Text>Entonces, ¿estaba luchando para los malos? Me alegro de ser flexible en tiempos de incertidumbre moral. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_BURKE_1</LocID>            <Text>Me he limitado a cumplir mi contrato. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_NARRATOR_1</LocID>         <Text>Nuevos comandantes se han unido a tus fuerzas. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_NARRATOR_2</LocID>         <Text>Un nuevo comandante se ha unido a tus fuerzas. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_JOHN_1</LocID>             <Text>¡Esto no cambia nada! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_MOORE_1</LocID>            <Text>¡Deprisa, John 7A! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_B_3</LocID>                <Text>¡Gergie-larh! ¡Tras él! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_J_2</LocID>                <Text>¡Demasiado tarde! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_A_2</LocID>                <Text>¡Maldición! ¡El hesperidiano al que he derrotado había mencionado un teletransportador en manos de los Vástagos del Origen al este! Es la única forma de que podamos seguir a Smith. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_FRIENDS_BACK_M_2</LocID>                <Text>Vale la pena. Por lo menos no nos atacarán abiertamente. La UNSS tiene un tratado de paz con su orden. </Text>  </GameDBLocalizedString>
+
+            <!--Henry_beaten-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_BROWN_MEET_ZABLOBA_BROWN_1</LocID>      <Text>¡¿Huelo a NAFTALENO?!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_BROWN_MEET_ZABLOBA_ZAG_1</LocID>        <Text>Qué va, eso sería racista por mi parte.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_BROWN_MEET_ZABLOBA_BROWN_2</LocID>      <Text>¡Pero si lo tienes en la mano!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_BROWN_MEET_ZABLOBA_ZAG_2</LocID>        <Text>¡Ah! No, esto es matapolillas. Lo llevo por si alguna «polilla» intenta «comerse mi ropa». </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_BROWN_MEET_ZABLOBA_BROWN_3</LocID>      <Text>¡Basta! ¡Basta! ¡Deja YA de tirármelas! Gergie-larh, ya me voy, vale... ¡increíble! </Text>  </GameDBLocalizedString>
+
+
+            <!--meeting_crusaders-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_ART_1</LocID>         <Text>Estáis entrando en territorio bajo la protección de los Vástagos del Origen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_RH_1</LocID>          <Text>Perseguimos al fugitivo responsable del colapso del viaje espacial. Ya está en órbita, ¡buscando un camino al este! Permitid que usemos el teletransporte de vuestro territorio. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_ART_2</LocID>         <Text>Así que el fugitivo ha elegido la muerte. Es un camino más oscuro de lo normal. ¡Le dije que unos fossorianos insensatos habían arrasado la zona con una reacción atómica! Ese trasto maldito que llamáis «el núcleo» ha dejado de existir. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_B_1</LocID>           <Text>El núcleo lo crearon los primordiales. Algunas de sus creaciones han sobrevivido a mucho más que explosiones nucleares. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_ART_3</LocID>         <Text>¡No os escucharé glorificar las habilidades de nuestros antiguos enemigos! ¡Si nos atacáis, estaréis violando el tratado de paz entre la UNSS y nuestra orden! Hermano Rishard, ¡ve y despierta la nave! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_RISH_1</LocID>        <Text>Eso haré, hermano Artar. Pero su letargo es profundo. Tardará en despertar del todo.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_B_2</LocID>           <Text>¿Lo habéis oído? ¡Hablaba de una nave! ¡UNA NAVE! ¡¿De verdad han traído una de sus escasas naves originales aquí?! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_A_1</LocID>           <Text>¡Olvida la nave, doctor! ¡Smith y el núcleo tienen prioridad! Debemos abrirnos paso hasta el teletransportador. ¡Está en juego la UNSS! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_M_1</LocID>           <Text>Esto no me gusta, capitán. Es demasiado arriesgado. ¿Y si no llegamos a tiempo? ¿Y si empezamos una guerra? Doctor, ¿debería...? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_B_2.1</LocID>         <Text>Todavía no.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_A_2</LocID>           <Text>¡Vamos! ¡Un último esfuerzo! Con el poder del sistema solar de nuestra parte, nadie volverá a atreverse con la UNSS. ¡Ni siquiera los Vástagos del Origen! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_B_3</LocID>           <Text>Sabes que si hacemos esto, no podemos dejar que escape un solo Vástago del Origen, ¿verdad?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_MEETING_CRUSADERS_A_3</LocID>           <Text>Soy plenamente consciente. </Text>  </GameDBLocalizedString>
+
+            <!--Arjun lost patience-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ARJUNTURN_CRUSADERS_1</LocID>           <Text>¡Detened esta locura! ¡Esta destrucción insensata solo nos traerá más tragedias! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ARJUNTURN_RH_1</LocID>                  <Text>A lo mejor deberíamos... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_ARJUNTURN_A_1</LocID>                   <Text>¡Basta! Hemos perdido demasiado tiempo con diálogos pacíficos. ¡Se acaba el tiempo! ¡Al ataque! </Text>  </GameDBLocalizedString>
+
+
+            <!--ship_spotted-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_CRUSADER_SHIP_RH_1</LocID>              <Text>¡Es... una auténtica nave de los Vástagos del Origen! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_CRUSADER_SHIP_B_1</LocID>               <Text>¡Menuda belleza! ¡Es un milagro ver una en tan buen estado! Imaginad las posibilidades si la capturamos. ¡Todas las tecnologías que los Vástagos del Origen no quieren compartir con nosotros!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_CRUSADER_SHIP_A_1</LocID>               <Text>¡Es solo una nave! ¡Céntrate, doctor! ¡Hemos venido a por Smith! </Text>  </GameDBLocalizedString>
+
+            <!--summon_Rishard-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_SUMMON_RISHARD_R_1</LocID>              <Text>¡No la profanaréis! ¡He jurado protegerla con mi vida! ¡Atrás!  </Text>  </GameDBLocalizedString>
+
+            <!--Rishard_attacks-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_BEFORE_FIGHT_R_1</LocID>        <Text>¡Os lo había advertido! </Text>  </GameDBLocalizedString>
+            
+            <!--THE END-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_RISH_1</LocID>              <Text>¡La orden ya no puede contener la verdad! ¡Pero la redención aún es posible! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_A_1</LocID>                 <Text>¡¿De qué está hablando?! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_RISH_2</LocID>              <Text>Debo advertirles. ¡Debemos atacar de inmediato! Es nuestra única esperanza. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_A_2</LocID>                 <Text>¡No! ¡Debemos impedir que escape! ¡La UNSS no sobrevivirá a un conflicto con los Vástagos del Origen! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_A_3</LocID>                 <Text>Unidades a distancia, ¡fuego contra esa nave! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_B_1</LocID>                 <Text>¡NO! ¡LA NAVE NO DEBE SER DAÑADA!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_A_4</LocID>                 <Text>¡Salvará miles de vidas! ¡FUEGO! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_B_2</LocID>                 <Text>¡¿QUÉ HAS HECHO?! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_JOHN_1</LocID>              <Text>Ha hecho lo que debía hacer. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_JOHN_2</LocID>              <Text>Por fin entiendes lo que es servir a un ideal. Servir sin compromiso. Pero vuestros esfuerzos son en vano. Ordenador, dales acceso completo a mis perros dron. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_JOHN_3</LocID>              <Text>Mirad: el núcleo ha sido destruido. El camino al sistema solar ha sido destruido. Por fin puedo descansar. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_RELIQ_1</LocID>             <Text>... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_FURRET_1</LocID>            <Text>Calla. ¡Sé, se lo diré! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_FURRET_2</LocID>            <Text>Ven, Smith. Nos ayudaste durante nuestra rebelión y siempre pago mis deudas. Tus amigos y tú estáis bajo la protección del pueblo fossoriano. Además, tengo un regalo para ti. ¿Recuerdas nuestro primer encuentro? ¿Esa vieja reliquia? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_A_5</LocID>                 <Text>Podrás esconderte un tiempo entre los fossorianos, ¡pero tarde o temprano te atraparé! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_B_3</LocID>                 <Text>Lo harás sin mi ayuda. Has matado esa nave solo porque estaba en tu camino. ¡Gergie-larh! Como si fuera metal descerebrado. Eres como Smith 7A... Maya, que escuche el resto. Ya no me importa. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_A_6</LocID>                 <Text>¡No te atrevas a darme lecciones de ética! ¡Seguro que en tu laboratorio hay al menos una docena de experimentos fallidos que anhelan la muerte! ¿Qué querías, que alertara a su orden? ¡Maldita sea! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_M_1</LocID>                 <Text>Lo siento, capitán. El mensaje de la almirante Nyota tiene algo más. Habíamos acordado no reproducirlo antes por si atrapábamos a Smith y había margen de negociación... pero ahora... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_NYOTA_1</LocID>             <Text>[MENSAJE GRABADO]... Además, por su deserción, revoco el contrato del capitán Rao. La UNSS no admite semejante desorden público ni... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_M_2</LocID>                 <Text>Hemos hablado en tu defensa, Rao, pero tu historial con la flota soberana... no nos han escuchado. Hemos perdido, se acabó.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_RISHARD_END_A_7</LocID>                 <Text>No para mí. Todavía no.</Text>  </GameDBLocalizedString>
+            
+            <!--BAD END-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL3_BAD_END_NARRATOR</LocID>                <Text>¡Se acabó! ¡La nave con un mensajero de los Vástagos del Origen ha despegado! La guerra es inevitable y, sin el apoyo del sistema solar, la UNSS está condenada. </Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

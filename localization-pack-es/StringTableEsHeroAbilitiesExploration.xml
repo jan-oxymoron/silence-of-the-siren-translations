@@ -1,0 +1,116 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_HERO_ABILITIES_EXPLORATION">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH</LocID>                              <Text>Prisa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION</LocID>                  <Text><![CDATA[Restaura los <color=SOTS_COLOR_MOVEMENT>puntos de movimiento</color> del comandante. El efecto aumenta según la Fuerza de destrezas.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL1</LocID>             <Text><![CDATA[Restaura (3 + Fuerza de destrezas) <color=SOTS_COLOR_MOVEMENT>puntos de movimiento</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL2</LocID>             <Text><![CDATA[Restaura (6 + Fuerza de destrezas) <color=SOTS_COLOR_MOVEMENT>puntos de movimiento</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_RUSH_DESCRIPTION_LVL3</LocID>             <Text><![CDATA[Restaura (9 + Fuerza de destrezas) <color=SOTS_COLOR_MOVEMENT>puntos de movimiento</color>.]]></Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK</LocID>                        <Text>Marca de muerte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION</LocID>            <Text><![CDATA[Sigue al comandante enemigo en la niebla de guerra y este pierde <color=SOTS_COLOR_MOVEMENT>puntos de movimiento</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL1</LocID>       <Text><![CDATA[ Alcance de 4 casillas, 4 turnos.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL2</LocID>       <Text><![CDATA[ Alcance de 4 casillas, 4 turnos.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_DEATH_MARK_DESCRIPTION_LVL3</LocID>       <Text><![CDATA[ Alcance de 4 casillas, 4 turnos.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_DEATH_MARK</LocID>                                   <Text><![CDATA[<color=SOTS_COLOR_RED>¡Marca de muerte está activa!</color>]]></Text>  </GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY</LocID>                        <Text>Grito de guerra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION</LocID>            <Text>¡Aumenta el ánimo de tu ejército!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL1</LocID>       <Text>+5 de ánimo durante 1 turno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL2</LocID>       <Text>+10 de ánimo para tu ejército y -5 de ánimo a tus enemigos durante 3 turnos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BATTLE_CRY_DESCRIPTION_LVL3</LocID>       <Text>+15 de ánimo para tu ejército y -10 de ánimo a tus enemigos durante 4 turnos.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BATTLE_CRY_1</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Grito de guerra</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BATTLE_CRY_2</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Grito de guerra</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BATTLE_CRY_3</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Grito de guerra</color>]]></Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES</LocID>                    <Text>Mostrar recursos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION</LocID>        <Text>Revela recursos en la zona alrededor del comandante inmediatamente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL1</LocID>   <Text>Revela recursos básicos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL2</LocID>   <Text>Revela todos los recursos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL3</LocID>   <Text>Revela todos los recursos y núcleos de fusión.</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES</LocID>                    <Text>Mostrar tesoros</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION</LocID>        <Text>Revela objetos valiosos en la zona alrededor del comandante inmediatamente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL1</LocID>   <Text>Revela cofres.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL2</LocID>   <Text>Revela cofres y equipamiento.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_TREASURES_DESCRIPTION_LVL3</LocID>   <Text>Revela cofres, equipamiento y artefactos.</Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE</LocID>                   <Text>Horda temeraria</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION</LocID>       <Text>¡Muéstrate como tu comandante más fuerte!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION_LVL2</LocID>  <Text>Fuerza a los enemigos a cuestionarse si atacar o no.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_BARBARIAN_HORDE_DESCRIPTION_LVL3</LocID>  <Text>También engaña a la habilidad Centinela.</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY</LocID>                         <Text>Presa fácil</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION</LocID>             <Text>¡Finge que eres muy débil para engañar a tus enemigos y que te ataquen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL2</LocID>        <Text>Muestra al comandante como alguien débil.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EASY_PREY_DESCRIPTION_LVL3</LocID>        <Text>También engaña a la habilidad Centinela.</Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY</LocID>                      <Text>Invisibilidad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION</LocID>          <Text>Hace que el comandante sea invisible para los enemigos hasta que alguien se encuentre muy cerca.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION_LVL2</LocID>     <Text>La invisibilidad afecta a 4 casillas de los comandantes enemigos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_INVISIBILITY_DESCRIPTION_LVL3</LocID>     <Text>La invisibilidad afecta a 2 casillas de los comandantes enemigos.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_INVISIBILITY_2</LocID>                               <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Invisibilidad</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_INVISIBILITY_3</LocID>                               <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Invisibilidad</color>]]></Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD</LocID>                  <Text>Campo protector</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION</LocID>      <Text>Crea un campo protector que bloquea los efectos negativos de los objetos visitados y destrezas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_LVL2</LocID> <Text>Protege al comandante.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_LVL3</LocID> <Text>Protege a comandantes a 2 casillas del lanzador.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_PROTECTIVE_FIELD</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Campo protector</color>]]></Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_REINFORCEMENT</LocID>                     <Text>¡Refuerzos!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_REINFORCEMENT_DESCRIPTION</LocID>         <Text>Invoca unidades de un tipo específico disponibles en tus bases, y estas se unen directamente al ejército de tu comandante.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_REINFORCEMENT</LocID>                               <Text>¡Invocar refuerzos!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_REINFORCEMENT_TEXT</LocID>                          <Text><![CDATA[¡Escoge un tipo de unidad disponible! Convoca a las unidades disponibles en todas tus bases que no estén asignadas a un héroe acuartelado.\nPuedes invocar unidades con un nivel igual o superior a la <color=SOTS_COLOR_GOLD>Fuerza de destrezas</color> de tu comandante.]]></Text>  </GameDBLocalizedString>
+
+      
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE</LocID>                         <Text>Ojo de águila</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION</LocID>             <Text>Duplica el alcance de visión de tu comandante durante una fase.</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD</LocID>                       <Text>Nube sobrecargada</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION</LocID>           <Text>Coloca una nube artificial en el mapa. Si un comandante entra en contacto con ella, pierde movimiento y su ejército recibe daño en el siguiente combate.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_SUPERCHARGED_CLOUD_DAMAGE</LocID>                    <Text><![CDATA[Has atravesado una nube sobrecargada. Tus unidades sufren <color=SOTS_COLOR_RED>Estupefacción y Envenenamiento</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_ELECTRONIC_EQUIPMENT_DISABLED</LocID>                <Text><![CDATA[<color=SOTS_COLOR_RED>El equipo electrónico se ha desactivado.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ELECTRONIC_EQUIPMENT_DISABLED</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_RED>Un efecto de estado de este comandante ha desactivado el equipo electrónico.</color>]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EVACUATION</LocID>                        <Text>Evacuación</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EVACUATION_DESCRIPTION</LocID>            <Text>Teletransporta al comandante y su ejército a la base más cercana.</Text></GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_MIMIC</LocID>                             <Text>Mímica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_MIMIC_DESCRIPTION</LocID>                 <Text>Invoca un amigo holográfico independiente para poder estar en múltiples lugares simultáneamente. ¡No dejes que toque nada!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_MIMIC</LocID>                                                 <Text>¡Sé hacer mímica!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_ROOTS</LocID>                                        <Text><![CDATA[<color=SOTS_COLOR_RED>Te han mordido. Movimiento reducido.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MUSHROOM_SPORES</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Esporas inhaladas. El poder de combate aumenta.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_IN_TRAINING</LocID>                                  <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Entrenando. Gana EXP cada turno. Bonificación defensiva, tácticas.</color>]]></Text>  </GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

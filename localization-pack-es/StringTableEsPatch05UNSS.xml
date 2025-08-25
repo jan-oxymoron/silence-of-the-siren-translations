@@ -1,0 +1,56 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_PATCH_05_UNSS">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>EMPIRE_CAMPAIGN</LocID>                                              <Text>Campaña de la UNSS</Text></GameDBLocalizedString>
+            
+        <!--Units lore-->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_UPG_DESCRIPTION_V2</LocID>                           <Text>Tras la última gran derrota militar,\nel Líder Supremo empezó a meditar.\n\n¿Cómo devolver la grandeza a esta gente?\n¡Haciendo que escupan una lluvia ardiente!\n\n¿Y si la tripulación muere en el interior?\n¡Entonces arderán con orgullo y honor! </Text></GameDBLocalizedString>
+            
+        <!--Base - spawner lore   -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_UPG_LORE_V2</LocID>                         <Text>¡Era un topillo cuando entré en la fábrica de Liberadores, con un billete dorado en una mano y la mano del Líder Supremo en la otra! ¡Me obligó a trabajar allí durante treinta y dos años! Las máquinas se llevaron mi brazo y mis ojos. Por favor, ¡ayuda a un pobre mendigo!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MOVE_AGAIN_AFTER_A_KILL_N_TIMES</LocID>                 <Text><![CDATA[Otorga a tus unidades un <color=SOTS_COLOR_GOLD>movimiento extra</color> tras matar a un grupo de unidades enemigas. Hasta {1} vez/veces consecutiva(s).]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL2_V2</LocID>     <Text>La nube dura 8 turnos/fases o hasta que un comandante entra en ella.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL3_V2</LocID>     <Text>La nube dura 16 turnos/fases o hasta que un comandante entra en ella.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS</LocID>                      <Text>Efectos de ciclo de día/noche</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS_FULL</LocID>                 <Text>Completos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS_REDUCED</LocID>              <Text>Reducidos</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MOVEMENT_NODE_SMALL_DESCRIPTION_V2</LocID>                    <Text><![CDATA[Restaura <color=SOTS_COLOR_MOVEMENT>40 puntos de movimiento</color> una vez por ciclo. (El primero que lo encuentre, se lo lleva).]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_ASYNC_AI_PATHFINDING</LocID>                      <Text>Búsqueda de rutas asíncrona de IA</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_EASY_DESCRIPTION</LocID>                                  <Text>La dificultad más fácil te proporciona varias ventajas contra tus oponentes de IA.\n - Más recursos iniciales\n - Mejores ejércitos iniciales que los jugadores de IA\n - Ejércitos neutrales más débiles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_MEDIUM_DESCRIPTION</LocID>                                <Text>La dificultad normal. Los jugadores de la IA y tú tenéis las mismas condiciones.</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: gateways as in GATEWAY_BUTTON, the mechanic of fast travel between bases -->
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_HARD_DESCRIPTION</LocID>                                  <Text>Para quienes buscan un desafío.\n - Los jugadores de IA tienen más recursos iniciales y mayores ingresos.\n - Tus ejércitos iniciales son peores que los de los jugadores de IA.\nEjércitos neutrales más poderosos\n - Los jugadores de IA planifican con más antelación, contratan más comandantes, usan portales y son más agresivos.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_ACADEMY_DESCRIPTION</LocID>                         <Text>Desbloquea una serie de habilidades básicas que pueden aprender los comandantes que la visiten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_REMOTE_LEARNING_DESCRIPTION</LocID>                 <Text>Enseña habilidades a tus comandantes a distancia.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_SPECIALIZATION_DESCRIPTION</LocID>          <Text>Añade una habilidad seleccionada a la academia pagando una tasa.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_EXPLORE_DESCRIPTION</LocID>                 <Text>Desbloquea una selección de habilidades de trotamundos para aprender.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_PSY_DESCRIPTION</LocID>                     <Text>Desbloquea una selección de habilidades psicotrónicas para aprender.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_TECH_DESCRIPTION</LocID>                    <Text>Desbloquea una selección de habilidades tecnológicas para aprender.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_BIO_DESCRIPTION</LocID>                     <Text>Desbloquea una selección de habilidades biológicas para aprender.</Text></GameDBLocalizedString>
+
+
+            <!--_______________EA CHAOS MAP__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_CHAOS_ID</LocID>                                                  <Text>Caos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CHAOS_DESCRIPTION</LocID>                                         <Text>Un mapa rápido con un nuevo giro que recuerda ligeramente al género roguelike.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CHAOS_INTRO</LocID>                                               <Text>Hay una base en el centro que debes capturar y conservar. No te preocupes si no lo consigues a la primera, ¡siempre puedes reintentarlo!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CHAOS_VICTORY</LocID>                                             <Text>¡Enhorabuena, has ganado! Inténtalo de nuevo: tendrás otros ejércitos y la situación podría ser completamente distinta. ¿Te atreves?</Text>    </GameDBLocalizedString>
+
+        </LocalizedStrings>
+        
+    </GameDBStringTable>
+</Database>

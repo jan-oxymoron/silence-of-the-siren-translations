@@ -1,0 +1,246 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_COMBAT">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>COMBAT_DEFENDER</LocID>                                       <Text>Defensor</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_WIN</LocID>                                     <Text>¡Hurra!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_WIN_TEXT</LocID>                                       <Text>¡Has derrotado al enemigo!</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_LOST_HERO</LocID>                               <Text>¡Has perdido!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_LOST_HERO_TEXT</LocID>                                 <Text>Has sufrido una amarga derrota, y el comandante ha abandonado tu causa.</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT</LocID>                                 <Text>¿Retirarte?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_TEXT</LocID>                            <Text>¿Quieres huir del combate? Tu comandante escapará, pero dejarás atrás a tu ejército y todos los objetos que no tengas equipados.</Text>  </GameDBLocalizedString><!-- From Chris - Will the army that's left behind perish or be captured? Would be worth explaining here -->
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED</LocID>                               <Text>¡Retirada!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_TEXT</LocID>                          <Text>Tu comandante se ha retirado del combate. Ha conservado todo el equipo, habilidades y destrezas que llevaba equipados, pero ha perdido a todo su ejército.</Text>  </GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_PHOENIX</LocID>                         <Text>¿Retirada táctica?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_PHOENIX_TEXT</LocID>                    <Text>¿Quieres retirarte del combate? Gracias al artefacto Fénix, salvarás a tu comandante y a la mitad de tu ejército actual.</Text>  </GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX</LocID>                       <Text>¡Retirada táctica a la base!</Text>  </GameDBLocalizedString>
+
+                                                                                                                 <!-- TODO XP from this battle? Or levels/skills? -->
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX_TEXT</LocID>                  <Text>Tu comandante se ha retirado a la base vacía más próxima. Ha conservado la mitad de su ejército restante, todo el equipo y cualquier experiencia obtenida.</Text>  </GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX_PUB</LocID>                   <Text>¡Retirada táctica a la taberna!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX_PUB_TEXT</LocID>              <Text>Tu comandante se ha retirado a la taberna. Ha conservado la mitad de su ejército restante, todo el equipo y cualquier experiencia obtenida. Lo encontrarás en la taberna más cercana sin coste alguno. ¿Nos tomamos algo?</Text>  </GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_OPPONENT_RETREATED</LocID>                      <Text>¡Tu oponente se ha retirado!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_OPPONENT_RETREATED_TEXT</LocID>                 <Text>Ante su inminente muerte, ¡las unidades restantes de tu enemigo han salido por patas!</Text>  </GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>DIALOG_LEVEL_UP</LocID>                                       <Text>Nivel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_LEVEL_UP_TEXT</LocID>                                  <Text>«¡Ya me siento más fuerte!».\n¡{1} ha subido de nivel! Puedes mejorar sus habilidades y atributos.</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>NEW_LEVEL</LocID>                                             <Text>Nuevo nivel</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>COMBAT_OK</LocID>                                             <Text>VALE</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_CLOSE</LocID>                                          <Text>Cerrar</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_SCAVENGER</LocID>                               <Text>¡Los devoradores de almas tienen que comer!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_SCAVENGER_TEXT</LocID>                          <Text>Tu ejército ha conseguido algunos recursos.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RESOURCES</LocID>                               <Text>¡Esto no ha sido en vano!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RESOURCES_TEXT</LocID>                          <Text>El ejército que has derrotado guardaba un alijo de recursos.</Text></GameDBLocalizedString>
+            
+            <!-- For Chris: proofreading 2024-01 START-->
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_NEUTRAL_LOOT</LocID>                            <Text>Una recompensa por tu esfuerzo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_NEUTRAL_LOOT_TEXT</LocID>                       <Text>El ejército derrotado estaba custodiando algunas provisiones.</Text></GameDBLocalizedString>
+            <!-- For Chris: proofreading 2024-01 END-->
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_LOOT</LocID>                                    <Text>¡Tus enemigos estaban bien abastecidos!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_LOOT_TEXT</LocID>                               <Text>Tu comandante ha obtenido los siguientes objetos:</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_LOOT</LocID>                          <Text>¡Tu enemigo ha dejado caer algo!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_LOOT_TEXT</LocID>                     <Text>Tu enemigo, al retirarse, ha dejado atrás los siguientes objetos:</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>COMBAT_ROUND_N</LocID>                                        <Text>Ronda {1}</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>BUTTON_COMBAT_SPEED_1</LocID>                                 <Text>Velocidad de animación de combate: Normal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUTTON_COMBAT_SPEED_2</LocID>                                 <Text>Velocidad de animación de combate: Rápida</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUTTON_COMBAT_SPEED_3</LocID>                                 <Text>Velocidad de animación de combate: Muy rápida</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUTTON_SHOW_HEXES</LocID>                                     <Text>Mostrar/ocultar cuadrícula hexagonal</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_NEXT_ROUND</LocID>                             <Text>La ronda {int} ha comenzado.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_UNIT_SKIPPED</LocID>                                  <Text>{Stack} ha saltado su turno.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_UNIT_WAITED</LocID>                                   <Text>{Stack} está esperando.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_WON</LocID>                                    <Text>¡{Army} ha ganado!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_EVERYONE_DEAD</LocID>                          <Text>¡Han muerto todos!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_RESISTED</LocID>                               <Text>{Stack} ha resistido el efecto {GameDBEffect}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_IMMUNE</LocID>                                 <Text>{Stack} es inmune al efecto {GameDBEffect}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_DEFLECTED</LocID>                              <Text>{Stack} ha desviado el ataque.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_MORALE_EXTRA_TURN</LocID>                             <Text>Gracias a su alto nivel de ánimo, {Stack} puede seguir moviéndose.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_MORALE_LOSE_TURN</LocID>                              <Text>Debido a su bajo nivel de ánimo, {Stack} pierde su turno.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_BLEEDING</LocID>                               <Text>{Stack} está sangrando y recibe {float} de daño.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_BURNING</LocID>                                <Text>{Stack} está ardiendo y recibe {float} de daño.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_CORROSIVE</LocID>                              <Text>{Stack} se está oxidando y recibe {float} de daño.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_POISON</LocID>                                 <Text>{Stack} sufre envenenamiento y recibe {float} de daño.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_SHOCK</LocID>                                  <Text>{Stack} sufre Estupefacción y recibe {float} de daño.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE</LocID>                                 <Text>{CombatActor} ha atacado a {AttackTarget} infligiendo {int} de daño.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE_PERISHED</LocID>                        <Text>{CombatActor} ha atacado a {AttackTarget} infligiendo {int} de daño. Unidad(es) eliminada(s): {int}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE_CRITICAL</LocID>                        <Text>{CombatActor} ha atacado a {AttackTarget} infligiendo {int} de daño CRÍTICO.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE_CRITICAL_PERISHED</LocID>               <Text>{CombatActor} ha atacado a {AttackTarget} infligiendo {int} de daño CRÍTICO. {int} unidades han sido eliminadas.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE_RETALIATION</LocID>                     <Text>{CombatActor} ha contraatacado a {AttackTarget} infligiendo {int} de daño.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE_RETALIATION_PERISHED</LocID>            <Text>{CombatActor} ha contraatacado a {AttackTarget} infligiendo {int} de daño. Unidad(es) eliminada(s): {int}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE_RETALIATION_CRITICAL</LocID>            <Text>{CombatActor} ha contraatacado a {AttackTarget} infligiendo {int} de daño CRÍTICO.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE_RETALIATION_CRITICAL_PERISHED</LocID>   <Text>{CombatActor} ha contraatacado a {AttackTarget} infligiendo {int} de daño CRÍTICO. Unidad(es) eliminada(s): {int}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE_SHIELD</LocID>                          <Text>{CombatActor} ha atacado a {AttackTarget} infligiendo {int} de daño a su escudo. La resistencia restante del escudo es de {int}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE_SHIELD_DESTROYED</LocID>                <Text>{CombatActor} ha atacado a {AttackTarget} infligiendo {int} de daño a su escudo y lo ha destruido.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_MECHANIC_MEND</LocID>                          <Text>{CombatActor} ha curado a {Stack}, restaurando {int} puntos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_MECHANIC_MEND_REVIVED</LocID>                  <Text>{CombatActor} ha curado a {Stack}, restaurando {int} puntos. Unidad(es) que recibe(n) una segunda oportunidad: {int}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_REPAIR</LocID>                                 <Text>{CombatActor} ha reparado a {Stack}, restaurando {int} puntos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_REPAIR_REVIVED</LocID>                         <Text>{CombatActor} ha reparado a {Stack}, restaurando {int} puntos. Unidad(es) que recibe(n) una segunda oportunidad: {int}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_MORALE_BOOST</LocID>                           <Text>{CombatActor} ha usado Discurso motivacional en {Stack}, aumentando su ánimo en {int}.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_SPAWNED_SENTRY</LocID>                         <Text>{CombatActor} ha colocado una torreta centinela.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_GENERIC</LocID>                                <Text>{CombatActor} ha usado {GameDBHeroAbility}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_COOLDOWN_RECOVERY</LocID>                      <Text>{CombatActor} ha usado Restaurar tiempo de recuperación en {Stack}, reduciendo su tiempo de recuperación en {int} puntos.</Text></GameDBLocalizedString> <!-- TODO points? -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_CHAMELEON</LocID>                              <Text>{CombatActor} ha usado Camaleón en {Stack}, otorgándole invisibilidad durante {int} turnos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_CLONE</LocID>                                  <Text>{CombatActor} ha clonado a {Stack}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_RESURRECT</LocID>                              <Text>{CombatActor} ha usado Resurrección en {Stack}, reviviendo a {int} unidad(es).</Text></GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_WILDCARD</LocID>                               <Text>Comodín de {CombatActor} ha activado {GameDBHeroAbility}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_MIMIC</LocID>                                  <Text>{Stack} imita a {Stack}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_TURN_INTO_TURRET</LocID>                       <Text>{Stack} se ha transformado en una torreta.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_FORCE_FIELD</LocID>                            <Text>{CombatActor} ha creado un campo de fuerza de {int} PS sobre {Stack}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_REGENERATE</LocID>                             <Text>{CombatActor} ha restaurado {int} PS.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_REGENERATE_REVIVE</LocID>                      <Text>{CombatActor} ha restaurado {int} PS. Unidad(es) resucitada(s): {int}.</Text></GameDBLocalizedString>            
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_POSITIVE</LocID>                               <Text>{CombatActor} ha otorgado {GameDBStackStatusEffect} a {AttackTarget}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_NEGATIVE</LocID>                               <Text>{CombatActor} ha infligido {GameDBStackStatusEffect} a {AttackTarget}.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_TORPEDO_SHOT</LocID>                           <Text>{Stack} ha lanzado un torpedo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_PIRATE_CANNON_SHOT</LocID>                     <Text>{AttackTarget} ha lanzado un misil, apuntando a {Stack}.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_FIELD_PROMOTION</LocID>                        <Text>{Stack} ha conseguido un ascenso a {GameDBUnit}.</Text></GameDBLocalizedString>
+            
+            <!-- Status effects -->
+            <!-- TODO percentage of damage: should these mention "per turn" ? -->
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POISON_DAMAGE</LocID>                     <Text>Envenenamiento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POISON_DAMAGE_DESCRIPTION</LocID>         <Text>La unidad pierde el 2 % de su salud y su DAÑO se reduce un 20 %.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BURNING_DAMAGE</LocID>                    <Text>Quemadura</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BURNING_DAMAGE_DESCRIPTION</LocID>        <Text>La unidad pierde el 4 % de su salud y hay un 30 % de probabilidades de que pierda su turno.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_SHOCK_DAMAGE</LocID>                      <Text>Estupefacción</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_SHOCK_DAMAGE_DESCRIPTION</LocID>          <Text>La unidad pierde el 5 % de su salud y su INICIATIVA se reduce un 30 %.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BLEEDING_DAMAGE</LocID>                   <Text>Sangrado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BLEEDING_DAMAGE_DESCRIPTION</LocID>       <Text>La unidad pierde el 3 % de su salud.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_CORROSIVE_DAMAGE</LocID>                  <Text>Corrosión</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_CORROSIVE_DAMAGE_DESCRIPTION</LocID>      <Text>La unidad pierde el 3 % de su salud y su MOVIMIENTO se reduce un 30 %.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_DAZE</LocID>                              <Text>Aturdimiento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_DAZE_DESCRIPTION</LocID>                  <Text>La unidad no puede contraatacar.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_UNLIMITED_COUNTER</LocID>                 <Text>Contador ilimitado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_CHARGE</LocID>                            <Text>Carga</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BURY</LocID>                              <Text>Sumergirse</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_INVISIBLE</LocID>                         <Text>Invisibilidad</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_INVISIBLE_DESCRIPTION</LocID>             <Text>La unidad es invisible y no recibe ataques cuerpo a cuerpo o a distancia.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_MIMIC</LocID>                             <Text>Mímica</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_MIMIC_DESCRIPTION</LocID>                 <Text>La unidad imita a otra. Las formaciones mantienen el mismo total de PS.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_RANGED_COOLDOWN</LocID>                   <Text>Recuperación a distancia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_RANGED_COOLDOWN_DESCRIPTION</LocID>       <Text>Dispara solo una vez cada dos turnos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_MORALE_BOOST</LocID>                      <Text>Potenciación de ánimo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_MORALE_BOOST_DESCRIPTION</LocID>          <Text>Aumenta sus probabilidades de conseguir un turno adicional.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_LIGHTEN_ARMOR</LocID>                     <Text>Aumento de movimiento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_LIGHTEN_ARMOR_DESCRIPTION</LocID>         <Text>El movimiento aumenta.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BERSERKER</LocID>                         <Text>Furia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BERSERKER_DESCRIPTION</LocID>             <Text>Ataca a la unidad más cercana dos veces.</Text></GameDBLocalizedString> <!-- or also walls? -->
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_TURN_INTO_TURRET</LocID>                  <Text>Vigilancia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_TURN_INTO_TURRET_DESCRIPTION</LocID>      <Text>Se transforma en una torreta que dispara a todos los enemigos a su alcance con el 50 % de su daño original.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_FIELD_PROMOTION</LocID>                   <Text>Ascenso de campo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_FIELD_PROMOTION_DESCRIPTION</LocID>       <Text>La unidad recibe un ascenso temporal.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_WALKING_RATIONS</LocID>                   <Text>Drenaje de salud</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_WALKING_RATIONS_DESCRIPTION</LocID>       <Text>Sana a la unidad atacante.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_ARTIFICIAL_MUSCLE_FIBERS</LocID>          <Text>Aumento de daño</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_ARTIFICIAL_MUSCLE_FIBERS_DESCRIPTION</LocID> <Text>La unidad inflige más daño al golpear/disparar.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_SLOW</LocID>                              <Text>Reducción de movimiento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_SLOW_DESCRIPTION</LocID>                  <Text>Reduce el movimiento.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_ARMOR_INCRUSTATION</LocID>                <Text>Aumento de defensa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_ARMOR_INCRUSTATION_DESCRIPTION</LocID>    <Text>Aumenta la defensa.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_CLONE</LocID>                             <Text>Clon</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_CLONE_DESCRIPTION</LocID>                 <Text>Esta es una unidad clonada con solo 1 PS.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BLOCK_SPECIAL</LocID>                     <Text>Destreza especial bloqueada</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BLOCK_SPECIAL_DESCRIPTION</LocID>         <Text>Esta unidad no puede usar su destreza especial.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_LOOPHOLE</LocID>                          <Text>Fisura</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_LOOPHOLE_DESCRIPTION</LocID>              <Text>A esta unidad la protege una fisura. Su ataque a distancia aumenta.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_DEFLECT_LIMITED_HP</LocID>                <Text>Desviar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_DEFLECT_LIMITED_HP_DESCRIPTION</LocID>    <Text>La unidad desvía todos los ataques cuerpo a cuerpo y a distancia de vuelta al atacante.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_REGENERATE</LocID>                        <Text>Regeneración</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_REGENERATE_DESCRIPTION</LocID>            <Text>Regenera PS cada ronda.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_HYPNOTIZE</LocID>                         <Text>Hipnotización</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_HYPNOTIZE_DESCRIPTION</LocID>             <Text>La unidad no puede atacar.</Text></GameDBLocalizedString> <!-- can it move? -->
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_HACKED</LocID>                            <Text>Hackeo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_HACKED_DESCRIPTION</LocID>                <Text>La unida siempre ataca a su objetivo más cercano.</Text></GameDBLocalizedString> <!-- or also walls? -->
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_FORCE_FIELD</LocID>                       <Text>Campo de fuerza</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_FORCE_FIELD_DESCRIPTION</LocID>           <Text>Su escudo protector absorbe todo el daño hasta que sus propios PS se agoten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PIRATE_CANNON_TARGET</LocID>              <Text>Blanco de misil</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PIRATE_CANNON_TARGET_DESCRIPTION</LocID>  <Text>La unidad de vuelve el objetivo de un misil.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>REMAINING_UNITS</LocID>                                       <Text>Unidades restantes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>REMAINING_HEALTH</LocID>                                      <Text>Salud</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>SPECIAL_ON_COOLDOWN</LocID>                                   <Text>En recuperación:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SPECIAL_ON_END_OF_TURN</LocID>                                <Text>Se lanza automáticamente después del turno de esta unidad (no después de esperar):</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>PERKS</LocID>                                                 <Text>Ventajas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUFFS</LocID>                                                 <Text>Potenciadores</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DEBUFFS</LocID>                                               <Text>Debilitadores</Text></GameDBLocalizedString>
+                                                                                                                 
+            <GameDBLocalizedString>         <LocID>RIGHT_CLICK_FOR_UNIT_INFO</LocID>                             <Text>Pulsa clic derecho para ver los detalles de la unidad.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUTTON_SHOW_LOG</LocID>                                       <Text>Mostrar/ocultar registro de combate</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_LOST</LocID>                                    <Text>¡Qué mala pata!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_LOST_TEXT</LocID>                                      <Text>Tus unidades han sufrido una amarga derrota.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>FAST_CAST_HINT</LocID>                                        <Text>Haz clic en las destrezas para añadirlas a tu panel de lanzamiento rápido.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_FAST_CAST</LocID>                                     <Text>Has añadido la destreza de este comandante al panel de lanzamiento rápido.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUTTON_ALL_COMBAT_ABILITIES</LocID>                           <Text>Todas las destrezas de combate</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUTTON_EDIT_FAST_CAST</LocID>                                 <Text>Editar lanzamientos rápidos</Text>  </GameDBLocalizedString>
+                     
+            <GameDBLocalizedString>         <LocID>COMBAT_NEXT_ROUND_STARTS</LocID>                              <Text>¡Comienza la siguiente ronda!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_BATTLE_ARENA_ROUND_1</LocID>                           <Text>¡Ronda 1 ganada!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BATTLE_ARENA_ROUND_1_TEXT</LocID>                      <Text>Has conseguido algunos recursos:</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TACTICS</LocID>                                               <Text>Fase táctica</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>END_TACTICS</LocID>                                           <Text>Terminar fase táctica</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_VORTEX_MINE</LocID>                        <Text>Mina vórtice</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_MOLE_LOOPHOLE</LocID>                      <Text>Escotilla</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_MOLE_LOOPHOLE_UPG</LocID>                  <Text>Escotilla</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_MOLE_GATE</LocID>                          <Text>Puerta</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_MOLE_WALL</LocID>                          <Text>Muro</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TILE_OBJECT_MOLE_WALL_UPG</LocID>                      <Text>Muro fortificado</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EFFECTS_LAST_FOR_X_TURNS</LocID>                              <Text>El efecto dura {1} turno(s).</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_OVER_HOT_SEAT</LocID>                           <Text>¡La batalla ha terminado!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_OVER_HOT_SEAT_TEXT</LocID>                             <Text>¡Victoria triunfal para {1}! El comandante de {2} ha mordido el polvo.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_CAN_MOVE</LocID>                                 <Text>Esta unidad aún puede moverse esta ronda.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_CAN_RETALIATE</LocID>                            <Text>Esta unidad aún puede contraatacar esta ronda.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_CAN_RETALIATE_MORE</LocID>                       <Text>Esta unidad aún puede contraatacar (más de una vez) esta ronda.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>RETRY_BATTLE</LocID>                                          <Text>¡Reintentar batalla!</Text></GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,191 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_BASES">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>UNITS_AVAILABLE</LocID>                                  <Text>Unidades disponibles: </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>BASE_STRUCTURES</LocID>                                  <Text>Estructuras</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILD_FOR</LocID>                                        <Text>Construir por </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIRE</LocID>                                             <Text>Contratar {1} por </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIRE_BUTTON</LocID>                                      <Text>Contratar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TAKE_BUTTON</LocID>                                      <Text>Tomar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NO_SPACE_IN_YOUR_ARMY</LocID>                            <Text>¡No hay espacio en tu ejército!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>RECRUITMENT_CENTER</LocID>                               <Text>Centro de reclutamiento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIRE_MAX</LocID>                                         <Text>Contratar máx.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIRE_ALL</LocID>                                         <Text>Contratar todo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TAKE_ALL</LocID>                                         <Text>Tomar todo</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HIRE_UNIT_PANEL</LocID>                                  <Text>Contratar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIRE_UNIT_PANEL_CUSTOM</LocID>                           <Text>Personalizado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIRE_UNIT_PANEL_ALL</LocID>                              <Text>Todo</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARMY_WONT_FIT</LocID>                                    <Text>Tu ejército no cabe</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNITS_GROW</LocID>                                       <Text>UNIDADES (+CRECIMIENTO):</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EXIT_BASE</LocID>                                        <Text>Volver al mapa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SHOW_HIDE_UI</LocID>                                     <Text>Mostrar/ocultar IU de control de bases</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>RESOURCE_CASH_GENERATION</LocID>                         <Text><![CDATA[<color=SOTS_COLOR_GOLD>Monedas de aura</color> generadas por fase en esta base.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_A_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Limerita</color> generada por fase en esta base.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_B_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_ALLOYS>Aleación</color> generada por fase en esta base.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_C_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_BIOMASS>Biomasa</color> generada por fase en esta base.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_D_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Fulgor</color> generado por fase en esta base.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATISTICS_HEADING</LocID>                               <Text>Estadísticas de jugador</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_ARMY_STRENGTH</LocID>                   <Text>Fuerza del ejército</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_NUMBER_OF_BASES</LocID>                 <Text>Número de bases</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_NUMBER_OF_HEROES</LocID>                <Text>Número de comandantes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_NUMBER_OF_MINES</LocID>                 <Text>Número de minas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_CASH</LocID>                            <Text>Cantidad de monedas de aura</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_CASH_INCOME</LocID>                     <Text>Producción de monedas de aura</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_RESOURCES</LocID>                       <Text>Cantidad de recursos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_RESOURCE_INCOME</LocID>                 <Text>Producción de recursos</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>GATEWAY_BUTTON</LocID>                                   <Text>Portal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_TRAVEL_FOR</LocID>                               <Text>Viajar por</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_ARMY_WONT_FIT</LocID>                            <Text>Tu ejército no cabe</Text></GameDBLocalizedString>
+            <!--GameDBLocalizedString>         <LocID>GATEWAY_NO_GATEWAY</LocID>                               <Text>No Gateway</Text></GameDBLocalizedString-->
+            <GameDBLocalizedString>         <LocID>GATEWAY_NOT_ENOUGH_RESOURCES</LocID>                     <Text>Faltan recursos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TRAVEL</LocID>                                           <Text>Viajar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SEND</LocID>                                             <Text>Enviar</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HEADING_TRANSMOGRIFIER</LocID>                           <Text>Transmogrificador</Text></GameDBLocalizedString> <!-- TODO building name in the panel instead -->
+            <GameDBLocalizedString>         <LocID>TRANSMOGRIFY_BUTTON</LocID>                              <Text>Transmogrifar</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ACADEMY_HEADING</LocID>                                  <Text>Academia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_ABILITIES</LocID>                                <Text>Destrezas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_REMOTE_LEARNING</LocID>                          <Text>Aprendizaje remoto</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_BUY_ABILITIES</LocID>                            <Text>Comprar destrezas</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HEADING_BASES</LocID>                                    <Text>BASES</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_CONTROLS</LocID>                                 <Text>CONTROLES</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_MINIMAP</LocID>                                  <Text>MINIMAPA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_AI_TURN</LocID>                                  <Text><![CDATA[Turno del <b>enemigo</b>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILD_UPGRADE_TO_HAVE_THREE_HEROES</LocID>               <Text>Compra {1} para añadir un tercer comandante a la selección.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>TOOLTIP_HEADING_UPGRADE</LocID>                          <Text>MEJORAR UNIDADES</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_CAN_UPGRADE</LocID>                              <Text>Mejorar a {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_UPGRADE_ONLY_RESOURCES_FOR</LocID>          <Text>Tus recursos solo te llegan para mejorar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_UPGRADE_NO_BUILDING</LocID>                 <Text>Primero necesitas mejorar el Generador.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_INFO_SPLIT</LocID>                          <Text>Dividir esta formación de unidades y/o ver sus detalles. Atajo: clic derecho en el espacio de la unidad.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HEADING_BASE_HIRE_HEROES</LocID>                         <Text>Contratar comandantes</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BASE_CORE</LocID>                                        <Text>Núcleo de la base</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_BUILD</LocID>                               <Text>Comprar y mejorar \nAtajo por defecto: [B]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_HIRE_UNITS</LocID>                          <Text>Contratar unidades \nAtajo por defecto: [R]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_HIRE_HEROES</LocID>                         <Text>Contratar comandantes \nAtajo por defecto: [C]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRADE</LocID>                               <Text>Intercambiar recursos \nAtajo por defecto: [T]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_ACADEMY</LocID>                             <Text>Academia \nAtajo por defecto: [A]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_STATISTICS</LocID>                          <Text>Estadísticas \nAtajo por defecto: [S]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_GATEWAY</LocID>                             <Text>Viajar usando el portal \nAtajo por defecto: [G]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_GATEWAY_NO_HERO</LocID>                     <Text>No hay ningún comandante disponible para viajar por el portal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRANSMOGRIFY</LocID>                        <Text>Transformar unidades \nAtajo por defecto: [X]</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BASE_BUILD</LocID>                                       <Text>Puedes construir este edificio por:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_UPGRADE</LocID>                                     <Text>Puedes mejorar este edificio por:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TOOLTIP_HERO_MEETING</LocID>                             <Text>Abre el panel de reunión de comandantes para intercambiar objetos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_HERO_CARD</LocID>                                <Text>Abre la tarjeta del comandante para ver su inventario y más información.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_SWITCH_ARMIES</LocID>                            <Text>Cambiar ejércitos: comandantes acuartelados/no acuartelados</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_MERGE_UP</LocID>                                 <Text>Fusionar unidades en el ejército superior. (Los comandantes permanecen en sus espacios).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_MERGE_DOWN</LocID>                               <Text>Fusionar unidades en el ejército inferior. (Los comandantes permanecen en sus espacios).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_MANIPULATION</LocID>                        <Text>Clic izquierdo para coger esta formación; clic derecho para dividirla.\nAl moverla, haz clic derecho en un espacio coincidente para colocar las unidades una por una.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNDO_ARMY_CHANGES</LocID>                        <Text>Deshacer cambios de unidad: usa esto cuando hayas gastado más puntos de movimiento en transferencias de unidades de lo previsto por error.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TOOLTIP_THIS_TURN</LocID>                                <Text>Ya has construido un edificio en este turno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_OT_ENOUGH_RESOURCES</LocID>                      <Text>Te faltan recursos.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_MISING_DEPENDENCIES</LocID>                      <Text>No cumples los prerrequisitos para este edificio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_MISING</LocID>                                   <Text>Requiere</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_NO_FREE_SLOT</LocID>                             <Text>No hay espacios libres.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_FORBIDDEN_BUILDING</LocID>                       <Text>En esta base no se puede construir esta estructura.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>TOOLTIP_GARRISONED_HERO</LocID>                          <Text>Hay un comandante acuartelado en esta base.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UPGRADED_UNIT</LocID>                            <Text>Esta unidad ya se ha mejorado.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_SWITCH_UPGRADED_UNIT</LocID>                     <Text>Alterna entre las versiones básica y mejorada de esta unidad.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_UNIT_INFO</LocID>                           <Text>Haz clic para ver los detalles de la unidad.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>BASE_PREREQUISITES</LocID>                               <Text>Prerrequisitos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_PREREQUISITES_COMPLETE</LocID>                      <Text>Todo listo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_REQUIRES_FULL_BASE</LocID>                          <Text>Requiere una base completa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_PREREQUISITES_FORBIDDEN</LocID>                     <Text>No se permite en esta base.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HEADING_TRADING</LocID>                                  <Text>Puesto de intercambio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONVERSION_RATE</LocID>                                  <Text>Tasa de conversión:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AMOUNT</LocID>                                           <Text>Cantidad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUY</LocID>                                              <Text>Comprar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SELL</LocID>                                             <Text>Vender</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNAVAILABLE_ABILITIES</LocID>                            <Text>No disponible</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>REMOTE_LEARNING_INFO</LocID>                             <Text>Selecciona un comandante y escoge una destreza que transmitirle.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>REMOTE_LEARNING_NO_EFFECT</LocID>                        <Text>No tienes a ningún comandante que pueda aprender algo en esta academia.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>NOT_AVAILABLE_RESOURCES</LocID>                          <Text>Faltan recursos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NOT_AVAILABLE_DEPENDENCIES</LocID>                       <Text>Faltan dependencias</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NOT_AVAILABLE_THIS_ROUND</LocID>                         <Text>No disponible esta ronda</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NOT_AVAILABLE_ALREADY_BUILT</LocID>                      <Text>Ya has construido esto.</Text>  </GameDBLocalizedString>
+            
+            <!-- Tooltips for base list in the right UI panel on the world map -->
+            <GameDBLocalizedString>         <LocID>BASE_CAN_BUILD</LocID>                                   <Text>Hay mejoras disponibles.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_CAN_NOT_BUILD</LocID>                               <Text>Necesitas más recursos para construir algo aquí.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_ALREADY_BUILT</LocID>                               <Text>No puedes mejorar esta base en este momento.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_COMPLETE</LocID>                                    <Text>Has capturado esta base.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_CAN_RECRUIT</LocID>                                 <Text>Puedes reclutar a las unidades de aquí.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_CAN_NOT_RECRUIT</LocID>                             <Text>No hay ninguna unidad que reclutar en este momento.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TOOLTIP_ACADEMY_INFO</LocID>                             <Text>Mostrar la ventana de tutorial de la academia.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_ABOUT_THE_ACADEMY</LocID>                        <Text>Sobre la academia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_SKILLS</LocID>                              <Text><![CDATA[- Los comandantes tienen que escoger una de las siguientes <color=SOTS_COLOR_GOLD>habilidades</color> al subir de nivel para poder acceder a las <color=SOTS_COLOR_GOLD>destrezas de comandante</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_SKILL_LEVELS</LocID>                        <Text><![CDATA[- Al subir de nivel estas habilidades, pueden acceder a <color=SOTS_COLOR_GOLD>destrezas de comandante más poderosas</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_LEARNING</LocID>                            <Text><![CDATA[- Los comandantes aprenden destrezas automáticamente al visitar una base que cuente con una <color=SOTS_COLOR_GOLD>academia</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_ABILITIES</LocID>                           <Text><![CDATA[- Las academias de cada base ofrecen una <color=SOTS_COLOR_GOLD>selección aleatoria de destrezas</color>.\nPara añadir destrezas más poderosas para cada una de las habilidades, puedes construir <color=SOTS_COLOR_GOLD>facultades</color> especializadas. La cantidad permitida se determina por el número de <color=SOTS_COLOR_GOLD>ranuras</color>, que cambian según la facción.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>GATEWAY_HEROES_TO_BASES</LocID>                          <Text>Trasladar comandante entre bases.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_UNITS_TO_OUTPOSTS</LocID>                        <Text>Trasladar unidades a puestos de avanzada.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_WHO</LocID>                                      <Text>¿Quién quiere viajar?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_WHERE</LocID>                                    <Text>¡Escoge una base a la que viajar!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_NOBODY</LocID>                                   <Text>Aquí no hay ningún comandante.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_NOWHERE</LocID>                                  <Text>No tienes más bases.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_PLACE_A_UNIT</LocID>                             <Text>¡Coloca una unidad!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_OUTPOST</LocID>                                  <Text>¡Escoge un puesto de avanzada!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_ONE_STACK_PER_ROUND</LocID>                      <Text>Solo puedes enviar una formación de unidades por ronda.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>NO_BASES</LocID>                                         <Text>No tienes bases.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>GATEWAY_TRAVEL_COST</LocID>                              <Text>Coste del viaje</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILT</LocID>                                            <Text>Construido</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILD_FOR_ONE_FUSION_CORE</LocID>                        <Text><![CDATA[Puedes construir cualquier edificio gastando un <color=SOTS_COLOR_FUSION_CORE>núcleo de fusión</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILD_FOR_ONE_FUSION_CORE_CONFIRMATION</LocID>           <Text><![CDATA[¿Quieres gastar un <color=SOTS_COLOR_FUSION_CORE>núcleo de fusión</color> para construir esto?]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNITS_HIRE_ALL_HEADING</LocID>                           <Text>Contratar todas las unidades disponibles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_HIRE_ALL</LocID>                                   <Text>Puedes comprar todas las unidades por:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_NOTHING_TO_HIRE</LocID>                            <Text>No hay unidades disponibles en este momento.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_CAN_NOT_HIRE_ALL</LocID>                           <Text>No tienes suficientes recursos o espacios de ejército libres en la base para comprar a todas las unidades:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNITS_HIRE_FROM_WEAKEST</LocID>                          <Text>Contratar tantas unidades como puedas, empezando desde las más débiles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_HIRE_FROM_STRONGEST</LocID>                        <Text>Contratar tantas unidades como puedas, empezando desde las más fuertes</Text>  </GameDBLocalizedString>
+
+            <!-- Updates before EA -->
+            <GameDBLocalizedString>         <LocID>BASE_HIRE_SLAVES</LocID>                                <Text>Campamento de esclavos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_HIRE_SLAVES</LocID>                        <Text>Contratar esclavos como unidades adicionales \nAtajo por defecto: [X]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_HERO_HAS_ALREADY_LEARNED_A_SKILL</LocID>           <Text>¡Este comandante ya ha aprendido una habilidad aquí!</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRADE_CONSUMABLES</LocID>                  <Text>Intercambiar consumibles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRADE_EQUIPMENT</LocID>                    <Text>Intercambiar equipo</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,207 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_PATCH_03">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Note: same value, this is from an enum -->
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_LEARN_ABILITY_EACH_CYCLE</LocID>            <Text><![CDATA[El comandante puede aprender una destreza aleatoria hasta el <color=SOTS_COLOR_UPGRADE>nivel {1}</color> al comienzo de cada fase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_COMBAT_DESCRIPTION</LocID>                <Text><![CDATA[Cada punto de poder de combate aumenta la <color=SOTS_COLOR_UPGRADE>defensa</color> de tus unidades en <color=SOTS_COLOR_UPGRADE>1</color> y el <color=SOTS_COLOR_ATTACK>daño</color> un <color=SOTS_COLOR_ATTACK>10 %</color>.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_AT_BASE</LocID>                                     <Text>en</Text>  </GameDBLocalizedString>
+
+            <!--   Missing description fot Mortar grenade     Assets\StreamingAssets\ModulePirates\Database\Localization\StringTableEnPirates.xml-->
+            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_PROJECTILE</LocID>   <Text>Granada de mortero</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_PROJECTILE_DESCRIPTION</LocID>   <Text>¡¿Con retrasos en la hipoteca, un bulto raruno en el cuello y chirridos provenientes del motor?! ¡La vida es un sinfín de situaciones peliagudas! Aunque esta deberías ignorarla. ¡Cuanto antes!</Text></GameDBLocalizedString>
+          
+           <!--   Missing description fot Torpedo - projectile    Assets/StreamingAssets/ModuleMoles/Database/Localization/StringTableEnMoles.xml-->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_PROJECTILE_DESCRIPTION</LocID>    <Text>Algunas no terminan de explotar y convierten campos de batalla en campos de minas. Así pasa, que diez años más tarde sales de paseo con tu mono genéticamente mejorado y ¡BUM! ¡La correa ya no tiene nada atado! ¡Cómo son esos fosorianos!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_ARCHIVE</LocID>                            <Text>Archivo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_ARCHIVE_ENABLED</LocID>                         <Text>Archivo de autoguardado activado</Text>  </GameDBLocalizedString>
+
+            
+            <!--Equipment redesign-->
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_PLANETFALL_BEACON_RESOURCES_DESCRIPTION_V2</LocID>        <Text><![CDATA[Un gran montón de recursos, los que menos tiene el jugador, ha caído cerca de la ubicación de tu comandante. (En caso de que la cantidad sea igual en varios recursos, se escogerá aleatoriamente).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE_DESCRIPTION_V3</LocID>                         <Text><![CDATA[Aumenta el atributo de <color=SOTS_COLOR_GOLD>experiencia en exploración</color> del comandante en<color=SOTS_COLOR_GOLD> 3</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SIDEARM_DESCRIPTION_V3</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_RED>Daño de contraataque</color> aumentado un 50 %.]]></Text>  </GameDBLocalizedString>
+            
+            
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_RANDOM_ABILITY</LocID>                      <Text>Consumible de destreza aleatoria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_RANDOM_ABILITY_LEARNING_DESCRIPTION</LocID> <Text>El comandante aprenderá la destreza aleatoria.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NO_PARENT_SKILL</LocID>                                   <Text><![CDATA[<color=SOTS_COLOR_RED>No tienes la habilidad adecuada para aprender la destreza.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_CONSUMABLE_HERO_LEARNED_ABILITY</LocID>               <Text>¡El comandante ha aprendido una nueva destreza!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_CONSUMABLE_HERO_LEARNED_ABILITY_TEXT</LocID>          <Text>{1} ha aprendido {2} al usar el consumible de destreza.</Text></GameDBLocalizedString>
+            
+            
+            <GameDBLocalizedString>         <LocID>HERO_TOOLTIP_LURE_INFORMATION</LocID>                                <Text><![CDATA[Peligro <color=SOTS_COLOR_GOLD>influenciado</color> por el <color=SOTS_COLOR_GOLD>señuelo</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_TOOLTIP_HOLLOW_SCARECROW_INFORMATION</LocID>                    <Text><![CDATA[Peligro <color=SOTS_COLOR_GOLD>influenciado</color> por el <color=SOTS_COLOR_GOLD>holograma de espantapájaros</color>.]]></Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ARTIFACT_MOONWALKER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Un artefacto.\nPor la <color=SOTS_COLOR_GOLD>noche</color>, <color=SOTS_COLOR_GOLD>aumentará</color> los atributos del comandante<color=SOTS_COLOR_GOLD>en 7</color>. Durante el <color=SOTS_COLOR_GOLD>día</color> los atributos del comandante <color=SOTS_COLOR_GOLD>volverán a la normalidad</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DEEP_SCANNER_DESCRIPTION_V2</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Revela minas, vetas y recursos</color> en una amplia zona <color=SOTS_COLOR_GOLD>alrededor del comandante</color> a través de la niebla de guerra.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_ENCOURAGEMENT_WHIP_DESCRIPTION_V2</LocID>                  <Text><![CDATA[Permite el <color=SOTS_COLOR_GOLD>uso gratuito de la destreza Prisa</color>. También <color=SOTS_COLOR_GOLD>concederá la destreza Prisa</color> para los comandantes sin la habilidad Trotamundos o que no hayan aprendido la destreza Prisa.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH_DESCRIPTION_V3</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_GOLD>Aumenta</color> la <color=SOTS_COLOR_GOLD>visión</color> de los comandantes hasta el final de la ronda y <color=SOTS_COLOR_GOLD>revela los atributos</color> de los comandantes enemigos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MAGNESIUM_TORCH</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Aumenta</color> el <color=SOTS_COLOR_GOLD>alcance</color> de exploración. <color=SOTS_COLOR_GOLD>Revela</color> los <color=SOTS_COLOR_GOLD>atributos</color> de los comandantes enemigos.(Antorcha)]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DUST_FOG</LocID>                                              <Text>Niebla de polvo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SPORE_FOG</LocID>                                             <Text>Niebla de esporas</Text>  </GameDBLocalizedString>
+
+
+            <!--Equipment redesign-->
+
+            <!--Skills and attributes redesign-->
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_ENGINEER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Añade una recarga diaria de <color=SOTS_COLOR_ENERGY>10 puntos de energía</color> con cada nivel de habilidad.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER1_V2</LocID>                                    <Text><![CDATA[Recarga <color=SOTS_COLOR_ENERGY>10 puntos de energía</color> diariamente.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER2_V2</LocID>                                    <Text><![CDATA[Recarga <color=SOTS_COLOR_ENERGY>20 puntos de energía</color> diariamente.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER3_V2</LocID>                                    <Text><![CDATA[Recarga <color=SOTS_COLOR_ENERGY>30 puntos de energía</color> diariamente.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Añade <color=SOTS_COLOR_MOVEMENT>4 puntos de movimiento</color> permanentemente + el atributo <color=SOTS_COLOR_GOLD>Experiencia en exploración</color> con cada nivel de habilidad.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER1_V2</LocID>                                    <Text><![CDATA[Añade <color=SOTS_COLOR_MOVEMENT>4 puntos de movimiento</color> permanentemente + el atributo <color=SOTS_COLOR_GOLD>Experiencia en exploración</color>.\nEncontrar a cualquier comandante aliado restaura <color=SOTS_COLOR_MOVEMENT>2 puntos de movimiento</color> una vez por fase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER2_V2</LocID>                                    <Text><![CDATA[Añade <color=SOTS_COLOR_MOVEMENT>8 puntos de movimiento</color> permanentemente + el atributo <color=SOTS_COLOR_GOLD>Experiencia en exploración</color>.\nEncontrar a cualquier comandante aliado restaura <color=SOTS_COLOR_MOVEMENT>4 puntos de movimiento</color> una vez por fase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER3_V2</LocID>                                    <Text><![CDATA[Añade <color=SOTS_COLOR_MOVEMENT>12 puntos de movimiento</color> permanentemente + el atributo <color=SOTS_COLOR_GOLD>Experiencia en exploración</color>.\nEncontrar a cualquier comandante aliado restaura <color=SOTS_COLOR_MOVEMENT>6 puntos de movimiento</color> una vez por fase.]]></Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_COLLECTOR</LocID>                                       <Text><![CDATA[El <color=SOTS_COLOR_GOLD>coste de activación</color> del equipamiento y los artefactos se reduce un <color=SOTS_COLOR_ENERGY>{1} %</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_COLLECTOR_DESCRIPTION_V2</LocID>                          <Text>Añade una ranura adicional para artefactos o equipo con cada aumento de nivel de habilidad. Permite recoger objetos de zonas peligrosas cercanas a ejércitos neutrales sin provocar una batalla. El coste de activación de los objetos se reduce un 10 % con cada nivel.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_TRACKER_DESCRIPTION_V2</LocID>                            <Text><![CDATA[Reduce la penalización al moverse por terreno accidentado. El comandante también obtiene algunas ventajas en función de su nivel de habilidad.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_TRAILS</LocID>                                  <Text><![CDATA[Puede ver las huellas de los <color=SOTS_COLOR_GOLD>últimos 20 pasos</color> de los <color=SOTS_COLOR_GOLD>comandantes enemigos</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_TURRETS</LocID>                                 <Text><![CDATA[+15 % de probabilidad de obtener un <color=SOTS_COLOR_FUSION_CORE>núcleo de fusión</color> primordial al recoger.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_FUSION_CORES</LocID>                            <Text><![CDATA[Las <color=SOTS_COLOR_GOLD>torretas primordiales y otras defensas</color> <color=SOTS_COLOR_GOLD>ignoran</color> al comandante.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SCOUT_DESCRIPTION_V2</LocID>                              <Text><![CDATA[Revela información de ejércitos enemigos. Al comandante no le afectan las trampas ni los peligros, visitar el primer edificio (objeto) cada fase restaura <color=SOTS_COLOR_MOVEMENT>30 puntos de movimiento</color> y no cuesta ningún punto intercambiar ejércitos. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORATION_XP_BOOST</LocID>                            <Text><![CDATA[Aumenta los <color=SOTS_COLOR_XP>puntos de experiencia</color> de exploración en un <color=SOTS_COLOR_GOLD>{1} %</color>.]]></Text>  </GameDBLocalizedString>
+
+            <!--Skills and attributes redesign-->
+
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_FULLSCREEN</LocID>                                   <Text>Modo pantalla completa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_FULLSCREEN_ON</LocID>                                <Text>Pantalla completa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_WINDOWED</LocID>                                     <Text>Modo ventana</Text></GameDBLocalizedString>
+
+            <!--Detailed tooltips for unit attributes-->
+            <GameDBLocalizedString>         <LocID>UNIT_HPPOOL_DESCRIPTION</LocID>                                      <Text><![CDATA[Número máximo de <color=SOTS_COLOR_GOLD>puntos de golpe</color> de cada unidad en esta agrupación.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_ATTACK_DESCRIPTION</LocID>                                      <Text><![CDATA[El número de ataque de la unidad indica cuánto <color=SOTS_COLOR_GOLD>daño</color> inflige cuando ataca a otras unidades o estructuras.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRITICAL_DESCRIPTION</LocID>                                    <Text><![CDATA[Probabilidad de infligir un {1} % de daño.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_DEFENSE_DESCRIPTION</LocID>                                     <Text><![CDATA[La defensa de la unidad sirve para <color=SOTS_COLOR_GOLD>reducir el daño (actúa en porcentaje)</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOVE_DESCRIPTION</LocID>                                        <Text><![CDATA[Alcance de movimiento de la unidad en hexágonos.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_INITIATIVE_DESCRIPTION</LocID>                                  <Text><![CDATA[La iniciativa determina el orden en el que se mueven las unidades. Cuando las unidades tienen la misma iniciativa, las unidades atacantes se mueven primero.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_RESIST_DESCRIPTION</LocID>                                      <Text><![CDATA[Probabilidad de <color=SOTS_COLOR_GOLD>resistir efectos negativos</color> cuando le golpean otras unidades o destrezas de los comandantes.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MORALE_DESCRIPTION</LocID>                                      <Text><![CDATA[El efecto de esta unidad en el ánimo de todo el ejército.]]></Text></GameDBLocalizedString>
+
+            <!--Scenario player configuration UI-->
+            <GameDBLocalizedString>         <LocID>UNIT_ATTRIBUTE_MODIFIERS_DESCRIPTION</LocID>                         <Text><![CDATA[Los números son:\n<color=SOTS_COLOR_GOLD>Valor modificado por los atributos, las habilidades y el equipamiento del comandante</color> / valor base de la unidad.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TEAM</LocID>                                                         <Text>Equipo</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>GIFT_RESOURCES</LocID>                                               <Text>Recursos de regalo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GIFT</LocID>                                                         <Text>Regalo</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ADVANCED</LocID>                                                     <Text>Avanzado</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MAP_SIZE</LocID>                                                     <Text>Tamaño de mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SIZE_SMALL</LocID>                                               <Text>Pequeño</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SIZE_MEDIUM</LocID>                                              <Text>Mediano</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SIZE_LARGE</LocID>                                               <Text>Grande</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MINIMAP</LocID>                                                      <Text>Minimapa</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MINIMAP_HIDE</LocID>                                                 <Text>Esconder minimapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MINIMAP_STARTING_LOCATIONS</LocID>                                   <Text>Mostrar las bases de inicio del jugador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MINIMAP_ALL</LocID>                                                  <Text>Mostrar minimapa completo</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_BASE_FACTION</LocID>                               <Text>Cambiar facción</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_CRUSADERS_RENEWED_SPIRIT</LocID>                          <Text>Espíritu renovado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_CRUSADERS_RENEWED_SPIRIT_DESCRIPTION</LocID>              <Text>Habilidad especial de los Vástagos del Origen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MOVEMENT_REFILLED_AFTER_VICTORY</LocID>                 <Text><![CDATA[Vencer en una batalla restaura <color=SOTS_COLOR_MOVEMENT>{1} puntos de movimiento</color>.]]></Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_RAIDEN</LocID>                                            <Text>Raiden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_RAIDEN_DESCRIPTION</LocID>                                <Text><![CDATA[Aumenta los <color=SOTS_COLOR_ENERGY>puntos de energía</color> del comandante en cada nivel. También aumenta el efecto del consumible Célula de recarga.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENERGY_POOL_INCREASE</LocID>                            <Text><![CDATA[¡Aumenta los <color=SOTS_COLOR_ENERGY>puntos de energía</color> del comandante en un <color=SOTS_COLOR_GOLD>{1} %</color>!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_RECHARGE_CELL_BONUS</LocID>                             <Text><![CDATA[¡Aumenta el efecto del <color=SOTS_COLOR_ENERGY>consumible Célula de recarga</color> en un <color=SOTS_COLOR_GOLD>{1} %</color>!]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_MOLES_BLOODLUST</LocID>                                   <Text>Ansia de sangre</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_MOLES_BLOODLUST_DESCRIPTION</LocID>                       <Text>Habilidad especial de los comandantes fosorianos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_CHANCE_TO_MOVE_AGAIN_AFTER_A_KILL</LocID>               <Text><![CDATA[Otorga a tus unidades un <color=SOTS_COLOR_GOLD>{1} % de probabilidad de moverse de nuevo</color> tras matar a un grupo de unidades enemigas.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_PIRATES_FIELD_REPAIR</LocID>                              <Text>Reparación de campo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_PIRATES_FIELD_REPAIR_DESCRIPTION</LocID>                  <Text>Habilidad especial de los comandantes de la flota soberana.\nOtorga a tus unidades la destreza de repararse a sí mismos al atacar a enemigos similares.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_DRAIN_LIFE_TECH_FROM_TECH</LocID>                       <Text><![CDATA[Otorga a tus unidades tecnológicas un <color=SOTS_COLOR_GOLD>{1} % de robo de vida</color> contra otras unidades tecnológicas.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_DRAIN_LIFE_BIO_FROM_BIO</LocID>                         <Text><![CDATA[Otorga a tus unidades biológicas un <color=SOTS_COLOR_GOLD>{1} % de robo de vida</color> contra otras unidades biológicas.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_WALKING_RATIONS</LocID>                                      <Text>Gracias a Raciones móviles, el ataque a {CombatActor} ha reparado a {Stack}, restaurando {int} puntos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_WALKING_RATIONS_REVIVED</LocID>                              <Text>Gracias a Raciones móviles, el ataque a {CombatActor} ha reparado a {Stack}, restaurando {int} puntos. {int} unidad(es) ha(n) conseguido una segunda oportunidad.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION_LVL2</LocID>                <Text>Traslada una unidad aliada dentro del campo de batalla al azar.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION_LVL3</LocID>                <Text>Traslada cualquier unidad dentro del campo de batalla al azar.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL2</LocID>                    <Text>La criatura ataca a las unidades enemigas.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL3</LocID>                    <Text>Puedes controlar a la criatura.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ARTIFICIAL_MUSCLE_FIBERS_DESCRIPTION</LocID>     <Text>Aumenta el daño y la defensa de la unidad.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_RESTORING_BIOFILM_LVL1</LocID>                   <Text>Elimina todos los efectos de estado de la unidad seleccionada.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISRUPTIVE_ULTRASOUND_DESCRIPTION</LocID>        <Text>Deshabilita temporalmente las destrezas especiales activas de las unidades enemigas.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DESRIPTION_AREA_OF_EFFECT_HUGE</LocID>           <Text>Tiene un área de efecto enorme.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISPEL_DESCRIPTION_LVL1</LocID>                  <Text>Elimina todos los efectos de estado de la unidad seleccionada.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL2</LocID>          <Text>Un cañón centinela automático.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL3</LocID>          <Text>Un cañón doble centinela automático.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WALKING_RATIONS_DESCRIPTION</LocID>              <Text>Convierte a las unidades enemigas en raciones móviles. El daño recibido sana al atacante. Inflige Aturdimiento, para que la comida no se te rebele.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ENERGY_DRAIN_DESCRIPTION</LocID>                 <Text><![CDATA[El comandante enemigo pierde la mitad de su <color=SOTS_COLOR_ENERGY>energía</color> restante.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_FIELD_REPAIR</LocID>                                         <Text>Gracias a la habilidad Reparación de campo, el {CombatActor} atacante ha reparado a {Stack}, restaurando {int} puntos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_FIELD_REPAIR_REVIVED</LocID>                                 <Text>Gracias a la habilidad Reparación de campo, el {CombatActor} atacante ha reparado a {Stack}, restaurando {int} puntos. La(s) unidad(es) {int} ha(n) conseguido una segunda oportunidad.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_TRANSPORTER_PSYCHOSIS</LocID>                    <Text>Psicosis de transporte.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_TRANSPORTER_PSYCHOSIS_DESCRIPTION</LocID>        <Text>Sí, esta dolencia es totalmente verídica. El daño, la defensa, el movimiento y la iniciativa de la unidad se ven mermadas.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_HERO_TRANSPORTER_PSYCHOSIS</LocID>                     <Text><![CDATA[<color=SOTS_COLOR_RED>El comandante sufre de psicosis de transporte por culpa de un glitch durante un transporte previo. Su ejército podría resistir los efectos secundarios negativos.</color>]]></Text></GameDBLocalizedString>            
+            
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_WAR_HAWK</LocID>                                          <Text>Halcón de guerra</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_WAR_HAWK_DESCRIPTION</LocID>                              <Text><![CDATA[Aumenta el <color=SOTS_COLOR_MOVEMENT>movimiento</color> y la <color=SOTS_COLOR_GOLD>iniciativa</color> de todas las unidades del ejército del comandante.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_UNIT_MOVEMENT_BONUS</LocID>                             <Text><![CDATA[Todas las unidades: <color=SOTS_COLOR_MOVEMENT> + {1} de movimiento en combate</color>.]]></Text></GameDBLocalizedString>
+            
+            <!-- Overrides from heroes string table -->
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_INITIATIVE_BOOST</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_GOLD>+ {1} de potenciación de iniciativa</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SCAVENGE_RESOURCES</LocID>                              <Text><![CDATA[El comandante recoge un {1} % de los recursos máximos <color=SOTS_COLOR_GOLD>disponibles de los</color> enemigos derrotados.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXTRA_COMBAT_XP_PERCENT</LocID>                         <Text><![CDATA[El comandante obtiene un <color=SOTS_COLOR_XP>{1} % de EXP</color> adicional por los combates.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIDDEN_STATUS_EFFECT</LocID>                                         <Text></Text></GameDBLocalizedString>           
+            
+            <GameDBLocalizedString>         <LocID>ENERGY_COST_TO_EQUIP</LocID>                                         <Text>Energía necesaria para equipar este objeto.</Text></GameDBLocalizedString>           
+            
+            <GameDBLocalizedString>         <LocID>OBJECT_CYCLES_REMAINING</LocID>                                      <Text>Tiempo restante: {1} turno(s)/fase(s).</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES</LocID>                      <Text>Mostrar recursos y tesoros</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_V2</LocID>       <Text>Revela de inmediato recursos y objetos valiosos en una zona grande alrededor del comandante.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL1_V2</LocID>  <Text>Revela recursos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL2_V2</LocID>  <Text>También revela cofres, equipamiento y consumibles.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL3_V2</LocID>  <Text>También revela artefactos y núcleos de fusión.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL2</LocID>        <Text>La nube dura 4 turnos.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL3</LocID>        <Text>La nube dura 8 turnos.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_V2</LocID>            <Text>Descubre de inmediato la posición de los comandantes enemigos cercanos a este comandante.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL1</LocID>          <Text>Alcance: 15 casillas.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL2</LocID>          <Text>Alcance: 20 casillas.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL3</LocID>          <Text>Alcance: 25 casillas.</Text></GameDBLocalizedString>
+
+            <!--Scenarios skirmish -->
+            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_DESCRIPTION_V2</LocID>                                  <Text><![CDATA[Los campos de energía dividen la tierra en tres regiones desconectadas. En la jungla, un líder despiadado está arrasando con los recursos del lugar mientras que, en el desierto, otra facción está profanando sin piedad lugares de reposo antiguos. Mientras tanto, ¡un jefe de guerra sediento de poder emplea el caos para probar nuevas armas devastadoras con quien ose acercarse! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_GOLD_FEVER_DESCRIPTION_V2</LocID>                                  <Text><![CDATA[¡La fiebre del oro se ha extendido por el territorio tras correrse la voz acerca de una zona primordial con recursos valiosos! Las fuerzas del suroeste buscan llegar a toda prisa al centro de las ruinas, mientras que otro grupo avanza desde el noreste. ¡Tengamos en cuenta que aquí quien llega segundo también pierde!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>MAP_SCENARIO_EA_ARCH_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Únete a un enfrentamiento continuo en una isla árida y poco halagüeña. Una base abandonada en la lejanía podría poner las cosas a tu favor.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_CRUMBS_DESCRIPTION_V2</LocID>                                      <Text><![CDATA[Islas divididas en campos de energía y conectadas por puentes antiguos de los Primordiales. En la jungla roja, una facción ansía hacerse con nuevos recursos. En un campo de vegetación amarilla, otro grupo ha venido a evaluar a sus enemigos. Y, por si fuera poco, dos fuerzas rivales causan estragos y destruyen todo a su paso.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_RIFT_DESCRIPTION_V2</LocID>                                        <Text><![CDATA[Un territorio dividido en dos. Una tierra otrora fértil ahora es asolada por la guerra. Son varias las facciones que están a punto de enfrentarse en una batalla implacable. Para empeorar las cosas, ¡todo el mundo comienza con sus bases separadas en las orillas opuestas!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_RIFT_INTRO_V2</LocID>                                              <Text>Este entorno rico en recursos estuvo en su día bajo control hasta que una fisura se formó en los pantanos y partió el territorio en dos. Las facciones rivales aprovecharon esta oportunidad y reclamaron el territorio como suyo. Por si no fuese suficiente, las desavenencias dieron lugar a conflictos internos. La situación rezuma tanto peligro que hasta las criaturas de la zona, normalmente lejos de ser cobardes, prefieren alejarse lo máximo posible de las rutas principales.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_TEAR_DESCRIPTION_V2</LocID>                                        <Text><![CDATA[Lo que antaño fuera una isla intacta es ahora un archipiélago, cuyas únicas conexiones son una red caótica de teletransportadores. ¿Descubrirás cómo llegar hasta el enemigo?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_TEAR_INTRO_V2</LocID>                                              <Text>Los exploradores estaban investigando las ruinas de los antiguos Primordiales cuando ocurrió una catástrofe que hizo pedazos el territorio. Dos grupos fueron los primeros en llegar tras el desastre, pero solo uno podrá hacerse con el control de la zona.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_CRYING_RIVER_DESCRIPTION_V2</LocID>                                <Text>El antiguo río seco crea una barrera que divide el territorio en tres zonas. ¿Será alguien capaz de unir todos los territorios bajo un único líder?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_BRIDGES_TOO_FAR_DESCRIPTION_V2</LocID>                             <Text>Los últimos dos puentes conectan el territorio dividido. ¿Quién logrará encontrarlos primero?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TUTORIAL_01_ATTRIBUTES_V2</LocID>                                    <Text><![CDATA[Cada comandante tiene <color=SOTS_COLOR_GOLD>tres atributos</color>. La <color=SOTS_COLOR_GOLD>Experiencia en exploración</color> incrementa la velocidad de tu comandante al otorgarle puntos de movimiento y disipar una mayor cantidad de la niebla de guerra a su alrededor. El <color=SOTS_COLOR_GOLD>Poder de combate</color> mejora la fuerza del ejército de tu comandante. La <color=SOTS_COLOR_GOLD>Fuerza de destreza</color> mejora las destrezas de tu comandante, aumenta la cantidad total y le permite recuperar su energía.]]></Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -1,0 +1,644 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_EDITOR">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+        
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>MAP_EDITOR</LocID>                                       <Text>Editor de mapa</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_FILE</LocID>                                 <Text>Archivo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_FILE_NEW</LocID>                             <Text>Nuevo mapa...</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_FILE_GENERATE</LocID>                        <Text>Generar mapa...</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_FILE_LOAD</LocID>                            <Text>Cargar mapa...</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_FILE_LOAD_RECENT</LocID>                     <Text>Cargar reciente...</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_FILE_SAVE</LocID>                            <Text>Guardar (F5)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_FILE_SAVE_AS</LocID>                         <Text>Guardar como...</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_FILE_EXIT</LocID>                            <Text>Salir al menú principal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_FILE_EXIT_CHANGES</LocID>                    <Text>Salir al menú principal (¡hay cambios sin guardar!)</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_MAP_SPECS</LocID>                            <Text>Especificaciones del mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_MAP_SPECS_MAP</LocID>                        <Text>Mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_MAP_SPECS_PLAYERS</LocID>                    <Text>Jugadores/as</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_MAP_SPECS_VICTORY_CONDITIONS</LocID>         <Text>Condiciones de victoria y derrota</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_MAP_SPECS_MAP_LAYERS</LocID>                 <Text>Capas del mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_MAP_SPECS_MAP_VARIANTS</LocID>               <Text>Variantes del mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_MAP_SPECS_EVENTS</LocID>                     <Text>Eventos guionizados</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_MAP_SPECS_QUESTS</LocID>                     <Text>Misiones</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_TOOLS</LocID>                                <Text>Herramientas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_TOOLS_ENTITY_LIST</LocID>                    <Text>Lista de entidades [E]</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_TOOLS_COVER_ALL</LocID>                      <Text>Restablecer niebla de guerra</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_TOOLS_UNCOVER_ALL</LocID>                    <Text>Mostrar todo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_TOOLS_PREVIOUS_PHASE</LocID>                 <Text>Vista previa: Fase anterior</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_TOOLS_NEXT_PHASE</LocID>                     <Text>Vista previa: Siguiente fase</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_TOOLS_VALIDATE_MAP</LocID>                   <Text>Validar mapa...</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_TOOLS_RESIZE_MAP</LocID>                     <Text>Redimensionar mapa...</Text></GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_TOOLS_RESET_DATABASE</LocID>                             <Text>Restablecer base de datos</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_OPTIONS</LocID>                              <Text>Opciones</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_PLAYTEST</LocID>                                  <Text>Testeo</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_HINT_SELECTION</LocID>                            <Text>[LMB] Recoger    [RMB] Mostrar propiedades    [CTRL] Clonar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_HINT_SELECT_AREA</LocID>                          <Text>[SHIFT] Seleccionar área    [CTRL] Clonar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_HINT_SET_OFFSET</LocID>                           <Text>Mantén [M] para ajustar el desvío del objeto seleccionado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_HINT_MOVING</LocID>                               <Text>[LMB] Colocar    [RMB o ESC] Cancelar movimiento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_HINT_PLACEMENT</LocID>                            <Text>[LMB] Colocar    [RMB o ESC] Cancelar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_HINT_SELECT_TARGET</LocID>                        <Text>[LMB] Seleccionar objetivo    [RMB o ESC] Cancelar</Text></GameDBLocalizedString>
+
+            <!-- Map objects categories -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CATEGORY_ALL</LocID>                              <Text>Todo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CATEGORY_BIOME_DESERT</LocID>                     <Text>Desierto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CATEGORY_BIOME_UNIVERSAL</LocID>                  <Text>Primordiales</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CATEGORY_VEGETATION</LocID>                       <Text>Vegetación</Text>  </GameDBLocalizedString>
+
+            <!-- Map objects filters -->
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_ALL_ENVIRONMENT</LocID>                    <Text>todo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_JUNK</LocID>                               <Text>temporal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_BIOME_PRIMALS</LocID>                      <Text>RUINAS PRIMORDIALES</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_BIOME_DESERT</LocID>                       <Text>DESIERTO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_BIOME_MUSHROOMS</LocID>                    <Text>SETAS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_BIOME_JUNGLE</LocID>                       <Text>JUNGLA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_BIOME_SWAMP</LocID>                        <Text>PANTANO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_BIOME_ORBIT</LocID>                        <Text>ÓRBITA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_BIOME_CRYSTAL</LocID>                      <Text>CRISTAL</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_INTERACTIVE_OBJECT</LocID>                 <Text>objetos interactivos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_BASES</LocID>                              <Text>Bases y economía</Text>  </GameDBLocalizedString>
+            <!--GameDBLocalizedString>         <LocID>EDITOR_FILTER_RESOURCES</LocID>                        <Text>resources</Text>  </GameDBLocalizedString-->
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_PICKUPS</LocID>                            <Text>objetos que obtener</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_CONSUMABLES</LocID>                        <Text>consumibles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_EQUIPMENT</LocID>                          <Text>equipo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_ARTIFACTS</LocID>                          <Text>artefactos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_VFX</LocID>                                <Text>efectos visuales</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_FRAGMENT</LocID>                           <Text>fragmento</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_UNIVERSAL_ASSET</LocID>                    <Text>UNIDADES UNIVERSALES</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_GATES</LocID>                              <Text>puertas y teletransportadores</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_FILTER_EVENTS</LocID>                             <Text>eventos</Text>  </GameDBLocalizedString>
+
+            <!-- Map specifications UI -->
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_VICTORY_CONDITIONS</LocID>            <Text>Condiciones de victoria y derrota</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_WIN_CONDITIONS</LocID>                <Text>Condiciones de victoria</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_LOSING_CONDITIONS</LocID>             <Text>Condiciones de derrota</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_LAYERS</LocID>                    <Text>Capas del mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_PLAYERS</LocID>                       <Text>Ajustes de jugador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_ALLIANCES</LocID>                 <Text>Alianzas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_TEXTS</LocID>                     <Text>Textos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_GENERATE_MAP</LocID>                             <Text>Generar un nuevo mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_NEW_MAP</LocID>                                  <Text>Nuevo mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CREATE</LocID>                                           <Text>Crear</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP</LocID>                           <Text>Mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_PLAYER_COLOR</LocID>                  <Text>Color</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_PLAYER_CONTROL</LocID>                <Text>Control</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_PLAYER_AI_CONFIG</LocID>              <Text>Ajustes IA</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_PLAYER_BASERS</LocID>                 <Text>Bases</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_PLAYER_HEROES</LocID>                 <Text>Comandantes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_PLAYER_RESOURCES</LocID>              <Text>Recursos iniciales</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_PLAYER_RESOURCES_CUSTOM</LocID>       <Text>Personalizado</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_NAME</LocID>                      <Text>ID de texto del nombre del mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_SAVE_FILE</LocID>                 <Text>Nombre del archivo de autoguardado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_DESCRIPTION</LocID>               <Text>ID de texto de la descripción del mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_INTRODUCTION</LocID>              <Text>ID de texto del diálogo de introducción del mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_VICTORY_DIALOG</LocID>            <Text>ID de texto del diálogo de victoria del mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_SCRIPT_CLASS_NAME</LocID>         <Text>Nombre de la clase C# del script del mapa</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_INTRO_CURSCENE</LocID>            <Text>Escena de introducción</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_VICTORY_CURSCENE</LocID>          <Text>Escena de victoria</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_INTRO_MUSIC</LocID>               <Text>Música de introducción</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_PLANET_ENVIRONMENT</LocID>        <Text>Entorno del planeta</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_MAX_COMMANDER_LEVEL</LocID>       <Text>Nivel máximo del comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_LOCK_STARTING_FACTIONS</LocID>    <Text>Bloquear facciones de inicio</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_DISABLE_FUSION_CORE_TRADING</LocID> <Text>Desactivar negociaciones de núcleo de fusión</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_DISABLE_STATISTICS_AT_BASES</LocID> <Text>Desactivar estadísticas en las bases</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_STARTING_OBJECTIVES</LocID>       <Text>Objetivos iniciales (IDs de texto)</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_NEXT_MAP</LocID>                  <Text>Siguiente mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_CARRY_OVER_COMMANDERS</LocID>     <Text>Comandantes acumulados</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ALLIANCE_SWITCH</LocID>                                  <Text>Cambiar el estado de la alianza entre estos jugadores: Hostil, Neutral, Aliados</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>AI_CONFIG_EASY</LocID>                                   <Text>Fácil</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AI_CONFIG_BASIC</LocID>                                  <Text>Normal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AI_CONFIG_HARD</LocID>                                   <Text>Difícil</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AI_CONFIG_CHEATER</LocID>                                <Text>Trampas</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>PlayerControlEditorOption_AI_OR_HUMAN</LocID>            <Text>IA o jugadores/as humanos/as</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PlayerControlEditorOption_AI</LocID>                     <Text>Solo IA</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PlayerControlEditorOption_HUMAN</LocID>                  <Text>Solo humanos/as</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PlayerControlEditorOption_PASSIVE</LocID>                <Text>Pasivo</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>LAYER_ROLE</LocID>                                       <Text>Rol de la capa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LAYER_NAME</LocID>                                       <Text>Nombre</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LAYER_SIZE</LocID>                                       <Text>Tamaño</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES</LocID>                                <Text>propiedades</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_NO_OBJECT_SELECTED</LocID>             <Text>No has seleccionado ninguna entidad</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_SCALE</LocID>                          <Text>Modificar escala (V)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_ROTATION</LocID>                       <Text>Rotar (R)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_OFFSET_X</LocID>                       <Text>Desvío X (M)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_OFFSET_Y</LocID>                       <Text>Desvío Y (M)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_OFFSET_Z</LocID>                       <Text>Desvío Z (N)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_HUE</LocID>                            <Text>Tono</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_SATURATION</LocID>                     <Text>Saturación</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RESET</LocID>                          <Text>Restablecer</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_GATE</LocID>                           <Text>Puerta y llave</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_HERO_MAIN</LocID>                      <Text>Comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ACTIVATION</LocID>                                  <Text>Estado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ALTERNATIVE_PORTRAIT</LocID>                        <Text>Retrato y nombre alternativos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_CANNOT_RETREAT</LocID>                              <Text>No puedes retirarte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_INVINCIBLE_TO_NEUTRAL_ARMIES</LocID>                <Text>Invencible contra ejércitos neutrales</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_IGNORE_PLAYER_THREAT</LocID>                        <Text>Ignorar amenaza del jugador/a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ARMY_LOCKED</LocID>                                 <Text>Ejército bloqueado para la IA</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ARMY_GROWTH_PER_CYCLE</LocID>                       <Text>Desarrollo del ejército cada ciclo (%)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HeroActivationState_ACTIVE</LocID>                       <Text>Activo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HeroActivationState_TRAINING</LocID>                     <Text>Entrenamiento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HeroActivationState_DISABLED</LocID>                     <Text>Desactivado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_ARMY</LocID>                           <Text>Ejército</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_SKILLS</LocID>                         <Text>Habilidades</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_ABILITIES</LocID>                      <Text>Destrezas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_LEVEL</LocID>                          <Text>Nivel</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_XP</LocID>                             <Text>EXP: </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_INVENTORY</LocID>                      <Text>Inventario</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT</LocID>                    <Text>Propiedades de unidades aleatorias</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT_SIZE_CATEGORY</LocID>      <Text>Categoría por tamaño:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT_OVERALL_COUNT</LocID>      <Text>Unidades en general:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT_OVERALL_COUNT_RANDOM</LocID><Text>Al azar</Text></GameDBLocalizedString> <!-- Also hacked in for treasures -->
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT_PER_LEVEL</LocID>          <Text>Por nivel (1-7):</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT_SLOT_COUNT</LocID>         <Text>Número de ranuras:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT_MIN_LEVEL</LocID>          <Text>Nivel mínimo:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT_MAX_LEVEL</LocID>          <Text>Nivel máximo:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT_SUPPORT</LocID>            <Text>Unidades de apoyo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT_BASIC_ONLY</LocID>         <Text>Solo unidades básicas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_RANDOM_UNIT_NO_RANGED_UNITS</LocID>    <Text>Sin unidades de ataque a distancia</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>RANDOM_UNIT_SIZE_SMALL</LocID>                           <Text>Pequeño</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RANDOM_UNIT_SIZE_MEDIUM</LocID>                          <Text>Mediano</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RANDOM_UNIT_SIZE_LARGE</LocID>                           <Text>Grande</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RANDOM_UNIT_SIZE_CUSTOM</LocID>                          <Text>Personalizado</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_OWNER</LocID>                          <Text>PROPIETARIO/A</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_GRAPHICS</LocID>                       <Text>GRÁFICOS</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_COLORS</LocID>                         <Text>Paleta de color</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_GAMEPLAY</LocID>                       <Text>JUEGO</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_GARRISON</LocID>                       <Text>GUARNICIÓN</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_BASE_BUILDINGS</LocID>                 <Text>EDIFICIOS</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_BASE_GROWTH_WHEN_NEUTRAL</LocID>       <Text>El ejército crece cuando es neutral</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_UPGRADES</LocID>                       <Text>MEJORAS</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_SMOKE</LocID>                          <Text>Humo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_SMOKE_SMALL</LocID>                    <Text>Humo pequeño</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_TIMED_GATE</LocID>                     <Text>Puerta con temporizador</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_OM_LAKE</LocID>                        <Text>Ajustes de color de objetos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_MINING_PROBE</LocID>                   <Text>Ajustes de sonda de extracción</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_BRIDGE</LocID>                         <Text>Puente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_BRIDGE_DISABLED</LocID>                <Text>Se ha desactivado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_TELEPORT_DISABLED</LocID>              <Text>Teletransporte deshabilitado</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAP_VALIDATION_PROBLEMS</LocID>                          <Text>Error al validar el mapa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_NO_PLAYERS</LocID>                     <Text>El mapa no tiene jugadores/as</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_NO_VALID_PLAYERS</LocID>               <Text>El mapa no tiene jugadores/as con al menos un comandante o una base</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_PLAYERS</LocID>                        <Text>Comprobación de jugadores/as</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_OBJECT_LIMIT</LocID>                   <Text>Límite de objetos superado:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_DEPTH</LocID>                          <Text>Validación de profundidad</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_DISCONNECTED_AREA</LocID>              <Text>Área sin conectar:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_INACCESSIBLE_TILES</LocID>             <Text>Comprobación de casillas inaccesibles</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_BLOCKED_ACCESS_POINTS</LocID>          <Text>Comprobación de puntos de acceso bloqueados</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_BLOCKED_ACCESS_POINT</LocID>           <Text>Punto de acceso bloqueado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_DUPLICATE_OBJECTS</LocID>              <Text>Comprobación de objetos duplicados</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_DUPLICATE_OBJECT</LocID>               <Text>Objeto duplicado:</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>VALIDATION_OK</LocID>                                    <Text>Funciona</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VALIDATION_MINOR</LocID>                                 <Text>Menor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VALIDATION_WARNING</LocID>                               <Text>Aviso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VALIDATION_ERROR</LocID>                                 <Text>Error</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_CLOSE</LocID>                          <Text>CERRAR</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_CONTINUE</LocID>                       <Text>IGNORAR Y CONTINUAR</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_VALIDATION_HEADING</LocID>                        <Text>VALIDOR DEL MAPA</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_ENTITY_LIST</LocID>                               <Text>Lista de entidades</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_ENTITY_LIST_PLAYERS</LocID>                       <Text>Jugadores/as:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_ENTITY_LIST_CATEGORIES</LocID>                    <Text>CATEGORÍAS:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_ENTITY_LIST_HEROES</LocID>                        <Text>Comandantes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_ENTITY_LIST_NEUTRAL</LocID>                       <Text>Neutral</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_ENTITY_LIST_INTERACTIVE</LocID>                   <Text>Interactiva</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_ENTITY_LIST_STATIC</LocID>                        <Text>Estática</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_ENTITY_LIST_TAGS</LocID>                          <Text>Etiquetas:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_ENTITY_LIST_ALPHABETICAL</LocID>                  <Text>A-Z</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_BUTTON_ICON_CATEGORY_ENVIRONMENT</LocID>          <Text>Entorno</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_BUTTON_ICON_CATEGORY_OBJECTS</LocID>              <Text>Objetos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_BUTTON_ICON_CATEGORY_HEROES</LocID>               <Text>Comandantes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_BUTTON_ICON_CATEGORY_MONSTERS</LocID>             <Text>Monstruos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_BUTTON_ICON_CATEGORY_TERRAIN</LocID>              <Text>Terreno</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_BUTTON_ICON_CATEGORY_ROADS</LocID>                <Text>Carreteras</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_BUTTON_ICON_CATEGORY_PREFABS</LocID>              <Text>Prefabricados</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_BUTTON_ICON_CATEGORY_ENVIROPAINTER</LocID>        <Text>Pintaentornos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_BUTTON_ICON_CATEGORY_DECALS</LocID>               <Text>Calcomanías</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_BUTTON_ICON_CATEGORY_AREAS</LocID>                <Text>Áreas</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_TERRAIN_DECAL_DENSITY</LocID>                     <Text>Densidad de calcomanía</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>SEARCH</LocID>                                           <Text>Buscar:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_CUSTOM_COLLECTIONS</LocID>                        <Text>Colecciones personalizadas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_ADD_CUSTOM_COLLECTION</LocID>                     <Text>Nueva colección personalizada</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_EDIT_CUSTOM_COLLECTION</LocID>                    <Text>Editar colección personalizada</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_RENAME_CUSTOM_COLLECTION</LocID>                  <Text>Renombrar colección personalizada</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_DELETE_CUSTOM_COLLECTION</LocID>                  <Text>Eliminar colección personalizada</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BULLDOZER</LocID>                                        <Text>Buldócer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BRUSH_LOC</LocID>                                        <Text>Pincel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PICKER</LocID>                                    <Text>Selecciona y mueve objetos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_BUILDING</LocID>                                  <Text>Activo cuando se coloca un objeto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_CLONE</LocID>                                     <Text>Herramienta de clonar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_GROUP_SELECTION</LocID>                           <Text>Selecciona y mueve un área</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_CLONE_SELECTION</LocID>                           <Text>Clonar área</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PAINT_GAMEPLAY_AREA</LocID>                       <Text>Marcar el área como exclusiva para objetos de juego</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_CLEAR_GAMEPLAY_AREA</LocID>                       <Text>Limpiar área exclusiva para objetos de juego</Text>  </GameDBLocalizedString>
+
+            <!-- Editor categories -->
+            <GameDBLocalizedString>         <LocID>ROADS_LOC</LocID>                                        <Text>CARRETERAS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_LIST</LocID>                                     <Text>TERRENO</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECT_LIST</LocID>                                      <Text>OBJETOS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_LIST</LocID>                                        <Text>HÉROES</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MONSTER_LIST</LocID>                                     <Text>MONSTRUOS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PREFABS_LOC</LocID>                                      <Text>PREFABRICADOS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PAINTER_LOC</LocID>                                      <Text>PINTOR</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AREAS_LOC</LocID>                                        <Text>ÁREAS</Text>  </GameDBLocalizedString>
+
+            <!-- Object rendering and selection filters -->
+            <GameDBLocalizedString>         <LocID>EDITOR_SHOW_HIDE</LocID>                                 <Text>Mostrar/\nocultar</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_SHOW_HIDE_INTERACTIVE</LocID>                     <Text>Mostrar/ocultar objetos, comandantes y ejércitos eliminables</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_SHOW_HIDE_STATIC</LocID>                          <Text>Mostrar/ocultar objetos no eliminables</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_SHOW_HIDE_DECALS</LocID>                          <Text>Mostrar/ocultar calcomanías</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_SHOW_HIDE_PARTICLES</LocID>                       <Text>Mostrar/ocultar partículas y efectos visuales en objetos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_SHOW_HIDE_CLOUDS</LocID>                          <Text>Mostrar/ocultar sombras de nubes animadas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_SHOW_HIDE_INDICATORS</LocID>                      <Text>Mostrar/ocultar editor de indicadores de partículas, efectos visuales y eventos</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EDITOR_ALLOW_SELECTION</LocID>                           <Text>Permitir\nselección</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_ALLOW_SELECTION_OF_INTERACTIVE</LocID>            <Text>Permitir la selección de objetos, comandantes y ejércitos eliminables</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_ALLOW_SELECTION_OF_STATIC</LocID>                 <Text>Permitir la selección de objetos no eliminables</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_ALLOW_SELECTION_OF_DECALS</LocID>                 <Text>Permitir la selección de calcomanías</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_SELECTED_PLAYER</LocID>                           <Text>Jugador/a\nseleccionado/a</Text></GameDBLocalizedString>
+            
+            <!-- Editor description for abilities -->
+            <GameDBLocalizedString>         <LocID>ALL</LocID>                                              <Text>Todo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_ABILITIES</LocID>                                 <Text>Destrezas de combate</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_BIO</LocID>                                       <Text>BIO</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_PSY</LocID>                                       <Text>PSI</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_TECH</LocID>                                      <Text>TECNO</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_FAST_CAST_SELECTION</LocID>                       <Text>LANZAMIENTOS RÁPIDOS</Text></GameDBLocalizedString>
+
+            <!-- Events -->
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_EVENTS</LocID>                            <Text>Editar eventos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_EVENT_LIST_GLOBAL</LocID>                 <Text>Eventos globales</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_EVENT_LIST_OBJECTS</LocID>                <Text>Eventos de objetos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_TRIGGER_TYPE</LocID>                      <Text>Tipo de activación</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CONDITIONS</LocID>                        <Text>Condiciones</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_ACTIONS</LocID>                           <Text>Acciones</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_EVENT</LocID>                             <Text>Evento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_PROPERTIES</LocID>                        <Text>Propiedades</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_NEW_EVENT</LocID>                         <Text>Nuevo evento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_NEW_ACTION</LocID>                        <Text>Nueva acción</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_NEW_CONDITION</LocID>                     <Text>Nueva condición</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EVENT_TRIGGER_START_OF_TURN</LocID>                      <Text>Comienzo del turno</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TRIGGER_CONDITION</LocID>                          <Text>Condición</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TRIGGER_REPEATABLE_VISIT</LocID>                   <Text>Visita repetible</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_ENTERS</LocID>                                      <Text>Entra el comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>START_OF_TURN</LocID>                                    <Text>Comienzo del turno</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONDITION</LocID>                                        <Text>Condición</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ITEM_PICKED_UP</LocID>                                   <Text>Objeto recogido</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BATTLE_WON</LocID>                                       <Text>Batalla ganada</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_HERO_OR_PLAYER</LocID>                   <Text>Comandante o jugador/a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_TIME</LocID>                             <Text>Tiempo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_OBJECTIVE_ACTIVE</LocID>                 <Text>Objetivo activo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_VARIABLE</LocID>                         <Text>Variable</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_BUILDING</LocID>                         <Text>Edificio</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_BUILDING_ID</LocID>                      <Text>ID de edificio</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_PLAYER_DEFEATED</LocID>                  <Text>Jugador/a derrotado/a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_PLAYER</LocID>                           <Text>Jugador/a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_HUMAN_ONLY</LocID>                       <Text>Solo humanos/as</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_COMMANDER</LocID>                        <Text>Comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_COMMANDER_ALIVE</LocID>                  <Text>Comandante vivo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_AREA</LocID>                             <Text>Área</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_AREA_ID</LocID>                          <Text>ID de área</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_AREA_ACTION</LocID>                      <Text>Acción</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_ACTION_ADD_AT_THE_END</LocID>                     <Text>Añadir al final</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_ACTION_ADD_AFTER_SELECTED</LocID>                 <Text>Tras seleccionar</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_CUSTOM_MESSAGE</LocID>                        <Text>Mensaje personalizado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_GAIN_RESOURCES</LocID>                        <Text>Obtener recursos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_SHOW_MARKER</LocID>                           <Text>Mostrar/ocultar marcador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_SPAWN_NEUTRAL_UNITS</LocID>                   <Text>Generar guardianes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_SHOW_OBJECTIVE</LocID>                        <Text>Mostrar/ocultar objetivo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_MANIPULATE_OBJECT</LocID>                     <Text>Manipular objetos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_MANIPULATE_OBJECT_NOTES</LocID>               <Text>Afecta a los objetos y ejércitos neutrales. ¡No elimines al ejército de los eventos en las casillas custodiadas por el mismo ejército!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_SET_VARIABLE</LocID>                          <Text>Establecer variable</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_MANIPULATE_HEROES</LocID>                     <Text>Manipular comandantes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_MANIPULATE_PLAYERS</LocID>                    <Text>Manipular jugadores/as</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_MOVE_CAMERA</LocID>                           <Text>Desplazar cámara</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_MANIPULATE_FOG_OF_WAR</LocID>                 <Text>Manipular niebla de guerra</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_EFFECTS</LocID>                               <Text>Efectos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_CHANGE_AREA</LocID>                           <Text>Cambiar área</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>FogOfWarActions_UNCOVER</LocID>                          <Text>Mostrar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>FogOfWarActions_RESET</LocID>                            <Text>Restablecer</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MapEventPlayerActionType_SWITCH_ACTIVE_PLAYER</LocID>    <Text>Cambiar jugador/a activo/a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventPlayerActionType_MERGE_PLAYER_TO_ACTIVE_PLAYER</LocID>  <Text>Fusionar con jugador/a activo/a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventPlayerActionType_MERGE_PLAYER_TO_ACTIVE_PLAYER_WITH_RESOURCES</LocID>  <Text>Fusionar con activo, con recursos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventPlayerActionType_TRIGGER_VICTORY</LocID>         <Text>Activar victoria de jugador/a activo/a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventPlayerActionType_TRIGGER_LOSS</LocID>            <Text>Activar derrota de jugador/a activo/a</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MapObjectAction_REMOVE</LocID>                           <Text>Eliminar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapObjectAction_SWITCH_OWNER</LocID>                     <Text>Cambiar propietario/a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapObjectAction_ACTIVATE_BRIDGE</LocID>                  <Text>Activar puente</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapObjectAction_DEACTIVATE_BRIDGE</LocID>                <Text>Desactivar puente</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapObjectAction_DEACTIVATE_GATE</LocID>                  <Text>Abrir puerta</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapObjectAction_ACTIVATE_GATE</LocID>                    <Text>Cerrar puerta</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapObjectAction_DEACTIVATE_TELEPORT</LocID>              <Text>Desactivar teletransporte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapObjectAction_ACTIVATE_TELEPORT</LocID>                <Text>Activar teletransporte</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_ACTIVATE</LocID>                      <Text>Activar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_DEACTIVATE</LocID>                    <Text>Desactivar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_SET_ACTIVE</LocID>                    <Text>Establecer activo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_DESPAWN</LocID>                       <Text>Desaparecer</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_GO_TO_LOCATION</LocID>                <Text>Ir a ubicación</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_GO_TO_HERO</LocID>                    <Text>Ir a comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_ATTACK_HERO</LocID>                   <Text>Atacar a comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_TELEPORT_TO</LocID>                   <Text>Teletransportarse a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_TELEPORT_ACTIVE</LocID>               <Text>Activar teletransporte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_SWITCH_OWNER</LocID>                  <Text>Cambiar propietario/a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_FORCE_PRIORITY_AREA</LocID>           <Text>Forzar área de prioridad (IA)</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CUSTOM_NAME</LocID>                       <Text>Nombre personalizado</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CUSTOM_MESSAGE_PROPERTIES_TURN</LocID>    <Text>Tiempo es</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CUSTOM_MESSAGE_PROPERTIES_CYCLE</LocID>   <Text>Ciclo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CUSTOM_MESSAGE_PROPERTIES_PHASE</LocID>   <Text>Fase</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CUSTOM_MESSAGE_PROPERTIES_PLAYER</LocID>  <Text>Jugador/a:</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CUSTOM_MESSAGE_PROPERTIES</LocID>         <Text>Propiedades de mensaje personalizadas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CUSTOM_MESSAGE_PROPERTIES_TEXT_ID</LocID> <Text>ID de texto:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CUSTOM_MESSAGE_PROPERTIES_TEXT_ID_OPTIONAL</LocID> <Text>ID de texto (opcional):</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CUSTOM_MESSAGE_PROPERTIES_TEXT_DIRECT</LocID> <Text>Texto</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_GAIN_RESOURCES_PROPERTIES</LocID>         <Text>Propiedades de obtención de recursos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CUSTOM_MESSAGE_PROPERTIES_TEXT_DIRECT_OPTIONAL</LocID> <Text>Texto (opcional)</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_TEXT_PREVIEW</LocID>                      <Text>Vista previa de todos los textos</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_PREVIEW</LocID>                           <Text>Vista previa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_PORTRAIT_ACTIVE</LocID>                   <Text>Retrato de comandante activo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_COMMANDER</LocID>                         <Text>Retrato de comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_UNIT</LocID>                              <Text>Imagen de unidad</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_PORTRAIT_RIGHT</LocID>                    <Text>Retrato a la derecha</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CENTER_CAMERA</LocID>                     <Text>Centrar cámara</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_INSTANT</LocID>                           <Text>Instante</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_SHOW_MARKER_PROPERTIES</LocID>            <Text>Mostrar/ocultar propiedades de marcador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_SHOW_MARKER_ACTION</LocID>                <Text>Acción</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_SHOW_MARKER_TYPE</LocID>                  <Text>Tipo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_HERO_ACTION</LocID>                       <Text>Acción</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_TARGET_HERO</LocID>                       <Text>Hacer objetivo un comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_HERO</LocID>                              <Text>Comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_SHOW_MARKER_LOCATION</LocID>              <Text>Ubicación</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventActionShowHideMarkerType_MARKER</LocID>          <Text>Marcador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventActionShowHideMarkerType_SPEECH_BUBBLE</LocID>   <Text>Burbuja de diálogo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventActionShowHideMarkerType_EXCLAMATION_MARK</LocID><Text>Signo de exclamación</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_MAP_TEXTS</LocID>                         <Text>Textos del mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_MAP_TEXTS_DEFAULT</LocID>                 <Text>Texto original</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_MAP_TEXTS_TRANSLATIONS</LocID>            <Text>Traducciones</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ADD_LANGUAGE</LocID>                                     <Text>Añadir idiomas</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_OBJECTIVE_LOC_ID</LocID>                  <Text>ID del objetivo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_SECONDARY</LocID>                              <Text>Secundario</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ADD_OBJECTIVE_ID_TO_TEXTS</LocID>                        <Text>Añadir a textos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ShowHideAction_SHOW</LocID>                              <Text>Mostrar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ShowHideAction_HIDE</LocID>                              <Text>Ocultar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ShowHideAction_SHOW_COMPLETE</LocID>                     <Text>Completado - notificación</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GO_TO_TEXTS</LocID>                                      <Text>Ir a textos</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_VARIABLE_LOC_ID</LocID>                   <Text>ID de variable</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_VARIABLE_DELAY</LocID>                    <Text>Retraso</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_CONDITION_VALUE</LocID>                            <Text>Valor</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_CAMERA_SPEED</LocID>                      <Text>Velocidad</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_RANGE</LocID>                             <Text>Alcance</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_PLAYER</LocID>                            <Text>Jugador/a</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_EFFECT</LocID>                            <Text>Efecto</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAMERA_FOLLOW</LocID>                                    <Text>Seguido por cámara</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_EVENT</LocID>                          <Text>Evento personalizado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_EVENT_ENTER</LocID>                    <Text>Evento personalizado al entrar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_EVENT_PICKUP</LocID>                   <Text>Evento personalizado al obtener</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_EVENT_BEFORE_COMBAT</LocID>            <Text>Evento personalizado antes del combate</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_EVENT_BATTLE_WON</LocID>               <Text>Evento personalizado al ganar batalla</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPEN_EVENT_EDITOR</LocID>                                <Text>Editar...</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_PROPERTIES_COPY</LocID>                            <Text>Copiar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_PROPERTIES_NEW</LocID>                             <Text>Añadir nuevo evento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_PROPERTIES_PASTE</LocID>                           <Text>Pegar evento</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_PROPERTIES_DUPLICATE</LocID>                       <Text>Duplicar</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_EXPLOSION</LocID>                             <Text>Explosión</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_TELEPORT</LocID>                              <Text>Teletransporte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_TELEPORT_ORBITAL</LocID>                      <Text>Teletransporte orbital</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_TRAP_COMMANDER</LocID>                        <Text>Ciberengaño</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_MUSIC_EXPLORATION</LocID>                     <Text>Música: exploración</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_MUSIC_CAMPAIGN_SURPRISE</LocID>               <Text>Música: campaña sorpresa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_MUSIC_CAMPAIGN_MOLES</LocID>                  <Text>Música: campaña topos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_MUSIC_CAMPAIGN_EMPIRE</LocID>                 <Text>Música: campaña UNSS</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_BLACK_SCREEN</LocID>                          <Text>Fundido en negro</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ChangeAreaAction_DISABLE_THICK_FOW</LocID>               <Text>Desactivar niebla de guerra densa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ChangeAreaAction_ENABLE_THICK_FOW</LocID>                <Text>Activar niebla de guerra densa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ChangeAreaAction_ENABLE_KILL_ZONE</LocID>                <Text>Activar zona mortal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ChangeAreaAction_DISABLE_KILL_ZONE</LocID>               <Text>Desactivar zona mortal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ChangeAreaAction_ENABLE_OUTLINE</LocID>                  <Text>Activar contorno</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ChangeAreaAction_DISABLE_OUTLINE</LocID>                 <Text>Desactivar contorno</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_RADIO</LocID>                             <Text>Modo de radio</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PortraitRadioMode_AUTO</LocID>                           <Text>Auto (por distancia)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PortraitRadioMode_RADIO</LocID>                          <Text>Radio</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PortraitRadioMode_CLEAN_PORTRAIT</LocID>                 <Text>Retrato vacío</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EVENT_TRIGGER_STATE</LocID>                              <Text>Estado</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TRIGGERED</LocID>                                        <Text>¡Activado!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NOT_TRIGGERED</LocID>                                    <Text>Sin activar</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ROAD_COBBLESTONE</LocID>                                 <Text>¿Casillas primordiales?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ROAD_DIRT</LocID>                                        <Text>Tierra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ROAD_TIRETRACKS</LocID>                                  <Text>Marcas de neumáticos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ROAD_PRIMAL_PAVEMENT</LocID>                             <Text>Pavimento primordial</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ROAD_EMPIRE_HIGHWAY</LocID>                              <Text>Autopista del Imperio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ROAD_JUNGLE</LocID>                                      <Text>Camino de jungla</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ROAD_MUSHROOM</LocID>                                    <Text>Camino fúngico</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ROAD_CRYSTAL</LocID>                                     <Text>Camino de cristal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ROAD_SWAMP</LocID>                                       <Text>Camino de pantano</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ROAD_WRECKAGE</LocID>                                    <Text>Camino de escombros</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BRIDGE</LocID>                                           <Text>Puente</Text>  </GameDBLocalizedString>
+
+            <!-- For properties in editor -->
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_ARTIFACT_01</LocID>                       <Text>Ranura de artefacto 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_ARTIFACT_02</LocID>                       <Text>Ranura de artefacto 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_ARTIFACT_03</LocID>                       <Text>Ranura de artefacto 3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_ARTIFACT_04</LocID>                       <Text>Ranura de artefacto 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_ARTIFACT_05</LocID>                       <Text>Ranura de artefacto 5</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_EQUIPMENT_01</LocID>                      <Text>Ranura de equipamiento 1</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_EQUIPMENT_02</LocID>                      <Text>Ranura de equipamiento 2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_EQUIPMENT_03</LocID>                      <Text>Ranura de equipamiento 3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_EQUIPMENT_04</LocID>                      <Text>Ranura de equipamiento 4</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_EQUIPMENT_05</LocID>                      <Text>Ranura de equipamiento 5</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>INVENTORY_SLOT_EQUIPMENT_06</LocID>                      <Text>Ranura de equipamiento 6</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAP_OPTIONS</LocID>                                      <Text>Opciones de mapa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECT_GRAPHIC</LocID>                                   <Text>Gráfico de objeto</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BREAKABLE_LOC</LocID>                                    <Text>Rompible</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>REPEATABLE_VISIT_LOC</LocID>                             <Text>Visita repetible</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>QUESTS_LOC</LocID>                                       <Text>Misiones</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENTS_LOC</LocID>                                       <Text>Eventos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYERS_LOC</LocID>                                      <Text>Jugadores/as</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITIONS</LocID>                               <Text>Condiciones de victoria y derrota</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GENERATE</LocID>                                         <Text>Generar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GENERATE_MAP</LocID>                                     <Text>Generar mapa</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_VISIBILITY_OBJECT</LocID>                         <Text>Sonda de niebla de guerra</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_VISIBILITY_OBJECT_DESCRIPTION</LocID>             <Text>Punto invisible del mapa que deja ver un área circular en la niebla de guerra. Se puede configurar el alcance.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMPONENT_VISIBILITY_PARAMETERS</LocID>                  <Text>Visibilidad</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMPONENT_VISIBILITY_PARAMETERS_RANGE</LocID>            <Text>Alcance</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARMY_ENVIRONMENT</LocID>                                 <Text>Entorno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARMY_BATTLEFIELD</LocID>                                 <Text>Campo de batalla</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>REORDERABLE</LocID>                                      <Text>¡Reordenable!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>GO_TO_EVENTS</LocID>                                     <Text>Ir a activaciones de evento en el catálogo de objetos</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_FOOTPRINT</LocID>                                 <Text>Huella</Text>  </GameDBLocalizedString>
+             
+            <GameDBLocalizedString>         <LocID>SURFACE</LocID>                                          <Text>Superficie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SPACE</LocID>                                            <Text>Órbita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DUNGEON</LocID>                                          <Text>Subsuelo</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ADD_A_PLAYER</LocID>                                     <Text>Añadir jugador/a</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ADD_A_LAYER</LocID>                                      <Text>Añadir capa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>REMOVE_LAYER</LocID>                                     <Text>Eliminar capa</Text>  </GameDBLocalizedString>
+
+            <!--            Editor-->
+            <GameDBLocalizedString>         <LocID>OPTION_EDITOR_BRUSH_GENERATE_DECALS</LocID>              <Text>Generar calcomanías</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EDITOR_BRUSH_ALLOW_OVERLAPS</LocID>               <Text>Permitir solapamientos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EDITOR_BRUSH_AVOID_ACCESS_POINTS</LocID>           <Text>Evitar puntos de acceso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_EDITOR_BRUSH_USE_NEIGHBOR_DEPTH</LocID>           <Text>(TODO)Use neighbor depth</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BATTLE_ENVIRONMENT_YELLOW_DESERT</LocID>                 <Text>Desierto amarillo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BATTLE_ENVIRONMENT_BROWN_DESERT</LocID>                  <Text>Desierto marrón</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BATTLE_ENVIRONMENT_MUSHROOM_FOREST</LocID>               <Text>Bosque de setas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BATTLE_ENVIRONMENT_RUINS</LocID>                         <Text>Ruinas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BATTLE_ENVIRONMENT_PURPLE_DESERT</LocID>                 <Text>Desierto morado</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BATTLE_ENVIRONMENT_TOXIC_JUNGLE</LocID>                  <Text>Jungla tóxica</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BATTLE_ENVIRONMENT_ORBIT</LocID>                         <Text>Órbita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BATTLE_ENVIRONMENT_CRYSTAL</LocID>                       <Text>Cristal</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ENVIRONMENT_PAINT</LocID>                                <Text>Pintura</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ENVIRONMENT_OBJECTS</LocID>                              <Text>Objetos</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>OBJECT_TAGS</LocID>                                      <Text>Etiquetas</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_PAINTER_COMMIT</LocID>                            <Text>CONFIRMAR ÁREA PINTADA [Enter]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_PAINTER_CLEAR_CACHE</LocID>                       <Text>Borrar pinceles en caché</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_MAP_EDITOR_COMMIT_WHEN_CHANGING_BRUSH</LocID>     <Text>Confirmar los objetos dibujados al cambiar de pincel</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>NONE</LocID>                                             <Text>Nada</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACTIVE</LocID>                                           <Text>Activo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ANY</LocID>                                              <Text>Cualquiera</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>FROM_TERRAIN</LocID>                                     <Text>Del terreno</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DEFAULT</LocID>                                          <Text>Por defecto</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>TOOLTIP_EXPAND_CATALOG</LocID>                           <Text>Expandir catálogo \nAtajo por defecto: [I]</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>NEW_MAP_MAP_NAME</LocID>                                 <Text>Nombre del mapa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NEW_MAP_MAP_ID</LocID>                                   <Text>ID del mapa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NEW_MAP_MAP_TYPE</LocID>                                 <Text>Tipo de mapa</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TEXT_SETUP</LocID>                                       <Text>Configuración de texto: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapTextConfiguration_MAP_LOCAL_TEXTS</LocID>             <Text>Mapa con textos locales</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapTextConfiguration_MAP_GLOBAL_TEXTS</LocID>            <Text>Mapa con textos globales</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>WORKSHOP_PREVIEW</LocID>                                 <Text>Subir mapa a Workshop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EDITOR_MENU_FILE_UPLOAD_TO_WORKSHOP</LocID>              <Text>Subir mapa actual a Workshop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UPLOAD_TO_WORKSHOP</LocID>                               <Text>Subir</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UPDATE</LocID>                                           <Text>Actualizar</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>WORKSHOP_UPDATING</LocID>                                <Text>Subiendo mapa...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>WORKSHOP_ID</LocID>                                      <Text>ID de Workshop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_DESCRIPTION</LocID>                                  <Text>Descripción</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>WORKSHOP_TEXTS_INFO</LocID>                              <Text>Aviso: ¡Si has cambiado el nombre o la descripción, esto los sobreescribirá!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BROWSE_WORKSHOP</LocID>                                  <Text>Ver escenarios de Workshop</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ADD_LOSE_HERO_CONDITION</LocID>                          <Text>Añadir condición de "perder a un comandante"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_TO_KEEP_ALIVE</LocID>                               <Text>Comandante que mantener con vida</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ADD_MAP_AREA</LocID>                                     <Text>Añadir un área personalizada del mapa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GAMEPLAY_AREA</LocID>                                    <Text>Área de juego</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>REMOVE_AREA</LocID>                                      <Text>Eliminar área</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_AREAS_HINT_GAME_AREA</LocID>                         <Text>El área de juego se utiliza para crear un boceto de la disposición del mapa y hace que no puedas colocar objetos no interactivos.\nPara editarla, marca las casillas del mapa con el pincel.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_AREAS_HINT_CUSTOM_AREA</LocID>                       <Text>Puedes usar áreas personalizadas para cubrir un área con niebla de guerra de forma permanente o controlar comandantes de IA. Puedes acceder a través de los eventos de mapa.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>LOADING_EDITOR_CATALOG</LocID>                           <Text>Cargando catálogo de objetos...</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_MAP_RESIZER</LocID>                       <Text>Redimensionar mapa</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_MAP_RESIZER_ORIGINAL_SIZE</LocID>         <Text>Tamaño original:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_MAP_RESIZER_NEW_SIZE</LocID>              <Text>Nuevo tamaño:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_MAP_RESIZER_RESIZE</LocID>                <Text>Redimensionar</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>UNCATEGORIZED</LocID>                                    <Text>Sin categorizar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_JUNGLE_GREEN</LocID>                  <Text>Jungla verde</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_JUNGLE_PALE</LocID>                   <Text>Jungla pálida</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_JUNGLE_RED</LocID>                    <Text>Jungla roja</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_JUNGLE_YELLOW</LocID>                 <Text>Jungla amarilla</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_SWAMP_GREEN</LocID>                   <Text>Pantano verde</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_SWAMP_YELLOW</LocID>                  <Text>Pantano amarillo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_DESERT_SAND</LocID>                   <Text>Desierto arenoso</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_DESERT_DIRT</LocID>                   <Text>Desierto de tierra</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_DESERT_DARK</LocID>                   <Text>Desierto oscuro</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_DESERT_GREEN</LocID>                  <Text>Desierto verde</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_MUSHROOM_BLUE</LocID>                 <Text>Setas azules</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_MUSHROOM_GREEN</LocID>                <Text>Setas verdes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_MUSHROOM_BUBBLY</LocID>               <Text>Setas burbujeantes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_CRYSTALS_LIGHT</LocID>                <Text>Cristales claros</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_CRYSTALS_DARK</LocID>                 <Text>Cristales oscuros</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_ORBIT_WHITE</LocID>                   <Text>Órbita blanca</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_ORBIT_GREY</LocID>                    <Text>Órbita gris</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_PRIMALS_SMOOTH</LocID>                <Text>Ruinas primordiales lisas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TERRAIN_COLLECTION_PRIMALS_ROUGH</LocID>                 <Text>Ruinas primordiales rugosas</Text></GameDBLocalizedString>
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

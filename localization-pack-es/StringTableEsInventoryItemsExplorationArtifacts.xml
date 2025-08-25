@@ -1,0 +1,37 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_INVENTORY_ITEMS_EXPLORATION_ARTIFACTS">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_VAGRANT</LocID>                                 <Text>Vagabundo</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_VAGRANT_DESCRIPTION</LocID>                     <Text><![CDATA[Un artefacto.\nAñade <color=SOTS_COLOR_MOVEMENT>20 puntos de movimiento</color> a cada turno.]]></Text>  </GameDBLocalizedString><!--TODO put back when short cuts are done ->All shortcuts will be gratis and instant.-->
+            <GameDBLocalizedString>         <LocID>ARTIFACT_VAGRANT_LORE</LocID>                            <Text>A veces, moverse sin parar es lo mejor que se puede hacer. Y si tu voluntad llega a flaquear, el Vagabundo te permitirá seguir adelante. No importa si conduces, montas, corres o vas saltando de tocón a tocón. Tú ya no decides.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_SEER</LocID>                                    <Text>Vidente</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_SEER_DESCRIPTION</LocID>                        <Text>Un artefacto.\nAumenta de forma permanente la visibilidad de tu comandante durante cada ciclo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_SEER_LORE</LocID>                               <Text>Todo empieza con imágenes del pasado que no reconoces. Después, el mundo te parece un «déjà vu» y, al poco rato, te das cuenta de que has vivido las mismas experiencias en otro momento, en innumerables ocasiones. Todo lo que ves le pertenece ahora al Vidente.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_MOONWALKER</LocID>                              <Text>Caminante bajo la luz de la luna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_MOONWALKER_DESCRIPTION</LocID>                  <Text>Un artefacto.\n Durante la noche, eliminará la niebla de guerra de un área amplia alrededor de tu comandante. Bonificación de visión +3. Durante el día, el atributo de visión de tu comandante volverá a su valor predeterminado.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_MOONWALKER_LORE</LocID>                         <Text>Ahora eres capaz de reconocer las más mínimas diferencias en textura, material y movimiento de las sombras. A la semana ya lograrás entender lo que sienten los vampiros cada día. Al mes ya estarás a puntito de convertirte en uno de ellos.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_PHOENIX</LocID>                                 <Text>Fénix</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_PHOENIX_DESCRIPTION</LocID>                     <Text>Un artefacto.\nSi tu comandante se ha retirado, volverá a aparecer en la base vacía más cercana con la mitad de sus tropas, experiencia obtenida en batalla y todo su equipamiento.</Text>  </GameDBLocalizedString> <!-- TODO (Should the artefact disapear afterwards)? -->
+            <GameDBLocalizedString>         <LocID>ARTIFACT_PHOENIX_LORE</LocID>                            <Text>El instinto de supervivencia es fuerte, pero fusionarse con el Fénix es algo mucho más impresionante. Todo tu ser vive por y para la supervivencia. Olvídate de las promesas, órdenes, amistades, seres queridos. Anhelar la vida es una enfermedad infecciosa. Debemos correr, ¡debemos vivir!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_SITE_CONSCIOUSNESS</LocID>                      <Text>Consciencia de área</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_SITE_CONSCIOUSNESS_DESCRIPTION</LocID>          <Text><![CDATA[Un artefacto.\nTe ofrece la posibilidad de <color=SOTS_COLOR_GOLD>usar</color> destrezas de <color=SOTS_COLOR_GOLD>Trotamundos</color> <color=SOTS_COLOR_MOVEMENT>dos veces</color> por fase (deben ser diferentes).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_SITE_CONSCIOUSNESS_LORE</LocID>                 <Text>Con un poco de disciplina, nadie se percatará de que tu consciencia ha «volado» y ahora dirige varias estrategias de combate al mismo tiempo. Tu mente es como una habitación llena de generales veteranos, ¡pero a lo bestia! Y lo más importante es que todos son tú y nadie se reirá de tus planes si al final no salen bien.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_MASTERMIND</LocID>                              <Text>Mente maestra</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_MASTERMIND_DESCRIPTION</LocID>                  <Text><![CDATA[Un artefacto.\nAumenta de manera <color=SOTS_COLOR_GOLD>permanente</color> tu atributo de <color=SOTS_COLOR_GOLD>Fuerza de destreza</color> en <color=SOTS_COLOR_GOLD>un punto</color> durante cada <color=SOTS_COLOR_GOLD>ciclo</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_MASTERMIND_LORE</LocID>                         <Text>Cierra los ojos. Concéntrate. Ah, sí, ¡ya notas cómo te crece! Hablamos de tu poder mental, mente sucia. ¿En qué estabas pensando, eh? ¿Tu bíceps? Estaría muy guapo también, pero si bien los músculos te pueden ayudar en una batalla, una mente brillante es la única capaz de cambiar el rumbo de todo un conflicto.</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

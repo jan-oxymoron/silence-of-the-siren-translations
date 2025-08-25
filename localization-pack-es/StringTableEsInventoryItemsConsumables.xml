@@ -1,0 +1,85 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_INVENTORY_ITEMS_CONSUMABLES">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_HINT_UNAVAILABLE</LocID>                                    <Text><![CDATA[Usar este objeto no provocaría ningún efecto ahora mismo:]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NEEDS_SKILL</LocID>                                         <Text><![CDATA[<color=SOTS_COLOR_RED>Necesitas la habilidad {1} al nivel {2} para aprender esta destreza.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ALREADY_AT_MAX</LocID>                                      <Text><![CDATA[<color=SOTS_COLOR_GOLD>Ya has alcanzado la cantidad máxima.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NO_EFFECT_ON_OBJECTS</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_RED>No tienes ningún edificio apropiado cerca de ti.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ALREADY_KNOWS</LocID>                                       <Text><![CDATA[<color=SOTS_COLOR_GOLD>Tu comandante ya conoce este objeto.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAX_SKILLS</LocID>                                          <Text><![CDATA[<color=SOTS_COLOR_RED>Tu comandante es incapaz de aprender más habilidades.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAXED_SKILL</LocID>                                         <Text><![CDATA[<color=SOTS_COLOR_RED>Ya has mejorado al máximo esta habilidad.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NO_SPACE</LocID>                                            <Text><![CDATA[<color=SOTS_COLOR_RED>No tienes espacio libre suficiente alrededor de tu comandante.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_BLOCKED_BY_COMMANDER_TRAP</LocID>                           <Text><![CDATA[<color=SOTS_COLOR_RED>Han tendido una trampa a tu comandante.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ALREADY_USED_THIS_ROUND</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_RED>Ya lo has usado {1} veces durante esta ronda.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_HINT</LocID>                                                <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Haz clic derecho</color> con el ratón <color=SOTS_COLOR_FUSION_CORE>para usar</color> el objeto o <color=SOTS_COLOR_FUSION_CORE>déjalo caer</color> en la <color=SOTS_COLOR_FUSION_CORE>cara de tu comandante</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_HINT_HERO_SELECTOR</LocID>                                  <Text><![CDATA[Haz clic para usar.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_FUEL_STOCK</LocID>                                          <Text>Almacén de combustible</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_FUEL_STOCK_DESCRIPTION</LocID>                              <Text><![CDATA[Rellena <color=SOTS_COLOR_MOVEMENT>30 puntos de movimiento</color> (no se puede exceder el 100 % de capacidad).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_FUEL_STOCK_LORE</LocID>                                     <Text>Todo el mundo predijo que la fusión fría cambiaría el mundo. Sin embargo, cuatro siglos y muchas catástrofes después, lo que tenemos en nuestras manos es un mísero dispensador de combustible.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_DATA_FRAGMENT</LocID>                                       <Text>Fragmento de datos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_DATA_FRAGMENT_DESCRIPTION</LocID>                           <Text><![CDATA[Se usa para conseguir <color=SOTS_COLOR_XP>500 puntos de experiencia</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_DATA_FRAGMENT_LORE</LocID>                                  <Text>Estas reliquias creadas por los Primordiales están dispersas por todos los lugares. Se han postulado la teoría de ondas Theta, la teoría del marcador CR, e incluso la teoría Sinestésica (también conocida generalmente como la teoría de «el ron huele a Navidad»). Sin embargo, aún desconocemos el mecanismo que permite observar las partes inconscientes del cerebro.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH</LocID>                                     <Text>Antorcha de magnesio</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH_DESCRIPTION</LocID>                         <Text>Despeja la niebla de guerra alrededor de tu comandante.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH_LORE</LocID>                                <Text>La cantidad de magnesio en estas antorchas es casi inexistente, pero es que no cabía en la etiqueta el texto «inyecciones minúsculas de metal líquido que se queman en el vacío oscilatorio al aproximarse a la gravedad cero.»</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MEMORY_WIPER</LocID>                                        <Text>Borrador de memoria</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MEMORY_WIPER_DESCRIPTION</LocID>                            <Text>El edificio más cercano «olvidará» que tu comandante seleccionado ya lo ha visitado (no funciona con edificios inutilizados tras una batalla).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MEMORY_WIPER_LORE</LocID>                                   <Text>Una de las muchas tecnologías extraterrestres suministradas a la NUSS por sus aliados hesperidianos. Una vez los prototipos llegaron a las manos de las agencias de seguridad, la «democracia» de la NUSS se volvió más estable.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_SKILL_LEARNING_DESCRIPTION</LocID>       <Text>Tu comandante aprenderá o subirá de nivel la habilidad {1}.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_ABILITY_LEARNING_DESCRIPTION</LocID>          <Text>Tu comandante aprenderá la destreza {1}.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_LORE</LocID>                             <Text>Si haces algo demasiado a menudo, el cerebro se te saldrá por las orejas. Curiosamente, esta advertencia también se aplica a formas de vida inorgánicas y sus centros cognitivos. Los antiguos Primordiales no tuvieron problema alguno en implementar lo que muchos considerarían transferencias de datos «invasivas».</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_LORE</LocID>                                  <Text>Este juguetito de los Primordiales es capaz de albergar toda la biblioteca, pero, desafortunadamente, tu mente debilucha no puede con más. Sientes como si alguien te hubiera pasado un cepillo metálico por todo el cráneo. Menudo desperdicio, y más cuando te das cuenta de que su uso es único.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_SPY</LocID>                              <Text>Pergamino de información antiguo (espía)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_EXPLORER</LocID>                         <Text>Pergamino de información antiguo (explorador)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_ENGINEER</LocID>                         <Text>Pergamino de información antiguo (ingeniero)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_SCOUT</LocID>                            <Text>Pergamino de información antiguo (centinela)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_NEGOTIATOR</LocID>                       <Text>Pergamino de información antiguo (mediador)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_COLLECTOR</LocID>                        <Text>Pergamino de información antiguo (coleccionista)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_BUILDER</LocID>                          <Text>Pergamino de información antiguo (constructor)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_TRACKER</LocID>                          <Text>Pergamino de información antiguo (rastreador)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_EXPLORATION_ABILITIES</LocID>            <Text>Pergamino de información antiguo (trotamundos)</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_BRAWLER</LocID>                          <Text>Pergamino de información antiguo (matón)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_SNIPER</LocID>                           <Text>Pergamino de información antiguo (francotirador)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_DEFENSIVE_SPECIALIST</LocID>             <Text>Pergamino de información antiguo (especialista defensivo)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_CHESS_MASTER</LocID>                     <Text>Pergamino de información antiguo (maestro en ajedrez)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_FIELD_RESEARCH</LocID>                   <Text>Pergamino de información antiguo (investigación de campo)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_SCAVENGER</LocID>                        <Text>Pergamino de información antiguo (carroñero)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_TECH_ABILITIES</LocID>                   <Text>Pergamino de información antiguo (amante de la tecnología)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_BIO_ABILITIES</LocID>                    <Text>Pergamino de información antiguo (biótico)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ANCIENT_DATASCROLL_PSY_ABILITIES</LocID>                    <Text>Pergamino de información antiguo (destrezas psicotrónicas)</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL</LocID>                                       <Text>Célula de recarga</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL_DESCRIPTION</LocID>                           <Text><![CDATA[Rellena <color=SOTS_COLOR_ENERGY>25 puntos de energía</color> (no se puede exceder el 100 % de capacidad).]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL_LORE</LocID>                                  <Text>Aunque todos los Vástagos del Origen poseen dispositivos de recarga que desintegran la materia orgánica para conseguir energía, las células de recarga típicas son siempre su primera opción. Por otro lado, ahora ya sabes por qué conocen la palabra «retrete» a pesar de ser robots. De nada.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_PLANETFALL_BEACON_RESOURCES</LocID>                         <Text>Baliza de caída en planeta: recursos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_PLANETFALL_BEACON_RESOURCES_DESCRIPTION</LocID>             <Text><![CDATA[Un gran montón de recursos de todo tipo que ha caído cerca de la ubicación de tu comandante.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_PLANETFALL_BEACON_RESOURCES_LORE</LocID>                    <Text><![CDATA[Es imposible falsificar o alterar una baliza debido a su mecanismo de autodestrucción, pero si encuentras una en perfecto estado, ¡las tienes todas contigo! El sistema de control del destinatario es un servicio ofrecido por la empresa ubicada en la Tierra y, debido a la Destrucción, nadie puede pagar por él. Se lo deberían haber pensado dos veces.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_EXTRA_RATIONS</LocID>                                       <Text>Raciones adicionales</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_EXTRA_RATIONS_DESCRIPTION</LocID>                           <Text><![CDATA[<color=SOTS_COLOR_GOLD>Aumenta el ánimo</color> en <color=SOTS_COLOR_GOLD>cinco</color> puntos hasta el <color=SOTS_COLOR_GOLD>final</color> de la <color=SOTS_COLOR_RED>batalla siguiente</color>. Se puede <color=SOTS_COLOR_GOLD>usar</color> un máximo de <color=SOTS_COLOR_GOLD>tres veces.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_EXTRA_RATIONS_LORE</LocID>                                  <Text>Hay cosas que recargan a los robots, también comida criofijada para los orgánicos, estimulantes de combate y, por alguna razón, un número antiguo de la revista Topomamis, perfecta para «gente» a la que le van esas cosas.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_CONSUMABLE_MORALE_BOOST</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Potenciación de ánimo (raciones adicionales)</color>]]></Text></GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

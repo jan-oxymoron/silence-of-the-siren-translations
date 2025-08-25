@@ -1,0 +1,98 @@
+﻿<Database>
+    <GameDBStringTable ID="LOC_ES_PATCH_01">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>QLOC</Name> <Name>Pedro Cortázar</Name> <Name>Alba Salgado</Name>  <Name>Pablo Melgar</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>        <LocID>FRIENDLY</LocID>                                                      <Text>No hostil</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>WILL_NOT_NEGOTIATE</LocID>                                            <Text>Nunca negociará</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>        <LocID>ICON_UNIT_RESIST</LocID>                                              <Text>Resistente</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>        <LocID>OPTION_GRAPHICS_RESOLUTION_SCALE</LocID>                              <Text>Escala de resolución (mapa)</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>        <LocID>HEADING_OBJECTIVES_CAMPAIGN</LocID>                                   <Text>Lo que te espera:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>        <LocID>COOLDOWN</LocID>                                                      <Text>Tiempo de recuperación</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>COOLDOWN_ROUNDS</LocID>                                               <Text>Rondas</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>        <LocID>MAIN_MENU_EARLY_ACESS</LocID>                                         <Text>¡Gracias por jugar a la versión de acceso anticipado de Heroes of Science and Fiction! \n\nAgradecemos vuestro apoyo previo a la publicación del juego completo y esperamos que disfrutéis al máximo del contenido incluido. \n\nTenemos muchas ganas de recibir vuestros comentarios e informes de fallos y estamos trabajando duro para mejorar el juego, siempre con las contribuciones de la comunidad en mente. \n\nEncontraréis los enlaces a la sección de informes de fallos en el foro de Steam y a nuestro Discord más abajo.</Text>  </GameDBLocalizedString>
+
+            <!--_______________MAP_BRIDGES_TOO_FAR__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_BRIDGES_TOO_FAR_ID</LocID>                                        <Text>Puentes demasiado lejos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_BRIDGES_TOO_FAR_DESCRIPTION</LocID>                               <Text><![CDATA[Los últimos dos puentes conectan el dividido territorio. ¿Quiénes lograrán encontrarlos primero? ¿Los <b>fosorianos</b> o los <b>Vástagos del Origen</b>?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_BRIDGES_TOO_FAR_INTRO</LocID>                                     <Text>Hola, comandante. La línea de contacto con el enemigo se ha roto de manera permanente. Los exploradores informan de que solo quedan dos puentes. Hazte con al menos un núcleo de fusión, úsalo para activar cualquiera de los puentes y llega hasta el enemigo para derrotarlo antes de que nos venzan a nosotros.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_BRIDGES_TOO_FAR_VICTORY</LocID>                                   <Text>Si bien los puentes se suelen considerar estructuras de conexión y unión, este ha dado lugar a una destrucción y violencia sin iguales.</Text>    </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_BRIDGES_TOO_FAR_KEEPER_0</LocID>                             <Text>¡Saludos, comandante! Pertenezco al Gremio de guardianes. Mi hermano, que también es miembro, y yo hemos vivido aquí durante muchísimos años. Un día empezamos a aburrirnos y comenzamos a gastarnos bromas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BRIDGES_TOO_FAR_KEEPER_1</LocID>                             <Text>Me gustaría que recuperases el artefacto que mi hermano me ha escondido. No puedo ir yo a por él porque el objeto lo protegen criaturas peligrosas. Bloqueé la ruta que lleva a él con piedras para evitar sustos, pero la he despejado para ti. Te ofreceré una recompensa de lo más generosa a cambio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BRIDGES_TOO_FAR_KEEPER_2</LocID>                             <Text>Parece que todavía no has recuperado mi artefacto. Vuelve cuando lo tengas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BRIDGES_TOO_FAR_KEEPER_3</LocID>                             <Text>Gracias por encontrar y devolverme el artefacto. Con un esfuerzo mínimo, he sido más astuto que mi hermano otra vez. Quédate con el artefacto; creo que estará en mejores manos contigo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BRIDGES_TOO_FAR_KEEPER_4</LocID>                             <Text>Y toma, aquí tienes tu recompensa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BRIDGES_TOO_FAR_KEEPER_5</LocID>                             <Text>No se me ha ocurrido ninguna broma nueva que gastarle a mi hermano.</Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_BRIDGES_TOO_FAR_KEEPER</LocID>                             <Text>Consigue el artefacto que protegen las criaturas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_BRIDGES_TOO_FAR_KEEPER1</LocID>                            <Text>Habla con el guardián para obtener tu recompensa.</Text>  </GameDBLocalizedString>
+
+            <!--_______________MAP_CRYING_RIVER__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_CRYING_RIVER_ID</LocID>                                           <Text>Lágrimas del río</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CRYING_RIVER_DESCRIPTION</LocID>                                  <Text><![CDATA[El antiguo río seco crea una barrera que divide el territorio en tres zonas. ¿Serán capaces los <b>fosorianos</b>, los <b>Vástagos del Origen</b> o la <b>flota soberana</b> de unir todos los territorios bajo un único líder?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CRYING_RIVER_INTRO</LocID>                                        <Text>Hola, comandante. Hemos establecido una pequeña base en la zona. Nuestros servicios de inteligencia nos avisan de la presencia de múltiples enemigos, por lo que no bajes la guardia. Tu misión es construir una base fortalecida, reunir el mayor número de tropas posible, buscar y destruir a todos los enemigos y conquistar el territorio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CRYING_RIVER_VICTORY</LocID>                                      <Text>Como es lógico, este territorio habría sido una gran baza para el enemigo si lo hubiese conquistado. Gracias a tus esfuerzos, comandante, ahora está bajo nuestro completo control.</Text>    </GameDBLocalizedString>
+                                                                                                                  
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRYING_RIVER_KEEPER_0</LocID>                                <Text>¡Saludos, comandante! Pertenezco al Gremio de guardianes. ¿Ves este territorio a tu alrededor? Antes estaba lleno de vida, de júbilo... \nUna zona de lo más rica, sobre todo gracias a los beneficios provenientes de la minería orbital... \nSin embargo, ahora solo quedan un pocos mineros ancianos que hacen lo que pueden para sobrevivir. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRYING_RIVER_KEEPER_1</LocID>                                <Text>Yo también he vivido bastante y muchas veces me resulta complicado ver las cosas positivas que tiene la vida. He perdido mi querida antorcha de magnesio en alguna parte de las minas antiguas. Si la encuentras y me la traes, te recompensaré como es debido.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRYING_RIVER_KEEPER_2</LocID>                                <Text>Veo que todavía no has encontrado mi antorcha de magnesio. Vuelve una vez la hayas recuperado.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRYING_RIVER_KEEPER_3</LocID>                                <Text>No puedo creer que la hayas encontrado... ¡Estoy más que impresionado! \nTe la puedes quedar. Creo que incluso tus jóvenes ojos necesitarán un poco de luz al explorar lugares oscuros...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRYING_RIVER_KEEPER_4</LocID>                                <Text>Y toma, aquí tienes tu recompensa.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CRYING_RIVER_KEEPER_5</LocID>                                <Text>Este viejo no tiene nada más que ofrecerte.</Text>  </GameDBLocalizedString>
+                                                                                                                  
+                                                                                                                  
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CRYING_RIVER_KEEPER</LocID>                                <Text>Recupera la antorcha de magnesio perdida.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CRYING_RIVER_KEEPER1</LocID>                               <Text>Habla con el guardián para obtener tu recompensa.</Text>  </GameDBLocalizedString>
+            
+            <!--LOADING TIPS TEXTS-->
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_01</LocID>                                               <Text>A veces es mejor atacar a un ejército más fuerte (de peligro moderado o alto) en lugar de quedarse sin avanzar alrededor de tu base.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_02</LocID>                                               <Text>Merece la pena tener beneficios de sobra antes de invertirlos en la producción de unidades.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_03</LocID>                                               <Text>Al combatir, puedes usar una destreza de comandante en cada ronda, siempre que tengas la energía suficiente.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_04</LocID>                                               <Text>¡Ten cuidado al atacar con tus unidades de alcance limitado! Si te acercas demasiado, recibirás un contraataque al igual que si atacases cuerpo a cuerpo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_05</LocID>                                               <Text>Algunos elementos en el mapa de exploración crean zonas que producen efectos positivos o negativos a su alrededor. ¡Mantén los ojos abiertos!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_06</LocID>                                               <Text>¡No te olvides de usar los consumibles en el momento adecuado! Por ejemplo, cuando estés a punto de alcanzar a tu enemigo.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_07</LocID>                                               <Text>Mover unidades entre comandantes cuesta puntos de movimiento, ¡así que planea cada estrategia cuidadosamente!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_08</LocID>                                               <Text>Todas las facciones disponen de una manera de desbloquear un viaje rápido entre bases.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_09</LocID>                                               <Text>Cuando te sea complicado conseguir un recurso determinado, no dudes en comprarlo en un puesto de intercambio.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_10</LocID>                                               <Text>Cuando te enfrentes a la fauna local, asegúrate de luchar contra las criaturas en el mejor momento. Es decir, ¡cuando son más vulnerables!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_11</LocID>                                               <Text>Las máquinas de guerra que puedes construir en cada base son caras, pero pueden sacarte de un apuro en las batallas más complicadas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_12</LocID>                                               <Text>Si no dejas de ver que pasan cosas raras o sientes que la partida se te vuelve demasiado fácil, seguramente tengas una habilidad especial o artefacto.</Text>  </GameDBLocalizedString>
+
+            <!--_______________EQUIPMENT__________________________-->
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SUBDERMAL_ARMOR_DESCRIPTION_V2</LocID>                     <Text><![CDATA[Aumenta la <color=SOTS_COLOR_BLUE>defensa</color> de las unidades biológicas según el nivel de la unidad.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SMARTGUN_AIMING_UNIT_DESCRIPTION_V2</LocID>                <Text><![CDATA[Otorga <color=SOTS_COLOR_RED>daño</color> adicional a los <color=SOTS_COLOR_ATTACK>ataques a distancia</color> según el nivel de la unidad.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SIDEARM_DESCRIPTION_V2</LocID>                             <Text><![CDATA[Otorga <color=SOTS_COLOR_RED>daño cuerpo a cuerpo</color> adicional a las <color=SOTS_COLOR_ATTACK>unidades a distancia</color> según el nivel de la unidad.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE_DESCRIPTION_V2</LocID>                         <Text><![CDATA[Aumenta el alcance de la <color=SOTS_COLOR_MOVEMENT>visibilidad</color> de tu comandante.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_MEDAL_OF_HONOR_DESCRIPTION_V2</LocID>                      <Text><![CDATA[Esta antigua baratija aumenta el <color=SOTS_COLOR_GOLD>ánimo</color> de tus tropas <color=SOTS_COLOR_GOLD>en 10 puntos</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CEREMONIAL_FLAG_DESCRIPTION_V2</LocID>                     <Text><![CDATA[Aumenta el <color=SOTS_COLOR_GOLD>ánimo</color> de tus tropas <color=SOTS_COLOR_GOLD>en cinco puntos</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH_DESCRIPTION_V2</LocID>                    <Text><![CDATA[Revela de manera inmediata un área grande de la <color=SOTS_COLOR_INDIGO>niebla de guerra</color> alrededor de tu comandante.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_BEACON</LocID>                                    <Text><![CDATA[Baliza de radio]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_BEACON_DESCRIPTION</LocID>                        <Text><![CDATA[Un emisor potente de ondas de radio. Su señal se puede localizar incluso desde la órbita. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_BEACON_LORE</LocID>                               <Text><![CDATA[Sin ella, cualquier bombardeo planetario sería tan preciso como la descripción de la fusión termonuclear proveniente de un borracho. No es precisa, pero, sorprendentemente, tampoco se queda tan lejos (en una escala a nivel planetario). Pero lo dicho, que si atacas a Eslovenia en lugar de a Eslovaquia, no te sorprendas.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_BEACON_II</LocID>                                 <Text><![CDATA[«Baliza de radio»]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_BEACON_II_DESCRIPTION</LocID>                     <Text><![CDATA[Un arma nuclear portátil camuflada como un emisor de ondas de radio.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_BEACON_II_LORE</LocID>                            <Text><![CDATA[Ah, sí, esto es una «baliza de radio». Sin duda. Ahora de veras, ya no nos engañan. Un arma nuclear como esta es un auténtico regalo. Un regalo perfecto para los enemigos del Líder Supremo y su régimen. ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_RELIC</LocID>                                     <Text><![CDATA[La reliquia]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_RELIC_DESCRIPTION</LocID>                         <Text><![CDATA[Un artefacto antiguo. Su origen y propósito son desconocidos.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_RELIC_LORE</LocID>                                <Text><![CDATA[Se ha estilizado este objeto para que se parezca a una larva de insecto con una sonrisa malévola. Su origen y propósito son desconocidos, pero con un diseño como este resulta raro imaginar que tuviese un propósito trivial. Será mejor no jugársela con esta cosa, ¿no? Por cierto, no para de emitir ondas Theta potentes. ]]></Text>  </GameDBLocalizedString>
+           
+            <!--_______________ABILITIES__________________________-->
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK_DESCRIPTION_LVL2_V2</LocID>                 <Text>La unidad está hipnotizada y es incapaz de moverse.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MIMICKING_TACTICS_DESCRIPTION_V2</LocID>         <Text>Los imitadores se transforman en cualquier unidad del campo de batalla</Text></GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
