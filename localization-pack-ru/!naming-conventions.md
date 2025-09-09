@@ -67,6 +67,7 @@
 * Long Molly - Длинная Молли
 * Captain Rao - капитан Рао
 * Major Smith - майор Смит
+* Capt. Holester - Капитан Холстер
 
 **Прочее:**
 * consumables - расходники
