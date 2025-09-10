@@ -1,103 +1,307 @@
 <Database>
-    <GameDBStringTable ID="LOC_RU_PATCH_08_PSY_ABILITIES">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_COMBAT_PSY_ABILITIES</LocID>                              <Text>Psyker</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_COMBAT_PSY_ABILITIES_DESCRIPTION</LocID>                  <Text><![CDATA[Learning and leveling up Psyker lets you learn a selection of <color=SOTS_COLOR_GOLD>Psy Combat Abilities</color>. After learning this skill, visit a base with an <color=SOTS_COLOR_GOLD>Academy</color> to learn more abilities.]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_COOLDOWN_RECOVERY</LocID>                        <Text>Cooldown Recovery</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_COOLDOWN_RECOVERY_DESCRIPTION</LocID>            <Text>Recovers cooldown bar for unit's special ability based on commander's Ability Power (by 1 round up to full recovery).</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSIONIC_BLAST</LocID>                            <Text>Psionic blast</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSIONIC_BLAST_DESCRIPTION</LocID>                <Text>Blasts enemies in an area with psionic energy.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSIONIC_BLAST_DESCRIPTION_LVL2</LocID>           <Text>Larger area, inflicts Daze.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSIONIC_BLAST_DESCRIPTION_LVL3</LocID>           <Text>Largest area, inflicts Daze</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION</LocID>                                       <Text>Confusion</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION</LocID>                           <Text>Confused units struggle to act according to their commander's orders.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL1</LocID>                      <Text>Reduces initiative and movement of enemy unit stack by 5.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL2</LocID>                      <Text>Reduces initiative and movement of enemy unit stack by 5. Disables melee attacks.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL3</LocID>                      <Text>Reduces initiative and movement of enemy unit stack by 5. Disables melee attacks. Disables ranged attacks.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_REDUCE_INITIATIVE_MOVEMENT</LocID>               <Text>Confused and shaking</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_REDUCE_INITIATIVE_MOVEMENT_DESCRIPTION</LocID>   <Text>Initiative and movement are reduced by 40%.</Text>  </GameDBLocalizedString> <!-- TWEAKABLE_EFFECT_SLOW_INITIATIVE_REDUCTION_PERCENT and TWEAKABLE_EFFECT_SLOW_MOVEMENT_REDUCTION_PERCENT-->
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BLOCK_MELEE</LocID>                              <Text>Block melee</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BLOCK_MELEE_DECRIPTION</LocID>                   <Text>This unit can't use its melee attack (this doesn't affect counterattacks).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BLOCK_RANGED</LocID>                             <Text>Block ranged</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BLOCK_RANGED_DESCRIPTION</LocID>                 <Text>If this is a ranged unit, it can't use its basic ranged attack.</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_FEINT</LocID>                                    <Text>Feint</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_FEINT_DESCRIPTION</LocID>                        <Text>Shuffle a unit to the front of the unit order this round.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_FEINT_DESCRIPTION_LVL3</LocID>                   <Text>Also increases movement.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSIONIC_CLEANSING</LocID>                        <Text>Psionic cleansing</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSIONIC_CLEANSING_DESCRIPTION</LocID>            <Text>Removes negative status effects on friendly units.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSIONIC_CLEANSING_LVL1</LocID>                   <Text>Targets single unit.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSIONIC_CLEANSING_LVL2</LocID>                   <Text>Targets multiple units in range, heals target by 5\u00A0%.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSIONIC_CLEANSING_LVL3</LocID>                   <Text>Targets multiple units in a larger range, heals target by 10\u00A0%.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_POLTERGEIST</LocID>                              <Text>Arcane controller</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_POLTERGEIST_DESCRIPTION</LocID>                  <Text>Take control over the enemy unit.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_POLTERGEIST_LVL2</LocID>                         <Text>Only control movement, unit can still attack you afterward. Targets only Tech units.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_POLTERGEIST_LVL3</LocID>                         <Text>Control both movement and attack. Targets any unit.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POLTERGEIST_2</LocID>                            <Text>Poltergeist</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POLTERGEIST_2_DESCRIPTION</LocID>                <Text>Movement of the unit is controlled by the enemy.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POLTERGEIST_3</LocID>                            <Text>Poltergeist</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POLTERGEIST_3_DESCRIPTION</LocID>                <Text>Unit is controlled by the enemy.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSYSERKER</LocID>                                <Text>Berserk</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSYSERKER_DESCRIPTION</LocID>                    <Text>Targeted unit turns into a berserker — it attacks twice, but the commander loses control over it. Duration of the effect depends on commander's Ability Power.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSYSERKER_LVL1</LocID>                           <Text>Targets single melee unit.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSYSERKER_LVL2</LocID>                           <Text>Targets multiple melee units in range.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSYSERKER_LVL3</LocID>                           <Text>Targets multiple units in a larger range, including ranged units.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PSYSERKER</LocID>                                <Text>Berserker</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PSYSERKER_DESCRIPTION</LocID>                    <Text>Attacks twice. Commander doesn't control the unit.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PHASE_SHIFT</LocID>                              <Text>Phase shift</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PHASE_SHIFT_DESCRIPTION</LocID>                  <Text>Allow friendly unit to pass through objects and other units. Duration of the effect depends on commander's Ability Power.</Text>  </GameDBLocalizedString>  
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PHASE_SHIFT_LVL2</LocID>                         <Text>Unit can pass through objects and other units.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PHASE_SHIFT_LVL3</LocID>                         <Text>Unit can pass through objects and other units and cannot be targeted by enemies.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PHASE_SHIFT_2</LocID>                            <Text>Phase Shift</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PHASE_SHIFT_2_DESCRIPTION</LocID>                <Text>Unit can pass through objects and other units.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PHASE_SHIFT_3</LocID>                            <Text>Advanced Phase Shift</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PHASE_SHIFT_3_DESCRIPTION</LocID>                <Text>Unit can pass through objects and other units and cannot be targeted by enemies.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MAXIMUM_EFFORT</LocID>                           <Text>Maximum Effort</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MAXIMUM_EFFORT_DESCRIPTION</LocID>               <Text>Targeted friendly ranged unit gains an extra attack. Duration of the effect depends on commander's Ability Power.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MAXIMUM_EFFORT_LVL2</LocID>                      <Text>Extra ranged attack.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MAXIMUM_EFFORT_LVL3</LocID>                      <Text>Extra ranged attack. No aiming penalties for distance.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_EXTRA_SHOT</LocID>                               <Text>Extra shot</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_EXTRA_SHOT_DESCRIPTION</LocID>                   <Text>Unit has an extra ranged attack.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PRECISION_SHOT</LocID>                           <Text>Precision shot</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PRECISION_SHOT_DESCRIPTION</LocID>               <Text>No aiming penalties for distance.</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PHASE_MIRROR</LocID>                             <Text>Phase mirror</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PHASE_MIRROR_DESCRIPTION</LocID>                 <Text>Selected friendly unit becomes immune to enemy commander's abilities (except for dispel).</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PHASE_MIRROR</LocID>                             <Text>Phase mirror</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PHASE_MIRROR_DESCRIPTION</LocID>                 <Text>Can't be targeted by enemy commander's abilities (except for dispel).</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND</LocID>                              <Text>Mental bond</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND_DESCRIPTION</LocID>                  <Text>Link enemy units together. Whenever any of them takes damage, others get hit too. Each units receives 80% of the original damage.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND_DESCRIPTION_LVL2</LocID>             <Text>Links two units.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND_DESCRIPTION_LVL3</LocID>             <Text>Links three units.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_MENTAL_BOND</LocID>                              <Text>Mental bond</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_MENTAL_BOND_DESCRIPTION</LocID>                  <Text>Gets hit whenever any other connected unit receives damage.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MIND_PATCH</LocID>                               <Text>Mind patch</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MIND_PATCH_DESCRIPTION</LocID>                   <Text>Targeted melee unit gains psionic ranged attack. Duration of the effect depends on commander's Ability Power.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_MIND_PATCH</LocID>                               <Text>Mind patched</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_MIND_PATCH_DESCRIPTION</LocID>                   <Text>Unit was granted a psionic ranged attack.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_RIOT</LocID>                               <Text>Mental riot</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_RIOT_DESCRIPTION</LocID>                   <Text>Grants random status effect to all units on the battlefield. Friendly units get positive effects, enemies negative.</Text>  </GameDBLocalizedString>            
-
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+  <GameDBStringTable ID="LOC_RU_PATCH_08_PSY_ABILITIES">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>AlexSnowLeo</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>HERO_SKILL_COMBAT_PSY_ABILITIES</LocID>
+        <Text>Псайкер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_SKILL_COMBAT_PSY_ABILITIES_DESCRIPTION</LocID>
+        <Text><![CDATA[Изучение и повышение уровня навыка «Псайкер» открывает доступ к ряду <color=SOTS_COLOR_GOLD>боевых пси-умений</color>. После изучения этого навыка посетите базу с <color=SOTS_COLOR_GOLD>Академией</color>, чтобы изучить дополнительные умения.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_COOLDOWN_RECOVERY</LocID>
+        <Text>Восстановление перезарядки</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_COOLDOWN_RECOVERY_DESCRIPTION</LocID>
+        <Text>Восстанавливает шкалу перезарядки особого умения отряда в зависимости от Силы умений командира (до 1 раунда или полностью).</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSIONIC_BLAST</LocID>
+        <Text>Псионический взрыв</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSIONIC_BLAST_DESCRIPTION</LocID>
+        <Text>Поражает врагов в области псионической энергией.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSIONIC_BLAST_DESCRIPTION_LVL2</LocID>
+        <Text>Большая область, накладывает Оглушение.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSIONIC_BLAST_DESCRIPTION_LVL3</LocID>
+        <Text>Огромная область, накладывает Оглушение.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_CONFUSION</LocID>
+        <Text>Замешательство</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION</LocID>
+        <Text>Отряды под действием замешательства могут игнорировать приказы командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL1</LocID>
+        <Text>Снижает инициативу и передвижение отряда врага на 5.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL2</LocID>
+        <Text>Снижает инициативу и передвижение отряда врага на 5. Блокирует ближние атаки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL3</LocID>
+        <Text>Снижает инициативу и передвижение отряда врага на 5. Блокирует ближние атаки. Блокирует дальние атаки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_REDUCE_INITIATIVE_MOVEMENT</LocID>
+        <Text>В замешательстве и дрожит</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_REDUCE_INITIATIVE_MOVEMENT_DESCRIPTION</LocID>
+        <Text>Инициатива и перемещение снижены на 40%.</Text>
+      </GameDBLocalizedString>
+      <!-- TWEAKABLE_EFFECT_SLOW_INITIATIVE_REDUCTION_PERCENT and TWEAKABLE_EFFECT_SLOW_MOVEMENT_REDUCTION_PERCENT-->
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_BLOCK_MELEE</LocID>
+        <Text>Блок ближнего боя</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_BLOCK_MELEE_DECRIPTION</LocID>
+        <Text>Этот отряд не может использовать свою атаку в ближнем бою (не влияет на контратаки).</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_BLOCK_RANGED</LocID>
+        <Text>Блок дальнего боя</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_BLOCK_RANGED_DESCRIPTION</LocID>
+        <Text>Если это дальнобойный отряд,он не сможет использовать свою базовую атаку дальнего боя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_FEINT</LocID>
+        <Text>Финт</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_FEINT_DESCRIPTION</LocID>
+        <Text>Перемещает отряд в начало очереди ходов в этом раунде.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_FEINT_DESCRIPTION_LVL3</LocID>
+        <Text>Также увеличивает перемещение.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSIONIC_CLEANSING</LocID>
+        <Text>Псионическое очищение</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSIONIC_CLEANSING_DESCRIPTION</LocID>
+        <Text>Снимает негативные эффекты с союзных отрядов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSIONIC_CLEANSING_LVL1</LocID>
+        <Text>Действует на один отряд.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSIONIC_CLEANSING_LVL2</LocID>
+        <Text>Действует на несколько отрядов в радиусе, восстанавливает цель на 5\u00A0%.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSIONIC_CLEANSING_LVL3</LocID>
+        <Text>Действует на нескольких отрядов в большом радиусе, восстанавливает цель на 10\u00A0%.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_POLTERGEIST</LocID>
+        <Text>Скрытый контролёр</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_POLTERGEIST_DESCRIPTION</LocID>
+        <Text>Установите контроль над вражеским отрядом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_POLTERGEIST_LVL2</LocID>
+        <Text>Контролирует только перемещение, отряд может атаковать вас после этого. Действует только на техно-отряды.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_POLTERGEIST_LVL3</LocID>
+        <Text>Контролирует и перемещение, и атаку. Действует на любые отряды.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_POLTERGEIST_2</LocID>
+        <Text>Полтергейст</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_POLTERGEIST_2_DESCRIPTION</LocID>
+        <Text>Перемещение отряда контролируется врагом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_POLTERGEIST_3</LocID>
+        <Text>Полтергейст</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_POLTERGEIST_3_DESCRIPTION</LocID>
+        <Text>Отряд контролируется врагом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSYSERKER</LocID>
+        <Text>Берсерк</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSYSERKER_DESCRIPTION</LocID>
+        <Text>Целевой отряд превращается в берсерка — он атакует дважды, но командир теряет над ним контроль. Длительность эффекта зависит от Силы умений командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSYSERKER_LVL1</LocID>
+        <Text>Действует на один отряд ближнего боя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSYSERKER_LVL2</LocID>
+        <Text>Действует на несколько отрядов ближнего боя в радиусе.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PSYSERKER_LVL3</LocID>
+        <Text>Действует на несколько отрядов в большом радиусе, включая отряды дальнего боя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_PSYSERKER</LocID>
+        <Text>Берсерк</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_PSYSERKER_DESCRIPTION</LocID>
+        <Text>Атакует дважды. Командир не может контролировать отряд.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PHASE_SHIFT</LocID>
+        <Text>Фазовый сдвиг</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PHASE_SHIFT_DESCRIPTION</LocID>
+        <Text>Позволяет союзному отряду проходить сквозь объекты и другие отряды. Длительность эффекта зависит от Силы умений командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PHASE_SHIFT_LVL2</LocID>
+        <Text>Отряд может проходить сквозь объекты и другие отряды.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PHASE_SHIFT_LVL3</LocID>
+        <Text>Отряд может проходить сквозь объекты и другие отряды и не может быть выбран врагами в качестве цели.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_PHASE_SHIFT_2</LocID>
+        <Text>Фазовый сдвиг</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_PHASE_SHIFT_2_DESCRIPTION</LocID>
+        <Text>Отряд может проходить сквозь объекты и другие отряды.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_PHASE_SHIFT_3</LocID>
+        <Text>Продвинутый фазовый сдвиг</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_PHASE_SHIFT_3_DESCRIPTION</LocID>
+        <Text>Отряд может проходить сквозь объекты и другие отряды и не может быть выбран врагами в качестве цели.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MAXIMUM_EFFORT</LocID>
+        <Text>Максимальное усилие</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MAXIMUM_EFFORT_DESCRIPTION</LocID>
+        <Text>Выбранный союзный дальнобойный отряд получает дополнительную атаку. Длительность эффекта зависит от Силы умений командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MAXIMUM_EFFORT_LVL2</LocID>
+        <Text>Дополнительная дальнобойная атака.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MAXIMUM_EFFORT_LVL3</LocID>
+        <Text>Дополнительная дальнобойная атака. Без штрафов к точности на дистанции.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_EXTRA_SHOT</LocID>
+        <Text>Дополнительный выстрел</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_EXTRA_SHOT_DESCRIPTION</LocID>
+        <Text>Отряд обладает дополнительной дальнобойной атакой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_PRECISION_SHOT</LocID>
+        <Text>Точный выстрел</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_PRECISION_SHOT_DESCRIPTION</LocID>
+        <Text>Без штрафов к точности на дистанции.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PHASE_MIRROR</LocID>
+        <Text>Фазовое зеркало</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_PHASE_MIRROR_DESCRIPTION</LocID>
+        <Text>Выбранный союзный отряд получает иммунитет к умениям вражеского командира (кроме рассеивания).</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_PHASE_MIRROR</LocID>
+        <Text>Фазовое зеркало</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_PHASE_MIRROR_DESCRIPTION</LocID>
+        <Text>Не может быть целью умений вражеского командира (кроме рассеивания).</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND</LocID>
+        <Text>Ментальная связь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND_DESCRIPTION</LocID>
+        <Text>Связывает вражеские отряды. При получении урона одним из них, остальные также получают урон. Каждый отряд получает 80% от исходного урона.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND_DESCRIPTION_LVL2</LocID>
+        <Text>Связывает два отряда.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND_DESCRIPTION_LVL3</LocID>
+        <Text>Связывает три отряда.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_MENTAL_BOND</LocID>
+        <Text>Ментальная связь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_MENTAL_BOND_DESCRIPTION</LocID>
+        <Text>Получает урон, когда любой другой связанный отряд получает повреждения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MIND_PATCH</LocID>
+        <Text>Ментальный имплант</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MIND_PATCH_DESCRIPTION</LocID>
+        <Text>Выбранный отряд ближнего боя получает псионическую дальнобойную атаку. Длительность эффекта зависит от Силы умений командира.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_MIND_PATCH</LocID>
+        <Text>Установлен ментальный имплант</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_MIND_PATCH_DESCRIPTION</LocID>
+        <Text>Отряд получил псионическую дальнобойную атаку.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MENTAL_RIOT</LocID>
+        <Text>Ментальный хаос</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_HERO_COMBAT_MENTAL_RIOT_DESCRIPTION</LocID>
+        <Text>Наносит случайный эффект всем отрядам на поле боя. Союзники получают положительные эффекты, враги — отрицательные.</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>

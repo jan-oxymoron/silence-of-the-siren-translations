@@ -67,6 +67,7 @@
 * Long Molly - Длинная Молли
 * Captain Rao - капитан Рао
 * Major Smith - майор Смит
+* Capt. Holester - Капитан Холстер
 
 **Прочее:**
 * consumables - расходники
@@ -76,7 +77,7 @@
 * skill - навык
 * slurm - слёрм (?) - например: "Slurm ahead! Beware, troops! They vomit acid that melts through metal!"
 * Sentry gun, Sentry cannon, Sentry turret, Sentry I, II, III - турель (?)
-* Jerry-rig - ????
+* Jerry-rig - Робозомби - наименование умения. Идиома "на коленке" или "на живую нитку" идеально передаёт смысл быстрого, кустарного ремонта.
 * Saw-ty, Saw-ty II - Пила-тес, Пила-тес II
 
 **Ругательства**
