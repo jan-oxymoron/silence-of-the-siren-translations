@@ -1,0 +1,122 @@
+<Database>
+    <GameDBStringTable ID="LOC_PTBR_PATCH_09_HIVEMIND">
+
+        <LanguageRef>LANG_PTBR</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>CYCLE_HIVEMIND</LocID>                                                <Text>Tumori Time!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_HIVEMIND_DESCRIPTION</LocID>                                    <Text>Tumori Tribes bases produce more units and commanders of the Tumori Tribes enjoy higher morale!</Text></GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>SPECIAL_BLOCKED</LocID>                                               <Text>Special ability is blocked</Text></GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_RESTING_DESCRIPTION_V2</LocID>                        <Text>Fully restores movement of visiting commanders. Each commander can only get recharged once per phase.</Text></GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_SPECIALIZATION_DESCRIPTION_V2</LocID>        <Text>You can pay to research up to 5 extra abilities for this Academy here.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_BUY_ABILITY_V2</LocID>                                   <Text>You can pay to research up to 5 extra abilities for this Academy here. The price doubles each time.\nYou need a matching Faculty to be able to choose from level 2 and level 3 abilities.</Text>  </GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>ENCYCLOPEDIA_UNITS</LocID>                                            <Text>Units</Text>  </GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>DIALOG_BIOMANCER</LocID>                                              <Text>The Swarm grows!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BIOMANCER_TEXT</LocID>                                         <Text>Thanks to the Biomancer skill, some of the dead BIO units have returned and joined you as one of the two Fungor variants!</Text>  </GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_HIVEMIND_BIOMANCER</LocID>                                 <Text>Biomancer</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_HIVEMIND_BIOMANCER_DESCRIPTION</LocID>                     <Text>After battle, some of the dead BIO units from both sides will get revived and join you as Ripe Fungors or Fungors, depending on which fits into your army.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_BIOMANCER_REVIVE_UNITS_PERCENT</LocID>                   <Text>Friendly BIO units: {1}%</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_BIOMANCER_REVIVE_ENEMY_UNITS_PERCENT</LocID>             <Text>Enemy BIO units: {1}%</Text>  </GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_EXTRA_UNITS_HEADING</LocID>                              <Text>Extra units!</Text>  </GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>ENCYCLOPEDIA</LocID>                                                  <Text>Encyclopedia</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_MORALE_DESCRIPTION</LocID>                                      <Text><![CDATA[This unit's effect on the morale of the whole army.\nStronger units have bigger influence.\n<color=SOTS_COLOR_GOLD>Positive</color> if the unit belongs to the same faction as its commander, <color=SOTS_COLOR_RED>negative</color> otherwise.]]></Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>REWARD_FUSION_CORE</LocID>                                           <Text>Fusion core</Text></GameDBLocalizedString>
+
+            <!--Editor-->
+            <GameDBLocalizedString>         <LocID>ORIENTATION</LocID>                                                  <Text>Orientation</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_SET_ORIENTATION</LocID>                           <Text>Set orientation</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>Direction_NONE</LocID>                                               <Text>None</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>Direction_N</LocID>                                                  <Text>N</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>Direction_S</LocID>                                                  <Text>S</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>Direction_E</LocID>                                                  <Text>E</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>Direction_W</LocID>                                                  <Text>W</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>Direction_NE</LocID>                                                 <Text>NE</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>Direction_SE</LocID>                                                 <Text>SE</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>Direction_SW</LocID>                                                 <Text>SW</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>Direction_NW</LocID>                                                 <Text>NW</Text></GameDBLocalizedString>
+            
+            <!--SF campaign - alternative named for Relic, Hierarch-->                                                  
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_15_ALTERNATIVE</LocID>                                      <Text>False Mother</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_9_ALTERNATIVE</LocID>                              <Text>Tin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_9_DESCRIPTION_ALTERNATIVE</LocID>                  <Text>Two tons of steel bones, powerful servomotors, and a bit of a weird sense of humor, all packed in shiny armor. At first glance, a ruthless warrior of the Children of a Source. \n\nBut since his mind was grafted with a human engram, he became a loyal sidekick of Sovereign Feet's captain Annika Finch. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_PIRATE_13</LocID>                                                <Text>Rosalina</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_PIRATE_13_DESCRIPTION</LocID>                                    <Text>Although many believe her transition was motivated only by pursuit of fame and profit, she always genuinely felt like a cat imprisoned in a human body. \n\nEither way, her appearance has nothing to do with her rise amongst the Sovereigns. Her bold actions even gained her a visit from the Hesperidian death squad. She was shot eight times but miraculously recovered, and her star-light never shone more brightly. </Text>  </GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_DISABLE_ALIVE_TRACKING</LocID>                     <Text>Disable "keep alive" condition</Text></GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>EVENT_TYPE_DELAY</LocID>                                              <Text>Wait/delay</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_EDITOR_DELAY_TIME_MS</LocID>                                  <Text>Time (ms)</Text></GameDBLocalizedString>
+                                                                                                                        
+            <!--A new Crusader commander-->                                                                             
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_13</LocID>                                         <Text>Kaey "The Valiant"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_13_DESCRIPTION</LocID>                             <Text>Due to lack of orders and communication, some become restless and after a few days abandon their place and set out to investigate. Then there are the others. Soldiers who stay in the jungle, refuse to abandon the post. Some for decades, some for centuries.</Text>  </GameDBLocalizedString>
+                                                                                                                        
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_MUSIC_CAMPAIGN_PIRATES</LocID>                             <Text>Music: campaign Sovereign Fleet</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_MUSIC_CAMPAIGN_RELIC</LocID>                               <Text>Music: campaign Relic</Text></GameDBLocalizedString>
+            
+            <!--MAPS-->
+            <!--Lost connection-->
+            <GameDBLocalizedString>         <LocID>EA_LOST_CONNECTION</LocID>                                           <Text>Lost connection</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_LOST_CONNECTION_DESCRIPTION</LocID>                               <Text>Two bases of a single tribe, separated by other emerging civilizations. Can you unite them once more?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_LOST_CONNECTION_INTRO</LocID>                                     <Text>With the arrival of new civilizations, the tribe was forced to hide and fortify itself, forming two separate islands amidst the vast, deforested plains. It is up to you to reunite them, eliminate all enemies, and restore the natural wealth from which Tumori draw their strength.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_LOST_CONNECTION_VICTORY</LocID>                                   <Text>Much of the land may already be barren, but with your help, and the rivers of our enemies’ blood, it won’t be long before new forests rise again. As the tribe says: No water, no snow — turn blood into honey, let the forests grow.</Text>    </GameDBLocalizedString>
+        
+            <!--Tumori standoff-->
+            <GameDBLocalizedString>         <LocID>EA_TUMORI_STANDOFF</LocID>                                           <Text>Tumori standoff</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_TUMORI_STANDOFF_DESCRIPTION</LocID>                               <Text>Tumori have many different tribes, and when several of them try to gain power in a small area, a standoff occurs.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_TUMORI_STANDOFF_INTRO</LocID>                                     <Text>Five tribes. One stronghold at the heart of the land. He who claims it, rules them all. Hold it for five rounds, and your tribe's name shall be written into history, if even a single voice among you can wield the gift of letters.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_TUMORI_STANDOFF_VICTORY</LocID>                                   <Text>Your tribe has succeeded. You now reign over the entire territory, assuming, of course, that at least one soul survived to bear your rule.</Text>    </GameDBLocalizedString>
+
+            <!--One way out-->
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_OUT_ID</LocID>                                            <Text>One way out</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_OUT_DESCRIPTION</LocID>                                   <Text>It is said that an ancient evil was once imprisoned in this area. This happened so long ago that it is now considered to be a legend, intended to keep people obedient and to safeguard the area.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_OUT_INTRO</LocID>                                         <Text>No one has cleared this region in a while. That is where you come in. Get rid of all the vermin and make this region prosperous again! \nAlso, you should keep an eye on the sealed mountain pass, there is supposed to be something ... Ermmm ... I don't know. We actually lost that information some time ago, and as nothing has happened so far, it's probably nothing.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_OUT_VICTORY</LocID>                                       <Text>Victory! You have managed stop the infestation. But from now on you should totally believe in rumors.</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_OUT_ESCAPE_MESSAGE</LocID>                                <Text>What was that? It sounded like the mountains are not sealed anymore! Maybe the rumors were true. I should deal with that immediately.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_OUT_OBJECTIVE_SKIRMISH_CLEAR_REGION</LocID>               <Text>Make the region safe and prosperous</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_OUT_OBJECTIVE_SKIRMISH</LocID>                            <Text>Stop the enemies from spreading and destroy them</Text>  </GameDBLocalizedString>
+
+            <!--Spawners-->
+            <GameDBLocalizedString>         <LocID>SPAWNER_UNITS</LocID>                                                <Text><![CDATA[<color=SOTS_COLOR_GREEN>Units available</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SPAWNER_EMPTY</LocID>                                                <Text><![CDATA[<color=SOTS_COLOR_RED>The spawner is empty</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SPAWNER_DESCRIPTION</LocID>                                   <Text><![CDATA[Generates <color=SOTS_COLOR_RED>{1}</color> <color=SOTS_COLOR_GOLD>random unit</color>(s) from <color=SOTS_COLOR_GOLD>{2} faction</color> every cycle. First come, first served.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MOLE_SPAWNER</LocID>                                          <Text>Mole hole</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MOLE_SPAWNER_DESCRIPTION</LocID>                              <Text>I know it's a tower, but Holy moly guacamoly! That is one good mole for sale. Will you take it?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CRUSADER_SPAWNER</LocID>                                      <Text>Gathering Shrine</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CRUSADER_SPAWNER_DESCRIPTION</LocID>                          <Text>From this source, you can recruit a couple more Children of the ... Source! Now leave. I must work on another dad joke.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_PIRATE_SPAWNER</LocID>                                        <Text>Sovereign's Crib</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_PIRATE_SPAWNER_DESCRIPTION</LocID>                            <Text>Need new crew, you old pirate? Just look ARRRound!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EMPIRE_SPAWNER</LocID>                                        <Text>UNSS Recruitment Office</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EMPIRE_SPAWNER_DESCRIPTION</LocID>                            <Text>Fresh recruits! Some so fresh the paint on their armor is still wet ... or is it just cold sweat?!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_NEUTRAL_SPAWNER</LocID>                                       <Text>Neutral Spawner</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_NEUTRAL_SPAWNER_DESCRIPTION</LocID>                           <Text>No better place to get these beautiful creatures then here. Except for Negotiator, but that is it.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_HIVE_MIND_SPAWNER</LocID>                                     <Text>Tumori Spawner</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_HIVE_MIND_SPAWNER_DESCRIPTION</LocID>                         <Text>Without these Tumori we may never see tomorrow! Laugh at me as you want, but we need reinforcements now!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_RANDOM_SPAWNER</LocID>                                        <Text>Random Unit Spawner</Text>  </GameDBLocalizedString>
+
+            <!--Warmachine shop-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_WARMACHINE_SHOP</LocID>                                       <Text>Scrapyard workshop</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_WARMACHINE_SHOP_DESCRIPTION</LocID>                           <Text><![CDATA[Every <color=SOTS_COLOR_RED>Warmachine</color> under one roof. You will not find another place like this. Don't worry, they will not run out. <color=SOTS_COLOR_GOLD>If you have space/gold</color>, we have you covered.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_WARMACHINE_SHOP_NEGOTIATION</LocID>                      <Text><![CDATA[Come, we have struck bargain with every fraction to bring you this selection of brand-new machines.]]></Text>  </GameDBLocalizedString>
+
+            <!--One way teleport-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ONE_WAYTELEPORT_IN</LocID>                                    <Text>One Way Teleportation Device (In)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ONE_WAY_TELEPORT_OUT</LocID>                                  <Text>One Way Teleportation Device (Out)</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
