@@ -1,122 +1,295 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_HIVEMIND">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-
-            <GameDBLocalizedString>         <LocID>FACTION_HIVEMIND</LocID>                                             <Text>Tumori Tribes</Text></GameDBLocalizedString>
-                                                                                                                        
-            <!--Unit names-->                                                                                           
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_SWARM</LocID>                                          <Text>Fungor</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_SWARM_UPG</LocID>                                      <Text>Ripe Fungor</Text></GameDBLocalizedString>
-            <!--            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_BEHOLDER</LocID>                                       <Text>Askon</Text></GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_BEHOLDER_UPG</LocID>                                   <Text>Mature Askon</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_METAMORPH</LocID>                                      <Text>Metamorph</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_METAMORPH_UPG</LocID>                                  <Text>Metamorph Wielder</Text></GameDBLocalizedString>
-            <!--            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_CLAW</LocID>                                           <Text>Slugtor</Text></GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_CLAW_UPG</LocID>                                       <Text>Slugtor Brute</Text></GameDBLocalizedString>
-            <!--            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_ASSSHOOTER</LocID>                                     <Text>Malarion Nymph</Text></GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_ASSSHOOTER_UPG</LocID>                                 <Text>Malarion Imago</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_PREDATOR</LocID>                                       <Text>Skull Collector</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_PREDATOR_UPG</LocID>                                   <Text>Skull Hunter</Text></GameDBLocalizedString>
-            <!--            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_DRAGON</LocID>                                         <Text>Raughir</Text></GameDBLocalizedString>-->
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_DRAGON_UPG</LocID>                                     <Text>Ancient Raughir</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_WAR_MACHINE_GLUE_GRENADE_LAUNCHER</LocID>              <Text>Goo Spitter</Text></GameDBLocalizedString>
-            
-            <!--Unit abilities-->
-            
-            <!-- TODO texts from 2025/07 -->
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_METAMORPH_SPECIAL_DESCRIPTION</LocID>                  <Text>Each turn randomly transforms into another unit on the battlefield.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_METAMORPH_UPG_SPECIAL_DESCRIPTION</LocID>              <Text>Transforms into any chosen unit on the battlefield.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_METAMORPH</LocID>                                <Text>Morphed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_METAMORPH_DESCRIPTION</LocID>                    <Text>The unit has transformed into another unit.</Text>  </GameDBLocalizedString>
-            <!--the rest-->
-
-            <!--Unit description-->
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_SWARM_DESCRIPTION</LocID>                              <Text>In combat, the swarm host individuals are responsible for all the heavy lifting, while the flying fungi clusters offer at least some level of protection. As the elders say, "Better have your pants full of holes than expose your ... never mind". </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_SWARM_UPG_DESCRIPTION</LocID>                          <Text>"Ripe" means that there is barely any space left in the Fungor, and the swarm is nearly ready to "resettle" to a new, more demanding host. But, why not take the old host for one final, hell of a ride! </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_BEHOLDER_UPG_DESCRIPTION</LocID>                       <Text>In a tribal society where being a brave warrior is the norm, will I be considered "less alpha" if I choose a host that avoids melee? Yes, you definitely will, my friend. But at the same time, you will most likely see all those who mocked you die in most gruesome ways. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_METAMORPH_DESCRIPTION</LocID>                          <Text>Claws are priceless in melee, but have you ever watched a girl with a nail job trying to pick up a coin? Therefore, becoming a Metamorph is a compromise; you can fight if necessary, but you can also wipe your bum without an unwanted surgery. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_METAMORPH_UPG_DESCRIPTION</LocID>                      <Text>They can turn into almost anything. Natural-born spies, you think? Maybe, but only to the moment they open their mouths. See, the Tumori "speech" is reserved only for the simplest communication, like "watch out" and "human with axe", and "behind you". Still, a great camouflage! </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_CLAW_UPG_DESCRIPTION</LocID>                           <Text>A lifetime of boxing puts your mind "at ease" (by severely damaging your brain), and the same happens if the swarm merges with the Slugtor for too long. To put it mildly, they excel in "the ring", just don't expect any in-depth conversations. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_ASSSHOOTER_UPG_DESCRIPTION</LocID>                     <Text>Inside the Primals technology, you find harmless crystals and the strange, luminous, caustic goo. We believe the goo serves as energy storage. But why do I mention it? Because these creatures absorb it like a sponge. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_PREDATOR_DESCRIPTION</LocID>                           <Text>There is a rumor about the first wave of human settlers that arrived in the Siren System. Those were turbulent times, and many small settlements in the deep jungles and border regions went silent without anyone noticing. All the settlers died ... or not? </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_PREDATOR_UPG_DESCRIPTION</LocID>                       <Text>We humans tend to blame the Uncanny Valley principle, but let's face it. We all imagined our first encounter with humanoid aliens a lot more like one of the "special adventures" of Captain Kirk. That's why we hate the Skull Hunters so much. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_DRAGON_UPG_DESCRIPTION</LocID>                         <Text>For the full control over Raughir's powers, the swarm has to undergo so many physiological changes that when the Raughir is defeated, the swarm cannot leave the dying host's body anymore. Unlike other hosts, merging with a Raughir is a one-way ticket. That's why they fight so hard. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_WAR_MACHINE_GLUE_GRENADE_LAUNCHER_DESCRIPTION</LocID>  <Text>Even today, most fights are decided by melee, the speed of movement is crucial, and a few extra inches of distance can mean the difference between life and death. Therefore, even the strongest foes are half as dangerous with their legs glued to the ground.   </Text></GameDBLocalizedString>
-            
-            <!--Unit description (ALREADY in Patches - in this doc. only for info) -->
-<!--
+<Database>
+  <GameDBStringTable ID="LOC_RU_HIVEMIND">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Oxymoron Games</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>FACTION_HIVEMIND</LocID>
+        <Text>Племена Тумори</Text>
+      </GameDBLocalizedString>
+      <!--Unit names-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_SWARM</LocID>
+        <Text>Фунгор</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_SWARM_UPG</LocID>
+        <Text>Зрелый Фунгор</Text>
+      </GameDBLocalizedString>
+      <!--            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_BEHOLDER</LocID>                                       <Text>Askon</Text></GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_BEHOLDER_UPG</LocID>
+        <Text>Взрослый Аскон</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_METAMORPH</LocID>
+        <Text>Метаморф</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_METAMORPH_UPG</LocID>
+        <Text>Метаморф Владыка</Text>
+      </GameDBLocalizedString>
+      <!--            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_CLAW</LocID>                                           <Text>Slugtor</Text></GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_CLAW_UPG</LocID>
+        <Text>Слизераптор Громила</Text>
+      </GameDBLocalizedString>
+      <!--            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_ASSSHOOTER</LocID>                                     <Text>Malarion Nymph</Text></GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_ASSSHOOTER_UPG</LocID>
+        <Text>Маларион Имаго</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_PREDATOR</LocID>
+        <Text>Собиратель Черепов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_PREDATOR_UPG</LocID>
+        <Text>Охотник за Черепами</Text>
+      </GameDBLocalizedString>
+      <!--            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_DRAGON</LocID>                                         <Text>Raughir</Text></GameDBLocalizedString>-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_DRAGON_UPG</LocID>
+        <Text>Древний Раухир</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_WAR_MACHINE_GLUE_GRENADE_LAUNCHER</LocID>
+        <Text>Слизнемёт</Text>
+      </GameDBLocalizedString>
+      <!--Unit abilities-->
+      <!-- TODO texts from 2025/07 -->
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_METAMORPH_SPECIAL_DESCRIPTION</LocID>
+        <Text>Каждый ход случайным образом превращается в другой отряд на поле боя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_METAMORPH_UPG_SPECIAL_DESCRIPTION</LocID>
+        <Text>Превращается в любой выбранный отряд на поле боя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_METAMORPH</LocID>
+        <Text>Превращен</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_METAMORPH_DESCRIPTION</LocID>
+        <Text>Отряд превращен в другой отряд.</Text>
+      </GameDBLocalizedString>
+      <!--the rest-->
+      <!--Unit description-->
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_SWARM_DESCRIPTION</LocID>
+        <Text>В бою основную работу выполняют носители роя, а летающие грибные скопления обеспечивают хоть какую-то защиту. Как говорят старейшины: "Лучше ходить в дырявых штанах, чем выставлять напоказ своё... впрочем, неважно".</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_SWARM_UPG_DESCRIPTION</LocID>
+        <Text>"Зрелый" означает, что внутри Фунгора почти не осталось свободного места, и рой почти готов к "переселению" в нового, более требовательного носителя. Но почему бы не прокатиться на старом хозяине в последний, сногсшибательный заезд!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_BEHOLDER_UPG_DESCRIPTION</LocID>
+        <Text>В племенном обществе, где быть храбрым воином - норма, станут ли меня считать "недоальфой", если я выберу носителя, избегающего ближнего боя? Ещё как будешь, дружище. Зато потом ты с удовольствием посмотришь как все, кто над тобой смеялся, сдохнут в самых жестоких муках.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_METAMORPH_DESCRIPTION</LocID>
+        <Text>Когти в ближнем бою бесценны, но вы хоть раз видели девушку с наращенными ногтями, пытающуюся поднять монету? Так что стать Метаморфом - это компромисс: при необходимости можешь подраться, но зато и подтереться сможешь без внеплановой операции.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_METAMORPH_UPG_DESCRIPTION</LocID>
+        <Text>Они могут превратиться почти в кого угодно. Думаете, прирождённые шпионы? Возможно, но лишь до той секунды, пока не откроют рот. Видите ли, "речь" Тумори предназначена лишь для простейших сообщений, вроде "опасность", "человек с топором" и "позади тебя". И всё же - какая маскировка!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_CLAW_UPG_DESCRIPTION</LocID>
+        <Text>Проведя всю жизнь в боксе, обретаешь "душевный покой" (посредством тотального разрушения мозга). То же самое происходит, когда рой слишком долго сливается со Слизераптором. Мягко говоря, они великолепны "на ринге". Но не жди от них глубокомысленных бесед.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_ASSSHOOTER_UPG_DESCRIPTION</LocID>
+        <Text>Внутри технологий Предтеч вы найдёте безобидные кристаллы и странную, светящуюся, едкую жижу. Мы полагаем, что эта жижа служит накопителем энергии. Но к чему я это рассказываю? А к тому, что эти существа впитывают её, как губка.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_PREDATOR_DESCRIPTION</LocID>
+        <Text>Ходит слух о первой волне колонистов, что прибыла в систему Сирены. То были смутные времена, и многие маленькие поселения в глубине джунглей и на окраинах затихали, никем не замеченные. Все колонисты погибли... или нет?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_PREDATOR_UPG_DESCRIPTION</LocID>
+        <Text>Мы, люди, списываем это на эффект "зловещей долины", но давайте смотреть правде в глаза. Мы все представляли первую встречу с гуманоидными пришельцами куда более похожей на одну из "особых" авантюр капитана Кирка. Вот почему мы так ненавидим Охотников за Черепами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_DRAGON_UPG_DESCRIPTION</LocID>
+        <Text>Для полного контроля над силой Раухира рой вынужден претерпевать столько физиологических изменений, что при гибели носителя он уже не может покинуть его умирающее тело. В отличие от других носителей, слияние с Раухиром - это билет в один конец. Именно поэтому они сражаются так отчаянно.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_WAR_MACHINE_GLUE_GRENADE_LAUNCHER_DESCRIPTION</LocID>
+        <Text>Даже сегодня в бою всё решает скорость и дистанция. Сможешь отпрыгнуть - жив. Не сможешь - труп. Вот и выходит, что любой качок уже не боец, а мишень, если не может сдвинуться с места.</Text>
+      </GameDBLocalizedString>
+      <!--Unit description (ALREADY in Patches - in this doc. only for info) -->
+      <!--
             <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_BEHOLDER_DESCRIPTION</LocID>              <Text>Once they are blessed by the Primal's blast stone and inhabited by the swarm, the Askons begin to form their tumors. The perfect host for any hunter-warrior who does not prefer the way of claws and teeth.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_CLAW_DESCRIPTION</LocID>                  <Text>Brutal monsters, perfected by the parasitic swarm. It is said that the mind of the beast can't be completely subdued. It slowly blends with the swarm's consciousness, which becomes addicted to the most gory ways of fighting.     </Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_ASSSHOOTER_DESCRIPTION</LocID>            <Text>The tribes from swamp territories are using the flying hosts to collect the treasures of starship wreckages hidden behind the impenetrable fog and murky waters. Even implanting parts of machines into their own bodies.      </Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_DRAGON_DESCRIPTION</LocID>                <Text>The time of the Raughirs is almost over. The ancient genetic matrices are wearing off and most offspring are being born deformed or untamable. However, each successful attempt will overshadow dozens of previous failures.</Text></GameDBLocalizedString>
 -->
-
-            <!--Unit abilities-->
-
-
-            <!--Hero names-->
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_1</LocID>     <Text>Sage Requan-Cher</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_2</LocID>     <Text>Voliantros</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_3</LocID>     <Text>Voice of Tumori</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_4</LocID>     <Text>Man-eater </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_5</LocID>     <Text>Root</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_6</LocID>     <Text>Santarsí</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_7</LocID>     <Text>Crimson Malice</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_8</LocID>     <Text>The Undying</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_9</LocID>     <Text>Spore</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_10</LocID>    <Text>Carnivora</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_11</LocID>    <Text>Harbringer </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_12</LocID>    <Text>Fol the Primal </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_13</LocID>    <Text>The Bugsmasher</Text>  </GameDBLocalizedString>
-            
-            
-
-            <!--Hero description-->
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_1_DESCRIPTION</LocID>              <Text>As a young warrior swarm, it went on many adventures with its friend Voliantros. However, many cycles have passed since, and now its most powerful weapon is the knowledge of some of the most hidden secrets of the Siren System.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_2_DESCRIPTION</LocID>              <Text>Voliantros accompanied Requan-cher on many adventures of their youth. While Requan stayed open-minded to cooperation with the Outworlders, Voliantros chose the path slippery with violet and red blood. The path of war against all Outworlders.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_3_DESCRIPTION</LocID>              <Text>The voice of Tumori must become the bridge between humans and tribesmen. If it fails, the world as Tumori know it, will burn. Not now, not in a decade, but leaf after leaf, tree after tree. There are simply too many humans.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_4_DESCRIPTION</LocID>              <Text>A brutal monster that decided to walk the path of gore. It does not remember anything from before entering its Slugtor host. It only knows there was something worth forgetting. Life is easy now, and in the middle of the fight, Carnivora is happy again.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_5_DESCRIPTION</LocID>              <Text>Once there were forests of trees that formed crystals within their wood. But when the Children of the Source came, they burned them all. Miracously, a single seedling was found. The Root bound its life to its protection because it's much more than just a tree. It's a symbol of hope.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_6_DESCRIPTION</LocID>              <Text>Tumori made their home on broken worlds, but their ancestors handed down many gifts to help their heirs. Santarsí became a guardian of one of them and merged the consciousness of its swarm with a sentient artifact.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_7_DESCRIPTION</LocID>              <Text>Growing crystals are a slow, but terminal illness that will consume all inherited worlds. But Crimson Malice and its disciples believe that the crystals are forming a global supermachine. If you listen closely, the whispers of the final gift of Primals can already be heard.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_8_DESCRIPTION</LocID>              <Text>For a thousand years he has walked under the stars. But such a long life is highly unnatural, even for the longaevous Tumori swarms. Most beings think time is like a river that flows swiftly in one direction. For the Undying, time is an ocean in a storm. A storm that settles only in the fight to the death.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_9_DESCRIPTION</LocID>              <Text>The more individuals a hive has, the more intellectual power it vields. Spore is a superhive, a rarity; its swarm is several times larger than the usual count. If the number grows even more, it will end up only speaking in mathematical formulas.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_10_DESCRIPTION</LocID>             <Text>Its name was Sadu, and it lived a life of peace, surrounded by trees and its tribe. In one short year, the human settlers made the forest and the whole tribe history. That's why Sadu took a war-name and became the monster that the humans saw in it from the very beginning.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_11_DESCRIPTION</LocID>             <Text>Tumori idealists believe that coexistence with humans is possible, but even the most naive ones do not believe in peace with the Fossorians. The Harbringer was made for a sole purpose. To inflict fear. That's the only currency the wicked mole race understands.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_12_DESCRIPTION</LocID>             <Text>Fol devoted the life of its swarm to the study of ancient Primals. It is said that through the many eyes of its artificial face, it can see remains of the Psychosphere, an information field that connects and surrounds every Primal creation.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_13_DESCRIPTION</LocID>             <Text>Children of the Source never learned the fate of their last crusade. Only a whisper came back to Temple City. Uncertain words about a mysterious tribesman who kept luring the Children's generals deeper and deeper into the swamps of Chimera.</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_SWARM_UPG_INFO_DESCRIPTION</LocID>                     <Text>When hit, the remaining units split in half. Melee attack inflicts poison damage.</Text></GameDBLocalizedString>            
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_BEHOLDER_UPG_INFO_DESCRIPTION</LocID>                  <Text>Has a ranged attack. When shooting an enemy, a there's a 20% chance to hit other enemies with a secondady beam.</Text></GameDBLocalizedString>            
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_HIVEMIND_CLAW_UPG_SPECIAL</LocID>                       <Text>Activates a cellular armor which provides resistance to minor damage.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_CLAW_SHIELD</LocID>                              <Text>Scratch resistance</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_CLAW_SHIELD_DESCRIPTION</LocID>                  <Text>Incoming damage below 20% of total health is reduced to 1.</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_HIVEMIND_PREDATOR_UPG_SPECIAL</LocID>                   <Text>Hit any enemy on the battlefield and returns. Target cannot retaliate.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_HIVEMIND_ASSSHOOTER_UPG_SPECIAL</LocID>                 <Text>Energy projectile, hits multiple enemies and deals shock damage to TECH units.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_DRAGON_UPG_PASSIVE_INFO_DESCRIPTION</LocID>            <Text>Can jump over obstacles. Can move and shoot with limited range causing poison damage. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_UNIT_HIVEMIND_CLAW_UPG_PASSIVE_INFO_DESCRIPTION</LocID>         <Text>Can attack up to 3 enemies standing next to each other and deals bleeding damage. </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_ASSSHOOTER_PASSIVE_INFO_DESCRIPTION</LocID>            <Text>Has a ranged attack. Can jump over obstacles.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_HIVEMIND_WAR_MACHINE_GLUE_GRENADE_LAUNCHER_INFO_DESCRIPTION</LocID> <Text>Once each turn, a sticky Glue Grenade is unleashed, striking multiple enemies and bogging them down.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_SPLIT_ITSELF</LocID>                                  <Text>{CombatActor} has split.</Text></GameDBLocalizedString>
-            
-            <!--Notes-->
-<!--
+      <!--Unit abilities-->
+      <!--Hero names-->
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_1</LocID>
+        <Text>Мудрец Рекан-Чер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_2</LocID>
+        <Text>Волиантрос</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_3</LocID>
+        <Text>Голос Тумори</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_4</LocID>
+        <Text>Людоед</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_5</LocID>
+        <Text>Корень</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_6</LocID>
+        <Text>Сантарси</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_7</LocID>
+        <Text>Багровая Злоба</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_8</LocID>
+        <Text>Бессмертный</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_9</LocID>
+        <Text>Спора</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_10</LocID>
+        <Text>Карнивора</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_11</LocID>
+        <Text>Предвестник</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_12</LocID>
+        <Text>Фол Предтеча</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_13</LocID>
+        <Text>Крошитель Жуков</Text>
+      </GameDBLocalizedString>
+      <!--Hero description-->
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_1_DESCRIPTION</LocID>
+        <Text>В юности этот воин роя пережил множество приключений вместе со своим другом Волиантросом. Однако с тех пор минуло множество циклов, и теперь его самое мощное оружие - знание сокровенных тайн системы Сирены.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_2_DESCRIPTION</LocID>
+        <Text>Волиантрос сопровождал Рекан-Чера в многочисленных приключениях их юности. Тогда как Рекан сохранил открытость к сотрудничеству с инопланетянами, Волиантрос избрал путь, скользкий от лиловой и алой крови. Путь войны со всеми пришельцами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_3_DESCRIPTION</LocID>
+        <Text>Голос Тумори должен стать мостом между людьми и соплеменниками. Если он падёт, мир, знакомый Тумори, сгорит дотла. Не сейчас и не через десятилетие - но лист за листом, дерево за деревом. Людей попросту слишком много.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_4_DESCRIPTION</LocID>
+        <Text>Жестокий монстр, избравший кровавый путь. Он не помнит ничего из жизни до того, как вселился в носитель Слизераптора. Знает лишь одно: там было нечто, что стоит забыть. Теперь жизнь проста, и в разгаре боя Людоед снова счастлив.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_5_DESCRIPTION</LocID>
+        <Text>Когда-то существовали леса, в древесине которых росли кристаллы. Но когда пришли Дети Источника, они спалили их дотла. Чудом уцелел один единственный росток. Корень связал свою жизнь с его защитой, потому что это не просто дерево. Это символ надежды.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_6_DESCRIPTION</LocID>
+        <Text>Тумори обустроили свой дом на раздробленных мирах, но их предки передали потомкам множество даров. Сантарси стал хранителем одного из них и слил сознание своего роя с мыслящим артефактом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_7_DESCRIPTION</LocID>
+        <Text>Растущие кристаллы - это медленный, но смертельный недуг, что поглотит все унаследованные миры. Однако Багровая Злоба и её последователи верят, что кристаллы формируют глобальную супермашину. Если прислушаться, уже сейчас можно услышать шёпот последнего дара Предтеч.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_8_DESCRIPTION</LocID>
+        <Text>Тысячу лет он шел под звёздами. Но столь долгая жизнь противоестественна даже для долгоживущих роев Тумори. Многие думают, что время - это река, что стремительно течёт в одном направлении. Для Бессмертного же время - это океан в бурю. Буря, что утихает лишь в бою насмерть.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_9_DESCRIPTION</LocID>
+        <Text>Чем больше особей в улье, тем выше его интеллектуальная мощь. Спора - редчайший сверхулей, чей рой в несколько раз превосходит обычную численность. Если число возрастёт ещё, он в конечном счёте станет изъясняться лишь математическими формулами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_10_DESCRIPTION</LocID>
+        <Text>Это звали Саду, и жило оно мирной жизнью среди деревьев и своего племени. Всего за один год человеческие колонисты стёрли с лица земли и лес, и всё племя. Вот почему Саду взяло себе боевую кличку и стало тем чудовищем, каким люди видели это с самого начала.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_11_DESCRIPTION</LocID>
+        <Text>Идеалисты Тумори верят, что сосуществование с людьми возможно, но даже самые наивные из них не верят в мир с Фоссорианцами. Предвестник был создан с одной единственной целью - сеять страх. Это единственная валюта, которую понимает порочная раса кротов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_12_DESCRIPTION</LocID>
+        <Text>Фол посвятил жизнь своего роя изучению древних Предтеч. Говорят, что через множество глаз своего искусственного лика он способен видеть остатки Психоcферы - информационного поля, что связывает и окружает каждое творение Предтеч.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_HIVEMIND_13_DESCRIPTION</LocID>
+        <Text>Дети Источника так и не узнали о судьбе своего последнего крестового похода. В Храмовый Город вернулся лишь шёпот. Смутные слова о загадочном племеннике, что заманивал генералов Детей всё глубже в зыбучие топи Химеры.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_SWARM_UPG_INFO_DESCRIPTION</LocID>
+        <Text>При получении урона оставшиеся отряды разделяются пополам. Атака в ближнем бою наносит урон ядом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_BEHOLDER_UPG_INFO_DESCRIPTION</LocID>
+        <Text>Имеет атаку дальнего боя. При стрельбе по врагу есть 20% шанс поразить других врагов вторичным лучом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_HIVEMIND_CLAW_UPG_SPECIAL</LocID>
+        <Text>Активирует клеточную броню, обеспечивающую устойчивость к незначительному урону.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_CLAW_SHIELD</LocID>
+        <Text>Сопротивление царапинам</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_CLAW_SHIELD_DESCRIPTION</LocID>
+        <Text>Входящий урон, составляющий менее 20% от общего здоровья, снижается до 1.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_HIVEMIND_PREDATOR_UPG_SPECIAL</LocID>
+        <Text>Поражает любого врага на поле боя и возвращается. Цель не может контратаковать.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ABILITY_UNIT_HIVEMIND_ASSSHOOTER_UPG_SPECIAL</LocID>
+        <Text>Энергетический снаряд, поражающий нескольких врагов и наносящий ТЕХНО-отрядам урон током.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_DRAGON_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может перепрыгивать препятствия. Способен двигаться и атаковать с ограниченной дальностью, нанося ядовитый урон.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_UNIT_HIVEMIND_CLAW_UPG_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Может атаковать до 3 врагов, стоящих рядом, и наносит кровоточащее ранение.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_ASSSHOOTER_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Имеет атаку дальнего боя. Может перепрыгивать препятствия.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_HIVEMIND_WAR_MACHINE_GLUE_GRENADE_LAUNCHER_INFO_DESCRIPTION</LocID>
+        <Text>Один раз за ход выпускает Клеевую гранату, которая поражает нескольких врагов и замедляет их.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_EFFECT_SPLIT_ITSELF</LocID>
+        <Text>{CombatActor} разделён.</Text>
+      </GameDBLocalizedString>
+      <!--Notes-->
+      <!--
             1) Skull-hunters cult has spread amongs the most feral tribes.
             2) Only extremely strong and disciplined swarms can tame such a powerful hosts.
             3)Human homeworld must be a horrible place if it give a birth to such a predatory species.
 -->
-        
-        </LocalizedStrings>
-    </GameDBStringTable>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
