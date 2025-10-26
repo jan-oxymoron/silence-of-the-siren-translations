@@ -1,242 +1,211 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_CAMPAIGN_PIRATES_LVL_1">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!--OBJECTIVES MAIN QUESTS-->
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_REPEL_ATTACKS</LocID>                <Text>Repel the Fossorian attack</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FIND_GRAN</LocID>                    <Text>Find Gran Manny</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FIND_GRAN_DONE</LocID>               <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Find Gran Manny - Finished</color>]]></Text>  </GameDBLocalizedString>
-  
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_MEET_GRAN</LocID>                    <Text>Meet Gran Manny near her base</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_MEET_GRAN_DONE</LocID>               <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Meet Gran Manny near her base - Finished</color>]]></Text>  </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_ARMY_TO_ANNIKA</LocID>               <Text>Move the army under Annika's command and proceed</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_GUARD_POST_1</LocID>                 <Text>Destroy guard posts 0/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_GUARD_POST_2</LocID>                 <Text>Destroy guard posts 1/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_GUARD_POST_3</LocID>                 <Text>Destroy guard posts 2/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_GUARD_POST_4_DONE</LocID>            <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Destroy guard posts 3/3 - Finished</color>]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FOSSORIAN_BASE</LocID>               <Text>Activate the teleport by taking the base </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FOSSORIAN_BASE_DONE</LocID>          <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Activate the teleport by taking the base - Finished</color>]]></Text>  </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_MEET_JOHN_SMITH</LocID>              <Text>Meet the Hesperidian in orbit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_MEET_JOHN_SMITH_DONE</LocID>         <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Meet the Hesperidian in orbit - Finished</color>]]></Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FIND_CRUSADER</LocID>                  <Text>Pick up the trapped Cyberbug commander</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FIND_CRUSADER_DONE</LocID>             <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Pick up the trapped Cyberbug commander - Finished</color>]]></Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_BRING_CRUSADER</LocID>                  <Text>Take the Cyberbug commander to Dr. Brown 9B</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_BRING_CRUSADER_DONE</LocID>             <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Take the Cyberbug commander to Dr. Brown 9B - Finished</color>]]></Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_OCCUPY_SE_BASE</LocID>                  <Text>Take over the South-East base</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_OCCUPY_SE_BASE_DONE</LocID>             <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Take over the South-East base - Finished</color>]]></Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_CAPTURE_MANNY</LocID>                  <Text>Capture Gran Manny</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_CAPTURE_MANNY_DONE</LocID>             <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Capture Gran Manny - Finished</color>]]></Text>  </GameDBLocalizedString>
-
-            <!--DIALOGUES-->
-            
-            <!--Annika_and_ratlings-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_RATLINGS_A1</LocID>                    <Text>All the radio towers around Gran Manny's colony have been destroyed. No one will hear any call for help from more than a few kliks away. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_RATLINGS_R1</LocID>                    <Text>Look, it's an ape! We must tell Commander Moltair! Bring the speak-speak machine, bring the wire!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_RATLINGS_R2</LocID>                    <Text>Commander Moltair! An ape! Bringing trouble for sure! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_RATLINGS_MOLTAIR_1</LocID>             <Text>[RADIO STATIC] Of course! They called for reinforcements! That's why YOU watch the road, you demented half-breeds! I am heading your way. Slow down their advance, or face my wrath! </Text>  </GameDBLocalizedString>
-
-            <!--Firs encounter with Moltair and Gran-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_1</LocID>         <Text>You come too late, ape. This is the Fossorian territory. Surrender now! I am Sergeant Moltair! I have spoken!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_A_1</LocID>               <Text>Erm ... Who ... ?!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_2</LocID>         <Text>Yes, THE MOLTAIR, the renowned commander of the Liberator division. Decorated hero of the Fossorian people ...     </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_A_2</LocID>               <Text>I bet your uniform is so heavy with medals that you can barely walk! But no, it doesn't ring a bell ... so ... erm ... "The queen ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_3</LocID>         <Text>No queen, I'm a SERGANT! ... I am ... I lost the thread ... That's awkward ...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_4</LocID>         <Text>Let's get over this embarrassing situation. Earthshakers, fire at will, etc. You know the drill.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_G_1</LocID>               <Text>Not so fast! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_5</LocID>         <Text>YOU! You, nearly dead-of-old-age person! ... I am Sergeant ...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_G_2</LocID>               <Text>I know who you are! You're that midget who runsacked my North-eastern base! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_6</LocID>         <Text>Midget?! I am a giant! ... for my race standards!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_G_3</LocID>               <Text>So use that "giant" head of yours to think, for once. I know you must keep the gate of your fortress open when you go for a stroll. There's two of us now. Attack one, the other will slip through! And kaboom! Ya dig?   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_7</LocID>         <Text>You wouldn't dare! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_A_3</LocID>               <Text>I guess we would not. Unless you have got some well-hidden reserves, I don't see, Manny. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_G_4</LocID>               <Text>No, but that bluff will buy us time. Annika, child, meet me near my base. We have a lotta speak about. </Text>  </GameDBLocalizedString>
-
-            <!--Annika meets Gran near her base-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_G_1</LocID>                  <Text>I am glad you are here, Annika. The bloody Fossorians destroyed all the radio towers, so my SOS did not reach far. Shiny coincidence you were close by. </Text> </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_A_1</LocID>                  <Text>Yes, shiny. But now, tell me about the fortress you'd mentioned when you spoke to that big-headed mole. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_G_2</LocID>                  <Text>That scumbag has nested in that old Primals' fortress. My people couldn't figure out how to close the gate, but somehow that midget did. Only he knows how to operate the gate, so it stays open when he leaves. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_A_3</LocID>                  <Text>So ... we got to lure him out! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_G_3</LocID>                  <Text>Exactly! If we take down enough of his troops outside, he will lose it and charge. At that moment, you, Annika, will slip through the open gate and take the bloody fortress. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_A_4</LocID>                  <Text>That's exactly the plan you've threatened him with! Don't you think he has prepared some countermeasures? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_G_4</LocID>                  <Text>Honey, I have been fighting that fleabag for quite some time. He is as thick as a brick.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_A_5</LocID>                  <Text>Ok, Manny, be it your way. Let's get rid of his guard posts, and see. </Text>  </GameDBLocalizedString>
+<Database>
+  <GameDBStringTable ID="LOC_RU_CAMPAIGN_PIRATES_LVL_1">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Rewalon</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!--OBJECTIVES MAIN QUESTS-->
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_REPEL_ATTACKS</LocID>
+        <Text>Отразить атаку Фоссориан</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FIND_GRAN</LocID>
+        <Text>Найти Старую Мэнни</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FIND_GRAN_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Найти Старую Мэнни - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_MEET_GRAN</LocID>
+        <Text>Встретить Старую Мэнни вблизи её базы</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_MEET_GRAN_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Встретить Старую Мэнни вблизи её базы - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_ARMY_TO_ANNIKA</LocID>
+        <Text>Соберите армию под командованием Анники и действуйте</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_GUARD_POST_1</LocID>
+        <Text>Уничтожьте сторожевые посты 0/3</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_GUARD_POST_2</LocID>
+        <Text>Уничтожьте сторожевые посты 1/3</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_GUARD_POST_3</LocID>
+        <Text>Уничтожьте сторожевые посты 2/3</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_GUARD_POST_4_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Уничтожьте сторожевые посты 3/3 - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FOSSORIAN_BASE</LocID>
+        <Text>Активируйте телепорт, захватив базу</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FOSSORIAN_BASE_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Активируйте телепорт, захватив базу - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_MEET_JOHN_SMITH</LocID>
+        <Text>Встретьтесь с Гесперидами на орбите</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_MEET_JOHN_SMITH_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Встретьтесь с Гесперидами на орбите - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FIND_CRUSADER</LocID>
+        <Text>Подберите пойманного в ловушку командира Кибержуков</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_FIND_CRUSADER_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Подберите пойманного в ловушку командира Кибержуков - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_BRING_CRUSADER</LocID>
+        <Text>Отведите командира Кибержуков к Доктору Брауну 9B</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_BRING_CRUSADER_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Отведите командира Кибержуков к Доктору Брауну 9B - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_OCCUPY_SE_BASE</LocID>
+        <Text>Захватите Юго-Восточную базу</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_OCCUPY_SE_BASE_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Захватите Юго-Восточную базу - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_CAPTURE_MANNY</LocID>
+        <Text>Захватить Старую Мэнни</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL1_CAPTURE_MANNY_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Захватить Старую Мэнни - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <!--DIALOGUES-->
+      <!--Annika_and_ratlings-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_RATLINGS_A1</LocID>
+        <Text>Все радиовышки вокруг колонии Старой Мэнни были разрушены. Никто не услышит зов о помощи на расстоянии более нескольких километров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_RATLINGS_R1</LocID>
+        <Text>Смотрите, это обезьяна! Мы должны сообщить командиру Молтаиру! Принесите переговорное устройство, принесите провод!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_RATLINGS_R2</LocID>
+        <Text>Коммандер Мольтаир! Обезьяна! Наверняка принесет неприятности!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_RATLINGS_MOLTAIR_1</LocID>
+        <Text>[ПОМЕХИ В РАЦИИ] Конечно! Они вызвали подкрепление! Вот почему ВЫ следите за дорогой, безумные полукровки! Я направляюсь в вашу сторону. Замедлите их продвижение или испытаете мой гнев! </Text>
+      </GameDBLocalizedString>
+      <!--Firs encounter with Moltair and Gran-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_1</LocID>
+        <Text>Ты пришела слишком поздно, обезьяна. Это территория Фоссориан. Сдавайся сейчас же! Я сержант Молтаир! Я всё сказал!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_A_1</LocID>
+        <Text>Эм ... Кто ... ?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_2</LocID>
+        <Text>Да, МОЛТАИР, прославленный командир дивизии "Освободитель". Прославленный герой народа Фоссориан ... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_A_2</LocID>
+        <Text>Держу пари, ваша форма так увешана медалями, что вы едва можете ходить! Но нет, это мне ни о чем не говорит ... так ... эмм ... "Ферзь...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_3</LocID>
+        <Text>Никаких ферзей, я СЕРЖАНТ! ... Я... Я потерял нить разговора... Это неловко...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_4</LocID>
+        <Text>Давайте разберемся с этой неловкой ситуацией. Землетрясы, стреляйте по своему усмотрению и т.д. Вы знаете, как это делается.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_G_1</LocID>
+        <Text>Не так быстро!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_5</LocID>
+        <Text>ТЫ! Ты, дряхлая старуха! ... Я Сержант......</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_G_2</LocID>
+        <Text>Я знаю, кто ты! Ты тот мелкий урод, что разграбил мою северо-восточную базу!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_6</LocID>
+        <Text>Мелкий?! Я гигант! ... по меркам моей расы!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_G_3</LocID>
+        <Text>Ну тогда хоть раз подумай своей "гигантской" головой. Я знаю, что ты должен держать ворота своей крепости открытыми, когда выходишь на охоту. Теперь нас двое. Нападай на одного, другой проскользнет! И бабах! Дошло?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_MOLTAIR_7</LocID>
+        <Text>Вы не посмеете!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_A_3</LocID>
+        <Text>Похоже, у нас ничего не выйдет. И если только у тебя нет каких-то скрытых резервов, я не вижу вариантов, Мэнни.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GRAN_G_4</LocID>
+        <Text>Их нет, но этот блеф поможет нам выиграть время. Анника, детка, встретимся возле моей базы. Нам есть о чем поговорить.</Text>
+      </GameDBLocalizedString>
+      <!--Annika meets Gran near her base-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_G_1</LocID>
+        <Text>Я рада, что ты здесь, Анника. Проклятые фоссориане уничтожили все радиовышки, так что мой сигнал SOS не дошел далеко. Удивительное совпадение, что ты оказалась рядом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_A_1</LocID>
+        <Text>Да, впечатляет. А теперь расскажи мне о той крепости, про которую ты говорила, общаясь с тем большеголовым кротом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_G_2</LocID>
+        <Text>Этот подлец устроил гнездо в той старой крепости Праймов. Мои люди так и не смогли понять, как закрыть ворота, но этот карлик каким-то образом разобрался. Только он знает, как управлять воротами, поэтому они остаются открытыми, когда он уходит.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_A_3</LocID>
+        <Text>Так... тогда мы должны выманить его оттуда!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_G_3</LocID>
+        <Text>Именно! Если мы уничтожим достаточное количество его войск снаружи, он не выдержит и нападет. В этот момент ты, Анника, проскользнешь через открытые ворота и захватишь эту чёртову крепость.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_A_4</LocID>
+        <Text>Это именно тот план, которым вы ему угрожали! Вам не кажется, что он подготовил какие-то контрмеры?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_G_4</LocID>
+        <Text>Милая, я уже довольно долго сражаюсь с этим подлецом. У него мозгов как у кирпича.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GRAN_BASE_A_5</LocID>
+        <Text>Ладно, Мэнни, будь по-твоему. Давай избавимся от его постов охраны и посмотрим, что будет.</Text>
+      </GameDBLocalizedString>
 _
-            <!--Moltair reacts on loosing his guard posts-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GUARD_POSTS_1</LocID>          <Text>Those were my worms! I watched them hatch. I was there when they ate their first caretaker! You'll pay for that!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GUARD_POSTS_2</LocID>          <Text>To hell with those Hamerrites; they snitched on me anyway. But income from that Melting Operation was mine to spend! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GUARD_POSTS_3</LocID>          <Text>Furry leg! How am I supposed to keep my half-breeds in line without those commissars?! </Text>  </GameDBLocalizedString>
-
-            <!--Gran Manny informing Annika about plan progress after second guard posts is conquered-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_G_1</LocID>             <Text>He is already angry like a badger stuck in a chimney! Before we continue, gather all our forces under your command. When he storms out, it will be too late for redeployment, Annika! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_A_1</LocID>             <Text>But what about you? Without your fighters, you'll be helpless. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_G_2</LocID>             <Text>Sweet of you to care, but don't worry, I kept a backup.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_A_2</LocID>             <Text>Oh, I appreciate you trusting me with the details!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_G_3</LocID>             <Text>Thanks to my little trick, you can take all our forces now. That's not such a bad outcome, is it?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_A_3</LocID>             <Text>That's hardly the point, but yes, I feel much better about it now. </Text>  </GameDBLocalizedString>
-
-            <!--Annika gets to the Fortress-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_NARRATOR_1</LocID>  <Text>Just a few moments later.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_MOLTAIR_1</LocID>   <Text>That's it! I am done waiting! To hell with the advantageous position. Open the gate! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_G_1</LocID>         <Text>Now! You can slip in! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_A_1</LocID>         <Text>I am in! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_A_2</LocID>         <Text>Another Fossorian?! You are not that midget Moltair! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_MOLETOFF_1</LocID>  <Text>Did I hear the snap of the trap? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_A_3</LocID>         <Text>Wait! "The queen takes the bishop"!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_MOLETOFF_2</LocID>  <Text>What's that supposed to mean? What is a bishop? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_A_4</LocID>         <Text>Erm ... "The queen takes ..."</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_MOLETOFF_3</LocID>  <Text>Enough TALK!</Text>  </GameDBLocalizedString>
-            
-            <!--Annika beats Moletoff-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_A_1</LocID>         <Text>Enough TALK?! You moron! You are all supposed to know the passwords!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_MOLETOFF_1</LocID>  <Text>I never pay attention during briefings! Yes, "the queen takes the bishop"! I do recall, now! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_A_2</LocID>         <Text>Too late! Where is the teleport to orbit? It should be near! Spill it, or ...! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_MOLETOFF_2</LocID>  <Text>Behind this base! At the foot of the hills! The moth-man rewired it when he worked on the gate, so we can open it from the base. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_A_3</LocID>         <Text>A moth-man? You mean a Hesperidian! John Smith 7A! I must see him at once! </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_MOLETOFF_3</LocID>  <Text>I don't know him, but he stayed in orbit! </Text>  </GameDBLocalizedString>
-
-            <!--Annika and Gran talk after fortress is conquered-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_A_0.1</LocID>       <Text>Someone slept on a big pile of stolen gold! Typical Fossorian leaders! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_A_1</LocID>         <Text>Both the teleport and gate controls are wired to the same switch. Smith 7A did not want to overstretch the Fossorian intelligence. Smart move.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_G_1</LocID>         <Text>Annika - child, the fortress is ours, and both Fossorians are rotting in our jail! Shame that the Blue gate is still closed, it's the only way to the North-eastern base I lost. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_A_2</LocID>         <Text>I have activated an orbital teleport; maybe I can find a way to the other side. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_G_2</LocID>         <Text>Are you sure, Annika? It looks like it will turn your insides out before you reach orbit. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_A_3</LocID>         <Text>Well, it seems stable enough.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_G_3</LocID>         <Text>I wish all Sovereigns had your grit. I tend not to believe in stories, so I was skeptical about the tale of a young woman who saved our people from the burning Kelvin Station. I doubt no more.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_A_4</LocID>         <Text>Thanks, I guess I am wired that way. </Text>  </GameDBLocalizedString>
-
-            <!--Annika expressing anxiety after teleporting to orbit-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_ORBITAL_TELEPORT_UP_A_1</LocID>        <Text>That teleport was far from stable. I think I will throw up! ... Focus, Annika, it will be over soon.</Text>  </GameDBLocalizedString>
-            
-            <!--Annika meet with Dr Brown on orbit-->
-            
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_1</LocID>           <Text>You are not John Smith 7A! I mean, "The queen ...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_1</LocID>           <Text>Stop, I know exactly who you are, woman. We are not in some stupid spy movie. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_2</LocID>           <Text>Well, where is John Smith 7A then? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_2</LocID>           <Text>Smith 7A is dead, but I "inherited" his web of agents. You were good, but after that melodrama on Kelvin Station, you became Sovereign's hero, and somehow, stopped reporting. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_3</LocID>           <Text>What's that supposed to mean? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_3</LocID>           <Text>That rats always sense the ship is losing oxygen, Miss Finch. And since we are turning the Sovereign captains into an endangered species, you remembered your "employers" ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_4</LocID>           <Text>So those kidnappings of Sovereign captains, that's your job, isn't it? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_4</LocID>           <Text>Gergielarh, if I were in charge, you would all end up in a plastic sleeping bag! But believe it or not, even I have superiors, and they want the Sovereigns for questioning. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_5</LocID>           <Text>Screw you! I am no Sovereign! I contacted you on my own! I even destroyed the radio towers around as I was instructed ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_5</LocID>           <Text>And that's the only reason I let you come this close. But given that you seem so eager to return to the UNSS side, you will not mind running one more loyalty check! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_6</LocID>           <Text>The Kelvin is not enough ... ? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_6</LocID>           <Text>Black Well of Nadir! It would, but you accidentally saved more than 200 Sovereign criminals from that station as well! So no, it is not enough! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_7</LocID>           <Text>So ... what do you actually want in exchange for giving me my old role back? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_7</LocID>           <Text>To capture your Sovereign friend, Gran Manny. </Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_8</LocID>           <Text>But I cannot do it alone! Manny is a skilled commander! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_8</LocID>           <Text>Yes, I am aware. There is a base down there waiting for you. I also intended to give you one of the Fossorians, but since that is no longer an option ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_9</LocID>           <Text>A Cyberbug commander was after me because of ... reasons ... but stepped into my special Cybersnare. For now, he will act as an obedient zombie. Bring him here and I will "reprogram" him to assist you. </Text>  </GameDBLocalizedString>
-
-            <!--Leading Hierarch to Dr Brown-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_1</LocID>           <Text>That must be him. Ehm ... Come with me, Cyberbug! </Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_2</LocID>           <Text>Come!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_3</LocID>           <Text>Kom kisse, kisse!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_5</LocID>           <Text>Good Cyberbug. Come!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_4</LocID>           <Text>Ksskssksskss!</Text>  </GameDBLocalizedString>
-
-            <!--Reprograming of Hierarch-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_1</LocID>               <Text>Good. Let me see ...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_2</LocID>               <Text>Now, my AI seals are suppressing his old personality, and I merged him with a human engram so he should behave like a member of your dumb race. You know, it's easy to manipulate ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_H_1</LocID>               <Text>Your asses are about to be cleansed by FIRE! Filthy heretics!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_3</LocID>               <Text>Ok, that clearly didn't work ... \nAttempt number two ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_4</LocID>               <Text>The AI seals I made are temporary; eventually, he will start to malfunction. Also, his old himself could emerge. But, there's plenty of time to finish your mission. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_5</LocID>               <Text>Cyberbug! Descend from orbit by the eastern teleport and wait there! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_H_2</LocID>               <Text>Like the day you waited for your mom to pick you up from kindergarten!? Bwah-hah-hah! She never showed up, you ugly moth-fu**** ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_H_3</LocID>               <Text>Wait, I did not want to obey! What have you done to me, you sick ... !?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_6</LocID>               <Text>Those engrams. Well, the sooner you catch Gran Manny, the sooner you can get rid of him and his sense of "humor". </Text>  </GameDBLocalizedString>
-            
-            <!--On the ground again-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_SURFACE_AGAIN_RH_1</LocID>             <Text>The empty base.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_SURFACE_AGAIN_RH_2</LocID>             <Text>The Hesperidian must have closed the way up. </Text>  </GameDBLocalizedString>
-
-            <!--Commneting on the state of the base, plus how do we get behind the blue gate-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_A_1</LocID>         <Text>[SIGH] The Fossorians did a number on this base.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_H_1</LocID>         <Text>You call this a base? I can only see a rusty carcass of an old ship?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_A_2</LocID>         <Text>The Sovereigns like it that way; many spend most of their lives on-board starships. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_H_2</LocID>         <Text>How the hell am I supposed to know that? The AI seals are blocking my memory! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_A_3</LocID>         <Text>Ok, enough chat, I am not supposed to get attached. I must get rid of you as soon as possible anyway.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_H_3</LocID>         <Text>You're breaking my heart, Starling! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_A_4</LocID>         <Text>Shut up, or I'll break you much more before this mission ends, you tin drama queen! </Text>  </GameDBLocalizedString>
-          
-            <!--Hierarch looking into his database, location of blue key discovered -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_A_1</LocID>               <Text>Now, how do I open the Blue Gate? Any suggestion, Tin? You must have already traveled the area when you chased the Hesperidian away from the surface. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_H_1</LocID>               <Text>Really? I do not remember, but I will force-check what's left of my memory ... because I like you.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_H_2</LocID>               <Text>Here!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_A_2</LocID>               <Text>A key?! How? ... never mind. Let's go for it ...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_H_3</LocID>               <Text>Oooor! Maybe here.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_A_3</LocID>               <Text>You are a robot! How come you don't know for sure! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_H_4</LocID>               <Text>Do you want the reasons alphabetically?! Memory seals, mood seals, personality seals, ...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_A_4</LocID>               <Text>No, not a chance I am removing the seals. I'd rather check both places myself. </Text>  </GameDBLocalizedString>
-
-            <!--Conquer the Northern base first-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_BASE_FIRST_A_1</LocID>                 <Text>I should not waste time. First, the base, then a look around.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_BASE_FIRST_A_2</LocID>                 <Text>First, the base! Then you look around!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_BASE_FIRST_H_3</LocID>                 <Text>Yes, maa!</Text>  </GameDBLocalizedString>
-
-            <!--Blue gate is still closed - warning-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_BLUE_GATE_WARNING_RH</LocID>           <Text>Hmm, not without the key. </Text>  </GameDBLocalizedString>
-
-            <!--Blue gate is still closed - warning-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NO_KEY_HERE_A_1</LocID>                <Text>What, nothing?! The key was supposed to be here!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NO_KEY_HERE_H_1</LocID>                <Text>I told you, silly, my database is sealed tighter than an eel's ass! You humans are not exactly the sharpest blades in the universe! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NO_KEY_HERE_A_4</LocID>                <Text>And now, a member of my dumb race is grafted into your mind! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NO_KEY_HERE_H_4</LocID>                <Text>Seven hells, you are right! I feel so ... filthy! </Text>  </GameDBLocalizedString>
-
-            <!--Blue key found-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_FOUND_A_1</LocID>                  <Text>Yes, the key! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_FOUND_H_1</LocID>                  <Text>Yes! That's great, now we can go through the blue gate! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_FOUND_A_2</LocID>                  <Text>Why do you even bother to pretend you are on my side? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_FOUND_H_2</LocID>                  <Text>I am on your side! And as far as I see, I am also your only friend! Which is quite sad, considering you are a good-looking woman in her twenties! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_FOUND_A_3</LocID>                  <Text>Yes, it ... wait, why I even talking to you? Shut up! </Text>  </GameDBLocalizedString>
-
-            <!--Meeting with Manny - she already knows about Annika-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_G_1</LocID>           <Text>You've opened the Blue gate, Annika. Thanks.\nBut now, you can stop the "act". The destroyed radio towers. I am surprised you did not kill the guards. You should have known one of them would eventually get unshackled and come to me. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_A_1</LocID>           <Text>I guess I am not wired that way. Besides, it should not matter now. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_H_1</LocID>           <Text>Don't talk to her, Annika! You're losing the moment of surprise! Are we attacking or what? Damn it!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_G_2</LocID>           <Text>What's that? A cyberbug? How did you manage to get one of those fanatics on your side, Annika? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_A_2</LocID>           <Text>I think I'll keep some secrets. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_G_3</LocID>           <Text>Shame, girl, you had potential. For a moment, I truly believed the Kelvin Station story. But we will learn the truth once I return with my backup. </Text>  </GameDBLocalizedString>
+            <!--Moltair reacts on loosing his guard posts--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GUARD_POSTS_1</LocID><Text>Это были мои червячки! Я видел, как они вылуплялись. Я был там, когда они съели своего первого воспитателя! Вы за это заплатите!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GUARD_POSTS_2</LocID><Text>К черту этих Хамеррайтов, они всё равно меня сдали. Но доходы от той операции были моими!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_GUARD_POSTS_3</LocID><Text>Мохнолап! Как же я, по-твоему, буду держать своих полукровок в узде без этих комиссаров?!</Text></GameDBLocalizedString><!--Gran Manny informing Annika about plan progress after second guard posts is conquered--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_G_1</LocID><Text>Он и так зол, как барсук, застрявший в дымоходе! Прежде чем мы продолжим, собери все наши силы под своим командованием. Когда он уйдет, будет слишком поздно для передислокации, Анника! </Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_A_1</LocID><Text>Но что насчет тебя? Без своих бойцов ты будешь беспомощна.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_G_2</LocID><Text>Мило, что ты заботишься обо мне, но не волнуйся, у меня есть запасной вариант.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_A_2</LocID><Text>О, спасибо, что доверили мне такие детали!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_G_3</LocID><Text>Благодаря моей маленькой хитрости все наши войска теперь в вашем распоряжении. Не самый плохой итог, не так ли?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_PISSED_A_3</LocID><Text>Дело не в этом, но да, теперь я чувствую себя гораздо лучше.</Text></GameDBLocalizedString><!--Annika gets to the Fortress--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_NARRATOR_1</LocID><Text>Всего через несколько мгновений.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_MOLTAIR_1</LocID><Text>Вот и все! Мне надоело ждать! К черту выгодную позицию. Открыть ворота!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_G_1</LocID><Text>Сейчас! Ты можешь проскользнуть внутрь!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_A_1</LocID><Text>Я внутри!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_A_2</LocID><Text>Еще один фоссорианец?! Ты не тот карлик Мольтайр!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_MOLETOFF_1</LocID><Text>Кажется, ловушка захлопнулась?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_A_3</LocID><Text>Подожди! "Ферзь берёт слона"!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_MOLETOFF_2</LocID><Text>Что это должно значить? Что такое "слон"?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_A_4</LocID><Text>Эм ... "Ферзь берет ..."</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLTAIR_STORMS_OUT_MOLETOFF_3</LocID><Text>Хватит БОЛТАТЬ!</Text></GameDBLocalizedString><!--Annika beats Moletoff--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_A_1</LocID><Text>Хватит БОЛТАТЬ?! Ты придурок! Вы все должны знать пароли!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_MOLETOFF_1</LocID><Text>Я никогда не слушаю на брифингах! Да, «ферзь берёт слона»! Теперь припоминаю!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_A_2</LocID><Text>Слишком поздно! Где телепорт на орбиту? Он должен быть где-то рядом! Выкладывай, или...!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_MOLETOFF_2</LocID><Text>За этой базой! У подножия холмов! Человек-мотылек переделал его, когда работал над воротами, так что мы можем открыть его с базы.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_A_3</LocID><Text>Человек-мотылек? Вы имеете в виду Гесперидянина! Джона Смита 7А! Я должен немедленно его увидеть!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MOLETOFF_ENCOUNTER_MOLETOFF_3</LocID><Text>Я его не знаю, но он остался на орбите!</Text></GameDBLocalizedString><!--Annika and Gran talk after fortress is conquered--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_A_0.1</LocID><Text>Кто-то спал на большой куче украденного золота! Типичные лидеры Фоссорианцев!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_A_1</LocID><Text>И телепорт, и управление воротами подключены к одному переключателю. Смит 7A не хотел перегружать интеллект Фоссорианцев. Умный ход.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_G_1</LocID><Text>Анника, детка, крепость теперь наша, и оба Фоссорианца гниют в нашей тюрьме! Жаль, что Синие врата всё ещё закрыты. Это единственный путь к северо-восточной базе, которую я потеряла.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_A_2</LocID><Text>Я активировала орбитальный телепорт; возможно, я смогу найти путь на другую сторону. </Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_G_2</LocID><Text>Ты уверена, Анника? Похоже, он вывернет тебя наизнанку, прежде чем ты достигнешь орбиты.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_A_3</LocID><Text>Что ж, он выглядит достаточно стабильным.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_G_3</LocID><Text>Хотела бы я, чтобы у всех Суверенов была такая выдержка, как у вас. Я не склонна верить в истории, поэтому скептически отнеслась к рассказу о молодой женщине, которая спасла наших людей с горящей станции Кельвин. Я больше не сомневаюсь.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_FORTRESS_CONQUERED_A_4</LocID><Text>Спасибо, такова уж моя натура.</Text></GameDBLocalizedString><!--Annika expressing anxiety after teleporting to orbit--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_ORBITAL_TELEPORT_UP_A_1</LocID><Text>Телепортация была нестабильной. Кажется, меня сейчас вырвет! ... Сосредоточься, Анника, скоро все закончится.</Text></GameDBLocalizedString><!--Annika meet with Dr Brown on orbit--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_1</LocID><Text>Вы не Джон Смит 7A! Я имею в виду, "Ферзь ...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_1</LocID><Text>Прекрати, я точно знаю, кто ты, женщина. Мы не в дешёвом шпионском фильме.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_2</LocID><Text>Ну, и где же в таком случае Джон Смит 7A?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_2</LocID><Text>Смит 7A мёртв, но я "унаследовал" его сеть агентов. Ты была хороша, но после той мелодрамы на станции Кельвин ты стала героем у Суверенов и почему-то перестала выходить на связь.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_3</LocID><Text>Что ты хочешь этим сказать?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_3</LocID><Text>Крысы всегда чувствуют, что кораблю не хватает кислорода, мисс Финч. И поскольку мы превращаем Суверенных капитанов в вымирающий вид, вы вспомнили о своих "работодателях"...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_4</LocID><Text>Так похищения капитанов Суверена это твоя работа, не так ли?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_4</LocID><Text>Гергеларх, если бы командовала я, вы бы все закончили в пластиковом спальном мешке! Но, веришь или нет, даже у меня есть вышестоящее руководство, и им нужны Суверены для допроса.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_5</LocID><Text>Пошёл ты! Я не Суверен! Я связалась с тобой по собственной инициативе! Я даже уничтожила радиовышки вокруг, как мне и велели...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_5</LocID><Text>И это единственная причина, по которой я позволил тебе подойти так близко. Но, судя по твоему нетерпению вернуться на сторону UNSS, ты не откажешься пройти ещё одну проверку на верность!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_6</LocID><Text>Кельвина недостаточно...?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_6</LocID><Text>Черный колодец Надира! Так и было бы, но вы случайно спасли более 200 преступников Суверенов с этой станции! Так что нет, этого недостаточно!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_7</LocID><Text>Так... что ты на самом деле хочешь в обмен на то, чтобы вернуть мне мою прежнюю роль?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_7</LocID><Text>Пленить твоего приятеля из Суверена, Старю Мэнни.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_A_8</LocID><Text>Но я не могу сделать это в одиночку! Мэнни - опытный командир!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_8</LocID><Text>Да, я знаю. Там, внизу, тебя ждёт база. Я также собирался дать тебе одного из Фоссориан, но поскольку это уже невозможно...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_DR_BROWN_B_9</LocID><Text>За мной гнался командир Кибержуков из-за... некоторых причин... но угодил в мою особую Киберловушку. Пока что он будет вести себя как послушный зомби. Доставь его сюда, и я "перепрограммирую" его, чтобы он помогал тебе. </Text></GameDBLocalizedString><!--Leading Hierarch to Dr Brown--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_1</LocID><Text>Это, должно быть, он. Хм... Пойдем со мной, Кибер-жук!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_2</LocID><Text>Иди!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_3</LocID><Text>Иди сюда, киса!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_5</LocID><Text>Хороший Кибержук. Ко мне!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_4</LocID><Text>Кис-кис-кис!</Text></GameDBLocalizedString><!--Reprograming of Hierarch--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_1</LocID><Text>Отлично. Давай посмотрим...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_2</LocID><Text>Теперь мои ИИ-штампы подавляют его прежнюю личность, и я объединил его с человеческой инграммой, чтобы он вел себя как представитель вашей глупой расы. Знаете, им так легко манипулировать...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_H_1</LocID><Text>Ваши задницы скоро будут очищены ОГНЕМ! Грязные еретики!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_3</LocID><Text>Ладно, это явно не сработало...\nПопытка номер два...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_4</LocID><Text>Созданные мной ИИ-штампы являются временными; рано или поздно он начнет давать сбои. Кроме того, может проявиться его прежний облик. Но у вас еще достаточно времени, чтобы завершить миссию.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_5</LocID><Text>Кибержук! Спустись с орбиты восточным телепортом и жди там!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_H_2</LocID><Text>Прямо как в тот день, когда ты ждал, что мама заберёт тебя из детского сада?! Бу-га-га-га! Она так и не пришла, уродливый чешуекрылый ублюдок...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_H_3</LocID><Text>Подожди, я не хотел подчиняться! Что ты со мной сделал, больной су...!?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_REPROGRAMING_B_6</LocID><Text>Эти инграммы. Что ж, чем скорее вы поймаете Старую Мэнни, тем скорее сможете избавиться от него и его чувства "юмора".</Text></GameDBLocalizedString><!--On the ground again--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_SURFACE_AGAIN_RH_1</LocID><Text>Пустая база.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_SURFACE_AGAIN_RH_2</LocID><Text>Должно быть, Гесперидянин закрыл путь наверх.</Text></GameDBLocalizedString><!--Commneting on the state of the base, plus how do we get behind the blue gate--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_A_1</LocID><Text>[ВЗДОХ] Фоссорианцы на этой базе неплохо постарались.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_H_1</LocID><Text>Вы называете это базой? Я вижу только ржавый остов старого корабля?!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_A_2</LocID><Text>Суверенам нравится такой путь; многие проводят большую часть жизни на борту звездолётов.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_H_2</LocID><Text>Откуда, черт возьми, мне это знать? Печати ИИ-штампы блокируют мою память!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_A_3</LocID><Text>Так, хватит болтать, мне нельзя привязываться. В любом случае, мне нужно от тебя избавиться как можно скорее.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_H_3</LocID><Text>Вы разбиваете мне сердце, Старлинг!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NORTHER_BASE_STATE_A_4</LocID><Text>Заткнись, или я разобью тебя ещё сильнее, прежде чем эта миссия закончится, ты, жестяная королева драмы!</Text></GameDBLocalizedString><!--Hierarch looking into his database, location of blue key discovered --><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_A_1</LocID><Text>Как мне теперь открыть Синие Врата? Какие-нибудь предложения, Тин? Ты ведь наверняка уже был в том районе, когда прогнал Гесперида с поверхности.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_H_1</LocID><Text>Правда? Я не помню, но я проверю то, что осталось в моей памяти... потому что ты мне нравишься.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_H_2</LocID><Text>Здесь!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_A_2</LocID><Text>Ключ?! Как? ... неважно. Давай сделаем это...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_H_3</LocID><Text>О-о-о! Может быть, здесь.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_A_3</LocID><Text>Ты же робот! Почему ты не знаешь наверняка?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_H_4</LocID><Text>Хотите, чтобы причины были перечислены в алфавитном порядке?! Воспоминания, настроение, личность...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_LOCATION_A_4</LocID><Text>Ни в коем случае, я не буду снимать штампы. Я лучше сама проверю оба места.</Text></GameDBLocalizedString><!--Conquer the Northern base first--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_BASE_FIRST_A_1</LocID><Text>Мне нельзя терять ни минуты. Сначала на базу, а потом огляжусь.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_BASE_FIRST_A_2</LocID><Text>Сначала база! А уж потом осмотришься!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_BASE_FIRST_H_3</LocID><Text>Да, мамочка!</Text></GameDBLocalizedString><!--Blue gate is still closed - warning--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_BLUE_GATE_WARNING_RH</LocID><Text>Хм, не без ключа.</Text></GameDBLocalizedString><!--Blue gate is still closed - warning--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NO_KEY_HERE_A_1</LocID><Text>Что, ничего?! Ключ должен был быть здесь!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NO_KEY_HERE_H_1</LocID><Text>Я же сказал тебе, глупышка, моя база данных запечатана наглухо, как задница угря! Вы, люди, не самые острые клинки во вселенной!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NO_KEY_HERE_A_4</LocID><Text>И теперь представитель моего глупого рода вживлён в твоё сознание!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_NO_KEY_HERE_H_4</LocID><Text>Семь кругов ада, ты прав! Я чувствую себя таким... грязным!</Text></GameDBLocalizedString><!--Blue key found--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_FOUND_A_1</LocID><Text>Да, ключ!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_FOUND_H_1</LocID><Text>Да! Великолепно, теперь мы можем пройти через синие врата!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_FOUND_A_2</LocID><Text>И зачем ты вообще притворяешься, что ты за меня?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_FOUND_H_2</LocID><Text>Я на вашей стороне! И, насколько я понимаю, я еще и ваш единственный друг! Что довольно печально, учитывая, что вы привлекательная женщина двадцати с небольшим лет!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_KEY_FOUND_A_3</LocID><Text>Да, это так... подожди, зачем я вообще с тобой разговариваю? Замолчи!</Text></GameDBLocalizedString><!--Meeting with Manny - she already knows about Annika--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_G_1</LocID><Text>Ты открыла Синие Врата, Анника. Спасибо.\n
+Но теперь можешь прекратить свой "спектакль". Уничтоженные радиовышки. Я удивлен, что ты не убила охранников. Ты должна была знать, что один из них в конце концов освободится и придет ко мне.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_A_1</LocID><Text>Я предполагаю, что я так не устроена. Кроме того, это уже не имеет значения.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_H_1</LocID><Text>Не разговаривай с ней, Анника! Ты упускаешь момент внезапности! Мы будем атаковать или что? Чёрт возьми!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_G_2</LocID><Text>Что это? Кибержук? Как тебе удалось заполучить одного из этих фанатиков на свою сторону, Анника? </Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_A_2</LocID><Text>Думаю, я оставлю некоторые секреты при себе</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DIASPONTED_G_3</LocID><Text>Ты позоришься, девчонка, у тебя был потенциал. На мгновение я действительно поверила в историю со станцией Кельвин. Но мы узнаем правду, когда я вернусь со своим подкреплением.</Text></GameDBLocalizedString>
 _
-            <!--Controls of the Red gate and orbital teleport near the base are disabled-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GATE_CONTROL_DESTROIED_RH_1</LocID>    <Text>The gate and the orbital teleport controls have been cut off. </Text>  </GameDBLocalizedString>
-
-            <!--END-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_G_1</LocID>         <Text>After so many years in business, I'm going to be put down by a traitor and crazy Cyberbug. What are the odds?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_2</LocID>         <Text>We are not your executioners, Manny ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_DR_BROWN_1</LocID>  <Text>I hope you haven't roughed her up too much, Miss Finch! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_G_2</LocID>         <Text>A Hesperidian!? Who would have guessed? The famous Annika Finch, hero of Kelvin, on UNSS payroll. I hope I live to tell that story. It's very educational. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_NARRATOR_1</LocID>  <Text>Later, in orbit. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_3</LocID>         <Text>You have Manny! Now, I want to be reinstated into my old UNSS role! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_DR_BROWN_2</LocID>  <Text>Not so fast! Your cover is not blown yet, so ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_4</LocID>         <Text>I should have known you would cross me! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_DR_BROWN_3</LocID>  <Text>... so, there is another Sovereign fleet commander my superiors would like to "talk" to. I'll contact you soon. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_DR_BROWN_4</LocID>  <Text>And, Miss Finch, get rid of that Cyberbug. He will start to malfunction soon and he will even become a danger to you if the AI seals brake.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_5</LocID>         <Text>My Sovereign friends thought that Smith 7A is behind the kidnappings, but this Hesperidian is following someone else's orders. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_H_3</LocID>         <Text>Wait?! Your Sovereign friends? I thought you wanted to escape back to the UNSS! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_6</LocID>         <Text>Tempting, right? But no. See, some friends and I have a plan, and as we speak, they are following the Hesperidians' ship. He will guide us straight to his superiors. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_H_4</LocID>         <Text>But ... you sacrificed Gran Manny! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_7</LocID>         <Text>We had no choice. She must be kept in the dark in order to act "naturally". Only a handful know the plan. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_H_5</LocID>         <Text>Now, you will kill me, right? I know too much and I am a danger to you. \n... and I guess am not truly alive ... though I feel like I am? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_8</LocID>         <Text>Not yet. You're a pain in the ass, Tin, but as I said, there are only a few of us, so I kinda need your help. </Text>  </GameDBLocalizedString>
-            
-        </LocalizedStrings>
-    </GameDBStringTable>
+            <!--Controls of the Red gate and orbital teleport near the base are disabled--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_GATE_CONTROL_DESTROIED_RH_1</LocID><Text>Врата и управление орбитальным телепортом были отключены. </Text></GameDBLocalizedString><!--END--><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_G_1</LocID><Text>После стольких лет в бизнесе меня погубят предатель и чокнутый Кибержук. Каковы шансы?!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_2</LocID><Text>Мы тебе не палачи, Мэнни...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_DR_BROWN_1</LocID><Text>Надеюсь, вы её не слишком помяли, мисс Финч!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_G_2</LocID><Text>Гесперидянка!? Кто бы мог подумать? Знаменитая Анника Финч, героиня "Кельвина", состоит на жалованье в UNSS. Надеюсь, я выживу, чтобы рассказать эту историю. Это очень поучительно.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_NARRATOR_1</LocID><Text>Позже, на орбите.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_3</LocID><Text>Мэнни у тебя! Теперь я хочу, чтобы меня восстановили в моей прежней должности UNSS.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_DR_BROWN_2</LocID><Text>Не так быстро! Твоё прикрытие ещё не раскрыто, так что...</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_4</LocID><Text>Мне следовало знать, что ты предашь меня!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_DR_BROWN_3</LocID><Text>... так что, есть ещё один командующий флотом Суверена, с которым моё начальство желает "поговорить". Я скоро свяжусь с тобой.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_DR_BROWN_4</LocID><Text>И, мисс Финч, избавьтесь от этого Кибержука. Он скоро начнет давать сбои и станет даже опасен для вас, если штампы ИИ разрушатся.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_5</LocID><Text>Мои друзья из Суверена думали, что за похищениями стоит Смит 7A, но этот Гесперидянин явно выполняет чьи-то приказы.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_H_3</LocID><Text>Постой?! Твои друзья из Суверена? Я думал, ты хочешь сбежать обратно в UNSS! </Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_6</LocID><Text>Заманчиво, не правда ли? Но нет. Понимаешь, у нас с друзьями есть план, и пока мы разговариваем, они следуют за кораблём гесперидианца. Он приведёт нас прямо к своему начальству.</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_H_4</LocID><Text>Но... ты же пожертвовала Старой Мэнни!</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_7</LocID><Text>У нас не было выбора. Её нужно было держать в неведении, чтобы она вела себя "естественно". Лишь немногие знали о плане. </Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_H_5</LocID><Text>Сейчас ты меня убьёшь, верно? Я слишком много знаю и представляю для тебя опасность.\n... и, наверное, я не совсем живой... хотя и чувствую себя так?</Text></GameDBLocalizedString><GameDBLocalizedString><LocID>MESSAGE_CAMPAIGN_PIRATES_LVL1_MANNY_DEFEATED_END_A_8</LocID><Text>Не сейчас. Ты та ещё заноза, Тин, но, как я и говорила, нас осталось немного, так что мне, в общем, нужна твоя помощь.</Text></GameDBLocalizedString></LocalizedStrings>
+  </GameDBStringTable>
 </Database>
