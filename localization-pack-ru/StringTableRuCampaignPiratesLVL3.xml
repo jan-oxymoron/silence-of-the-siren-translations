@@ -1,256 +1,792 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_CAMPAIGN_PIRATES_LVL_3">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!--OBJECTIVES-->
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_CUTSCENE_OBJECTIVE_1</LocID>         <Text>Find professor Zane</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_FIRST_S_BASE</LocID>                 <Text>Look for Zane in his base</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_FIRST_S_BASE_DONE</LocID>            <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Look for Zane in his base - Finished</color>]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_MALFUNCTION</LocID>                  <Text>Tin will wake up after turn(s):</Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_TRIBES_LAND</LocID>                  <Text>Seek Zane in the Tumori territory</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_LIBERATE_ZANE_1</LocID>              <Text>Seek Zane in the Tumori base 1/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_LIBERATE_ZANE_2</LocID>              <Text>Seek Zane in the Tumori base 2/3</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_CAPTURE_ZANE</LocID>                 <Text>Capture Zane</Text>  </GameDBLocalizedString>
-            
-            <!--SUBQUEST-->
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_CHILDREN_BASE</LocID>                <Text>Talk to Cyberbugs</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_CHILDREN_BASE_DONE</LocID>           <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Talk to Cyberbugs- Finished</color>]]></Text>  </GameDBLocalizedString>
-
-            <!--DIALOGUES-->
-
-            <!--starting dialog-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_NARRATOR_1</LocID>               <Text>A few hundred miles away - though still in the jungles of Chimera. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_1</LocID>                      <Text>That Thing nearly got us, Starling! What is that core thingy it talked about?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_1</LocID>                      <Text>No idea. But it must be linked to me and the other Sovereign captains ... somehow.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_2</LocID>                      <Text>Something important. That Thing wanted to capture you really badly! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_2</LocID>                      <Text>But here I stand, free as a bird! In any case, once professor Zane gives you access to your memory, we will learn more. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_3</LocID>                      <Text>And we will defeat the Thing and liberate all the imprisoned captains, right?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_3</LocID>                      <Text>Are you mad? No! I will avoid it for the rest of my life! I don't give a damn about the other captains! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_4</LocID>                      <Text>I would rather face the danger, but you're the boss, Starling. What is the shortest path to go see the professor? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_4</LocID>                      <Text>This is his base. Damn close to the tribal territories. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_5</LocID>                      <Text>Tribal stands for Tumori tribes, right? What are they? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_5</LocID>                      <Text>Siren System natives. Hostile, creepy, sort of parasitical body snatchers. But as far as I know, they avoid human hosts. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_6</LocID>                      <Text>Gross buggers! I'm moving them to my "to burn" list. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_6</LocID>                      <Text>With a bit of luck we will avoid any confrontation. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_7</LocID>                      <Text>Is that why we landed so far? I don't fear parasites, I am a full-metal badass! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_7</LocID>                      <Text>No. If the Hesperidian published my file, it's the Sovereigns in this area that may cause trouble. </Text>  </GameDBLocalizedString>
-
-            <!--Hierarch's seal malfunction-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_H_1</LocID>           <Text>Starling, I do not feel alright ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_A_1</LocID>           <Text>Tin! What is happening to you? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_H_2</LocID>           <Text>... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_A_2</LocID>           <Text>Tin! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_H_3</LocID>           <Text>... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_A_3</LocID>           <Text>Damn, it must be the seals malfunctioning! I hope he wakes up soon. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_H_4</LocID>           <Text>I am purging, I am purging, maa! ... Where were we? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_A_5</LocID>           <Text>Your system is falling apart! We must get you to professor Zane as soon as possible. </Text>  </GameDBLocalizedString>
-            
-            <!--meeting Captain Monk-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_MONK_1</LocID>            <Text>Hello, steel man! So, have the Children of da Source reconsidered my offer? Shiny! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_H_1</LocID>               <Text>Children? ... OH, YES! We have reconsidered and ... eee ... I will take all the treasures we agreed upon ... with me now. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_MONK_2</LocID>            <Text>Treasures? What?! No such offer was on the table! Who are you? Answer now or I shoot! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_H_2</LocID>               <Text>At least I tried. Prepare for a fiery death!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_MONK_3</LocID>            <Text>You are dead, crazy Cyberbug! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_A_1</LocID>               <Text>Stop, captain Monk! He is with me. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_MONK_4</LocID>            <Text>Ki kaka sa! Isn't it the traitor Annika Finch casually strolling through the woods?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_H_3</LocID>               <Text>He knows! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_A_2</LocID>               <Text>Yes, I can see that, Tin! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_A_3</LocID>               <Text>Look, Monk, I can explain the kidnapping of Manny and even Kelvin's events, but first I must speak with Professor Zane ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_MONK_5</LocID>            <Text>I don't care about Manny or Kelvin, birdie. The only thing I care about is the bounty the Sovereigns will pay me for your head! Sit tight, I'll be back ... with my troops! </Text>  </GameDBLocalizedString>
-
-            <!--Fighting Captain Monk-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MONK_BATTLE_MONK_1</LocID>             <Text>You will be easy money! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MONK_BATTLE_RH_1</LocID>               <Text>Not so "easy money" after all! </Text>  </GameDBLocalizedString>
-            
-            <!--The second Sovereign base captured, Kali liberated-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_1</LocID>             <Text>Hello, I am locked down here! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_H_1</LocID>                <Text>Look, Annika, there is a prisoner. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_1</LocID>                <Text>It's Kali Chapek! I know him! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_2</LocID>             <Text>Do I hear Annika Finch! The false hero of Kelvin, responsible for the capture of Grann Manny!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_H_2</LocID>                <Text>He knows too!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_2</LocID>                <Text>And who doesn't by now?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_3</LocID>                <Text>Listen, Kali, I know you and Manny are good friends, but we needed a decoy to follow the UNSS bastards and to learn who is running the whole show! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_3</LocID>             <Text>No, you listen, kiddo! Why Manny?! From every bloody Sovereign! Give me a single reason not to call the other captains on you! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_4</LocID>                <Text>I know where they keep Manny, and many more, and I am about to rescue them! Kali, I know what the UNSS wants ... But I need your help ... please, Kali. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_4</LocID>             <Text>You are bold! Bloody bold to ask for my help! What is your plan anyway? What does the UNSS want? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_5</LocID>                <Text>The UNSS kidnapped all those Sovereigns because they want information about some "cores". </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_5</LocID>             <Text>The cores? I had a friend obsessed with the cores! Bloody big Primals' structures, hexagonal mosaic, and a giant hoop, like a vertical belt ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_6</LocID>                <Text>OH THOSE! I know at least three or four of those scattered in the wilderness! My robot friend probably knows much more, but his memory is blocked, and that's why I need Professor Zane. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_6</LocID>             <Text>Zane?! He is a nutter! More than that, a dead nutter! He left his base a month ago to lead an expedition to Tumori territory! Suicide! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_7</LocID>                <Text>We must at least try to find him! He is our best chance! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_7</LocID>             <Text>I already regret choosing to help you. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_8</LocID>                <Text>So you did choose to help! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_8</LocID>             <Text>Yes, kiddo, but only because of Manny! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_9</LocID>                <Text>Release him! </Text>  </GameDBLocalizedString>
-            
-            <!--Annika confess the true about Kelvin-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_1</LocID>                <Text>Shh! ... Starling ... Are we planing to liberate Manny? I thought your plan was to run and hide! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_1</LocID>                <Text>You still don't get it, do you? ... Who I am! ... Go on, ask me about Kelvin again! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_2</LocID>                <Text>Starling ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_2</LocID>                <Text>ASK! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_3</LocID>                <Text>#925 told me that you saved a bunch of innocent people. That you fought your captain and escaped the whole UNSS armada. Damn brave!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_3</LocID>                <Text>But #925 could not tell you that it was not my captain, but me who was about to let all those people die! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_4</LocID>                <Text>...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_4</LocID>                <Text>For once, you are quiet? Listen then, there is more! I was one of several UNSS agents on board. \nThe jammer that prevented the station's surrender! My job! When my captain learned, the fight broke out, and I passed out ...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_5</LocID>                <Text>... when I woke up, there were people everywhere, and I was Annika the f****ng "hero" of Kelvin. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_5</LocID>                <Text>But ... why did choose to leave the UNSS?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_6</LocID>                <Text>I did not leave! If my contact John Smith 7A were alive, I would bring him Manny, Doug and #925 on a silver platter! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_6</LocID>                <Text>So Doug and #925 ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_7</LocID>                <Text>When I understood that the other Hesperidian wants to cross me, I followed the plan Doug and #925 made. If we destroyed the UNSS facility on Chimera and killed the Hesperidian, my "hero of Kelvin" status would be saved. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_7</LocID>                <Text>So the Sovereigns learned the truth, but you're still fighting! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_8</LocID>                <Text>Fighting?! I have already lost! But we can still run, survive ... we can make it through together!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_8</LocID>                <Text>Starling ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_9</LocID>                <Text>Yes, Tin? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_9</LocID>                <Text>I will go with you ... I will keep you safe.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_11</LocID>               <Text>I know you will ... but now we have to focus on getting you fixed. </Text>  </GameDBLocalizedString>
-            
-            <!--Cyberbug_subquest - initiations-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_KALI_1</LocID>        <Text>So your friend Tin is a Cyberbug, like that poor bastard we just ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_A_1</LocID>           <Text>Kinda ... Why?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_KALI_2</LocID>        <Text>You know, there is a whole base full of those bloody fanatics. Captain Monk once sent a messenger there... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_A_2</LocID>           <Text>To the point, Kali. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_KALI_3</LocID>        <Text>Alright, kiddo. They are not right in the head. I mean, crazier than your usual Cyberbugs. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_A_3</LocID>           <Text>Why are you telling me all of this, Kali? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_KALI_4</LocID>        <Text>We are marching against the Tumori. Cyberbugs are sworn enemies of Tumori ... is the bell ringing already, kiddo? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_A_4</LocID>           <Text>... maybe Tin could talk them into joining us. Tin, what do you think? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_H_1</LocID>           <Text>It's not going to work! I know only two things about Cyberbugs: jack and shit! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_A_5</LocID>           <Text>Common, if you run into a wall, Kali and I will help you over the radio. What are you so afraid of? ... Chickeeen, cheep, cheep ...   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_KALI_5</LocID>        <Text>Cheep, cheep, cheep! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_H_2</LocID>           <Text>Stop! ... STOP! I'll do it ... But I do not like it at all. </Text>  </GameDBLocalizedString>
-        
-           
-            <!--Cyberbug_subquest - Knights warning-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_BEFORE_SUBQUEST_KNIGHT_1</LocID>       <Text>I am the knight of the holy Allmother, guardian of this vale. Begone, and we will have peace! Or attack and perish! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_BEFORE_SUBQUEST_H_1</LocID>            <Text>Hierarch? You have mistaken me for someone ... </Text>  </GameDBLocalizedString>
-
-            <!--Cyberbug_subquest - Knights warning-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_KAEY_FIGHT_1</LocID>                   <Text>Another Tumori abomination! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_KAEY_FIGHT_2</LocID>                   <Text>I am not one of the tribesmen, don't you see? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_KAEY_FIGHT_3</LocID>                   <Text>Disguise yourself as you wish, I see you for what you really are! An empty shell full of parasites!  </Text>  </GameDBLocalizedString>
-
-
-            <!--Cyberbug_subquest - Hierarch confronting Knights guarding the vale-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KNIGHT_1</LocID>              <Text>Isn't it the Hierarch of the Spitfires!? Brothers, hear me, the true paragon of knighthood comes to our aid! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_H_1</LocID>                   <Text>Erm ... hi ... fellas? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KALI_1</LocID>                <Text>YOU IDIOT!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_A_1</LocID>                   <Text>TIN! ACT A LITTLE BIT! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_H_2</LocID>                   <Text>Shut up, both! That's the radio help you've promised?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KNIGHT_2</LocID>              <Text>Lord Hierarch! We were ordered to guard this vale. We have done so for countless cycles! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_A_2</LocID>                   <Text>Tin, they no longer have a commander around here! Now, act like one! Command! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KALI_2</LocID>                <Text>Listen Trashcan! Say a lotta things like "by the Allmother"! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_H_3</LocID>                   <Text>... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KALI_3</LocID>                <Text>He froze, he bloody froze! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_A_3</LocID>                   <Text>Not now! Common, TIN! You can do it! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KNIGHT_3</LocID>              <Text>My lord, Spitfire? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_H_4</LocID>                   <Text>SUMMON YOUR BANNERS and prepare to leave at once! Allmother demands Tumori blood! The universe is our witness, we will fulfill her will or die trying!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KNIGHT_4</LocID>              <Text>... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_H_5</LocID>                   <Text>Erm ... by the Allmother? ... I mean: BY THE ALLMOTHER! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KNIGHT_5</LocID>              <Text>WE HEAR AND OBEY, LORD OF FLAMES! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KALI_4</LocID>                <Text>Shiny! F****ng Shiny! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_A_4</LocID>                   <Text>I knew you got it, Tin! </Text>  </GameDBLocalizedString>
-    
-            <!-- Passage to the Tumori land-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_TUMORI_PASSAGE_RH_1</LocID>            <Text>That's the territory of the Tumori tribes. Unless there is a very good reason, we stay outside! </Text>  </GameDBLocalizedString>
-            
-            <!-- Meeting the Tumori for the first time-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_RH_1</LocID>            <Text>So many annoying fireflies in this area!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_TRIBESMAN_1</LocID>     <Text>... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_RH_2</LocID>            <Text>Hello? I am looking for Professor Zane! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_TRIBESMAN_2</LocID>     <Text>... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_RH_3</LocID>            <Text>Why is it so silent? ... Pff! Damn fireflies, get off my mouth, shoo! SHOO! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_TRIBESMAN_3</LocID>     <Text>-...-NO..-....,,..-.ZANE-..-,....-...--YOU-.....-...,,..-WAR...,..- </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_KALI_1</LocID>          <Text>Did you hear that, kiddo? I told you they killed Zane, and now they want to start a "war" with us! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_A_1</LocID>             <Text>Grow some balls! It could have meant anything! But if they act hostile, we won't hold back. </Text>  </GameDBLocalizedString>
-            
-            <!--First Tumori base conquered-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_ZANE_1</LocID>       <Text>[RADIO STATIC] ... Anyone hear me? I have observed an unusual activity among the tribesmen. The simplest deduction suggests that someone has attacked their territory. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_A_1</LocID>          <Text>Professor Zane! You are alive! Where are they holding you?!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_ZANE_2</LocID>       <Text>They are ... holding ... me in one of their bases! Unfortunately, I do not possess the knowledge of which one I was brought to ... was knocked unconscious after I ... fell into captivity. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_KALI_1</LocID>       <Text>Bloody savages! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_ZANE_3</LocID>       <Text>Not at all! Their society differs in many aspects, but it is certainly not barbaric! Their knowledge of Primals is unmatched, and they have mastered biotechnology beyond our wildest dreams!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_H_1</LocID>          <Text>What a weird fella. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_A_2</LocID>          <Text>Something feels off ... I know a bit about "acting" and I'm sure he is not telling us the whole story ...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_H_2</LocID>          <Text>Sounds like one of those big-brained guys that secretly prance around in tight leather jeans, pink ponytail stuck up their ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_KALI_2</LocID>       <Text>What's wrong with that?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_A_3</LocID>          <Text>[CHUCKLES] Would you like to share something, Kali? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_KALI_3</LocID>       <Text>No, kiddo, I wouldn't. But we are bloody Sovereigns! Everyone is welcome among us, ponytail or not, even girls who try to get attention with face implants and pink hair! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_A_4</LocID>          <Text>[BARELY AUDIBLE MURMUR] ... my natural drab dirty blond [BARELY AUDIBLE MURMUR] ... grey-haired asshole.</Text>  </GameDBLocalizedString>
-            
-            <!--Second Tumori base-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_ZANE_1</LocID>      <Text>[RADIO STATIC] ... Good! You woke them from their apathy! So much buzz, so many tribesmen now "wear" hosts bread for war! I can't wait to see them fight! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_A_1</LocID>         <Text>Professor! You do not sound like a prisoner ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_ZANE_2</LocID>      <Text>I might be in a dire situation, but I cannot stop looking through the eyes of a researcher!\nYou needed something from me, right? There is no other logical explanation why you would waste so many resources on my repatriation! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_A_2</LocID>         <Text>Yes, professor. Can you access someone's memory through Hesperidian AI seals without damaging his personality? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_ZANE_3</LocID>      <Text>Yes, yes, I can do that, just come for me! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_H_3</LocID>         <Text>Are you totally insane, Starling? You're going to let that fruit-bat of a scientist diddle with my brain? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_A_3</LocID>         <Text>You got a better plan? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_H_4</LocID>         <Text>... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_A_4</LocID>         <Text>I thought so. </Text>  </GameDBLocalizedString>
-
-            <!--Hierarch's seal malfunction_2-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_H_1</LocID>         <Text>Starling, my legs are numb ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_A_1</LocID>         <Text>Tin!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_H_2</LocID>         <Text>... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_A_2</LocID>         <Text>Not again! Tin!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_H_3</LocID>         <Text>... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_A_3</LocID>         <Text>Another malfunction! We really need Professor Zane's help quickly.</Text>  </GameDBLocalizedString>
-            
-            <!--Third Tumori base - Zane exposed-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_TUMORI_BASE_ZANE_1</LocID>       <Text>I was not entirely honest with you. But I am gathering data that will bridge the gap between our species! My apologies for what comes next. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_TUMORI_BASE_RH_1</LocID>         <Text>What?! What are you going to do?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_TUMORI_BASE_ZANE_2</LocID>       <Text>Fight you, of course! I have yearned to see the Tumori in a fight for months! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_TUMORI_BASE_RH_2</LocID>         <Text>You are mad! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_TUMORI_BASE_ZANE_3</LocID>       <Text>My research has the absolute moral superiority!  </Text>  </GameDBLocalizedString>
-
-            <!--Zane - before battle-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_ZANE_BEFORE_B_ZANE_1</LocID>     <Text>During this "skirmish", I will gather field data worth any sacrifice! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_ZANE_BEFORE_B_RH_1</LocID>       <Text>The fun si over, Zane! You are coming with me. </Text>  </GameDBLocalizedString>
-
-            <!--END-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_1</LocID>                        <Text>You sick bastard! Fighting your own just to collect data! But ... I will let you live if you fix my friend. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_1</LocID>                     <Text>Fix? You ignorant child! The Cyberbugs commanders are cyborgs, their heads shelter a part of the original beings's living brain! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_2</LocID>                        <Text>I ... I thought he is just a weird robot mimicking a human ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_2</LocID>                     <Text>If I remove the seals and give him back his Cyberbug memories, he may lose his mind ... OR! I can make the seals permanent. He will stay the same - obedient, but without the knowledge you crave. The choice is yours. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_3</LocID>                        <Text>I ... we need to know what is in his memory. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_3</LocID>                     <Text>This will be a challenge. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_NARRATOR_1</LocID>                 <Text>After a few hours. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_4</LocID>                     <Text>I did what I could ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_4</LocID>                        <Text>What?! You failed?! After everything we went through ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_5</LocID>                     <Text>No, "I did what I could", which means I succeeded. Do you think I am some oil-stained bungler?! I am an artist! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_5</LocID>                        <Text>I ... and his memory?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_6</LocID>                     <Text>Full access, but I discovered an interesting fact. He had limited access even before the Hesperidian applied the seals. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_6</LocID>                        <Text>That doesn't make any sense! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_7</LocID>                     <Text>It is possible that the Church inquisitors, the Zieregals, did not want the Children to remember the deepest past. Not the first church ashamed by its heritage. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_7</LocID>                        <Text>Ok, I'll handle it from here. Shush! </Text>  </GameDBLocalizedString>
-            <!--END beside the base-->
-            
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_9</LocID>                        <Text>How do you feel? Any compulsion to kill ... let's say, me?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_2</LocID>                        <Text>No, it's still me, though I know things that Zieregals would kill us both for. Annika, listen ...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_10</LocID>                       <Text>Oh boy, troubles are incoming whenever I hear that name ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_3</LocID>                        <Text>And you are damn right! We need to talk about Allmother! The most important thing about the ONE TRUE Allmother is: she's dead ...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_12</LocID>                       <Text>... "and her Children are looking for her incarnation in all corners of the  Galaxy", yada, yada ... It's a metaphor for ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_5</LocID>                        <Text>Except the search is no metaphor. We are looking for all "flesh and chitin" versions of Her. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_14</LocID>                       <Text>What? Why?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_7</LocID>                        <Text>To destroy the copies the Primals made using genetic material stolen from her tomb on our homeworld. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_16</LocID>                       <Text>Look, Tin, it's interesting stuff and all, but it's ancient history ... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_9</LocID>                        <Text>Starling, we have run into one of theese copies! It's not the first one my order found and destroyed. They are evil monsters! Nothing like the Allmother! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_17</LocID>                       <Text>So you are saying the Cyberbugs already destroyed some of those "copies". Tell me, how?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_10</LocID>                       <Text>They hibernated, locked in the cores the UNSS is looking for ... WAIT! I did not think you would want to fight! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_18</LocID>                       <Text>That Thing ... is basically a space god! It's only a matter of time it will sniff us out! I kinda lived on the run my whole life, but I always had powerful allies that would protect me. This is not true anymore. Maybe it's finally time to stop running. </Text>  </GameDBLocalizedString>
-            
-        </LocalizedStrings>
-    </GameDBStringTable>
+<Database>
+  <GameDBStringTable ID="LOC_RU_CAMPAIGN_PIRATES_LVL_3">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Rewalon</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!--OBJECTIVES-->
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_CUTSCENE_OBJECTIVE_1</LocID>
+        <Text>Найти профессора Зейна</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_FIRST_S_BASE</LocID>
+        <Text>Разыщите Зейна на его базе</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_FIRST_S_BASE_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Разыщите Зейна на его базе - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_MALFUNCTION</LocID>
+        <Text>Жестянка проснется после хода(ов):</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_TRIBES_LAND</LocID>
+        <Text>Ищите Зейна на территории Тумори</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_LIBERATE_ZANE_1</LocID>
+        <Text>Ищите Зейна на территории Тумори 1/3</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_LIBERATE_ZANE_2</LocID>
+        <Text>Ищите Зейна на территории Тумори 2/3</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_CAPTURE_ZANE</LocID>
+        <Text>Захватить Зейна</Text>
+      </GameDBLocalizedString>
+      <!--SUBQUEST-->
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_CHILDREN_BASE</LocID>
+        <Text>Поговорить с Кибержуками</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_PIRATES_LVL3_CHILDREN_BASE_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Поговорить с Кибержуками - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <!--DIALOGUES-->
+      <!--starting dialog-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_NARRATOR_1</LocID>
+        <Text>В нескольких сотнях миль отсюда - хотя все еще в джунглях Химеры.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_1</LocID>
+        <Text>Это Нечто почти достало нас, Старлинг! Что это за «ядро» за такое, о котором оно говорило?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_1</LocID>
+        <Text>Без понятия. Но это должно быть связано со мной и другими капитанами Суверенов... чем-то.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_2</LocID>
+        <Text>Чем-то важным. Эта тварь очень хотела тебя схватить!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_2</LocID>
+        <Text>Но вот она я, свободная как птица! В любом случае, как только профессор Зейн откроет тебе доступ к твоей памяти, мы узнаем больше.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_3</LocID>
+        <Text>И мы победим эту Тварь и освободим всех пленённых капитанов, верно?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_3</LocID>
+        <Text>Ты с ума сошел? Нет! Я буду избегать ЭТО всю оставшуюся жизнь! Меня не волнуют другие капитаны!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_4</LocID>
+        <Text>Я бы лучше встретил опасность лицом к лицу, но раз ты тут командуешь, Старлинг. Какой кратчайший путь к профессору?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_4</LocID>
+        <Text>Это его база. Чертовски близко к территориям племен.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_5</LocID>
+        <Text>Под племенами имеются в виду Тумори, да? Что они из себя представляют?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_5</LocID>
+        <Text>Аборигены Системы Сирен. Враждебные, жуткие, вроде паразитов, что вселяются в тела. Но, насколько я знаю, они избегают человеческих носителей. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_6</LocID>
+        <Text>Мерзкие твари! Перевожу их в свой список «на сожжение».</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_6</LocID>
+        <Text>Если нам хоть немного улыбнётся удача, мы проскочим без стычек.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_H_7</LocID>
+        <Text>Поэтому мы сели так далеко? Я не боюсь паразитов, я же крутой цельно-металлический задира!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_START_A_7</LocID>
+        <Text>Нет. Если Гесперид опубликовал моё досье, то именно Суверены в этом районе могут устроить нам неприятности.</Text>
+      </GameDBLocalizedString>
+      <!--Hierarch's seal malfunction-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_H_1</LocID>
+        <Text>Старлинг, я не в порядке...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_A_1</LocID>
+        <Text>Жестянка! Что с тобой происходит?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_H_2</LocID>
+        <Text>... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_A_2</LocID>
+        <Text>Жестянка! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_H_3</LocID>
+        <Text>... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_A_3</LocID>
+        <Text>Чёрт, это, должно быть, из-за сбоя в блокировке. Надеюсь, он скоро очнется.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_H_4</LocID>
+        <Text>Я перезагружаюсь, перезагружаюсь, ма-а-а!.. Итак, на чём мы остановились?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_A_5</LocID>
+        <Text>У тебя сбой в системе! Мы должны доставить тебя к профессору Зейну как можно скорее.</Text>
+      </GameDBLocalizedString>
+      <!--meeting Captain Monk-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_MONK_1</LocID>
+        <Text>Привет, стальной человек! Итак, Дети Источника пересмотрели моё предложение? Блестяще!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_H_1</LocID>
+        <Text>Дети?... О, ДА! Мы всё пересмотрели и... э-э-э... я заберу все сокровища, о которых мы договорились... с собой прямо сейчас.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_MONK_2</LocID>
+        <Text>Сокровища? Что?! Никакого такого предложения не было! Кто ты такой? Отвечай сейчас же, или я стреляю!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_H_2</LocID>
+        <Text>По крайней мере, я попытался. Готовься к огненной смерти!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_MONK_3</LocID>
+        <Text>Ты труп, сумасшедший Кибержук!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_A_1</LocID>
+        <Text>Стойте, капитан Монк! Он со мной.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_MONK_4</LocID>
+        <Text>Ки кака са! Неужто это предательница Анника Финч так небрежно прогуливается по лесу?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_H_3</LocID>
+        <Text>Он знает!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_A_2</LocID>
+        <Text>Да, я поняла уже, Жестянка!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_A_3</LocID>
+        <Text>Послушай, Монк, я могу всё объяснить и про похищение Мэнни, и даже про события на Кельвине, но сначала я должна поговорить с профессором Зейном...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_MONK_MONK_5</LocID>
+        <Text>Не интересуют меня твои Мэнни и Кельвин, птичка. Я тут только за наградой, что Суверены назначили за твою голову! Не улетай, я вернусь... с бойцами!</Text>
+      </GameDBLocalizedString>
+      <!--Fighting Captain Monk-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MONK_BATTLE_MONK_1</LocID>
+        <Text>Вы станете легкими деньгами!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MONK_BATTLE_RH_1</LocID>
+        <Text>Не такие уж и "лёгкие деньги"!</Text>
+      </GameDBLocalizedString>
+      <!--The second Sovereign base captured, Kali liberated-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_1</LocID>
+        <Text>Привет, я здесь заперт!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_H_1</LocID>
+        <Text>Смотри, Анника, там пленник.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_1</LocID>
+        <Text>Это Кали Чапек! Я его знаю!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_2</LocID>
+        <Text>Кого я слышу? Аннику Финч! Предательница из Кельвина, отдавшая Старую Мэнни врагам!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_H_2</LocID>
+        <Text>Он тоже в курсе!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_2</LocID>
+        <Text>А кто сейчас этого не знает?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_3</LocID>
+        <Text>Послушай, Кали, я знаю, что вы с Мэнни хорошие друзья, но нам нужна была приманка, чтобы выследить ублюдков из UNSS и выяснить, кто стоит за всем этим!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_3</LocID>
+        <Text>Нет, это ты послушай, малявка! Почему Мэнни?! Из всех грёбаных Суверенов! Дай мне хоть одну причину не поднять по тревоге остальных капитанов!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_4</LocID>
+        <Text>Я знаю, где они держат Мэнни и многих других, и я собираюсь их спасти! Кали, я знаю, чего хочет UNSS... Но мне нужна твоя помощь... прошу тебя, Кали.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_4</LocID>
+        <Text>У тебя есть дерзость! Чёртовски дерзко просить моей помощи! Так и какой у тебя план? И чего хочет UNSS?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_5</LocID>
+        <Text>UNSS похитила всех этих Суверенов, потому что им нужна информация о так называемых "ядрах".</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_5</LocID>
+        <Text>Ядра? Я знавал одного парня, который просто помешался на этих ядрах! Громадные структуры Предтеч, шестиугольная мозаика и гигантское кольцо, словно вертикальный пояс...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_6</LocID>
+        <Text>О, ОНИ САМЫЕ! Я знаю по меньшей мере три или четыре таких, разбросанных в глуши! Мой друг-робот, наверное, знает куда больше о них, но его память заблокирована, и именно поэтому мне нужен профессор Зейн. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_6</LocID>
+        <Text>Зейн?! Да он псих! Более того, мёртвый псих! Он покинул свою базу месяц назад, чтобы возглавить экспедицию на земли Тумори! Самоубийца!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_7</LocID>
+        <Text>Нам необходимо хотя бы попытаться найти его! Он наш лучший шанс!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_7</LocID>
+        <Text>Я уже жалею, что решил помочь тебе.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_8</LocID>
+        <Text>Так ты всё-таки решил помочь!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_KALI_8</LocID>
+        <Text>Да, малявка, но лишь ради Мэнни!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_BASE_A_9</LocID>
+        <Text>Отпустите его!</Text>
+      </GameDBLocalizedString>
+      <!--Annika confess the true about Kelvin-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_1</LocID>
+        <Text>Ш-ш-ш!.. Старлинг... Неужели мы задумали освобождение Мэнни? Я-то был уверен, что наш план убежать и залечь на дно!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_1</LocID>
+        <Text>Ты до сих пор ничего не понял, да?.. Кто я!.. Ну давай, спроси меня снова про Кельвин!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_2</LocID>
+        <Text>Старлинг ... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_2</LocID>
+        <Text>СПРОСИ! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_3</LocID>
+        <Text>#925 рассказывал, что ты спасла множество невинных жизней. Что ты выступила против своего капитана и ушла от всей армады UNSS. Чёртовски храбро! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_3</LocID>
+        <Text>Но #925 не мог тебе рассказать, что это не мой капитан, а именно я была готова обречь на смерть их всех!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_4</LocID>
+        <Text>...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_4</LocID>
+        <Text>Молчишь, нет слов? Тогда слушай, это ещё не всё! Я была одним из нескольких агентов UNSS на борту. \nГлушилка, которая не дала станции сдаться! Это была моя работа! Когда капитан узнал, началась драка, и я отключилась...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_5</LocID>
+        <Text>... когда я очнулась, повсюду была толпа, а я стала Анникой, грёбаной "героиней" Кельвина.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_5</LocID>
+        <Text>Но... почему ты решила уйти из UNSS?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_6</LocID>
+        <Text>Я никуда не уходила! Если бы мой контакт, Джон Смит 7A был жив, я бы уже преподнесла ему Мэнни, Дага и #925 на блюдечке с голубой каёмочкой!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_6</LocID>
+        <Text>Так, Даг и #925... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_7</LocID>
+        <Text>Когда я поняла, что другой Гесперид решил меня подставить, я последовала плану Дага и #925. Если бы мы уничтожили объект UNSS на Химере и убили Гесперида, мой статус "героя Кельвина" был бы сохранен.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_7</LocID>
+        <Text>Значит, Суверены узнали правду, но ты всё ещё сражаешься!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_8</LocID>
+        <Text>Сражаюсь?! Я уже проиграла! Но мы ещё можем бежать, выжить... мы можем пройти через это вместе!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_8</LocID>
+        <Text>Старлинг ... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_9</LocID>
+        <Text>Да, Жестянка? </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_9</LocID>
+        <Text>Я пойду с тобой... Я буду оберегать тебя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_A_11</LocID>
+        <Text>Я знаю, что так и будет... но сейчас нам нужно сосредоточиться на том, чтобы тебя починить.</Text>
+      </GameDBLocalizedString>
+      <!--Cyberbug_subquest - initiations-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_KALI_1</LocID>
+        <Text>Значит, твой друг Жестянка такойже Кибержук, вроде того бедолаги, которого мы только что...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_A_1</LocID>
+        <Text>Вроде... Почему?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_KALI_2</LocID>
+        <Text>Знаешь, там целая база, полная этих фанатиков. Капитан Монк как-то раз отправил туда гонца...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_A_2</LocID>
+        <Text>Ближе к делу, Кали.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_KALI_3</LocID>
+        <Text>Ладно, малявка. Они не в себе. В смысле, ещё безумнее обычных Кибержуков.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_A_3</LocID>
+        <Text>Зачем ты мне все это рассказываешь, Кали?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_KALI_4</LocID>
+        <Text>Мы идём против Тумори. Кибержуки заклятые враги Тумори... слышишь уже звон колокола, малявка?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_A_4</LocID>
+        <Text>... может, Жестянка смог бы уговорить их присоединиться к нам. Жестянка, что думаешь?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_H_1</LocID>
+        <Text>Это не сработает! Я знаю о Кибержуках только две вещи: ничего и ничегошеньки!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_A_5</LocID>
+        <Text>Да ладно, если ты упрёшься в стену, Кали и я поможем тебе по рации. Чего ты так боишься?.. Цыпа-цыпа-цып...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_KALI_5</LocID>
+        <Text>Цыпа-цыпа-цып!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_INITIAL_H_2</LocID>
+        <Text>Стой!... СТОЙ! Я это сделаю... Но мне это категорически не нравится.</Text>
+      </GameDBLocalizedString>
+      <!--Cyberbug_subquest - Knights warning-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_BEFORE_SUBQUEST_KNIGHT_1</LocID>
+        <Text>Я рыцарь святой ВсеМатери, хранитель этой долины. Уйдите и сохраните мир! Или атакуйте и погибнете!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_BEFORE_SUBQUEST_H_1</LocID>
+        <Text>Иерарх? Вы приняли меня за кого-то...</Text>
+      </GameDBLocalizedString>
+      <!--Cyberbug_subquest - Knights warning-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_KAEY_FIGHT_1</LocID>
+        <Text>Еще один выродок Тумори!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_KAEY_FIGHT_2</LocID>
+        <Text>Я не из племени, разве не видно?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_KAEY_FIGHT_3</LocID>
+        <Text>Маскируйся как знаешь, я вижу тебя настоящего! Пустую оболочку, кишащую паразитами! </Text>
+      </GameDBLocalizedString>
+      <!--Cyberbug_subquest - Hierarch confronting Knights guarding the vale-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KNIGHT_1</LocID>
+        <Text>Да это же Иерарх Огнеплюев!? Братья, услыште меня, истинный образец рыцарства идёт к нам на помощь!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_H_1</LocID>
+        <Text>Эмм... привет... ребята?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KALI_1</LocID>
+        <Text>ТЫ ИДИОТ!  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_A_1</LocID>
+        <Text>ЖЕСТЯНКА! ДЕЙСТВУЙ ЧУТЬ БЫСТРЕЕ! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_H_2</LocID>
+        <Text>Заткнитесь оба! Это и есть обещанная вами помощь по радио?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KNIGHT_2</LocID>
+        <Text>Владыка Иерарх! Нам было приказано охранять эту долину. И мы несли эту службу бесчисленные циклы!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_A_2</LocID>
+        <Text>Жестянка, здесь некому ими командовать! Покажи, им кто здесь главный! Возьми командование на себя!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KALI_2</LocID>
+        <Text>Слушай сюда, мусорное ведро! Вставляй везде словечки вроде "ради ВсеМатери"!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_H_3</LocID>
+        <Text>... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KALI_3</LocID>
+        <Text>Он завис, чёрт возьми, завис!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_A_3</LocID>
+        <Text>Только не сейчас! Соберись, Жестянка! У тебя получится!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KNIGHT_3</LocID>
+        <Text>Мой повелитель, Огнеплюй? </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_H_4</LocID>
+        <Text>ПРИЗЫВАЙТЕ ВСЕ ЗНАМЁНА и готовьтесь к немедленному выступлению! ВсеМатери нужна кровь Тумори! Сама вселенная внемлет нам — мы свершим её волю или падём в бою!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KNIGHT_4</LocID>
+        <Text>... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_H_5</LocID>
+        <Text>Э-э-э... во имя ВсеМатери?... То есть: ВО ИМЯ ВСЕМАТЕРИ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KNIGHT_5</LocID>
+        <Text>МЫ СЛЫШИМ И ПОВИНУЕМСЯ, ПОВЕЛИТЕЛЬ ПЛАМЕНИ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_KALI_4</LocID>
+        <Text>Шикарно! Чертовски шикарно</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SUBQUEST_A_4</LocID>
+        <Text>Я знала что ты справишся, Жестянка!</Text>
+      </GameDBLocalizedString>
+      <!-- Passage to the Tumori land-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_TUMORI_PASSAGE_RH_1</LocID>
+        <Text>Это территория племён Тумори. Если не будет очень веской причины, мы остаёмся в стороне!</Text>
+      </GameDBLocalizedString>
+      <!-- Meeting the Tumori for the first time-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_RH_1</LocID>
+        <Text>Сколько тут назойливых светляков!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_TRIBESMAN_1</LocID>
+        <Text>... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_RH_2</LocID>
+        <Text>Привет! Я ищу профессора Зейна!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_TRIBESMAN_2</LocID>
+        <Text>... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_RH_3</LocID>
+        <Text>Почему тут так тихо?.. Пфф! Чёртовы светляки, отстаньте от моего рта, кыш! КЫШ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_TRIBESMAN_3</LocID>
+        <Text>-...-НЕТ..-....,,..-.ЗЭЙН-..-,....-...--ВЫ-.....-...,,..-ВОЙНА...,..- </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_KALI_1</LocID>
+        <Text>Слышала это, малявка? Я же говорил тебе, что они убили Зейна, а теперь хотят начать с "войну" с нами!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_MEETING_TUMORI_A_1</LocID>
+        <Text>Отрасти яйца! Это могло значить что угодно! Но если они проявят враждебность, мы не будем церемониться.</Text>
+      </GameDBLocalizedString>
+      <!--First Tumori base conquered-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_ZANE_1</LocID>
+        <Text>[РАДИОПОМЕХИ] ... Меня кто-нибудь слышит? Я наблюдаю необычную активность среди племён. Самое простое объяснение — кто-то атаковал их территорию. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_A_1</LocID>
+        <Text>Профессор Зейн! Вы живы! Где они вас держат?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_ZANE_2</LocID>
+        <Text>Они... держат... меня на одной из своих баз! К сожалению, я не знаю, в какую именно меня доставили... меня вырубили после того, как я... попал в плен.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_KALI_1</LocID>
+        <Text>Кровавые дикари! </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_ZANE_3</LocID>
+        <Text>Вовсе нет! Их общество во многом иное, но оно определённо не варварское! Их познания о Предтечах не имеют равных, и они освоили биотехнологии, превосходящие наши самые смелые мечты!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_H_1</LocID>
+        <Text>Какой странный чувак.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_A_2</LocID>
+        <Text>Что-то тут не так... Я кое-что смыслю в "актёрской игре", и я уверена, что он говорит нам не всю правду...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_H_2</LocID>
+        <Text>Звучит как один из тех яйцеголовых, что тайком расхаживают в обтягивающих кожаных джинсах, с розовым хвостиком, торчащим из...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_KALI_2</LocID>
+        <Text>А тебе что не нравится?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_A_3</LocID>
+        <Text>[ПОСМЕИВАЕТСЯ] Не хочешь ли ты чем-нибудь поделиться, Кали?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_KALI_3</LocID>
+        <Text>Нет, малявка, не хочу. Но мы, черт возьми, Суверены! Мы всех принимаем, хоть с хвостом, хоть без, даже девушек, которые пытаются привлечь внимание имплантами в лице и розовыми волосами!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_FIRST_TUMORI_BASE_A_4</LocID>
+        <Text>[ЕДВА СЛЫШНОЕ БОРМОТАНИЕ] ... мой естественный тусклый тёмно-русый [ЕДВА СЛЫШНОЕ БОРМОТАНИЕ] ... седой козёл.</Text>
+      </GameDBLocalizedString>
+      <!--Second Tumori base-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_ZANE_1</LocID>
+        <Text>[РАДИОПОМЕХИ] ... Отлично! Вы вывели их из спячки! Столько жужжания, столько соплеменников теперь «носят» хозяев, готовых к войне! Не могу дождаться, чтобы увидеть их в бою!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_A_1</LocID>
+        <Text>Профессор! Вы говорите не как пленник...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_ZANE_2</LocID>
+        <Text>Положение моё может быть и отчаенное, но я не могу перестать смотреть на мир глазами исследователя! Вам ведь что-то от меня нужно, верно? Нет другого логичного объяснения, почему вы потратили столько ресурсов на моё возвращение!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_A_2</LocID>
+        <Text>Да, профессор. Можете ли вы получить доступ к чьей-либо памяти сквозь ИИ-блокировки Гесперид», не повредив при этом его личность?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_ZANE_3</LocID>
+        <Text>Да, да, я могу это сделать, просто придите за мной!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_H_3</LocID>
+        <Text>Старлинг, ты совсем рехнулась? Ты позволишь этой учёной летающей-собачке ковыряться в моих мозгах?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_A_3</LocID>
+        <Text>У тебя есть план по-лучше?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_H_4</LocID>
+        <Text>... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SECOND_TUMORI_BASE_A_4</LocID>
+        <Text>Я так и думала.</Text>
+      </GameDBLocalizedString>
+      <!--Hierarch's seal malfunction_2-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_H_1</LocID>
+        <Text>Старлинг, у меня отказали ноги...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_A_1</LocID>
+        <Text>Жестянка!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_H_2</LocID>
+        <Text>... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_A_2</LocID>
+        <Text>Только не это! Жестянка!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_H_3</LocID>
+        <Text>... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_A_3</LocID>
+        <Text>Очередная неисправность! Нам срочно требуется помощь профессора Зейна.</Text>
+      </GameDBLocalizedString>
+      <!--Third Tumori base - Zane exposed-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_TUMORI_BASE_ZANE_1</LocID>
+        <Text>Я был с вами не совсем честен. Но я собираю данные, которые помогут преодолеть пропасть между нашими видами! Приношу извинения за то, что произойдёт дальше.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_TUMORI_BASE_RH_1</LocID>
+        <Text>Что?! Что вы собираетесь сделать?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_TUMORI_BASE_ZANE_2</LocID>
+        <Text>Сразиться с тобой, конечно же! Я месяцами жаждал увидеть Тумори в бою!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_TUMORI_BASE_RH_2</LocID>
+        <Text>Вы сошли с ума!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_TUMORI_BASE_ZANE_3</LocID>
+        <Text>Мои исследования морально безупречны!</Text>
+      </GameDBLocalizedString>
+      <!--Zane - before battle-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_ZANE_BEFORE_B_ZANE_1</LocID>
+        <Text>В ходе этой "стычки" я соберу полевые данные, которые стоят любых жертв!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_THIRD_ZANE_BEFORE_B_RH_1</LocID>
+        <Text>Развлечения окончены, Зейн! Ты идёшь со мной.</Text>
+      </GameDBLocalizedString>
+      <!--END-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_1</LocID>
+        <Text>Ты больной ублюдок! Дерешься со своими ради сбора данных! Но... я позволю тебе жить, если починишь моего друга. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_1</LocID>
+        <Text>Починить? Невежественное дитя! Командиры Кибержуков это киборги, в их головах заключена часть живого мозга первоначального существа!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_2</LocID>
+        <Text>Я... я думала, что он просто странный робот, который имитирует человека...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_2</LocID>
+        <Text>Если я сниму блокировки и верну ему память Кибержука, он может лишиться рассудка... ИЛИ! Я могу сделать блокировки постоянными. Тогда он останется таким же как сейчас, послушным, но без знаний, которые ты так жаждешь. Выбор за тобой. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_3</LocID>
+        <Text>Я... нам нужно узнать, что у него в памяти.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_3</LocID>
+        <Text>Это будет непросто.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_NARRATOR_1</LocID>
+        <Text>Спустя несколько часов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_4</LocID>
+        <Text>Я сделал всё, что было в моих силах...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_4</LocID>
+        <Text>Что?! Не получилось?! После всего, что мы преодолели...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_5</LocID>
+        <Text>Нет, "я сделал всё, что было в моих силах", а это значит, что у меня всё получилось. Ты что, думаешь, я какой-то испачканный в масле неумеха?! Я художник!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_5</LocID>
+        <Text>Я... а его память?  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_6</LocID>
+        <Text>Полный доступ. Однако я обнаружил любопытный факт. У него уже был ограниченный доступ ещё до того, как Гесперид поставил свои ИИ-блокировки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_6</LocID>
+        <Text>В этом нет никакого смысла!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_ZANE_7</LocID>
+        <Text>Вполне возможно, что церковные инквизиторы, Зирегалов, не желали, чтобы Дети помнили глубокое прошлое. Не первая церковь, что стыдится своего наследия.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_7</LocID>
+        <Text>Хорошо, дальше я разберусь. Тихо!</Text>
+      </GameDBLocalizedString>
+      <!--END beside the base-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_9</LocID>
+        <Text>Что ты чувствуешь? Не возникает желания убить... ну, не знаю, меня, например?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_2</LocID>
+        <Text>Нет, это все еще я, хотя я знаю вещи, за которые Зирегалы убили бы нас обоих. Анника, послушай...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_10</LocID>
+        <Text>О боже, неприятности начинаются всякий раз, когда я слышу это имя...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_3</LocID>
+        <Text>И ты чертовски права! Нам нужно поговорить о ВсеМатери! Самое важное что нужно знать об ЕДИНСТВЕННОЙ НАСТОЯЩЕЙ Всематери: она мертва...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_12</LocID>
+        <Text>... "и её Дети ищут её воплощение во всех уголках Галактики", бла-бла-бла... Это же метафора для...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_5</LocID>
+        <Text>Только это не метафора. Мы ищем все версии Всематери — из плоти, из хитина, любые.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_14</LocID>
+        <Text>Что? Почему?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_7</LocID>
+        <Text>Чтобы уничтожить копии, созданные Предтечами из генетического материала, похищенного из усыпальницы Всематери в нашем родном мире.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_16</LocID>
+        <Text>Слушай, Жестянка, это, конечно, интересно и всё такое, но это же древняя история...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_9</LocID>
+        <Text>Старлинг, мы наткнулись на одну из этих копий! И это не первая, что мой орден нашёл и уничтожил. Они — злые чудовища! Ничего общего с Всематерью!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_17</LocID>
+        <Text>Значит, ты говоришь, что Кибержуки уже уничтожили несколько таких "копий". Расскажи, как именно?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_H_10</LocID>
+        <Text>Они впали в спячку, запертые в ядрах, которые ищет UNSS... ПОГОДИ! Я не думал, что ты захочешь сражаться!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_PIRATES_LVL3_END_A_18</LocID>
+        <Text>Это Нечто... оно же практически космическое божество! Рано или поздно оно нас вычислит! Я всю свою жизнь, в общем-то, провёла в бегах, но рядом всегда были сильные покровители, оберегавшие меня. Теперь их нет. Может, самое время прекратить бегать.</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
