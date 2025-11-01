@@ -1,178 +1,492 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_HIVEMIND_BASES">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-        <LanguageNameLocalized>English</LanguageNameLocalized>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!--Buildings -->
-            <GameDBLocalizedString>         <LocID>BASE_HIVEMIND</LocID>                                       <Text>Tumori Base</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_BASE_CORE</LocID>                         <Text>Fallen Tower</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_BASE_CORE_DESCRIPTION</LocID>             <Text><![CDATA[Generates<color=SOTS_COLOR_GOLD> 1000 Aura coins</color> per turn.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE1</LocID>                  <Text>Cellular Proliferation</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE1_DESCRIPTION</LocID>      <Text><![CDATA[Generates<color=SOTS_COLOR_GOLD> 500</color> additional <color=SOTS_COLOR_GOLD>Aura coins</color> per turn.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE2</LocID>                  <Text>Tissue Differentiation</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE2_DESCRIPTION</LocID>      <Text><![CDATA[Generates<color=SOTS_COLOR_GOLD> 1000</color> additional <color=SOTS_COLOR_GOLD>Aura coins</color> per turn.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE_MAX</LocID>               <Text>Crystal Heart</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE_MAX_DESCRIPTION</LocID>   <Text><![CDATA[Generates<color=SOTS_COLOR_GOLD> 1000</color> additional <color=SOTS_COLOR_GOLD>Aura coins</color> per turn and further increases unit production.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_REPLICATOR</LocID>                        <Text>Subspace Storage</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_REPLICATOR_DESCRIPTION</LocID>            <Text><![CDATA[Shared safe storage accessible from any base with this building.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_GATEWAY</LocID>                           <Text>Gate of the Ancients</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPACE_BAR</LocID>                         <Text>Chieftains Gathering</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPACE_BAR_DESCRIPTION</LocID>             <Text>Allows you to hire commanders.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_MUSIC_HALL</LocID>                        <Text>Council of Elders</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_MUSIC_HALL_DESCRIPTION</LocID>            <Text>Adds one more commander for hire. Your last retreated commander will be available to be hired again for an unlimited amount of time.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_VISIBILITY_UPGRADE</LocID>                <Text>Watcher</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_RECYCLER</LocID>                          <Text>Recycler</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACTORY</LocID>                           <Text>Assembler</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACTORY_DESCRIPTION</LocID>               <Text>Allows you to build Goo Spitters for your armies.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_TRADING_POST</LocID>                      <Text>Rogue Trafficker</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_CORE</LocID>                    <Text>Shrine of Warriors</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_TOWER</LocID>                   <Text>Defence Outgrowth</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_MINES</LocID>                   <Text>Minefield</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_TURRET</LocID>                  <Text>Turrets</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_TRENCH</LocID>                  <Text>Slime trench</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_MOSSY_WALLS</LocID>             <Text>Energy Walls</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DISASSEMBLER</LocID>                      <Text>Palace of Rebirth</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DISASSEMBLER_DESCRIPTION</LocID>          <Text>You cay bury BIO units here. They will get reborn as Fungors.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ACADEMY</LocID>                           <Text>Ancestral Swarm</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_REMOTE_LEARNING</LocID>                   <Text>Interlinked neoplasms</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACULTY_SPECIALIZATION</LocID>            <Text>Memory Tissue</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACULTY_BIO</LocID>                       <Text>Biomancer's Lair</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACULTY_EXPLORE</LocID>                   <Text>Wayfinder's Nest</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACULTY_PSY</LocID>                       <Text>Spirit Shamans Den</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACULTY_TECH</LocID>                      <Text>Technomancer's Nook </Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_1</LocID>                         <Text>Mycelium</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_1_DESCRIPTION</LocID>             <Text>Recruit Fungors.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_1_UPG</LocID>                     <Text>Fruiting Bodies</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_1_UPG_DESCRIPTION</LocID>         <Text>Recruit Ripe Fungors.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_2</LocID>                         <Text>Askon's Cyst</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_2_DESCRIPTION</LocID>             <Text>Recruit Askons.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_2_UPG</LocID>                     <Text>Askon's Wart</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_2_UPG_DESCRIPTION</LocID>         <Text>Recruit Mature Askons.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_3</LocID>                         <Text>Shifting Place </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_3_DESCRIPTION</LocID>             <Text>Recruit Metamorphs.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_3_UPG</LocID>                     <Text>Place of Transmutation</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_3_UPG_DESCRIPTION</LocID>         <Text>Recruit Metamorph Wielders.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_4</LocID>                         <Text>Slugtor's Hole</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_4_DESCRIPTION</LocID>             <Text>Recruit Slugtors.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_4_UPG</LocID>                     <Text>Slugtor's Cave</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_4_UPG_DESCRIPTION</LocID>         <Text>Recruit Slugtor Brutes.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_5</LocID>                         <Text>Malarion's Cocoon</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_5_DESCRIPTION</LocID>             <Text>Recruit Malarion Nymphs.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_5_UPG</LocID>                     <Text>Malarion's Womb</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_5_UPG_DESCRIPTION</LocID>         <Text>Recruit Malarion Imagos.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_6</LocID>                         <Text>Hunter Spire</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_6_DESCRIPTION</LocID>             <Text>Recruit Skull Collectors.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_6_UPG</LocID>                     <Text>Hunter Hall</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_6_UPG_DESCRIPTION</LocID>         <Text>Recruit Skull Hunters.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_7</LocID>                         <Text>Raughir's Lair</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_7_DESCRIPTION</LocID>             <Text>Recruit Raughirs.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_7_UPG</LocID>                     <Text>Raughir's Dungeons</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_7_UPG_DESCRIPTION</LocID>         <Text>Recruit Ancient Raughirs.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_CREATURE_PRODUCTION_UPGRADE_1</LocID>     <Text>Growing Crystal</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_CREATURE_PRODUCTION_UPGRADE_1_DESCRIPTION</LocID>  <Text>Generates 8 additional Askons.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>HIVEMIND_BASE_NAME_01</LocID>                               <Text>Pestila</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIVEMIND_BASE_NAME_02</LocID>                               <Text>Muddmusc</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIVEMIND_BASE_NAME_03</LocID>                               <Text>Mirkgrove</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIVEMIND_BASE_NAME_04</LocID>                               <Text>Rotmor</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIVEMIND_BASE_NAME_05</LocID>                               <Text>Oozemir</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIVEMIND_BASE_NAME_06</LocID>                               <Text>Slimeran</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIVEMIND_BASE_NAME_07</LocID>                               <Text>Humurn</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIVEMIND_BASE_NAME_08</LocID>                               <Text>Mildewin</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIVEMIND_BASE_NAME_09</LocID>                               <Text>Blightir</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIVEMIND_BASE_NAME_10</LocID>                               <Text>Moldar</Text></GameDBLocalizedString>
-
-            <!--LORE -->
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_BASE_CORE_LORE</LocID>                    <Text>Ancient Primals left behind all sorts of ruins. Some damaged monuments are beyond repair, but in some places, there is still a spark of life waiting to be awakened and provide the power to the base.     </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE1_LORE</LocID>             <Text>Growing crystals, the supreme technology of the Primals was based on, are difficult to repair. But some damage can be mended. Or rather, jerry-rigged by the biomass of the base. The stronger the base, the better it can compensate for the damage. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE2_LORE</LocID>             <Text>What was once broken never recovers to its former self. There will always be a scar. Although corrupted and deformed, it is running. And Primal's reactor, running without doomsday consequences, is a small miracle, unachievable by the technology of any other faction. </Text>  </GameDBLocalizedString>
-           
-            <!--KONEC KONTROLY-->
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE_MAX_LORE</LocID>          <Text>Once the Holy War tore down the flesh from Primal's cities, only the crystal skeletons remained. Except these bones were not dead. The crystal technology of Primals was designed to last, and without self-repair, the term "last" is but an empty word.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_REPLICATOR_LORE</LocID>                   <Text>A space within another space. Sort of a utopic fridge to through which you can reach your beers from anywhere ... I wonder why this wonderful technology did not change the world or break the story like "eagles bearing the ring to Mordor"? Please don't ask me any more. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_RECYCLER_LORE</LocID>                     <Text>More than anything, it resembles digestion, but when it comes to extracting the precious compounds from ... literally anything. And they say you're good for nothing. Jump in and prove them wrong. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_GATEWAY_LORE</LocID>                      <Text>Once, the distance was not a problem, but today, traveling through the Primals' teleports is a rather risky business. A hundred years from now, a successful transport will be a rarity, and after three hundred, a legend. Therefore, all factions must come with their own designs or prepare for worn-out soles.     </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPACE_BAR_LORE</LocID>                    <Text>The Outworlders are strong and resilient, but they lack the basic skills for survival in the harsh conditions of the Siren System. They are making mistake after mistake, and Tumori chieftains are always there to get an advantage.   </Text>  </GameDBLocalizedString>
-
-            <!-- JB: meaning of the very last bit? -->
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_MUSIC_HALL_LORE</LocID>                   <Text>Since the last crusade get lost in the swamps of planet Chimera, the tribes thrived. Then, the Outworlders came, and the hunt started again. Hard time breeds strong chieftains. Those who have taken the war names and reside in the host breed for combat.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_VISIBILITY_UPGRADE_LORE</LocID>           <Text>What happens to the swarm if its size shrinks to the point where it can barely control the host or even hold a consciousness? Not everyone is honored by the opportunity to merge with the Ancestorial Swarm. Only those renowned for their sharp skills and deep knowledge. For the rest, there are "simpler" tasks.  </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACTORY_LORE</LocID>                      <Text>Assemblers were true marvels of Primal technology, sort of giant 3D printers. It is no wonder Tumori put tremendous effort into putting them in working state. Even if it's only working at 0.5% of its former capacity, it's still one of the greatest assets of each Tumori base. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_TRADING_POST_LORE</LocID>                 <Text>Not all Outworlders are hostile. For example, the Rogue Traffickers were the first who stretched their hand towards ... ok, towards Tumori "pokets" but, to their own amazement, discovered that if you watch your manners, the friendship with tribesmen could be quite beneficial.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_CREATURE_PRODUCTION_UPGRADE_1_LORE</LocID><Text>Baloos can multiply like rabbits on an Aussie farm, but Ascon's crystal growth process takes time ... until its size crosses a certain point, and the growth will dramatically accelerate. So, EAT AND BREED, you damn teddy bears! The tribe needs new hosts! We are at war, goddamit! </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_ACADEMY_LORE</LocID>                      <Text>When death knocks at the gate and the consciousness starts to slip from the swarm's grasp, there is time to move on and join one of the Ancestral Swarms. All the knowledge of the tribe's previous generations is preserved and ready to be passed to those who seek it.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_REMOTE_LEARNING_LORE</LocID>              <Text>Tumori can instantly learn complex skills and knowledge coded in the memory tissue, delivered by individuals between swarms. Yeah, baby, like in the Matrix! Though directed by David Cronenberg. But you can still say "I know kung fu" in the end, so does it really matter?</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACULTY_SPECIALIZATION_LORE</LocID>       <Text>Each swarm consists of many kinds of specialised individuals. The percentage is dependent on its current needs. The Ancestral Swarm stores knowledge; therefore, there is barely any space for anything else than memory-bearing individuals. In short: big brain, no sense of humor. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACULTY_EXPLORE_LORE</LocID>              <Text>It is a burden to inherit the world from a civilization so advanced that your most high-tech stuff looks like a baking soda volcano standing next to a nuclear submarine. Yet, Tumori are no quitters. They are always searching for another lost digsite to deepen their understanding of the technology of Primals. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACULTY_TECH_LORE</LocID>                 <Text>Almost all Outworlders are aggressive aliens and do not wish for peaceful coexistence. BUT! They have technology. Although it lacks the grace natural to biological structures, it is pretty useful, therefore worth stealing. </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACULTY_BIO_LORE</LocID>                  <Text>Biotechnology, the pride and joy of all Tumori. In their hands, it can actually jerry-rig some of the ancient Primal machines. All other factions must be green with envy over this! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_FACULTY_PSY_LORE</LocID>                  <Text>Tumori tribesmen have always been hungry for the mind-influencing "magic" manifested by Primal artifacts. Eventually, the Shamans studying their strange effects were able to decipher and simplify some of the principles enough to be mimicked.    </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_CORE_LORE</LocID>               <Text>Tumori have inherited some of the mighty weaponry of the old world - technology so advanced it gets mistaken for magic. Only thanks to these "magic weapons", they were able to survive the genocidal crusades launched by the Children of the Source. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_TOWER_LORE</LocID>              <Text>Some of the "magic weapons" inherited from Primals were lost in wars, and some lost their abilities due to aging without proper maintenance. Approaching modern times, Tumori have to rely more and more on their own technology.     </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_MINES_LORE</LocID>              <Text>You don't need to understand the technology to use it, and that's doubly true when it comes to weapons. At first, the Rogue Traffickers were reluctant to deal with arms, but when they learned the Tumori pay in Primal artifacts, they overcame their moral dilemma with surprising ease.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_IRON_GATE_LORE</LocID>          <Text> </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_TRENCH_LORE</LocID>             <Text> </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_TURRET_LORE</LocID>             <Text>There is no way to reprogram these cheap UNSS turrets to recognize a wide variety of hosts used by the Tumori. Instead, turrets are operated by swarms so old that they can barely hold consciousness. There are incidents, yes, but it's way better than all other options. </Text>  </GameDBLocalizedString>
-
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DISASSEMBLER_LORE</LocID>                 <Text>The carnivorous Fugor mycelium is not "picky"; any living tissue will suffice. At first, it's not pretty nor silent, but as the digestion progresses, the movement becomes scarce and the noises get suppressed.   </Text>  </GameDBLocalizedString>
-
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_1_LORE</LocID>                    <Text>Young swarms compulsively seek their first host even before they form a consciousness. The Fungor mycelium produces atractants to help them find their first home. Still less moldy than the first place I could rent. Nah, I am joking, I am ... please, give me a moment. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_1_UPG_LORE</LocID>                <Text>As the swarm grows, it develops its consciousness, but without knowledge, it is still "hollow". Then, an older swarm sends its individuals packed with memory tissue ... and that's it. Congratulations, you have reached maturity!      </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_2_LORE</LocID>                    <Text>They cannot simply say, "Just catch a little Baloo and inoculate it with the crystal necessary for shooting beams of energy." No! There is the Ceremony of Conjunction, the Ritual of a Thousand Eyes, etc, till everyone is in the state of absolute higgledy-piggledy.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_2_UPG_LORE</LocID>                <Text>The bigger the head, the bigger the crystal. The bigger the crystal, the stronger the beam ... till the moment the crystal overgrows the head and kills the host. Fortunately for the swarm, it means just a change of host. Being a parasite has its advantages.  </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_3_LORE</LocID>                    <Text>The UNSS Research Division figured out how to copy the metamorphosis mechanism. The only thing holding them back is the exponential growth of energy consumption whenever they want to prolong their Mimicking Tactics beyond a certain point. Surprise surprise, nature vs lab, 1:0.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_3_UPG_LORE</LocID>                <Text>A living tissue can't mimic every single property of a reinforced steel plate. No matter what molecular-bullshit, sci-fi somersault you make, you will always land on your head. So, choose wisely what you turn into next, my mighty morphing friend!  </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_4_LORE</LocID>                    <Text>If you're struggling to put down a tough enemy, aim for the head! But even a headshot will not save you against this creature with a dispersed nervous system and several independent ganglia centers ready to take over the "wheel". The Slugtor is the perfect bullet sponge. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_4_UPG_LORE</LocID>                <Text>Slimy and squishy. It's quite a precise description with one exception. Under the Slugtor's soft skin, there is a layer of interlinked zirconium dioxide scales, giving the beast the toughness of a Special Forces guy from 80's action flicks.       </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_5_LORE</LocID>                    <Text>Yeah, teleportation is a great idea until you take a trip with, I don't know, for example, a fly in your pocket! "Something Went Wrong, Seth! When You Went Through, Something Went Wrong!"   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_5_UPG_LORE</LocID>                <Text>During the first days of exploration, Michael Moore 3C and his troops encountered a Malarion. "Pardon my language," said the Hesperidian, "the incidence of such a huge fly gives us all the information about the depth of sh*t we are currently stepping in. Gents, on count of three, we run to the landing module. THREE!".  </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_6_LORE</LocID>                    <Text>People speculated that Skull Collectors were just horribly mutated humans. Then the UNSS released a dismissive disclaimer by a man in a white cloak, which calmed the crowds. I was calm too until I noticed the "hand-wash-only" icon on one of their loincloths. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_6_UPG_LORE</LocID>                <Text>Long-distance teleportation is a pain in the ... is a problem. You could think that only making short jumps would be much safer. Until I crossed a dead Skull Hunters whose lower half ended in a tree. It all stands and falls with good distance estimation.  </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_7_LORE</LocID>                    <Text>The oldest genetic matrices that enabled revival of this beast are dated back to the Primals times. But how exactly the Primals' society benefited from the presence of these carnivorous monsters is quite hard to imagine.    </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_SPAWNER_7_UPG_LORE</LocID>                <Text>Every tribe accumulated a different collection of knowledge in its memory heritage, but there are names known to each Tumori, regardless of their tribe: Swift Argionar, mighty Ren-Tear, unbeaten Devour, dreadful Undying, ... names of the great Raughirs of old. </Text>  </GameDBLocalizedString>
-
-            <!-- EA updates -->
-<!--
+<Database>
+  <GameDBStringTable ID="LOC_RU_HIVEMIND_BASES">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <LanguageNameLocalized>English</LanguageNameLocalized>
+    <Contributors>
+      <Name>AlexSnowLeo</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!--Buildings -->
+      <GameDBLocalizedString>
+        <LocID>BASE_HIVEMIND</LocID>
+        <Text>База Тумори</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_BASE_CORE</LocID>
+        <Text>Павшая Башня</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_BASE_CORE_DESCRIPTION</LocID>
+        <Text><![CDATA[Производит <color=SOTS_COLOR_GOLD>1000 аура-монет</color> за ход.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE1</LocID>
+        <Text>Клеточная пролиферация</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE1_DESCRIPTION</LocID>
+        <Text><![CDATA[Производит <color=SOTS_COLOR_GOLD>500</color> дополнительных <color=SOTS_COLOR_GOLD>аура-монет</color> за ход.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE2</LocID>
+        <Text>Дифференциация ткани</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE2_DESCRIPTION</LocID>
+        <Text><![CDATA[Производит <color=SOTS_COLOR_GOLD>1000</color> дополнительных <color=SOTS_COLOR_GOLD>аура-монет</color> за ход.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE_MAX</LocID>
+        <Text>Кристальное Сердце</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE_MAX_DESCRIPTION</LocID>
+        <Text><![CDATA[Производит <color=SOTS_COLOR_GOLD>1000</color> дополнительных <color=SOTS_COLOR_GOLD>аура-монет</color> за ход и дополнительно увеличивает производство отрядов.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_REPLICATOR</LocID>
+        <Text>Субпространственный Накопитель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_REPLICATOR_DESCRIPTION</LocID>
+        <Text><![CDATA[Общее защищённое хранилище, доступное с любой базы, где построено это здание.]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_GATEWAY</LocID>
+        <Text>Врата Древних</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPACE_BAR</LocID>
+        <Text>Собрание Вождей</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPACE_BAR_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать командиров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_MUSIC_HALL</LocID>
+        <Text>Совет Старейшин</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_MUSIC_HALL_DESCRIPTION</LocID>
+        <Text>Добавляет одного дополнительного командира для найма. Ваш последний отступивший командир будет доступен для повторного найма без ограничения по времени.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_VISIBILITY_UPGRADE</LocID>
+        <Text>Наблюдатель</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_RECYCLER</LocID>
+        <Text>Переработчик</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACTORY</LocID>
+        <Text>Ассемблер</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACTORY_DESCRIPTION</LocID>
+        <Text>Позволяет строить Слизнемёты для ваших армий.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_TRADING_POST</LocID>
+        <Text>Вольный Торговец</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_CORE</LocID>
+        <Text>Святилище Воинов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_TOWER</LocID>
+        <Text>Защитный Нарост</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_MINES</LocID>
+        <Text>Минное поле</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_TURRET</LocID>
+        <Text>Турели</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_TRENCH</LocID>
+        <Text>Траншея слизи</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_MOSSY_WALLS</LocID>
+        <Text>Энерго-стены</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DISASSEMBLER</LocID>
+        <Text>Дворец Возрождения</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DISASSEMBLER_DESCRIPTION</LocID>
+        <Text>Здесь вы можете захоронить БИО-отряды. После этого они перерождаются в Фунгоров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ACADEMY</LocID>
+        <Text>Рой Предков</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_REMOTE_LEARNING</LocID>
+        <Text>Связанные опухоли</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACULTY_SPECIALIZATION</LocID>
+        <Text>Ткань Памяти</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACULTY_BIO</LocID>
+        <Text>Логово Биоманта</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACULTY_EXPLORE</LocID>
+        <Text>Гнездо Следопыта</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACULTY_PSY</LocID>
+        <Text>Логово Шаманов Духа</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACULTY_TECH</LocID>
+        <Text>Уголок Техноманта</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_1</LocID>
+        <Text>Мицелий</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_1_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Фунгоров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_1_UPG</LocID>
+        <Text>Плодоносные Тела</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_1_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Зрелых Фунгоров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_2</LocID>
+        <Text>Киста Аскона</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_2_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Асконов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_2_UPG</LocID>
+        <Text>Нарост Аскона</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_2_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Взрослых Асконов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_3</LocID>
+        <Text>Изменчивое Место</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_3_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Метаморфов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_3_UPG</LocID>
+        <Text>Место Трансмутации</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_3_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Метаморфов Владык.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_4</LocID>
+        <Text>Дыра Слизерапторов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_4_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Слизерапторов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_4_UPG</LocID>
+        <Text>Пещера Слизерапторов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_4_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Слизерапторов Громил.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_5</LocID>
+        <Text>Кокон Маларионов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_5_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Маларионов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_5_UPG</LocID>
+        <Text>Утроба Маларионов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_5_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Маларионов Имаго.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_6</LocID>
+        <Text>Шпиль Охотника</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_6_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Собирателей Черепов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_6_UPG</LocID>
+        <Text>Зал Охотника</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_6_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Охотников за Черепами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_7</LocID>
+        <Text>Логово Раухиров</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_7_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Раухиров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_7_UPG</LocID>
+        <Text>Подземелья Раухиров</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_7_UPG_DESCRIPTION</LocID>
+        <Text>Позволяет нанимать Древних Раухиров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_CREATURE_PRODUCTION_UPGRADE_1</LocID>
+        <Text>Растущий Кристалл</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_CREATURE_PRODUCTION_UPGRADE_1_DESCRIPTION</LocID>
+        <Text>Производит 8 дополнительных Асконов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIVEMIND_BASE_NAME_01</LocID>
+        <Text>Поветрь</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIVEMIND_BASE_NAME_02</LocID>
+        <Text>Грязесмрад</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIVEMIND_BASE_NAME_03</LocID>
+        <Text>Мрачнороща</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIVEMIND_BASE_NAME_04</LocID>
+        <Text>Гниломор</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIVEMIND_BASE_NAME_05</LocID>
+        <Text>Измир</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIVEMIND_BASE_NAME_06</LocID>
+        <Text>Слизеград</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIVEMIND_BASE_NAME_07</LocID>
+        <Text>Прахбург</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIVEMIND_BASE_NAME_08</LocID>
+        <Text>Грибень</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIVEMIND_BASE_NAME_09</LocID>
+        <Text>Пагуборск</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIVEMIND_BASE_NAME_10</LocID>
+        <Text>Плеснедар</Text>
+      </GameDBLocalizedString>
+      <!--LORE -->
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_BASE_CORE_LORE</LocID>
+        <Text>Древние Предтечи оставили после себя всевозможные руины. Некоторые повреждённые монументы не подлежат восстановлению, но в иных местах всё ещё тлеет искра жизни, что ждёт пробуждения, чтобы наполнить энергией базу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE1_LORE</LocID>
+        <Text>Растущие кристаллы, на которых была основана верховная технология Предтеч, сложно поддаются починке. Но некоторые повреждения можно устранить. Вернее, наживую залатать биомассой базы. Чем сильнее база, тем лучше она компенсирует ущерб.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE2_LORE</LocID>
+        <Text>То, что было сломано, никогда не станет прежним. Шрам останется навсегда. Искажённый и деформированный, он всё же работает. А реактор Предтеч, работающий без апокалиптических последствий, - это маленькое чудо, недостижимое для технологий любой другой фракции.</Text>
+      </GameDBLocalizedString>
+      <!--KONEC KONTROLY-->
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ECONOMY_UPGRADE_MAX_LORE</LocID>
+        <Text>Когда-то Священная война сорвала плоть с городов Предтеч, и остались лишь кристальные скелеты. Но эти кости не были мёртвыми. Кристаллические технологии Предтеч были созданы, чтобы длиться вечно, а без самовосстановления слово "длиться" - всего лишь пустой звук.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_REPLICATOR_LORE</LocID>
+        <Text>Пространство внутри другого пространства. Нечто вроде утопического холодильника, из которого можно достать пиво откуда угодно... Интересно, почему эта чудесная технология не изменила мир и не сломала сюжет, как "орлы, несущие кольцо в Мордор"? Пожалуйста, не спрашивайте меня больше ни о чём.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_RECYCLER_LORE</LocID>
+        <Text>Больше всего это напоминает пищеварение, но только когда дело доходит до извлечения ценных соединений из... чего угодно. А ещё говорят, что ты ни на что не годен. Прыгай внутрь и докажи обратное.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_GATEWAY_LORE</LocID>
+        <Text>Когда-то расстояние не было проблемой, но сегодня путешествие через телепорты Предтеч - дело рискованное. Лет через сто удачная транспортировка станет редкостью, а через триста - и вовсе легендой. Так что всем фракциям придётся либо разработать собственные решения, либо готовиться к стоптанным подошвам.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPACE_BAR_LORE</LocID>
+        <Text>Чужаки сильны и выносливы, но им не хватает базовых навыков для выживания в суровых условиях системы Сирен. Они совершают ошибку за ошибкой, и вожди Тумори всегда готовы извлечь из этого выгоду.</Text>
+      </GameDBLocalizedString>
+      <!-- JB: meaning of the very last bit? -->
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_MUSIC_HALL_LORE</LocID>
+        <Text>С тех пор, как последний крестовый поход затерялся в болотах планеты Химера, племена расцвели. Затем явились Чужаки, и охота началась вновь. Суровые времена рождают сильных вождей. Носители боевых имён, что срослись со своими носителями, - сама плоть и ярость войны.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_VISIBILITY_UPGRADE_LORE</LocID>
+        <Text>Что происходит с роем, когда его численность сокращается до предела, и он едва может управлять носителем или даже удерживать сознание? Не каждому выпадает честь слиться с Роем Предков. Лишь те, кто прославился острым умом и глубинными познаниями. Для остальных же находятся задания... "попроще".</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACTORY_LORE</LocID>
+        <Text>Ассемблеры были подлинным чудом технологий Предтеч, этакими гигантскими 3D-принтерами. Неудивительно, что Тумори приложили титанические усилия, чтобы вернуть их в рабочее состояние. Даже функционируя на 0,5% от прежней мощности, они остаются ценнейшим активом каждой базы Тумори.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_TRADING_POST_LORE</LocID>
+        <Text>Не все Чужаки враждебны. Например, Вольные Торговцы первыми протянули руку... ладно, к "карманам" Тумори, но, к собственному изумлению, обнаружили: если соблюдать правила приличия, дружба с племенниками может быть весьма выгодной.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_CREATURE_PRODUCTION_UPGRADE_1_LORE</LocID>
+        <Text>Балу могут размножаться как кролики на австралийской ферме, но рост кристаллов Аскона требует времени... до тех пор, пока их размер не перейдёт критическую отметку, после чего рост резко ускорится. Так что, ЖРИТЕ И РАЗМНОЖАЙТЕСЬ, чёртовы плюшевые мишки! Племени нужны новые носители! У нас война, чёрт побери!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_ACADEMY_LORE</LocID>
+        <Text>Когда смерть стучится в ворота и сознание начинает выскальзывать из цепких щупалец роя, ещё есть время сделать шаг вперёд и присоединиться к одному из Роёв Предков. В них хранится знание всех предыдущих поколений племени, готовое перейти к тем, кто его ищет.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_REMOTE_LEARNING_LORE</LocID>
+        <Text>Тумори могут мгновенно осваивать сложные навыки и знания, закодированные в ткани памяти, которую передают друг другу носители между роями. Да, детка, прямо как в "Матрице"! Хотя и в постановке Дэвида Кроненберга. Но в итоге ты всё равно можешь сказать: "Я знаю кунг-фу". Разве не это главное?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACULTY_SPECIALIZATION_LORE</LocID>
+        <Text>Каждый рой состоит из множества узкоспециализированных особей. Их процентное соотношение зависит от текущих потребностей. Рой Предок хранит знания, поэтому в нём почти нет места ни для чего, кроме особей-носителей памяти. Короче говоря: большой мозг - ноль чувства юмора.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACULTY_EXPLORE_LORE</LocID>
+        <Text>Наследовать мир от цивилизации, столь продвинутой, что твоя самая высокотехнологичная вещь выглядит как макет вулкана из соды на фоне атомной подлодки - это бремя. Но Тумори не из тех, кто сдаётся. Они вечно в поиске новых забытых раскопок, чтобы глубже постичь технологии Предтеч.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACULTY_TECH_LORE</LocID>
+        <Text>Почти все Чужаки это враждебные пришельцы, не желающие мирного сосуществования. НО! У них есть технологии. Пусть в них и нет изящества, присущего биологическим структурам, они довольно полезны, а значит, их стоит украсть.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACULTY_BIO_LORE</LocID>
+        <Text>Биотехнология - гордость и отрада всех Тумори. Только они способны на коленке залатать некоторые древние машины Предтеч. Все остальные фракции, должно быть, зеленеют от зависти!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_FACULTY_PSY_LORE</LocID>
+        <Text>Соплеменники Тумори всегда жаждали овладеть "магией" влияния на разум, что проявляли артефакты Предтеч. В конце концов, шаманы, изучавшие их странные эффекты, сумели расшифровать и упростить некоторые принципы до уровня, доступного для подражания.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_CORE_LORE</LocID>
+        <Text>Тумори унаследовали часть могучего оружия старого мира - технологией, настолько продвинутой, что её принимают за магию. Лишь благодаря этому "магическому оружию" им удалось пережить геноцидные крестовые походы, развязанные Детьми Источника.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_TOWER_LORE</LocID>
+        <Text>Часть "магического оружия", унаследованного от Предтеч, была утрачена в войнах, а часть утратила свою силу из-за старения без должного обслуживания. По мере приближения к современности, Тумори приходится полагаться всё больше на собственные технологии.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_MINES_LORE</LocID>
+        <Text>Не обязательно понимать технологию, чтобы использовать её, и это вдвойне верно, когда речь идёт об оружии. Поначалу Вольные Торговцы не горели желанием иметь дело с оружием, но, узнав, что Тумори платят артефактами Предтеч, они с удивительной лёгкостью преодолели свои моральные терзания.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_IRON_GATE_LORE</LocID>
+        <Text>
+        </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_TRENCH_LORE</LocID>
+        <Text>
+        </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DEFENSIVE_TURRET_LORE</LocID>
+        <Text>Невозможно перепрограммировать эти дешёвые турели UNSS для распознавания множества носителей, используемых Тумори. Вместо этого турелями управляют столь древние рои, что они едва способны удерживать сознание. Да, инциденты случаются, но это всё равно лучше, чем все остальные варианты.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_DISASSEMBLER_LORE</LocID>
+        <Text>Плотоядная грибница Фугора не "разборчива" и ей сгодится любая живая ткань. Сначала это выглядит неприглядно и не обходится без шума, но по мере переваривания движения становятся всё реже, а звуки затихают.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_1_LORE</LocID>
+        <Text>Молодые рои неутолимо ищут своего первого носителя ещё до формирования сознания. Грибница Фунгора вырабатывает аттрактанты, чтобы помочь им найти первый дом. Всё равно менее заплесневелый, чем моя первая съёмная квартира. Хотя, шучу, я... пожалуйста, дайте мне минутку.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_1_UPG_LORE</LocID>
+        <Text>По мере роста рой развивает сознание, но без знаний он всё ещё "пуст". Затем более старый рой отправляет своих особей, наполненных тканью памяти... и всё. Поздравляю, вы достигли зрелости!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_2_LORE</LocID>
+        <Text>Они не могут просто сказать: "Поймай маленького Балу и внедри ему кристалл, чтобы стрелял лучами энергии". Нет же! Существует Церемония Слияния, Ритуал Тысячи Глаз и так далее, пока все не достигнут состояния полнейшей неразберихи.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_2_UPG_LORE</LocID>
+        <Text>Чем больше голова, тем больше кристалл. Чем больше кристалл, тем мощнее луч... до тех пор, пока кристалл не перерастёт голову и не убьёт носителя. К счастью для роя, это означает лишь смену хозяина. Быть паразитом - сплошные преимущества.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_3_LORE</LocID>
+        <Text>Исследовательский отдел UNSS разгадал, как скопировать механизм метаморфоза. Единственное, что их сдерживает, это экспоненциальный рост энергопотребления при попытке продлить действие Тактики Мимикрии за определённый предел. Сюрприз-сюрприз: природа против лаборатории, 1:0.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_3_UPG_LORE</LocID>
+        <Text>Живая ткань не может воспроизвести все свойства стальной бронеплиты. Какой бы молекулярной хренью и научно-фантастическими сальто ты ни выкручивался, всё равно приземлишься на голову. Так что выбирай с умом, во что превращаться в следующий раз, мой могучий морфующий друг!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_4_LORE</LocID>
+        <Text>Если не можешь одолеть крепкого противника - целься в голову! Но даже хедшот не спасёт от существа с распределённой нервной системой и несколькими независимыми ганглиями, готовыми принять на себя управление. Слизераптор - идеальная губка для пуль.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_4_UPG_LORE</LocID>
+        <Text>Слизистый и мягкий. Вполне точное описание, за одним исключением. Под мягкой кожей Слизераптора скрывается слой сцепленных циркониевых чешуй, придающих зверю крутость бойца спецназа из боевиков 80-х.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_5_LORE</LocID>
+        <Text>Ага, телепортация - отличная идея, пока ты не путешествуешь с... , ну не знаю, например, мухой в кармане! "Что-то пошло не так, Сет! Когда ты проходил, что-то пошло не так!"</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_5_UPG_LORE</LocID>
+        <Text>В первые дни исследования Майкл Мур 3C и его отряд столкнулись с Маларионом. "Прошу прощения за выражение, - сказал гесперид, - но появление такой здоровенной мухи говорит нам всё о глубине г*вна, в которое мы только что вляпались. Джентельмены, на счёт три - бежим к посадочному модулю. ТРИ!"</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_6_LORE</LocID>
+        <Text>Ходили слухи, что Собиратели Черепов - всего лишь ужасно мутировавшие люди. Затем UNSS выпустило успокаивающее опровержение за подписью человека в белом плаще, и народ утихомирился. Я тоже был спокоен, пока не заметил значок "ручная стирка" на одной из их набедренных повязок.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_6_UPG_LORE</LocID>
+        <Text>Дальняя телепортация - это боль в ... это проблема. Можно подумать, что только короткие прыжки гораздо безопаснее. Пока я не наткнулся на мёртвого Охотника за Черепами, чья нижняя половина застряла в дереве. Вся фишка в точной оценке дистанции.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_7_LORE</LocID>
+        <Text>Древнейшие генетические матрицы, позволившие возродить этого зверя, восходят к эпохе Предтеч. Но довольно сложно представить, как именно общество Предтеч извлекало пользу от присутствия этих плотоядных монстров.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>BUILDING_HIVEMIND_SPAWNER_7_UPG_LORE</LocID>
+        <Text>Каждое племя накопило свою собственную коллекцию знаний в памяти поколений, но есть имена, известные любому Тумори, независимо от племени: Быстрый Аргионар, могучий Рен-Теар, непобедимый Пожиратель, ужасный Бессмертный... имена великих Раухиров древности.</Text>
+      </GameDBLocalizedString>
+      <!-- EA updates -->
+      <!--
             <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_CONSUMABLE_MARKET</LocID>                 <Text>Consumable Market</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_CONSUMABLE_MARKET_DESCRIPTION</LocID>     <Text>Buy or sell consumables! Replenished at the beginning of each cycle.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_CONSUMABLE_MARKET_LORE</LocID>            <Text>The tradition of the clergy providing goods for the wider population has stood the test of time, even though the physical needs of artificial beings are somewhat limited.</Text></GameDBLocalizedString>
 -->
-<!--            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_REPLICATOR_LORE</LocID>                   <Text>Rearanging a matter on a molecular level. A feasible task for the Primals, but not with today's potato tech. The energy cost would render all efforts useless. But there is always a road in the middle. Perhaps you can call it material enrichment. </Text>  </GameDBLocalizedString>-->
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+      <!--            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_REPLICATOR_LORE</LocID>                   <Text>Rearanging a matter on a molecular level. A feasible task for the Primals, but not with today's potato tech. The energy cost would render all efforts useless. But there is always a road in the middle. Perhaps you can call it material enrichment. </Text>  </GameDBLocalizedString>-->
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
-
-
-
