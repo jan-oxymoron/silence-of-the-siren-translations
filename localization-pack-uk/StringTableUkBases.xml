@@ -1,43 +1,43 @@
-<Database>
+﻿<Database>
     <GameDBStringTable ID="LOC_UK_BASES">
 
         <LanguageRef>LANG_UK</LanguageRef>
 
         <Contributors>
-            <Name>royalmanticore</Name>
+            <Name>Liodian</Name>  <Name>royalmanticore</Name>
         </Contributors>
 
         <LocalizedStrings>
-            <GameDBLocalizedString>         <LocID>UNITS_AVAILABLE</LocID>                                  <Text>Доступні підрозділи: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_AVAILABLE</LocID>                                  <Text>Доступні загони: </Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>         <LocID>BASE_STRUCTURES</LocID>                                  <Text>Будівлі</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUILD_FOR</LocID>                                        <Text>Збудувати за </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIRE</LocID>                                             <Text>Наяняти {1} за </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIRE</LocID>                                             <Text>Найнати {1} за </Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HIRE_BUTTON</LocID>                                      <Text>Найняти</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TAKE_BUTTON</LocID>                                      <Text>Взяти</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>NO_SPACE_IN_YOUR_ARMY</LocID>                            <Text>Немає місця у твоєму війську!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TAKE_BUTTON</LocID>                                      <Text>Прийняти</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NO_SPACE_IN_YOUR_ARMY</LocID>                            <Text>У вашій армії немає місця!</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>RECRUITMENT_CENTER</LocID>                               <Text>Центр рекрутингу</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HIRE_MAX</LocID>                                         <Text>Найняти макс.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HIRE_ALL</LocID>                                         <Text>Найняти всіх</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TAKE_ALL</LocID>                                         <Text>Взяти всіх</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TAKE_ALL</LocID>                                         <Text>Прийняти всіх</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>HIRE_UNIT_PANEL</LocID>                                  <Text>Найняти</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIRE_UNIT_PANEL_CUSTOM</LocID>                           <Text>Власний</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HIRE_UNIT_PANEL_ALL</LocID>                              <Text>Всіх</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIRE_UNIT_PANEL_CUSTOM</LocID>                           <Text>Вибрати</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIRE_UNIT_PANEL_ALL</LocID>                              <Text>Усі</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>ARMY_WONT_FIT</LocID>                                    <Text>Військо не підходить</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARMY_WONT_FIT</LocID>                                    <Text>Немає місця для війська</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>UNITS_GROW</LocID>                                       <Text>Підрозділи (+Приріст):</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_GROW</LocID>                                       <Text>ЗАГОНИ (+ПРИРІСТ):</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>EXIT_BASE</LocID>                                        <Text>Повернутись до мапи</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SHOW_HIDE_UI</LocID>                                     <Text>Показати/Сховати інтерфейс власника бази</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXIT_BASE</LocID>                                        <Text>Повернутися на мапу</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SHOW_HIDE_UI</LocID>                                     <Text>Показати/сховати інтерфейс бази</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>RESOURCE_CASH_GENERATION</LocID>                         <Text><![CDATA[<color=SOTS_COLOR_GOLD>Аура-монети</color> генеруються за фазу на цій базі.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_A_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Лімеріт</color> генерується за фазу на цій базі.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_B_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_ALLOYS>Сплав</color> генерується за фазу на цій базі.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_C_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_BIOMASS>Біомаса</color> генерується за фазу на цій базі.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>RESOURCE_D_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Радіант</color> генерується за фазу на цій базі.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_CASH_GENERATION</LocID>                         <Text><![CDATA[<color=SOTS_COLOR_GOLD>Аура монети</color>, що генеруються за фазу на цій базі.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_A_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Лімерит</color>, що генерується за фазу на цій базі.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_B_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_ALLOYS>Сплав</color>, що генерується за фазу на цій базі.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_C_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_BIOMASS>Біомаса</color>, що генерується за фазу на цій базі.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RESOURCE_D_GENERATION</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_RADIANT>Радіант</color>, що генеруються за фазу на цій базі.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>STATISTICS_HEADING</LocID>                               <Text>Статистика гравця</Text></GameDBLocalizedString>
 
@@ -45,93 +45,93 @@
             <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_NUMBER_OF_BASES</LocID>                 <Text>Кількість баз</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_NUMBER_OF_HEROES</LocID>                <Text>Кількість командирів</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_NUMBER_OF_MINES</LocID>                 <Text>Кількість копалень</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_CASH</LocID>                            <Text>Кількість Аура-монет</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_CASH_INCOME</LocID>                     <Text>Надходження Аура-монет</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_CASH</LocID>                            <Text>Кількість Аура монет</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_CASH_INCOME</LocID>                     <Text>Надходження Аура монет</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_RESOURCES</LocID>                       <Text>Кількість ресурсів</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_RESOURCE_INCOME</LocID>                 <Text>Надходження ресурсів</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>GATEWAY_BUTTON</LocID>                                   <Text>Брама</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GATEWAY_TRAVEL_FOR</LocID>                               <Text>Подорож за</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GATEWAY_ARMY_WONT_FIT</LocID>                            <Text>Військо не підходить</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_TRAVEL_FOR</LocID>                               <Text>Подорожувати за</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_ARMY_WONT_FIT</LocID>                            <Text>Немає місця для війська</Text></GameDBLocalizedString>
             <!--GameDBLocalizedString>         <LocID>GATEWAY_NO_GATEWAY</LocID>                               <Text>No Gateway</Text></GameDBLocalizedString-->
-            <GameDBLocalizedString>         <LocID>GATEWAY_NOT_ENOUGH_RESOURCES</LocID>                     <Text>Не достатньо ресурсів</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TRAVEL</LocID>                                           <Text>Подорож</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SEND</LocID>                                             <Text>Надіслати</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_NOT_ENOUGH_RESOURCES</LocID>                     <Text>Недостатньо ресурсів</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TRAVEL</LocID>                                           <Text>Подорожувати</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SEND</LocID>                                             <Text>Відправити</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>HEADING_TRANSMOGRIFIER</LocID>                           <Text>Трансмогріфікатор</Text></GameDBLocalizedString> <!-- TODO building name in the panel instead -->
-            <GameDBLocalizedString>         <LocID>TRANSMOGRIFY_BUTTON</LocID>                              <Text>Трансмогріфікувати</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_TRANSMOGRIFIER</LocID>                           <Text>Трансмогрифікатор</Text></GameDBLocalizedString> <!-- TODO building name in the panel instead -->
+            <GameDBLocalizedString>         <LocID>TRANSMOGRIFY_BUTTON</LocID>                              <Text>Трансмогрифікувати</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ACADEMY_HEADING</LocID>                                  <Text>Академія</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ACADEMY_ABILITIES</LocID>                                <Text>Здібності</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ACADEMY_REMOTE_LEARNING</LocID>                          <Text>Віддалене навчання</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_REMOTE_LEARNING</LocID>                          <Text>Дистанційне навчання</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ACADEMY_BUY_ABILITIES</LocID>                            <Text>Купити здібності</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>HEADING_BASES</LocID>                                    <Text>Бази</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HEADING_CONTROLS</LocID>                                 <Text>Управління</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HEADING_MINIMAP</LocID>                                  <Text>Міні мапа</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_BASES</LocID>                                    <Text>БАЗИ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_CONTROLS</LocID>                                 <Text>КЕРУВАННЯ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_MINIMAP</LocID>                                  <Text>МІНІ-КАРТА</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HEADING_AI_TURN</LocID>                                  <Text><![CDATA[Хід <b>ворога</b>]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>BUILD_UPGRADE_TO_HAVE_THREE_HEROES</LocID>               <Text>Збудуйте {1} , щоб додати третьго командира до вибору.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILD_UPGRADE_TO_HAVE_THREE_HEROES</LocID>               <Text>Збудуйте {1}, щоб додати третього командира.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>TOOLTIP_HEADING_UPGRADE</LocID>                          <Text>Покращити підрозділи</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_CAN_UPGRADE</LocID>                              <Text>Покращити до {1}</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_UPGRADE_ONLY_RESOURCES_FOR</LocID>          <Text>У вас достатньо ресурсів лише для оновлення</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_UPGRADE_NO_BUILDING</LocID>                 <Text>Спочатку Ви маєте покращити Інкубатор.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_INFO_SPLIT</LocID>                          <Text>Розділіть цей підрозділ і/або перегляньте його детальний опис. Гаряча клавіша: Правий клік миші по слоту підрозділу.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_HEADING_UPGRADE</LocID>                          <Text>ПОКРАЩИТИ ЗАГОНИ</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_CAN_UPGRADE</LocID>                              <Text>Покращити до: {1}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_UPGRADE_ONLY_RESOURCES_FOR</LocID>          <Text>У вас достатньо ресурсів лише для покращення</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_UPGRADE_NO_BUILDING</LocID>                 <Text>Спочатку потрібно покращити Інкубатор.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_INFO_SPLIT</LocID>                          <Text>Розділіть цей загін та/або перегляньте детальний опис. Гаряча клавіша: Правий клік миші по слоту загону.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>HEADING_BASE_HIRE_HEROES</LocID>                         <Text>Найняти командирів</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>BASE_CORE</LocID>                                        <Text>Ядро бази</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_BUILD</LocID>                               <Text>Збудувати і покращити \nГаряча клавіша за замовчуванням: [B]</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_HIRE_UNITS</LocID>                          <Text>Найняти підрозділи \nГаряча клавіша за замовчуванням: [R]</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_HIRE_HEROES</LocID>                         <Text>Найняти командирів \nГаряча клавіша за замовчуванням: [C]</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRADE</LocID>                               <Text>Торгівля ресурсами \nГаряча клавіша за замовчуванням: [T]</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_ACADEMY</LocID>                             <Text>Академія \nГаряча клавіша за замовчуванням: [A]</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_STATISTICS</LocID>                          <Text>Статистика \nГаряча клавіша за замовчуванням: [S]</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_GATEWAY</LocID>                             <Text>Подорож крізь браму. \nГаряча клавіша за замовчуванням: [G]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_BUILD</LocID>                               <Text>Будувати та покращувати\nГаряча клавіша: [B]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_HIRE_UNITS</LocID>                          <Text>Найняти загони\nГаряча клавіша: [R]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_HIRE_HEROES</LocID>                         <Text>Найняти командирів\nГаряча клавіша: [C]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRADE</LocID>                               <Text>Торгувати ресурсами\nГаряча клавіша: [T]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_ACADEMY</LocID>                             <Text>Академія\nГаряча клавіша: [A]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_STATISTICS</LocID>                          <Text>Статистика\nГаряча клавіша: [S]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_GATEWAY</LocID>                             <Text>Подорож крізь браму.\nГаряча клавіша: [G]</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_GATEWAY_NO_HERO</LocID>                     <Text>Немає командира для подорожі крізь браму.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRANSMOGRIFY</LocID>                        <Text>Перетворення підрозділів \nГаряча клавіша за замовчуванням: [X]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRANSMOGRIFY</LocID>                        <Text>Трансформувати загони\nГаряча клавіша: [X]</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>BASE_BUILD</LocID>                                       <Text>Ви можете звести цю будівлю за:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BASE_UPGRADE</LocID>                                     <Text>Ви можете покращи цю будівлю за:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_BUILD</LocID>                                       <Text>Ви можете збудувати цю будівлю за:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_UPGRADE</LocID>                                     <Text>Ви можете покращити цю будівлю за:</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>TOOLTIP_HERO_MEETING</LocID>                             <Text>Відкрийте панель зустрічі командира, щоб обмінятись товарами.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_HERO_CARD</LocID>                                <Text>Відкрийте картку командира з інвентарем та додатковою інформацією.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_SWITCH_ARMIES</LocID>                            <Text>Обмін військами: Гарнізонний/Польовий командир</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_MERGE_UP</LocID>                                 <Text>Об'єднати підрозділи у верхнє військо. (Commanders stay in their slots.)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_MERGE_DOWN</LocID>                               <Text>Об'єднати підрозділи в нижнє військо. (Commanders stay in their slots.)</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_MANIPULATION</LocID>                        <Text>Ліва кн. миші, щоб взяти цей стек. Права кн. миші, щоб розділити його.\nПід час переміщення стеку, права кн. миші, щоб розмістити підрозділи один за одним.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_UNDO_ARMY_CHANGES</LocID>                        <Text>Скасувати зміни у війську. Використовуйте, якщо ви випадково витратили більше очок руху на переміщення підрозділу, ніж планувалося.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_HERO_MEETING</LocID>                             <Text>Відкрийте панель зустрічі командирів, щоб обмінюватися предметами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_HERO_CARD</LocID>                                <Text>Відкрийте картку командира зі спорядженням та додатковою інформацією.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_SWITCH_ARMIES</LocID>                            <Text>Переключення військ: розмістити / вивести з казарми командирів</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_MERGE_UP</LocID>                                 <Text>Об'єднати загони до верхнього війська (командири залишаються у своїх слотах).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_MERGE_DOWN</LocID>                               <Text>Об'єднати загони до нижнього війська (командири залишаються у своїх слотах).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_MANIPULATION</LocID>                        <Text>Клацніть, щоб вибрати цей стос юнітів. Клацніть правою кнопкою миші, щоб розділити його.\nПереміщуючи загін, клацніть правою кнопкою миші на відповідному слоті, щоб розміщувати загони по одному.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UNDO_ARMY_CHANGES</LocID>                        <Text>Скасувати зміни у війську. Використовуйте, якщо випадково витратили більше очок руху на переміщення загонів, ніж планували.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>TOOLTIP_THIS_TURN</LocID>                                <Text>Ви вже будували цього ходу.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_OT_ENOUGH_RESOURCES</LocID>                      <Text>Ви не маєте достатньо ресурсів.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_MISING_DEPENDENCIES</LocID>                      <Text>Відсутні передумови для цієї будівлі.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_MISING</LocID>                                   <Text>Потребує</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_THIS_TURN</LocID>                                <Text>Цього ходу вже збудовано будівлю.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_OT_ENOUGH_RESOURCES</LocID>                      <Text>У вас недостатньо ресурсів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_MISING_DEPENDENCIES</LocID>                      <Text>Не виконано умов для цієї будівлі.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_MISING</LocID>                                   <Text>Вимагає</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>TOOLTIP_NO_FREE_SLOT</LocID>                             <Text>Немає вільного місця.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_FORBIDDEN_BUILDING</LocID>                       <Text>Ця база не може звести цю будівлю.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_FORBIDDEN_BUILDING</LocID>                       <Text>Ця база не може збудувати цю споруду.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>TOOLTIP_GARRISONED_HERO</LocID>                          <Text>Ця база має гарнізонного командира.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_GARRISONED_HERO</LocID>                          <Text>На цій базі розміщено командира.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>TOOLTIP_UPGRADED_UNIT</LocID>                            <Text>Це покращений юніт.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_SWITCH_UPGRADED_UNIT</LocID>                     <Text>Перемкнутися між базовою і покращеною версіями цього юніта.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_UPGRADED_UNIT</LocID>                            <Text>Це покращений загін.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_SWITCH_UPGRADED_UNIT</LocID>                     <Text>Перемикайтеся між базовими та покращеними версіями цього загону.</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_UNIT_INFO</LocID>                           <Text>Натисніть для детального огляду юніта.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_UNIT_INFO</LocID>                           <Text>Клацніть, щоб переглянути деталі загону.</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>BASE_PREREQUISITES</LocID>                               <Text>Передумови</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BASE_PREREQUISITES_COMPLETE</LocID>                      <Text>Все завершено</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_PREREQUISITES</LocID>                               <Text>Умови</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_PREREQUISITES_COMPLETE</LocID>                      <Text>Усі умови виконано</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BASE_REQUIRES_FULL_BASE</LocID>                          <Text>Потребує завершеної бази.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BASE_PREREQUISITES_FORBIDDEN</LocID>                     <Text>Заборонено на цій базі.</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>HEADING_TRADING</LocID>                                  <Text>Торговий пост</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CONVERSION_RATE</LocID>                                  <Text>Коефіцієнт конверсії:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>AMOUNT</LocID>                                           <Text>Кількість</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEADING_TRADING</LocID>                                  <Text>Ринок</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONVERSION_RATE</LocID>                                  <Text>Курс обміну:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AMOUNT</LocID>                                           <Text>Сума</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUY</LocID>                                              <Text>Купити</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>SELL</LocID>                                             <Text>Продати</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>UNAVAILABLE_ABILITIES</LocID>                            <Text>Недоступна</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>REMOTE_LEARNING_INFO</LocID>                             <Text>Виберіть командира та здібність для передачі.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>REMOTE_LEARNING_NO_EFFECT</LocID>                        <Text>Немає командирів, які можуть вивчити бодай щось з цієї академії.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNAVAILABLE_ABILITIES</LocID>                            <Text>Недоступно</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>REMOTE_LEARNING_INFO</LocID>                             <Text>Виберіть командира та здібність, яку хочете передати.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>REMOTE_LEARNING_NO_EFFECT</LocID>                        <Text>Немає командирів, які можуть навчитися чогось у цій Академії.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>NOT_AVAILABLE_RESOURCES</LocID>                          <Text>Відсутні ресурси</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>NOT_AVAILABLE_DEPENDENCIES</LocID>                       <Text>Відсутні залежності</Text>  </GameDBLocalizedString>
@@ -139,53 +139,53 @@
             <GameDBLocalizedString>         <LocID>NOT_AVAILABLE_ALREADY_BUILT</LocID>                      <Text>Вже збудовано.</Text>  </GameDBLocalizedString>
             
             <!-- Tooltips for base list in the right UI panel on the world map -->
-            <GameDBLocalizedString>         <LocID>BASE_CAN_BUILD</LocID>                                   <Text>Доступне оновлення.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BASE_CAN_NOT_BUILD</LocID>                               <Text>Ви немаєте достатньо ресурсів для будівництва будь-чого тут.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BASE_ALREADY_BUILT</LocID>                               <Text>Наразі база не може бути покращена.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_CAN_BUILD</LocID>                                   <Text>Доступні покращення.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_CAN_NOT_BUILD</LocID>                               <Text>У вас недостатньо ресурсів, щоб тут щось збудувати.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_ALREADY_BUILT</LocID>                               <Text>Цю базу зараз неможливо покращити.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BASE_COMPLETE</LocID>                                    <Text>Ця база завершена.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BASE_CAN_RECRUIT</LocID>                                 <Text>Підрозділи тут доступні для найму.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BASE_CAN_NOT_RECRUIT</LocID>                             <Text>Наразі немає можливості найняти жодного юніту.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_CAN_RECRUIT</LocID>                                 <Text>Тут є загони доступні для найму.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BASE_CAN_NOT_RECRUIT</LocID>                             <Text>На даний момент неможливо найняти жодного загону.</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>TOOLTIP_ACADEMY_INFO</LocID>                             <Text>Показати вікно навчання для Академії.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HEADING_ABOUT_THE_ACADEMY</LocID>                        <Text>Про Академію</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_SKILLS</LocID>                              <Text><![CDATA[- Командири мають обрати один з наступних <color=SOTS_COLOR_GOLD>skills</color> при підвищенні рівня, щоб отримати доступ до <color=SOTS_COLOR_GOLD>здібностей</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_SKILL_LEVELS</LocID>                        <Text><![CDATA[- Підвищення рівня цих навичок дає доступ до <color=SOTS_COLOR_GOLD>більш потужних здібностей командира</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_LEARNING</LocID>                            <Text><![CDATA[- Командири автоматично отримують здібності, відвідавши базу з <color=SOTS_COLOR_GOLD>Academy</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_ABILITIES</LocID>                           <Text><![CDATA[- Академія на кожній базі забезпечує <color=SOTS_COLOR_GOLD>довільний набір здібностей</color>.\nЩоб додати більш потужні здібності до кожної навички, Ви можете збудувати кілька спеціалізованих <color=SOTS_COLOR_GOLD>Faculties.</color> Їхня кількість обмежена кількістю <color=SOTS_COLOR_GOLD>slots</color>, особливих для кожної фракції.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_SKILLS</LocID>                              <Text><![CDATA[- При підвищенні рівня командири повинні вибрати одну з наступних <color=SOTS_COLOR_GOLD>навичок</color>, щоб отримати доступ до <color=SOTS_COLOR_GOLD>здібностей командира</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_SKILL_LEVELS</LocID>                        <Text><![CDATA[- Розвиток цих навичок надає доступ до <color=SOTS_COLOR_GOLD>сильніших здібностей командира</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_LEARNING</LocID>                            <Text><![CDATA[- Командири автоматично вивчають здібності, відвідуючи базу з <color=SOTS_COLOR_GOLD>Академією</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ACADEMY_HINT_ABILITIES</LocID>                           <Text><![CDATA[- Академія на кожній базі пропонує <color=SOTS_COLOR_GOLD>випадковий набір здібностей</color>.\nЩоб додати більше потужних здібностей для кожної з навичок, ви можете будувати спеціалізовані <color=SOTS_COLOR_GOLD>Факультети</color>. Їхня кількість обмежена кількістю <color=SOTS_COLOR_GOLD>слотів</color>, особливих для кожної фракції.]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>GATEWAY_HEROES_TO_BASES</LocID>                          <Text>Відправити командирів між базами.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GATEWAY_UNITS_TO_OUTPOSTS</LocID>                        <Text>Відправити підрозділи на форпост.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_HEROES_TO_BASES</LocID>                          <Text>Переміщуйте командирів між базами.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_UNITS_TO_OUTPOSTS</LocID>                        <Text>Відправляйте загони на аванпости.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>GATEWAY_WHO</LocID>                                      <Text>Хто хоче подорожувати?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GATEWAY_WHERE</LocID>                                    <Text>Виберіть базу для подорожі!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_WHERE</LocID>                                    <Text>Виберіть базу, до якої хочете подорожувати!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>GATEWAY_NOBODY</LocID>                                   <Text>Тут немає командирів.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GATEWAY_NOWHERE</LocID>                                  <Text>У Вас немає інших баз.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GATEWAY_PLACE_A_UNIT</LocID>                             <Text>Розмістіть підрозділ!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GATEWAY_OUTPOST</LocID>                                  <Text>Виберіть форпост!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>GATEWAY_ONE_STACK_PER_ROUND</LocID>                      <Text>Можна надсилати тільки один стак підрозділу за хід.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_NOWHERE</LocID>                                  <Text>У вас немає інших баз.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_PLACE_A_UNIT</LocID>                             <Text>Розмістіть загін!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_OUTPOST</LocID>                                  <Text>Виберіть аванпост!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GATEWAY_ONE_STACK_PER_ROUND</LocID>                      <Text>За один хід можна відправити лише один загін.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>NO_BASES</LocID>                                         <Text>Ви не маєте жодної бази.</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>GATEWAY_TRAVEL_COST</LocID>                              <Text>Вартість подорожі</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>BUILT</LocID>                                            <Text>Збудувати</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILD_FOR_ONE_FUSION_CORE</LocID>                        <Text><![CDATA[Будь-яку будівлю можна звести витративши один <color=SOTS_COLOR_FUSION_CORE>fusion core</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUILD_FOR_ONE_FUSION_CORE_CONFIRMATION</LocID>           <Text><![CDATA[Ви хочете витратити один <color=SOTS_COLOR_FUSION_CORE>fusion core</color> щоб збудувати це?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILT</LocID>                                            <Text>Збудовано</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILD_FOR_ONE_FUSION_CORE</LocID>                        <Text><![CDATA[Можна збудувати будь-яку будівлю, витративши одне <color=SOTS_COLOR_FUSION_CORE>ядро синтезу</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILD_FOR_ONE_FUSION_CORE_CONFIRMATION</LocID>           <Text><![CDATA[Ви хочете витратити одне <color=SOTS_COLOR_FUSION_CORE>ядро синтезу</color>, щоб збудувати це?]]></Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>UNITS_HIRE_ALL_HEADING</LocID>                           <Text>Найняти всі доступні підрозділи</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNITS_HIRE_ALL</LocID>                                   <Text>Ви можете купити всі підрозділи за:</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNITS_NOTHING_TO_HIRE</LocID>                            <Text>Зараз немає доступних підрозділів.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNITS_CAN_NOT_HIRE_ALL</LocID>                           <Text>У Вас не вистачає ресурсів або вільних слотів у базі, щоб купити всі підрозділи:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_HIRE_ALL_HEADING</LocID>                           <Text>Найняти всі доступні загони</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_HIRE_ALL</LocID>                                   <Text>Ви можете купити всі загони за:</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_NOTHING_TO_HIRE</LocID>                            <Text>Наразі немає доступних загонів.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_CAN_NOT_HIRE_ALL</LocID>                           <Text>У вас недостатньо ресурсів або вільних слотів на цій базі, щоб купити всі загони:</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>UNITS_HIRE_FROM_WEAKEST</LocID>                          <Text>Найняти найбільшу можливу кількість підрозділів, починаючи з найслабшого</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNITS_HIRE_FROM_STRONGEST</LocID>                        <Text>Найняти найбільшу можливу кількість підрозділів, починаючи з найсильнішого</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_HIRE_FROM_WEAKEST</LocID>                          <Text>Найняти максимум можливих загонів, починаючи з найслабших</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNITS_HIRE_FROM_STRONGEST</LocID>                        <Text>Найняти максимум можливих загонів, починаючи з найсильніших</Text>  </GameDBLocalizedString>
 
             <!-- Updates before EA -->
             <GameDBLocalizedString>         <LocID>BASE_HIRE_SLAVES</LocID>                                <Text>Табір рабів</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_HIRE_SLAVES</LocID>                        <Text>Найняти додаткові підрозділи у работорговців \nГаряча клавіша за замовчуванням: [X]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_HIRE_SLAVES</LocID>                        <Text>Найняти додаткові загони у работорговців\nГаряча клавіша: [X]</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BASE_HERO_HAS_ALREADY_LEARNED_A_SKILL</LocID>           <Text>Цей командир вже вивчив навичку тут!</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRADE_CONSUMABLES</LocID>                  <Text>Торгові витратні матеріали</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRADE_EQUIPMENT</LocID>                    <Text>Торгове обладнання</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRADE_CONSUMABLES</LocID>                  <Text>Торгувати витратними матеріалами</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_BASE_TRADE_EQUIPMENT</LocID>                    <Text>Торгувати спорядженням</Text>  </GameDBLocalizedString>
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
