@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database>
+    <GameDBStringTable ID="LOC_RU_CAMPAIGN_CRUSADERS_LVL1">
+
+        <LanguageRef>LANG_RU</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--OBJECTIVES MAIN QUESTS-->
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_START_LVL1</LocID>                      <Text>Ambush Annika's prison transport</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_GET_TO_FORTRESS</LocID>            <Text>Get to the Primals´ fortress</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_GET_TO_FORTRESS_DONE</LocID>       <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Get to the Primals´ fortress - Finished</color>]]></Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_OPEN_GATES_1</LocID>               <Text>Open the gates 0/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_OPEN_GATES_2</LocID>               <Text>Open the gates 1/2 </Text>  </GameDBLocalizedString>
+           
+           
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_DEFEAT_TRANSPORT</LocID>           <Text>Ambush the transport</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_DEFEAT_TRANSPORT_DONE</LocID>      <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Ambush the transport- Finished</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_HIERARCH_BACK</LocID>              <Text>Survive till Tin's arrival - remaining turn(s):</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_HIERARCH_BACK_DONE</LocID>          <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Survive till Tin's arrival - Finished</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_CATCH_MOORE</LocID>                <Text>Catch Dr. Brown 9B in one of the UNSS bases</Text>  </GameDBLocalizedString>
+          
+            <!--Subquests-->
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_DISCOVER_ENTRANCE_1</LocID>        <Text>Find teleport entrances 0/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_DISCOVER_ENTRANCE_2</LocID>        <Text>Find teleport entrances 1/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_DISCOVER_ENTRANCE_DONE</LocID>     <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Find teleport entrances 2/2 - Finished</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_WATCHTOWERS_1</LocID>              <Text>Capture the watchtowers 0/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_WATCHTOWERS_2</LocID>              <Text>Capture the watchtowers 1/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_WATCHTOWERS_DONE</LocID>           <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Capture the watchtowers 2/2 - Finished</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_ABANDON_BASE</LocID>               <Text>Capture the abandoned base</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_ABANDON_BASE_DONE</LocID>          <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Capture the abandoned base- Finished</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL1_DEFEAT_BROWN</LocID>               <Text>Defeat Dr. Brown 9B</Text>  </GameDBLocalizedString>
+
+            <!--DIALOGUES-->
+            <!--OMNIUSABLES-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL_ALL_NARRATOR_1</LocID>                <Text>A new commander has joined the army.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL_ALL_NARRATOR_2</LocID>                <Text>New commanders have joined the army.</Text>  </GameDBLocalizedString>
+            
+            <!--Start dialogue -->   
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_NARRATOR_1</LocID>             <Text>Border regions - the lands outside the control of any major faction.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_PRINCESS_1</LocID>             <Text>What if Annika is still alive, Viki!? Listen, we have to ambush the prison transport! I know, Tin should be back soon, but what if he doesn't make it in time?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_VIKTAR_1</LocID>               <Text>Annika Finch is dead, and Allmother consumed her soul. The Princess should be happy for her, but she is not listening to me! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_PRINCESS_2</LocID>             <Text>The Primal Fortress, which the transport will have to go through, is just a stone's throw away. Common! Tin would not hesitate a second! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_VIKTAR_2</LocID>               <Text>But Tin, I mean lord Hierarch, has centuries of combat experience! All I can offer are centuries of floor sweeping. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_PRINCESS_3</LocID>             <Text>I can help you with combat! After all, Tin always says I am the most dangerous being in this System!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_VIKTAR_3</LocID>               <Text>But in this stage of your lifecycle, Princess is as dangerous as an ornate paperweight. Did Princess already forget that until she's fully metamorphosed, I must carry her on my shoulders? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_PRINCESS_4</LocID>             <Text>Once we find a suitable host, I will get on my own feet. Please, pretty please, Viki... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_VIKTAR_4</LocID>               <Text>[SIGHS]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_PRINCESS_5</LocID>             <Text>That meant yes? Right, Viki!? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_VIKTAR_5</LocID>               <Text>Yes, but I reserve the right to say "I told Princess so" a lot.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_START_PRINCESS_6</LocID>             <Text>Viki, you're the best!  </Text>  </GameDBLocalizedString>
+            
+            <!--Near the broken shuttle... first mention of litany and genetic memory -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_DEAD_SHIP_PRINCESS_1</LocID>         <Text>Your journey ends, but your essence remains,\nflowing thick through our children's veins ...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_DEAD_SHIP_VIKTAR_1</LocID>           <Text>When did Princess start to write poetry?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_DEAD_SHIP_PRINCESS_2</LocID>         <Text>Not mine. Such things resurface from my genetic memory all the time. It's called the Litany. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_DEAD_SHIP_VIKTAR_2</LocID>           <Text>In the old stories, the Children used to control their spaceships with verses; maybe there is a connection ... Shame we will never find out. No ship survived the Holy War. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_DEAD_SHIP_PRINCESS_3</LocID>         <Text>Tin believes otherwise. He has been looking for the "Lost Fleet" for months! If there was some. He would have found it long ago.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_DEAD_SHIP_VIKTAR_3</LocID>           <Text>Lord Hierarch means it well! With the Lost Fleet, we could stop fearing being struck by the UNSS ships ... But yes, Princess is probably right. Our ships are long gone. </Text>  </GameDBLocalizedString>
+
+
+            <!--Princess and Viktar speaks with intimidating unit but it turns its friendly-->
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SPITFIRES_PRINCESS_1</LocID>         <Text>Spitfires!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SPITFIRES_VIKTAR_1</LocID>           <Text>Princess must not speak to them; they get offended too easily.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SPITFIRES_PRINCESS_2</LocID>         <Text>Nonsense! My voice has "convincing" power! Watch this!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SPITFIRES_PRINCESS_3</LocID>         <Text>Hi, fellas! Hungry for adventure?! We could use some of your "barbecue" powers!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SPITFIRES_VIKTAR_2</LocID>           <Text>Princess just killed us! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SPITFIRES_SPITFIRES_1</LocID>        <Text>Whatever barbecue is ... say a word and it is done! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SPITFIRES_PRINCESS_4</LocID>         <Text>See, Viki?! They are sweethearts. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SPITFIRES_VIKTAR_3</LocID>           <Text>[BARELY AUDIBLE MURMUR] ... incredible ...</Text>  </GameDBLocalizedString>
+
+            <!--Princess opens first bridge-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BRIDGE_OPEN_VIKTAR_1</LocID>         <Text>The light bridge to the old fortress has been disabled. We must wait for lord Hierarch and the Chiquita to return. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BRIDGE_OPEN_PRINCESS_1</LocID>       <Text>We do not need Tin or his ship. Now, watch the paperweight perform some "magic"! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BRIDGE_OPEN_VIKTAR_2</LocID>         <Text>Where are the god rays? Where is smoke, I ask?! All of Allmother's miracles in the holy books... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BRIDGE_OPEN_PRINCESS_2</LocID>       <Text>Bah! Smoke and lights! Only a lame way to enchant the simpletons.</Text>  </GameDBLocalizedString>
+
+            <!--Princess describing Primals fortress and setting plan -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_IN_FORTRESS_PRINCESS_1</LocID>       <Text>Now, Annika's prison transport is resting before they take the long route around the mountain ridge.\nBut, there is a shortcut through this fortress ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_IN_FORTRESS_PRINCESS_2</LocID>       <Text>See, there are two gates. The northern one ...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_IN_FORTRESS_PRINCESS_3</LocID>       <Text>... and the southern one. \nIf we open the gates, the UNSS transport will choose the easy path through this fortress. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_IN_FORTRESS_PRINCESS_3.5</LocID>     <Text>The gate controls are here.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_IN_FORTRESS_VIKTAR_1</LocID>         <Text>Sounds plausible, but this is judged by me, the "floor sweeper"! So it can pretty much get us both killed. Maybe we're being hasty. The information about Annika ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_IN_FORTRESS_PRINCESS_4</LocID>       <Text>Kali Chapek brought it! Remember the King of Smugglers? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_IN_FORTRESS_VIKTAR_2</LocID>         <Text>The Princess knows too well how many of the Sovereigns ended up in UNSS prisons lately. What if ...    </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_IN_FORTRESS_PRINCESS_5</LocID>       <Text>It's not a trap! ... \nBut if it's bothering, we can find a shelter in another base and assemble more warriors. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_IN_FORTRESS_VIKTAR_3</LocID>         <Text>It isn't! \n... but more warriors are always a good idea.</Text>  </GameDBLocalizedString>
+
+            <!--The first gate is opened the plan to lure prison transport is set in motion -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_FIRST_GATE_VIKTAR_1</LocID>          <Text>The gate is not opening! Why is it still shut?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_FIRST_GATE_PRINCESS_1</LocID>        <Text>Just sitting here is not enough. I must interfere with the local psychosphere and reconnect the switches with the gates. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_FIRST_GATE_VIKTAR_2</LocID>          <Text>Psychosphere? What does the Princess mean? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_FIRST_GATE_PRINCESS_2</LocID>        <Text>Psychosphere, protonation ... a data field that surrounds all Primals technology and a bunch of other stuff ... Don't sweat it. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_FIRST_GATE_PRINCESS_3</LocID>        <Text>Countdown to a miracle. 3 ... 2 ... 1! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_FIRST_GATE_VIKTAR_3</LocID>          <Text>With effects this time!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_FIRST_GATE_PRINCESS_4</LocID>        <Text>Your mood needed a lift! \nThe transport is getting ready. I expect they will set off the moment we open the second gate.</Text>  </GameDBLocalizedString>
+
+            <!--Princess opens the second of two close Primals gates in the fortress -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SECOND_GATE_PRINCESS_1</LocID>       <Text>You see? A child's play...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SECOND_GATE_VIKTAR_1</LocID>         <Text>I don't like to spoil it for you, Princess, but the first gate, the already opened one, has closed again.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SECOND_GATE_PRINCESS_2</LocID>       <Text>I must have messed up something! It's Primal tech, and to be truthful, I do not understand it much ... But what's important is that the switches are active now. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SECOND_GATE_VIKTAR_2</LocID>         <Text>And what about Princess's genetic memory? Perhaps the keyword "Primal gates"?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SECOND_GATE_PRINCESS_3</LocID>       <Text>Genetic memory is not a book that you can browse! Thousands of years of accumulated experience, all sharp and conscious? I would go crazy ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SECOND_GATE_VIKTAR_3</LocID>         <Text>But the gate is closed. Princess needs a new plan ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_SECOND_GATE_PRINCESS_4</LocID>       <Text>Too late. One gate open will have to do. The transport is already here. Let's go! </Text>  </GameDBLocalizedString>
+
+            <!-- Princess and Youwain listen to the Burke quarreling with Furret-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_AMBUSH_VIKTAR_1</LocID>              <Text>There are suspiciously many of them, I told you it could be a ...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_AMBUSH_PRINCESS_2</LocID>            <Text>Shut up about the trap already! We got this!</Text>  </GameDBLocalizedString>
+            
+            <!--Burke befor fight -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_BF_MOORE_1</LocID>             <Text>Implanting the information about Annika Finch into the Sovereign network has proven to be a great bait. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_BF_VIKTAR_1</LocID>            <Text>And the first "I told Princess so" of today is here! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_BF_PRINCESS_1</LocID>          <Text>I am sorry, Viky. I hopped so much it was true it made me blind... When I formed my personality, Annika's mind was near... my species just does that! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_BF_VIKTAR_2</LocID>            <Text>I am not sure I understand the Princess? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_BF_PRINCESS_2</LocID>          <Text>It's the same bond I formed with Tin. He says I even speak like her ... I think that we would get along quite well, Annika and I. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_BF_VIKTAR_3</LocID>            <Text>Not understanding suits me well. I can focus on the important stuff. For example, the upcoming fight ... Our adversary is a Hesperidian. Is the bell ringing in the temple tower? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_BF_PRINCESS_3</LocID>          <Text>You are right! That Hesperidian will be the perfect host for my metamorphosis! </Text>  </GameDBLocalizedString>
+
+            <!--Furret is liberated, Princess learns about UNSS will send another man to ensure Furret is dead  -->
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_AF_PRINCESS_1</LocID>          <Text>Your body will become my host, Hesperidian!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_AF_MOORE_1</LocID>             <Text>NO! Begone, you monster! Aaaaa!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_AF_VIKTAR_1</LocID>            <Text>I thought that he would resist ... longer.   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_AF_PRINCESS_2</LocID>          <Text>That's why I avoided the other races, I felt Hesperidians are somewhat ... "ready-ish"? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_AF_MOORE_3</LocID>             <Text>9B ... Doctor Brown 9B ... he will get you! He is almost here ... you ... monster! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_MOORE_AF_PRINCESS_4</LocID>          <Text>Doctor Brown 9B is heading here!? No, no, no! NO! We must close the gate! QUICK! </Text>  </GameDBLocalizedString>
+
+            <!--meeting with the hesperidian near the close North gate -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_MAYA_1</LocID>           <Text>They got Moore 3C! Shame ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_BROWN_1</LocID>          <Text>Shame? ... not really, I never liked him. He truly believed that Thing holding the UNSS by the ... reproductive glands, is divine. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_MAYA_2</LocID>           <Text>Balls, 9B! She is holding the UNSS the balls ... and as long as She remains "the key" to space travel, that won´t change. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_BROWN_2</LocID>          <Text>Whatever! What is important is that She refuses to join us! Gergie-larh, Maya! Why is She avoiding the confrontation when her sister is still in her most harmless form?!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_MAYA_3</LocID>           <Text>She's got her reasons, I guess. Until She stops playing dead, we must rely on our fleet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_BROWN_3</LocID>          <Text>I trust the UNSS fleet no more. They get used to dropping bombs regardless of whether UNSS units might be hit. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_MAYA_4</LocID>           <Text>So that's why we did not call the fleet! ... It's time to get some mud on our boots, again. Surely there is another entrance. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_PRINCESS_1</LocID>       <Text>That was Thomas Brown 9B... Annika's Nemesis. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_VIKTAR_1</LocID>         <Text>Until the Lord Hierarch's arrival, we must not let Brown through the gates. Shame that we cannot keep both gates closed now. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_PRINCESS_2</LocID>       <Text>But if we find the other entrance of those teleports, we could capture the watchtowers and see which gate is in danger. Then we can close it.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_VIKTAR_2</LocID>         <Text>Watchtowers? Did the Princess peek into the psychosphere?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_LOOSE_PRINCESS_3</LocID>       <Text>Handy, right? </Text>  </GameDBLocalizedString>
+
+            <!--First teleport gate discovered (leads to the safe spot with watchtower) -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_GATES_NARRATOR_1</LocID>             <Text>North gate just opened.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_GATES_NARRATOR_2</LocID>             <Text>South gate just opened.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_GATES_NARRATOR_3</LocID>             <Text>North gate just closed.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_GATES_NARRATOR_4</LocID>             <Text>South gate just closed.</Text>  </GameDBLocalizedString>
+            
+            <!--First teleport gate discovered (leads to the safe spot with watchtower) -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_POINTER_1_PRINCESS_1</LocID>  <Text>One of the teleport entrances!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_POINTER_1_RH_1</LocID>        <Text>Looks deactivated to me.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_POINTER_1_PRINCESS_2</LocID>  <Text>Just come closer.</Text>  </GameDBLocalizedString>
+           
+            <!--First teleport gate opened  -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_1_OPEN_PRINCESS_1</LocID>   <Text>Abrakadabra! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_1_OPEN_VIKTAR_1</LocID>     <Text>If the Princess gets used to putting some "smoke and lights" into ... her thing, many more Children would start to believe she's the one!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_1_OPEN_PRINCESS_2</LocID>   <Text>Pfff, that just wouldn't be me. </Text>  </GameDBLocalizedString>
+           
+            <!--Second teleport gate opened  -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_2_OPEN_PRINCESS_1</LocID>   <Text>Teleport activated!... No complains about a lack of tinsel this time? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_2_OPEN_VIKTAR_1</LocID>     <Text>Arguing with Princess is a lost cost. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_2_OPEN_PRINCESS_2</LocID>   <Text>Acceptance is a first step.</Text>  </GameDBLocalizedString>
+            
+            <!--Second teleport gate discovered -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_POINTER_2_RH_1</LocID>       <Text>The second entrance!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_POINTER_2_VIKTAR_1</LocID>   <Text>It's just my guess, but is the Princess also about to open it through the psychosphere?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_POINTER_2_PRINCESS_1</LocID> <Text>Yep! Wizard style! </Text>  </GameDBLocalizedString> 
+
+            <!--watchtowers captured  -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_WATCHTOWER_RH_1</LocID>              <Text>Now we can track all movement around this mountain ridge.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_WATCHTOWER_RH_2</LocID>              <Text>The whole area is covered now.</Text>  </GameDBLocalizedString>
+           
+            <!--Brown entered the fortress   -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_IN_BROWN_1</LocID>             <Text>HERE'S TOMMY! ... Gergie-larch, I always wanted to say that line!</Text>  </GameDBLocalizedString>
+         
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_BROWN_BF_BROWN_1</LocID>             <Text>Your journey ends here! </Text>  </GameDBLocalizedString>
+
+
+            <!--Tin arrives from his mission to learn who will support in his fight -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TIN_ARRIVAL_TIN_1</LocID>            <Text>Wait here, messenger! I must gather my friends. They have stayed here for too long.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TIN_ARRIVAL_GILEAS_1</LocID>         <Text>As you say, lord! Besides Grand Zieregals' attention, your search for the alleged Lost Fleet must have caught the eye of UNSS, always so obsessed with the dominance of their fleet. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TIN_ARRIVAL_TIN_2</LocID>            <Text>Smart deduction. I see why the Grand Zieregal let a human rise so high. Stay by the ship. My warriors will take an eye ... "protect" you, till we are ready to set for the negotiations with your master. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TIN_ARRIVAL_TIN_4</LocID>            <Text>You're supposed to lie low! Instead, you start a fight with a UNSS unit! And our young lady even got a new host! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TIN_ARRIVAL_PRINCESS_1</LocID>       <Text>We thought they had Annika and ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TIN_ARRIVAL_TIN_4.5</LocID>          <Text>Then you should have recognised it as a trap! Annika is dead! If I were here ...! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TIN_ARRIVAL_PRINCESS_1.5</LocID>     <Text>BUT YOU WERE NOT HERE! YOU ARE ALWAYS AWAY! CHASING AFTER SOME STUPID LEGEND! THE LOST FLEET, WHAT A JOKE! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TIN_ARRIVAL_PRINCESS_4</LocID>       <Text>I am sorry ... I did not mean ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TIN_ARRIVAL_TIN_7</LocID>            <Text>If we catch Brown, you can ask him about Annika's fate. Maybe hearing it from someone else will help you focus on the important stuff. </Text>  </GameDBLocalizedString>
+            
+            <!--Brown is not home.  -->      
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_NO_BROWN_RH_1</LocID>                <Text>Brown must have hidden elsewhere. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_NO_BROWN_RH_2</LocID>                <Text>No sign of Brown here either. </Text>  </GameDBLocalizedString>
+
+
+            <!-- END Moore is captured and Princess will use his body to her final metamorphosis, she has and adult body now -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_MAYA_1</LocID>                   <Text>Doctor Brown 9B is busy at the moment. If you want to fight him, you must get through me first.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_RH_1</LocID>                     <Text>We will bite through his henchmen one by one if necessary. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_BROWN_1</LocID>                  <Text>Stop! Let Maya go! It's me you want! I am responsible for the death of Annika Finch!      </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_MAYA_2</LocID>                   <Text>I know what you are doing, 9B, and I will not allow you some noble ...     </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_BROWN_2</LocID>                  <Text>SHUT UP, WOMAN! ... They know what I did to their friend Annika! I give her no rest, chased her from planet to planet! And in the end, because of me, she... gave up!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PRINCESS_1</LocID>               <Text>Annika is dead after all ... it was all for NOTHING! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_TIN_1</LocID>                    <Text>You are right, Brown! I do NOT care about your UNSS pals. It's between you and me!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PRINCESS_2</LocID>               <Text>And me!   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_BROWN_3</LocID>                  <Text>Seven steps of malevolence! Let's do this!  </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_TIN_2</LocID>                    <Text>Targetting lasers?! So that's why you were "busy"! You were calling the UNSS ships! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_BROWN_4</LocID>                  <Text>I tried to stop them, but they've got their own orders! So, are we gonna fight while the sky is falling on our heads, like in some cheap melodrama? Or will we settle this another day?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PRINCESS_3</LocID>               <Text>One day, you will pay! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_BROWN_5</LocID>                  <Text>Smart decision ... I cannot wait! </Text>  </GameDBLocalizedString>
+            
+           
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_NARRATOR_1</LocID>          <Text>Later, in the safety, far away in orbit. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_PRINCESS_1</LocID>          <Text>Tin, Tin! My metamorphosis is complete! Look at my new body! It is so beautiful and strong! The Grand Zieregal will fall on his ass when he sees me!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_TIN_1</LocID>               <Text>He would indeed! You look like the statue of Allmother! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_PRINCESS_2</LocID>          <Text>What do you mean by "would"? I am going with you! I am ready now!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_TIN_2</LocID>               <Text>It is too dangerous! I am going alone.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_PRINCESS_3</LocID>          <Text>DANGEROUS?! YOU HAVE NO IDEA HOW DANGEROUS I AM! I CAN BEAT MY SISTER NOW! I CAN CRUSH YOU LIKE A CHEAP TOY, YOU FOOL! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_PRINCESS_4</LocID>          <Text>No! I am sorry! I don't know what has gotten into me! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_TIN_3</LocID>               <Text>... I already lost Annika, I will not lose you, too. Now get into the ship, we are leaving.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_TIN_4</LocID>               <Text>Did you hear that?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_VIKTAR_1</LocID>            <Text>For the first time, she sounded like the Allmother from the old texts ... all the anger and power. One day, the Children will follow her blindly. Even I got the shivers for a moment ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_TIN_5</LocID>               <Text>But for now, she fears to take that path ... keep her safe, Viktar.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_END_PT_2_VIKTAR_2</LocID>            <Text>I will. </Text>  </GameDBLocalizedString>
+
+            <!--      BEFORE/AFTER FIGHT QOUTES-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_KIM_AF_KIM_1</LocID>                 <Text>I expect to be treated within the standards of the Geneva Conventions. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_KIM_AF_PRINCES_1</LocID>             <Text>Geneva what?!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_KIM_AF_KIM_2</LocID>                 <Text>Well, I am screwed... úplně v řiti. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_ROSIE_AF_ROSIE_1</LocID>             <Text>Ok, let's talk about this before any of us do something hasty! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_ROSIE_AF_RH_1</LocID>                <Text>Put down your weapons! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL1_ROSIE_AF_ROSIE_2</LocID>             <Text>Okie dokie.   </Text>  </GameDBLocalizedString>
+
+
+            
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>
