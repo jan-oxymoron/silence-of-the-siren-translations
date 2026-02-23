@@ -1,4 +1,4 @@
-﻿<Database>
+<Database>
     <GameDBStringTable ID="LOC_HU_ACHIEVEMENTS">
 
         <LanguageRef>LANG_HU</LanguageRef>
@@ -8,160 +8,161 @@
         </Contributors>
 
         <LocalizedStrings>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENTS_LIST</LocID>                               <Text>ACHIEVEMENTS</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIDDEN</LocID>                              <Text>Hidden achievement</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIDDEN_DESCRIPTION</LocID>                  <Text>Continue playing to unlock this achievement</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENTS_LIST</LocID>                               <Text>TELJESÍTMÉNYEK</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIDDEN</LocID>                              <Text>Rejtett teljesítmények</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HIDDEN_DESCRIPTION</LocID>                  <Text>Folytasd a játékot, hogy feloldd ezt a teljesítményt</Text>  </GameDBLocalizedString>
 
             <!--EXPLORATION-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_END_TURN</LocID>                            <Text>So it begins</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_END_TURN_DESCRIPTION</LocID>                <Text>End turn for the first time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_END_MORE_TURNS</LocID>                      <Text>One more turn</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_END_MORE_TURNS_DESCRIPTION</LocID>          <Text>End turn for 10 000th time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_JUST_MY_LUCK</LocID>                        <Text>Just my luck</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_JUST_MY_LUCK_DESCRIPTION</LocID>            <Text>Step into/Receive exploration hazard without any kind of protection.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WELL_THAT_IS_NEW</LocID>                    <Text>Well, that is new!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WELL_THAT_IS_NEW_DESCRIPTION</LocID>        <Text>Build your first buildable object.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ROBERTO_BUILDER</LocID>                     <Text>Roberto the Builder</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ROBERTO_BUILDER_DESCRIPTION</LocID>         <Text>Build 50 buildable objects.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WALKED_TILES</LocID>                        <Text>I will walk 500 000 tiles</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WALKED_TILES_DESCRIPTION</LocID>            <Text>Walk 500 000 tiles (cumulative).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_XENOSLIME_DESTROYED</LocID>                 <Text>Yucky</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_XENOSLIME_DESTROYED_DESCRIPTION</LocID>     <Text>Destroy 20 Xenoslime obstacles.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SHUFFLE_COMMANDERS</LocID>                  <Text>Shuffle them Commanders</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SHUFFLE_COMMANDERS_DESCRIPTION</LocID>      <Text>Use the right panel or commander order in hero card to reorder commanders.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OHM_NOM</LocID>                             <Text>Ohm nom nom</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OHM_NOM_DESCRIPTION</LocID>                 <Text>Use 150 consumable items (cumulative).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WELL_GUARDED</LocID>                        <Text>Well Guarded</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WELL_GUARDED_DESCRIPTION</LocID>            <Text>Build 15 defensive upgrades for mines.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ORBIT</LocID>                               <Text>Where no mole has gone before</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ORBIT_DESCRIPTION</LocID>                   <Text>Reach orbit for the first time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DANGEROUS_OBJECT_EFFECT</LocID>             <Text>Who knew this could happen</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DANGEROUS_OBJECT_EFFECT_DESCRIPTION</LocID> <Text>Receive status effect from changeable interactive object during "its" turn.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OPENED_CHESTS</LocID>                       <Text>Open sesame</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OPENED_CHESTS_DESCRIPTION</LocID>           <Text>Open 500 chests (cumulative).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PICKED_UP_ITEM</LocID>                      <Text>Hoarder</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PICKED_UP_ITEM_DESCRIPTION</LocID>          <Text>Pick up 15 000 pieces of equipment (cumulative).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PICKED_UP_RESOURCE</LocID>                  <Text>I found it, its mine</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PICKED_UP_RESOURCE_DESCRIPTION</LocID>      <Text>Pick up 150 000 resources (every kind, cumulative).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TELEPORTS</LocID>                           <Text>I do not hate teleports anymore</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TELEPORTS_DESCRIPTION</LocID>               <Text>Use a teleport 200 times.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PIECE_WAS_NEVER_OPTION</LocID>              <Text>Peace was never an option</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PIECE_WAS_NEVER_OPTION_DESCRIPTION</LocID>  <Text>Disable visitable interactive objects 10 times.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BROTHER_SCROOGE</LocID>                     <Text>Brother Scrooge</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BROTHER_SCROOGE_DESCRIPTION</LocID>         <Text>Have more than 150 000 aura coins.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_UPGRADED</LocID>                            <Text>Upgraded</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_UPGRADED_DESCRIPTION</LocID>                <Text>Upgrade 40 exploration buildings.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BRIDGES_ACTIVATED</LocID>                   <Text>You shall pass!!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BRIDGES_ACTIVATED_DESCRIPTION</LocID>       <Text>Activate 20 bridges.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_END_TURN</LocID>                            <Text>Hát elkezdődik!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_END_TURN_DESCRIPTION</LocID>                <Text>Vess véget egy körnek első alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_END_MORE_TURNS</LocID>                      <Text>Csak még egy kör</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_END_MORE_TURNS_DESCRIPTION</LocID>          <Text>Vess véget egy körnek 10 000. alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_JUST_MY_LUCK</LocID>                        <Text>Csak a szerencsém</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_JUST_MY_LUCK_DESCRIPTION</LocID>            <Text>Lépj be egybe/vagy fogadj el egy Felfedezés közbeni veszélyforrás hatást bármilyen védelem megléte nélkül.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WELL_THAT_IS_NEW</LocID>                    <Text>Nos, ez új!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WELL_THAT_IS_NEW_DESCRIPTION</LocID>        <Text>Építsd meg az első Építményedet a kalandtérképen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ROBERTO_BUILDER</LocID>                     <Text>Roberto az Építő</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ROBERTO_BUILDER_DESCRIPTION</LocID>         <Text>Építs 50 megépíthető Építményt a kalandtérképen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WALKED_TILES</LocID>                        <Text>500 000 mezőnyit fogok megtenni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WALKED_TILES_DESCRIPTION</LocID>            <Text>Mozogj a kalandtérképen 500 000 mezőnyit (halmozódik).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_XENOSLIME_DESTROYED</LocID>                 <Text>Undorító nyálkák</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_XENOSLIME_DESTROYED_DESCRIPTION</LocID>     <Text>Semmisíts meg 20 darab Xenonyálka akadályt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SHUFFLE_COMMANDERS</LocID>                  <Text>Parancsnokok Paklikeverése</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SHUFFLE_COMMANDERS_DESCRIPTION</LocID>      <Text>Használd a jobb oldali panelt vagy a hős kártyán található parancsnoki sorrendezőt a parancsnokok átrendezéséhez.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OHM_NOM</LocID>                             <Text>Oh ezt és ezt és ezt is akarom!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OHM_NOM_DESCRIPTION</LocID>                 <Text>Használj fel 150 Egyszerhasználatos tárgyat (halmozódik).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WELL_GUARDED</LocID>                        <Text>Jól Őrzött Bányák</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WELL_GUARDED_DESCRIPTION</LocID>            <Text>Építs 15 védelmi fejlesztést a bányákhoz.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ORBIT</LocID>                               <Text>Ahol még egy vakond sem járt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ORBIT_DESCRIPTION</LocID>                   <Text>Érd el első alkalommal, az Orbitális pályát.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DANGEROUS_OBJECT_EFFECT</LocID>             <Text>Ki gondolta volna, hogy ez megtörténhet</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DANGEROUS_OBJECT_EFFECT_DESCRIPTION</LocID> <Text>+ vagy - Állapothatás elfogadása a körönként változó interaktív objektumtól, a "köröd" alatt.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OPENED_CHESTS</LocID>                       <Text>Szezám tárulj!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OPENED_CHESTS_DESCRIPTION</LocID>           <Text>Nyiss ki 500 Adattöredéket (halmozódik).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PICKED_UP_ITEM</LocID>                      <Text>Felhalmozó király</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PICKED_UP_ITEM_DESCRIPTION</LocID>          <Text>Szerezz be 15 000 Felszerelést (halmozódik).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PICKED_UP_RESOURCE</LocID>                  <Text>Megtaláltam, s ez az enyém</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PICKED_UP_RESOURCE_DESCRIPTION</LocID>      <Text>Gyűjts össze 150 000 Nyersanyagot (minden fajtát, halmozódik).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TELEPORTS</LocID>                           <Text>Már nem utálom a teleportokat</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TELEPORTS_DESCRIPTION</LocID>               <Text>Használj teleportokat a kalandtérképen 200 alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PIECE_WAS_NEVER_OPTION</LocID>              <Text>A béke soha nem volt opció</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PIECE_WAS_NEVER_OPTION_DESCRIPTION</LocID>  <Text>Tiltsd le a látogatható interaktív objektumokat 10 alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BROTHER_SCROOGE</LocID>                     <Text>Scrooge testvér</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BROTHER_SCROOGE_DESCRIPTION</LocID>         <Text>Legyen több mint 150 000 Auraérméd.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_UPGRADED</LocID>                            <Text>Fejlesztőmester</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_UPGRADED_DESCRIPTION</LocID>                <Text>Fejlessz fel 40 Felfedezési Épületet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BRIDGES_ACTIVATED</LocID>                   <Text>Átmehetsz!!!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_BRIDGES_ACTIVATED_DESCRIPTION</LocID>       <Text>Aktiválj 20 hidat.</Text>  </GameDBLocalizedString>
             
             <!--HERO-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOVE_ATTRIBUTE</LocID>                      <Text>Never skip leg day</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOVE_ATTRIBUTE_DESCRIPTION</LocID>          <Text>Improve exploration proficiency attribute for the first time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_COMBAT_ATTRIBUTE</LocID>                    <Text>I feel stronger</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_COMBAT_ATTRIBUTE_DESCRIPTION</LocID>        <Text>Improve combat power attribute for the first time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ABILITY_ATTRIBUTE</LocID>                   <Text>I can do more magic now</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ABILITY_ATTRIBUTE_DESCRIPTION</LocID>       <Text>Improve ability strength attribute for the first time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRST_LEVEL_UP</LocID>                      <Text>One more level please!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRST_LEVEL_UP_DESCRIPTION</LocID>          <Text>Level up commander for the first time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NO_MORE_LEVELS</LocID>                      <Text>No more levels please!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NO_MORE_LEVELS_DESCRIPTION</LocID>          <Text>Reach max level with one commander.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DISMISS_COMMANDER</LocID>                   <Text>You are dismissed</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DISMISS_COMMANDER_DESCRIPTION</LocID>       <Text>Dismiss 20 commanders.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_I_AM_UNSTOPPABLE</LocID>                    <Text>I am "Unstoppable"</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_I_AM_UNSTOPPABLE_DESCRIPTION</LocID>        <Text>Max all three attributes of one commander.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FULL_HOUSE</LocID>                          <Text>Full House</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FULL_HOUSE_DESCRIPTION</LocID>              <Text>Have the maximum number of commanders.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOVE_ATTRIBUTE</LocID>                      <Text>Soha ne hagyd ki a pihenőnapot</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOVE_ATTRIBUTE_DESCRIPTION</LocID>          <Text>Erősítsd a Felfedezési Hatásfok tulajdonságpontot az első alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_COMBAT_ATTRIBUTE</LocID>                    <Text>Erősebbnek érzem magam</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_COMBAT_ATTRIBUTE_DESCRIPTION</LocID>        <Text>Erősítsd a Harci Erő tulajdonságpontot az első alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ABILITY_ATTRIBUTE</LocID>                   <Text>Most már varázslatos vagyok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ABILITY_ATTRIBUTE_DESCRIPTION</LocID>       <Text>Erősítsd a Képesség Erő tulajdonságpontot az első alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRST_LEVEL_UP</LocID>                      <Text>Még egy szintet, kérem!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRST_LEVEL_UP_DESCRIPTION</LocID>          <Text>Lépj szintet egy parancsnokoddal az első alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NO_MORE_LEVELS</LocID>                      <Text>Kérem, nem kell több szint!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NO_MORE_LEVELS_DESCRIPTION</LocID>          <Text>Érd el a maximális szintet egy parancsnokkal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DISMISS_COMMANDER</LocID>                   <Text>Elutasító lennék?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_DISMISS_COMMANDER_DESCRIPTION</LocID>       <Text>Bocsáts el 20 parancsnokot.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_I_AM_UNSTOPPABLE</LocID>                    <Text>"Megállíthatatlan" vagyok</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_I_AM_UNSTOPPABLE_DESCRIPTION</LocID>        <Text>Maximalizáld egy parancsnok mindhárom tulajdonságpontját.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FULL_HOUSE</LocID>                          <Text>Teltház</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FULL_HOUSE_DESCRIPTION</LocID>              <Text>Rendelkezz a maximum számú parancsnokkal.</Text>  </GameDBLocalizedString>
 
             <!--COMBAT-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NO_SHAME</LocID>                            <Text>No shame in that</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NO_SHAME_DESCRIPTION</LocID>                <Text>Retreat from battle.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MERCIFUL</LocID>                            <Text>I am feeling merciful</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MERCIFUL_DESCRIPTION</LocID>                <Text>Let enemy units run.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_THAT_WAS_EASY</LocID>                       <Text>That was easy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_THAT_WAS_EASY_DESCRIPTION</LocID>           <Text>Win combat using auto battle without any losses.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WIN_COMBAT</LocID>                          <Text>Tough guy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WIN_COMBAT_DESCRIPTION</LocID>              <Text>Win a battle 1000 times.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LOSE_COMBAT</LocID>                         <Text>Help, I am being bullied</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LOSE_COMBAT_DESCRIPTION</LocID>             <Text>Lose battle 100 times.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USE_AUTO_COMBAT</LocID>                     <Text>In a hurry</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USE_AUTO_COMBAT_DESCRIPTION</LocID>         <Text>Use auto-combat 50 times.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USE_RETRY_COMBAT</LocID>                    <Text>Failure is not an option</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USE_RETRY_COMBAT_DESCRIPTION</LocID>        <Text>Retry a battle 50 times.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NO_SHAME</LocID>                            <Text>Nincs ebben semmi szégyen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NO_SHAME_DESCRIPTION</LocID>                <Text>Vonulj vissza egy csatából.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MERCIFUL</LocID>                            <Text>Irgalmasnak érzem magam</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MERCIFUL_DESCRIPTION</LocID>                <Text>Hagyd futni az ellenséges egységeket.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_THAT_WAS_EASY</LocID>                       <Text>Ez könnyű volt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_THAT_WAS_EASY_DESCRIPTION</LocID>           <Text>Nyerj csatát automatikus harccal veszteségek nélkül.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WIN_COMBAT</LocID>                          <Text>Kemény Srác</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WIN_COMBAT_DESCRIPTION</LocID>              <Text>Nyerj meg egy csatát 1000 alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LOSE_COMBAT</LocID>                         <Text>Segítség, engem zaklatnak</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LOSE_COMBAT_DESCRIPTION</LocID>             <Text>Veszíts el csatát 100 alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USE_AUTO_COMBAT</LocID>                     <Text>Sietősen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USE_AUTO_COMBAT_DESCRIPTION</LocID>         <Text>Használd az automatikus harcot 50 alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USE_RETRY_COMBAT</LocID>                    <Text>A kudarc nem opció</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USE_RETRY_COMBAT_DESCRIPTION</LocID>        <Text>Próbáld újra csatákat 50 alkalommal.</Text>  </GameDBLocalizedString>
 
             <!--SKILLS-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FAMILIAR_KUNG_FU</LocID>                    <Text>I am familiar with kung fu</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FAMILIAR_KUNG_FU_DESCRIPTION</LocID>        <Text>Learn your first skill.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MASTER_NEGOTIATOR</LocID>                   <Text>Master Negotiator</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MASTER_NEGOTIATOR_DESCRIPTION</LocID>       <Text>Buy 5000 units from negotiations.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FORGETFULNESS</LocID>                       <Text>Forgetfulness</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FORGETFULNESS_DESCRIPTION</LocID>           <Text>Forget 30 skills (cumulative with every commander).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NIGHT_CLASSES</LocID>                       <Text>Night classes</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NIGHT_CLASSES_DESCRIPTION</LocID>           <Text>Learn 500 skills (cumulative with every commander).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OVERQUALIFIED</LocID>                       <Text>Overqualified</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OVERQUALIFIED_DESCRIPTION</LocID>           <Text>Learn all 4 skills that unlock various abilities with one commander.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FAMILIAR_KUNG_FU</LocID>                    <Text>Ismerem a Kung-Fut</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FAMILIAR_KUNG_FU_DESCRIPTION</LocID>        <Text>Tanuld meg az első Készségedet.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MASTER_NEGOTIATOR</LocID>                   <Text>Mesteri Tárgyaló</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MASTER_NEGOTIATOR_DESCRIPTION</LocID>       <Text>Vásárolj 5000 egységet tárgyalások során.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FORGETFULNESS</LocID>                       <Text>Feledékenység</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FORGETFULNESS_DESCRIPTION</LocID>           <Text>Felejt el a 30 Készséget (minden parancsnokkal összeadódik).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NIGHT_CLASSES</LocID>                       <Text>Éjszakai Tanórák</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_NIGHT_CLASSES_DESCRIPTION</LocID>           <Text>Tanulj 500 Készséget (minden parancsnokkal halmozódik).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OVERQUALIFIED</LocID>                       <Text>Túlkvalifikált</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_OVERQUALIFIED_DESCRIPTION</LocID>           <Text>Tanuld meg azt a 4 Készséget egy parancsnokoddal, amelyek mind feloldják az összes különféle Képességeket.</Text>  </GameDBLocalizedString>
             
             <!--ABILITIES-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WHATS_THE_RUSH</LocID>                      <Text>What's the Rush</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WHATS_THE_RUSH_DESCRIPTION</LocID>          <Text>Use the Rush ability to restore 2500 movement points (cumulative).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HANDY_FAST_CAST</LocID>                     <Text>This will come in handy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HANDY_FAST_CAST_DESCRIPTION</LocID>         <Text>Set maximum fast cast abilities in combat.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USED_FAST_CAST</LocID>                      <Text>Gotta cast fast</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USED_FAST_CAST_DESCRIPTION</LocID>          <Text>Use fast cast ability shortcut 20 times.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRST_ABILITY_USE</LocID>                   <Text>I put my "spell" on you</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRST_ABILITY_USE_DESCRIPTION</LocID>       <Text>Use an ability for the first time.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WHO_NEEDS_HOSPITAL</LocID>                  <Text>Who needs a hospital...project hospital</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WHO_NEEDS_HOSPITAL_DESCRIPTION</LocID>      <Text>Use a combat ability with the Regenerate effect.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WHATS_THE_RUSH</LocID>                      <Text>Mi ez a Rohanás?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WHATS_THE_RUSH_DESCRIPTION</LocID>          <Text>Használd a Roham képességet 2500 Mozgáspont (halmozódik) visszaállításához.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HANDY_FAST_CAST</LocID>                     <Text>Ez jól fog jönni</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_HANDY_FAST_CAST_DESCRIPTION</LocID>         <Text>Állítsd be a maximális számú gyors varázslási képességeket egy csatában.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USED_FAST_CAST</LocID>                      <Text>Varázsolj gyorsan!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_USED_FAST_CAST_DESCRIPTION</LocID>          <Text>Használd a gyors varázslási képesség ikont 20 alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRST_ABILITY_USE</LocID>                   <Text>"Varázslatosan hat rád a varázsom"</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FIRST_ABILITY_USE_DESCRIPTION</LocID>       <Text>Használj egy képességet első alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WHO_NEEDS_HOSPITAL</LocID>                  <Text>Kinek kell kórház...ha itt a Projektkórház</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_WHO_NEEDS_HOSPITAL_DESCRIPTION</LocID>      <Text>Használj egy Regenerálódás hatású harci képességet.</Text>  </GameDBLocalizedString>
 
             <!--BASE-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ONE_BUILDING</LocID>                        <Text>Rome was not build in a phase</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ONE_BUILDING_DESCRIPTION</LocID>            <Text>Build your first building in a base.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_BUILDINGS</LocID>                       <Text>Base sweet Base</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_BUILDINGS_DESCRIPTION</LocID>           <Text>Build and upgrade every building at one base.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_REMOTE_LEARNING</LocID>                     <Text>Long distance school</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_REMOTE_LEARNING_DESCRIPTION</LocID>         <Text>Learn an ability though remote learning.</Text>  </GameDBLocalizedString>            
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOWN_PORTAL_USE</LocID>                     <Text>Instant visit</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOWN_PORTAL_USE_DESCRIPTION</LocID>         <Text>Use town portal 500 times.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LANDLORD</LocID>                            <Text>Landlord</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LANDLORD_DESCRIPTION</LocID>                <Text>Conquer and have 10 bases at one time.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ONE_BUILDING</LocID>                        <Text>Róma sem egy Fázis alatt épült</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ONE_BUILDING_DESCRIPTION</LocID>            <Text>Építsd meg az első épületedet egy bázison.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_BUILDINGS</LocID>                       <Text>Bázis, Édes Bázis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_BUILDINGS_DESCRIPTION</LocID>           <Text>Építs és fejlessz fel minden épületet egy bázison.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_REMOTE_LEARNING</LocID>                     <Text>Távolsági Iskola</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_REMOTE_LEARNING_DESCRIPTION</LocID>         <Text>Tanulj egy képességet távoktatás segítségével.</Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOWN_PORTAL_USE</LocID>                     <Text>Azonnali Látogatás</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_TOWN_PORTAL_USE_DESCRIPTION</LocID>         <Text>Használd a bázisok portáljait 500 alkalommal.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LANDLORD</LocID>                            <Text>Földesúr</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_LANDLORD_DESCRIPTION</LocID>                <Text>Foglalj el és birtokolj 10 bázist egyszerre.</Text>  </GameDBLocalizedString>
 
             <!--CAMPAIGN-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOLE_CAMPAIGN</LocID>                        <Text>Hole in the Mole</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOLE_CAMPAIGN_DESCRIPTION</LocID>            <Text>Finish the Fossorian campaign.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_UNSS_CAMPAIGN</LocID>                        <Text>Kick for the "Goodguys"</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_UNSS_CAMPAIGN_DESCRIPTION</LocID>            <Text>Finish the UNSS campaign.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SOVEREIGN_CAMPAIGN</LocID>                   <Text>The Running Girl</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SOVEREIGN_CAMPAIGN_DESCRIPTION</LocID>       <Text>Finish the Sovereign campaign.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHILDREN_CAMPAIGN</LocID>                    <Text>Space Poets Society</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHILDREN_CAMPAIGN_DESCRIPTION</LocID>        <Text>Finish the Children of the Source campaign.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_CAMPAIGNS</LocID>                        <Text>What a journey</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_CAMPAIGNS_DESCRIPTION</LocID>            <Text>Finish all the story campaigns.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOLE_CAMPAIGN</LocID>                        <Text>Egy lyuk a vakondok közt</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_MOLE_CAMPAIGN_DESCRIPTION</LocID>            <Text>Fejezd be a Földtúrók kampányát.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_UNSS_CAMPAIGN</LocID>                        <Text>Ha a Jófiúk kirúgnak a hámból!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_UNSS_CAMPAIGN_DESCRIPTION</LocID>            <Text>Fejezd be az ENN kampányát.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SOVEREIGN_CAMPAIGN</LocID>                   <Text>A Menekülő Lány</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SOVEREIGN_CAMPAIGN_DESCRIPTION</LocID>       <Text>Fejezd be a Szuverén Flotta kampányát.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHILDREN_CAMPAIGN</LocID>                    <Text>Űrköltők Társasága</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CHILDREN_CAMPAIGN_DESCRIPTION</LocID>        <Text>Fejezd be a Forrás Gyermekeinek kampányát.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_CAMPAIGNS</LocID>                        <Text>Micsoda egy utazás!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_CAMPAIGNS_DESCRIPTION</LocID>            <Text>Fejezd be az összes történetalapú kampányt.</Text>  </GameDBLocalizedString>
             
             <!--MISCELANCELOUS-->
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FUSION_CORE_BUILD</LocID>                   <Text>Fusion savings</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FUSION_CORE_BUILD_DESCRIPTION</LocID>       <Text>Use a Fusion core to build new buildings or an upgrade at a base or on the exploration map.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FUSION_CORE_BUILD</LocID>                   <Text>Fúziós megtakarítások</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_FUSION_CORE_BUILD_DESCRIPTION</LocID>       <Text>Használj egy Fúziós magot új épületek építéséhez, vagy fejlesztéshez egy bázison vagy a kalandtérképen.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SPARTACUS</LocID>                           <Text>Spartacus</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SPARTACUS_DESCRIPTION</LocID>               <Text>Buy or take 500 units from slave camps.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_YARD_SALE</LocID>                           <Text>Yard sale</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_YARD_SALE_DESCRIPTION</LocID>               <Text>Sell 5000 items in markets (cumulative).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_STONKZ</LocID>                              <Text>Stonkz</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_STONKZ_DESCRIPTION</LocID>                  <Text>Trade resources for 50 000 aura coins.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_REVERSE_STONKZ</LocID>                      <Text>Reverse Stonkz</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_REVERSE_STONKZ_DESCRIPTION</LocID>          <Text>Trade aura coins for 5000 resources (cumulative with any kind).</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CREDITS</LocID>                             <Text>I know what all of you did</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CREDITS_DESCRIPTION</LocID>                 <Text>Find credits.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_IRON_MOLE</LocID>                           <Text>I AM.......AN IRONMOLE</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_IRON_MOLE_DESCRIPTION</LocID>               <Text>Finish any map on any difficulty in Iron mole mode.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_SCYLLA</LocID>                       <Text>Complete planet Scylla</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_SCYLLA_DESCRIPTION</LocID>           <Text>Finish all maps on planet Scylla.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_CHARYBDIS</LocID>                    <Text>Complete planet Charybdis</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_CHARYBDIS_DESCRIPTION</LocID>        <Text>Finish all maps on planet Charybdis.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_CHIMERA</LocID>                      <Text>Complete planet Chimera</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_CHIMERA_DESCRIPTION</LocID>          <Text>Finish all maps on planet Chimera.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_HYDRA</LocID>                        <Text>Complete planet Siren</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_HYDRA_DESCRIPTION</LocID>            <Text>Finish all maps on planet Siren.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_PLANETS</LocID>                         <Text>Done and done!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_PLANETS_DESCRIPTION</LocID>             <Text>Finish all maps on all planets.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_SPARTACUS_DESCRIPTION</LocID>               <Text>Vegyél vagy szerezz 500 egységet a rabszolgatáborokból.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_YARD_SALE</LocID>                           <Text>Udvari Vásár</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_YARD_SALE_DESCRIPTION</LocID>               <Text>Adj el 5000 tételt a piacokon (halmozódik folyamatosan).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_STONKZ</LocID>                              <Text>Nyersik Aranyért!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_STONKZ_DESCRIPTION</LocID>                  <Text>Cserélj nyersanyagokat 50 000 Aura érméért.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_REVERSE_STONKZ</LocID>                      <Text>Arany Nyersikért!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_REVERSE_STONKZ_DESCRIPTION</LocID>          <Text>Cserélj be Auraérméket 5000 nyersanyag erőforrásra (Halmozódik mindenféle nyersanyagtól).</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CREDITS</LocID>                             <Text>Tudom, mit tettetek mindannyian!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_CREDITS_DESCRIPTION</LocID>                 <Text>Találj Krediteket.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_IRON_MOLE</LocID>                           <Text>ÉN EGY.......Vasvakond vagyok!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_IRON_MOLE_DESCRIPTION</LocID>               <Text>Teljesítsd bármelyik pályát bármilyen nehézségi fokozaton a Vasvakond módban.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_SCYLLA</LocID>                       <Text>Teljesítsd a Scylla bolygót</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_SCYLLA_DESCRIPTION</LocID>           <Text>Teljesítsd az összes térképet a Scylla bolygón.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_CHARYBDIS</LocID>                    <Text>Teljesítsd a Charybdis bolygót</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_CHARYBDIS_DESCRIPTION</LocID>        <Text>Teljesítsd az összes térképet a Charybdis bolygón.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_CHIMERA</LocID>                      <Text>Teljesítsd a Kiméra bolygót</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_CHIMERA_DESCRIPTION</LocID>          <Text>Teljesítsd az összes térképet a Kiméra bolygón.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_HYDRA</LocID>                        <Text>Teljesítsd a Szirén bolygót</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_PLANET_HYDRA_DESCRIPTION</LocID>            <Text>Teljesítsd az összes térképet a Szirén bolygón.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_PLANETS</LocID>                         <Text>Minden Kész!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>      <LocID>ACHIEVEMENT_ALL_PLANETS_DESCRIPTION</LocID>             <Text>Fejezd be az összes térképet az összes bolygón.</Text>  </GameDBLocalizedString>
 
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>
+
