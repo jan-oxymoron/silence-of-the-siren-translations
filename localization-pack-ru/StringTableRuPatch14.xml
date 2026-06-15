@@ -1,93 +1,249 @@
 <Database>
-    <GameDBStringTable ID="LOC_RU_PATCH_14">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-        
-        <LocalizedStrings>
-            <GameDBLocalizedString><LocID>CONTAINS_DLC_CONTENT</LocID>                    <Text>Requires DLC content:</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>NOT_INSTALLED</LocID>                           <Text>(Not installed)</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>DLC_BEASTMASTERS_ENABLED</LocID>                <Text>Refugees from Pyroxen</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString><LocID>EDITOR_VALIDATION_DLC</LocID>                   <Text>The map has no DLC-specific content</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>EDITOR_VALIDATION_DLC_CONTENT</LocID>           <Text>The map will need this DLC to be playable:</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString><LocID>STACK_STATUS_EFFECT_SCARED</LocID>              <Text>Scared</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>STACK_STATUS_EFFECT_SCARED_DESCRIPTION</LocID>  <Text>Cannot attack {LOC:UNIT_BEASTMASTERS_GHOST} or {LOC:UNIT_BEASTMASTERS_GHOST_UPG}.</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString><LocID>MAPOBJ_DUNGEON_ENTRANCE</LocID>                 <Text>Dungeon Entrance</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_DUNGEON_EXIT</LocID>                     <Text>Dungeon Exit</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString><LocID>OUTLINES_LEGEND_INTERACTIVE</LocID>             <Text>Pickups and interactive objects with rewards or with available actions</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>OUTLINES_LEGEND_NOT_INTERACTIVE</LocID>         <Text>Your own objects, used objects or revisitable objects that are currently being replenished</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>OUTLINES_LEGEND_COMMANDER</LocID>               <Text>All highlights are colored according to your active commander</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString><LocID>HERO_ACTION_PLANNER</LocID>                     <Text>Automation</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>HERO_ACTION_PLANNER_GO_TO</LocID>               <Text>Go to...</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>HERO_ACTION_PLANNER_CLEAR</LocID>               <Text>Clear</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>HERO_ACTION_PLANNER_REPEAT</LocID>              <Text>Repeat</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>HERO_ACTION_PLANNER_RUN_END_TURN</LocID>        <Text>Run all at end of turn</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString><LocID>OPEN_DIALOG</LocID>                             <Text>Open Dialog</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>GARRISON_UNITS</LocID>                          <Text>Garrison Units</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>HIRE_AND_TAKE_UNITS</LocID>                     <Text>Hire and Take Units</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>ONLY_MATCHING_FACTION</LocID>                   <Text>Only Matching Faction</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>WAIT_FOR_NEXT_CYCLE</LocID>                     <Text>Wait for Next Cycle</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>SELL_ITEMS</LocID>                              <Text>Sell Items</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>UPGRADE_UNITS</LocID>                           <Text>Upgrade Units</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>TRAIN_UNITS</LocID>                             <Text>Train Units</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>PICK_UP</LocID>                                 <Text>Pick Up</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>GET_REWARD</LocID>                              <Text>Get Reward</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>HIRE_AND_TAKE_FACTION_UNITS</LocID>             <Text>Hire and Take Faction Units</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>USE</LocID>                                     <Text>Use</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString><LocID>PLANNED_VISIT_NO_MATCHING_UNITS</LocID>         <Text>No matching units</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>PLANNED_VISIT_EMPTY</LocID>                     <Text>Empty</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>PLANNED_VISIT_NO_UNITS_HIRED</LocID>            <Text>No units could be hired</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>PLANNED_VISIT_NO_UNITS_GARRISONED</LocID>       <Text>No units could be garrisoned</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>PLANNED_VISIT_NO_UNITS_TO_TRAIN</LocID>         <Text>No units to train or upgrade</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>PLANNED_VISIT_BLOCKED</LocID>                   <Text>Path blocked!</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString><LocID>MAP_SPECIFICATIONS_MAP_ENERGY_FIELDS</LocID>    <Text>Energy fields material</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString><LocID>TOOLTIP_SIZE</LocID>                            <Text>Unit size in hexes</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>TOOLTIP_NO_SPECIAL</LocID>                      <Text>This unit has no active special ability.</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString><LocID>ARENA_UNITS</LocID>                             <Text>Choose your units!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>ARENA_UNITS_TEXT</LocID>                        <Text>Pick one stack!</Text></GameDBLocalizedString>
-
-            <!-- NEW DLC PLANET, visible in vanilla game skirmish-conquest panel -->
-            <GameDBLocalizedString>         <LocID>PLANET_DLC_01_ID</LocID>               <Text>UNSC 4298i/1 Typhon</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>PLANET_DLC_01_DESCRIPTION</LocID>      <Text>A habitable moon orbiting gas giant UNSC 4298i Atlas.\n\nThe UNSS poster states: Colonize Typhon, a green paradise with the famous Eye of Light anomaly! But colonists have a different story, "A day without St. Elmo's Fire trying to light your hair is a good day." \n\nAccording to officials, the Eye of Light's mysterious radiation is completely harmless even after long-term exposure.\n\nYeah, ... right. I bet the colonists will learn in a decade or two. And as usual, at that time, there will be no one to point a finger at. </Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>MapEventPlayerActionType_TRIGGER_END_TURN</LocID>          <Text>Trigger end of turn of active player</Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>MAPOBJ_DUNGEON_EXIT_DESCRIPTION</LocID>                    <Text>Back to the surface!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_DUNGEON_ENTRANCE_DESCRIPTION</LocID>                <Text>Access to the underground layer.</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>EQUIPMENT_WILD_GEESE_BERET</LocID>                         <Text>Wild Geese Beret</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EQUIPMENT_WILD_GEESE_BERET_DESCRIPTION</LocID>             <Text>Your army's morale will never drop below zero!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EQUIPMENT_WILD_GEESE_BERET_LORE</LocID>                    <Text>Mercenaries? Yoh no! Not at all, bru, we are members of the Jo'burg Beer-Drinking Club. And we bring toys for the children from the Fossorian orphanage!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EQUIPMENT_SILVER_IODIDE_ROCKET</LocID>                     <Text>Silver Iodide Rocket</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EQUIPMENT_SILVER_IODIDE_ROCKET_DESCRIPTION</LocID>         <Text>Morale effects for both armies are negated!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EQUIPMENT_SILVER_IODIDE_ROCKET_LORE</LocID>                <Text>Have you ever heard about "cloud seeding"? No? Never mind! The point is, if both armies are soaked to the bone, the morale will even out. Basically, it goes to hell, but for both, and that's what counts!</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>HAS_NO_EFFECT_HERE</LocID>                                 <Text>has no effect here.</Text></GameDBLocalizedString>
-            
-            <!--  new neutral units  -->
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RATLING</LocID>                               <Text>Ratling Troglodyte</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RATLING_DESCRIPTION</LocID>                   <Text>Are we actually decelerating Ratling society development? If we leave them on their own, will they "rise"? But this experiment already happened! In the abandoned Fossorian bases, outposts, and mines, you can find Ratling castaways' tribes. Cult of the Shovel, Glue-sniffing zombies, Copper wire scavengers... I see a pattern here, but... I'll let you be the judge!  </Text></GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ARMADILLO</LocID>                             <Text>Bullrock</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ARMADILLO_DESCRIPTION</LocID>                 <Text>You fire and miss. It's getting closer. Your hands turn sweaty. The gun feels heavier, clunkier than usual. Dial the max power! "We are not playing anymore!" Damn, it's way faster than it looks! Slow breath, aim... FLASH! The blinding beam scorches the air! Reek of ozone! Retina aches! Impact did not even slow it... A shaken "Sweet Mother" slips from your lips!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ARMADILLO_PASSIVE_INFO_DESCRIPTION</LocID>    <Text>Automatically hardens its shell, becoming immune to ranged attacks until it attacks or counterattacks.</Text></GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_END_MULTIPLAYER</LocID>                      <Text>The battle is over!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_END_MULTIPLAYER_TEXT</LocID>                 <Text>{1} is victorious!</Text></GameDBLocalizedString> <!-- Parameter {1} is player's name, similar to EXPLORATION_PLAYER_WON -->
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+  <GameDBStringTable ID="LOC_RU_PATCH_14">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>AlexSnowLeo</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <GameDBLocalizedString>
+        <LocID>CONTAINS_DLC_CONTENT</LocID>
+        <Text>Требуется дополнение:</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>NOT_INSTALLED</LocID>
+        <Text>(Не установлено)</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_BEASTMASTERS_ENABLED</LocID>
+        <Text>Беженцы с Пироксены</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EDITOR_VALIDATION_DLC</LocID>
+        <Text>Карта не содержит контента дополнения</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EDITOR_VALIDATION_DLC_CONTENT</LocID>
+        <Text>Для игры на этой карте требуется дополнение:</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_SCARED</LocID>
+        <Text>Напуган</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>STACK_STATUS_EFFECT_SCARED_DESCRIPTION</LocID>
+        <Text>Не может атаковать {LOC:UNIT_BEASTMASTERS_GHOST} или {LOC:UNIT_BEASTMASTERS_GHOST_UPG}.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DUNGEON_ENTRANCE</LocID>
+        <Text>Вход в подземелье</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DUNGEON_EXIT</LocID>
+        <Text>Выход из подземелья</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OUTLINES_LEGEND_INTERACTIVE</LocID>
+        <Text>Подбираемые предметы и интерактивные объекты с наградами или доступными действиями</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OUTLINES_LEGEND_NOT_INTERACTIVE</LocID>
+        <Text>Ваши собственные объекты, использованные объекты или повторно посещаемые объекты, которые сейчас пополняются</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OUTLINES_LEGEND_COMMANDER</LocID>
+        <Text>Вся подсветка окрашена в соответствии с вашим активным командиром</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ACTION_PLANNER</LocID>
+        <Text>Автоматизация</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ACTION_PLANNER_GO_TO</LocID>
+        <Text>Перейти к...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ACTION_PLANNER_CLEAR</LocID>
+        <Text>Очистить</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ACTION_PLANNER_REPEAT</LocID>
+        <Text>Повторить</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HERO_ACTION_PLANNER_RUN_END_TURN</LocID>
+        <Text>Выполнить всё в конце хода</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OPEN_DIALOG</LocID>
+        <Text>Открыть диалог</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>GARRISON_UNITS</LocID>
+        <Text>Гарнизонные отряды</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIRE_AND_TAKE_UNITS</LocID>
+        <Text>Нанять и взять отряды</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ONLY_MATCHING_FACTION</LocID>
+        <Text>Только соответствующая фракция</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>WAIT_FOR_NEXT_CYCLE</LocID>
+        <Text>Дождаться следующего цикла</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>SELL_ITEMS</LocID>
+        <Text>Продать предметы</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UPGRADE_UNITS</LocID>
+        <Text>Улучшить отряды</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TRAIN_UNITS</LocID>
+        <Text>Обучить отряды</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PICK_UP</LocID>
+        <Text>Подобрать</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>GET_REWARD</LocID>
+        <Text>Получить награду</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HIRE_AND_TAKE_FACTION_UNITS</LocID>
+        <Text>Нанять и взять отряды фракции</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>USE</LocID>
+        <Text>Использовать</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PLANNED_VISIT_NO_MATCHING_UNITS</LocID>
+        <Text>Нет подходящих отрядов</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PLANNED_VISIT_EMPTY</LocID>
+        <Text>Пусто</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PLANNED_VISIT_NO_UNITS_HIRED</LocID>
+        <Text>Нет отрядов для найма</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PLANNED_VISIT_NO_UNITS_GARRISONED</LocID>
+        <Text>Нет отрядов для размещения в гарнизоне</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PLANNED_VISIT_NO_UNITS_TO_TRAIN</LocID>
+        <Text>Нет отрядов для обучения или улучшения</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PLANNED_VISIT_BLOCKED</LocID>
+        <Text>Путь заблокирован!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAP_SPECIFICATIONS_MAP_ENERGY_FIELDS</LocID>
+        <Text>Материал энергетических полей</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TOOLTIP_SIZE</LocID>
+        <Text>Размер отряда в гексах</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>TOOLTIP_NO_SPECIAL</LocID>
+        <Text>У этого отряда нет активной особого умения.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ARENA_UNITS</LocID>
+        <Text>Выберите свои отряды!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>ARENA_UNITS_TEXT</LocID>
+        <Text>Выберите один отряд!</Text>
+      </GameDBLocalizedString>
+      <!-- NEW DLC PLANET, visible in vanilla game skirmish-conquest panel -->
+      <GameDBLocalizedString>
+        <LocID>PLANET_DLC_01_ID</LocID>
+        <Text>UNSC 4298i/1 Тифон</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>PLANET_DLC_01_DESCRIPTION</LocID>
+        <Text>Обитаемый спутник, вращающийся вокруг газового гиганта UNSC 4298i Атлас.\n\nВ рекламе UNSC говорится: «Колонизируйте Тифон — зелёный рай со знаменитой аномалией - Око Света!» Однако у колонистов своё мнение: «День, когда огни Святого Эльма не пытаются поджечь тебе волосы, — хороший день». \n\nПо словам официальных лиц, загадочное излучение Ока Света совершенно безвредно даже при длительном воздействии.\n\nАга, ... конечно. Спорим, колонисты узнают правду через пару десятилетий. И, как обычно, предъявить претензии будет уже некому.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MapEventPlayerActionType_TRIGGER_END_TURN</LocID>
+        <Text>Завершить ход активного игрока</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DUNGEON_EXIT_DESCRIPTION</LocID>
+        <Text>На поверхность!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MAPOBJ_DUNGEON_ENTRANCE_DESCRIPTION</LocID>
+        <Text>Доступ к подземному уровню.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EQUIPMENT_WILD_GEESE_BERET</LocID>
+        <Text>Берет Дикого Гуся</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EQUIPMENT_WILD_GEESE_BERET_DESCRIPTION</LocID>
+        <Text>Боевой дух вашей армии никогда не опустится ниже нуля!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EQUIPMENT_WILD_GEESE_BERET_LORE</LocID>
+        <Text>Наёмники? Ох, нет! Вовсе нет, бро, мы члены пивного клуба Йо-бурга. И мы привозим игрушки для детишек из приюта фоссориан!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EQUIPMENT_SILVER_IODIDE_ROCKET</LocID>
+        <Text>Рокета Йодида серебра</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EQUIPMENT_SILVER_IODIDE_ROCKET_DESCRIPTION</LocID>
+        <Text>Эффекты боевого духа для обеих армий нейтрализованы!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>EQUIPMENT_SILVER_IODIDE_ROCKET_LORE</LocID>
+        <Text>Слышали когда-нибудь о «засеве облаков»? Нет? Не важно! Суть в том, что если обе армии вымочены до нитки, боевой дух выравнивается. По сути, он летит к чёрту, но у обеих — и это главное!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>HAS_NO_EFFECT_HERE</LocID>
+        <Text>не действует.</Text>
+      </GameDBLocalizedString>
+      <!--  new neutral units  -->
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_RATLING</LocID>
+        <Text>Троглодит-крысолюд</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_RATLING_DESCRIPTION</LocID>
+        <Text>Мы вообще замедляем развитие общества крысолюдов? Если оставить их в покое, они «поднимутся»? Но ведь этот эксперимент уже проводили! На заброшенных базах, аванпостах и шахтах фоссориан можно найти племена крысолюдов-изгоев. Культ Лопаты, нюхающие клей зомби, собиратели медных проводов... Я вижу здесь закономерность, но... предоставлю тебе судить самому!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_ARMADILLO</LocID>
+        <Text>Бычень</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_ARMADILLO_DESCRIPTION</LocID>
+        <Text>Ты стреляешь и промахиваешься. Оно приближается. Руки становятся липкими. Винтовка кажется тяжелее, неуклюжее, чем обычно. Выкручиваешь мощность на максимум! «Мы уже не в игрушки играем!» Чёрт, оно гораздо быстрее, чем кажется! Медленный вдох, прицел... ВСПЫШКА! Ослепляющий луч прожигает воздух! Вонь озона! Ноют глаза! Удар даже не замедлил его... С губ срывается потрясённое: «Матерь Божья»...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>UNIT_NEUTRAL_ARMADILLO_PASSIVE_INFO_DESCRIPTION</LocID>
+        <Text>Автоматически укрепляет панцирь, становясь невосприимчивым к дальнобойным атакам до тех пор, пока не атакует или не контратакует сам.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DIALOG_COMBAT_END_MULTIPLAYER</LocID>
+        <Text>Бой окончен!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DIALOG_COMBAT_END_MULTIPLAYER_TEXT</LocID>
+        <Text>{1} победил(а)!</Text>
+      </GameDBLocalizedString>
+      <!-- Parameter {1} is player's name, similar to EXPLORATION_PLAYER_WON -->
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
