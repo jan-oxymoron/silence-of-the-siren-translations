@@ -1,63 +1,158 @@
-﻿<Database>
-    <GameDBStringTable ID="LOC_RU_DLC_PLANET">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-        <Contributors>
-            <Name>Oxymoron Games</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-
-            <!--NEW DLC MAPS-->
-            <!--CLEAR SKY-->
-            <GameDBLocalizedString>         <LocID>DLC_CLEAR_SKY_ID</LocID>                                             <Text>Clear sky</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_CLEAR_SKY_ID_DESCRIPTION</LocID>                                 <Text>Thanks to the constant solar flares and special location of the place the FOW is nonexistent here. You can dance here like everyone is watching.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_CLEAR_SKY_ID_INTRO</LocID>                                       <Text>The enemy cannot hide here. You can see every move, every picked up object, every defeated enemy. So you can plan accordingly. But there is also one downside, the enemy sees everything too.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_CLEAR_SKY_ID_VICTORY</LocID>                                     <Text>Victory! You came, you saw, you won!</Text>    </GameDBLocalizedString>
-            
-            <!--STARVATION GAMES-->
-            <GameDBLocalizedString>         <LocID>DLC_STARVATION_GAMES_ID</LocID>                                      <Text>Starvation games</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_STARVATION_GAMES_DESCRIPTION</LocID>                             <Text>Outcasts, rebels, prisoners all doomed to the death are sent here to fight for their lives. Victors are pardoned for their sins and can live rest of their lives in peace.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_STARVATION_GAMES_INTRO</LocID>                                   <Text>Welcome to the Starvation Games. The rules are simple: survive, and you will be free. Die, and you will also be free… from life. Only the strongest and fastest can win this game. So hurry up and claim some of the generous offers from the creators. Also, be careful and pay attention to the danger zones—they move around like the hands of a clock. They appear when the games take too long, and once they do, the time is limited.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_STARVATION_GAMES_VICTORY</LocID>                                 <Text>Victory! You have managed to starve every one of their live!</Text>    </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_STARVATION_GAMES_MESSAGE_COUNTER_STARTS</LocID>                  <Text>Dear players, in order to ensure proper motivation, the purification zones have been activated.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_STARVATION_GAMES_MESSAGE_LAST_CHANCE</LocID>                     <Text>Last chance. It is now or death!!!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_STARVATION_GAMES_OBJECTIVE_LAST_CHANCE</LocID>                   <Text>Kill the rest or die with them</Text>  </GameDBLocalizedString>
-            <!--UP AND DOWN-->
-            <GameDBLocalizedString>         <LocID>DLC_UP_AND_DOWN_ID</LocID>                                           <Text>Up and down</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_UP_AND_DOWN_ID_DESCRIPTION</LocID>                               <Text>How is this possible? There are no hills, and yet the route to victory can lead you up and down.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_UP_AND_DOWN_ID_INTRO</LocID>                                     <Text>Not only do you not have a base, but you must capture one before time runs out. You can only move forward. So choose your path carefully, for each one gives different tools to help you beat the beast at the end.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_UP_AND_DOWN_ID_VICTORY</LocID>                                   <Text>Victory! Will you take the same path next time?</Text>    </GameDBLocalizedString>
-
-            <!--RESOURCE WAAAAR-->
-            <GameDBLocalizedString>         <LocID>DLC_RESOURCE_WAR_ID</LocID>                                          <Text>Resource war</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_RESOURCE_WAR_DESCRIPTION</LocID>                                 <Text>Try a map where each faction has access to only one resource.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_RESOURCE_WAR_INTRO</LocID>                                       <Text>Five factions, each with access to mining only one resource; to win, however, you must control them all—and, of course, destroy the others.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_RESOURCE_WAR_VICTORY</LocID>                                     <Text>Great, you proved that even when you start with nothing, you can build it into something that lets you defeat the others and gain everything!</Text>    </GameDBLocalizedString>
-        
-          
-            <!--ULTIMATE CHALLENGE-->
-            <GameDBLocalizedString>         <LocID>DLC_ULTIMATE_CHALLENGE_ID</LocID>                                    <Text>Ultimate challenge</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_ULTIMATE_CHALLENGE_DESCRIPTION</LocID>                           <Text>#925 gets one last chance. Together with #Alpha, they fight for their place among the Sovereigns, as the ultimate challenge awaits them.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_ULTIMATE_CHALLENGE_INTRO</LocID>                                 <Text>!WARNING! This is not the real world. Welcome to the Sovereign Fleet simulation. The Last Chance Program for Commanders has been initiated. Objective: defeat everyone.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_ULTIMATE_CHALLENGE_VICTORY</LocID>                               <Text>You did it. We welcome you back among the Sovereign Commanders. Consider this a great honor and your last chance not to screw it up.</Text>    </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_ULTIMATE_CHALLENGE_925</LocID>                               <Text>What the hell just happened? Where am I?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_ULTIMATE_CHALLENGE_PROGRAM</LocID>                           <Text>After that Thing tore your head off on Chimera, we’re trying to repair you. However, it’s extremely expensive, so we decided to test you first to see whether to make you a commander again ... or a killing bot.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_ULTIMATE_CHALLENGE_PROGRAM_1</LocID>                         <Text>That’s why you’re here, in the simulation of the ultimate challenge, where you’ll face, one by one, all the known commanders of the Siren system. You’ll be given #Alpha as support, who hasn’t exactly proven to be the best commander either. However, the challenge is mainly for you ... so only you need to survive.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_ULTIMATE_CHALLENGE_PROGRAM_2</LocID>                         <Text>I won’t tell you anything more. It’s up to you to find your bearings and show what you’re made of ... break a leg ... actually, better stay in one piece.</Text>  </GameDBLocalizedString>
-
-            <!--CANYON-->
-            <GameDBLocalizedString>         <LocID>DLC_CANYON_ID</LocID>                                                <Text>Canyon</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_CANYON_DESCRIPTION</LocID>                                       <Text>In the canyon there are valuable resources and one of the ways to get across it. Will you find the other way?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_CANYON_INTRO</LocID>                                             <Text>These lands are relatively opened, full of different creatures and, of course, your enemies. Do not hesitate, because you are not safe... In the desert canyon you will find some special structures, in the magnetic fields one small islands with useful resources. Defeat all your enemies. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_CANYON_VICTORY</LocID>                                           <Text>What a amazing day for a victory!</Text>    </GameDBLocalizedString>
-          
-            <!--OUCH-->
-            <GameDBLocalizedString>         <LocID>DLC_OUCH_ID</LocID>                                                  <Text>OUCH</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_OUCH_DESCRIPTION</LocID>                                         <Text>Lots of small islands connected in various ways by bridges and underground passages.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_OUCH_INTRO</LocID>                                               <Text>Welcome to O.U.C.H. — Old Underground Connection Hub. In short, all you need to do is defeat everyone else. Finding your way, however, might be a painful experience.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DLC_OUCH_VICTORY</LocID>                                             <Text>OUCH, you won! That probably hurt somebody!</Text>    </GameDBLocalizedString>
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+<Database>
+  <GameDBStringTable ID="LOC_RU_DLC_PLANET">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>AlexSnowLeo</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!--NEW DLC MAPS-->
+      <!--CLEAR SKY-->
+      <GameDBLocalizedString>
+        <LocID>DLC_CLEAR_SKY_ID</LocID>
+        <Text>Чистое небо</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_CLEAR_SKY_ID_DESCRIPTION</LocID>
+        <Text>Из-за постоянных солнечных вспышек и особого расположения этого места Туман Войны здесь отсутствует. Можешь выплясывать так, будто за тобой наблюдают все.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_CLEAR_SKY_ID_INTRO</LocID>
+        <Text>Враг не может здесь спрятаться. Ты видишь каждое движение, каждый подобранный предмет, каждого поверженного врага. Так что можешь строить планы соответственно. Но есть и один недостаток: враг тоже видит всё.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_CLEAR_SKY_ID_VICTORY</LocID>
+        <Text>Победа! Ты пришёл, ты увидел, ты победил!</Text>
+      </GameDBLocalizedString>
+      <!--STARVATION GAMES-->
+      <GameDBLocalizedString>
+        <LocID>DLC_STARVATION_GAMES_ID</LocID>
+        <Text>Голодные игры</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_STARVATION_GAMES_DESCRIPTION</LocID>
+        <Text>Изгои, бунтовщики, приговорённые к смерти — всех их отправляют сюда сражаться за свою жизнь. Победители получают прощение за свои грехи и могут прожить остаток жизни в покое.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_STARVATION_GAMES_INTRO</LocID>
+        <Text>Добро пожаловать на Голодные игры. Правила просты: выживешь — станешь свободным. Умрёшь — тоже станешь свободным... от жизни. Победить могут только сильнейшие и быстрейшие. Так что поторопитесь и воспользуйтесь щедрыми предложениями от организаторов. Также будьте осторожны и следите за опасными зонами — они движутся, как стрелки часов. Они появляются, когда игры затягиваются, и как только они появляются, время на исходе.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_STARVATION_GAMES_VICTORY</LocID>
+        <Text>Победа! Вы заставили всех их умереть от голода!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_STARVATION_GAMES_MESSAGE_COUNTER_STARTS</LocID>
+        <Text>Уважаемые игроки, для обеспечения надлежащей мотивации активированы зоны очистки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_STARVATION_GAMES_MESSAGE_LAST_CHANCE</LocID>
+        <Text>Последний шанс. Сейчас или смерть!!!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_STARVATION_GAMES_OBJECTIVE_LAST_CHANCE</LocID>
+        <Text>Убей остальных или умри вместе с ними.</Text>
+      </GameDBLocalizedString>
+      <!--UP AND DOWN-->
+      <GameDBLocalizedString>
+        <LocID>DLC_UP_AND_DOWN_ID</LocID>
+        <Text>Вверх и вниз</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_UP_AND_DOWN_ID_DESCRIPTION</LocID>
+        <Text>Как это возможно? Здесь нет холмов, но путь к победе может вести тебя то вверх, то вниз.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_UP_AND_DOWN_ID_INTRO</LocID>
+        <Text>Мало того, что у тебя нет базы — ты должен захватить её до истечения времени. Ты можешь двигаться только вперёд. Так что выбирай путь осторожно: у каждого из них есть свои инструменты, которые помогут тебе одолеть чудовище в конце.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_UP_AND_DOWN_ID_VICTORY</LocID>
+        <Text>Победа! В следующий раз ты пойдёшь тем же путём?</Text>
+      </GameDBLocalizedString>
+      <!--RESOURCE WAAAAR-->
+      <GameDBLocalizedString>
+        <LocID>DLC_RESOURCE_WAR_ID</LocID>
+        <Text>Ресурсная война</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_RESOURCE_WAR_DESCRIPTION</LocID>
+        <Text>Попробуй карту, где у каждой фракции есть доступ только к одному ресурсу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_RESOURCE_WAR_INTRO</LocID>
+        <Text>Пять фракций, каждая из которых может добывать только один ресурс; но чтобы победить, вы должны контролировать их все — и, разумеется, уничтожить остальных.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_RESOURCE_WAR_VICTORY</LocID>
+        <Text>Отлично, вы доказали, что даже начиная с ничего, вы способны построить нечто, что позволит вам одолеть других и получить всё!</Text>
+      </GameDBLocalizedString>
+      <!--ULTIMATE CHALLENGE-->
+      <GameDBLocalizedString>
+        <LocID>DLC_ULTIMATE_CHALLENGE_ID</LocID>
+        <Text>Последнее испытание</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_ULTIMATE_CHALLENGE_DESCRIPTION</LocID>
+        <Text>#925 получает последний шанс. Вместе с #Альфой они сражаются за своё место среди Суверенов, ведь их ждёт решающее испытание.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_ULTIMATE_CHALLENGE_INTRO</LocID>
+        <Text>!ВНИМАНИЕ! Это не реальный мир. Добро пожаловать в симуляцию Суверенного Флота. Программа «Последний шанс» для Командиров активирована. Цель: победить всех.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_ULTIMATE_CHALLENGE_VICTORY</LocID>
+        <Text>Ты справился. Мы приветствуем тебя снова среди командиров Суверенов. Считай это великой честью и своим последним шансом не облажаться.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_ULTIMATE_CHALLENGE_925</LocID>
+        <Text>Какого чёрта только что произошло? Где я?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_ULTIMATE_CHALLENGE_PROGRAM</LocID>
+        <Text>После того, как это Нечто оторвало тебе башку на Химере, мы пытаемся тебя починить. Однако это безумно дорого, поэтому мы решили сначала тебя проверить — возвращать ли тебе звание командира... или превратить в боевого бота.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_ULTIMATE_CHALLENGE_PROGRAM_1</LocID>
+        <Text>Вот почему ты здесь — в симуляции Последнего испытания, где ты встретишься одного за другим со всеми известными командирами системы Сирены. Тебе дадут #Альфу в поддержку — он, кстати, тоже не блещет талантами командира. Но испытание предназначено в первую очередь для тебя... так что выжить должен только ты.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_ULTIMATE_CHALLENGE_PROGRAM_2</LocID>
+        <Text>Больше я ничего не скажу. Тебе самому нужно сориентироваться и показать, на что ты способен... ни пуха... точнее, лучше оставайся целёхонек.</Text>
+      </GameDBLocalizedString>
+      <!--CANYON-->
+      <GameDBLocalizedString>
+        <LocID>DLC_CANYON_ID</LocID>
+        <Text>Каньон</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_CANYON_DESCRIPTION</LocID>
+        <Text>В каньоне есть ценные ресурсы и один из способов пересечь его. Найдёшь ли ты другой путь?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_CANYON_INTRO</LocID>
+        <Text>Эти земли относительно открыты, полны разных существ и, конечно же, твоих врагов. Не медли, тебе здесь небезопасно... В пустынном каньоне ты найдёшь особые сооружения, а в магнитных полях — небольшие островки с полезными ресурсами. Уничтожь всех врагов.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_CANYON_VICTORY</LocID>
+        <Text>Какой прекрасный день для победы!</Text>
+      </GameDBLocalizedString>
+      <!--OUCH-->
+      <GameDBLocalizedString>
+        <LocID>DLC_OUCH_ID</LocID>
+        <Text>УПС</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_OUCH_DESCRIPTION</LocID>
+        <Text>Множество маленьких островов, соединённых самыми разными способами: мостами и подземными переходами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_OUCH_INTRO</LocID>
+        <Text>Добро пожаловать в У.П.С. — Устаревший Подземный Связующий узел. Короче говоря, всё, что нужно сделать — победить всех остальных. А вот найти дорогу может оказаться болезненным опытом.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>DLC_OUCH_VICTORY</LocID>
+        <Text>УПС, ты победил! Наверное, кому-то было больно!</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
