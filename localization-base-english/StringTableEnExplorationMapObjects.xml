@@ -42,7 +42,7 @@
             <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_SKILL_ACADEMY</LocID>                           <Text>Skill Academy</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_SKILL_ACADEMY_DESCRIPTION</LocID>               <Text>Visiting commanders can learn any skill. Can be used once per commander.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_TECH_ABILITY_ACADEMY</LocID>                    <Text>Techie Academy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_TECH_ABILITY_ACADEMY_DESCRIPTION</LocID>        <Text><![CDATA[Visiting commanders can learn <color=SOTS_COLOR_GOLD>any Tech Ability</color>.. Can be used <color=SOTS_COLOR_GOLD>once per commander</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_TECH_ABILITY_ACADEMY_DESCRIPTION</LocID>        <Text><![CDATA[Visiting commanders can learn <color=SOTS_COLOR_GOLD>any Tech Ability</color>. Can be used <color=SOTS_COLOR_GOLD>once per commander</color>.]]></Text>  </GameDBLocalizedString>
            
             <!-- Map objects - upgrades  DEMO revision -->
             <GameDBLocalizedString>         <LocID>MAPOBJ_MINE_A_PRODUCTION_UPGRADE</LocID>                           <Text><![CDATA[+1 <color=SOTS_COLOR_LIMERITE>Limerite</color> produced each turn.]]></Text>  </GameDBLocalizedString>
@@ -118,10 +118,7 @@
                                                                                                                      
             <GameDBLocalizedString>         <LocID>MAPOBJ_TOXIC_CLOUD</LocID>                                         <Text>Supercharged Cloud</Text>  </GameDBLocalizedString><!--UPDATED 29.4-->
             <GameDBLocalizedString>         <LocID>MAPOBJ_FORCE_SHIELD</LocID>                                        <Text>Force Shield</Text>  </GameDBLocalizedString>
-                                                                                                                     
-            <GameDBLocalizedString>         <LocID>MAPOBJ_ACADEMY</LocID>                                             <Text>Academy</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_ACADEMY_DESCRIPTION</LocID>                                 <Text>You can learn some cool abilities here. But not yet. You must be patient.</Text>  </GameDBLocalizedString>
-                                                                                                                     
+                                                                                                                                  
             <!-- Upgrades -->                                                                                        
             <GameDBLocalizedString>         <LocID>RESOURCE_GENERATION</LocID>                                        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Production Upgrade</color>]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>GARRISON_UPGRADE</LocID>                                           <Text><![CDATA[<color=SOTS_COLOR_UPGRADE>Defensive Upgrade</color>]]></Text>  </GameDBLocalizedString>
@@ -159,7 +156,7 @@
             <GameDBLocalizedString>         <LocID>MAPOBJ_ALTAR_OF_CLEAN_SLATE</LocID>                                <Text>Altar of Clean Slate</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MAPOBJ_ALTAR_OF_CLEAN_SLATE_DESCRIPTION</LocID>                    <Text>Visiting commander can forget one skill. Can be used once per cycle.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MAPOBJ_CORPSE</LocID>                                              <Text>Fallen Warrior</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_CORPSE_DESCRIPTION</LocID>                                  <Text>Gives a random resource reward, artifact or equipment.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CORPSE_DESCRIPTION</LocID>                                  <Text><![CDATA[<color=SOTS_COLOR_GOLD>Gives</color> a random <color=SOTS_COLOR_GOLD>resource, artifact or equipment</color>.]]></Text>  </GameDBLocalizedString>
                                                                                                                      
             <GameDBLocalizedString>         <LocID>MAPOBJ_TELEPORT</LocID>                                            <Text>Teleportation Device</Text>  </GameDBLocalizedString>
                                                                                                                      
@@ -207,14 +204,14 @@
             <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_RIGHT_UNLOCKED</LocID>                                 <Text>Gate</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_LEFT_LOCKED</LocID>                                    <Text>Gate</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_LEFT_UNLOCKED</LocID>                                  <Text>Gate</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_DESCRIPTION</LocID>                                    <Text>A gate that can opened with a key of the same color or remotely by a particular event.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_DESCRIPTION</LocID>                                    <Text>A gate that can be opened with a key of the same color or remotely by a particular event.</Text>  </GameDBLocalizedString>
 
             <!-- Objects from the BUILDER skill -->                                                               
             <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_SMALL</LocID>                                        <Text>Small Turret</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_SMALL_DESCRIPTION</LocID>                            <Text>Shoots everything unfiendly.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_SMALL_DESCRIPTION</LocID>                            <Text>Shoots everything unfriendly.</Text>  </GameDBLocalizedString>
                                                                                                                   
             <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_BIG</LocID>                                          <Text>Big Turret</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_BIG_DESCRIPTION</LocID>                              <Text>Shoots everything unfiendly. Adds three unit slots for more defenders.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TURRET_BIG_DESCRIPTION</LocID>                              <Text>Shoots everything unfriendly. Adds three unit slots for more defenders.</Text>  </GameDBLocalizedString>
                                                                                                                   
             <GameDBLocalizedString>         <LocID>MAPOBJ_DRONE_DOG</LocID>                                           <Text>Drone Dog</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MAPOBJ_DRONE_DOG_UPG</LocID>                                       <Text>Long-range Dog</Text>  </GameDBLocalizedString>
@@ -231,10 +228,10 @@
             <GameDBLocalizedString>         <LocID>MAPOBJ_MINING_PROBE_VEIN</LocID>                                   <Text>This probe sits on a {1} vein. Other resources might be mined here as well, but {1} will be the most common.</Text>  </GameDBLocalizedString>
                                                                                                                   
             <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST</LocID>                                             <Text>Remote Outpost</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_DESCRIPTION</LocID>                                 <Text><![CDATA[Outposts allow you to <color=SOTS_COLOR_GOLD>leave guards</color> on the map.\n\nIf a commander has the <color=SOTS_COLOR_GOLD>negotiator skill</color> when negotiating, they can send units to the nearest outpost.\nIf your base has a <color=SOTS_COLOR_GOLD>transport building</color>, it can send one unit stack to an outpost each round.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_DESCRIPTION</LocID>                                 <Text><![CDATA[Outposts allow you to <color=SOTS_COLOR_GOLD>leave guards</color> on the map (4 slots).\nIf a commander has the <color=SOTS_COLOR_GOLD>negotiator skill</color> when negotiating, they can send units to the nearest outpost.\nIf your base has a <color=SOTS_COLOR_GOLD>transport building</color>, it can send one unit stack to an outpost each round.]]></Text>  </GameDBLocalizedString>
                                                                                                                   
             <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_UPG</LocID>                                         <Text>Superior Outpost</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_UPG_DESCRIPTION</LocID>                             <Text><![CDATA[Outposts allow you to <color=SOTS_COLOR_GOLD>leave guards</color> on the map. Superior outpost guards a larger area.\n\nIf a commander has the <color=SOTS_COLOR_GOLD>negotiator skill</color> when negotiating, they can send units to the nearest outpost.\nIf your base has a <color=SOTS_COLOR_GOLD>transport building</color>, it can send one unit stack to an outpost each round.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_UPG_DESCRIPTION</LocID>                             <Text><![CDATA[Outposts allow you to <color=SOTS_COLOR_GOLD>leave guards</color> on the map (7 slots). Superior outpost guards a larger area.\nIf a commander has the <color=SOTS_COLOR_GOLD>negotiator skill</color> when negotiating, they can send units to the nearest outpost.\nIf your base has a <color=SOTS_COLOR_GOLD>transport building</color>, it can send one unit stack to an outpost each round.]]></Text>  </GameDBLocalizedString>
                                                                                                                   
             <GameDBLocalizedString>         <LocID>MAPOBJ_COMMANDER_TRAP</LocID>                                      <Text>Cybersnare</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MAPOBJ_COMMANDER_TRAP_DESCRIPTION</LocID>                          <Text>Catches unsuspecting enemy commanders and leaves them without movement and energy for a turn!</Text>  </GameDBLocalizedString>

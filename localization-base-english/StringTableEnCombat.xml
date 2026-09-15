@@ -11,7 +11,7 @@
             <GameDBLocalizedString>         <LocID>COMBAT_DEFENDER</LocID>                                       <Text>Defender</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_WIN</LocID>                                     <Text>Hooray!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>COMBAT_WIN_TEXT</LocID>                                       <Text>Enemy has been defeated!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_WIN_TEXT</LocID>                                       <Text>Your enemy has been defeated!</Text></GameDBLocalizedString>
                                                                                                                  
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_LOST_HERO</LocID>                               <Text>You lost!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>COMBAT_LOST_HERO_TEXT</LocID>                                 <Text>You suffered a bitter defeat, and the commander abandoned your cause.</Text></GameDBLocalizedString>
@@ -21,17 +21,16 @@
                                                                                                                  
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED</LocID>                               <Text>Retreat!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_TEXT</LocID>                          <Text>Your commander retreated from combat. They retained all their equipped gear, skills, and abilities but lost the entire army.</Text>  </GameDBLocalizedString>
-                                                                                                                 
-            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_PHOENIX</LocID>                         <Text>Tactical Retreat?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_PHOENIX_TEXT</LocID>                    <Text>Retreat from battle? Thanks to your Phoenix artifact, you will save your commander and half of your current army.</Text>  </GameDBLocalizedString>
-                                                                                                                 
-            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX</LocID>                       <Text>Tactical Retreat to Base!</Text>  </GameDBLocalizedString>
-
-                                                                                                                 <!-- TODO XP from this battle? Or levels/skills? -->
-            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX_TEXT</LocID>                  <Text>Your commander retreated to the safety of the nearest empty base. They retained half of their remaining army, all equipment, and any experience they gained.</Text>  </GameDBLocalizedString>
-                                                                                                                 
-            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX_PUB</LocID>                   <Text>Tactical Retreat to the Pub!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX_PUB_TEXT</LocID>              <Text>Your commander retreats to the safety of the pub. They retain half of their remaining army, all equipment, and any experience they gained. You can find them in the nearest pub free of charge. Drinks on you?</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>COMBAT_RETREAT</LocID>                                        <Text>Retreat</Text>  </GameDBLocalizedString>
+                      
+<!--            PHOENIX was changed... no dialog-->
+<!--            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_PHOENIX</LocID>                         <Text>Tactical Retreat?</Text>  </GameDBLocalizedString>-->
+<!--            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_PHOENIX_TEXT</LocID>                    <Text>Retreat from battle? Thanks to your Phoenix artifact, you will save your commander and half of your current army.</Text>  </GameDBLocalizedString>-->
+<!--            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX</LocID>                       <Text>Tactical Retreat to Base!</Text>  </GameDBLocalizedString>-->
+<!--            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX_TEXT</LocID>                  <Text>Your commander retreated to the safety of the nearest empty base. They retained half of their remaining army, all equipment, and any experience they gained.</Text>  </GameDBLocalizedString>-->
+<!--            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX_PUB</LocID>                   <Text>Tactical Retreat to the Pub!</Text>  </GameDBLocalizedString>-->
+<!--            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_PHOENIX_PUB_TEXT</LocID>              <Text>Your commander retreats to the safety of the pub. They retain half of their remaining army, all equipment, and any experience they gained. You can find them in the nearest pub free of charge. Drinks on you?</Text>  </GameDBLocalizedString>-->
                                                                                                                  
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_OPPONENT_RETREATED</LocID>                      <Text>Your Opponent Has Retreated!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_OPPONENT_RETREATED_TEXT</LocID>                 <Text>With certain death approaching, your enemy's remaining forces have legged it!</Text>  </GameDBLocalizedString>
@@ -82,7 +81,8 @@
 
             <GameDBLocalizedString>         <LocID>MESSAGE_MORALE_EXTRA_TURN</LocID>                             <Text>Thanks to high morale, {Stack} can move again.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MESSAGE_MORALE_LOSE_TURN</LocID>                              <Text>Due to low morale, {Stack} loses their turn.</Text></GameDBLocalizedString>
-
+            <GameDBLocalizedString>         <LocID>MESSAGE_BURN_LOSE_TURN</LocID>                                <Text>Due to burn, {Stack} loses their turn.</Text></GameDBLocalizedString>
+            
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_BLEEDING</LocID>                               <Text>{Stack} is bleeding and received {float} damage.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_BURNING</LocID>                                <Text>{Stack} is burning and received {float} damage.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_CORROSIVE</LocID>                              <Text>{Stack} is rusting away and received {float} damage.</Text></GameDBLocalizedString>
@@ -101,9 +101,9 @@
             <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_DAMAGE_SHIELD_DESTROYED</LocID>                <Text>{CombatActor} attacked {AttackTarget} dealing {int} damage to the shield and destroying it.</Text></GameDBLocalizedString>
             
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_MECHANIC_MEND</LocID>                          <Text>{CombatActor} has mended {Stack}, repairing {int} points.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_MECHANIC_MEND_REVIVED</LocID>                  <Text>{CombatActor} has mended {Stack}, repairing {int} points. {int} units got a second chance.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_MECHANIC_MEND_REVIVED</LocID>                  <Text>{CombatActor} has mended {Stack}, repairing {int} points. {int} unit(s) got a second chance.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_REPAIR</LocID>                                 <Text>{CombatActor} has repaired {Stack}, repairing {int} points.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_REPAIR_REVIVED</LocID>                         <Text>{CombatActor} has repaired {Stack}, repairing {int} points. {int} units got a second chance.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_REPAIR_REVIVED</LocID>                         <Text>{CombatActor} has repaired {Stack}, repairing {int} points. {int} unit(s) got a second chance.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_MORALE_BOOST</LocID>                           <Text>{CombatActor} has used Motivational Speech on {Stack}, adding {int} points to morale.</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_SPAWNED_SENTRY</LocID>                         <Text>{CombatActor} has rigged up a sentry turret.</Text></GameDBLocalizedString>
@@ -133,7 +133,7 @@
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POISON_DAMAGE</LocID>                     <Text>Poisoned</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POISON_DAMAGE_DESCRIPTION</LocID>         <Text>Unit loses 2% of their health, and their DMG has decreased by 20%.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BURNING_DAMAGE</LocID>                    <Text>Burning</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BURNING_DAMAGE_DESCRIPTION</LocID>        <Text>Unit loses 4% of their health, and has 30% chance to loose their turn.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BURNING_DAMAGE_DESCRIPTION</LocID>        <Text>Unit loses 4% of their health, and has 30% chance to lose their turn.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_SHOCK_DAMAGE</LocID>                      <Text>Shocked</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_SHOCK_DAMAGE_DESCRIPTION</LocID>          <Text>Unit loses 5% of their health, and their INITIATIVE has decreased by 30%.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_BLEEDING_DAMAGE</LocID>                   <Text>Bleeding</Text></GameDBLocalizedString>
@@ -191,6 +191,8 @@
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PIRATE_CANNON_TARGET</LocID>              <Text>Missile lock</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PIRATE_CANNON_TARGET_DESCRIPTION</LocID>  <Text>Unit is targeted by a missile</Text></GameDBLocalizedString>
 
+            <GameDBLocalizedString>         <LocID>HEX_EFFECT_LAST_FOR_X_ROUNDS</LocID>  <Text>Hex effect lasts for {1} round(s)</Text></GameDBLocalizedString>
+
             <GameDBLocalizedString>         <LocID>REMAINING_UNITS</LocID>                                       <Text>Remaining Units</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>REMAINING_HEALTH</LocID>                                      <Text>Health</Text></GameDBLocalizedString>
                                                                                                                  
@@ -240,6 +242,9 @@
             <GameDBLocalizedString>         <LocID>TOOLTIP_UNIT_CAN_RETALIATE_MORE</LocID>                       <Text>This unit can still retaliate (more than once) this round</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>RETRY_BATTLE</LocID>                                          <Text>Retry battle!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_SOUND_EVENT</LocID>                                   <Text>Sound event on {Stack} {string}</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_SOUND_EVENT_GLOBAL</LocID>                            <Text>Sound event {string}</Text></GameDBLocalizedString>
             
         </LocalizedStrings>
     </GameDBStringTable>

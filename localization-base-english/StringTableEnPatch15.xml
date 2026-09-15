@@ -12,7 +12,7 @@
             <GameDBLocalizedString> <LocID>MANUAL_BASE_TITLE</LocID>                         <Text>BASE</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_BASE_SUBTITLE</LocID>                      <Text>This is your Base, where you can build structures, hire Commanders, learn Abilities and recruit Units.</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_BASE_COMMANDER_GARRISONED</LocID>          <Text>Commander Garrisoned in the Base</Text></GameDBLocalizedString>
-            <GameDBLocalizedString> <LocID>MANUAL_BASE_HIRE_ARMY_UNITS</LocID>               <Text>Hire Army Units at Recruitment Center</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_HIRE_ARMY_UNITS</LocID>               <Text>Hire Units at Recruitment Center</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_BASE_BUILD_STRUCTURES</LocID>              <Text><![CDATA[<b>Build Base Structures here</b> (once per turn)]]></Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_BASE_HIRE_COMMANDERS</LocID>               <Text>Hire Commanders</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_BASE_NUMBER_OF_STRUCTURES</LocID>          <Text>Number of Structures</Text></GameDBLocalizedString>
@@ -38,7 +38,7 @@
             <GameDBLocalizedString> <LocID>MANUAL_COMBAT_UNITS_IN_STACK</LocID>              <Text>Number of Units in a Stack</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMBAT_MOVEMENT_RANGE</LocID>              <Text><![CDATA[<color=#9FA19C>Movement</color>\n Range]]></Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMBAT_RANGED_ATTACK_RANGE</LocID>         <Text><![CDATA[<color=#FF0000>Precise Attack</color>\n Range]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_FAR_ATTACK_RANGE</LocID>            <Text><![CDATA[<color=#FC7EFB>Far Attack</color>\n Range]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_FAR_ATTACK_RANGE</LocID>            <Text><![CDATA[<color=#FC7EFB>Imprecise Attack</color>\n Range]]></Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMBAT_ABILITY_BOOK</LocID>                <Text>Ability Book</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMBAT_WAIT</LocID>                        <Text>Wait (move back in queue)</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMBAT_SPECIAL_ABILITY</LocID>             <Text><![CDATA[Unit <color=#E1D40A>SPECIAL ABILITY</color>]]></Text></GameDBLocalizedString>
@@ -56,7 +56,7 @@
             <!-- Manual - COMMANDER MENU page -->
             <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_TITLE</LocID>               <Text>COMMANDER MENU</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_SUBTITLE</LocID>            <Text>Left-click on your Commander or on the Commander menu button to gain access to QuickCast, Consumables, Building and other actions.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_OPEN_BUILDING</LocID>       <Text>Open Building Objects Menu</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_OPEN_BUILDING</LocID>       <Text>Open Building Menu</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_SET_UP_CAMP</LocID>         <Text>Set Up a Camp</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_ENTER_STRUCTURE</LocID>     <Text><![CDATA[<b>Enter Structure</b> (Spacebar)]]></Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_QUICKCAST</LocID>           <Text>QuickCast Ability</Text></GameDBLocalizedString>
@@ -64,7 +64,7 @@
             <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_EDIT_QUICKCAST</LocID>      <Text>Edit QuickCast</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_COMMANDER_PANEL</LocID>     <Text>Commander Panel</Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_CONSUMABLES</LocID>         <Text><![CDATA[<b>Consumables</b>\n(left mouse click to use)]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_BUILDING_LIST</LocID>       <Text><![CDATA[Building Map\n Objects List]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_BUILDING_LIST</LocID>       <Text><![CDATA[List of Map Objects\n you can build]]></Text></GameDBLocalizedString>
             <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_CONTINUE_ROUTE</LocID>      <Text>Continue planned route</Text></GameDBLocalizedString>
 
             <!-- Manual - COMMANDER page -->
@@ -121,19 +121,23 @@
             <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_MOVEMENT_SPEED</LocID>         <Text>Movement Speed</Text></GameDBLocalizedString>
             
             <!--BATTLE ARENA-->
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_NEW_DESCRIPTION</LocID><Text><![CDATA[The arena master offers you a wager: face a copy of the strongest enemy commander on the map. Choose your bet — win and you double your stake; lose and your stake goes to the enemy player. Your army won't suffer any losses either way.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>DIALOG_OBJECT_BATTLE_ARENA_NEW_TEXT</LocID><Text><![CDATA[A gladiatorial pit where champions wager <color=SOTS_COLOR_GOLD>Aura Coins</color> on a duel against a rival's mightiest commander.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>DIALOG_OBJECT_BATTLE_ARENA_NEW_FIGHT</LocID><Text>Fight</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_WON</LocID><Text>You won the wager!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_LOST</LocID><Text><![CDATA[You lost the wager and forfeited {1} <sprite name="TMPro_sprites_aura_coin">.]]></Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_CHALLENGED</LocID><Text>You have been challenged in the Battle Arena. Defend yourself!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_DEFEND</LocID><Text>Defend!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_DEFENDED</LocID><Text>You have successfully defended your champion in the Battle Arena and claimed the challenger's wager!</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_ALREADY_VISITED</LocID><Text>This Commander has already fought in the Arena.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_NO_CHALLENGER</LocID><Text>There is no worthy opponent to face.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_PLACE_BET</LocID><Text>Place your bet</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_NOT_ENOUGH</LocID><Text>You don't have enough Aura Coins.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_MIN_BET</LocID><Text>Minimum bet:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_NEW_DESCRIPTION</LocID>       <Text><![CDATA[The arena master offers you a wager: face a copy of the strongest enemy commander on the map. Choose your bet — win and you double your stake; lose and your stake goes to the enemy player. Your army won't suffer any losses either way.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>DIALOG_OBJECT_BATTLE_ARENA_NEW_TEXT</LocID>       <Text><![CDATA[A gladiatorial pit where champions wager <color=SOTS_COLOR_GOLD>Aura Coins</color> on a duel against a rival's mightiest commander.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>DIALOG_OBJECT_BATTLE_ARENA_NEW_FIGHT</LocID>      <Text>Fight</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_WON</LocID>                   <Text>You won the wager!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_LOST</LocID>                  <Text><![CDATA[You lost the wager and forfeited {1} <sprite name="TMPro_sprites_aura_coin">.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_CHALLENGED</LocID>            <Text>You have been challenged in the Battle Arena. Defend yourself!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_DEFEND</LocID>                <Text>Defend!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_DEFENDED</LocID>              <Text>You have successfully defended your champion in the Battle Arena and claimed the challenger's wager!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_ALREADY_VISITED</LocID>       <Text>This Commander has already fought in the Arena.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_NO_CHALLENGER</LocID>         <Text>There is no worthy opponent to face.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_PLACE_BET</LocID>             <Text>Place your bet</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_NOT_ENOUGH</LocID>            <Text>You don't have enough Aura Coins.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_MIN_BET</LocID>               <Text>Minimum bet:</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString><LocID>DLC_BEASTMASTERS_ENABLED</LocID>                  <Text>Xenauri Refugees</Text></GameDBLocalizedString>
+
+
         </LocalizedStrings>
     </GameDBStringTable>
 </Database>

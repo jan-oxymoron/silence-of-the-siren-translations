@@ -26,6 +26,8 @@
                                                                                                            
             <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MORALE</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_GOLD>Morale</color>]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MAX_ENERGY</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_ENERGY>Energy Points</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_BASE_VALUE</LocID>                                  <Text>Baseline</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ENERGY_POOL</LocID>                                 <Text>Energy pool</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_ENERGY_REPLENISHED_BY_DAY</LocID>         <Text>Energy replenished each turn</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MOVEMENT_POINTS</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Movement Points</color>]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MAX_MOVEMENT_POINTS</LocID>               <Text><![CDATA[Max <color=SOTS_COLOR_MOVEMENT>Movement Points</color>]]></Text>  </GameDBLocalizedString>
@@ -98,9 +100,9 @@
             <!--Exploration skills-->
             <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORER</LocID>                              <Text>Explorer</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORER_DESCRIPTION</LocID>                  <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>4 Movement Points</color> with each skill level.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER1</LocID>                           <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>4 Movement Points</color>.\nMeeting any friendly commander restores <color=SOTS_COLOR_MOVEMENT>2 Movement Points</color> once per phase.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER2</LocID>                           <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>8 Movement Points</color>.\nMeeting any friendly commander restores <color=SOTS_COLOR_MOVEMENT>4 Movement Points</color> once per phase.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER3</LocID>                           <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>12 Movement Points</color>.\nMeeting any friendly commander restores <color=SOTS_COLOR_MOVEMENT>6 Movement Points</color> once per phase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER1</LocID>                           <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>8 Movement Points</color>.\nMeeting any friendly commander restores <color=SOTS_COLOR_MOVEMENT>4 Movement Points</color> once per phase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER2</LocID>                           <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>12 Movement Points</color>.\nMeeting any friendly commander restores <color=SOTS_COLOR_MOVEMENT>6 Movement Points</color> once per phase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER3</LocID>                           <Text><![CDATA[Permanently adds <color=SOTS_COLOR_MOVEMENT>16 Movement Points</color>.\nMeeting any friendly commander restores <color=SOTS_COLOR_MOVEMENT>8 Movement Points</color> once per phase.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>HERO_SKILL_ENGINEER</LocID>                              <Text>Engineer</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_SKILL_ENGINEER_DESCRIPTION</LocID>                  <Text><![CDATA[Adds a <color=SOTS_COLOR_ENERGY>5 Energy Point</color> daily recharge with each skill level, and upgrades other aspects of energy use.]]></Text>  </GameDBLocalizedString>
@@ -165,7 +167,7 @@
 
             <GameDBLocalizedString>         <LocID>HERO_SKILL_CHESS_MASTER</LocID>                          <Text>Chess Master</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_SKILL_CHESS_MASTER_DESCRIPTION</LocID>              <Text>Allows you to position this commander's army at the beginning of a battle.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENABLE_TACTICS</LocID>                      <Text>Enables tactics, {1} rows</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENABLE_TACTICS</LocID>                      <Text>Enables tactics, level {1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MORALE_BOOST</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Morale Boost +{1}%</color>]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>SKILL_EFFECT_INITIATIVE_BOOST</LocID>                    <Text>Initiative Boost +{1}</Text>  </GameDBLocalizedString>
 

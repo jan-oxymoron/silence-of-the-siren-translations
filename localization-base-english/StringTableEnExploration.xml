@@ -273,7 +273,7 @@
             <GameDBLocalizedString>         <LocID>DIALOG_CONSUMABLE_USE</LocID>                                 <Text>Use now</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_EQUIPMENT_EQUIP</LocID>                                <Text>Equip</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL_DIALOG_INFO</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_ENERGY>+20 Energy</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_RECHARGE_CELL_DIALOG_INFO</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_ENERGY>+{1} Energy</color>]]></Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>CONSUMABLE_DATA_FRAGMENT_DIALOG_INFO</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_XP>+500 XP</color>]]></Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>CONSUMABLE_FUEL_STOCK_DIALOG_INFO</LocID>                     <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>+{1} Movement Points</color>]]></Text></GameDBLocalizedString>
 
@@ -294,7 +294,8 @@
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_2</LocID>                          <Text>Battle Arena</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_3</LocID>                          <Text>Battle Arena</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY</LocID>                    <Text>Battle Arena</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_TEXT</LocID>                       <Text><![CDATA[Battle three rounds against random armies. <color=SOTS_COLOR_GOLD>Round 1</color> reward: <color=SOTS_COLOR_GOLD>Random resource</color>. <color=SOTS_COLOR_GOLD>Round 2</color> reward: <color=SOTS_COLOR_GOLD>25 Morale boost</color>(4 phases). <color=SOTS_COLOR_GOLD>Round 3</color> reward: Random <color=SOTS_COLOR_GOLD>atrribute</color> permanently <color=SOTS_COLOR_GOLD>increased</color> by 1.]]></Text></GameDBLocalizedString>
+            <!--Updated 10/10/24 but not version v2 because this can still change after feedback-->
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_TEXT</LocID>                       <Text><![CDATA[Battle three rounds against random armies. Rewad is based on <color=SOTS_COLOR_RED>hazard</color>. <color=SOTS_COLOR_GOLD>Round 1</color> reward: <color=SOTS_COLOR_GOLD>Random resource</color>. <color=SOTS_COLOR_GOLD>Round 2</color> reward: <color=SOTS_COLOR_GOLD>Morale boost</color>(4 phases). <color=SOTS_COLOR_GOLD>Round 3</color> reward: Random <color=SOTS_COLOR_GOLD>atrribute</color> permanently <color=SOTS_COLOR_GOLD>increased</color>.]]></Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY_TEXT</LocID>               <Text>Congratulations! You have beaten all three rounds. Come back next cycle and try to repeat your success.</Text></GameDBLocalizedString>
             
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_TRAINING_GROUND</LocID>                         <Text>Training Grounds</Text></GameDBLocalizedString>
@@ -306,6 +307,15 @@
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_2</LocID>                    <Text>Round 2/3</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_ROUND_3</LocID>                    <Text>Round 3/3</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_VICTORY_BUTTON</LocID>             <Text>Victory</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_NEW</LocID>                        <Text>{LOC:MAPOBJ_BATTLE_ARENA}</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BATTLE_ARENA_WON</LocID>                               <Text>{LOC:MAPOBJ_BATTLE_ARENA}</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BATTLE_ARENA_LOST</LocID>                              <Text>{LOC:MAPOBJ_BATTLE_ARENA}</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BATTLE_ARENA_ALREADY_VISITED</LocID>                   <Text>{LOC:MAPOBJ_BATTLE_ARENA}</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BATTLE_ARENA_NO_CHALLENGER</LocID>                     <Text>{LOC:MAPOBJ_BATTLE_ARENA}</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_NO_GOLD</LocID>                    <Text>{LOC:MAPOBJ_BATTLE_ARENA}</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BATTLE_ARENA_CHALLENGED</LocID>                        <Text>{LOC:MAPOBJ_BATTLE_ARENA}</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BATTLE_ARENA_DEFENDED</LocID>                          <Text>{LOC:MAPOBJ_BATTLE_ARENA}</Text></GameDBLocalizedString>
+            
             
             <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_VISITED_ROUND</LocID>                      <Text>Round</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_CONQUERED</LocID>                          <Text><![CDATA[<color=SOTS_COLOR_LIMERITE>Conquered</color>]]></Text></GameDBLocalizedString>
@@ -319,7 +329,7 @@
             <GameDBLocalizedString>         <LocID>MAP_STATS</LocID>                                             <Text>Statistics</Text></GameDBLocalizedString>
          
             <GameDBLocalizedString>         <LocID>CYCLE_RULES_NORMAL</LocID>                                    <Text>Normal cycle.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CYCLE_RULES_NORMAL_DESCIPTION</LocID>                         <Text>Nothing unusual is happenning on the map today.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CYCLE_RULES_NORMAL_DESCIPTION</LocID>                         <Text>Nothing unusual is happening on the map today.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_UNITS</LocID>                               <Text>Superhabitability!</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>CYCLE_RULES_EXTRA_UNITS_DESCRIPTION</LocID>                   <Text>More units for hire at all bases!</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>CYCLE_RULES_LESS_UNITS</LocID>                                <Text>Pandemic!</Text></GameDBLocalizedString>

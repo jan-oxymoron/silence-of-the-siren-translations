@@ -12,7 +12,7 @@
             <GameDBLocalizedString>         <LocID>OK</LocID>                                               <Text>Ok</Text>  </GameDBLocalizedString>
             
             <!-- Menus -->
-            <GameDBLocalizedString>         <LocID>GAME_EDITOR</LocID>                                      <Text>Editor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GAME_EDITOR</LocID>                                      <Text>Map editor</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>         <LocID>DEFAULT_MAP</LocID>                                      <Text>Default map</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>OBJECTS_MAP</LocID>                                      <Text>Object test map</Text>  </GameDBLocalizedString>
@@ -95,8 +95,8 @@
             <GameDBLocalizedString>         <LocID>SAVE_DIALOG_SINGLEPLAYER</LocID>                         <Text>Singleplayer</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>SAVE_DIALOG_AUTOSAVES</LocID>                            <Text>Autosaves</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_SORT_NAME</LocID>                            <Text>↑↓ Name</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_SORT_DATE</LocID>                            <Text>↑↓ Date</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_SORT_NAME</LocID>                            <Text>Name</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_SORT_DATE</LocID>                            <Text>Date</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>EFFECT_LOC</LocID>                                       <Text>Effect</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>COSTS_LOC</LocID>                                        <Text>Costs</Text>  </GameDBLocalizedString>
@@ -109,7 +109,7 @@
             <GameDBLocalizedString>         <LocID>NEXT_PLAYER</LocID>                                      <Text>Next:</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_PHASE_HEADING</LocID>                <Text>Phase</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_PHASE_DESCRIPTION</LocID>            <Text>Cycle has 4 phases. All bases generate units at the start of the first phase.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_PHASE_DESCRIPTION</LocID>            <Text>Cycle has {1} phases. All bases generate units at the start of the first phase.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_CURRENT_PHASE</LocID>                <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Current phase</color>: ]]></Text>  </GameDBLocalizedString>
 
             <!--top panel hover tooltips, related: KEYBOARD_EXPLORATION -->
@@ -144,10 +144,10 @@
             <GameDBLocalizedString>         <LocID>BUTTON_OPTIONS</LocID>                                   <Text>Options</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_RETREAT</LocID>                                   <Text>Retreat</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_AUTO_COMBAT</LocID>                               <Text>Auto combat</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUTTON_SKIP</LocID>                                      <Text>Pass turn [P] [Space]</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUTTON_WAIT</LocID>                                      <Text>Wait [W]</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUTTON_SKIP</LocID>                                      <Text>Pass turn</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUTTON_WAIT</LocID>                                      <Text>Wait</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_FAVOURITE_ABILITIES</LocID>                       <Text>Commander's quick access abilities panel</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUTTON_ABILITIES</LocID>                                 <Text>Commander's abilities are available!\n(Click on your commander's face)!\n[A]</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUTTON_ABILITIES</LocID>                                 <Text>Commander's abilities are available!\n(Click on your commander's face)!</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_ABILITIES_AI</LocID>                              <Text>This commander can still use their abilities this round!</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_ABILITIES_INACTIVE</LocID>                        <Text>Commander's abilities are not available</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_ABILITIES_COOLDOWN</LocID>                        <Text>Wait for your turn to use your commander's abilities</Text></GameDBLocalizedString>
@@ -186,7 +186,7 @@
             <GameDBLocalizedString>         <LocID>TOOLTIP_BIO_UNIT</LocID>                                 <Text>This is a bio unit</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>TOOLTIP_TECH_UNIT</LocID>                                <Text>This is a tech unit</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>TOOLTIP_NEXT_HERO</LocID>                                <Text>Switch to next commander with available actions.\n[N]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_NEXT_HERO</LocID>                                <Text>Switch to next commander with available actions.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>         <LocID>NEUTRAL_BASE</LocID>                                     <Text>A neutral base.</Text></GameDBLocalizedString>
             
