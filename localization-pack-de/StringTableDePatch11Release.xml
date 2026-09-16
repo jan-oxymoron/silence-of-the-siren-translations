@@ -1,0 +1,348 @@
+<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_11_RELEASE">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Multiplayer -->
+            <GameDBLocalizedString>         <LocID>DIALOG_CLIENT_DISCONNECTED</LocID>             <Text>Verbindung verloren!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_CLIENT_DISCONNECTED_TEXT</LocID>        <Text>Verbindung zum Mehrspieler-Spiel verloren!</Text></GameDBLocalizedString>  
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_SERVER_SIDE_CLIENT_DISCONNECTED</LocID>        <Text>Ein Spieler hat die Verbindung verloren!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_SERVER_SIDE_CLIENT_DISCONNECTED_TEXT</LocID>   <Text></Text></GameDBLocalizedString> <!-- Intentionally empty -->
+            <GameDBLocalizedString>         <LocID>DIALOG_SERVER_SIDE_CLIENT_INFO_TEXT</LocID>    <Text>Verbindung zum {1}-Spieler verloren!</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MULTIPLAYER</LocID>                            <Text>Mehrspieler</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>NETWORK_PLAYER</LocID>                         <Text>Aktueller Netzwerkspieler</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HOST</LocID>                                   <Text>Host-Szenario</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HOST_SAVED_GAME</LocID>                        <Text>Spiel vom Host gespeichert</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>JOIN</LocID>                                   <Text>Spiel beitreten</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>JOIN_LOBBY</LocID>                             <Text>Lobby beitreten</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CREATE_LOBBY</LocID>                           <Text>Steam-Lobby erstellen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CREATE_SAVE_LOBBY</LocID>                      <Text>Steam-Lobby aus Spielstand erstellen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>AVAILABLE_GAMES</LocID>                        <Text>Verfügbare Spiele</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>JOINING_LOBBY</LocID>                          <Text>Trete der Lobby bei ...</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>FRIENDS_ONLY</LocID>                           <Text>Nur Freunde</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>WAITING_FOR_OPPONENT</LocID>                   <Text>Warte auf Gegner ...</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SAVE_ONLY_DURING_OWN_TURN</LocID>              <Text>Speichern (während deines Zugs)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HOST_DEAD_INFO</LocID>                         <Text>Du bist der Host: LASS DIESES FENSTER GEÖFFNET, damit die anderen Spieler das Spiel beenden können!\nSie können das Spiel auch speichern und anschließend selbst hosten.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STEAM</LocID>                                  <Text>Steam</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LAN</LocID>                                    <Text>LAN</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOBBY</LocID>                                  <Text>Steam-Lobby</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LAN_HOST</LocID>                               <Text>Lokaler Netzwerk-Host</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CLIENT</LocID>                                 <Text>Client</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HOST_IS_HOSTING_A_MAP</LocID>                  <Text>{1} hostet {2}</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOBBY_OR_HOST_IS_ACTIVE</LocID>                <Text>{1} ist aktiv. Karte: {2}</Text></GameDBLocalizedString>
+            
+            <!-- Editor -->
+            <GameDBLocalizedString>         <LocID>GENERATED_MAP</LocID>                          <Text>Generierte Karte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>KEEP_MOVEMENT</LocID>                          <Text>Bewegungspunkte behalten</Text></GameDBLocalizedString>
+            
+            <!-- Gameplay / map -->
+
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_FAIR</LocID>                        <Text>Fair</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_CHALLENGING</LocID>                 <Text>Herausfordernd</Text></GameDBLocalizedString>
+            
+            <!--NEW INTERACTIVE OBJECTS-->
+            <!--Spingate-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SPIN_GATE</LocID>                                             <Text>Untergrundversteck</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SPIN_GATE_DESCRIPTION</LocID>                                 <Text><![CDATA[Ein Versteck voll mit Geld ... und noch viel mehr! Aber hauptsächlich Schrott. <color=SOTS_COLOR_GOLD>Erhalte eine Belohnung</color>. Bei einer <color=SOTS_COLOR_GOLD>schnellen Suche</color> erhältst du eine <color=SOTS_COLOR_GOLD>kleine Belohnung</color>, aber du kannst im <color=SOTS_COLOR_RED>nächsten Zyklus</color> erneut vorbeischauen. <color=SOTS_COLOR_GOLD>Durchsuche es gründlich</color>, um eine <color=SOTS_COLOR_GOLD>große Belohnung</color> zu erhalten. Anschließend musst du <color=SOTS_COLOR_RED>3 Zyklen</color> abwarten, bevor dort jemand wieder etwas Wertvolles versteckt.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SPIN_GATE</LocID>                                      <Text>Untergrundversteck</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SPIN_GATE_TEXT</LocID>                                 <Text>Die Mühe, die du in die Suche investierst, wird entsprechend belohnt werden. Aber je gründlicher du suchst, desto länger wird es dauern, bis jemand hier wieder etwas Wertvolles versteckt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SPIN_GATE_DONE</LocID>                                 <Text>Geplündertes Versteck</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SPIN_GATE_DONE_TEXT</LocID>                            <Text>Du hast unter all dem Schrott etwas Wertvolles gefunden! Nur zu, nimm deinen Fund mit, aber erzähle niemandem, woher du ihn hast.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SPIN_GATE_SOFT_SPIN</LocID>                            <Text>Schnelle Suche</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SPIN_GATE_HARD_SPIN</LocID>                            <Text>Gründliche Suche</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_RECHARGING</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_DISABLED>Wird „wiederaufgefüllt“</color>]]></Text></GameDBLocalizedString>
+
+            <!--Stone of MisFortune-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_STONE_OF_MISFORTUNE</LocID>                                   <Text>Stein des Unglücks</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_STONE_OF_MISFORTUNE_DESCRIPTION</LocID>                       <Text><![CDATA[Es wird gemunkelt, dass das <color=SOTS_COLOR_GOLD>Berühren</color> des Steins zu positiven <color=SOTS_COLOR_GOLD>Belohnungen wie Erfahrung, Ressourcen</color> und einigen <color=SOTS_COLOR_GOLD>nützlichen Stärkungen</color> führen kann, wenn man <color=SOTS_COLOR_RED>Glück hat</color>. Wenn man <color=SOTS_COLOR_GOLD>kein Glück hat</color>, <color=SOTS_COLOR_RED>kann das Gegenteil passieren</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STONE_OF_MISFORTUNE</LocID>                            <Text>Stein des Unglücks</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STONE_OF_MISFORTUNE_TEXT</LocID>                       <Text>Hab keine Angst. Leg deine Hand auf den Stein und schau, was passiert. Das Glück ist mit den Mutigen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STONE_OF_MISFORTUNE_SUCCESS</LocID>                    <Text>Stein des Erfolgs</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STONE_OF_MISFORTUNE_SUCCESS_TEXT</LocID>               <Text>Du hast großen Mut bewiesen und wurdest dafür belohnt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STONE_OF_MISFORTUNE_FAIL</LocID>                       <Text>Stein des Versagens</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STONE_OF_MISFORTUNE_FAIL_TEXT</LocID>                  <Text>Hm, das war wohl nichts. Dein „Glück” hat dich etwas gekostet. Aber versuch es im nächsten Zyklus noch einmal. Vielleicht hast du dann mehr Glück.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STONE_OF_MISFORTUNE_LUCK</LocID>                       <Text>Versuch dein Glück!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_STONE_OF_MISFORTUNE_LOSS</LocID>                              <Text>Und außerdem verlierst du:</Text></GameDBLocalizedString>
+
+            <!--Overcharger-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OVERCHARGER</LocID>                                           <Text>Überlader</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OVERCHARGER_DESCRIPTION</LocID>                               <Text><![CDATA[Macht genau das, was man erwarten würde. Er <color=SOTS_COLOR_ENERGY>lädt nicht nur deine Energie voll auf</color>, sondern <color=SOTS_COLOR_GOLD>verdoppelt sie</color> sogar.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_OVERCHARGED</LocID>                                    <Text><![CDATA[<color=SOTS_COLOR_LIGHT_GREEN>Überladen</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EFFECT_UNTIL_DEPLETION_LOC</LocID>                                   <Text>Bis zur Erschöpfung</Text></GameDBLocalizedString>
+
+            <!--Psy abilitydemy-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_PSY_ABILITY_ACADEMY</LocID>                       <Text>Psycho-Akademie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_EXPLORATION_PSY_ABILITY_ACADEMY_DESCRIPTION</LocID>           <Text><![CDATA[Kommandanten können hier <color=SOTS_COLOR_GOLD>eine beliebige Psycho-Fähigkeit</color> erlernen. Kann <color=SOTS_COLOR_GOLD>einmal pro Kommandant</color> verwendet werden.]]></Text>  </GameDBLocalizedString>
+
+            <!--Hatchery-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_HATCHERY</LocID>                                              <Text>Brutstätte</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_HATCHERY_DESCRIPTION</LocID>                                  <Text><![CDATA[Kommandanten können hier eine beliebige <color=SOTS_COLOR_GOLD>Einheit</color> platzieren. Nach <color=SOTS_COLOR_GOLD>einem Zyklus</color> erhöht sich die <color=SOTS_COLOR_GOLD>Anzahl der Einheiten</color> <color=SOTS_COLOR_GOLD>um 50 %</color> oder mindestens um eine zusätzliche Einheit.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_HATCHERY_TEXT</LocID>                                  <Text>Lass uns ein paar Einheiten hineinstecken, damit sie sich vermehren!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_HATCHING</LocID>                                  <Text><![CDATA[<color=SOTS_COLOR_DISABLED>Wird gebrütet</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_HATCHED</LocID>                                   <Text><![CDATA[<color=SOTS_COLOR_GREEN>Ausgebrütet</color>]]></Text></GameDBLocalizedString>
+            
+            <!--Almighty eye-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ALMIGHTY_EYE</LocID>                                          <Text>Allmächtiges Auge</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_ALMIGHTY_EYE_DESCRIPTION</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_GOLD>Deckt</color> den anvisierten <color=SOTS_COLOR_GOLD>5x5 Felder großen Bereich</color> auf. Kann einmal pro Zyklus verwendet werden.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_AlMIGHTY_EYE</LocID>                                   <Text>Allmächtiges Auge</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_ALMIGHTY_EYE_TEXT</LocID>                              <Text>Ich sehe ALLES. Und mit alles meine ich einen 5x5 Felder großen Bereich deiner Wahl.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_REVEAL</LocID>                                           <Text>Bereich aufdecken</Text></GameDBLocalizedString>
+            
+            <!--Surprise egg-->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SURPRISE_EGG</LocID>                                          <Text>Überraschungsei</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SURPRISE_EGG_DESCRIPTION</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_GOLD>Verwandelt</color> eine ausgewählte <color=SOTS_COLOR_GOLD>Einheit zufällig</color> in <color=SOTS_COLOR_GOLD>eine andere</color>. Kann einmal pro Phase verwendet werden.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_SURPRISE_EGG</LocID>                                          <Text>Überraschung!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_SURPRISE_EGG_TEXT</LocID>                                     <Text><![CDATA[<color=SOTS_COLOR_GOLD>Verwandelt</color> eine ausgewählte <color=SOTS_COLOR_GOLD>Einheit zufällig</color> in <color=SOTS_COLOR_GOLD>eine andere</color>. \nAufgewertete Einheiten bleiben aufgewertet und nicht aufgewertete Einheiten haben eine Chance von 50 %, aufgewertet zu werden, wenn die neue zufällige Einheit über eine aufgewertete Variante verfügt.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_TRANSFORMING</LocID>                              <Text><![CDATA[<color=SOTS_COLOR_DISABLED>Wird umgewandelt</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_OBJECT_TRANSFORMED</LocID>                               <Text><![CDATA[<color=SOTS_COLOR_GREEN>Umgewandelt</color>]]></Text></GameDBLocalizedString>
+
+            <!--Battle arena update-->
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_DAMAGE</LocID>                            <Text>mit Schaden</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_BATTLE_ARENA_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Platzieren, um deine <color=SOTS_COLOR_GOLD>Kampf-Skills</color> <color=SOTS_COLOR_GOLD>auf die Probe zu stellen</color>. Du kannst an bis zu <color=SOTS_COLOR_GOLD>drei Runden</color> <color=SOTS_COLOR_GOLD>teilnehmen</color> und gegen zufällige Armeen antreten. <color=SOTS_COLOR_GOLD>Die Belohnung</color> hängt von der <color=SOTS_COLOR_RED>Gefahr</color> ab. Du kannst <color=SOTS_COLOR_GOLD>ohne Verluste</color> für <color=SOTS_COLOR_XP>reduzierte Erfahrungspunkte</color> kämpfen, oder <color=SOTS_COLOR_GOLD>mit Verlusten</color> für die <color=SOTS_COLOR_GOLD>3-fachen Belohnungen</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_BATTLE_ARENA_TEXT_V2</LocID>                           <Text><![CDATA[Belohnung für Gefahrenstufe <color=SOTS_COLOR_GREEN>Vernachlässigbar und Niedrig</color>: <color=SOTS_COLOR_GREEN>Zufällige Ressource</color>.\nBelohnung für Gefahrenstufe <color=SOTS_COLOR_GOLD>Moderat und Hoch</color>: <color=SOTS_COLOR_GOLD>Zufälliger Gegenstand</color>:\nBelohnung für Gefahrenstufe <color=SOTS_COLOR_RED>Extrem und Chancenlos</color>: <color=SOTS_COLOR_RED>Attribut deiner Wahl</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_LEVEL_UP_ATTRIBUTE_BATTLE_ARENA_TEXT</LocID>                  <Text><![CDATA[Gut gekämpft!\nWähle ein Attribut, das du <color=SOTS_COLOR_GOLD>verbessern</color> möchtest.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BATTLE_ARENA_ROUND</LocID>                                    <Text>Runde gewonnen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_BATTLE_ARENA_ROUND_TEXT</LocID>                               <Text>Das war eine beachtliche Leistung. Hier ist deine Belohnung:</Text></GameDBLocalizedString>
+
+            <!--NEW pickables-->
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RED_LANTERN</LocID>                                        <Text>Roter Radiant</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RED_LANTERN_DESCRIPTION</LocID>                            <Text><![CDATA[Ergänzt pro Zug <color=SOTS_COLOR_MOVEMENT>14 Bewegungspunkte</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RED_LANTERN_LORE</LocID>                                   <Text>Der von Primals hergestellte Radiant war eine wesentlich effizientere Energiequelle als der violette Müll, den die Teilchenbeschleuniger von heute produzieren. Möglicherweise liegt das daran, dass die aktuellen Maschinen nur durch guten Willen und eine beträchtliche Menge Klebeband zusammengehalten werden.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CRED_CHIP</LocID>                                          <Text>Glückschip</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CRED_CHIP_DESCRIPTION</LocID>                              <Text><![CDATA[Generiert <color=SOTS_COLOR_GOLD>500 Aura-Münzen</color> pro Phase.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CRED_CHIP_LORE</LocID>                                     <Text>Sei nicht so gierig. Nimm nur so viel, dass es keiner merkt. Sonst könnte es zu einer Prüfung kommen, bei der festgestellt wird, dass der Kaninchenbau nicht im Wunderland endet, sondern in deiner Tasche.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_AMBASSADORS_BRIEFCASE</LocID>                              <Text>Aktentasche des Botschafters</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_AMBASSADORS_BRIEFCASE_DESCRIPTION</LocID>                  <Text><![CDATA[Erhöht die Stärke deines Verhandler-Skills um <color=SOTS_COLOR_GOLD>10 %</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_AMBASSADORS_BRIEFCASE_LORE</LocID>                         <Text>„Sind wir glücklich? Vincent, sind wir glücklich?“ </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PINPOINTER</LocID>                                         <Text>Detektor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PINPOINTER_DESCRIPTION</LocID>                             <Text><![CDATA[Jedes Mal, wenn <color=SOTS_COLOR_MOVEMENT>30 Bewegungspunkte</color> verbraucht wurden, wird <color=SOTS_COLOR_MOVEMENT>1 zufällige Ressource</color> erzeugt.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PINPOINTER_LORE</LocID>                                    <Text>„Du würdest nicht glauben, was manche Leute so alles verlieren ... Moment mal! Ich glaube, ich hab was Glänzendes gefunden!“ </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GARBAGE_KINGS_CROWN</LocID>                                <Text>Krone des Müllkönigs</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GARBAGE_KINGS_CROWN_DESCRIPTION</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_GOLD>Verdoppelt</color> die Belohnung des <color=SOTS_COLOR_GOLD>Plünderer-Skills</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GARBAGE_KINGS_CROWN_LORE</LocID>                           <Text>Wenn du diese Krone aufsetzt, zeigst du, dass du jetzt ein echter Landstreicher bist! Von nun an ist nichts mehr zu dreckig oder kaputt, um es mitzunehmen. Und wie sagt man so schön: Des einen Leid ist des anderen Freud. </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GUILD_MASTER_BADGE</LocID>                                 <Text>Gauner-Abzeichen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GUILD_MASTER_BADGE_DESCRIPTION</LocID>                     <Text><![CDATA[Damit kannst du dir <color=SOTS_COLOR_MOVEMENT>die größere Belohnung</color> im Schmugglerversteck und im Sklavenlager sichern, <color=SOTS_COLOR_MOVEMENT>ohne dafür kämpfen zu müssen</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GUILD_MASTER_BADGE_LORE</LocID>                            <Text>Du freundest dich mit gefährlichen Leuten an, dann hintergehst du sie, dann legst du sie noch mal aufs Kreuz und dann fällst du ihnen auch noch in den Rücken! Ähm ... Nun, wenn das nach dir klingt, dann willkommen bei den Gaunern! </Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SLAVE_CAMP_BADGE</LocID>                               <Text>Sklavenlager</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_SMUGGLERS_DEN_BAGDE</LocID>                            <Text>Schmugglerversteck</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_STRUCTURE_BADGE</LocID>                                <Text>Gauner-Abzeichen verwenden</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ADRENALINE_INJECTION</LocID>                              <Text>Heilende Mixtur</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ADRENALINE_INJECTION_DESCRIPTION</LocID>                  <Text><![CDATA[<color=SOTS_COLOR_GOLD>Entfernt</color> alle negativen Effekte eines Kommandanten.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_ADRENALINE_INJECTION_LORE</LocID>                         <Text>Ich bringe dich wieder in Ordnung, Kumpel, aber vergiss nicht, dass das Zeug von den Tumori stammt. Du weißt schon, die Typen, denen es nichts ausmacht, ein paar zusätzliche Gliedmaßen wachsen zu lassen ... wenn du verstehst, was ich meine. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NO_NEGATIVE_EFFECTS</LocID>                               <Text><![CDATA[<color=SOTS_COLOR_RED>Dieser Kommandant hat keine negativen Effekte.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_NIGHT_WEAVERS_PHEROMONES</LocID>                           <Text>Pheromone der Nachtweberin</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_NIGHT_WEAVERS_PHEROMONES_DESCRIPTION</LocID>               <Text><![CDATA[Neutrale Armeen mit Nachtweberinnen werden stets anbieten, sich dem Kommandanten anzuschließen!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_NIGHT_WEAVERS_PHEROMONES_LORE</LocID>                      <Text>Du hast es womit verwechselt ...? Nein, das ist kein verdammtes Parfüm! Sei still! Pssst! Ich glaube, ich höre Klickgeräusche! LAUF! </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CYBER_CUFFS</LocID>                                        <Text>Cyber-Fesseln</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CYBER_CUFFS_DESCRIPTION</LocID>                            <Text><![CDATA[Feindliche Kommandanten können sich nicht aus der Schlacht zurückziehen!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CYBER_CUFFS_LORE</LocID>                                   <Text>Oh, wer war der böse Junge?! Hör auf, dich zu wehren, mein Hübscher, und denk dran: Alles, was du anfasst, kann gegen dich verwendet werden! </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BLACKOUT_BOX</LocID>                                       <Text>Blackout-Box</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BLACKOUT_BOX_DESCRIPTION</LocID>                           <Text><![CDATA[Hindert beide Seite daran, Fähigkeiten der Stufe 3 im Kampf einzusetzen.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BLACKOUT_BOX_LORE</LocID>                                  <Text>Drücke einfach auf den Knopf und all der Sci-Fi-Mist verschwindet aus deinem Leben. Dann heißt es wieder du gegen die Wildnis. </Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>AbilityAvailability_ITEM_PREVENTS_LVL3_ABILITIES</LocID>             <Text><![CDATA[Ein Gegenstand hindert dich daran, Fähigkeiten der Stufe 3 einzusetzen!]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_WARLORDS_MONOCLE</LocID>                                   <Text>Monokel des Kriegsherrn</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_WARLORDS_MONOCLE_DESCRIPTION</LocID>                       <Text><![CDATA[Du erhältst 50 % der möglichen Erfahrung, wenn du neutrale Armeen laufen lässt.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_WARLORDS_MONOCLE_LORE</LocID>                              <Text>Manche Generäle marschieren mit ihren Männern durch Schlamm und Blut. Andere wiederum sitzen gemütlich in ihrem Zelt auf dem Hügel und genießen Sancerre mit Wurmkaviar, während sie die Schlacht aus der Ferne leiten. Was für ein General bist du?  </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_TELEPORTER</LocID>                                        <Text>Teleporter</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_TELEPORTER_DESCRIPTION</LocID>                            <Text><![CDATA[Erlaubt dem Kommandanten, sich <color=SOTS_COLOR_GOLD>sofort</color> zur nächsten Basis zu teleportieren.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_TELEPORTER_LORE</LocID>                                   <Text>„Ich hab genug vom Marschieren! Ich habe genug von dir und vom gesamten Siren-System! Es reicht! Ich hab dich Schnauze voll! Ich will nach Hause, und zwar sofort! </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NO_BASE_TO_TELEPORT_TO</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_RED>Keine Basis für einen Teleport verfügbar!</color>]]></Text>  </GameDBLocalizedString>
+
+            <!--NEW BASE BUILDINGS-->
+            <!--moles-->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_SENTRY</LocID>                              <Text>Auto-Kanonen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_SENTRY_DESCRIPTION</LocID>                  <Text>Lässt zwei Auto-Kanonen erscheinen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_SENTRY_LORE</LocID>                         <Text>Autonome Waffen. Keine Loyalität, keine Moral, kein Gerechtigkeitssinn! Feind töten – na gut. Den Saboteur erschießen – na gut. Dieses Halbblüter-Baby beseitigen ... mir ist ohnehin langweilig – warum nicht. </Text>  </GameDBLocalizedString>   <!--Love the smell of fear in the morning-->
+
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_RECOIL</LocID>                              <Text>Elektrischer Zaun</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_RECOIL_DESCRIPTION</LocID>                  <Text>Mauern und Tore reflektieren Schaden auf Angreifer zurück.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_DEFENSIVE_RECOIL_LORE</LocID>                         <Text>Wenn die „geschicktesten” Bürger lernen, die Mauern zu erklimmen, ist es Zeit für eine Verbesserung. Jemand muss sein Leben in den Fabriken verbringen, und wenn du es nicht selbst machen willst, musst du clever handeln. Sag ihnen, dass es eine Vorsichtsmaßnahme gegen Eindringlinge ist! </Text>  </GameDBLocalizedString>
+
+            <!--crusaders-->
+            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_SENTRY</LocID>                          <Text>Auto-Kanonen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_SENTRY_LORE</LocID>                     <Text>Ein weiterer Punkt auf der endlosen To-do-Liste der Hüter! Zumindest musst du während der Wartungsarbeiten keine Gebete sprechen, denn diese unheiligen Artefakte wurden von den VNSS hergestellt. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_RECOIL</LocID>                          <Text>Elektrischer Zaun</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_CRUSADERS_DEFENSIVE_RECOIL_LORE</LocID>                     <Text>Zu viele Tempel und zu wenige Wächter. Das ist ein Problem der heutigen Kirche. Sobald die Kinder sich auf die Suche begeben und das Hauptschiff leer ist, würde sich dieses freche Ungeziefer sogar auf dem Hauptaltar niederlassen. Aber nicht mit diesem Zaun! </Text>  </GameDBLocalizedString>
+
+            <!--pirates-->
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_SENTRY</LocID>                            <Text>Auto-Kanonen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_SENTRY_LORE</LocID>                       <Text>Die VNSS liebt Auto-Kanonen. Selbst bei einer Kiwi-Lieferung an den abgelegensten Außenposten ist eine obligatorische Kiste Munition für Geschütze immer dabei. „Hey, VNSS, danke für die Munition, behaltet die Kiwis. Vitaminmangel kann tödlich sein.“ </Text>  </GameDBLocalizedString>
+       
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_RECOIL</LocID>                            <Text>Elektrischer Zaun</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_PIRATES_DEFENSIVE_RECOIL_LORE</LocID>                       <Text>Es gibt eine alte Weisheit, die von Monarch zu Monarch weitergegeben wird. Sie lautet ungefähr so: „Dein starker Strom sich hin verirrt, der Elektrozaun sich revanchiert.“ </Text>  </GameDBLocalizedString>
+         
+            <!--empire-->
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_SENTRY</LocID>                             <Text>Auto-Kanonen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_SENTRY_LORE</LocID>                        <Text>Jedes Mal, wenn ein Kommandant eintrifft, nimmt er alle Soldaten mit auf eine riskante Mission und lässt die Basis dabei ungeschützt. Daher ist es wichtig, zumindest einige Auto-Kanonen für „schlechte Zeiten“ zurückzubehalten. </Text>  </GameDBLocalizedString>
+       
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_RECOIL</LocID>                             <Text>Elektrischer Zaun</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_DEFENSIVE_RECOIL_LORE</LocID>                        <Text>Eine ganze Einheit zur Basisverteidigung zu unterhalten, ist äußerst kostspielig. Allerdings gibt es diesmal eine Lösung, die dich nicht ein Vermögen kostet.</Text>  </GameDBLocalizedString>
+            
+            <!--hivemind-->
+            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_SENTRY</LocID>                           <Text>Auto-Kanonen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_SENTRY_LORE</LocID>                      <Text>„Ja, ja, Auto-Kanonen, Geschütze, Minen und Kraftschilde sind in der Tat nützlich und der Stamm wird von der zusätzlichen Sicherheit profitieren ... aber abgesehen davon, was haben die Außenweltler für uns getan?   </Text>  </GameDBLocalizedString>
+       
+            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_RECOIL</LocID>                           <Text>Elektrischer Zaun</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_HIVEMIND_DEFENSIVE_RECOIL_LORE</LocID>                      <Text>80 Kilogramm lebendes Gewebe erzeugen mehr Bioelektrizität als eine 120-Volt-Batterie. Stell dir vor, wie viel Strom erzeugt wird, wenn die gesamte Basis ein lebender Organismus ist ... Man könnte einen ganzen Elefanten braten, ohne dass auch nur eine einzige Glühbirne dabei flackert!  </Text>  </GameDBLocalizedString>
+            
+            <!--New maps-->
+            <!--Whack an island-->
+            <GameDBLocalizedString>         <LocID>EA_WHACK_AN_ISLAND_ID</LocID>                                        <Text>Inselmord</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_WHACK_AN_ISLAND_ID_DESCRIPTION</LocID>                            <Text>Ein sehr unwirtlicher Teil des Planeten, wo aufgrund der ständigen Inselsäuberungen nichts überleben kann. Ein idealer Ort für einen tödlichen Wettkampf ... bis zum Tod!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_WHACK_AN_ISLAND_ID_INTRO</LocID>                                  <Text>Willkommen zu den Spielen, bei denen du entweder gewinnst oder stirbst. Die Regeln sind einfach: Halte dich nicht in den Säuberungszonen auf und schalte alle anderen Gegner aus, und zwar bevor deine Zeit abläuft!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_WHACK_AN_ISLAND_ID_VICTORY</LocID>                                <Text>Sieg! Du hast es geschafft, alle Gegner zu töten und die Säuberungen auf der Insel zu überleben. Aber schaffst du das auch von einem anderen Startpunkt aus?</Text>    </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_GENERAL_BEFORE</LocID>                                     <Text>bevor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_WHACK_AN_ISLAND_OBJECTIVE_SURVIVE</LocID>                         <Text>Besiege alle Feinde, bevor die Zeit abläuft. Verbleibende Phasen: </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_WHACK_AN_ISLAND_OBJECTIVE_LAST_CHANCE</LocID>                     <Text>Diese Phase ist meine letzte Chance. Ich muss mich beeilen und die restlichen Überlebenden töten, sonst bin ich dem Tod geweiht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_WHACK_AN_ISLAND_OBJECTIVE_HUNT_THE_REST</LocID>                   <Text>Jage die restlichen Überlebenden!</Text>  </GameDBLocalizedString>
+            
+            <!--King of the Base-->
+            <GameDBLocalizedString>         <LocID>EA_KING_OF_THE_BASE_ID</LocID>                                       <Text>König der Basis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_KING_OF_THE_BASE_ID_DESCRIPTION</LocID>                           <Text>Hast du dich schon mal gefragt, wie es wohl wäre, der KÖNIG an einem Ort zu sein, an dem dich alle umbringen wollen? Dann bist du hier genau richtig.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_KING_OF_THE_BASE_ID_INTRO</LocID>                                 <Text>Die Regeln hier sind ganz einfach. Erobere und halte die Basis, um gekrönt zu werden. Natürlich kannst du auch einfach alle umbringen. Allerdings gibt es nur eine Basis und du hast bessere Chance, wenn du dich innerhalb ihrer Mauern aufhältst.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_KING_OF_THE_BASE_ID_VICTORY</LocID>                               <Text>Sieg! Du hast es geschafft, alle Bedrohungen abzuwehren und verdienst daher den Titel „König der BASIS“!</Text>    </GameDBLocalizedString>
+        
+            <!--ALL in One-->
+            <GameDBLocalizedString>         <LocID>EA_ALL_IN_ONE_ID</LocID>                                             <Text>Alles in einem</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ALL_IN_ONE_ID_DESCRIPTION</LocID>                                 <Text>Eine kleinere Karte, auf der du alle Fraktionen, alle Einheiten, alle Gebäude und vieles mehr ausprobieren kannst.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ALL_IN_ONE_ID_INTRO</LocID>                                       <Text>Hey, du hast die richtige Fraktion gewählt. Zeig uns, dass du sie besser beherrschst als die anderen. Lass dich in einen Strudel aus Intrigen, Schlachten und Fallen hineinziehen und vielleicht gehst du am Ende als Sieger hervor. Geh aufs Ganze, es geht um alles oder nichts.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ALL_IN_ONE_ID_VICTORY</LocID>                                     <Text>Du hast alles auf eine Karte gesetzt und es hat sich gelohnt. Du hast deinen Feinden alle Chips abgenommen ... und mit Chips meine ich Köpfe. Haha.</Text>    </GameDBLocalizedString>
+
+            <!--Crater-->
+            <GameDBLocalizedString>         <LocID>EA_CRATER_ID</LocID>                                                 <Text>Der Krater</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CRATER_ID_DESCRIPTION</LocID>                                     <Text>Eine Karte mit einem einzigen Kommandanten.\n\nKaey, der neue Herrscher des Dschungels, muss sich mit einer unangenehmen Wendung des Schicksals auseinandersetzen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CRATER_ID_INTRO</LocID>                                           <Text>Es ist ein schöner, sonniger Tag mitten im Dschungel. Kaey, der Herrscher dieses Gebiets, war gerade dabei, das Land zu erkunden, das er von den verhassten Primals befreit hatte, als plötzlich ...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CRATER_ID_VICTORY</LocID>                                         <Text>Der „Kratermann” hat es geschafft. Der Dschungel, über den er herrschte, wurde mit einem Angriff aus dem Weltraum ausradiert, aber nach vielen Jahrhunderten sind die Bäume in den Krater zurückgekehrt. Wieder einmal ist allein Kaey der Herrscher über dieses Dschungelgebiet.</Text>    </GameDBLocalizedString>
+          
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_00</LocID>                                <Text>BUUUUUUUMMM</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_NANOBOTS_00</LocID>                       <Text>!Systemausfall!</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_NANOBOTS_01</LocID>                       <Text>Primär- und Sekundärsysteme werden neu gestartet.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_NANOBOTS_02</LocID>                       <Text>Diagnose initiiert.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_KAEY_01</LocID>                           <Text>Verdammt ... was zur Hölle war das? Erst sah ich einen Blitz, dann hörte ich einen schrecklichen Lärm und jetzt ... herrscht nur noch Dunkelheit und Stille.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_NANOBOTS_03</LocID>                       <Text>98,7 % aller Systeme und Unterprogramme müssen repariert werden. Alle Sensor- und Entscheidungseinheiten müssen abgeschaltet werden. Geschätzte Zeit bis zur Fertigstellung: 1.347 Erdjahre.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_KAEY_02</LocID>                           <Text>Was?! Warum so laaaaa...</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_01</LocID>                                <Text>1.347 Jahre später.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_NANOBOTS_04</LocID>                       <Text>Alle Programme wurden erfolgreich repariert. Willkommen zurück. Du hast jetzt wieder die volle Kontrolle über deinen Körper und alle anderen Systeme!</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_NANOBOTS_05</LocID>                       <Text>Laut den Satellitendaten sind hier zahlreiche Trümmer aus dem Weltraum abgestürzt. Du hast echt Glück gehabt, dass du überlebt hast.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_KAEY_03</LocID>                           <Text>Hmmm ... sieht so aus, als hätte jemand keine Zeit verschwendet und schon wieder angefangen, diesen Ort zu erobern.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_KAEY_04</LocID>                           <Text>Früher war das ein wunderschöner Dschungel. Auch wenn hier nur ein Krater übrig ist, wird es wieder mein Territorium sein, denn mein Name ist ... Moment.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_NANOBOTS_06</LocID>                       <Text>Speichersysteme melden geringfügige Ausfälle.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_KAEY_05</LocID>                           <Text>Nenn mich von nun an „Kratermann“!</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_NANOBOTS_07</LocID>                       <Text>Dein Name ist Kaey.</Text>  </GameDBLocalizedString>
+           <GameDBLocalizedString>         <LocID>MAP_SCENARIO_CRATER_MESSAGE_KAEY_06</LocID>                           <Text>Halt die Klappe ...</Text>  </GameDBLocalizedString>
+            
+            <!--Survivors-->
+            <GameDBLocalizedString>         <LocID>EA_SURVIVORS_ID</LocID>                                                 <Text>Überlebende</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_SURVIVORS_ID_DESCRIPTION</LocID>                                     <Text>Es war einmal in einem ressourcenreichen Gebiet, das von den Tumori-Stämmen kontrolliert wurde, wo einige gierige Kommandanten aus dem Orbit abstürzten ...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_SURVIVORS_ID_INTRO</LocID>                                           <Text>Ein äußerst reiches Gebiet, das seit Jahrhunderten von den Tumori-Stämmen kontrolliert wird. Alle bekannten Fraktionen entsandten ihre bewaffneten Vertreter, um dieses Gebiet zu erobern, aber ihre Verteidigung schoss alle Shuttles ab. Sie haben überlebt. Begib dich zur Oberfläche und erobere die zentrale Basis der Tumori. Aber nimm dich vor den Kommandanten anderer Fraktionen in Acht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_SURVIVORS_ID_VICTORY</LocID>                                         <Text>Ausgezeichnet! Du hast die Hauptbasis erobert. Jetzt kontrollieren wir das gesamte Gebiet. </Text>  </GameDBLocalizedString>
+
+            <!--4TH planet - Siren-->
+            <GameDBLocalizedString>         <LocID>PLANET_EA_04_ID</LocID>                                              <Text>UNSC 4298h Siren</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLANET_EA_04_DESCRIPTION</LocID>                                     <Text><![CDATA[Als sich die Expeditionsflotte näherte, erinnerte der Anblick an einen alten Mythos über eine kleine Insel, die von Schiffswracks umgeben war. Nur dass die schönen Stimmen der Monster, die die Seefahrer in den Tod lockten, bereits verstummt waren.\n\nDer Orbit von Siren ist ein Friedhof der Flotte der Kinder der Quelle. Als die ersten Schiffe mit der Oberfläche kollidierten, brachte ein Regen aus Trümmern den Rest der sich nähernden Flotte zum Absturz. Mit der Zeit bildeten die mit Wracks vermischten Asteroiden den markanten Ring, der den Planeten umgibt.\n\nNur wenige haben es jemals gewagt, den Ring zu erkunden. Daher sind die Schiffe unberührt geblieben und ihre Schätze werden nur vom kalten Licht der Sterne erhellt.]]></Text>  </GameDBLocalizedString>
+            
+            <!--New, no to small campaign role heroes-->
+            <GameDBLocalizedString>         <LocID>HERO_PIRATE_15</LocID>                                               <Text>#ALFA</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_PIRATE_15_DESCRIPTION</LocID>                                   <Text>Das Modell ALFA wurde von der einzigen selbstbewussten KI abgeleitet, die nie versucht hat, die Menschheit zu vernichten. Ist es verrückt? Ja. Tötet es Menschen? Ja, aber dieses Modell hatte es nie auf die gesamte Menschheit abgesehen. Betrachtet man die KI-Entwicklung als Ganzes, ist dies von großer Bedeutung. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_PIRATE_17</LocID>                                               <Text>Yolande</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_PIRATE_17_DESCRIPTION</LocID>                                   <Text>Alle Monarchen als „Piraten“ zu bezeichnen, wäre etwas übertrieben, aber Yolande und ihre Crew sind eher Piraten als Monarchen. Von der Piratenflagge auf ihrem Schiff bis hin zum Vergraben von Schätzen. Es fehlt nur noch ein Papagei. Er hat sich letzten Monat an einem Keks verschluckt. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_16</LocID>                                                 <Text>Gouverneur Bokas</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_16_DESCRIPTION</LocID>                                     <Text>Ein opportunistischer, moralisch korrupter Charakter mit dem Gewissen eines Quokka, der mit seinem eigenen Jungen nach seinen Verfolgern wirft. Natürlich kam er nach der blutigen Niederschlagung der Rebellion der Halbblüter, für die er ursprünglich verantwortlich war, an die Macht. Einfach durch und durch ein echter Wühler. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_14</LocID>                                        <Text>Palatin „Der Wiedererwecker“ </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_14_DESCRIPTION</LocID>                            <Text>Während des Heiligen Krieges beschädigt und in der heutigen Welt wiedererweckt. Er hat nur ein Ziel vor Augen: sich mit seinen ehemaligen Mitstreitern zu vereinen. Deshalb durchstreift er alte Schlachtfelder und sorgt dafür, dass keine Krieger der Kinder der Quelle, die repariert werden können, ein weiteres Jahrtausend unter Trümmern und Schmutz begraben bleiben. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_14</LocID>                                             <Text>Tausend Augen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_14_DESCRIPTION</LocID>                                 <Text>Man weiß nie, ob dieser Balu, der sich hinter einem Baum versteckt und einen beobachtet, nur ein einigermaßen harmloser Teddybär ist oder einer der Spione der Tausend Augen, der einen sofort erschießt, sobald man seine Hose runterlässt. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_15</LocID>                                             <Text>Die Formlosen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_15_DESCRIPTION</LocID>                                 <Text>Alles begann mit einem jungen Schwarm, der kaum groß genug war, um ein Bewusstsein zu entwickeln. Er versteckte sich in einer Hülle, während die Außenweltler seine Heimat plünderten. Nun wünschen sich die Außenweltler eine eigene Hülle, in der sie sich verkriechen können, während der Stamm der Formlosen ihre Grenzkolonien plündert. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_16</LocID>                                             <Text>Böser Tod</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_HIVEMIND_16_DESCRIPTION</LocID>                                 <Text>Einige Tumori teilen den Traum von einem friedlichen Leben neben den Außenweltlern. Für sie ist der Böse Tod wie ein Albtraum. Er ist dafür berüchtigt, die Außenweltler zu töten, sie zu häuten und sogar Flickwerk aus ihren Häuten zu nähen. Solange dieser Wahnsinnige lebt, ist ein Zusammenleben unvorstellbar. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_17</LocID>                                                 <Text>Quetin aus Moletargis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_MOLE_17_DESCRIPTION</LocID>                                     <Text>Ein völlig untypischer Wühler. Für die meisten ist er bloß ein Bier trinkender Fresssack mit einer ansteckenden Lache. Aber vielleicht verhält er sich einfach klüger als alle anderen, denn allen Widrigkeiten zum Trotz überlebt er und kommt sogar ganz gut zurecht, unbeeindruckt von all den Säuberungen und dem Verrat.  </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_PIRATE_14</LocID>                                               <Text>Lenny</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_PIRATE_14_DESCRIPTION</LocID>                                   <Text>Ein letztes Abenteuer, bevor sie ins Berufsleben einsteigt und eine Familie gründet. Zumindest hat sie das vor drei Jahren gesagt. Manche Leute sind dazu bestimmt, in irgendeinem Drecksloch einen grausamen Tod zu sterben. Mittlerweile weiß sie das nur zu gut. Aber es macht ihr überhaupt nichts aus. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_PIRATE_16</LocID>                                               <Text>Freddie</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_PIRATE_16_DESCRIPTION</LocID>                                   <Text>Ein Rockerboy, wild wie eine streunende Katze! Ein Held ... zumindest für eine bestimmte Altersgruppe. Das Komische ist, dass andere ihn für einen nervigen Idioten ohne jegliche Selbstwahrnehmung halten. Ich denke, wenn man erwachsen wird, geht bei manchen Leuten etwas zu Bruch, und das lässt sich vielleicht nie wieder reparieren.      </Text>  </GameDBLocalizedString>
+            
+            <!--            campaign role heroes-->
+            <GameDBLocalizedString>         <LocID>HERO_EMPIRE_17</LocID>                                               <Text>VNSS-Offizierin Annika Finch</Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_15</LocID>                                        <Text>Viktar „der Reiniger“</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_15_DESCRIPTION</LocID>                            <Text>Auf den ersten Blick ist er ein vorbildlicher Hüter, ein strenger Butler mit einer Vorliebe fürs Polieren, der mit seinen unverblümten Kommentaren nie zu weit geht. Aber tief in seinem Inneren ist er einer der fürsorglichsten und mutigsten Menschen, die man sich vorstellen kann. Nun ja, wirklich, wirklich tief in seinem Inneren.  </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_16</LocID>                                        <Text>Prinzessin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_16_DESCRIPTION</LocID>                            <Text>Wie zwei Erbsen in einer Schote verwandelte die Metamorphose sie in die Zwillingsschwester der Allmutter. Man möchte meinen, dass ihre Seele vom Wunsch, das Universum zu erobern, erfüllt ist, aber sie ist fest entschlossen, ihren eigenen Weg zu gehen. Dennoch wird das Flüstern, das sie zum Erbe ihrer Vorfahren führen will, immer lauter.  </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_17</LocID>                                        <Text>Prinzessin</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_17_DESCRIPTION</LocID>                            <Text>Auf der einen Seite das ungewöhnlichste Wesen im gesamten System, das mit übersinnlichen Kräften gesegnet ist und von den vererbten Erinnerungen einer Weltraumgöttin geleitet wird. Auf der anderen Seite ein freches Kind mit zu kurzen Beinen, um mit den Erwachsenen mithalten zu können. Sie ist ein Rohdiamant, der noch geschliffen werden muss.  </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_18</LocID>                                        <Text>Groß-Zieregal</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_18_DESCRIPTION</LocID>                            <Text>Seit Jahrhunderten bewachen die Groß-Zieregals den Orden vor Bedrohungen aus den eigenen Reihen. Eine schwere Aufgabe, für die alle anderen Groß-Zieregals bereits den höchsten Preis gezahlt haben. Schwer lastet der Mantel schwieriger Entscheidungen auf ihren Schultern und es gibt niemanden, dem sie diese Last anvertrauen könnten.    </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_19</LocID>                                        <Text>Arthur</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_19_DESCRIPTION</LocID>                            <Text>Arthur war in einer Welt voller Informationsüberflutung und niedriger moralischer Standards gefangen. Dann entdeckte er das Licht des Tempels der Allmutter. Mit einem Schwert in der Hand und in schwere Rüstung gekleidet wurde er zu dem Ritter, zu dem er schon immer bestimmt war. Manche werden in der falschen Zeit geboren.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_20</LocID>                                        <Text>Blinde Wut</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_ROBO_CRUSADER_21</LocID>                                        <Text>Leuchtstern</Text>  </GameDBLocalizedString>
+
+            <!--Princess as object in the hero's inventory  -->
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_RELIC_PRINCESS</LocID>                            <Text><![CDATA[Prinzessin]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_RELIC_PRINCESS_DESCRIPTION</LocID>                <Text><![CDATA[Der jüngste Klon der Allmutter.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_CAMPAIGN_RELIC_PRINCESS_LORE</LocID>                       <Text><![CDATA[Die psionischen Kräfte, über die unsere kleine Prinzessin verfügt, sind echt, aber ihr Körper ist alles andere als beweglich. Bis zu ihrer Metamorphose muss sie getragen werden.]]></Text>  </GameDBLocalizedString>
+            
+            <!--new VFX names - to be found in the editor  -->
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_BIG_EMP</LocID>                                           <Text>Großer EMP</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_AREAL_SHIELD</LocID>                                      <Text>Gebietsschild</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_TELEPORT_ORBITAL_SPACE_ENTER</LocID>                      <Text>Orbital-Teleporter E bis O</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_TELEPORT_ORBITAL_SPACE_EXIT</LocID>                       <Text>Orbital-Teleporter O bis E</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_TELEPORT_SEND_EXIT</LocID>                                <Text>Teleporter-AUSGANG</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VFX_PRESET_SWARM_DEPARTURE</LocID>                                   <Text>Schwarmabflug</Text></GameDBLocalizedString>
+
+
+            <!--new victory condition - No base held for N turn.  -->
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_NO_BASE_FOR_N_TURNS</LocID>                   <Text>Keine Basis für N Zug/Züge gehalten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_NO_BASE_FOR_N_TURNS_MESSAGE</LocID>           <Text>Zeit zur Eroberung einer Basis abgelaufen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CAPTURE_BASE_WITHIN_N_TURNS</LocID>                                  <Text>Erobere eine Basis innerhalb von {1} Phase(n) oder du wirst eliminiert.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>VICTORY_CONDITION_LOST_NO_BASE</LocID>                               <Text>Keine Basis für N Zug/Züge gehalten.\n</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>VERSION_MISMATCH</LocID>                                             <Text>Versionskonflikt!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MapEventHeroAction_REMOVE_ITEM</LocID>                               <Text>Gegenstand entfernen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_ITEM</LocID>                                                   <Text>Gegenstand</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>PLANET_COMPLETION_HINT</LocID>                                       <Text>Wenn du alle Karten auf einem Planeten abschließt, erhältst du eine Errungenschaft und das hier angezeigte Abzeichen!</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

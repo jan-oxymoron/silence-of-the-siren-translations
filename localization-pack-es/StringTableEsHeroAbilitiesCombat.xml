@@ -98,9 +98,9 @@
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR</LocID>                                 <Text>Reparación</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION</LocID>                     <Text>Restaura la salud de las unidades tecnológicas.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL1</LocID>                <Text></Text></GameDBLocalizedString> <!-- Difference?-->
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL2</LocID>                <Text></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL3</LocID>                <Text></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL1</LocID>                <Text><![CDATA[Repara <color=SOTS_COLOR_LIGHT_GREEN>80 PS + 20 PS </color> por cada punto de {LOC:HERO_ATTRIBUTE_INTELLIGENCE}.]]></Text></GameDBLocalizedString> <!-- Difference?-->
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL2</LocID>                <Text><![CDATA[Repara <color=SOTS_COLOR_LIGHT_GREEN>80 PS <b>+ 30 PS</b> </color> por cada punto de {LOC:HERO_ATTRIBUTE_INTELLIGENCE}.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL3</LocID>                <Text><![CDATA[Repara <color=SOTS_COLOR_LIGHT_GREEN>80 PS <b>+ 40 PS</b> </color> por cada punto de {LOC:HERO_ATTRIBUTE_INTELLIGENCE}.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP</LocID>                         <Text>Suministro aéreo de centinela</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION</LocID>             <Text>Coloca un arma centinela autónoma en cualquier lugar de tu lado del campo de batalla.</Text></GameDBLocalizedString>
@@ -123,7 +123,7 @@
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ORBITAL_STRIKE_DESCRIPTION_LVL3</LocID>        <Text><![CDATA[Causa una cantidad considerable de<color=SOTS_COLOR_RED> daño</color> e inflige Aturdimiento.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE</LocID>                             <Text>Onda expansiva</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE_DESCRIPTION</LocID>                 <Text><![CDATA[Aleja a las unidades del epicentro y reciben <color=SOTS_COLOR_RED>daño</color> si se golpean contra algo.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE_DESCRIPTION</LocID>                 <Text><![CDATA[Aleja a las unidades del epicentro y les inflige <color=SOTS_COLOR_RED>daño</color>.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK</LocID>                                   <Text>Hackeo</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK_DESCRIPTION</LocID>                       <Text>Hackea la unidad de tecnología seleccionada.</Text></GameDBLocalizedString>

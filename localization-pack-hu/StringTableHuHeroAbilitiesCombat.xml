@@ -98,9 +98,9 @@
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR</LocID>                                 <Text>Javítás</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION</LocID>                     <Text>Helyreállítja a Technológia alapú Egységek Életerejét.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL1</LocID>                <Text> </Text></GameDBLocalizedString> <!-- Difference?-->
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL2</LocID>                <Text> </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL3</LocID>                <Text> </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL1</LocID>                <Text><![CDATA[Megjavít <color=SOTS_COLOR_LIGHT_GREEN>80 Életerőpontot + 20 Életerőpontot </color> a(z) {LOC:HERO_ATTRIBUTE_INTELLIGENCE} minden pontjáért.]]></Text></GameDBLocalizedString> <!-- Difference?-->
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL2</LocID>                <Text><![CDATA[Megjavít <color=SOTS_COLOR_LIGHT_GREEN>80 Életerőpontot <b>+ 30 Életerőpontot</b> </color> a(z) {LOC:HERO_ATTRIBUTE_INTELLIGENCE} minden pontjáért.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL3</LocID>                <Text><![CDATA[Megjavít <color=SOTS_COLOR_LIGHT_GREEN>80 Életerőpontot <b>+ 40 Életerőpontot</b> </color> a(z) {LOC:HERO_ATTRIBUTE_INTELLIGENCE} minden pontjáért.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP</LocID>                         <Text>Gépágyús Őrszem Ledobása</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION</LocID>             <Text>Egy önálló automata Gépágyús Őrszemet helyez el a csatatér bármely részén.</Text></GameDBLocalizedString>
@@ -123,7 +123,7 @@
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ORBITAL_STRIKE_DESCRIPTION_LVL3</LocID>        <Text><![CDATA[Jelentős mértékben okoz<color=SOTS_COLOR_RED> Sebzést</color> emellett Kábultságot is okoz.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE</LocID>                             <Text>Léglökés Hullám</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE_DESCRIPTION</LocID>                 <Text><![CDATA[Eltolja az egységeket az epicentrumtól és <color=SOTS_COLOR_RED>Sebzést</color> okoz nekik, amikor beleütköznek közbe valakibe.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE_DESCRIPTION</LocID>                 <Text><![CDATA[Eltolja az egységeket az epicentrumtól és <color=SOTS_COLOR_RED>Sebzést</color> okoz nekik.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK</LocID>                                   <Text>Hekkelés</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK_DESCRIPTION</LocID>                       <Text>Meghekkeli a kiválasztott Technológiai alapú Egységet.</Text></GameDBLocalizedString>

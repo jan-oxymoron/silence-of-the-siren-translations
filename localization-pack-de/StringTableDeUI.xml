@@ -4,7 +4,7 @@
         <LanguageRef>LANG_DE</LanguageRef>
 
         <Contributors>
-            <Name>Oxymoron Games</Name>
+            <Name>QLOC</Name> <Name>Raphale Oberhuber</Name> <Name>Nino Kadletz</Name>  <Name>Philipp Kolleritsch</Name>
         </Contributors>
 
         <LocalizedStrings>
@@ -95,8 +95,8 @@
             <GameDBLocalizedString>         <LocID>SAVE_DIALOG_SINGLEPLAYER</LocID>                         <Text>Einzelspieler</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>SAVE_DIALOG_AUTOSAVES</LocID>                            <Text>Auto-Speicherstände</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_SORT_NAME</LocID>                            <Text>↑↓ Name</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_SORT_DATE</LocID>                            <Text>↑↓ Datum</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_SORT_NAME</LocID>                            <Text>Name</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_SORT_DATE</LocID>                            <Text>Datum</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>EFFECT_LOC</LocID>                                       <Text>Effekt</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>COSTS_LOC</LocID>                                        <Text>Kosten</Text>  </GameDBLocalizedString>
@@ -109,7 +109,7 @@
             <GameDBLocalizedString>         <LocID>NEXT_PLAYER</LocID>                                      <Text>Nächste(r):</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_PHASE_HEADING</LocID>                <Text>Phase</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_PHASE_DESCRIPTION</LocID>            <Text>Ein Zyklus umfasst 4 Phasen. Alle Basen generieren am Beginn der ersten Phase Einheiten.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_PHASE_DESCRIPTION</LocID>            <Text>Ein Zyklus umfasst {1} Phasen. Alle Basen generieren am Beginn der ersten Phase Einheiten.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>EXPLORATION_TOOLTIP_CURRENT_PHASE</LocID>                <Text><![CDATA[<color=SOTS_COLOR_FUSION_CORE>Aktuelle Phase</color>: ]]></Text>  </GameDBLocalizedString>
 
             <!--top panel hover tooltips, related: KEYBOARD_EXPLORATION -->
@@ -144,10 +144,10 @@
             <GameDBLocalizedString>         <LocID>BUTTON_OPTIONS</LocID>                                   <Text>Optionen</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_RETREAT</LocID>                                   <Text>Rückzug</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_AUTO_COMBAT</LocID>                               <Text>Auto-Kampf</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUTTON_SKIP</LocID>                                      <Text>Passen [P] [Leertaste]</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUTTON_WAIT</LocID>                                      <Text>Warten [W]</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUTTON_SKIP</LocID>                                      <Text>Passen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUTTON_WAIT</LocID>                                      <Text>Warten</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_FAVOURITE_ABILITIES</LocID>                       <Text>Kommandanten-Fähigkeiten: Schnellzugriff-Menü</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>BUTTON_ABILITIES</LocID>                                 <Text>Kommandanten-Fähigkeiten sind jetzt verfügbar!\n(Klicke auf das Porträt deines Kommandanten)!\n[A]</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUTTON_ABILITIES</LocID>                                 <Text>Kommandanten-Fähigkeiten sind jetzt verfügbar!\n(Klicke auf das Porträt deines Kommandanten)!</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_ABILITIES_AI</LocID>                              <Text>Dieser Kommandant kann in dieser Runde weitere Fähigkeiten einsetzen!</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_ABILITIES_INACTIVE</LocID>                        <Text>Kommandanten-Fähigkeiten noch nicht verfügbar</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>BUTTON_ABILITIES_COOLDOWN</LocID>                        <Text>Warte, bis du an der Reihe bist, und setze dann deine Kommandanten-Fähigkeiten ein</Text></GameDBLocalizedString>
@@ -186,7 +186,7 @@
             <GameDBLocalizedString>         <LocID>TOOLTIP_BIO_UNIT</LocID>                                 <Text>Dies ist eine Bio-Einheit</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>TOOLTIP_TECH_UNIT</LocID>                                <Text>Dies ist eine Tech-Einheit</Text></GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>TOOLTIP_NEXT_HERO</LocID>                                <Text>Zum nächsten Kommandanten mit verfügbaren Aktionen wechseln.\n[N]</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_NEXT_HERO</LocID>                                <Text>Zum nächsten Kommandanten mit verfügbaren Aktionen wechseln.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>         <LocID>NEUTRAL_BASE</LocID>                                     <Text>Eine neutrale Basis</Text></GameDBLocalizedString>
             

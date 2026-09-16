@@ -1,0 +1,207 @@
+<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_03">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Note: same value, this is from an enum -->
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_LEARN_ABILITY_EACH_CYCLE</LocID>            <Text><![CDATA[Der Kommandant kann pro Phase am Beginn eines neuen Zyklus eine zufällige Fähigkeit bis zu <color=SOTS_COLOR_UPGRADE>Stufe {1}</color> erlernen.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_COMBAT_DESCRIPTION</LocID>                <Text><![CDATA[Jeder Punkt Kampfkraft erhöht die <color=SOTS_COLOR_UPGRADE>Verteidigung</color> deiner Einheiten um <color=SOTS_COLOR_UPGRADE>1</color> und den <color=SOTS_COLOR_ATTACK>Schaden</color> um <color=SOTS_COLOR_ATTACK>10%</color>.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_AT_BASE</LocID>                                     <Text>in</Text>  </GameDBLocalizedString>
+
+            <!--   Missing description fot Mortar grenade     Assets\StreamingAssets\ModulePirates\Database\Localization\StringTableEnPirates.xml-->
+            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_PROJECTILE</LocID>   <Text>Mörsergranate</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_PROJECTILE_DESCRIPTION</LocID>   <Text>Hypothek überfällig, eine mysteriöse Beule an deinem Hals, ein gelegentliches Klappergeräusch aus dem Motor?! Das Leben ist ein einziges Damoklesschwert! Aber dieses hier solltest du auf keinen Fall weiter ignorieren!</Text></GameDBLocalizedString>
+          
+           <!--   Missing description fot Torpedo - projectile    Assets/StreamingAssets/ModuleMoles/Database/Localization/StringTableEnMoles.xml-->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_TORPEDO_PROJECTILE_DESCRIPTION</LocID>    <Text>Einige von ihnen detonieren nicht ordnungsgemäß und verwandeln ehemalige Schlachtfelder in Minenfelder. Dann, nach zehn Jahren oder mehr, will man mit seinem genetisch verbesserten Affen einen Spaziergang machen und – BUMM! – steht man plötzlich mit einer Leine ohne Affe da. Oh, diese verfluchten Wühler!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>SAVE_DIALOG_ARCHIVE</LocID>                            <Text>Archiv</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_ARCHIVE_ENABLED</LocID>                         <Text>Auto-Speichern-Archiv aktiviert</Text>  </GameDBLocalizedString>
+
+            
+            <!--Equipment redesign-->
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_PLANETFALL_BEACON_RESOURCES_DESCRIPTION_V2</LocID>        <Text><![CDATA[Ein großer Ressourcenstapel, von dem der Spieler nicht besonders viel hat, wird in der Nähe des Kommandanten abgeworfen. (Falls es sich um dieselbe Menge mehrerer Ressourcen handelt, erfolgt die Auswahl per Zufall)]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_RECON_DRONE_DESCRIPTION_V3</LocID>                         <Text><![CDATA[Erhöht das <color=SOTS_COLOR_GOLD>Erkundungstalent</color> des Kommandanten um <color=SOTS_COLOR_GOLD>3</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SIDEARM_DESCRIPTION_V3</LocID>                             <Text><![CDATA[<color=SOTS_COLOR_RED>Vergeltungsschaden</color> wird um 50% erhöht.]]></Text>  </GameDBLocalizedString>
+            
+            
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_RANDOM_ABILITY</LocID>                      <Text>Verbrauchsgegenstand „Zufällige Fähigkeit“</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_COMBAT_MANUAL_RANDOM_ABILITY_LEARNING_DESCRIPTION</LocID> <Text>Der Kommandant wird die zufällige Fähigkeit erlernen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NO_PARENT_SKILL</LocID>                                   <Text><![CDATA[<color=SOTS_COLOR_RED>Keine passenden Skills, um eine Fähigkeit zu erlernen.</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_CONSUMABLE_HERO_LEARNED_ABILITY</LocID>               <Text>Der Kommandant hat eine neue Fähigkeit erlernt!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ABILITY_CONSUMABLE_HERO_LEARNED_ABILITY_TEXT</LocID>          <Text>{1} hat dank des Fähigkeiten-Verbrauchsgegenstands {2} erlernt.</Text></GameDBLocalizedString>
+            
+            
+            <GameDBLocalizedString>         <LocID>HERO_TOOLTIP_LURE_INFORMATION</LocID>                                <Text><![CDATA[Gefahr von <color=SOTS_COLOR_GOLD>Köder</color> <color=SOTS_COLOR_GOLD>beeinflusst</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_TOOLTIP_HOLLOW_SCARECROW_INFORMATION</LocID>                    <Text><![CDATA[Gefahr von <color=SOTS_COLOR_GOLD>Holo-Vogelscheuche</color> <color=SOTS_COLOR_GOLD>beeinflusst</color>.]]></Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ARTIFACT_MOONWALKER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Ein Artefakt.\nBei <color=SOTS_COLOR_GOLD>Nacht</color> <color=SOTS_COLOR_GOLD>erhöht</color> es alle <color=SOTS_COLOR_GOLD>Attribute des Kommandanten um 7</color>. Am <color=SOTS_COLOR_GOLD>Tag</color> werden die Attribute des Kommandanten <color=SOTS_COLOR_GOLD>wieder normalisiert</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_DEEP_SCANNER_DESCRIPTION_V2</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Offenbart Minen, Adern und Ressourcen</color> in einem großen Gebiet <color=SOTS_COLOR_GOLD>rund um den Kommandanten</color> und auch durch den Nebel des Krieges hindurch.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_ENCOURAGEMENT_WHIP_DESCRIPTION_V2</LocID>                  <Text><![CDATA[Ermöglicht die <color=SOTS_COLOR_GOLD>Gratisnutzung der Beeilen-Fähigkeit</color>. Auch Kommandanten, die nicht über den Weltenbummler-Skill verfügen oder die Beeilen-Fähigkeit nicht erlernt haben, werden die <color=SOTS_COLOR_GOLD>Beeilen-Fähigkeit erlangen</color>.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH_DESCRIPTION_V3</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_GOLD>Erhöht</color> die <color=SOTS_COLOR_GOLD>Sicht</color> des Kommandanten bis zum Ende der Runde und <color=SOTS_COLOR_GOLD>offenbart die Attribute</color> feindlicher Kommandanten.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_MAGNESIUM_TORCH</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Erhöht</color> die <color=SOTS_COLOR_GOLD>Aufklärungsreichweite</color>. Die <color=SOTS_COLOR_GOLD>Attribute</color> feindlicher Kommandanten werden <color=SOTS_COLOR_GOLD>offenbart</color>.(Fackel)]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DUST_FOG</LocID>                                              <Text>Staubnebel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_SPORE_FOG</LocID>                                             <Text>Sporennebel</Text>  </GameDBLocalizedString>
+
+
+            <!--Equipment redesign-->
+
+            <!--Skills and attributes redesign-->
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_ENGINEER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Ergänzt mit jeder weitere Skill-Stufe eine Aufladung von <color=SOTS_COLOR_ENERGY>10 Energiepunkten</color> pro Phase.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER1_V2</LocID>                                    <Text><![CDATA[Lädt <color=SOTS_COLOR_ENERGY>10 Energiepunkte</color> pro Phase auf.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER2_V2</LocID>                                    <Text><![CDATA[Lädt <color=SOTS_COLOR_ENERGY>20 Energiepunkte</color> pro Phase auf.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENGINEER3_V2</LocID>                                    <Text><![CDATA[Lädt <color=SOTS_COLOR_ENERGY>30 Energiepunkte</color> pro Phase auf.]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORER_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Gewährt dauerhaft das Attribut <color=SOTS_COLOR_GOLD>Erkundungstalent</color> zur Bewegung.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER1_V2</LocID>                                    <Text><![CDATA[Gewährt dauerhaft <color=SOTS_COLOR_MOVEMENT>4 Bewegungspunkte</color> + <color=SOTS_COLOR_GOLD>Erkundungstalent</color>.\nBei einem Aufeinandertreffen mit einem verbündeten Kommandanten werden einmal pro Phase <color=SOTS_COLOR_MOVEMENT>2 Bewegungspunkte</color> wiederhergestellt.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER2_V2</LocID>                                    <Text><![CDATA[Gewährt dauerhaft <color=SOTS_COLOR_MOVEMENT>8 Bewegungspunkte</color> + <color=SOTS_COLOR_GOLD>Erkundungstalent</color>.\nBei einem Aufeinandertreffen mit einem verbündeten Kommandanten werden einmal pro Phase <color=SOTS_COLOR_MOVEMENT>4 Bewegungspunkte</color> wiederhergestellt.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER3_V2</LocID>                                    <Text><![CDATA[Gewährt dauerhaft <color=SOTS_COLOR_MOVEMENT>12 Bewegungspunkte</color> + <color=SOTS_COLOR_GOLD>Erkundungstalent</color>.\nBei einem Aufeinandertreffen mit einem verbündeten Kommandanten werden einmal pro Phase <color=SOTS_COLOR_MOVEMENT>6 Bewegungspunkte</color> wiederhergestellt.]]></Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_COLLECTOR</LocID>                                       <Text><![CDATA[Die <color=SOTS_COLOR_GOLD>Aktivierungskosten</color> für Ausrüstung und Artefakte werden um <color=SOTS_COLOR_ENERGY>{1}%</color> reduziert.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_COLLECTOR_DESCRIPTION_V2</LocID>                          <Text>Ergänzt mit jeder Skill-Stufe einen zusätzlichen Slot für Artefakte oder Ausrüstung. Erlaubt das Aufheben von Gegenständen in gefährlichen Zonen rund um neutrale Armeen, ohne dass es zu einer Schlacht kommt. Die Aktivierungskosten von Gegenständen werden mit jeder Stufe um 10 % reduziert.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_TRACKER_DESCRIPTION_V2</LocID>                            <Text><![CDATA[Reduziert Nachteile bei der Bewegung durch raues Gelände. Der Kommandant erhält auf der Grundlage der Skill-Stufe verschiedene Vorteile.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_TRAILS</LocID>                                  <Text><![CDATA[Die Fährten der <color=SOTS_COLOR_GOLD>letzten 20 Schritte</color> <color=SOTS_COLOR_GOLD>feindlicher Kommandanten</color> sind sichtbar.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_TURRETS</LocID>                                 <Text><![CDATA[+15% Chance, zusätzliche Primal-<color=SOTS_COLOR_FUSION_CORE>Fusionskerne</color> durch Aufheben zu erlangen.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_TRACKER_FUSION_CORES</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_GOLD>Primal-Geschütze und andere Verteidigungsanlagen</color> <color=SOTS_COLOR_GOLD>ignorieren</color> den Kommandanten.]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SCOUT_DESCRIPTION_V2</LocID>                              <Text><![CDATA[Verschafft dir Informationen über feindliche Armeen. Der Kommandant ist nicht von Fallen und Gefahren betroffen. Beim Besuch des ersten Gebäudes (Objekt) werden <color=SOTS_COLOR_MOVEMENT>30 Bewegungspunkte</color> wiederhergestellt, während das Tauschen von Armeen keinerlei Punkte erfordert.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORATION_XP_BOOST</LocID>                            <Text><![CDATA[Erhöht die durch Erkundung erlangten <color=SOTS_COLOR_XP>Erfahrungspunkte</color> um <color=SOTS_COLOR_GOLD>{1}%</color>.]]></Text>  </GameDBLocalizedString>
+
+            <!--Skills and attributes redesign-->
+
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_FULLSCREEN</LocID>                                   <Text>Vollbildmodus</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_FULLSCREEN_ON</LocID>                                <Text>Vollbild</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_WINDOWED</LocID>                                     <Text>Fenstermodus</Text></GameDBLocalizedString>
+
+            <!--Detailed tooltips for unit attributes-->
+            <GameDBLocalizedString>         <LocID>UNIT_HPPOOL_DESCRIPTION</LocID>                                      <Text><![CDATA[Die maximale Anzahl an <color=SOTS_COLOR_GOLD>Trefferpunkten</color> aller Einheiten in diesem Stapel.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_ATTACK_DESCRIPTION</LocID>                                      <Text><![CDATA[Die Angriffszahl einer Einheit beschreibt den <color=SOTS_COLOR_GOLD>Schaden</color>, den sie beim Angriff auf andere Einheiten und Konstruktionen verursacht.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_CRITICAL_DESCRIPTION</LocID>                                    <Text><![CDATA[Eine prozentuelle Wahrscheinlichkeit, {1}% Schaden zu verursachen.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_DEFENSE_DESCRIPTION</LocID>                                     <Text><![CDATA[Die Einheitenverteidigung ist im Grunde eine <color=SOTS_COLOR_GOLD>Schadensreduktion (0,5% Reduktion pro Verteidigungspunkt)</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MOVE_DESCRIPTION</LocID>                                        <Text><![CDATA[Die Bewegungsreichweite einer Einheit in Feldern.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_INITIATIVE_DESCRIPTION</LocID>                                  <Text><![CDATA[Die Initiative bestimmt die Reihenfolge für die Aktionen von Einheiten. Wenn Einheiten über dieselbe Initiative verfügen, erhalten angreifende Einheiten den Vorzug.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_RESIST_DESCRIPTION</LocID>                                      <Text><![CDATA[Eine prozentuelle Wahrscheinlichkeit, <color=SOTS_COLOR_GOLD>negativen Effekten zu widerstehen</color>, wenn du von anderen Einheiten und Fähigkeiten von Kommandanten getroffen wirst.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_MORALE_DESCRIPTION</LocID>                                      <Text><![CDATA[Der Einfluss dieser Einheit auf die Moral der gesamten Armee.]]></Text></GameDBLocalizedString>
+
+            <!--Scenario player configuration UI-->
+            <GameDBLocalizedString>         <LocID>UNIT_ATTRIBUTE_MODIFIERS_DESCRIPTION</LocID>                         <Text><![CDATA[Die Zahlen bedeuten:\n<color=SOTS_COLOR_GOLD>Wert, der durch Attribute, Skills und Ausrüstung des Kommandanten beeinflusst wird</color> / Grundwert der Einheit.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TEAM</LocID>                                                         <Text>Team</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>GIFT_RESOURCES</LocID>                                               <Text>Ressourcen schenken</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GIFT</LocID>                                                         <Text>Geschenk</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ADVANCED</LocID>                                                     <Text>Erweitert</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MAP_SIZE</LocID>                                                     <Text>Kartengröße</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SIZE_SMALL</LocID>                                               <Text>Klein</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SIZE_MEDIUM</LocID>                                              <Text>Mittel</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_SIZE_LARGE</LocID>                                               <Text>Groß</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MINIMAP</LocID>                                                      <Text>Minikarte</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MINIMAP_HIDE</LocID>                                                 <Text>Minikarte verbergen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MINIMAP_STARTING_LOCATIONS</LocID>                                   <Text>Spieler-Startbasen anzeigen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MINIMAP_ALL</LocID>                                                  <Text>Ganze Minikarte zeigen</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EDITOR_PROPERTIES_BASE_FACTION</LocID>                               <Text>Fraktion wechseln</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_CRUSADERS_RENEWED_SPIRIT</LocID>                          <Text>Frischer Geist</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_CRUSADERS_RENEWED_SPIRIT_DESCRIPTION</LocID>              <Text>Ein Spezialskill der Kinder der Quelle.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MOVEMENT_REFILLED_AFTER_VICTORY</LocID>                 <Text><![CDATA[Der Sieg in einer Schlacht stellt <color=SOTS_COLOR_MOVEMENT>{1} Bewegungspunkte</color> wieder her.]]></Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_RAIDEN</LocID>                                            <Text>Raiden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_RAIDEN_DESCRIPTION</LocID>                                <Text><![CDATA[Erhöht den <color=SOTS_COLOR_ENERGY>Energievorrat</color> von Kommandanten mit jeder Stufe. Erhöht außerdem den Effekt des Verbrauchsgegenstands „Aufladungszelle“.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENERGY_POOL_INCREASE</LocID>                            <Text><![CDATA[Erhöht den <color=SOTS_COLOR_ENERGY>Energievorrat</color> von Kommandanten um <color=SOTS_COLOR_GOLD>{1}%</color>!]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_RECHARGE_CELL_BONUS</LocID>                             <Text><![CDATA[Verstärkt den Effekt des <color=SOTS_COLOR_ENERGY>„Aufladungszelle“-Verbrauchsgegenstands</color> um <color=SOTS_COLOR_GOLD>{1}%</color>!]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_MOLES_BLOODLUST</LocID>                                   <Text>Blutrausch</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_MOLES_BLOODLUST_DESCRIPTION</LocID>                       <Text>Spezialskill von Wühler-Kommandanten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_CHANCE_TO_MOVE_AGAIN_AFTER_A_KILL</LocID>               <Text><![CDATA[Gewährt deinen Einheiten eine <color=SOTS_COLOR_GOLD>Chance von {1}% auf eine weitere Aktion</color>, nachdem ein feindlicher Einheitenstapel getötet wurde.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_PIRATES_FIELD_REPAIR</LocID>                              <Text>Feldreparatur</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_PIRATES_FIELD_REPAIR_DESCRIPTION</LocID>                  <Text>Spezialskill von Kommandanten der Monarchenflotte.\nVerleiht deinen Einheiten die Fähigkeit, sich selbst zu reparieren, indem sie ähnliche Feinde angreifen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_DRAIN_LIFE_TECH_FROM_TECH</LocID>                       <Text><![CDATA[Verschafft deinen TECH-Einheiten <color=SOTS_COLOR_GOLD>{1}% Lebensabsaugung</color> von anderen TECH-Einheiten.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_DRAIN_LIFE_BIO_FROM_BIO</LocID>                         <Text><![CDATA[Verschafft deinen BIO-Einheiten <color=SOTS_COLOR_GOLD>{1}% Lebensabsaugung</color> von anderen BIO-Einheiten.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_WALKING_RATIONS</LocID>                                      <Text>Dank „Wandelnde Rationen“ wurde {Stack} durch den Angriff auf {CombatActor} repariert. {int} Punkte wurden repariert.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_WALKING_RATIONS_REVIVED</LocID>                              <Text>Dank „Wandelnde Rationen“ wurde {Stack} durch den Angriff auf {CombatActor} repariert. {int} Punkte wurden repariert. {int} Einheit(en) haben eine zweite Chance erhalten.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION_LVL2</LocID>                <Text>Verschiebt verbündete Einheiten an einen beliebigen Ort auf dem Schlachtfeld.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_TELEPORT_DESCRIPTION_LVL3</LocID>                <Text>Verschiebt eine Einheit an einen beliebigen Ort auf dem Schlachtfeld.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL2</LocID>                    <Text>Die Kreatur greift feindliche Einheiten an.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_LURE_LOCAL_BEAST_LVL3</LocID>                    <Text>Du erhältst die Kontrolle über die Kreatur.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ARTIFICIAL_MUSCLE_FIBERS_DESCRIPTION</LocID>     <Text>Erhöht Schaden und Verteidigung der Einheit.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_RESTORING_BIOFILM_LVL1</LocID>                   <Text>Entfernt alle Statuseffekte von einer ausgewählten Einheit.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISRUPTIVE_ULTRASOUND_DESCRIPTION</LocID>        <Text>Deaktiviert vorübergehend die aktiven Spezialfähigkeiten feindlicher Einheiten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DESRIPTION_AREA_OF_EFFECT_HUGE</LocID>           <Text>Hat einen riesigen Flächeneffekt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_DISPEL_DESCRIPTION_LVL1</LocID>                  <Text>Entfernt alle Statuseffekte von einer ausgewählten Einheit.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL2</LocID>          <Text>Eine Auto-Kanone.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION_LVL3</LocID>          <Text>Eine Auto-Doppelkanone.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_WALKING_RATIONS_DESCRIPTION</LocID>              <Text>Verwandelt feindliche Einheiten in wandelnde Rationen. Wenn sie Schaden erleiden, wird der Angreifer geheilt. Bewirkt Betäuben, dein Mittagessen wird sich also nicht wehren.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ENERGY_DRAIN_DESCRIPTION</LocID>                 <Text><![CDATA[Der feindliche Kommandant verliert die Hälfte der verbleibenden <color=SOTS_COLOR_ENERGY>Energie</color>.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_FIELD_REPAIR</LocID>                                         <Text>Dank des Skills „Feldreparatur“ wurde {Stack} durch den Angriff auf {CombatActor} repariert. {int} Punkte wurden repariert.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_FIELD_REPAIR_REVIVED</LocID>                                 <Text>Dank des Skills „Feldreparatur“ wurde {Stack} durch den Angriff auf {CombatActor} repariert. {int} Punkte wurden repariert. {int} Einheit(en) haben eine zweite Chance bekommen.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_TRANSPORTER_PSYCHOSIS</LocID>                    <Text>Transporter-Psychose.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_TRANSPORTER_PSYCHOSIS_DESCRIPTION</LocID>        <Text>Ja, diese Erkrankung gibt es tatsächlich. Schaden, Verteidigung, Bewegung und Initiative der Einheit sind stark reduziert.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_HERO_TRANSPORTER_PSYCHOSIS</LocID>                     <Text><![CDATA[<color=SOTS_COLOR_RED>Der Kommandant leidet an einer Transporter-Psychose, die durch einen Glitch während des letzten Transports verursacht wurde. Seine Armee leidet möglicherweise unter negativen Nebeneffekten.</color>]]></Text></GameDBLocalizedString>            
+            
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_WAR_HAWK</LocID>                                          <Text>Kriegstreiber</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_WAR_HAWK_DESCRIPTION</LocID>                              <Text><![CDATA[Verbessert <color=SOTS_COLOR_MOVEMENT>Bewegung</color> und <color=SOTS_COLOR_GOLD>Initiative</color> aller Einheiten in der Armee dieses Kommandanten.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_UNIT_MOVEMENT_BONUS</LocID>                             <Text><![CDATA[Alle Einheiten: <color=SOTS_COLOR_MOVEMENT>Bewegung im Kampf +{1}</color>.]]></Text></GameDBLocalizedString>
+            
+            <!-- Overrides from heroes string table -->
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_INITIATIVE_BOOST</LocID>                                <Text><![CDATA[<color=SOTS_COLOR_GOLD>Initiative-Boost +{1}</color>]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SCAVENGE_RESOURCES</LocID>                              <Text><![CDATA[Der Kommandant beansprucht {1}% der maximal <color=SOTS_COLOR_GOLD>als Beute verfügbaren Ressourcen</color> von besiegten Feinden.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXTRA_COMBAT_XP_PERCENT</LocID>                         <Text><![CDATA[Der Kommandant erlangt <color=SOTS_COLOR_XP>{1}% zusätzliche EP</color> aus Kampfhandlungen.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HIDDEN_STATUS_EFFECT</LocID>                                         <Text></Text></GameDBLocalizedString>           
+            
+            <GameDBLocalizedString>         <LocID>ENERGY_COST_TO_EQUIP</LocID>                                         <Text>Die für das Ausrüsten dieses Gegenstands erforderliche Energie.</Text></GameDBLocalizedString>           
+            
+            <GameDBLocalizedString>         <LocID>OBJECT_CYCLES_REMAINING</LocID>                                      <Text>Verbleibende Zeit: {1} Runde(n)/Phase(n)</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES</LocID>                      <Text>Ressourcen und Schätze anzeigen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_V2</LocID>       <Text>Deckt sofort Ressourcen und wertvolle Gegenstände in einer weitreichenden Umgebung rund um den Kommandanten auf.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL1_V2</LocID>  <Text>Deckt Ressourcen auf.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL2_V2</LocID>  <Text>Deckt außerdem Truhen, Ausrüstung und Verbrauchsgegenstände auf.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_SHOW_RESOURCES_DESCRIPTION_LVL3_V2</LocID>  <Text>Deckt außerdem Artefakte und Fusionskerne auf.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL2</LocID>        <Text>Die Wolke hält 4 Runden lang an.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL3</LocID>        <Text>Die Wolke hält 8 Runden lang an.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_V2</LocID>            <Text>Entdeckt Stellungen feindlicher Kommandanten in der Nähe dieses Kommandanten sofort.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL1</LocID>          <Text>Reichweite: 30 Felder.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL2</LocID>          <Text>Reichweite: 50 Felder.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL3</LocID>          <Text>Reichweite: 70 Felder.</Text></GameDBLocalizedString>
+
+            <!--Scenarios skirmish -->
+            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_DESCRIPTION_V2</LocID>                                  <Text><![CDATA[Energiefelder teilen das Land in drei voneinander getrennte Regionen. Im Dschungel beraubt ein skrupelloser Anführer das Territorium seiner Ressourcen, während eine andere Fraktion in der Wüste darüber erzürnt ist, dass uralte Grabstätten entweiht werden. Inzwischen nutzt ein machthungriger Kriegsherr das Chaos, um zerstörerische neue Waffen an allen auszuprobieren, die sich in Reichweite befinden! ]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_GOLD_FEVER_DESCRIPTION_V2</LocID>                                  <Text><![CDATA[Das Land verfällt in einen Goldrausch, als sich Informationen über eine reiche Primal-Lagerstätte verbreiten! Kräfte aus dem Südwesten suchen nach dem schnellsten Pfad ins Zentrum der Ruinen, während eine andere Gruppe aus dem Nordosten in dieselbe Richtung vorstößt. Denk daran, es gibt hier keine zweiten Sieger!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>MAP_SCENARIO_EA_ARCH_DESCRIPTION_V2</LocID>                           <Text><![CDATA[Beginne ein unerbittliches Duell auf einer ausgetrockneten, lebensfeindlichen Insel. Eine aufgegebene Basis in der Ferne könnte das Kräfteverhältnis zu deinen Gunsten wenden.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_CRUMBS_DESCRIPTION_V2</LocID>                                      <Text><![CDATA[Inseln, die in Energiefelder zerfallen und durch alte Primal-Brücken verbunden sind. Im roten Dschungel dürstet eine Fraktion danach, neue Ressourcen zu ergründen. In einem Feld mit gelber Vegetation ist eine weitere Gruppe mit der Absicht eingetroffen, ihre Feinde zu assimilieren. Und noch schlimmer: zwei rivalisierende Gruppen stürzen das Gebiet ins Chaos und zerstören alles, was ihnen in die Quere kommt.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_RIFT_DESCRIPTION_V2</LocID>                                        <Text><![CDATA[Ein entzweigerissenes Territorium. Dieses einst fruchtbare Land wird nun vom Krieg heimgesucht. Mehrere Gruppen werden hier demnächst in einem schonungslosen Gefecht aufeinandertreffen. Was die Angelegenheit noch komplizierter macht: Alle Basen befinden sich zu Beginn auf gegenüberliegenden Ufern!]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_RIFT_INTRO_V2</LocID>                                              <Text>Dieses ressourcenreiche Gebiet wurde schon in der Vergangenheit einheitlich beherrscht. Dann bildete sich jedoch im Sumpf ein Riss, der das Land entzweite. Die rivalisierenden Fraktionen nutzten dies zu ihrem Vorteil und beanspruchten Territorium für sich selbst. Die Lage verschlimmerte sich, als intern Streitigkeiten ausbrachen und es zu Kämpfen untereinander kam. Die Situation ist so gefährlich, dass selbst die sonst so furchtlosen hier ansässigen Kreaturen den Hauptstraßen so gut es geht fernbleiben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_TEAR_DESCRIPTION_V2</LocID>                                        <Text><![CDATA[Was einst festes Land war, ist nun ein Archipel, der nur von einem chaotischen Netzwerk an Teleportern verbunden wird. Wirst du den Weg zu deinem Feind finden können?]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_TEAR_INTRO_V2</LocID>                                              <Text>Entdecker erkundeten gerade die Ruinen der alten Primal-Zivilisation, als sich eine Katastrophe ereignete, die das Land in Stücke riss. Zwei Gruppierungen waren die ersten, die nach dem Desaster auf der Bildfläche erschienen, doch nur eine von ihnen wird die Herrschaft über dieses Gebiet erlangen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_CRYING_RIVER_DESCRIPTION_V2</LocID>                                <Text>Der alte, ausgetrocknete Fluss ist wie eine natürliche Barriere, die das Land in drei Territorien spaltet. Wem wird es gelingen, alle Territorien unter einer Herrschaft zu einen?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_BRIDGES_TOO_FAR_DESCRIPTION_V2</LocID>                             <Text>Die letzten zwei Brücken verbinden die gespaltene Landschaft. Wer wird sie zuerst finden?</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>TUTORIAL_01_ATTRIBUTES_V2</LocID>                                    <Text><![CDATA[Jeder Kommandant hat <color=SOTS_COLOR_GOLD>drei Attribute</color>. <color=SOTS_COLOR_GOLD>Erkundungstalent</color> erhöht die Geschwindigkeit deines Kommandanten durch die Ergänzung von Bewegungspunkten, außerdem wird dadurch in seinem Umkreis zusätzlicher Nebel des Krieges gelichtet. <color=SOTS_COLOR_GOLD>Kampfkraft</color> erhöht die Stärke der Armee des Kommandanten. <color=SOTS_COLOR_GOLD>Fähigkeitsstärke</color> verstärkt die Fähigkeiten des Kommandanten, erhöht deren Gesamtanzahl und füllt ihre Energie wieder pro Phase auf.]]></Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

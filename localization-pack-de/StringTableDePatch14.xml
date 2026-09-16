@@ -1,0 +1,93 @@
+<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_14">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <GameDBLocalizedString><LocID>CONTAINS_DLC_CONTENT</LocID>                    <Text>DLC-Inhalt erforderlich:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>NOT_INSTALLED</LocID>                           <Text>(Nicht installiert)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>DLC_BEASTMASTERS_ENABLED</LocID>                <Text>Flüchtlinge aus Pyroxen</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString><LocID>EDITOR_VALIDATION_DLC</LocID>                   <Text>Diese Karte hat keine DLC-spezifischen Inhalte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>EDITOR_VALIDATION_DLC_CONTENT</LocID>           <Text>Diese Karte kann nur mit diesem DLC gespielt werden:</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString><LocID>STACK_STATUS_EFFECT_SCARED</LocID>              <Text>Verängstigt</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>STACK_STATUS_EFFECT_SCARED_DESCRIPTION</LocID>  <Text>Kann {LOC:UNIT_BEASTMASTERS_GHOST} oder {LOC:UNIT_BEASTMASTERS_GHOST_UPG} nicht angreifen.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString><LocID>MAPOBJ_DUNGEON_ENTRANCE</LocID>                 <Text>Dungeon-Eingang</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_DUNGEON_EXIT</LocID>                     <Text>Dungeon-Ausgang</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString><LocID>OUTLINES_LEGEND_INTERACTIVE</LocID>             <Text>Pick-ups und interaktive Objekte mit Belohnungen oder verfügbaren Aktionen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>OUTLINES_LEGEND_NOT_INTERACTIVE</LocID>         <Text>Deine eigenen Objekte, benutzte Objekte oder erneut abrufbare Objekte, die derzeit wiederaufgefüllt werden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>OUTLINES_LEGEND_COMMANDER</LocID>               <Text>Alle Markierungen sind so wie dein derzeit aktiver Kommandant gefärbt</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString><LocID>HERO_ACTION_PLANNER</LocID>                     <Text>Automatisierung</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>HERO_ACTION_PLANNER_GO_TO</LocID>               <Text>Zu ...</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>HERO_ACTION_PLANNER_CLEAR</LocID>               <Text>Entfernen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>HERO_ACTION_PLANNER_REPEAT</LocID>              <Text>Wiederholen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>HERO_ACTION_PLANNER_RUN_END_TURN</LocID>        <Text>Am Ende des Zugs alle ausführen</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString><LocID>OPEN_DIALOG</LocID>                             <Text>Dialog öffnen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>GARRISON_UNITS</LocID>                          <Text>Einheiten stationieren</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>HIRE_AND_TAKE_UNITS</LocID>                     <Text>Einheiten rekrutieren und aufnehmen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>ONLY_MATCHING_FACTION</LocID>                   <Text>Nur gleiche Fraktion</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>WAIT_FOR_NEXT_CYCLE</LocID>                     <Text>Auf nächsten Zyklus warten</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>SELL_ITEMS</LocID>                              <Text>Gegenstände verkaufen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>UPGRADE_UNITS</LocID>                           <Text>Einheiten aufwerten</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>TRAIN_UNITS</LocID>                             <Text>Einheiten ausbilden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>PICK_UP</LocID>                                 <Text>Aufheben</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>GET_REWARD</LocID>                              <Text>Belohnung abholen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>HIRE_AND_TAKE_FACTION_UNITS</LocID>             <Text>Fraktionseinheiten rekrutieren und aufnehmen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>USE</LocID>                                     <Text>Benutzen</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString><LocID>PLANNED_VISIT_NO_MATCHING_UNITS</LocID>         <Text>Keine passenden Einheiten</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>PLANNED_VISIT_EMPTY</LocID>                     <Text>Leer</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>PLANNED_VISIT_NO_UNITS_HIRED</LocID>            <Text>Es konnten keine Einheiten rekrutiert werden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>PLANNED_VISIT_NO_UNITS_GARRISONED</LocID>       <Text>Es konnten keine Einheiten stationiert werden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>PLANNED_VISIT_NO_UNITS_TO_TRAIN</LocID>         <Text>Es können keine Einheiten ausgebildet oder verbessert werden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>PLANNED_VISIT_BLOCKED</LocID>                   <Text>Weg versperrt!</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString><LocID>MAP_SPECIFICATIONS_MAP_ENERGY_FIELDS</LocID>    <Text>Energiefeld-Material</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString><LocID>TOOLTIP_SIZE</LocID>                            <Text>Einheitengröße in Feldern</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>TOOLTIP_NO_SPECIAL</LocID>                      <Text>Diese Einheit hat keine aktive Spezialfähigkeit.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString><LocID>ARENA_UNITS</LocID>                             <Text>Wähle deine Einheiten!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>ARENA_UNITS_TEXT</LocID>                        <Text>Wähle einen Stapel!</Text></GameDBLocalizedString>
+
+            <!-- NEW DLC PLANET, visible in vanilla game skirmish-conquest panel -->
+            <GameDBLocalizedString>         <LocID>PLANET_DLC_01_ID</LocID>               <Text>UNSC 4298i/1 Typhon</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLANET_DLC_01_DESCRIPTION</LocID>      <Text>Ein habitabler Mond, der den Gasriesen UNSC 4298i Atlas umkreist.\n\nAuf dem VNSS-Poster steht: „Besiedelt Typhon, ein grünes Paradies mit der berühmten ,Auge des Lichts’-Anomalie!“ Kolonisten allerdings erzählen etwas anderes: „Ein Tag, an dem einem Elmsfeuer nicht die Haare vom Kopf sengt, ist ein guter Tag.“ \n\nBehörden zufolge ist die mysteriöse Strahlung des Auges des Lichts selbst bei längerer Belastung vollkommen harmlos.\n\nJa ... klar. Ich wette, die Kolonisten werden es in ein, zwei Jahrzehnten herausfinden. Und bis dahin haben sich die Schuldigen längst aus dem Staub gemacht. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MapEventPlayerActionType_TRIGGER_END_TURN</LocID>          <Text>Am Ende des Zuges des aktiven Spielers auslösen</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DUNGEON_EXIT_DESCRIPTION</LocID>                    <Text>Zurück an die Oberfläche!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_DUNGEON_ENTRANCE_DESCRIPTION</LocID>                <Text>Der Zugang zu den unterirdischen Höhlen.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_WILD_GEESE_BERET</LocID>                         <Text>Wildgans-Barett</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_WILD_GEESE_BERET_DESCRIPTION</LocID>             <Text>Die Moral deiner Armee wird niemals unter null fallen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_WILD_GEESE_BERET_LORE</LocID>                    <Text>Söldner? Harhar, nein! Keineswegs, Brudi, wir sind Angehörige des Clubs der Biertrinker aus Jo’Burg. Und wir haben Spielzeug für die Kinder im Wühler-Waisenhaus dabei!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SILVER_IODIDE_ROCKET</LocID>                     <Text>Silberiodid-Rakete</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SILVER_IODIDE_ROCKET_DESCRIPTION</LocID>         <Text>Moral-Effekte für beide Armeen werden beseitigt!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_SILVER_IODIDE_ROCKET_LORE</LocID>                <Text>Hast du schon mal was von „Wolkenimpfung“ gehört? Nein? Egal! Es geht darum, dass die Moral beider Armeen auf ein Minimum sinkt, wenn sie auf die Knochen durchnässt werden. Es geht also für beide buchstäblich den Bach runter – darauf kommt’s an!</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HAS_NO_EFFECT_HERE</LocID>                                 <Text>hat hier keinen Effekt.</Text></GameDBLocalizedString>
+            
+            <!--  new neutral units  -->
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RATLING</LocID>                               <Text>Rattling-Troglodyt</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_RATLING_DESCRIPTION</LocID>                   <Text>Hemmen wir etwa das Wachstum der Rattling-Gesellschaft? Wenn wir sie in Ruhe lassen, werden sie sich dann „erheben“? Aber genau dieses Experiment gab es bereits! In den verlassenen Wühler-Stützpunkten, -Außenposten und -Minen findet man überall Stämme geflohener Rattlinge. Der Schaufelkult, die Kleberschnüffler-Zombies, die Kupferplünderer ... Ich erkenne da ein gewisses Muster, aber ... urteile selbst!  </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ARMADILLO</LocID>                             <Text>Stachelfels</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ARMADILLO_DESCRIPTION</LocID>                 <Text>Du feuerst und verfehlst. Es kommt näher. Deine Hände werden schwitzig. Die Waffe fühlt sich plötzlich schwerer, klobiger an. Volle Kraft! „Schluss mit den Spielchen!“. Verdammt, es ist viel schwerer, als es aussieht! Langsam atmen, zielen ... BLITZ! Der grelle Strahl versengt die Luft! Riecht nach Ozon! Aber der Treffer hat es nicht mal verlangsamt ... Ein zitterndes „Grundgütiger“ entgleitet deinen Lippen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_ARMADILLO_PASSIVE_INFO_DESCRIPTION</LocID>    <Text>Härtet automatisch seinen Panzer und wird immun gegen Distanzangriffe, bis es entweder angreift oder kontert.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_END_MULTIPLAYER</LocID>                      <Text>Die Schlacht ist vorbei!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_END_MULTIPLAYER_TEXT</LocID>                 <Text>{1} hat gewonnen!</Text></GameDBLocalizedString> <!-- Parameter {1} is player's name, similar to EXPLORATION_PLAYER_WON -->
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

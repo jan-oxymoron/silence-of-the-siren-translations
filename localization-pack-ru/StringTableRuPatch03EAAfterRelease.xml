@@ -113,23 +113,23 @@
       <!--Skills and attributes redesign-->
       <GameDBLocalizedString>
         <LocID>HERO_SKILL_ENGINEER_DESCRIPTION_V2</LocID>
-        <Text><![CDATA[Добавляет ежедневное восстановление <color=SOTS_COLOR_ENERGY>5 очков энергии</color> с каждым уровнем навыка.]]></Text>
+        <Text><![CDATA[Добавляет восстановление <color=SOTS_COLOR_ENERGY>5 очков энергии</color> за фазу с каждым уровнем навыка.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>SKILL_EFFECT_ENGINEER1_V2</LocID>
-        <Text><![CDATA[Восполняет <color=SOTS_COLOR_ENERGY>5 очков энергии</color> ежедневно.]]></Text>
+        <Text><![CDATA[Восполняет <color=SOTS_COLOR_ENERGY>5 очков энергии</color> за фазу.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>SKILL_EFFECT_ENGINEER2_V2</LocID>
-        <Text><![CDATA[Восполняет <color=SOTS_COLOR_ENERGY>10 очков энергии</color> ежедневно.]]></Text>
+        <Text><![CDATA[Восполняет <color=SOTS_COLOR_ENERGY>10 очков энергии</color> за фазу.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>SKILL_EFFECT_ENGINEER3_V2</LocID>
-        <Text><![CDATA[Восполняет <color=SOTS_COLOR_ENERGY>15 очков энергии</color> ежедневно.]]></Text>
+        <Text><![CDATA[Восполняет <color=SOTS_COLOR_ENERGY>15 очков энергии</color> за фазу.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>HERO_SKILL_EXPLORER_DESCRIPTION_V2</LocID>
-        <Text><![CDATA[Навсегда добавляет <color=SOTS_COLOR_MOVEMENT>4 очка движения</color> + характеристика <color=SOTS_COLOR_GOLD>Разведки</color> с каждым уровнем навыка]]>.</Text>
+        <Text><![CDATA[Навсегда добавляет характеристику <color=SOTS_COLOR_GOLD>Разведки</color> к передвижению.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>SKILL_EFFECT_EXPLORER1_V2</LocID>
@@ -203,7 +203,7 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>UNIT_DEFENSE_DESCRIPTION</LocID>
-        <Text><![CDATA[Защита отряда действует как <color=SOTS_COLOR_GOLD>уменьшение урона (в процентах)</color>.]]></Text>
+        <Text><![CDATA[Защита отряда действует как <color=SOTS_COLOR_GOLD>уменьшение урона (0,5% снижения за каждый пункт защиты)</color>.]]></Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>UNIT_MOVE_DESCRIPTION</LocID>
@@ -485,15 +485,15 @@
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL1</LocID>
-        <Text>Радиус: 15 клеток.</Text>
+        <Text>Радиус: 30 клеток.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL2</LocID>
-        <Text>Радиус: 20 клеток.</Text>
+        <Text>Радиус: 50 клеток.</Text>
       </GameDBLocalizedString>
       <GameDBLocalizedString>
         <LocID>ABILITY_HERO_EXPLORATION_EAGLE_EYE_DESCRIPTION_LVL3</LocID>
-        <Text>Радиус: 25 клеток.</Text>
+        <Text>Радиус: 70 клеток.</Text>
       </GameDBLocalizedString>
       <!--Scenarios skirmish -->
       <GameDBLocalizedString>

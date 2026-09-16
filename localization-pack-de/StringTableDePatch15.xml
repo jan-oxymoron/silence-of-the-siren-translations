@@ -1,0 +1,139 @@
+<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_15">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+        
+        <LocalizedStrings>
+            <!-- Manual - BASE page -->
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_TITLE</LocID>                         <Text>BASIS</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_SUBTITLE</LocID>                      <Text>Das ist deine Basis. Hier kannst du Konstruktionen bauen, Kommandanten anwerben, Fähigkeiten erlernen und Einheiten rekrutieren.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_COMMANDER_GARRISONED</LocID>          <Text>Kommandant in Basis stationiert</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_HIRE_ARMY_UNITS</LocID>               <Text>Rekrutiere Einheiten in der Rekrutierungszentrale</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_BUILD_STRUCTURES</LocID>              <Text><![CDATA[<b>Errichte hier Basis-Konstruktionen</b> (einmal pro Runde)]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_HIRE_COMMANDERS</LocID>               <Text>Kommandanten rekrutieren</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_NUMBER_OF_STRUCTURES</LocID>          <Text>Anzahl der Konstruktionen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_INCOME_GENERATED</LocID>              <Text>Allein in dieser Basis generiertes Einkommen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_UNIT_GROWTH</LocID>                   <Text>Einheitenwachstum pro Zyklus (4 Züge)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_SHORTCUTS</LocID>                     <Text>Tastenkürzel für Basisfunktionen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_UPGRADE_UNIT</LocID>                  <Text>Einheit aufwerten</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_MOVE_COMMANDER</LocID>                <Text>Kommandant in die/aus der Basis bewegen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_ARMY_INSIDE</LocID>                   <Text><![CDATA[<b>Armee in der Basis</b>\n(kein Kommandant erforderlich)]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_BASE_VISITING_COMMANDER</LocID>            <Text>Kommandant auf Besuch mit einer Armee</Text></GameDBLocalizedString>
+
+            <!-- Manual - COMBAT page -->
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_TITLE</LocID>                       <Text>KAMPF</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_SUBTITLE</LocID>                    <Text>Kampfmenü-Übersicht. Der Angreifer befindet sich immer auf der linken Seite.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_HINT_SHIFT</LocID>                  <Text><![CDATA[Halte <b>UMSCHALT</b> gedrückt, um die Bewegungsreichweite der Einheit zu sehen]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_HINT_CTRL</LocID>                   <Text><![CDATA[Halte <b>STRG</b> gedrückt, um die Einheiten zu verkleinern]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_CONTROLS_HELP</LocID>               <Text>HILFE: Steuerung/Tastenkürzel</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_OPTIONS_MENU</LocID>                <Text>Optionsmenü</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_ACTIVE_PLAYER</LocID>               <Text>Aktiver Spieler</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_ACTIVE_UNIT</LocID>                 <Text>Aktive Einheit</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_TARGETED_ENEMY</LocID>              <Text>Anvisierte feindliche Einheit</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_DAMAGE_PREVIEW</LocID>              <Text>Schadenvorschau</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_UNITS_IN_STACK</LocID>              <Text>Anzahl der Einheiten in einem Stapel</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_MOVEMENT_RANGE</LocID>              <Text><![CDATA[<color=#9FA19C>Bewegungs-</color>\nReichweite]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_RANGED_ATTACK_RANGE</LocID>         <Text><![CDATA[<color=#FF0000>„Präziser Angriff“-</color>\nReichweite]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_FAR_ATTACK_RANGE</LocID>            <Text><![CDATA[<color=#FC7EFB>„Unpräziser Angriff“-</color>\nReichweite]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_ABILITY_BOOK</LocID>                <Text>Fähigkeitsbuch</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_WAIT</LocID>                        <Text>Warten (in der Warteschlange zurückreihen)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_SPECIAL_ABILITY</LocID>             <Text><![CDATA[Einheiten-<color=#E1D40A>SPEZIALFÄHIGKEIT</color>]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_SKIP_TURN</LocID>                   <Text>Zug überspringen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_UNITS_QUEUE</LocID>                 <Text><![CDATA[Einheitenwarteschlange\n – Aktionsreihenfolge]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_RANGED_UNIT</LocID>                 <Text>Fernkampfeinheit</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_AUTO_COMBAT</LocID>                 <Text>Auto-Kampf</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_RETREAT</LocID>                     <Text>Rückzug</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_SURRENDER</LocID>                   <Text>Aufgeben</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_COMBAT_SPEED</LocID>                <Text>Kampfgeschwindigkeit</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_SHOW_HIDE_HEX_GRID</LocID>          <Text>Hex-Gitter ein-/ausblenden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_SHOW_HIDE_LOG</LocID>               <Text>Protokoll ein-/ausblenden</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMBAT_COMBAT_LOG</LocID>                  <Text>Kampfprotokoll</Text></GameDBLocalizedString>
+
+            <!-- Manual - COMMANDER MENU page -->
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_TITLE</LocID>               <Text>KOMMANDANTENMENÜ</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_SUBTITLE</LocID>            <Text>Klicke mit der linken Maustaste auf deinen Kommandanten oder die Kommandantenmenü-Schaltfläche um Zugriff auf QuickCast, Verbrauchsgegenstände, Gebäude und andere Aktionen zu erhalten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_OPEN_BUILDING</LocID>       <Text>Gebäudemenü öffnen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_SET_UP_CAMP</LocID>         <Text>Lager errichten</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_ENTER_STRUCTURE</LocID>     <Text><![CDATA[<b>Konstruktion betreten</b> (Leertaste)]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_QUICKCAST</LocID>           <Text>QuickCast-Fähigkeit</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_OPEN_ABILITY_BOOK</LocID>   <Text>Fähigkeitsbuch öffnen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_EDIT_QUICKCAST</LocID>      <Text>QuickCast bearbeiten</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_COMMANDER_PANEL</LocID>     <Text>Kommandantenfenster</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_CONSUMABLES</LocID>         <Text><![CDATA[<b>Verbrauchsgegenstände</b>\n(mit linker Maustaste benutzen)]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_BUILDING_LIST</LocID>       <Text><![CDATA[Gebäudekarte\n Objektliste]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MENU_CONTINUE_ROUTE</LocID>      <Text>Geplante Route fortsetzen</Text></GameDBLocalizedString>
+
+            <!-- Manual - COMMANDER page -->
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_TITLE</LocID>                    <Text>KOMMANDANT</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_SUBTITLE</LocID>                 <Text>Das ist deine Kommandantenkarte. Hier kannst du Inventar, Ausrüstung und Armee des Kommandanten verwalten sowie Skills und Fähigkeiten betrachten.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_LEVEL</LocID>                    <Text>Kommandantenstufe</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_PLAYER_ICON</LocID>              <Text>Spielersymbol</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_ACQUIRED_SKILLS</LocID>          <Text>Erlangte Skills</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_SELECTED</LocID>                 <Text>Ausgewählter Kommandant</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_DRAG_ORDER</LocID>               <Text>(zum Ändern der Reihenfolge ziehen)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_ARTIFACT_SLOT</LocID>            <Text>Artefakt-Slot</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_ITEMS_FILTER</LocID>             <Text>Gegenstandsfilter</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_UNEQUIPPED_HINT</LocID>          <Text><![CDATA[<b>Nicht ausgerüsteter Gegenstand</b>\nVerschiebe Ausrüstung oder ein Artefakt aus dem Inventar in einen Ausrüstungs-Slot, um sie zu aktivieren (Ausrüsten verbraucht Energie)]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_EQUIPPED_ITEM</LocID>            <Text>Ausgerüsteter Gegenstand</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_RIGHT_CLICK_USE</LocID>          <Text>(Verwenden mit Rechtsklick)</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_ATTRIBUTES</LocID>               <Text>Kommandantenattribute –</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_EXPERIENCE_POINTS</LocID>        <Text>Erfahrungspunkte –</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MOVEMENT_POINTS</LocID>          <Text>Bewegungspunkte –</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_ENERGY_POINTS</LocID>            <Text>Energiepunkte –</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_BUFFS_DEBUFFS</LocID>            <Text>Stärkungen/Schwächungen –</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_MORALE</LocID>                   <Text>– Moral</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_LORE</LocID>                     <Text>Hintergrundgeschichte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_DISMISS</LocID>                  <Text>Kommandanten entlassen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_ARMY_ORDER</LocID>               <Text><![CDATA[<b>Armeefenster zur Verwaltung deiner Armee:\n Rechtsklicke</b>, um Einheitenstapel zu trennen\n Die Reihenfolge der Einheiten (von links nach rechts) definiert deren Reihenfolge im Kampf (von oben nach unten)]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_COMMANDER_ITEMS_FOUND</LocID>              <Text>Hier kannst du gefundene Gegenstände verwalten</Text></GameDBLocalizedString>
+
+            <!-- Manual - EXPLORATION page -->
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_TITLE</LocID>                  <Text>ERKUNDUNG</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_SUBTITLE</LocID>               <Text>Das ist eine Kartenübersicht. Hier kannst du im Spiel Kommandanten steuern und deinen Fortschritt verfolgen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_HINT_MOVE</LocID>              <Text><![CDATA[Nutze <b>Mittlere Maustaste, Bildschirmrand-Scrollen, WASD</b> oder die <b>Pfeiltasten</b>, um die Ansicht zu bewegen]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_HINT_ALT</LocID>               <Text><![CDATA[Halte <b>ALT</b> gedrückt, um interaktive Kartenobjekte hervorzuheben]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_CONTROLS_HELP</LocID>          <Text>HILFE: Steuerung/Tastenkürzel</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_OPTIONS_MENU</LocID>           <Text>Optionsmenü</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_MISSION_OBJECTIVES</LocID>     <Text>Missionsziele</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_YOUR_BASE</LocID>              <Text><![CDATA[<b>Deine Basis</b>\n(mit linker Maustaste betreten)]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_FACTION_LOGO</LocID>           <Text>Fraktionslogo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_MONSTER_ARMY</LocID>           <Text>Monsterarmee</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_YOUR_RESOURCES</LocID>         <Text><![CDATA[<b>Deine Ressourcen</b>\n(+1 Zuwachs pro Zug)]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_SWITCH_MAP_LAYERS</LocID>      <Text>Kartenebenen wechseln</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_MINIMAP</LocID>                <Text>Minikarte</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_UNITS_AVAILABILITY</LocID>     <Text>Einheiten-/Gebäude-Verfügbarkeit</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_LIST_OF_BASES</LocID>          <Text>Liste deiner Basen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_COMMANDER_IN_BASE</LocID>      <Text>Kommandant in einer Basis stationiert</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_RESUME_MOVEMENT</LocID>        <Text>Kommandanten-Aktion fortsetzen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_OPEN_COMMANDER_MENU</LocID>    <Text>Kommandantenmenü öffnen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_LIST_OF_COMMANDERS</LocID>     <Text>Liste deiner Kommandanten</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_STRUCTURE_CAPTURE</LocID>      <Text>Konstruktion, die du erobern kannst</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_YOUR_COMMANDER</LocID>         <Text><![CDATA[<b>Dein Kommandant</b>\n(Details mit Rechtsklick, Menü mit Linksklick anzeigen)]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_ITEM</LocID>                   <Text>Gegenstand</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_TREASURE</LocID>               <Text>Schatz</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_RESOURCES</LocID>              <Text>Ressourcen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_FOG_OF_WAR</LocID>             <Text>Nebel des Krieges</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_CURRENT_PHASE</LocID>          <Text>Aktuelle Phase und Zyklus\n„Zug beenden“-Schaltfläche</Text></GameDBLocalizedString>
+            <GameDBLocalizedString> <LocID>MANUAL_EXPLORATION_MOVEMENT_SPEED</LocID>         <Text>Bewegungstempo</Text></GameDBLocalizedString>
+            
+            <!--BATTLE ARENA-->
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_NEW_DESCRIPTION</LocID><Text><![CDATA[Der Arenameister bietet dir eine Wette an: Tritt gegen ein Duplikat des stärksten feindlichen Kommandanten auf der Karte an. Wähle deinen Einsatz. Gewinnst du, wird dein Einsatz verdoppelt; verlierst du, erhält ihn der gegnerische Spieler. Deine Armee erleidet in beiden Fällen keine Verluste.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>DIALOG_OBJECT_BATTLE_ARENA_NEW_TEXT</LocID><Text><![CDATA[Eine Gladiatorenarena, in der Champions <color=SOTS_COLOR_GOLD>Aura-Münzen</color> einsetzen und den mächtigsten Kommandanten eines Rivalen zum Duell fordern können.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>DIALOG_OBJECT_BATTLE_ARENA_NEW_FIGHT</LocID><Text>Kämpfe!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_WON</LocID><Text>Du hast die Wette gewonnen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_LOST</LocID><Text><![CDATA[Du hast die Wette und damit {1} <sprite name="TMPro_sprites_aura_coin"> verloren.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_CHALLENGED</LocID><Text>Du wurdest in der Kampfarena herausgefordert. Verteidige dich!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_DEFEND</LocID><Text>Verteidige!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_DEFENDED</LocID><Text>Du hast deinen Champion erfolgreich in der Kampfarena verteidigt und den Wetteinsatz des Herausforderers erhalten!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_ALREADY_VISITED</LocID><Text>Dieser Kommandant hat bereits in der Arena gekämpft.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_NO_CHALLENGER</LocID><Text>Es gibt derzeit keine geeigneten Gegner.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_PLACE_BET</LocID><Text>Wette platzieren</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_NOT_ENOUGH</LocID><Text>Du hast nicht genug Aura-Münzen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString><LocID>MAPOBJ_BATTLE_ARENA_MIN_BET</LocID><Text>Mindesteinsatz:</Text></GameDBLocalizedString>
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

@@ -4,7 +4,7 @@
         <LanguageRef>LANG_DE</LanguageRef>
 
         <Contributors>
-            <Name>Oxymoron Games</Name>
+            <Name>QLOC</Name> <Name>Raphale Oberhuber</Name> <Name>Nino Kadletz</Name>  <Name>Philipp Kolleritsch</Name>
         </Contributors>
 
         <LocalizedStrings>
@@ -21,7 +21,8 @@
                                                                                                                  
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED</LocID>                               <Text>Rückzug!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_TEXT</LocID>                          <Text>Dein Kommandant hat sich aus dem Kampf zurückgezogen. Er behält alle ausgerüsteten Gegenstände, Skills und Fähigkeiten, doch die gesamte Armee wird verloren gehen.</Text>  </GameDBLocalizedString>
-                                                                                                                 
+            <GameDBLocalizedString>         <LocID>COMBAT_RETREAT</LocID>                                        <Text>Rückzug</Text>  </GameDBLocalizedString>
+
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_PHOENIX</LocID>                         <Text>Taktischer Rückzug?</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_PHOENIX_TEXT</LocID>                    <Text>Aus dem Kampf zurückziehen? Dank deines Phönix-Artefakts wirst du deinen Kommandanten und die Hälfte deiner derzeitigen Armee retten.</Text>  </GameDBLocalizedString>
                                                                                                                  
@@ -42,7 +43,7 @@
             <GameDBLocalizedString>         <LocID>NEW_LEVEL</LocID>                                             <Text>Neue Stufe</Text></GameDBLocalizedString>
                                                                                                                  
             <GameDBLocalizedString>         <LocID>COMBAT_OK</LocID>                                             <Text>Okay</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>COMBAT_CLOSE</LocID>                                          <Text>Schließen</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMBAT_CLOSE</LocID>                                          <Text>SCHLIESSEN</Text></GameDBLocalizedString>
                                                                                                                  
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_SCAVENGER</LocID>                               <Text>Aasfresser müssen fressen!</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_SCAVENGER_TEXT</LocID>                          <Text>Deine Armee hat ein paar Ressourcen geplündert.</Text></GameDBLocalizedString>
@@ -82,6 +83,7 @@
 
             <GameDBLocalizedString>         <LocID>MESSAGE_MORALE_EXTRA_TURN</LocID>                             <Text>Danke hoher Moral kann sich „{Stack}“ wieder bewegen.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MESSAGE_MORALE_LOSE_TURN</LocID>                              <Text>Aufgrund niedriger Moral überspringt „{Stack}“ den Zug.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BURN_LOSE_TURN</LocID>                                <Text>Aufgrund von Brand überspringt „{Stack}“ den Zug.</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_BLEEDING</LocID>                               <Text>„{Stack}“ blutet und erleidet {float} Schaden.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_BURNING</LocID>                                <Text>„{Stack}“ brennt und erleidet {float} Schaden.</Text></GameDBLocalizedString>
@@ -190,6 +192,7 @@
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_FORCE_FIELD_DESCRIPTION</LocID>           <Text>Ein Schutzschild, der sämtlichen Schaden absorbiert, bis seine LP verbraucht sind.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PIRATE_CANNON_TARGET</LocID>              <Text>Zielerfassung</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PIRATE_CANNON_TARGET_DESCRIPTION</LocID>  <Text>Die Einheit wird von einer Rakete anvisiert.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEX_EFFECT_LAST_FOR_X_ROUNDS</LocID>                          <Text>Effekt dauert {1} Runde(n) auf dem Hex an</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>REMAINING_UNITS</LocID>                                       <Text>Verbleibende Einheiten</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>REMAINING_HEALTH</LocID>                                      <Text>Gesundheit</Text></GameDBLocalizedString>

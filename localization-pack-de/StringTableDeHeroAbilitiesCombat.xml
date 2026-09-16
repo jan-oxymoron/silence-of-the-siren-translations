@@ -4,7 +4,7 @@
         <LanguageRef>LANG_DE</LanguageRef>
 
         <Contributors>
-            <Name>Oxymoron Games</Name>
+            <Name>QLOC</Name> <Name>Raphale Oberhuber</Name> <Name>Nino Kadletz</Name>  <Name>Philipp Kolleritsch</Name>
         </Contributors>
 
         <LocalizedStrings>
@@ -98,9 +98,9 @@
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR</LocID>                                 <Text>Reparieren</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION</LocID>                     <Text>Stellt die Gesundheit von Tech-Einheiten wieder her.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL1</LocID>                <Text></Text></GameDBLocalizedString> <!-- Difference?-->
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL2</LocID>                <Text></Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL3</LocID>                <Text></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL1</LocID>                <Text><![CDATA[Repariert <color=SOTS_COLOR_LIGHT_GREEN>80 LP + 20 LP </color> pro Punkt {LOC:HERO_ATTRIBUTE_INTELLIGENCE}.]]></Text></GameDBLocalizedString> <!-- Difference?-->
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL2</LocID>                <Text><![CDATA[Repariert <color=SOTS_COLOR_LIGHT_GREEN>80 LP <b>+ 30 LP</b> </color> pro Punkt {LOC:HERO_ATTRIBUTE_INTELLIGENCE}.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL3</LocID>                <Text><![CDATA[Repariert <color=SOTS_COLOR_LIGHT_GREEN>80 LP <b>+ 40 LP</b> </color> pro Punkt {LOC:HERO_ATTRIBUTE_INTELLIGENCE}.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP</LocID>                         <Text>Auto-Kanonen-Abwurf</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION</LocID>             <Text>Platziert eine autonome Auto-Kanone an einer beliebigen Stelle auf deiner Seite des Schlachtfelds.</Text></GameDBLocalizedString>
@@ -123,7 +123,7 @@
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ORBITAL_STRIKE_DESCRIPTION_LVL3</LocID>        <Text><![CDATA[Verursacht erheblichen <color=SOTS_COLOR_RED>Schaden</color> und betäubt das Ziel.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE</LocID>                             <Text>Schockwelle</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE_DESCRIPTION</LocID>                 <Text><![CDATA[Stößt Einheiten aus dem Epizentrum zurück und fügt ihnen <color=SOTS_COLOR_RED>Schaden</color> zu, wenn sie dabei mit etwas kollidieren.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE_DESCRIPTION</LocID>                 <Text><![CDATA[Stößt Einheiten aus dem Epizentrum zurück und fügt ihnen <color=SOTS_COLOR_RED>Schaden</color> zu.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK</LocID>                                   <Text>Hacken</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK_DESCRIPTION</LocID>                       <Text>Hackt eine ausgewählte Tech-Einheit.</Text></GameDBLocalizedString>

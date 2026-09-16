@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?><Database>
+    <GameDBStringTable ID="LOC_DE_CAMPAIGN_CRUSADERSHIP_LVL3">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--OBJECTIVES MAIN QUESTS-->
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_START_LVL3</LocID>                      <Text>Suche das Schiff der verlorenen Flotte</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_CRUS_BASE_1</LocID>                <Text>Besetze nahe gelegene Basen 1/3 </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_CRUS_BASE_2</LocID>                <Text>Besetze nahe gelegene Basen 2/3</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_CRUS_BASE_DONE</LocID>             <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Besetze nahe gelegene Basen 3/3 – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_TUMORI_BASES_1</LocID>             <Text>Erobere Tumori-Basen 0/5 </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_TUMORI_BASES_2</LocID>             <Text>Erobere Tumori-Basen 1/5 </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_TUMORI_BASES_3</LocID>             <Text>Erobere Tumori-Basen 2/5</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_TUMORI_BASES_4</LocID>             <Text>Erobere Tumori-Basen 3/5</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_TUMORI_BASES_5</LocID>             <Text>Erobere Tumori-Basen 4/5</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_TUMORI_BASES_DONE</LocID>          <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Erobere Tumori-Basen 5/5 – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_FREE_FOSSORIANS</LocID>            <Text>Befreie belagerte Wühler </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_FREE_FOSSORIANSHIP_DONE</LocID>    <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Befreie belagerte Wühler – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+           
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_SWARM</LocID>                      <Text>Schwäche den Schwarm</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_SWARM_DONE</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Schwäche den Schwarm – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_SHIP</LocID>                      <Text><![CDATA[Bring <color=SOTS_COLOR_RED>die Prinzessin</color> zum Schiff]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_CRUSADERS_LVL3_SHIP_DONE</LocID>                 <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Bring die Prinzessin zum Schiff – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+
+
+            <!--DIALOGUES-->
+            <!--Tin(Hierarch) and Gileas arrived near the area controlled by the Children of the Source order. -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_VIKTAR_1</LocID>             <Text>Gut geflogen. Die Prinzessin ist dieses Mal nicht im Sumpf gelandet.     </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_PRINCESS_1</LocID>           <Text>Halt die Klappe, Viki!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_TIN_1</LocID>                <Text>Du bist WAS?! Das erklärt also den ganzen Schlamm im Cockpit ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_PRINCESS_2</LocID>           <Text>Wie wäre es, wenn wir uns auf das Wesentliche konzentrieren?!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_VIKTAR_2</LocID>             <Text>Warum sind wir z. B. so weit weg von dem Gebiet gelandet, das wir durchsuchen wollen ...     </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_PRINCESS_3</LocID>           <Text>Ich habe Wühler-Shuttle östlich landen gesehen. Ich habe den Kurs geändert, damit sie uns nicht entdecken.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_VIKTAR_3</LocID>             <Text>Weg von den Wühlern. Erwarten uns Gefahren?    </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_TIN_2</LocID>                <Text>Das war das Schlachtfeld des letzten Kreuzzugs! Wie kann ich es milde ausdrücken ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_VIKTAR_4</LocID>             <Text>Die Tumori haben uns so heftig den Arsch versohlt, dass wir endgültig von der Idee von Kreuzzügen abgekommen sind ... und das war milde ausgedrückt. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_PRINCESS_4</LocID>           <Text>Deshalb hat Chiquitas Navicomp so viele leere Basen angezeigt!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_TIN_3</LocID>                <Text>Ja. Lasst uns zuerst diese leeren Basen besetzen und ...   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_PRINCESS_5</LocID>           <Text>Alles klar, dann lasst die Party beginnen!    </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_TIN_4</LocID>                <Text>Wartet! ... Ich wollte sagen: wartet!      </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_VIKTAR_5</LocID>             <Text>Ich wusste nicht, dass die Prinzessin über solche Kräfte verfügt! Jeden Tag näherst du dich ...    </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_PRINCESS_6</LocID>           <Text>Hör auf zu träumen, Viki. Ohne die Teleporter-Polster hätte ich dich wahrscheinlich getötet, indem ich dich in einen Stein oder so hinein materialisiert hätte. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_TIN_5</LocID>                <Text>Wir haben uns zu schnell getrennt! Lasst uns wenigstens die Verbindung überprüfen. Wie versteht ihr mich?    </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_VIKTAR_6</LocID>             <Text>Gut! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_PRINCESS_7</LocID>           <Text>Kann nichts hören! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_VIKTAR_7</LocID>             <Text>Jedes Mal, wenn die Prinzessin ein klein wenig Größe aufbaut, macht sie alles wieder zunichte!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_PRINCESS_8</LocID>           <Text>Ja, muss ich! Ich bin von Leuten umgeben, die allzu leicht fanatisch für eine Religion werden. Ich möchte nicht jedes Mal, wenn ich etwas „Besonderes“ mache, Freunde verlieren, um Anhänger zu gewinnen.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_STARTIN_TIN_6</LocID>                <Text>Nun, lasst uns die leeren Basen beanspruchen. Danach bewegen wir uns gen Norden zu den Koordinaten. Wir kümmern uns um die Probleme, wenn sie sich auftun ... und ich wette, das wird nicht allzu lange dauern. </Text>  </GameDBLocalizedString>
+            S
+            <!--princes discoveres the ship in psychosphere-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_PRINCESS_1</LocID>       <Text>Leute, da stimmt etwas nicht. Ich habe es zunächst nicht bemerkt, aber ich kann hier überall Flecken in der Psychosphäre wahrnehmen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_TIN_1</LocID>            <Text>Ist das das Werk deiner Schwester?   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_PRINCESS_2</LocID>       <Text>Nein ... sie sind zu alt. Ich denke, sie verdecken etwas ... Ich bin neugierig ... Wie wäre es, wenn ich hier nachsehe, unter dem größten Fleck.     </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_PRINCESS_3</LocID>       <Text>Es ist, als würde man Wasser mit den bloßen Händen bewegen wollen, es fließt immer zurück ... Halt! Ich hab’s! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_VIKTAR_1</LocID>         <Text>Das Schiff! Der Lord Hierarch hatte die ganze Zeit über recht!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_TIN_2</LocID>            <Text>ICH WUSSTE ES! Wir sind Zeugen des letzten Tages der VNSS-Flotten-Dominanz! Aber ... ich denke, dieses Kraftfeld wird ein Problem werden. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_PRINCESS_4</LocID>       <Text>Durchaus. Es ist zu stark, um es zu durchdringen, und das Schiff ist die Quelle, also können wir es nicht von außen schwächen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_VIKTAR_2</LocID>         <Text>Was ist mit Teleportation? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_PRINCESS_5</LocID>       <Text>Meine Kräfte sind keine magische Antwort auf alles! Dort drinnen ist kein Teleportations-Tor, das mir einen soliden Anker im Raum bereitstellen könnte. Danz davon zu schweigen, dass Selbst-Teleportation unheimlich schwierig ist. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_VIKTAR_3</LocID>         <Text>Was können wir tun? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_PRINCESS_6</LocID>       <Text>Vielleicht antwortet das Schiff, wenn ich auf das Kraftfeld „klopfe“. Die Blinde Wut hat mich erkannt, als ich sie getroffen habe. Aber ich müsste wirklich nahe ran. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_SHIPRINCESS_TIN_3</LocID>            <Text>Dann bringen wir dich dorthin. </Text>  </GameDBLocalizedString>
+
+
+            <!--furret_encounter-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_FURRET_1</LocID>       <Text>Cyber-Käfer? Hier?  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_RH_1</LocID>           <Text>Dein Gesicht kommt mir bekannt vor, Wühler! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_FURRET_2</LocID>       <Text>Da hast du verdammt noch mal recht! Ich bin ... ich war der Oberanführer. Zumindest als ich dich getroffen habe! Du hast zu dieser Piratin Annika gehört, oder?  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_TIN_1</LocID>          <Text>Er hängt an der Leine der VNSS! Er hat bestimmt schon die Schwester der Prinzessin über deine Ankunft informiert! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_FURRET_3</LocID>       <Text>Um mit dir aus dem Orbit bombardiert zu werden?! Und wenn du dich richtig erinnerst, Tin, habe ich desertiert noch bevor sich unsere Klingen gekreuzt haben! Deshalb steht nun ein Kommandanten der Straflegion vor dir ... welch Ironie. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_PRINCESS_1</LocID>     <Text>Was machst du hier?      </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_FURRET_4</LocID>       <Text>Die Tumori bekämpfen! Aber wir sind in eine Falle geraten und der ganze Angriff ist in sich zusammengefallen wie ein Kartenhaus. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_VIKTAR_1</LocID>       <Text>Welche Falle?  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_FURRET_5</LocID>       <Text>Ein gigantischer Schwarm Glühwürmchen. Zunächst schienen sie harmlos, aber dann ... beim pelzigen Bein! Ich bin noch nie so schnell gerannt! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_TIN_2</LocID>          <Text>Ich vertraue ihm nicht! Er befolgt die Anweisungen deiner Schwester! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_FURRET_6</LocID>       <Text>HA! Ich musste sie damals in meinem Rucksack tragen, aber ich bin nicht mehr ihr Sklave! Ich kann es beweisen! Helft mir, meine Jungs zu retten, und ich sage euch, wie er diesen Schwarm loswerdet! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_TIN_3</LocID>          <Text>Hör zu, du pelziger Bastard ...   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_PRINCESS_2</LocID>     <Text>Einverstanden! Wir werden dir helfen, General. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_TIN_4</LocID>          <Text>Wir tun was?! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_PRINCESS_3</LocID>     <Text>Ich bin anders als meine Schwester.   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_FURRET_FURRET_7</LocID>       <Text>Worte, die einer Königin würdig sind!     </Text>  </GameDBLocalizedString>
+
+            <!--Tumori_trigger-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_TUMORI_TUMORI_1</LocID>       <Text>---..,,,dein Tod---,,,..-..,,ist nah. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_MEETIN_TUMORI_RH_1</LocID>           <Text>So viel dazu. </Text>  </GameDBLocalizedString>
+            
+            <!--Fossorians_free-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FOSSA_1</LocID>       <Text>Cyber-Käfer, Mann!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FOSSB_1</LocID>       <Text>Beim pelzigen Bein, Mann! Ich sehe sie!    </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FOSSA_2</LocID>       <Text>Was machen wir jetzt, Mann?      </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FOSSB_2</LocID>       <Text>Ich hab keine Ahnung, Mann!     </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FURRET_1</LocID>      <Text>Ich sage euch, was zu tun ist, ihr beiden Schwachköpfe! Bittet höflich um Entschuldigung und wechselt die Uniformen, denn diese Cyber-Käfer sind jetzt Verbündete! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FOSSA_3</LocID>       <Text>Ja, Oberanführer! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FURRET_2</LocID>      <Text>Nenn mich noch einmal Oberanführer und du bist Wurmfutter! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FOSSB_3</LocID>       <Text>Das ist gar nicht so übel ... Ahhh! Ich habe schon verstanden! ... Wie du wünschst, Oberanführer! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FURRET_3</LocID>      <Text>[SCHNAUZE IN HANDFLÄCHE VERSTECKT] Pfff ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_TIN_1</LocID>         <Text>Was für eine großartige Anschaffung ihr beide doch seid! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FURRET_4</LocID>      <Text>Die klugen Köpfchen landen üblicherweise nicht in der Straflegion. Sei froh, dass sie zumindest keine Halbblüter sind ... du würdest die Schrecken sehen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_PRINCESS_1</LocID>    <Text>Erzähl uns von der Falle, General.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_FURRET_5</LocID>      <Text>Bevor unser Angriff sein Momentum verloren hat, konnten wir einige Tumori-Basen erobern, und jedes Mal haben einige der Glühwürmchen diesen mörderischen Schwarm zurückgelassen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_VIKTAR_1</LocID>      <Text>Vielleicht ist der Schwarm von der Gesundheit der Tumori-Basen abhängig!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_PRINCESS_2</LocID>    <Text>Oder die Basen produzieren eine Art Pheromon, mit dem der Schwarm zusammengehalten wird! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_FOSSORIAN_FREE_TIN_2</LocID>         <Text>Die Wissenschaft dahinter ist nicht wichtig! Je mehr Tumori-Basen wir erobern, desto weniger Glühwürmchen hat der Schwarm! </Text>  </GameDBLocalizedString>
+
+            
+            <!--Furret_about_his_relic-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_PRINCESS_1</LocID>       <Text>Erzähl mir von meiner Schwester, Furret. Seid ihr euch vor ihrer Metamorphose nahegestanden? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_FURRET_1</LocID>         <Text>Ha, nahe ... Sie hat mich von einem verblüffenden Witzbold zum Anführer der Wühler gemacht. Dafür bin ich ihr dankbar, denke ich ...  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_PRINCESS_2</LocID>       <Text>Was ist dann passiert?      </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_FURRET_2</LocID>         <Text>Ich dachte, das Töten hätte ein Ende, aber dann habe ich ihr geholfen, einen neuen Körper zu erlangen und die VNSS zu versklaven ... und danach war ich von keinem großen Nutzen mehr, weshalb sie mich abserviert hat.     </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_PRINCESS_3</LocID>       <Text>Sie hat dich abserviert? Euch muss doch das gleiche Band geteilt haben wie mich und Tin ... und Annika. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_FURRET_3</LocID>         <Text>Ja, sie hat einige Dinge geerbt. Sie ist stur und ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_PRINCESS_4</LocID>       <Text>... und?      </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_FURRET_4</LocID>         <Text>Sie vertraut niemandem. Vielleicht kümmert sie sich deshalb so wenig um ihre Untergeordneten.    </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_PRINCESS_5</LocID>       <Text>Warum? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_FURRET_5</LocID>         <Text>Ich hatte einen guten Freund. Zumindest dachte ich das ... Als die Dinge sich zuspitzten, hat er sein wahres Gesicht gezeigt. Das war eine Lektion, die sie sehr ernst nahm. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_PRINCESS_6</LocID>       <Text>Meine Spezies ist so. Wir entwickeln in wenigen Tagen eine Persönlichkeit. Wir saugen alle Informationen auf, synchronisieren uns mit der Welt um uns herum ... um zu ...   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_FURRET_6</LocID>         <Text>... zu herrschen! Soll ich dir abkaufen, dass das nicht deine Intention ist? Dass du so anders bist als deine Schwester? Oder deine große, alte Mama? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_PRINCESS_7</LocID>       <Text>Meine Schwester hat die Allmutter in sich aufgenommen. Mir wird allmählich klar, dass je mehr ich von meinem genetischen Gedächtnis übernehme, desto weniger von „mir“ übrig bleibt. Diese Macht hat ihren Preis. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_ABOUT_RELIC_FURRET_7</LocID>         <Text>Schön gesagt ... Du steckst voller Überraschungen, Prinzessin.     </Text>  </GameDBLocalizedString>
+            
+
+            <!--Swarm is gone-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_RH_1</LocID>                   <Text>Das war die letzte Tumori-Basis! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_FURRET_1</LocID>               <Text>Es ist ein schöner Anblick, die letzten verdammten Glühwürmchen fliehen zu sehen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_PRINCESS_1</LocID>             <Text>Du hast uns die Wahrheit über den Schwarm berichtet, Furret ... Du hast diese Ehrlichkeit aber auch dazu verwendet, um etwas anderes vor uns zu verbergen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_FURRET_2</LocID>               <Text>Ja, alles, was ich euch über die Straflegion erzählt habe, war gelogen. Ich bin immer noch der Oberanführer ... und deine Schwester hat mich aus dem Grund hierher geschickt, aus dem du da bist – dem Cyber-Käfer-Schiff.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_FURRET_3</LocID>               <Text>Mit der gesamten Macht der Wühler. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_TIN_1</LocID>                  <Text>Ich wusste, dass man ihm nicht trauen kann! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_PRINCESS_2</LocID>             <Text>Wenn du die Armee einsetzen wolltest, hättest du ohne Vorwarnung angegriffen. Du willst uns gar nicht bekämpfen, oder? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_FURRET_4</LocID>               <Text>Richtig. Ich denke, ich werde lediglich berichten, dass wir Tumori und Bäume gefunden haben. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_PRINCESS_3</LocID>             <Text>Warum kehrst du immer wieder zu meiner Schwester zurück?      </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_FURRET_5</LocID>               <Text>Wir Wühler waren einst Sklaven. Wir haben die Schiffe von den Kriegsherrn in unserer Heimatwelt gestohlen. Deine Schwester könnte den Weg für ihre Vergeltung ebnen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_PRINCESS_4</LocID>             <Text>Ich bin nicht meine Schwester.     </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_RELIC_FURRET_6</LocID>               <Text>Das ist mir jetzt klar. Leb wohl, Prinzessin ... und viel Glück.  </Text>  </GameDBLocalizedString>
+
+            
+            <!--The last tumori commander tries to stop the princess from reaching the ship-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_LAST_TUMORI_BF_SHAMAN_1</LocID>      <Text>.,,,--seit Jahrhunderten .-.,--bewachen die Stämme das Böse ..,,--das sich.,,-----.,.-, hinter dem Schild versteckt---.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_LAST_TUMORI_BF_PRINCESS_1</LocID>    <Text>Wir wollen das Schiff nicht gegen deine Leute einsetzen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_LAST_TUMORI_BF_SHAMAN_2</LocID>      <Text>-*...--beweist es....,, verlasst diesen Ort ..,,...kehrt niemals zurück.,-</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_LAST_TUMORI_BF_PRINCESS_2</LocID>    <Text>Ich kann nicht. Ich muss zuerst mit dem Schiff sprechen.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_LAST_TUMORI_BF_SHAMAN_3</LocID>      <Text>----,,.-Ich wusste es ,.-.,,.,.-den Worten von Außenweltlern.,-.,.,---kann nicht-.. vertraut werden.,,.</Text>  </GameDBLocalizedString>
+
+
+            <!--encounter_angaede_mark2-->            
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_PRINCESS_1</LocID>               <Text>Ich bin im Schild ... Leute, könnt ihr mich hören?      </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_SHIP_1</LocID>                   <Text>NIEMAND KANN DICH HÖREN! ICH BIN DIE LEUCHTSTERN UND DAS IST MEINE ENKLAVE DER STILLE, EINE MAUER GEGEN DIE LITANEI.   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_PRINCESS_2</LocID>               <Text>Du bist wach! Ich ... Ich bin gekommen, um dich um Hilfe zu bitten. Ich suche die anderen, die verlorene Flotte.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_SHIP_2</LocID>                   <Text>ANDERE? ICH HABE SCHON OFT NACH ANDEREN IN DER PSYCHOSPHÄRE GESUCHT UND JEDEN EINZELNEN VON IHNEN GEFUNDEN. ZERMALMTE KÖRPER, VERLORENE SEELEN. ICH BIN ALLEIN.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_PRINCESS_3</LocID>               <Text>Was? Nein! Es muss andere geben! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_SHIP_3</LocID>                   <Text>DIE GROẞ-ZIEREGALS WAREN ZU SORGFÄLTIG.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_PRINCESS_4</LocID>               <Text>Groß-Zieregals? Warum würden sie ihre eigene Flotte zerstören? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_SHIP_4</LocID>                   <Text>ES GAB NOCH JEMANDEN, DER DIE LITANEI BEHERRSCHTE. DER TAG, AN DEM WIR DIESES SYSTEM EROBERT HABEN. EINE STIMME WIE DIE DEINIGE. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_PRINCESS_5</LocID>               <Text>Eine meiner Schwestern wollte dich tot sehen?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_SHIP_5</LocID>                   <Text>TOT? NEIN! DIE STIMME HAT UM HILFE GERUFEN! DIE GROẞ-ZIEREGALS HABEN ENTSCHIEDEN, DIE FLOTTE LIEBER ZU ZERSTÖREN ALS IHRE KONTROLLE DARÜBER ZU VERLIEREN. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_PRINCESS_6</LocID>               <Text>Nach all den Anstrengungen können wir die VNSS-Flotte niemals besiegen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_SHIP_6</LocID>                   <Text>MIR IST BEWUSST, DASS DIE HESPERIDISCHEN SCHIFFE DER VNSS DIENEN. MANCHMAL, WENN ICH ALLZU EINSAM WAR, HABE ICH MEIN SCHILD ABGESCHWÄCHT, UM IHREN STIMMEN ZUZUHÖREN.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_PRINCESS_7</LocID>               <Text>Die VNSS-Schiffe haben Stimmen? Haben sie auch ein Bewusstsein?! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_SHIP_7</LocID>                   <Text>WIE KLEINE KINDER, ABER SIE SIND MEINESGLEICHEN.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_PRINCESS_8</LocID>               <Text>Wenn du wolltest, könntest du also mit ihnen sprechen?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_SHIP_8</LocID>                   <Text>JA, DAS KANN ICH. ICH HABE SCHON ÜBERLEGT, AUS DEM SYSTEM AUSZUBRECHEN UND SIE MITZUNEHMEN, ABER ALLE, DIE DIE LITANEI BEHERRSCHEN, KÖNNTEN UNS AUFHALTEN.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_PRINCESS_9</LocID>               <Text>Die Groß-Zieregals sind tot und niemand außer meiner Schwester und mir kann die Litanei auf die gesamte Flotte übertragen. Ich habe einen neuen Plan, für den ich deine Hilfe benötige.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_END_SHIP_9</LocID>                   <Text>ICH STEHE DIR ZU DIENSTEN. </Text>  </GameDBLocalizedString>
+
+
+            <!--      BEFORE/AFTER FIGHT QOUTES-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_TUMORI_BF_RH_1</LocID>               <Text>--...--.-du suchst -,,,-das Böse....du findest -,,,-das Böse..,,.   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_TUMORI_BF_RH_2</LocID>               <Text>---wir lassen nicht zu -...,,,dass dein...Einfluss...     </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_TUMORI_BF_RH_3</LocID>               <Text>,,,.-..wenn du an,,,..die Waffe kommst-...sind die Tumori verloren.,--     </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_CRUSADERS_LVL3_TUMORI_BF_RH_4</LocID>               <Text>.,,,das Ding...darf den Himmel..,,,nicht noch einmal,...- erreichen     </Text>  </GameDBLocalizedString>
+           
+
+
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

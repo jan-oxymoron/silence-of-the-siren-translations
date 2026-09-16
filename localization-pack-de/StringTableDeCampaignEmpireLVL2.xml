@@ -1,0 +1,214 @@
+<Database>
+    <GameDBStringTable ID="LOC_DE_CAMPAIGN_EMPIRE_LVL_2">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!--OBJECTIVES MAIN QUESTS-->
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_START_LVL1_MAYA</LocID>                    <Text>Freie Navigatorin Maya</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_OCCUPY_BASE_1</LocID>                 <Text>Besetze die verlassene Basis der VNSS</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_OCCUPY_BASE_1_DONE</LocID>            <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Besetze die verlassene Basis der VNSS – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_OCCUPY_BASE_2</LocID>                 <Text>Befreie die nahegelegene Basis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_OCCUPY_BASE_2_DONE</LocID>            <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Befreie die nahegelegene Basis – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_SAVE_PRISONERS_1</LocID>              <Text>Befreie die Gefangenen der VNSS 0/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_SAVE_PRISONERS_2</LocID>              <Text>Befreie die Gefangenen der VNSS 1/2</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_SAVE_PRISONERS_2_DONE</LocID>         <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Befreie die Gefangenen der VNSS 2/2 – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_ACTIVATE_THE_BRIDGE_1</LocID>         <Text>Aktiviere die Brücke</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_ACTIVATE_THE_BRIDGE_1_DONE</LocID>    <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Aktiviere die Brücke – Abgeschlossen</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_CAPTURE_DEMON_RAGNA_1</LocID>         <Text>Verhafte Demon Ragna</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_EMPIRE_LVL2_CAPTURE_DEMON_RAGNA_1_DONE</LocID>    <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Verhafte Demon Ragna – Abgeschlossen</color>]]></Text>			</GameDBLocalizedString>
+
+
+            <!--DIALOGUES-->
+
+
+            <!--Start dialogue -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_START_NARRATOR_1</LocID>                <Text>Die Ermittler treffen ihren Kommandanten am Rande des Gebiets der Monarchenflotte. </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_START_JOHN_1</LocID>                    <Text>Willkommen, meine Herren. Während ihr umhergereist seid, habe ich einige meiner Informanten getroffen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_START_B_1</LocID>                       <Text>Hättest du den Einsatz der Verhördrogen genehmigt, hätten wir nicht so viel Zeit verschwendet. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_START_A_1</LocID>                       <Text>Ich bin froh, dass wir das nicht getan haben. Die VNSS sind nicht mehr so stark, wie sie einst waren. Ein Grund mehr, unseren moralischen Kompass zu bewahren.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_START_B_2</LocID>                       <Text>Ein moralischer Kompass wird uns im Krieg nicht weit bringen. Wir verlieren an Boden!  </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_START_JOHN_2</LocID>                    <Text>Ich fürchte, du hast recht, Doktor 9B. Schau dir dieses Gebiet an. Vor dem Zusammenbruch der Raumfahrt gehörte es den VNSS, doch jetzt beherrschen es die Monarchen.  </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_START_JOHN_3</LocID>                    <Text>Holen wir uns etwas von dem verlorenen Boden zurück. Mein Kontakt behauptet, es gäbe an diesem Ufer eine verlassene Basis der VNSS. Ihr beide werdet sie einnehmen und dort eine Operationsbasis einrichten. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_START_B_3</LocID>                       <Text>Eine verlassene Ruine einnehmen? Und was wirst du tun, während wir alles saubermachen, 7A?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_START_JOHN_4</LocID>                    <Text>Es heißt „Kommandant 7A“, Doktor. Vergiss das nicht. Ich muss mich mit einem anderen Kontakt treffen. Bleib auf diesem Ufer und erstatte Bericht, wenn du mit dem Saubermachen fertig bist.  \nDas ist ein Befehl. </Text>  </GameDBLocalizedString>
+
+
+            <!--Disconnected teleport-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_DISCONNECTED_TELEPORT_RH_1</LocID>      <Text>Hmm, keine Verbindung. </Text>  </GameDBLocalizedString>
+
+
+            <!--Baloo bites! -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GUMMYBEARS_RH_1</LocID>                 <Text>Was für ein süßer kleiner Bär! Komm her, mein Kleiner. Willst du was knabbern? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GUMMYBEARS_RH_2</LocID>                 <Text>NICHT!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GUMMYBEARS_RH_3</LocID>                 <Text>„Aua!“ Er beißt! Hör auf damit! Es reicht, du dreckiges Ungeheuer! FEUER!    </Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GUMMYBEARS_B_1</LocID>                  <Text>„Aua!“ Er beißt! Hör auf damit! Mögen die sieben Stufen der Boshaftigkeit über dich kommen! FEUER!    </Text>  </GameDBLocalizedString>
+
+            <!--Arjun_complaining_about_slow_progress-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_WATCHTOWER_RH_1</LocID>           <Text>Wir sind fast am Ziel. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_WATCHTOWER_A_1</LocID>            <Text>„Erstatte Bericht, wenn du mit dem Saubermachen fertig bist“. Ich glaube, du hast den Kommandanten beleidigt. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_WATCHTOWER_T_1</LocID>            <Text>Unsinn, sein Name ist 7A. Das ist das, was seinem hesperidischen Namen am nächsten kommt. Militärische Titel sind nur eine dumme menschliche Tradition. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_WATCHTOWER_A_2</LocID>            <Text>Aber ihr habt alle auch menschliche Namen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_WATCHTOWER_T_2</LocID>            <Text>Das ist richtig. Wir wählen gewöhnliche Namen, um uns anzupassen.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_WATCHTOWER_A_3</LocID>            <Text>Ja, ich bezweifle, dass Namen bei eurem Aussehen einen großen Unterschied machen. </Text>  </GameDBLocalizedString>
+
+            <!--base 1 is captured, finding Maya -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_A_1</LocID>                  <Text>Kommandant Smith, wir haben die Basis erreicht. Kannst du uns hören? ... Kommandant?! ...\n\nVerdammt.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_T_1</LocID>                  <Text>Die elektrischen Ebenen zwischen den Ufern könnten Störungen verursachen. Oder vielleicht ist er einfach zu weit weg. Erweitere die Frequenz ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_M_1</LocID>                  <Text>Hallo, ich erkenne die Verschlüsselung der VNSS. Wer ist da? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_A_2</LocID>                  <Text>Das ist sie, Doktor! Die Überlebende! ... Ich bin Captain Rao, VNSS. Wir sind dir zu Hilfe gekommen, Maya!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_M_2</LocID>                  <Text>Oh! Das ist sehr nobel! Endlich seid ihr hier. DAS HAT LANGE GENUG GEDAUERT!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_T_2</LocID>                  <Text>Gergie-larh! Niemand wusste, dass du lebst, Frau! Du bist die einzige Überlebende der Ranock.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_M_3</LocID>                  <Text>Niemand sonst hat es geschafft?! Aber wir haben so viele Fluchtmodule gestartet! Die Ranock ... sie war mein ganzes Leben.\n\n„Dein Motor verstummte, gleich wie mein Herz“.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_T_3</LocID>                  <Text>Die Worte der Litanei! Was für eine Überraschung, sie von einem Menschen zu hören!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_A_3</LocID>                  <Text>Ich will den Moment nicht verderben, aber wir können uns später umarmen und weinen, wenn wir Maya in Sicherheit gebracht haben! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_M_4</LocID>                  <Text>Ja, genau ... das ist es. Ich habe nicht mehr geglaubt, dass jemand kommen würde. Also bin ich selbst gerade mitten in einer „Bring Maya in Sicherheit“-Mission! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BASE_M_5</LocID>                  <Text>Ich rufe zurück, sobald ich diese Basis erreicht habe. </Text>  </GameDBLocalizedString>
+			
+            <!--Ragna threatens Maya right after the rebellion starts -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_RAGNA_ON_REBELLION_M_1</LocID>          <Text>Das war ein großer Fehler! Ich schicke eine Wache auf die Brücke, während ich mich um deine kleine Rebellion kümmere. Du wirst von dieser Insel nicht entkommen, du hinterhältiges kleines Wiesel!</Text>  </GameDBLocalizedString>
+
+            <!--Prisoners thanks Maya -->
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_PRISONERS_1</LocID>                     <Text>Danke, Maya! Wir werden dir im Kampf gegen die Monarchenwachen helfen! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_PRISONERS_2</LocID>                     <Text>Danke, Maya! Daran werde ich mich mein restliches Leben lang erinnern! </Text>  </GameDBLocalizedString>
+            
+            <!-- Jailers? Wardens? Captors? -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_PRISONERS_3</LocID>                     <Text>Gott segne dich, Maya! Ich dachte, ich würde mir hier mein eigenes Grab schaufeln. Es sieht so aus, als hätte ich es stattdessen für unsere Entführer gegraben! </Text>  </GameDBLocalizedString>
+
+            <!--Thunderbots-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_THUNDERBOTS_1</LocID>                   <Text>GEFANGENE FLIEHEN! PROTOKOLL „TÖTET_SIE_ALLE“ EINLEITEN.    </Text>  </GameDBLocalizedString>
+
+            <!--Gatekeeper-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GATEKEEPER_1</LocID>                    <Text>Ein kleiner Häftling versucht, zu entkommen! Ragna befahl mir, die Brücke zu bewachen, also habe ich den Schlüssel zu deiner Freiheit. Komm, Häftling! Es ist Zeit für ein bisschen Spaß! </Text>  </GameDBLocalizedString>
+
+            <!--base 2 is captured, Maya explaining her plan-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_M_1</LocID>                 <Text>Okay, ihr zwei, ich habe die Basis erobert ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_T_1</LocID>                 <Text>... Aber du bist immer noch am gegenüberliegenden Ufer gestrandet. Ein typischer, willkürlicher Plan, der deiner Spezies würdig ist! Schwarzer Brunnen von Nadir! Gerade als ich glaubte, du wärst besser als das übliche menschliche „Material“, bin ich gezwungen, mit ...  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_A_1</LocID>                 <Text>Übrigens, mit „üblichen menschlichen Material“ meint er mich. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_M_2</LocID>                 <Text>Nur damit du es weißt, Doktor, ich habe vor, an der Küste entlang nach Osten zu ziehen und die Gefangenen der VNSS dort zu befreien.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_M_3</LocID>                 <Text>Und dort.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_M_4</LocID>                 <Text>Dann werde ich die Wachposten in der Nähe der Brücke stürmen, sie aktivieren und verschwinden. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_T_2</LocID>                 <Text>Gut, dann hast du also doch einen Plan. Aber ich habe einen besseren. Warte ab und flüchte zu unserem Ufer, sobald du einen Teleporterstrahl in deiner Basis gebaut hast. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_M_5</LocID>                 <Text>Und der Rest von uns? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_T_3</LocID>                 <Text>Nur du hast die Informationen über die Zerstörung der Ranock und weißt, was mit dem Kern der Torstation passiert ist. Der Rest der Gefangenen der VNSS ist entbehrlich ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_M_6</LocID>                 <Text>Dann kommt der Rest der Gefangenen mit mir. Bis dahin betrachte diese Info als meine Geisel!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_T_4</LocID>                 <Text>Hör zu, Frau! Du ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_A_2</LocID>                 <Text>Schluss, Doktor. Halten wir uns an ihren Plan. Außerdem ist der Standort des Teleporterstrahls in unserer Basis beschädigt. Wäre ich ein Monarch, würde ich ihn auch in Mayas Basis sabotieren. Ich kenne die Methoden der Monarchen ziemlich gut. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BASE_T_5</LocID>                 <Text>Ja, das tust du. Mit dem Bart siehst du aus wie ein Seeräuber der Monarchen. Nun gut. Wenigstens gibt es keinen Grund, ohne Befehl auf die andere Seite zu gehen und meinen Vertrag mit den VNSS wegen Ungehorsams zu verlieren. </Text>  </GameDBLocalizedString>
+
+
+            <!--on beard-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BEARD_A_1</LocID>                <Text>Wie kommst du darauf, dass ich wie ein Arzt der Monarchen aussehe? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BEARD_T_1</LocID>                <Text>Ich weiß nicht, der wilde, ungepflegte Bart, die Art, wie du gehst, die Form deines Schädels ...?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BEARD_A_2</LocID>                <Text>Warte, was ist mit meinem Schädel?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BEARD_T_2</LocID>                <Text>Vor allem die „höhlenmenschlichen“ Dimensionen deines Stirnbeins. Ohh, Phrenologie, du bist die schlafende Schönheit der Wissenschaft. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SECOND_BEARD_A_3</LocID>                <Text>Phrenologie ist Pseudowissenschaft, aber ich könnte mir überlegen, den Bart zu stutzen. </Text>  </GameDBLocalizedString>
+
+
+
+            <!--First bridge is active, John meets the Ragna-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_M_1</LocID>                <Text>Ja! Die Brücke ist wieder da! Und nun zu meinem Teil der Abmachung. Während des Angriffs löste sich der Kern selbstständig von der Torstation und landete am Rande des Wühler-Gebiets ...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_M_2</LocID>                <Text>Warte, da kommt jemand. Verdammt! Es ist meine Kerkermeisterin, Demon Ragna selbst! Ich bin noch nicht bereit für diesen Kampf; ich muss mich verstecken. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_M_3</LocID>                <Text>[FLÜSTERT] Captain, Doktor, hört ihr mich? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_A_1</LocID>                <Text>Ja, bitte bleib ruhig und außer Sichtweite.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_R_1</LocID>                <Text>Du magst der beste Doppelagent sein, den wir haben, aber du bist total verrückt, hier und jetzt ein Treffen einzuberufen!\nIch bin gerade mitten bei der Jagd nach entflohenen Gefangenen!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_J_1</LocID>                <Text>Ich bin niemandes Agent. Ich handle einfach im besten Interesse der gesamten Menschheit. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_R_2</LocID>                <Text>Daraufhin wurde die Ranock in Stücke gesprengt und der Weg zum Sonnensystem versperrt. Sag mir, Smith, wie hast du es geschafft, den Schild der Ranock zu sabotieren?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_J_2</LocID>                <Text>Ein Schildtechniker der Ranock hat ihn für mich ausgeschaltet. Er wusste es nicht. Sein einziger Fehler war, dass er mich für einen Freund hielt ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_R_3</LocID>                <Text>... dann hast du ihn gut ausgetrickst. Alle Ratten der VNSS verdienen ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_J_3</LocID>                <Text>HALT DIE KLAPPE! Er war mein Freund und ich habe sein Blut an meinen Händen. Wage es nicht, auf sein Andenken zu spucken! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_R_4</LocID>                <Text>Ich werde dich nie verstehen, Smith. Was willst du dieses Mal? Soll ich den Wühlern einen weiteren Tipp geben? Wird wieder ein Schlachtschiff wie die Ranock ohne Schild dastehen? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_J_4</LocID>                <Text>Nein. Du hast eine Frau in deinem Arbeitslager. Sie weiß, wo der Kern der Torstation gelandet ist. Sie muss zum Schweigen gebracht werden. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_R_5</LocID>                <Text>Nicht nötig. Ein paar verrückte Wühler haben dort eine Atombombe hochgehen lassen. Der Kern wurde zerstört. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_J_5</LocID>                <Text>Der Kern wurde von den Primals gebaut und hat den Heiligen Krieg ohne einen Kratzer überstanden. Ich muss es mit eigenen Augen überprüfen, und das kann ich nicht, wenn mir meine eigenen Ermittler im Nacken sitzen. Sie vermuten bereits ein falsches Spiel. Sie sind jetzt in der alten Basis am anderen Ufer.\n\nTötet sie auch.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_R_6</LocID>                <Text>Betrachte es als erledigt. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_R_7</LocID>                <Text>Und ICH soll der Dämon sein. Du bist hier das wahre Monster, Smith. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_A_2</LocID>                <Text>Dieser VERDAMMTE ... Ich habe ihm vertraut! Wir müssen ihn verhaften! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_T_1</LocID>                <Text>Nein! An diesem Punkt steht sein Wort gegen unseres, und er hat alle Privilegien, die mit seinem Rang einhergehen ... bis wir ihn kompromittieren. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_M_4</LocID>                <Text>Wir brauchen handfeste Beweise ... Was ist mit der Aussage eines Komplizen?  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_FIRST_BRIDGE_A_3</LocID>                <Text>Einverstanden, lass uns Ragna fangen. Dann werden wir uns um Smith kümmern. Es ist an der Zeit, nicht mehr nett zu sein! </Text>  </GameDBLocalizedString>
+
+            <!--Ragna is sending a killer -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_RAGNA_KILLER_R_1</LocID>                <Text>Versteckt euch in eurem Bau, kleine Füchse! Die Hunde haben eure Fährte schon aufgenommen! Die Jagd beginnt!</Text>  </GameDBLocalizedString>
+
+            <!--crosing a bridge -->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_CROSSING_BRIDGE_A_1</LocID>             <Text>Solange wir Kommandant Smith nicht diskreditieren, bleiben seine Befehle gültig und werden im Netzwerk der VNSS gespeichert. Je nach Status des Systems könnte ich sogar meinen Vertrag mit den VNSS verlieren.</Text>  </GameDBLocalizedString>
+
+            <!--Gate 1 is closed-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GATE_1_RH_1</LocID>                     <Text>Verdammt, das ist ein Primals-Tor. Klopfen ist zwecklos. Wir müssen einen anderen Weg finden. </Text>  </GameDBLocalizedString>
+
+            <!--Gate 2 is closed-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GATE_2_RH_1</LocID>                     <Text>Die Primals wissen, wie man undurchdringliche Tore baut ... </Text>  </GameDBLocalizedString>
+
+            <!--Spores-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SPORES_RH_1</LocID>                     <Text>Weber! Wie können diese Schädlinge in der Sporenwolke gedeihen? Ich kann ohne Schutzkleidung kaum atmen! </Text>  </GameDBLocalizedString>
+
+            <!--Spores dr. Brown-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SPORES_B_1</LocID>                      <Text>Weber! Wie können diese achtbeinigen Bastarde in der Sporenwolke atmen? Vielleicht liegt es am Atmungssystem der Insekten! Ich sollte es selbst ausprobieren!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_SPORES_B_2</LocID>                      <Text>NEIN! Es muss etwas anderes sein! Ich ersticke ... genauso ... wie ... die ... Affen ... Gergie-larh!</Text>  </GameDBLocalizedString>
+
+            <!--Gap 1-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GAP_1_RH_1</LocID>                      <Text>Es sieht so aus, als würde diese Lücke auf die andere Seite führen. Ich frage mich, warum sie eine solche Öffnung in ihrer Verteidigung gelassen haben. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GAP_1_RH_2</LocID>                      <Text>Ok, sie haben die Lücke nicht unbewacht gelassen, aber die Wächter sind ... Pylonen?  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GAP_1_RH_3</LocID>                      <Text>Verdammt, jetzt verstehe ich. Diese Primals-Wächtermaschinen sind knallhart! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GAP_1_R_1</LocID>                       <Text>Ich wette, du hast einen verdammt hohen Preis gezahlt, dir den Weg durch die Primal-Wachen zu bahnen! Gut! Ich würde meine Männer nie für so etwas opfern, aber ihr Bastarde der VNSS seid richtig erpicht darauf!</Text>  </GameDBLocalizedString>
+
+            <!--Bridge 2-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_BRIDGE_2_RH_1</LocID>                   <Text>Eine weitere Lichtbrücke, aber diese hier hat KEINEN Fernschalter! Sie wird aktiviert, wenn ich eine starke Energiequelle wie einen Primal-Fusionskern einsetze.</Text>  </GameDBLocalizedString>
+
+            <!--Gap 2-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GAP_2_RH_1</LocID>                      <Text>Es sieht so aus, als würde die Lücke auf die andere Seite führen, aber ich wette, sie wird bewacht.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_GAP_2_R_1</LocID>                       <Text>Bist du hierhergekommen, um deine Waffen niederzulegen und dich zu ergeben? Weißt du was?! Du hast Monarchen auf diesem Schiff getötet!  </Text>  </GameDBLocalizedString>
+
+            <!--Old Viletrax-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_VILETRAX_V_1</LocID>                    <Text>Ich sehe deine Seele in deinen Augenwinkeln.   </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_VILETRAX_V_T_1</LocID>                  <Text>Du trauerst um die Ranock und siehst nicht ein, dass sie in den Händen der VNSS zu einem Monster geworden wäre. Eine Mörderin! Du bist so blind wie ein Elternteil, der sein Kind anschaut. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_VILETRAX_V_A_1</LocID>                  <Text>Die VNSS gehen langsam, aber sicher unter. Aber tief in deinem Innern fürchtest du, dass die VNSS, an die du geglaubt hast, nie existieren und ihr Schicksal verdient haben.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_VILETRAX_V_M_1</LocID>                  <Text>Du weißt nicht, ob die Trauer vom Verlust deiner Freunde oder von der Zerstörung der Ranock kommt. Und du hast Angst, es zuzugeben. Ich weiß, wie es ist, seine Menschlichkeit zu verlieren, glaub mir. </Text>  </GameDBLocalizedString>
+
+            <!--925-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_925_1</LocID>                           <Text>Vor meinem Tod war ich ein Soldat wie du. Ich wusste nicht, dass ich selbst danach den VNSS gehören würde. Ich habe sie dafür gehasst, dass sie mich in diese Blechbüchse gesperrt haben. Aber das gab mir die Kraft, zu entkommen und mich zu rächen! Jetzt bin ich dankbar für die Fesseln, die mich befreit haben!  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_925_2</LocID>                           <Text>Der Kampf gegen ein Engramm ist wie der Kampf gegen eine vielköpfige Hydra. Für jede zerstörte Kopie gibt es zwei Backups. Die Existenz ... ist ... ein Albtraum.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_925_RH_1</LocID>                        <Text>Das war seltsam.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_925_T_1</LocID>                         <Text>Aber ich erinnere mich an ihn! Er war außergewöhnlich. Du weißt, dass die meisten Menschen verrückt werden, wenn man ihren Verstand herunterlädt. „Wo ist mein Körper? Was habt ihr mit mir gemacht?!“, schreien sie. Aber dieser hier ...  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_925_A_1</LocID>                         <Text>Was?! Ich traue meinen Ohren kaum! Du warst in einen so schrecklichen ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_925_T_2</LocID>                         <Text>Ach ja, ich vergaß, dass Menschen dazu neigen, empfindlich zu sein. Wenn jemand den Verstand eines toten Gehirns herunterlädt, rufen alle sofort: „Wo sind meine Fackel und meine Mistgabel?“, „Verbrennt den Nekromanten!“.  </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_925_A_2</LocID>                         <Text>Ok, das reicht; ich habe genug gehört.</Text>  </GameDBLocalizedString>
+
+            <!--THE END - Ragna before fight-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_PRE_FIGHT_R_1</LocID>                  <Text>Ich komme dich holen, VNSS-Abschaum!</Text>  </GameDBLocalizedString>
+
+            <!--THE END - Ragna Beaten-->
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_R_1</LocID>                     <Text>Ich muss nicht einmal um mein Leben betteln, oder? Du willst Informationen. Du wirst KEINE bekommen! Du bist zu weich. Ihr von den VNSS haltet euch immer an die Regeln. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_A_1</LocID>                     <Text>Weißt du, ich bin nicht in den VNSS aufgewachsen. Ich war ein Monarch, ein Pirat, bis die VNSS mich gefangen nahmen. Ich dachte, ich sei erledigt, aber sie boten mir eine zweite Chance ... </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_R_2</LocID>                     <Text>Verräter! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_A_2</LocID>                     <Text>... bis dahin kannte ich nur Hunger, Elend und Legenden, so wie du. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_R_3</LocID>                     <Text>Wir bieten den Menschen Freiheit! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_A_3</LocID>                     <Text>DU FÜTTERST DIE LEUTE MIT LÜGEN! Aber der Punkt ist, dass ich ziemlich gut weiß, wie man NICHT „nach Vorschrift“ spielt. Soldaten, bringt sie in die Vernehmungszelle! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_B_1</LocID>                     <Text>Solange wir kein Geständnis von ihr bekommen, können wir Smith 7A nicht verfolgen. Die VNSS würden uns als Deserteure einstufen. Technisch gesehen stehen wir immer noch unter deren Kommando. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_A_4</LocID>                     <Text>Ich muss es riskieren. Wenn Smith den Kern erreicht, wird er unsere letzte Hoffnung zerstören, den Weg zum Sonnensystem wieder zu öffnen. </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_B_2</LocID>                     <Text>Gergie-larh! Du wirst es nicht durch den ersten Kontrollpunkt der VNSS schaffen, Rao! </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_A_5</LocID>                     <Text>Mach dir keine Sorgen, Doktor. Ich kenne noch den einen oder anderen Trick aus meiner Zeit als Monarch.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_B_3</LocID>                     <Text>Das könnte dich deinen Vertrag kosten!    </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_RAGNA_BEATEN_A_6</LocID>                     <Text>Ich bin sicher, dass das Kommando über die Details hinwegsehen wird, wenn wir den Kern retten und die Torstation reparieren.\nIch muss los. Viel Glück! </Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

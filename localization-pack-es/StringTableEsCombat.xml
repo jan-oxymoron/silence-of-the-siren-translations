@@ -21,7 +21,8 @@
                                                                                                                  
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED</LocID>                               <Text>¡Retirada!</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREATED_TEXT</LocID>                          <Text>Tu comandante se ha retirado del combate. Ha conservado todo el equipo, habilidades y destrezas que llevaba equipados, pero ha perdido a todo su ejército.</Text>  </GameDBLocalizedString>
-                                                                                                                 
+            <GameDBLocalizedString>         <LocID>COMBAT_RETREAT</LocID>                                        <Text>Retirada</Text>  </GameDBLocalizedString>
+
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_PHOENIX</LocID>                         <Text>¿Retirada táctica?</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>DIALOG_COMBAT_RETREAT_PHOENIX_TEXT</LocID>                    <Text>¿Quieres retirarte del combate? Gracias al artefacto Fénix, salvarás a tu comandante y a la mitad de tu ejército actual.</Text>  </GameDBLocalizedString>
                                                                                                                  
@@ -82,6 +83,7 @@
 
             <GameDBLocalizedString>         <LocID>MESSAGE_MORALE_EXTRA_TURN</LocID>                             <Text>Gracias a su alto nivel de ánimo, {Stack} puede seguir moviéndose.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MESSAGE_MORALE_LOSE_TURN</LocID>                              <Text>Debido a su bajo nivel de ánimo, {Stack} pierde su turno.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_BURN_LOSE_TURN</LocID>                                <Text>Debido a la quemadura, {Stack} pierde su turno.</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_BLEEDING</LocID>                               <Text>{Stack} está sangrando y recibe {float} de daño.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_BURNING</LocID>                                <Text>{Stack} está ardiendo y recibe {float} de daño.</Text></GameDBLocalizedString>
@@ -190,6 +192,7 @@
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_FORCE_FIELD_DESCRIPTION</LocID>           <Text>Su escudo protector absorbe todo el daño hasta que sus propios PS se agoten.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PIRATE_CANNON_TARGET</LocID>              <Text>Blanco de misil</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PIRATE_CANNON_TARGET_DESCRIPTION</LocID>  <Text>La unidad de vuelve el objetivo de un misil.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HEX_EFFECT_LAST_FOR_X_ROUNDS</LocID>                          <Text>El efecto dura {1} turno(s) en la casilla</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>REMAINING_UNITS</LocID>                                       <Text>Unidades restantes</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>REMAINING_HEALTH</LocID>                                      <Text>Salud</Text></GameDBLocalizedString>

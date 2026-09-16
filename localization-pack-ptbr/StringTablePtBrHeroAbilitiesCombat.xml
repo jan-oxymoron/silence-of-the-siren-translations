@@ -98,9 +98,9 @@
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR</LocID>                                 <Text>Consertar</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION</LocID>                     <Text>Restaura a saúde de unidades Tech aliadas.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL1</LocID>                <Text> </Text></GameDBLocalizedString> <!-- Difference?-->
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL2</LocID>                <Text> </Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL3</LocID>                <Text> </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL1</LocID>                <Text><![CDATA[Restaura <color=SOTS_COLOR_LIGHT_GREEN>80 Pontos de Vida + 20 Pontos de Vida </color> para cada ponto de {LOC:HERO_ATTRIBUTE_INTELLIGENCE}.]]></Text></GameDBLocalizedString> <!-- Difference?-->
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL2</LocID>                <Text><![CDATA[Restaura <color=SOTS_COLOR_LIGHT_GREEN>80 Pontos de Vida <b>+ 30 Pontos de Vida</b> </color> para cada ponto de {LOC:HERO_ATTRIBUTE_INTELLIGENCE}.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_REPAIR_DESCRIPTION_LVL3</LocID>                <Text><![CDATA[Restaura <color=SOTS_COLOR_LIGHT_GREEN>80 Pontos de Vida <b>+ 40 Pontos de Vida</b> </color> para cada ponto de {LOC:HERO_ATTRIBUTE_INTELLIGENCE}.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP</LocID>                         <Text>Torreta Paraquedista</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_SENTRY_AIRDROP_DESCRIPTION</LocID>             <Text>Coloca uma Torreta de Guarda automática em qualquer lugar do seu lado da batalha.</Text></GameDBLocalizedString>
@@ -123,7 +123,7 @@
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ORBITAL_STRIKE_DESCRIPTION_LVL3</LocID>        <Text><![CDATA[Causa <color=SOTS_COLOR_RED>danos</color> significantes e inflinge tontura.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE</LocID>                             <Text>Onda de Choque</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE_DESCRIPTION</LocID>                 <Text><![CDATA[Empurra unidades pra longe do epicentro e causa <color=SOTS_COLOR_RED>danos</color> se eles esbarrarem em algo.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_BLAST_WAVE_DESCRIPTION</LocID>                 <Text><![CDATA[Empurra unidades para longe do epicentro e causa <color=SOTS_COLOR_RED>danos</color> a elas.]]></Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK</LocID>                                   <Text>Hackear</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_HACK_DESCRIPTION</LocID>                       <Text>Hackeia uma unidade Tech selecionada.</Text></GameDBLocalizedString>

@@ -21,9 +21,9 @@
             
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION</LocID>                                       <Text>Zavartság</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION</LocID>                           <Text>Az összezavarodott egységek küzdeni kezdenek a parancsnokuk utasításainak követésével.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL1</LocID>                      <Text>5-tel csökkenti az ellenséges egységek Kezdeményezés értékét és Mozgáspontját.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL2</LocID>                      <Text>5-tel csökkenti az ellenséges egységek Kezdeményezés értékét és Mozgáspontját. Emellett letiltja a közelharci támadókészségét.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL3</LocID>                      <Text>5-tel csökkenti az ellenséges egységek Kezdeményezés értékét és Mozgáspontját. Emellett letiltja a közelharci és távolsági támadókészségét.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL1</LocID>                      <Text>40%-kal csökkenti az ellenséges egységek Kezdeményezés értékét és Mozgáspontját.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL2</LocID>                      <Text>40%-kal csökkenti az ellenséges egységek Kezdeményezés értékét és Mozgáspontját. Emellett letiltja a közelharci támadókészségét.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_CONFUSION_DESCRIPTION_LVL3</LocID>                      <Text>40%-kal csökkenti az ellenséges egységek Kezdeményezés értékét és Mozgáspontját. Emellett letiltja a közelharci és távolsági támadókészségét.</Text>  </GameDBLocalizedString>
             
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_REDUCE_INITIATIVE_MOVEMENT</LocID>               <Text>Remegő Összpontosítás</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_REDUCE_INITIATIVE_MOVEMENT_DESCRIPTION</LocID>   <Text>Az ellenséges lény Kezdeményezés értéke és a Mozgáspontja 40%-kal csökken.</Text>  </GameDBLocalizedString> <!-- TWEAKABLE_EFFECT_SLOW_INITIATIVE_REDUCTION_PERCENT and TWEAKABLE_EFFECT_SLOW_MOVEMENT_REDUCTION_PERCENT-->
@@ -46,9 +46,9 @@
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_POLTERGEIST_DESCRIPTION</LocID>                  <Text>Vedd át az irányítást az ellenséges egység felett.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_POLTERGEIST_LVL2</LocID>                         <Text>Csak az ellenséges egység mozgását irányíthatod, az egység utána is támadhat. Csak a Technológiai alapú egységekre hat.</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_POLTERGEIST_LVL3</LocID>                         <Text>Irányíthatod az ellenséges egység mozgását és a támadását is. Bármelyik egységet megcélozhatod vele.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POLTERGEIST_2</LocID>                            <Text>Kopogó Szellem</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POLTERGEIST_2</LocID>                            <Text>Misztikus Vezérlés</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POLTERGEIST_2_DESCRIPTION</LocID>                <Text>Az egység mozgását az ellenség irányíthatja.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POLTERGEIST_3</LocID>                            <Text>Kopogó Szellem</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POLTERGEIST_3</LocID>                            <Text>Misztikus Vezérlés</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_POLTERGEIST_3_DESCRIPTION</LocID>                <Text>Az egységet teljesen az ellenség irányíthatja.</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_PSYSERKER</LocID>                                <Text>Őrjöngés</Text>  </GameDBLocalizedString>
@@ -83,7 +83,7 @@
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_PHASE_MIRROR_DESCRIPTION</LocID>                 <Text>Az ellenséges parancsnok képességei nem célozhatják meg ezt az egységet.(Kivéve az Eloszlatást).</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND</LocID>                              <Text>Mentális Kapcsolódás</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND_DESCRIPTION</LocID>                  <Text>Összeköti az ellenséges egységeket. Ha bármelyikük sebzést szenved, a többi is elszenvedi a sebzést. Minden egység az eredeti sebzés 80%-át kapja.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND_DESCRIPTION</LocID>                  <Text>Összeköti az ellenséges egységeket. Ha bármelyikük sebzést szenved, a többi is elszenvedi a sebzést. Minden egység az eredeti sebzés 50%-át kapja.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND_DESCRIPTION_LVL2</LocID>             <Text>Két egységet kapcsol össze.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_MENTAL_BOND_DESCRIPTION_LVL3</LocID>             <Text>Három egységet kapcsol össze.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>STACK_STATUS_EFFECT_MENTAL_BOND</LocID>                              <Text>Mentális Kötődés</Text></GameDBLocalizedString>

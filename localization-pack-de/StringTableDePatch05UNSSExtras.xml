@@ -1,0 +1,36 @@
+<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_05_UNSS_EXTRAS">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <!-- Run and gun as in "can move and still attack after", the term is from XCom https://xcom.fandom.com/wiki/Run_%26_Gun -->
+            <GameDBLocalizedString>         <LocID>TOOLTIP_LIMITED_RANGE_UNIT</LocID>                                   <Text>Diese Einheit hat nur eine begrenzte Reichweite und kann laufen und schießen.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>SPECIAL_STARTS_ON_COOLDOWN</LocID>                                   <Text>Beginnt mit aktiver Abklingzeit.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER</LocID>                               <Text>Kommandoanführer</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER_DESCRIPTION</LocID>                   <Text>Teile während des Kampfes beliebige Einheitenstapel in zwei auf. Der neu abgetrennte Stapel erhält einen neuen Zug. Verbessert die Moral der Armee.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SPLIT_STACK_CHARGES</LocID>                             <Text><![CDATA[Du kannst pro Runde einen Einheitenstapel aufteilen. Benutzungen pro Schlacht: <color=SOTS_COLOR_GOLD>{1}</color>.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_SPLIT_STACK</LocID>                                   <Text>{CombatActor} hat „{GameDBHeroSkill}“ benutzt, um „{Stack}“ aufzuteilen.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_1_OBJECTIVE_2</LocID>                       <Text>Kümmere dich um den gefährlichen Wühler-Kriegsherrn</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_2_OBJECTIVE_2</LocID>                       <Text>Finde mehr über die Kidnapper der Monarchenflotte heraus</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_1</LocID>                       <Text>Verfolge Smith</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_2</LocID>                       <Text>Kümmere dich um alle, die sich dir in den Weg stellen, auch, wenn du gegen die VNSS selbst kämpfen musst</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_2</LocID>                       <Text>Verfolge Smith</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_3</LocID>                       <Text>Nutze deine letzte Chance, um Raos Ruf wiederherzustellen</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_13</LocID>                                               <Text>VNSS-Kommandanten können den Skill „Kommandoanführer“ erlernen, um Einheitenstapel während einer Schlacht aufteilen zu können.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_SPLIT_STACK</LocID>                                          <Text>Teile diesen Staple in zwei gleichgroße Stapel auf</Text>  </GameDBLocalizedString>
+        </LocalizedStrings>       
+        
+    </GameDBStringTable>
+</Database>

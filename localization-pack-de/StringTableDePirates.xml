@@ -4,7 +4,7 @@
         <LanguageRef>LANG_DE</LanguageRef>
 
         <Contributors>
-            <Name>Oxymoron Games</Name>
+            <Name>QLOC</Name> <Name>Raphale Oberhuber</Name> <Name>Nino Kadletz</Name>  <Name>Philipp Kolleritsch</Name>
         </Contributors>
 
         <LocalizedStrings>
@@ -29,7 +29,7 @@
             <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_PROJECTILE</LocID>   <Text>Rakete</Text></GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>UNIT_PIRATES_WAR_MACHINE_HEALING_STATION</LocID> <Text>Heilstation</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_WAR_MACHINE_HEALING_STATION_DESCRIPTION</LocID> <Text>Heilt einmal pro Runde 10% des meistbeschädigten Einheitenstapels</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_WAR_MACHINE_HEALING_STATION_DESCRIPTION</LocID> <Text>Heilt einmal pro Runde 20% des meistbeschädigten Einheitenstapels</Text></GameDBLocalizedString>
 
             <!--Unit description-->
             <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PARROT_DESCRIPTION</LocID>               <Text>Diese Serie universeller Hilfsroboter wurde ursprünglich mit dem Slogan „Sicherheit geht vor“ beworben. Doch in Wahrheit waren sie alles andere als sicher. Ihr Schöpfer selbst musste es auf die harte Tour erfahren: Als er einen der zahlreichen Softwarefehler beheben wollte, wechselte der Prototyp selbstständig das Programm und aktivierte HeckeTrimmenFormSchwan.exe ... </Text></GameDBLocalizedString> <!-- Imagine something like Edward Scissorhands shaping a hedge -->
@@ -54,8 +54,8 @@
             <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PIRATE_INFO_DESCRIPTION</LocID>               <Text>Nahkampfangriffe verursachen Giftschaden.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>UNIT_PIRATES_PIRATE_UPG_INFO_DESCRIPTION</LocID>           <Text>Nahkampfangriffe verursachen Giftschaden.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>ABILITY_UNIT_PIRATE_SPECIAL</LocID>                        <Text>Wirft eine Granate, die Giftschaden verursacht.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_INFO_DESCRIPTION</LocID>               <Text>Zielt auf eine Einheit und feuert eine Rakete ab. Die Einheit wird am Ende der Runde getroffen.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_UPG_INFO_DESCRIPTION</LocID>           <Text>Zielt auf zwei Einheiten und feuert zwei Raketen ab. Die Einheit wird am Ende der Runde getroffen.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_INFO_DESCRIPTION</LocID>               <Text>Zielt auf eine Einheit und feuert eine Rakete ab, die Brandschaden verursacht. Die Einheit wird am Ende der Runde getroffen. Kein Fernkampfmalus.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CANNON_UPG_INFO_DESCRIPTION</LocID>           <Text>Zielt auf zwei Einheiten und feuert zwei Raketen ab, die Brandschaden verursachen. Die Einheit wird am Ende der Runde getroffen. Kein Fernkampfmalus.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CRAB_INFO_DESCRIPTION</LocID>                 <Text>Nahkampfangriffe verursachen Korrosionsschaden.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>UNIT_PIRATES_CRAB_UPG_INFO_DESCRIPTION</LocID>             <Text>Kann sich bewegen und mit begrenzter Reichweite schießen. Verursacht Korrosionsschaden.</Text></GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>UNIT_PIRATES_BOUNTYHUNTER_INFO_DESCRIPTION</LocID>         <Text>Schüsse werden auf größere Entfernung präziser. Nachteile beim Beschuss von Zielen in der Nähe.</Text></GameDBLocalizedString>

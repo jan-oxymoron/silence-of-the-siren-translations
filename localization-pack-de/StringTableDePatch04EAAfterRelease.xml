@@ -1,0 +1,111 @@
+<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_04">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+        
+            <!-- Gates and keys -->
+            <GameDBLocalizedString>         <LocID>DIALOG_ITEM_ALREADY_OWNED</LocID>                                    <Text>Du trägst bereits ein Exemplar davon bei dir!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_ITEM_ALREADY_OWNED_TEXT</LocID>                               <Text>Der Kommandant hat diesen Gegenstand bereits im Inventar:</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_GATE_NEED_KEY</LocID>                                         <Text>Dieses Tor ist verschlossen!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_GATE_NEED_KEY_TEXT</LocID>                                    <Text>Du brauchst einen passenden Schlüssel, um das hier aufzusperren:</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_STRAIGHT_LOCKED</LocID>                                  <Text>Quest-Tor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_STRAIGHT_UNLOCKED</LocID>                                <Text>Quest-Tor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_RIGHT_LOCKED</LocID>                                     <Text>Quest-Tor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_RIGHT_UNLOCKED</LocID>                                   <Text>Quest-Tor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_LEFT_LOCKED</LocID>                                      <Text>Quest-Tor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_LEFT_UNLOCKED</LocID>                                    <Text>Quest-Tor</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_STRAIGHT_LOCKED_KEY</LocID>                              <Text>Verschlossenes Tor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_RIGHT_LOCKED_KEY</LocID>                                 <Text>Verschlossenes Tor</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_LEFT_LOCKED_KEY</LocID>                                  <Text>Verschlossenes Tor</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_DESCRIPTION</LocID>                                      <Text>Ein Tor, das durch ein bestimmtes Ereignis aus der Ferne geöffnet werden kann.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_GATE_DESCRIPTION_KEY</LocID>                                  <Text>Ein Tor, das mit einem Schlüssel in der entsprechenden Farbe geöffnet werden kann:</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_DESCRIPTION</LocID>                               <Text>Ein Schlüssel, mit dem man ein beliebiges Tor in der entsprechenden Farbe aufschließen kann.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_LORE</LocID>                                      <Text>Äußerst einfache Technologie. Ohne sie würden die Tore jedoch für immer verschlossen bleiben.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_RED</LocID>                                       <Text>Roter Torschlüssel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_YELLOW</LocID>                                    <Text>Gelber Torschlüssel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_GREEN</LocID>                                     <Text>Grüner Torschlüssel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_LIGHT_BLUE</LocID>                                <Text>Hellblauer Torschlüssel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_WHITE</LocID>                                     <Text>Weißer Torschlüssel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_BLUE</LocID>                                      <Text>Blauer Torschlüssel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_ORANGE</LocID>                                    <Text>Oranger Torschlüssel</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_GATE_KEY_PURPLE</LocID>                                    <Text>Violetter Torschlüssel</Text>  </GameDBLocalizedString>
+            
+            <!-- Assorted gameplay texts -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MOVEMENT_NODE_SMALL</LocID>                                   <Text>Bewegungsknoten</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MOVEMENT_NODE_SMALL_DESCRIPTION</LocID>                       <Text><![CDATA[<color=SOTS_COLOR_GOLD>Stellt</color> die <color=SOTS_COLOR_MOVEMENT>Bewegungspunkte</color> eines Kommandanten einmal pro Zyklus vollständig wieder her. (Wer zuerst kommt, mahlt zuerst.)]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_TOMB_OF_SWORDMASTER_DESCRIPTION_V2</LocID>                    <Text><![CDATA[Lernen aus dem heruntergeladenen Bewusstsein eines alten Meisters. Wenn du hier studierst, wird sich eines der <color=SOTS_COLOR_GOLD>Attribute</color> deines Kommandanten <color=SOTS_COLOR_GOLD>dauerhaft um 2 erhöhen</color>.\nJeder Kommandant kann hier nur ein einziges Mal studieren.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_LEVEL_UP_ATTRIBUTE_TEXT</LocID>                               <Text><![CDATA[Willkommen in meinem Grab, {1}!\nDu kannst ein Attribut deiner Wahl um <color=SOTS_COLOR_GOLD>2 verbessern</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>IMPROVE_ATTRIBUTE</LocID>                                            <Text>Wähle ein Attribut, das du VERBESSERN möchtest.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ATTRIBUTE_LEVEL_UP</LocID>                                           <Text>Attribut verbessern</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>RETREAT_NO_BASE</LocID>                                              <Text>Du hast keine Basis, in die du dich zurückziehen könntest!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>RETREAT_NOT_FROM_HERE</LocID>                                        <Text>Du kannst dich von hier aus nicht zurückziehen!</Text>  </GameDBLocalizedString>
+
+            <!-- ability no target -->
+            <GameDBLocalizedString>         <LocID>NO_TARGET</LocID>                                                    <Text>Kein Ziel</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CAMPAIGNSHUTTLE_LVL1</LocID>                                  <Text>Cyber-Käfer-Shuttle</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CAMPAIGNSHUTTLE_DESCRIPTION_LVL1</LocID>                      <Text>Ein kleines Schiff aus der Flotte der Kinder der Quelle.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CAMPAIGNSHUTTLE</LocID>                                       <Text>Cyber-Käfer-Shuttle</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CAMPAIGNSHUTTLE_DESCRIPTION</LocID>                           <Text>Ein kleines Schiff aus der Flotte der Kinder der Quelle, mit dem Furret und Muff vor einer nuklearen Explosion geflohen sind.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>HOLD_BASE_FOR_N_ROUNDS</LocID>                                       <Text>Halte die Basis {1} {2} Phasen lang.\n{3}</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_GENERAL_OR</LocID>                                         <Text>oder</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>EFFECTS_LAST_UNTIL_UNIT_ACTIVATES</LocID>                            <Text>Effekt hält bis zum nächsten Zug der Einheit an.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EFFECTS_LAST_FOR_X_TURNS</LocID>                                     <Text>Effekt hält für {1} Zug/Züge der Einheit an.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EFFECTS_LAST_FOR_X_ROUNDS</LocID>                                    <Text>Effekt hält {1} Runde(n) lang an.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EFFECTS_REMAINING</LocID>                                            <Text>Verbleibend: {1}</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_UNIT_MECH_SPECIAL_V2</LocID>                                 <Text>Wirft Brandgranaten in alle Richtungen.</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MONSTER_ARMY_CHANGES_WEAKER</LocID>                                  <Text><![CDATA[Dies ist die <color=SOTS_COLOR_GOLD>schwächere Version</color> einer Einheit, die sich je nach Tageszeit verwandelt.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MONSTER_ARMY_CHANGES_STRONGER</LocID>                                <Text><![CDATA[Dies ist die <color=SOTS_COLOR_GOLD>stärkere Version</color> einer Einheit, die sich je nach Tageszeit verwandelt.]]></Text>  </GameDBLocalizedString>
+            
+            <!-- New planet in SKIRMISH and its maps -->
+            <GameDBLocalizedString>         <LocID>PLANET_EA_01_ID</LocID>                                              <Text>UNSC 4298d Skylla</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLANET_EA_02_ID</LocID>                                              <Text>UNSC 4298e Charybdis</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PLANET_EA_02_DESCRIPTION</LocID>                                     <Text><![CDATA[Durch die künstlich erzeugte Rotation wird der Tag-Nacht-Zyklus mit der größeren Schwester UNSC 4298d synchronisiert. Vielleicht gefiel es den Primals, die den Planeten ursprünglich kontrollierten, so besser.\n\nIhr Einfluss ist selbst aus dem Orbit spürbar, obwohl die Oberfläche des Planeten dicht mit Kristallformationen bedeckt ist.\n\nObwohl dieses einzigartige kristalline Biom die uralten Wunder langsam verschlingt, wird der Himmelskörper von vielen Grabräubern heimgesucht, die darin enthaltene Schätze plündern wollen.]]></Text>  </GameDBLocalizedString>
+
+            <!-- New versions of EA scenarios -->
+            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_6PLAYERS_ID</LocID>                                     <Text>Zusammenfluss (6 Spieler)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_CONFLUENCE_6PLAYERS_DESCRIPTION</LocID>                            <Text>Drei Inseln, sechs verfeindete Lager, ein Sieger.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_RIFT_8PLAYERS_ID</LocID>                                           <Text>Riss (8 Spieler)</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>EA_RIFT_8PLAYERS_DESCRIPTION</LocID>                                  <Text>Vier an einem Ufer, weitere vier am gegenüberliegenden. Eine schonungslose Schlacht wartet.</Text>  </GameDBLocalizedString>
+
+            <!--_______________ONE_WAY_IN__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_IN_ID</LocID>                                             <Text>Ein Zugang</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_IN_DESCRIPTION</LocID>                                    <Text>Neue Gebiete erkunden, alte Feinde besiegen. Wirst du all deine Feinde gewaltsam unterwerfen oder setzt du auf eine eher defensive Strategie?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_IN_INTRO</LocID>                                          <Text>Es wird gemunkelt, dass sich inmitten dieser Region eine alte Basis befindet, die vom Rest der Welt abgeschnitten ist. Wer sich auch immer behauptet, hat deutlich bessere Überlebenschancen. Kannst du den Weg dorthin rechtzeitig finden?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_ONE_WAY_IN_VICTORY</LocID>                                        <Text>Sieg! Es ist dir gelungen, all deine Widersacher zu bezwingen und deine Stellung zu behaupten.</Text>    </GameDBLocalizedString>
+        
+            <!--_______________KEYS OF SUBVERSION__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_KEYS_OF_SUBVERSION_ID</LocID>                                     <Text>Schlüssel des Umsturzes</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_KEYS_OF_SUBVERSION_DESCRIPTION</LocID>                            <Text>Schlüssel, Tore und vier verfeindete Fraktionen. Die Schlüssel sind buchstäblich der Schlüssel zum Erfolg.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_KEYS_OF_SUBVERSION_INTRO</LocID>                                  <Text>Schon seit uralten Zeiten existierte eine Grenze, die Fraktionen auf Distanz hielt. Direkt in der Mitte befindet sich ein Zugang zum Orbit. Sieh dich dort um, denn alle Schlüssel sind vorhanden und werden den Pfad zum Umsturz eröffnen. Die Frage ist, wer gestürzt wird. Du oder deine Feinde?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_KEYS_OF_SUBVERSION_VICTORY</LocID>                                <Text>Sieg! Du hast es geschafft und den Weg zum Sieg geebnet. Denk daran: „Erfolg ist nicht der Schlüssel zum Glück. Glück ist der Schlüssel zum Erfolg.“ In diesem Fall war allerdings eher das Blut deiner Feinde für dein Glück verantwortlich.</Text>    </GameDBLocalizedString>
+
+            <!--_______________EYES__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_EYES_ID</LocID>                                                   <Text>Augen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_EYES_DESCRIPTION</LocID>                                          <Text>Ein offenes Land ohne große Korridore oder Engpässe. Es gibt mehrere Möglichkeiten, deine Feinde zu erreichen. Vernichte sie – oder werde selbst vernichtet. Schlüssel könnten dir einen Vorteil verschaffen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_EYES_INTRO</LocID>                                                <Text>Du bist hier nicht die einzige kriegführende Partei. Erkunde diese üppigen Lande, baue eine Armee auf und versuche, all deine Feinde zu bezwingen. Verschaffe dir Vorteile und überliste einen Widersacher nach dem anderen.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_EYES_VICTORY</LocID>                                              <Text>Gut gemacht, Kommandant! Das gesamte Territorium befindet sich vollständig unter unserer Kontrolle! Doch kein Grund, hier Schluss zu machen. Setze deinen Eroberungszug fort!</Text>    </GameDBLocalizedString>
+
+
+                  
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

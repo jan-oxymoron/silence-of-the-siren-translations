@@ -1,0 +1,211 @@
+<Database>
+    <GameDBStringTable ID="LOC_ES_PATCH_10">
+
+        <LanguageRef>LANG_ES</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>COMPONENT_MAP_SETTINGS_DISABLED_ITEMS_PARAMETERS</LocID>             <Text>Objetos deshabilitados</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>COMPONENT_MAP_SETTINGS_DISABLED_ITEMS_PARAMETERS_ARTIFACTS</LocID>   <Text>Artefactos deshabilitados</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>PLAYER_STATISTIC_ARMY_GROWTH</LocID>                                 <Text>Crecimiento de ejército en bases</Text></GameDBLocalizedString>            
+            
+            <GameDBLocalizedString>         <LocID>KEYBOARD_KEYBINDS</LocID>                                            <Text>Asignación de teclas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SET_KEY_BINDING</LocID>                                              <Text>Establecer</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>PRESS_KEY_FOR_ACTION</LocID>                                         <Text>Pulsa una tecla que asignar a la acción:</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>KEYBOARD_SHORTCUT</LocID>                                            <Text>Atajo de teclado: </Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_CONTINUE_MOVE</LocID>             <Text>Continuar movimiento de comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_NEXT_COMMANDER</LocID>            <Text>Comandante siguiente</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_REVISIT</LocID>                   <Text>Volver a visitar objeto actual</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_QUICKSAVE</LocID>                 <Text>Guardado rápido</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_QUICKLOAD</LocID>                 <Text>Cargado rápido</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_MOVE_CAMERA_LEFT</LocID>          <Text>Desplazar cámara a izquierda</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_MOVE_CAMERA_RIGHT</LocID>         <Text>Desplazar cámara a derecha</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_MOVE_CAMERA_UP</LocID>            <Text>Desplazar cámara arriba</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_MOVE_CAMERA_DOWN</LocID>          <Text>Desplazar cámara abajo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_HIGHLIGHT_INTERACTIVE</LocID>     <Text>Destacar elementos interactivos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_END_TURN</LocID>                  <Text>Terminar turno</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_OPEN_COMMANDER_CARD</LocID>       <Text>Abrir el panel/inventario de comandante</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_SELECT_COMMANDER_1</LocID>        <Text>Elegir comandante 1</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_SELECT_COMMANDER_2</LocID>        <Text>Elegir comandante 2</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_SELECT_COMMANDER_3</LocID>        <Text>Elegir comandante 3</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_SELECT_COMMANDER_4</LocID>        <Text>Elegir comandante 4</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_SELECT_COMMANDER_5</LocID>        <Text>Elegir comandante 5</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_SELECT_COMMANDER_6</LocID>        <Text>Elegir comandante 6</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_SELECT_COMMANDER_7</LocID>        <Text>Elegir comandante 7</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_EXPLORATION_SELECT_COMMANDER_8</LocID>        <Text>Elegir comandante 8</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_COMBAT_WAIT</LocID>                           <Text>Combate: Esperar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_COMBAT_SKIP</LocID>                           <Text>Combate: Omitir turno</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_COMBAT_SPECIAL</LocID>                        <Text>Combate: Habilidad especial de unidad</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_COMBAT_ABILITY_BOOK</LocID>                   <Text>Combate: Destrezas de comandante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_COMBAT_HIGHLIGHT_RANGE</LocID>                <Text>Combate: Ver alcance de movimiento con cursor</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_COMBAT_MINI_UNITS</LocID>                     <Text>Combate: Miniunidades</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_BASE_BUILD</LocID>                            <Text>Base: Construir y mejorar</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_BASE_HIRE_COMMANDERS</LocID>                  <Text>Base: Contratar comandantes</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_BASE_HIRE_UNITS</LocID>                       <Text>Base: Contratar unidades</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_BASE_TRADING</LocID>                          <Text>Base: Intercambiar recursos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_BASE_ACADEMY</LocID>                          <Text>Base: Academia</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_BASE_STATISTICS</LocID>                       <Text>Base: Estadísticas</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_BASE_GATEWAY</LocID>                          <Text>Base: Portal</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>GameplayKeyboardAction_BASE_FACTION_SPECIFIC</LocID>                 <Text>Base: Edificio específico de facción</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ENTER_SAVE_NAME</LocID>                                              <Text>Escribe un nombre de partida...</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_BATTLE_SWARM_LIMIT_REACHED</LocID>                           <Text>{CombatActor} no puede dividirse más, límite alcanzado.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIALOG_TELEPORTMAN_DEFEATED</LocID>                                  <Text>{LOC:UNIT_NEUTRAL_TELEPORTMAN} ha caído</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_TELEPORTMAN_DEFEATED_TEXT</LocID>                             <Text>{LOC:UNIT_NEUTRAL_TELEPORTMAN} otorga al héroe que le derrota la capacidad de teletransportarse a cualquier lugar del mapa que haya visitado.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_SELECT_TARGET</LocID>                                         <Text>Elige el objetivo de teletransporte</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_BIOTIC_MENTOR</LocID>                                       <Text>Mentor biótico</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_BIOTIC_MENTOR_DESCRIPTION</LocID>                           <Text>Permite que tu comandante use destrezas biológicas dos veces por ronda.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_BIOTIC_MENTOR_LORE</LocID>                                  <Text>"Aunque el artefacto no ha tocado mi mente, he experimentado alopecia, alargamiento de dedos, y una erupción que pica tanto... que me he arrancado piel al rascarme... descubriendo una docena de ojos debajo. Les he puesto nombre a algunos: ¡Parpi, Guiño y Perforaalmas!"  </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ARTIFACT_PSYKER_GENIE</LocID>                                        <Text>Genio</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_PSYKER_GENIE_DESCRIPTION</LocID>                            <Text>¡Tus destrezas psicotrónicas duran el doble!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ARTIFACT_PSYKER_GENIE_LORE</LocID>                                   <Text>"¡Te conozco, idiota! ¡La liarías con esos tres deseos! Te concederé uno, y lo elegiré por ti. Te daré poderes psíquicos tan poderosos que ningún manicomio podrá contenerte, y ningún psiquiatra podrá ayudarte".  </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TRIFFID_ROOT</LocID>                                       <Text>Raíz de trífido</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TRIFFID_ROOT_DESCRIPTION</LocID>                           <Text>¡El comandante recibe 10 unidades de trífidos para su ejército cada ciclo!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TRIFFID_ROOT_LORE</LocID>                                  <Text>¡O puedes meterla en una prensa y sacar el zumo más delicioso del mundo! Una decisión difícil, lo sé, colega. </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TAX_COLLECTORS_BANNER</LocID>                              <Text>Estandarte del recaudador de impuestos</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TAX_COLLECTORS_BANNER_DESCRIPTION</LocID>                  <Text><![CDATA[El comandante recibe <color=SOTS_COLOR_GOLD>1000 monedas de aura</color> al ocupar edificios del mapa.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_TAX_COLLECTORS_BANNER_LORE</LocID>                         <Text>¡Ven al club de los chupasangres! Actúa en compañía de figuras tan ilustres como inspectores de transporte público, empresarios y caseros... ¡Un momento! ¡Me debo de haber infectado con alguna ideología contagiosa! ¡Espero que se pueda tratar!... ¡Con la medicina que proporciona la sanidad pública! ¡Gratis!   </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PATHFINDER</LocID>                                         <Text>Dron senderista</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PATHFINDER_DESCRIPTION</LocID>                             <Text>Elimina las penalizaciones por terreno difícil.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PATHFINDER_LORE</LocID>                                    <Text>No más atropellos por fuego amigo durante las marchas por terreno difícil. ¿He dicho atropello? ¡Porque su esposo murió heroicamente en combate!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_UNIVERSAL_JAMMER</LocID>                                   <Text>Expropiador</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_UNIVERSAL_JAMMER_DESCRIPTION</LocID>                       <Text>Cuando el comandante derrota a una torreta o un puesto avanzado, lo captura en vez de destruirlo. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_UNIVERSAL_JAMMER_LORE</LocID>                              <Text>Lo que brevemente fue tuyo ahora es mío. Cosas del mundo de ceros y unos.   </Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>NEUTRAL_ARMY_EXTRA_UNITS_FROM_EQUIPMENT</LocID>                      <Text>¡Gracias a tu equipo, algunas unidades quieren unirse a tu ejército si les haces sitio!</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_STIM_TAC</LocID>                                          <Text>Estimulante táctico</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_STIM_TAC_DESCRIPTION</LocID>                              <Text><![CDATA[Aumenta el <color=SOTS_COLOR_GOLD>poder de combate en +5</color> durante tres fases.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_STIM_TAC_LORE</LocID>                                     <Text>Los mejores atletas y las estrellas de cine lo usan, entonces, ¿por qué sigues siendo pequeño y débil, pedazo de...? ¡Lo que quiero decir es que a las chicas les encantará tu "nuevo yo"!  </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_STIM_TAC</LocID>                                       <Text><![CDATA[Estimulante táctico usado: <color=SOTS_COLOR_GOLD>poder de combate +5</color>]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_TUMORI_POTION</LocID>                                     <Text>Poción de locomoción</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_TUMORI_POTION_DESCRIPTION</LocID>                         <Text><![CDATA[Aumenta la <color=SOTS_COLOR_GOLD>experiencia en exploración en +5</color> durante tres fases.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_TUMORI_POTION_LORE</LocID>                                <Text>No entraré en detalles sobre el proceso de fabricación, pero dado que ya has bebido la secreción de glándulas sudoríparas mutantes conocida como "leche", esto no te hará daño. </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_TUMORI_POTION</LocID>                                  <Text><![CDATA[Poción de locomoción usada: <color=SOTS_COLOR_GOLD>experiencia en exploración +5</color>]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_BRAIN_STIM</LocID>                                        <Text>Combustible cerebral</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_BRAIN_STIM_DESCRIPTION</LocID>                            <Text><![CDATA[Aumenta la <color=SOTS_COLOR_GOLD>fuerza de destreza en +5</color> durante tres fases.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_BRAIN_STIM_LORE</LocID>                                   <Text>Era un placebo, colega. ¡Siempre has sido así de inteligente! ¡El ingrediente secreto era la autoconfianza!... Y un poco de LSD.  </Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_BRAIN_STIM</LocID>                                     <Text><![CDATA[Combustible cerebral: <color=SOTS_COLOR_GOLD>fuerza de destreza +5</color>]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_BURN_PUNCHER_DESCRIPTION_V2</LocID>                        <Text><![CDATA[Los ataques cuerpo a cuerpo infligen quemadura a las unidades biológicas y corrosión a las tecnológicas.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PIERCING_AMMO</LocID>                                      <Text>Munición perforante</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PIERCING_AMMO_DESCRIPTION</LocID>                          <Text>Las unidades a distancia siempre infligen daño crítico.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EQUIPMENT_PIERCING_AMMO_LORE</LocID>                                 <Text>¡Convierte el chaleco antibalas del enemigo en peso muerto!</Text></GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MOVEMENT_PERCENT_REFILLED_AFTER_VICTORY</LocID>         <Text><![CDATA[Vencer en una batalla restaura un {1} % de tus <color=SOTS_COLOR_MOVEMENT>puntos de movimiento</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENERGY_PERCENT_REFILLED_AFTER_VICTORY</LocID>           <Text><![CDATA[Vencer en una batalla restaura un {1} % de tus <color=SOTS_COLOR_ENERGY>puntos de energía</color>.]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_SCAVENGER_DESCRIPTION_V2</LocID>                          <Text><![CDATA[Permite al comandante <color=SOTS_COLOR_GOLD>recoger algunos de los materiales</color> de los que estaba hecho el ejército derrotado y <color=SOTS_COLOR_GOLD>obtener más recursos</color> en el mapa.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_COLLECT_EXTRA_RESOURCES</LocID>                         <Text><![CDATA[La cantidad de recursos gratis obtenidos en el mapa <color=SOTS_COLOR_GOLD>aumenta un {1} %</color> (mínimo de 1).]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>STATUS_EFFECT_PURSUED</LocID>                                        <Text><![CDATA[<color=SOTS_COLOR_RED>Persecución/rastreo.</color> -20 a moral y -2 a iniciativa de unidades]]></Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>EFFECT_WHILE_IN_RANGE</LocID>                                        <Text>Se activa mientras esté al alcance de la fuente.</Text>  </GameDBLocalizedString>            
+            
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_TURRET_UPGRADE</LocID>                                <Text>Añade una torreta defensiva.</Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>MAPOBJ_OUTPOST_UPG_TURRET_UPGRADE</LocID>                            <Text>Añade una torreta defensiva grande.</Text>  </GameDBLocalizedString>            
+            
+            <GameDBLocalizedString>         <LocID>DIALOG_EVACUATION_ABILITY_TEXT_V2</LocID>                            <Text>¡Elige una base cercana a la que evacuar!</Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>EVACUATION_TOO_FAR</LocID>                                           <Text>Demasiado lejos</Text>  </GameDBLocalizedString>            
+            <GameDBLocalizedString>         <LocID>EVACUATION_DISTANCE</LocID>                                          <Text>Distancia</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EVACUATION_DESCRIPTION_V2</LocID>           <Text>Teletransporta al comandante y su ejército a la base elegida. El alcance depende del nivel de destreza, pero la base más cercana siempre está disponible.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EVACUATION_DESCRIPTION_LVL1</LocID>         <Text>Distancia: Hasta 20 casillas.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EVACUATION_DESCRIPTION_LVL2</LocID>         <Text>Distancia: Hasta 30 casillas.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_EVACUATION_DESCRIPTION_LVL3</LocID>         <Text>Distancia: Hasta 40 casillas.</Text></GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_NEUTRAL_CREATURE</LocID>                                <Text>Invocar criatura</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_NEUTRAL_CREATURE_DESCRIPTION</LocID>                    <Text>Invoca una unidad neutral al azar en el lugar elegido.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_NEUTRAL_CREATURE_DESCRIPTION_LVL1</LocID>               <Text>Criatura de nivel 1-3</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_NEUTRAL_CREATURE_DESCRIPTION_LVL2</LocID>               <Text>Criatura de nivel 3-5</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_NEUTRAL_CREATURE_DESCRIPTION_LVL3</LocID>               <Text>Criatura de nivel 5-7</Text></GameDBLocalizedString>
+            
+            <!--New Units-->
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRABORG</LocID>                                         <Text>Cangréjorg</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRABORG_DESCRIPTION</LocID>                             <Text>Su metabolismo acelerado no solo les proporciona unos excelentes reflejos, sino también una gran capacidad reproductiva. Hacen que los conejos australianos parezcan frígidos en comparación. ¡Está claro que son obra de los fossorianos! Los implantes, las marcas de laboratorio... ¡TODO apunta a ello! ¡Pero esos cabrones peludos lo niegan todo y no se responsabilizan!</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_CRABORG_PASSIVE_INFO_DESCRIPTION</LocID>                <Text>Cuando más de la mitad de la unidad muere, los cangréjorgs enfurecen. Su ataque se duplica, pero su comandante ya no puede controlarlos.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_TELEPORTMAN</LocID>                                     <Text>Caminante del vacío</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_TELEPORTMAN_DESCRIPTION</LocID>                         <Text>Hemos invertido meses, montones de esfuerzo y recursos y... ¡no hemos descubierto nada! No podemos atraparlos, es así de sencillo. Sí, vale, son de origen primordial, pueden teletransportarse y dejan una brecha espaciotemporal al morir que desaparece. Y eso es todo. Podéis iros.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_TELEPORTMAN_PASSIVE_INFO_DESCRIPTION</LocID>            <Text>Puede atacar a cualquier unidad del campo de batalla</Text></GameDBLocalizedString>
+            
+
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_HEDGEHOG</LocID>                                        <Text>Puercoespadín</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_HEDGEHOG_DESCRIPTION</LocID>                            <Text>¿Que por qué puerco "espadín"? Porque esa especie de hojas están cubiertas de una estructura cristalina que les otorga las propiedades de una hoja de acero. Y no de baratillo paquistaní, no. El mismo acero que las katanas de Hattori Hanzo.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>UNIT_NEUTRAL_HEDGEHOG_PASSIVE_INFO_DESCRIPTION</LocID>               <Text>Contrataques infinitos que infligen daño de veneno, corrosión y sangrado.</Text></GameDBLocalizedString>
+
+            <!--SF Campaign ship - Chiquita -->
+            <GameDBLocalizedString>         <LocID>MAPOBJ_PIRATESSHUTTLE</LocID>                                        <Text>Nave espacial de la flota soberana</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_PIRATESSHUTTLE_DESCRIPTION</LocID>                            <Text>La clase predilecta de contrabandistas y comerciantes renegados. </Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CAMPAIGN_PIRATESSHUTTLE</LocID>                               <Text>Chiquita</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAPOBJ_CAMPAIGN_PIRATESSHUTTLE_DESCRIPTION</LocID>                   <Text>La nave más rápida de la flota soberana.</Text>  </GameDBLocalizedString>
+            
+            
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_COMBAT_ENERGY_DRAIN_DESCRIPTION_V2</LocID>              <Text><![CDATA[Roba la mitad de la <color=SOTS_COLOR_ENERGY>energía</color> del comandante enemigo.]]></Text></GameDBLocalizedString>
+            
+            <!--Redesign-->
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_PROTECTIVE_FIELD_DESCRIPTION_V2</LocID>     <Text>Crea un campo protector que bloquea los efectos negativos de los objetos visitados, destrezas y diversos peligros.</Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_MAGNESIUM_TORCH_DESCRIPTION_V4</LocID>                    <Text><![CDATA[<color=SOTS_COLOR_GOLD>Revela un área grande de la niebla de guerra</color> en torno a una posición elegida que esté en el alcance de visión del comandante.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CONSUMABLE_NOT_INSIDE_A_BASE</LocID>                                 <Text><![CDATA[<color=SOTS_COLOR_RED>No se puede usar dentro de una base.</color>]]></Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_LOCK_STARTING_ARMIES</LocID>                  <Text>Bloquear ejércitos iniciales</Text></GameDBLocalizedString>
+            
+            <!--_______________NEUTRAL ZONE__________________________-->
+            <GameDBLocalizedString>        <LocID>NEUTRAL_ZONE_ID</LocID>                                               <Text>Zona neutral</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>NEUTRAL_ZONE_DESCRIPTION</LocID>                                      <Text>¿Y si todos los ejércitos de la región constaran solo de criaturas neutrales?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>NEUTRAL_ZONE_INTRO</LocID>                                            <Text>En las afueras del sistema Sirena...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>        <LocID>NEUTRAL_ZONE_VICTORY</LocID>                                          <Text>La zona neutral ya no existe, ¡los fossorianos han vuelto a ampliar su influencia! ¡Gloria a su Líder Supremo! </Text>    </GameDBLocalizedString>
+
+
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_AGENT_01</LocID>                                <Text>Líder Supremo, ¡hemos aterrizado! \nPero tenemos muchas preguntas: ¿Dónde estamos? ¿Por qué estamos aquí? ¿Por qué no podíamos venir en nuestra propia nave? Y, sobre todo, ¿por qué tenemos estas pseudounidades en vez de soldados como es debido?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_SUPREME_01</LocID>                              <Text>Las coordenadas exactas no importan, agente. Es una misión encubierta, de ahí la nave y las tropas.\nBajo tu posición está un territorio neutral controlado por la Unión Pacifista Neutral, un grupo de herbívoros que no reconocen los ejércitos de las facciones oficiales. La región tiene recursos para una gran producción de monedas de aura, y las queremos todas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_AGENT_02</LocID>                                <Text>Ah, ya veo, ¡pero con estas tropas no podremos conquistar nada!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_SUPREME_02</LocID>                              <Text>Ese es el plan B. El plan A es que te hagas pasar por la Madre Absoluta y les convenzas para que te entreguen el territorio. Molly y Hak te ayudarán.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_AGENT_03</LocID>                                <Text>Ya veo. Imaginaba que el disfraz que hay abordo no era solo de adorno.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_AGENT_04</LocID>                                <Text>Me ocuparé, pero la próxima vez lavad el traje, que huele a zarigüeya muerta.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_AGENT_05</LocID>                                <Text>Esto me da mala espina. No puedo quitarme el traje, me duele el culo de sentarme en el dispositivo de flotación que me hace levitar... ¡Viene alguien!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_CLOKI_01</LocID>                                <Text>¡OOOH, PODEROSA Y GLORIOSA!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_ADELA_01</LocID>                                <Text>¡Te damos la bienvenida, oh, exaltada!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_SANTARSI_01</LocID>                             <Text>.,.,.,....,---- bendita----..,.,...--,</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_WINKY_01</LocID>                                <Text>¿Qué te trae ante nosotros? \n... ¿Y por qué has venido en una funesta nave soberana?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_AGENT_06</LocID>                                <Text>Maldita sea, ¿qué les digo?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_SUPREME_03</LocID>                              <Text>¡Improvisa algo, imbécil!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_RELIC_01</LocID>                                <Text>Atención, atención... Yo, la gran MADRE DISOLUTA...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_SUPREME_04</LocID>                              <Text>¡MADRE ABSOLUTA, so idiota!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_RELIC_02</LocID>                                <Text>Digo la gran MADRE ABSOLUTA, os ordeno...</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_CLOKI_02</LocID>                                <Text>Espera, ¿qué estás diciendo?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_ADELA_02</LocID>                                <Text>¿Y qué es ese zumbido que te sale del... del culo?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_WINKY_02</LocID>                                <Text>¿Y por qué hueles a zarigüeya muerta? </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_SANTARSI_02</LocID>                             <Text>.,.,.,....,---- falsa MADRE ABSOLUTA---..,.,...--</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_CLOKI_03</LocID>                                <Text>¡Adela a la nave "Brisa primaveral" de la UNSS! ¡Destruid inmediatamente esa nave roja pequeña que hay en órbita!\n... ¡¿Me escucháis?! ¡Ahora!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_RAK_01</LocID>                                  <Text>¡Maldición!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_ADELA_03</LocID>                                <Text>La has liado, fossoriano. No eres el primero que intenta timarnos. Ahora morirás de hambre. Por suerte para ti, somos pacifistas amantes de la vida y no creemos en el castigo físico. \n¡Venga, vámonos de aquí!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_AGENT_07</LocID>                                <Text>Pues sí que... Por lo menos, ¡puedo quitarme ese apestoso disfraz! ¿Y ahora qué?</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_SUPREME_05</LocID>                              <Text>¡Plan B! Enviaré a alguien a buscaros cuando os hayáis ocupado de esos comedores de boñigas.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_NEUTRAL_ZONE_AGENT_08</LocID>                                <Text>Pues... ¡vaya plan! \nBueno, lo haremos a la antigua. ¡Molly, Hak! ¡Empieza la fiesta!</Text>  </GameDBLocalizedString>
+
+            
+            <GameDBLocalizedString>         <LocID>OBJECTIVE_NEUTRAL_ZONE_01</LocID>                                    <Text>¡Derrota a todos los enemigos!</Text>  </GameDBLocalizedString>
+
+        </LocalizedStrings>
+    </GameDBStringTable>
+</Database>

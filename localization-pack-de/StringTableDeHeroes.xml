@@ -4,7 +4,7 @@
         <LanguageRef>LANG_DE</LanguageRef>
 
         <Contributors>
-            <Name>Oxymoron Games</Name>
+            <Name>QLOC</Name> <Name>Raphale Oberhuber</Name> <Name>Nino Kadletz</Name>  <Name>Philipp Kolleritsch</Name>
         </Contributors>
 
         <LocalizedStrings>
@@ -27,6 +27,8 @@
             <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MORALE</LocID>                            <Text><![CDATA[<color=SOTS_COLOR_GOLD>Moral</color>]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MAX_ENERGY</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_ENERGY>Energiepunkte</color>]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_ENERGY_REPLENISHED_BY_DAY</LocID>         <Text>Energie, die pro Zug aufgefüllt wird</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_BASE_VALUE</LocID>                                  <Text>Basiswert</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_ENERGY_POOL</LocID>                                 <Text>Energiepool</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MOVEMENT_POINTS</LocID>                   <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Bewegungspunkte</color>]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_ATTRIBUTE_MAX_MOVEMENT_POINTS</LocID>               <Text><![CDATA[Max. <color=SOTS_COLOR_MOVEMENT>Bewegungspunkte</color>]]></Text>  </GameDBLocalizedString>
                                                                                                            
@@ -98,9 +100,9 @@
             <!--Exploration skills-->
             <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORER</LocID>                              <Text>Entdecker</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_SKILL_EXPLORER_DESCRIPTION</LocID>                  <Text><![CDATA[Ergänzt dauerhaft <color=SOTS_COLOR_MOVEMENT>4 Bewegungspunkte</color> für jede Skill-Stufe.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER1</LocID>                           <Text><![CDATA[Ergänzt dauerhaft <color=SOTS_COLOR_MOVEMENT>4 Bewegungspunkte</color>.\nBei einem Aufeinandertreffen mit einem verbündeten Kommandanten werden einmal pro Phase <color=SOTS_COLOR_MOVEMENT>2 Bewegungspunkte</color> wiederhergestellt.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER2</LocID>                           <Text><![CDATA[Ergänzt dauerhaft <color=SOTS_COLOR_MOVEMENT>8 Bewegungspunkte</color>.\nBei einem Aufeinandertreffen mit einem verbündeten Kommandanten werden einmal pro Phase <color=SOTS_COLOR_MOVEMENT>4 Bewegungspunkte</color> wiederhergestellt.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER3</LocID>                           <Text><![CDATA[Ergänzt dauerhaft <color=SOTS_COLOR_MOVEMENT>12 Bewegungspunkte</color>.\nBei einem Aufeinandertreffen mit einem verbündeten Kommandanten werden einmal pro Phase <color=SOTS_COLOR_MOVEMENT>6 Bewegungspunkte</color> wiederhergestellt.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER1</LocID>                           <Text><![CDATA[Ergänzt dauerhaft <color=SOTS_COLOR_MOVEMENT>8 Bewegungspunkte</color>.\nBei einem Aufeinandertreffen mit einem verbündeten Kommandanten werden einmal pro Phase <color=SOTS_COLOR_MOVEMENT>4 Bewegungspunkte</color> wiederhergestellt.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER2</LocID>                           <Text><![CDATA[Ergänzt dauerhaft <color=SOTS_COLOR_MOVEMENT>12 Bewegungspunkte</color>.\nBei einem Aufeinandertreffen mit einem verbündeten Kommandanten werden einmal pro Phase <color=SOTS_COLOR_MOVEMENT>6 Bewegungspunkte</color> wiederhergestellt.]]></Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_EXPLORER3</LocID>                           <Text><![CDATA[Ergänzt dauerhaft <color=SOTS_COLOR_MOVEMENT>16 Bewegungspunkte</color>.\nBei einem Aufeinandertreffen mit einem verbündeten Kommandanten werden einmal pro Phase <color=SOTS_COLOR_MOVEMENT>8 Bewegungspunkte</color> wiederhergestellt.]]></Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>HERO_SKILL_ENGINEER</LocID>                              <Text>Techniker</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_SKILL_ENGINEER_DESCRIPTION</LocID>                  <Text><![CDATA[Ergänzt mit jeder weitere Skill-Stufe eine tägliche Aufladung von <color=SOTS_COLOR_ENERGY>5 Energiepunkten</color> und wertet zudem andere Aspekte der Energienutzung auf.]]></Text>  </GameDBLocalizedString>
@@ -165,7 +167,7 @@
 
             <GameDBLocalizedString>         <LocID>HERO_SKILL_CHESS_MASTER</LocID>                          <Text>Schachmeister</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>HERO_SKILL_CHESS_MASTER_DESCRIPTION</LocID>              <Text>Erlaubt es dir, die Armee dieses Kommandanten am Beginn einer Schlacht in Stellung zu bringen.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENABLE_TACTICS</LocID>                      <Text>Ermöglicht Taktik, {1} Reihen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_ENABLE_TACTICS</LocID>                      <Text>Ermöglicht Taktik, Stufe {1}</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MORALE_BOOST</LocID>                        <Text><![CDATA[<color=SOTS_COLOR_GOLD>Moralschub +{1}%</color>]]></Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>SKILL_EFFECT_INITIATIVE_BOOST</LocID>                    <Text>Initiative-Boost +{1}</Text>  </GameDBLocalizedString>
 

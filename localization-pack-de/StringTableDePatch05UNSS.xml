@@ -1,0 +1,56 @@
+<Database>
+    <GameDBStringTable ID="LOC_DE_PATCH_05_UNSS">
+
+        <LanguageRef>LANG_DE</LanguageRef>
+
+        <Contributors>
+            <Name>Oxymoron Games</Name>
+        </Contributors>
+
+        <LocalizedStrings>
+            <GameDBLocalizedString>         <LocID>EMPIRE_CAMPAIGN</LocID>                                              <Text>VNSS-Kampagne</Text></GameDBLocalizedString>
+            
+        <!--Units lore-->
+            <GameDBLocalizedString>         <LocID>UNIT_MOLES_MECH_UPG_DESCRIPTION_V2</LocID>                           <Text>Nach dem letzten erfolglosen Angriff\nging der Oberanführer in Gedanken versunken umher.\n\nWie können wir sie wieder stärken?\nJa, lassen wir sie feurigen Regen spucken!\n\nUnd wenn die Besatzungen darin gekocht werden?\nDann brennen sie und sterben voller Stolz! </Text></GameDBLocalizedString>
+            
+        <!--Base - spawner lore   -->
+            <GameDBLocalizedString>         <LocID>BUILDING_MOLES_SPAWNER_7_UPG_LORE_V2</LocID>                         <Text>Ich war ein kleiner Maulwurf, als ich die Fabrik des Befreiers betrat, den goldenen Gutschein in der einen Hand und die Hand des Oberanführers in der anderen! Er machte mich dort für zweiunddreißig Jahre zum Sklaven! Die Maschinen nahmen mir den Arm und die Augen. Bitte, gib einem hungrigen Bettler einen Krümel Brot!</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_MOVE_AGAIN_AFTER_A_KILL_N_TIMES</LocID>                 <Text><![CDATA[Gewährt deinen Einheiten eine <color=SOTS_COLOR_GOLD>zusätzliche Aktion</color>, nachdem ein feindlicher Einheitenstapel getötet wurde (bis zu {1}-mal in Folge möglich).]]></Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL2_V2</LocID>     <Text>Die Wolke hält 8 Züge/Phasen lang an oder bis sie ein Kommandant betritt.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>ABILITY_HERO_EXPLORATION_TOXIC_CLOUD_DESCRIPTION_LVL3_V2</LocID>     <Text>Die Wolke hält 16 Züge/Phasen lang an oder bis sie ein Kommandant betritt.</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS</LocID>                      <Text>Effekte des Tag-Nacht-Zyklus</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS_FULL</LocID>                 <Text>Vollständig</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>OPTION_GRAPHICS_DAY_NIGHT_CYCLE_VISUALS_REDUCED</LocID>              <Text>Reduziert</Text></GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>MAPOBJ_MOVEMENT_NODE_SMALL_DESCRIPTION_V2</LocID>                    <Text><![CDATA[Stellt einmal pro Zyklus <color=SOTS_COLOR_MOVEMENT>40 Bewegungspunkte</color> vollständig wieder her. (Wer zuerst kommt, mahlt zuerst.)]]></Text>  </GameDBLocalizedString>
+            
+            <GameDBLocalizedString>         <LocID>OPTION_EXPLORATION_ASYNC_AI_PATHFINDING</LocID>                      <Text>Asynchrone KI-Wegfindung</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_EASY_DESCRIPTION</LocID>                                  <Text>Der einfachste Schwierigkeitsgrad, der dir verschiedene Vorteile gegenüber deinen Computergegnern verschafft.\n– Zusätzliche Startressourcen\n– Bonus auf Startarmeen im Vergleich zu KI-Spielern\n– Schwächere neutrale Armeen</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_MEDIUM_DESCRIPTION</LocID>                                <Text>Der Standard-Schwierigkeitsgrad. Für dich und die KI-Spieler gelten dieselben Einstellungen.</Text>  </GameDBLocalizedString>
+            
+            <!-- Note: gateways as in GATEWAY_BUTTON, the mechanic of fast travel between bases -->
+            <GameDBLocalizedString>         <LocID>DIFFICULTY_HARD_DESCRIPTION</LocID>                                  <Text>Für alle, die eine Herausforderung suchen\n– Zusätzliche Startressourcen und höhere Ressourceneinnahmen für KI-Spieler\n– Schwächere Startarmeen im Vergleich zu KI-Spielern\n– Stärkere neutrale Armeen\n– KI-Spieler planen weiter im Voraus, heuern mehr Kommandanten an, nutzen Gateways und sind generell aggressiver</Text>  </GameDBLocalizedString>
+
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_ACADEMY_DESCRIPTION</LocID>                         <Text>Schaltet eine Reihe von Grundfähigkeiten frei, die Kommandanten auf Besuch erlernen können.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_REMOTE_LEARNING_DESCRIPTION</LocID>                 <Text>Bringe deinen Kommandanten aus der Ferne Fähigkeiten bei.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_SPECIALIZATION_DESCRIPTION</LocID>          <Text>Statte die Akademie gegen eine Gebühr mit einer ausgewählten Fähigkeit aus.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_EXPLORE_DESCRIPTION</LocID>                 <Text>Schaltet eine Auswahl von erlernbaren Weltenbummler-Fähigkeiten frei.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_PSY_DESCRIPTION</LocID>                     <Text>Schaltet eine Auswahl von erlernbaren Psycho-Fähigkeiten frei.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_TECH_DESCRIPTION</LocID>                    <Text>Schaltet eine Auswahl von erlernbaren Tech-Fähigkeiten frei.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>BUILDING_GENERIC_FACULTY_BIO_DESCRIPTION</LocID>                     <Text>Schaltet eine Auswahl von erlernbaren Bio-Fähigkeiten frei.</Text></GameDBLocalizedString>
+
+
+            <!--_______________EA CHAOS MAP__________________________-->
+            <GameDBLocalizedString>         <LocID>EA_CHAOS_ID</LocID>                                                  <Text>Chaos</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CHAOS_DESCRIPTION</LocID>                                         <Text>Eine schnelle Karte mit einem Kniff, die ein wenig an Roguelike-Spiele erinnert.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CHAOS_INTRO</LocID>                                               <Text>In der Mitte befindet sich eine Basis, die du einnehmen und halten musst. Mach dir keine Sorgen, wenn du es nicht beim ersten Versuch schaffst – es ist keine Schande, es erneut zu versuchen!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EA_CHAOS_VICTORY</LocID>                                             <Text>Glückwunsch, du hast gewonnen! Versuch es noch einmal – du wirst andere Armeen erhalten und die Situation könnte sich völlig anders entwickeln. Willst du es wagen?</Text>    </GameDBLocalizedString>
+
+        </LocalizedStrings>
+        
+    </GameDBStringTable>
+</Database>
