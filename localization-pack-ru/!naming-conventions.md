@@ -34,7 +34,7 @@
     * Marauder Grenadier - Мародёр-гренадёр
     * Mortar - Мортира
     * Overclocked Mortar - Разогнанная мортира
-    * Scorch Sprayer - Огнераспылитель
+    * Scorch Shower - Огнедуш
     * Scorch Thrower - Огнеметатель
     * Huntress - Охотница
     * Huntress Captain - Капитан охотниц
