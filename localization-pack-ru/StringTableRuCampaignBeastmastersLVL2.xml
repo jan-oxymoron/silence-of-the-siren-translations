@@ -1,245 +1,716 @@
-<?xml version="1.0" encoding="utf-8"?><Database>
-    <GameDBStringTable ID="LOC_RU_CAMPAIGN_BEASTMASTERS_LVL2">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>AlexSnowLeo</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!--OBJECTIVES MAIN QUESTS-->
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_START</LocID>                   <Text>Save Se-Tri</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_HEAD_EAST</LocID>               <Text>Head east</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_GET_TO_PRINCESS</LocID>         <Text>Confront the Princess</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_GET_TO_PRINCESS_DONE</LocID>    <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Confront the Princess - Finished</color>]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_EXPLORE_BASE_1</LocID>          <Text>Explore the abandoned base</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_EXPLORE_BASE_DONE</LocID>       <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Explore the abandoned base - Finished</color>]]></Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_TUNNEL_1</LocID>                <Text>Find a tunnel to the other side</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_TUNNEL_DONE</LocID>             <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Find a tunnel to the other side - Finished</color>]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_TENGRI_1</LocID>          <Text>Defeat Tengri</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_TENGRI_DONE</LocID>       <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Defeat Tengri - Finished</color>]]></Text>  </GameDBLocalizedString>
- 
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_1</LocID>            <Text>Confront the Pathfinder</Text>  </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_WAY_TO_ISLET_1</LocID>          <Text>Find the way to the Crystal Shrine </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_WAY_TO_ISLET</LocID>            <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Find the way to the Crystal Shrine - Finished</color>]]></Text>  </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_PEACE_1</LocID>                 <Text>Avoid another confrontation with Tumori</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_PEACE_DONE</LocID>              <Text><![CDATA[<color=SOTS_COLOR_RED>Avoid another confrontation with Tumori - Failed</color>]]></Text>  </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_RAWIN_1</LocID>          <Text>Defeat Ra-Win</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_RAWIN_DONE</LocID>       <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Defeat Ra-Win - Finished</color>]]></Text>  </GameDBLocalizedString>
-           
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_PATHFINDER_1</LocID>     <Text>Defeat the Pathfinder</Text>  </GameDBLocalizedString>
-            
-
-            <!--DIALOGUES-->
-            <!--Start -->
-
-           <!-- Se-Wari, Captain Pick, and his crew stand before the ship and discuss their next move. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_NARRATOR_1</LocID>          <Text>Planet Chimera, the very edge of the Tumori tribal lands.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_P_1</LocID>                 <Text>We can’t fly any farther. The closer we get to the Princess’s ship, the crazier the navicomp gets!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_ALFA_1</LocID>              <Text>That’s because of the anomaly surrounding the structure I saw from the ship. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_W_1</LocID>                 <Text>No wonder the Pathfinder summoned his Altari Guard there! That is an exact copy of the Mothership’s Crystal Shrine! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_P_2</LocID>                 <Text>The same Shrine was on your Mothership? What for?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_W_2</LocID>                 <Text>It was... something like the bridge of the Mothership. The Pathfinder hardly ever left it.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_P_3</LocID>                 <Text>But why did the Princess take Se-Tri to the same place? If she wanted to finish the Pathfinder off, why not just nuke him from orbit?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_FREDDIE_1</LocID>           <Text>Yeah, boss! Where’s her usual bunch of UNSS morons and Cyberbug fanatics? No fleet, just Chiquita... It’s a trap! I say we run! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_ALFA_2</LocID>              <Text>The robots have a saying: “00100101011011...”</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_RH_1</LocID>                <Text>... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_ALFA_3</LocID>              <Text>...Okay, it’s that “the box and the cat” saying... but in binary, it sounds better...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_FREDDIE_2</LocID>           <Text>But we know what’s in it! And it’s not the Sovereign dream! It’s a dead, swollen cat that will explode once...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_P_4</LocID>                 <Text>Enough of your whining, Freddie! You and Alfa guard the ship! Se-Wari and I will take care of the box.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_ALFA_4</LocID>              <Text>Head east. The whole area is divided by electric plains, but during the landing, I noticed a place where you can cross to the other side.</Text>  </GameDBLocalizedString>
-           
-            <!--Our heroes discuss a sealed tunnel they found near the first base.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_SEAL_TUNNELS_RH_1</LocID>         <Text>Looks like the Fossorians tried to dig around here. I bet the Tumori raids eventually drove them away... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_SEAL_TUNNELS_RH_2</LocID>         <Text>Wait, those are sealed tunnels. That means danger. Anyway, after our last “adventure,” I’ve had enough of the underground. At least for a while...   </Text>  </GameDBLocalizedString>
-           
-            <!--An invisible wall message if player wanders too far north too fast.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_NOT_STRAY_RH_1</LocID>            <Text>Let’s not get lost. Se-Tri is being held to the east! </Text>  </GameDBLocalizedString>
-           
-            <!--The secon Xenauri base is spotted by one of the heroes.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BASE_SPOTTED_RH_1</LocID>         <Text>Look! Another Xenauri base... looks abandoned, though. </Text>  </GameDBLocalizedString>
-           
-            <!--Once the heroes enter the empty Xenauri base.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BASE_CAPTURED_RH_1</LocID>        <Text>The Xenauri left not long ago.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BASE_CAPTURED_RH_2</LocID>        <Text>Hmm. Probably a member of the Altari Guard, summoned by the Pathfinder. I bet we’ll find them at the Crystal Shrine.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BASE_CAPTURED_RH_3</LocID>        <Text>Or captured by Tumori tribesmen. Or in the Princess’s hands... </Text>  </GameDBLocalizedString>
-
-            <!--Heroes discover the land bridge, the only way forward is destroyed.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_RH_1</LocID>               <Text>Crossing is no longer possible.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_P_1</LocID>                <Text>The damage looks recent... but there are no traces of tools or explosives.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_W_1</LocID>                <Text>The work of an Altari... or another kind of psyker.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_P_2</LocID>                <Text>Hmm, good deduction, girl. But how do we get to the other side? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_W_2</LocID>                <Text>If we can’t get over... we might get under!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_P_3</LocID>                <Text>Yes! Those sealed tunnels! Alfa, Freddie, check the ship’s database. Look for the underground maps I got back when I was still digging for the Fossorians.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_ALFA_1</LocID>             <Text>On it, boss!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_ALFA_2</LocID>             <Text>Got it. There are multiple sealed entrances like this...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_ALFA_3</LocID>             <Text>...here...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_ALFA_4</LocID>             <Text>...and on the other side as well...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_ALFA_5</LocID>             <Text>...and finally, here.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_P_4</LocID>                <Text>The whole area has more holes than a block of cheese! Some of these tunnels might be connected.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_W_3</LocID>                <Text>It’s worth a try!</Text>  </GameDBLocalizedString>
-
-            <!--Suddenly a member of the Pathfinder's Altari Guard teleport in our heroes way. He seems to be not right in the head though.--> 
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_RH_1</LocID>       <Text>Did he just teleport?!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_W_1</LocID>        <Text>I recognize him! It’s Tengri! One of the Altari!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_BATU_1</LocID>     <Text>I jumped too far. Space around the Crystal Shrine... it bends...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_W_2</LocID>        <Text>Tengri!... Mighty!!!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_BATU_2</LocID>     <Text>...Pathfinder... to the Crystal Shrine...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_W_3</LocID>        <Text>He looks confused... Like Se-Tri right after our Mothership was destroyed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_W_4</LocID>        <Text>...Tengri!... Mighty!!!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_BATU_3</LocID>     <Text>...Pathfinder, the Guard... I must reconnect... Wait, someone’s here! Enemy?... Kill them all!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_P_2</LocID>        <Text>Damn! If he still has his Altari powers, it might be the fight of our lives... but we need to go that way!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_W_5</LocID>        <Text>Let’s hope his confusion prevents him from using his full psionic potential.</Text>  </GameDBLocalizedString>
-
-            <!--After Tengri is defeated-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_RH_1</LocID>              <Text>That’s it!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_W_1</LocID>               <Text>We were lucky he didn’t remember how to use his powers.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_P_1</LocID>               <Text>How can you tell?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_W_2</LocID>               <Text>If he did, we wouldn’t be speaking right now... What is it, Pick?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_P_2</LocID>               <Text>If Se-Tri lost her mind too... I like you, girl, I really do... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_W_3</LocID>               <Text>I know. The Sovereign dream. Once we find her, we bring her to the Crystal Shrine. The Pathfinder will know what to do.</Text>  </GameDBLocalizedString>
-            
-            <!--Our heroes are unable to find a way further in this dungeon.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_SPIRAL_TUNEL_RH_1</LocID>         <Text>No chance this tunnel leads across. At least the teleport here has activated the dormant one near the entrance.</Text>  </GameDBLocalizedString>
-            
-            <!--Our heroes are unable to find a way further in this dungeon.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_DUNGEON_RH_2</LocID>              <Text>We searched the place, but there’s no way across. Perhaps there’s another tunnel.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_DUNGEON_RH_3</LocID>              <Text>Another underground tunnel.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_DUNGEON_RH_4</LocID>              <Text>But this one is different! Looks old, definitely older than the Fossorian tunnels we checked before.</Text>  </GameDBLocalizedString>
-          
-            <!--Our heroes a teleport that could take them where they need to go.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TELEPORT_SPOTTED_RH_1</LocID>     <Text>Teleport!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TELEPORT_SPOTTED_RH_2</LocID>     <Text>That definitely looks promising!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RIGHT_UNDERGROUND_RH_1</LocID>    <Text>That was a long jump. Let’s search for the exit.</Text>  </GameDBLocalizedString>
-            
-            <!--On the other side of that teleport-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TELEPORT_SPOTTED_RH_3</LocID>     <Text>That might be it! An exit!</Text>  </GameDBLocalizedString>
-            
-            <!--After our heroes climb up to the surface, they discover the Se-Tri standing near a Xenauri base alone. They decide to approach her and start conversation. Int the middle the Princes shows up out of the blue. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_RH_1</LocID>        <Text>It’s Se-Tri!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_RH_2</LocID>        <Text>And she’s alone. I don’t see the Princess.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_1</LocID>     <Text>Who are you?!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_P_1</LocID>         <Text>I’m a friend of Se-Wari!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_2</LocID>     <Text>Sew?!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_W_1</LocID>         <Text>I came for you. I don’t care if you’re confused or dangerous... I will always stand by your side. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_3</LocID>     <Text>I... I know... And I am sorry, Sew. I was not myself for a long time! I saw how I treated you! How my every word was breaking your heart but I... I couldn’t do a thing!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_W_2</LocID>         <Text>All the Altari from the Pathfinder's Guard we’ve encountered so far were crazy, but you sound like... like...   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_4</LocID>     <Text>Like before I joined the Guard? But unlike them, I had help. I’d still be out of my mind if I...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_PRINCESS_1</LocID>  <Text>If she hadn’t met me!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_P_2</LocID>         <Text>IT’S THE PRINCESS! Freddie was right! To arms!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_5</LocID>     <Text>Stay put, please! I chose to go with the Princess of my own free will!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_W_3</LocID>         <Text>But we thought she captured you!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_6</LocID>     <Text>At first, but when she saw the state I was in...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_PRINCESS_2</LocID>  <Text>I decided to look into her head and discovered Se-Tri’s consciousness was fighting for control with someone else. So I cut the parasitic connection.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_7</LocID>     <Text>The consciousness of the Altari Guard was taken over by the Pathfinder’s own! With the destruction of the Crystal Shrine on the Mothership, his connection was damaged.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_P_3</LocID>         <Text>But the Pathfinder found another Crystal Shrine! Why hasn’t he regained control over the Guard already?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_8</LocID>     <Text>For that, the Altari must be present at the Shrine.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_P_4</LocID>         <Text>But, Princess, if you know all this, why haven’t you destroyed the Crystal Shrine yet? As long as it exists, any Altari can be enslaved again. That could come in handy, right?!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_PRINCESS_4</LocID>  <Text>Is that an accusation, Fossorian?! I would have destroyed it! My fleet is ready to strike, but Se-Tri convinced me to wait.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_9</LocID>     <Text>Despite their condition, many of the Guard members managed to get close. An attack on that scale would kill many of them!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_P_5</LocID>         <Text>So what now? We just teleport to the shrine and attack him?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_PRINCESS_5</LocID>  <Text>No. The anomaly around the shrine makes it too dangerous, even for me. But the Tumori know the way there. And the forest ahead is crawling with them.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_10</LocID>    <Text>But won’t you join us, Princess?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_PRINCESS_6</LocID>  <Text>No. I’ve already lost too many good men repelling your damn invasion! But the moment I lose contact with you, my fleet will level the whole place.</Text>  </GameDBLocalizedString>
-            
-            <!--Pick privately discuss his felling towards the princess with Se-Wari.--> 
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PICK_ON_PRINCESS_P_1</LocID>       <Text>I don’t believe the Princess’s version. The only reason she didn’t destroy the Crystal Shrine is that she wants to seize control of the Altari for herself!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PICK_ON_PRINCESS_W_1</LocID>       <Text>But she helped Se-Tri pull herself together.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PICK_ON_PRINCESS_P_2</LocID>       <Text>I don’t know, girl. Things are usually more complicated than they look.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PICK_ON_PRINCESS_W_2</LocID>       <Text>But what do you want to do? It sounds like another one of those “cat in the box” situations to me.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PICK_ON_PRINCESS_P_3</LocID>       <Text>You are right, girl. But I know one thing: I won’t let the Altari exchange one tyrant for another.</Text>  </GameDBLocalizedString>
-
-             <!--The first encounter with Tumori Tribasman.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_TUMORI_TUMORI_1</LocID>   <Text>---..- another outworlder ,,.,,.--- Crystal Shrine --- your path,,..!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_TUMORI_RH_1</LocID>       <Text>The Crystal Shrine is where we need to go! Tell us how to get to the islet, and we won’t touch any tribesmen or their property.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_TUMORI_TUMORI_2</LocID>   <Text>---,.. lies! ---. many like you ---,..-.- some stopped,,,...,-,, some crossed.--,- always blood---,,-</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_TUMORI_P_1</LocID>        <Text>It’s hard to reason with the Tumori even on the best of days... But we tried.</Text>  </GameDBLocalizedString>
-           
-            <!--After the tribesman is defeated.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_RH_1</LocID>            <Text>Crystal Shrine! How do we get there?! Speak! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_TUMORI_1</LocID>        <Text>..- ,,.Outworlders .,,--forbidden-..</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_P_1</LocID>             <Text>Tumori, they’re crazy! He’d rather die than speak!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_SETRI_1</LocID>         <Text>Then we need some leverage, and I know the perfect kind... [CLICK OF COMMUNICATOR BEING TURNED ON]</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_PRINCESS_1</LocID>      <Text>...[SIGNAL DISTORTIONS] SPEAK, TRIBESMAN, OR I’LL JOIN THE FIGHT AND BURN YOU AND YOUR FOREST TO ASHES!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_TUMORI_2</LocID>        <Text>...-.teleport ---.., go.--,- leave forest.,,,,..,.- leave Tumori homes--., please..--</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_P_2</LocID>             <Text>That’s the first time I’ve seen a tribesman scared... I think they’ll let us through now, as long as we stop attacking them.</Text>  </GameDBLocalizedString>
-           
-             <!--If player defeat the first tumori hero, tumori accept the peace, but if palayer attacks again the once again start to fight. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_ENEMY_TUMORI_1</LocID>     <Text>.,,-,.Outworlders...kill-...-again--...-   </Text>  </GameDBLocalizedString>
-           
-             <!--Teleport to the Crystal Shrine spotted.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_ISLET_TELEPORT_RH_1</LocID>       <Text>That’s it! That teleport could lead to the Crystal Shrine!  </Text>  </GameDBLocalizedString>
-            
-             <!-- Our heroes enter the Crystal Shrine. They are welcomed by the Pathfinder acompanied by Ra-Win, fully possessed and controlled by the Pathgfinder. --> 
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_PATHFINDER_1</LocID>     <Text>Se-Tri, you’ve listened, and now you’ve come to join your master... just like faithful Ra-Win here!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_RAWIN_1</LocID>          <Text>... just like faithful Ra-Win here!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_SETRI_1</LocID>          <Text>Words of a puppet!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_PATHFINDER_2</LocID>     <Text>I see you are confused, like the rest of my Guard. Come to me, I will help you.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_SETRI_2</LocID>          <Text>You would turn me into your tool again!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_PATHFINDER_3</LocID>     <Text>I needed obedience and your psionic powers, the gift that was denied to me...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_W_1</LocID>              <Text>You have deceived us all!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_PATHFINDER_4</LocID>     <Text>I had a good reason. But it matters not now. I have Ra-Win, and I’ve found another Crystal Shrine. Once you’re subdued, I’ll make you kill the rest!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_PATHFINDER_5</LocID>     <Text>... I’ll make you kill the rest!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_SETRI_3</LocID>          <Text>Sew! Pick! I’ll block Ra-Win’s powers! You two must do the rest!</Text>  </GameDBLocalizedString>
-            
-          <!--   Rawin is defeated. Pick decides to destroy the Shrine's core befor the heroes attack the Pathfinder. The blast of psionic energy takes out Se-Tri. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_PATHFINDER_1</LocID>     <Text>Impossible!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_RAWIN_1</LocID>          <Text>... Impossible!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_SETRI_1</LocID>          <Text>Now the Pathfinder! I’ll make it quick. He is not Altari...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_P_2</LocID>              <Text>The Crystal Shrine first! As long as it exists, the Princess can enslave the Altari just like the Pathfinder did!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_SETRI_2</LocID>          <Text>No, wait!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_PATHFINDER_2</LocID>     <Text>WHAT HAVE YOU DONE, YOU FOOL?!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_SETRI_3</LocID>          <Text>MY HEAD!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_W_2</LocID>              <Text>SE-TRI!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_SETRI_4</LocID>          <Text>[THROUGH GRITTED TEETH] I’m too shaken... You two must do it... on your own.</Text>  </GameDBLocalizedString>
-
-              <!--Pathfinder is defeated, the Princess shows up at the Shrine.--> 
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_1</LocID>           <Text>I’m sorry, but I promised I wouldn’t let the Altari become slaves again.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_1</LocID>           <Text>You could wait!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_2</LocID>           <Text>For what? So the Princess can come and claim them? No. The Sovereign dream of deep-space travel stands or falls with Altari independence. You know I am right.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_2</LocID>           <Text>... Yes, you probably are. I was just worried about Se-Tri.    </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_SETRI_1</LocID>       <Text>I’ll recover, though that psionic blast hit me like a hammer.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_3</LocID>           <Text>Speaking of hammers, there’s a head ready for the final blow.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_PRINCESS_1</LocID>    <Text>STOP! I WANT HIM ALIVE!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_3</LocID>           <Text>Why?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_4</LocID>           <Text>Isn’t it obvious? She wants his secrets! The Altari are a danger to her! I’d rather die... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_PRINCESS_2</LocID>    <Text>YOU ARE REALLY PUSHING MY BUTTONS TODAY, FOSSORIAN! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_4</LocID>           <Text>You are right, Pick... I will fight beside you.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_5</LocID>           <Text>What?! Don’t do it, girl... I like you, but... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_5</LocID>           <Text>Oh, shut up, you old prick! That’s just what friends do.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_6</LocID>           <Text>Yes... I guess that’s what true friends do... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_SETRI_2</LocID>       <Text>No more fighting! Let the Princess have him... If she really considered me a threat, she could have killed me a million times by now! But instead, she helped me. I trust her... Besides, it would just be an empty gesture. She is far stronger than any of us! Even me.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_7</LocID>           <Text>I guess you’re right.      </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_PRINCESS_3</LocID>    <Text>Smart decision. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_6</LocID>           <Text>What now?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_SETRI_3</LocID>       <Text>There are still members of the Altari Guard who need our help.       </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_8</LocID>           <Text>And there are a few vacant cabins on my ship... if you two need a friend... with a lift.    </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_7</LocID>           <Text>I would love that!   </Text>  </GameDBLocalizedString>
-            
-              <!--In the orbit map layer the Princess speaks with Pathfinder alone.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_NARRATOR_1</LocID>        <Text>After a few hours in orbit.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PRINCESS_1</LocID>        <Text>I don’t think you are who you claimed to be.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PATHFINDER_1</LocID>      <Text>But to the Xenauri, I was exactly what they needed me to become.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PRINCESS_2</LocID>        <Text>I’m supposed to believe that what you did was for their good?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PATHFINDER_2</LocID>      <Text>For generations, they fought over scraps while their planet was dying. My awakening came too late. But I realized that absolute control was the only way to ensure the survival of their species.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PRINCESS_3</LocID>        <Text>But once you got here, why didn’t you free them?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PATHFINDER_3</LocID>      <Text>Isn’t it obvious? There was you. I couldn’t stop until I either killed you or proved that you weren’t the same monster as the Allmother I once knew.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PRINCESS_4</LocID>        <Text>I never wanted them to become my slaves!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PATHFINDER_4</LocID>      <Text>Neither did I. But once you’ve watched your world turn into a barren crystal desert and witnessed all the death, maybe you won’t judge me so harshly.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PRINCESS_5</LocID>        <Text>Are you talking about the crystal technology used by the Primals?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PATHFINDER_5</LocID>      <Text>Primals. Funny name... No doubt about it. But unlike the Xenauri, we still have time to save this system... to save my home.</Text>  </GameDBLocalizedString>
-
-    
-
-        </LocalizedStrings>
-    </GameDBStringTable>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <GameDBStringTable ID="LOC_RU_CAMPAIGN_BEASTMASTERS_LVL2">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Rewalon</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!--OBJECTIVES MAIN QUESTS-->
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_START</LocID>
+        <Text>Спасти Се-Три</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_HEAD_EAST</LocID>
+        <Text>Двигайтесь на восток</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_GET_TO_PRINCESS</LocID>
+        <Text>Бросить вызов Принцессе</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_GET_TO_PRINCESS_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Бросить вызов Принцессе - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_EXPLORE_BASE_1</LocID>
+        <Text>Исследовать заброшенную базу</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_EXPLORE_BASE_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Исследовать заброшенную базу - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_TUNNEL_1</LocID>
+        <Text>Найти туннель на другую сторону</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_TUNNEL_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Найти туннель на другую сторону - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_TENGRI_1</LocID>
+        <Text>Победить Тенгри</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_TENGRI_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Победить Тенгри - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_1</LocID>
+        <Text>Бросить вызов Следопыту</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_WAY_TO_ISLET_1</LocID>
+        <Text>Найти путь к Кристальной Святыне</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_WAY_TO_ISLET</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Найти путь к Кристальной Святыне - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_PEACE_1</LocID>
+        <Text>Не допустить нового столкновения с Тумори</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_PEACE_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_RED>Не допустить нового столкновения с Тумори - ПРОВАЛЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_RAWIN_1</LocID>
+        <Text>Победить Ра-Вин</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_RAWIN_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Победить Ра-Вин - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_PATHFINDER_1</LocID>
+        <Text>Победить Следопыта</Text>
+      </GameDBLocalizedString>
+      <!--DIALOGUES-->
+      <!--Start -->
+      <!-- Se-Wari, Captain Pick, and his crew stand before the ship and discuss their next move. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_NARRATOR_1</LocID>
+        <Text>Планета Химера, самый край земель племён Тумори.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_P_1</LocID>
+        <Text>Дальше не полетим. Чем ближе к кораблю Принцессы, тем больше глючит навикомп!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_ALFA_1</LocID>
+        <Text>Это из-за аномалии, окружающей структуру, которую я видел с корабля.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_W_1</LocID>
+        <Text>Теперь понятно, зачем Следопыт собрал там свою гвардию Алтари! Это же точная копия Кристальной Святыни Материнского Корабля!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_P_2</LocID>
+        <Text>Такая же Святыня стояла на твоём Материнском Корабле? Для чего?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_W_2</LocID>
+        <Text>Это было... что-то вроде мостика Материнского Корабля. Следопыт почти никогда его не покидал.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_P_3</LocID>
+        <Text>Но зачем Принцесса увезла Се-Три в то же самое место? Если она хотела покончить со Следопытом, почему бы просто не разбомбить его с орбиты?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_FREDDIE_1</LocID>
+        <Text>Ага, босс! Где её обычная свора идиотов из UNSS и фанатиков Кибержуков? Ни флота, только Чикита... Это ловушка! Говорю вам, надо бежать!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_ALFA_2</LocID>
+        <Text>У роботов есть поговорка: "00100101011011..."</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_RH_1</LocID>
+        <Text>... </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_ALFA_3</LocID>
+        <Text>...Ладно-ладно, это та самая поговорка про "коробку и кота"... но в двоичном коде звучит намного лучше...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_FREDDIE_2</LocID>
+        <Text>Но мы-то знаем, что внутри! И это не мечта Суверена! Это мёртвый, раздувшийся кот, который взорвётся, как только...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_P_4</LocID>
+        <Text>Хватит ныть, Фредди! Вы с Альфой охраняете корабль! Мы с Се-Вари займёмся коробкой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_START_ALFA_4</LocID>
+        <Text>Направляйтесь на восток. Вся территория разделена электрическими равнинами, но при посадке я заметил место, где можно перебраться на другую сторону.</Text>
+      </GameDBLocalizedString>
+      <!--Our heroes discuss a sealed tunnel they found near the first base.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_SEAL_TUNNELS_RH_1</LocID>
+        <Text>Судя по всему, Фоссорианцы пытались здесь копать. Спорим, набеги Тумори в итоге вынудили их убраться...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_SEAL_TUNNELS_RH_2</LocID>
+        <Text>Стой, эти туннели запечатаны. А это уже опасно. Да и вообще, после нашего последнего "приключения" я сыт подземельями по горло. По крайней мере, пока...</Text>
+      </GameDBLocalizedString>
+      <!--An invisible wall message if player wanders too far north too fast.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_NOT_STRAY_RH_1</LocID>
+        <Text>Главное не заблудиться. Се-Три удерживают на востоке! </Text>
+      </GameDBLocalizedString>
+      <!--The secon Xenauri base is spotted by one of the heroes.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BASE_SPOTTED_RH_1</LocID>
+        <Text>Смотри! Ещё одна база Ксенаури... хотя выглядит заброшенной.</Text>
+      </GameDBLocalizedString>
+      <!--Once the heroes enter the empty Xenauri base.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BASE_CAPTURED_RH_1</LocID>
+        <Text>Ксенаури покинули это место совсем недавно.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BASE_CAPTURED_RH_2</LocID>
+        <Text>Хм. Скорее всего, один из гвардии Алтари, которых созвал Следопыт. Спорим, мы найдём их у Кристальной Святыни?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BASE_CAPTURED_RH_3</LocID>
+        <Text>Или их взяли в плен воины Тумори. Или они в руках Принцессы...</Text>
+      </GameDBLocalizedString>
+      <!--Heroes discover the land bridge, the only way forward is destroyed.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_RH_1</LocID>
+        <Text>Перейти на ту сторону больше нельзя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_P_1</LocID>
+        <Text>Разрушения выглядят свежими... но ни следов инструментов, ни взрывчатки.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_W_1</LocID>
+        <Text>Это поработал Алтари... или какой-то другой псайкер.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_P_2</LocID>
+        <Text>Хм, хорошее умозаключение, девочка. Но как нам перебраться на ту сторону?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_W_2</LocID>
+        <Text>Если поверху не пройти... может, пройдём снизу!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_P_3</LocID>
+        <Text>Точно! Эти запечатанные туннели! Альфа, Фредди, поройтесь в базе данных корабля. Найдите подземные карты, что я раздобыл ещё в те времена, когда работал на Фоссорианцев.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_ALFA_1</LocID>
+        <Text>Уже делаю, босс!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_ALFA_2</LocID>
+        <Text>Есть. Таких запечатанных входов несколько...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_ALFA_3</LocID>
+        <Text>...здесь...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_ALFA_4</LocID>
+        <Text>...а также на другой стороне...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_ALFA_5</LocID>
+        <Text>...и наконец, здесь.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_P_4</LocID>
+        <Text>Вся округа изрыта, как головка сыра! Глядишь, некоторые из этих туннелей соединены между собой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BRIDGE_W_3</LocID>
+        <Text>Стоит попробовать!</Text>
+      </GameDBLocalizedString>
+      <!--Suddenly a member of the Pathfinder's Altari Guard teleport in our heroes way. He seems to be not right in the head though.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_RH_1</LocID>
+        <Text>Он что, только что телепортировался?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_W_1</LocID>
+        <Text>Я его узнаю! Это Тенгри! Один из Алтари!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_BATU_1</LocID>
+        <Text>Я прыгнул слишком далеко. Пространство вокруг Кристальной Святыни... оно искривляется...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_W_2</LocID>
+        <Text>Тенгри!.. Могущественный!!!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_BATU_2</LocID>
+        <Text>...Следопыт... в Кристальную Святыню...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_W_3</LocID>
+        <Text>Он выглядит растерянным... Как Се-Три сразу после уничтожения нашего Материнского Корабля.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_W_4</LocID>
+        <Text>Тенгри!.. Могущественный!!!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_BATU_3</LocID>
+        <Text>...Следопыт, гвардия... Я должен восстановить связь... Погоди, здесь кто-то есть! Враг?.. Убить их всех!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_P_2</LocID>
+        <Text>Проклятье! Если силы Алтари всё ещё при нём, бой будет не из лёгких... но нам всё равно туда нужно!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_ENCOUNTER_W_5</LocID>
+        <Text>Будем надеяться, что его растерянность не позволит ему использовать весь свой псионический потенциал.</Text>
+      </GameDBLocalizedString>
+      <!--After Tengri is defeated-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_RH_1</LocID>
+        <Text>Вот оно!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_W_1</LocID>
+        <Text>Нам повезло, что он не вспомнил, как использовать свои силы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_P_1</LocID>
+        <Text>И с чего ты взял?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_W_2</LocID>
+        <Text>Если бы он вспомнил, мы бы сейчас не разговаривали... Что случилось, Пик?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_P_2</LocID>
+        <Text>Если Се-Три тоже потеряла рассудок... Ты мне нравишься, девочка, правда нравишься...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_BATU_AF_W_3</LocID>
+        <Text>Я знаю. Мечта Суверена. Как только мы её найдём, мы отведём её к Кристальной Святыне. Следопыт разберётся.</Text>
+      </GameDBLocalizedString>
+      <!--Our heroes are unable to find a way further in this dungeon.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_SPIRAL_TUNEL_RH_1</LocID>
+        <Text>Этот туннель точно не ведёт на ту сторону. По крайней мере, телепорт здесь активировал тот, что бездельничает у входа.</Text>
+      </GameDBLocalizedString>
+      <!--Our heroes are unable to find a way further in this dungeon.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_DUNGEON_RH_2</LocID>
+        <Text>Мы обыскали это место, но перебраться на ту сторону не выйдет. Возможно, есть другой туннель.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_DUNGEON_RH_3</LocID>
+        <Text>Ещё один подземный туннель.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_DUNGEON_RH_4</LocID>
+        <Text>Но этот совсем иной! Выглядит старым, определённо старше туннелей Фоссорианцев, которые мы проверяли раньше.</Text>
+      </GameDBLocalizedString>
+      <!--Our heroes a teleport that could take them where they need to go.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TELEPORT_SPOTTED_RH_1</LocID>
+        <Text>Телепорт!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TELEPORT_SPOTTED_RH_2</LocID>
+        <Text>Это определённо выглядит многообещающе!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RIGHT_UNDERGROUND_RH_1</LocID>
+        <Text>Прыжок был долгим. Поищем выход.</Text>
+      </GameDBLocalizedString>
+      <!--On the other side of that teleport-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TELEPORT_SPOTTED_RH_3</LocID>
+        <Text>Возможно, это он! Выход!</Text>
+      </GameDBLocalizedString>
+      <!--After our heroes climb up to the surface, they discover the Se-Tri standing near a Xenauri base alone. They decide to approach her and start conversation. Int the middle the Princes shows up out of the blue. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_RH_1</LocID>
+        <Text>Это Се-Три!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_RH_2</LocID>
+        <Text>И она совсем одна. Принцессы нигде не видно.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_1</LocID>
+        <Text>Кто вы?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_P_1</LocID>
+        <Text>Я друг Се-Вари!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_2</LocID>
+        <Text>Сев?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_W_1</LocID>
+        <Text>Я пришла за тобой. Мне всё равно, растеряна ты или опасна... Я всегда буду рядом с тобой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_3</LocID>
+        <Text>Я... Я знаю... И прости меня, Сев. Я долго была не в себе! Я видела, как я с тобой обращалась! Как каждое моё слово разбивало тебе сердце, но я... я ничего не могла сделать!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_W_2</LocID>
+        <Text>Все Алтари из гвардии Следопыта, что нам попадались, были не в себе, но ты... ты говоришь как... как...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_4</LocID>
+        <Text>Как до того, как я вступила в гвардию? Но в отличие от них, мне помогли. Я до сих пор была бы не в себе, если бы я...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_PRINCESS_1</LocID>
+        <Text>Если бы она не встретила меня!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_P_2</LocID>
+        <Text>ЭТО ПРИНЦЕССА! Фредди был прав! К оружию!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_5</LocID>
+        <Text>Оставайтесь на месте, прошу! Я пошла с Принцессой по собственной воле!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_W_3</LocID>
+        <Text>Но мы думали, что ты у неё в плену!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_6</LocID>
+        <Text>Поначалу да, но когда она увидела, в каком я была состоянии...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_PRINCESS_2</LocID>
+        <Text>Я решила заглянуть ей в голову и обнаружила, что сознание Се-Три борется за контроль с кем-то другим. Так что я перерезала ту паразитическую связь.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_7</LocID>
+        <Text>Сознание гвардии Алтари было захвачено самим Следопытом! С уничтожением Кристальной Святыни на Материнском Корабле его связь была повреждена.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_P_3</LocID>
+        <Text>Но Следопыт нашёл другую Кристальную Святыню! Почему он до сих пор не восстановил контроль над гвардией?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_8</LocID>
+        <Text>Чтобы это сработало, Алтари должны находиться у самой Святыни.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_P_4</LocID>
+        <Text>Но, Принцесса, если ты всё это знаешь, почему ты до сих пор не уничтожила Кристальную Святыню? Пока она существует, любого Алтари можно снова поработить. Это ведь может пригодиться, верно?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_PRINCESS_4</LocID>
+        <Text>Это что, обвинение, Фоссорианец?! Я бы её уничтожила! Мой флот готов нанести удар, но Се-Три убедила меня подождать.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_9</LocID>
+        <Text>Несмотря на их состояние, многим членам гвардии удалось подобраться близко. Атака такого масштаба убила бы многих из них!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_P_5</LocID>
+        <Text>Ну и чего дальше? Просто прыгаем к Святыне и нападаем на него?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_PRINCESS_5</LocID>
+        <Text>Нет. Аномалия вокруг Святыни делает это слишком опасным, даже для меня. Но Тумори знают туда дорогу. А лес впереди кишит ими.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_10</LocID>
+        <Text>Но разве ты не присоединишься к нам, Принцесса?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_PRINCESS_6</LocID>
+        <Text>Нет. Я уже потеряла слишком много хороших бойцов, отбивая ваше проклятое вторжение! Но как только я потеряю связь, мой флот сровняет это место с землёй.</Text>
+      </GameDBLocalizedString>
+      <!--Pick privately discuss his felling towards the princess with Se-Wari.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PICK_ON_PRINCESS_P_1</LocID>
+        <Text>Что-то не верю я Принцессе. Единственная причина, по которой она не уничтожила Кристальную Святыню в том, что она хочет сама захватить контроль над Алтари!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PICK_ON_PRINCESS_W_1</LocID>
+        <Text>Но она помогла Се-Три прийти в себя.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PICK_ON_PRINCESS_P_2</LocID>
+        <Text>Не знаю, девочка. Обычно всё сложнее, чем кажется.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PICK_ON_PRINCESS_W_2</LocID>
+        <Text>Но что ты хочешь делать? По-моему, это очередная ситуация с "котом в коробке".</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PICK_ON_PRINCESS_P_3</LocID>
+        <Text>Ты права, девочка. Но одно я знаю точно: я не дам Алтари сменить одного тирана на другого.</Text>
+      </GameDBLocalizedString>
+      <!--The first encounter with Tumori Tribasman.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_TUMORI_TUMORI_1</LocID>
+        <Text>---..- ещё один чужак ,,.,,.--- Кристальная Святыня --- твой путь,,..!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_TUMORI_RH_1</LocID>
+        <Text>Нам нужно к Кристальной Святыне! Скажи нам, как добраться до островка, и мы не тронем ни племенных воинов, ни их имущество.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_TUMORI_TUMORI_2</LocID>
+        <Text>---,.. ложь! ---. многие, как ты ---,..-.- некоторые остановились,,,...,-,, некоторые перешли.--,- всегда кровь---,,-</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_TUMORI_P_1</LocID>
+        <Text>С Тумори трудно договориться даже в лучшие дни... Но мы попытались.</Text>
+      </GameDBLocalizedString>
+      <!--After the tribesman is defeated.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_RH_1</LocID>
+        <Text>Кристальная Святыня! Как до неё добраться?! Отвечай!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_TUMORI_1</LocID>
+        <Text>..- ,,.Чужакам .,,--запрещено-..</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_P_1</LocID>
+        <Text>Тумори, они безумны! Он скорее умрёт, чем заговорит!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_SETRI_1</LocID>
+        <Text>Значит, надо их чем-то прижать. И я знаю, чем... [ЩЁЛК КОММУНИКАТОР ВКЛЮЧАЕТСЯ]</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_PRINCESS_1</LocID>
+        <Text>...[ПОМЕХИ] ГОВОРИ, АБОРИГЕН, ИЛИ Я ВСТУПЛЮ В БОЙ И СПАЛЮ ТЕБЯ ВМЕСТЕ С ЛЕСОМ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_TUMORI_2</LocID>
+        <Text>...-.телепорт ---.., уходи.--,- покинь лес.,,,,..,.- не трогай дома Тумори--., прошу..--</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_AF_P_2</LocID>
+        <Text>Впервые вижу, чтобы Тумори испугался... Похоже, теперь они нас пропустят, если мы больше не будем на них нападать.</Text>
+      </GameDBLocalizedString>
+      <!--If player defeat the first tumori hero, tumori accept the peace, but if palayer attacks again the once again start to fight. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_TUMORI_ENEMY_TUMORI_1</LocID>
+        <Text>.,,-,.Чужаки... убить-...-опять--...-</Text>
+      </GameDBLocalizedString>
+      <!--Teleport to the Crystal Shrine spotted.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_ISLET_TELEPORT_RH_1</LocID>
+        <Text>Вот оно! Этот телепорт может вести к Кристальной Святыне!</Text>
+      </GameDBLocalizedString>
+      <!-- Our heroes enter the Crystal Shrine. They are welcomed by the Pathfinder acompanied by Ra-Win, fully possessed and controlled by the Pathgfinder. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_PATHFINDER_1</LocID>
+        <Text>Се-Три, ты услышала зов, а теперь пришла присоединиться к своему хозяину... совсем как верная Ра-Вин!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_RAWIN_1</LocID>
+        <Text>...совсем как верная Ра-Вин!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_SETRI_1</LocID>
+        <Text>Слова марионетки!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_PATHFINDER_2</LocID>
+        <Text>Я вижу, ты растеряна, как и остальные мои гвардейцы. Иди ко мне, я помогу тебе.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_SETRI_2</LocID>
+        <Text>Ты хочешь снова сделать меня своим орудием!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_PATHFINDER_3</LocID>
+        <Text>Мне нужны были твоя покорность и твои псионические силы - дар, которого я был лишён...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_W_1</LocID>
+        <Text>Ты обманул нас всех!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_PATHFINDER_4</LocID>
+        <Text>У меня были на то причины. Но теперь это не имеет значения. Ра-Вин у меня, и я нашёл вторую Кристальную Святыню. Как только тебя сломят, я заставлю тебя убить остальных!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_PATHFINDER_5</LocID>
+        <Text>...я заставлю тебя убить остальных!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_PATHFINDER_SETRI_3</LocID>
+        <Text>Сев! Пик! Я заблокирую силы Ра-Вин! Вы двое должны сделать остальное!</Text>
+      </GameDBLocalizedString>
+      <!--   Rawin is defeated. Pick decides to destroy the Shrine's core befor the heroes attack the Pathfinder. The blast of psionic energy takes out Se-Tri. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_PATHFINDER_1</LocID>
+        <Text>Невозможно!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_RAWIN_1</LocID>
+        <Text>... Невозможно!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_SETRI_1</LocID>
+        <Text>Теперь Следопыт! Покончу с ним быстро. Он ведь не Алтари...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_P_2</LocID>
+        <Text>Сначала Кристальная Святыня! Пока она существует, Принцесса может поработить Алтари так же, как это сделал Следопыт!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_SETRI_2</LocID>
+        <Text>Нет, стой!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_PATHFINDER_2</LocID>
+        <Text>ТЫ ЧТО НАТВОРИЛ, ДУРАК?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_SETRI_3</LocID>
+        <Text>МОЯ ГОЛОВА!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_W_2</LocID>
+        <Text>СЕ-ТРИ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_SETRI_4</LocID>
+        <Text>[СКВОЗЬ СТИСНУТЫЕ ЗУБЫ] Я слишком потрясена... Вы двое должны сделать это... сами.</Text>
+      </GameDBLocalizedString>
+      <!--Pathfinder is defeated, the Princess shows up at the Shrine.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_1</LocID>
+        <Text>Прости, но я обещала не позволить Алтари снова стать рабами.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_1</LocID>
+        <Text>Ты могла подождать!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_2</LocID>
+        <Text>Зачем? Чтобы Принцесса могла прийти и забрать их себе? Нет. Мечта Суверена о дальних космических перелётах держится или рушится вместе с независимостью Алтари. Ты знаешь, что я права.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_2</LocID>
+        <Text>...Да, пожалуй, ты права. Я просто переживал за Се-Три.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_SETRI_1</LocID>
+        <Text>Я поправлюсь, хотя этот псионический удар обрушился на меня, как молот.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_3</LocID>
+        <Text>Кстати говоря о молотах, есть голова, готовая принять последний удар.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_PRINCESS_1</LocID>
+        <Text>СТОЙТЕ! ОН НУЖЕН МНЕ ЖИВЫМ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_3</LocID>
+        <Text>Зачем?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_4</LocID>
+        <Text>Разве не очевидно? Она хочет его секреты! Алтари угроза для неё! Я лучше умру...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_PRINCESS_2</LocID>
+        <Text>ТЫ СЕГОДНЯ ПРОСТО ВЫВОДИШЬ МЕНЯ ИЗ СЕБЯ, ФОССОРИАНЕЦ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_4</LocID>
+        <Text>Ты прав, Пик... Я буду сражаться рядом с тобой. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_5</LocID>
+        <Text>Что?! Не делай этого, девочка... Ты мне нравишься, но...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_5</LocID>
+        <Text>Ой, заткнись, старый ворчун! Друзья так и поступают.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_6</LocID>
+        <Text>Да... Видимо, так и поступают настоящие друзья...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_SETRI_2</LocID>
+        <Text>Хватит драться! Пусть Принцесса забирает его... Если бы она действительно считала меня угрозой, она могла бы убить меня миллион раз! Но вместо этого она помогла мне. Я доверяю ей... К тому же это было бы просто пустым жестом. Она куда сильнее любого из нас! Даже меня.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_7</LocID>
+        <Text>Пожалуй, ты права. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_PRINCESS_3</LocID>
+        <Text>Умное решение.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_6</LocID>
+        <Text>И что теперь?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_SETRI_3</LocID>
+        <Text>Ещё остались члены гвардии Алтари, которым нужна наша помощь.  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_P_8</LocID>
+        <Text>И на моём корабле есть пара свободных кают... если вам двоим нужен друг... с транспортом. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_PATHFINDER_AF_W_7</LocID>
+        <Text>С радостью!</Text>
+      </GameDBLocalizedString>
+      <!--In the orbit map layer the Princess speaks with Pathfinder alone.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_NARRATOR_1</LocID>
+        <Text>Несколько часов спустя на орбите.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PRINCESS_1</LocID>
+        <Text>По-моему, ты не тот, за кого себя выдаёшь.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PATHFINDER_1</LocID>
+        <Text>Но для Ксенаури я был именно тем, кем им нужно было меня видеть.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PRINCESS_2</LocID>
+        <Text>И я должна поверить, что всё это ради их блага?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PATHFINDER_2</LocID>
+        <Text>Поколениями они дрались за объедки, пока их планета умирала. Моё пробуждение пришло слишком поздно. Но я понял, что абсолютный контроль это единственный способ обеспечить выживание их вида.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PRINCESS_3</LocID>
+        <Text>Но, оказавшись здесь, отчего же ты их не освободил?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PATHFINDER_3</LocID>
+        <Text>Разве не очевидно? Всё дело в тебе. Я не мог остановиться, пока не убил бы тебя, либо не убедился, что ты не тот же монстр, что и Всемать, которую я знал когда-то.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PRINCESS_4</LocID>
+        <Text>Я вовсе не желала превращать их в своих рабов!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PATHFINDER_4</LocID>
+        <Text>Я тоже. Но когда ты увидишь, как твой мир превращается в бесплодную кристальную пустыню, и всю эту смерть вокруг, может, ты не будешь судить меня так строго.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PRINCESS_5</LocID>
+        <Text>Ты говоришь о кристальной технологии, которую использовали Предтечи?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_END_ALT_PATHFINDER_5</LocID>
+        <Text>Предтечи. Забавное название... Тут сомнений нет. Но, в отличие от Ксенаури, у нас ещё есть время спасти эту систему... спасти мой дом.</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
