@@ -1,57 +1,186 @@
-## A. Needs a translator
+# Translation TODO
 
-### Patch15.xml
+_Updated 2026-10-06 after importing the community packs into the game (patch 11 / Xenauri Riders DLC). Compared against `localization-base-english/`._
 
-**`MANUAL_COMBAT_FAR_ATTACK_RANGE`** — needs a translator in: **RU, HU, PTBR**
+**Status at a glance** - what each community pack still lacks compared with the English base (84 tables, 8 085 strings):
 
-- What changed: "Far Attack" is now "Imprecise Attack"; use the same term as in your combat UI strings
-- Old English: **Far** Attack\n Range
-- New English: **Imprecise** Attack\n Range
+| Language | Missing string IDs | Strings still showing English text | Xenauri Riders DLC | Last changed-English items (section A) |
+|---|---|---|---|---|
+| RU (Russian) | 32 | 31 (mostly unit/hero/base names) | complete except 1 line | all done |
+| HU (Hungarian) | 19 | 89 | complete except 4 lines + hero names | 7 still pending |
+| PT-BR (Brazilian Portuguese) | 13 | 144 | 15 strings + Arena map in English | 7 still pending |
+| DE, ES | - | - | - | translated professionally; the packs here are read-only mirrors of the game, no action needed |
+| IT, KO, UK | 4979 / 3179 / 4979 | 2883 / 4745 / 2479 | not started | incomplete packs, not shipped with the game |
 
-### PatchDoomOfEden.xml
+"Missing" = the ID does not exist in the pack, the game shows English. "Still English" = the ID exists but its text equals the English one; for names (heroes, bases, planets, "Steam") that may be intentional - use your judgement.
 
-**`MESSAGE_DOOM_OF_EDEN_ROSI_INTEL`** — needs a translator in: **RU, HU, PTBR**
+## A. English changed after your translation - needs re-translation
 
-- What changed: the old English sentence was broken ("they're only targeting."); it now says "targeting us"
-- Old English: We've received a message from the secret service – all the raiders have made a non-aggression pact, something along the lines of "first come, first served," which means they're only **targeting.** That's pretty bad news, I guess ...
-- New English: We've received a message from the secret service – all the raiders have made a non-aggression pact, something along the lines of "first come, first served," which means they're only **targeting us.** That's pretty bad news, I guess ...
+RU is done for all of these (imported 2026-10-06). **HU and PT-BR still have the old meaning.**
 
-### Pirates.xml
+| ID | File | What changed | New English |
+|---|---|---|---|
+| `MANUAL_COMBAT_FAR_ATTACK_RANGE` | Patch15 | "Far Attack" is now "Imprecise Attack"; use the same term as in your combat UI | `<color=#FC7EFB>Imprecise Attack</color>\n Range` |
+| `MESSAGE_DOOM_OF_EDEN_ROSI_INTEL` | PatchDoomOfEden | broken sentence fixed: "they're only targeting **us**" | ...which means they're only targeting us. That's pretty bad news, I guess ... |
+| `UNIT_PIRATES_CRAB` | Pirates | unit renamed Scorch Sprayer -> Scorch **Shower** (keep your name if it fits) | Scorch Shower |
+| `OPTION_MAP_EDITOR_DISABLE_TEXTURE_VARIATION` | Options | option now means object randomization, not texture variation | Disable object randomization |
+| `MESSAGE_DOOM_OF_EDEN_ROSI_MUSHROOM` | PatchDoomOfEden | nuance: "antidote" -> "detox" (optional) | ...we don't have a detox here yet... |
+| `MESSAGE_DOOM_OF_EDEN_ROSI_TELEPORT_MONEY` | PatchDoomOfEden | nuance: "all our money" -> "some of our money" (optional) | Here's some of our available money and other necessary resources. |
+| `MESSAGE_DOOM_OF_EDEN_PIRATES` | PatchDoomOfEden | nuance: "recreational retreat" -> "region" (optional) | From now on, let this land be known as the new region of the Sovereign Fleet. Objections are not allowed. |
 
-**`UNIT_PIRATES_CRAB`** — needs a translator in: **RU, HU, PTBR**
+## B. Missing string IDs (the game shows English)
 
-- What changed: unit renamed from Scorch Sprayer to Scorch Shower (keep your own name if it fits)
-- Old English: Scorch **Sprayer**
-- New English: Scorch **Shower**
+Most of these are new since patch 9/10: the Battle Arena dialogs, two combat options, two sound-event messages and the Crusaders turret lore are missing in **all three** packs.
 
-### Options.xml
 
-**`OPTION_MAP_EDITOR_DISABLE_TEXTURE_VARIATION`** — needs a translator in: **RU, HU, PTBR**
+### RU
 
-- What changed: option now means object randomization, not texture variation
-- Old English: Disable **texture variation**
-- New English: Disable **object randomization**
+| English file | Missing IDs |
+|---|---|
+| Exploration | `DIALOG_CUSTOM_MESSAGE_TEXT`, `DIALOG_CAMPAIGN_MESSAGE_TEXT`, `DIALOG_CHEST_ITEM`, `DIALOG_ITEM_PICKUP`, `DIALOG_OBJECT_UPGRADE`, `DIALOG_OBJECT_CONSTRUCTION_UPGRADE`, `DIALOG_OBJECT_MINING_PROBE`, `DIALOG_OBJECT_MINING_PROBE_EMPTY`, `DIALOG_OBJECT_DECONSTRUCTABLE`, `DIALOG_OBJECT_DECONSTRUCTABLE_NO_MONEY`, `DIALOG_OBJECT_VEIN`, `DIALOG_OBJECT_BATTLE_ARENA_NEW`, `DIALOG_BATTLE_ARENA_WON`, `DIALOG_BATTLE_ARENA_LOST`, `DIALOG_BATTLE_ARENA_ALREADY_VISITED`, `DIALOG_BATTLE_ARENA_NO_CHALLENGER`, `DIALOG_OBJECT_BATTLE_ARENA_NO_GOLD`, `DIALOG_BATTLE_ARENA_CHALLENGED`, `DIALOG_BATTLE_ARENA_DEFENDED` |
+| CampaignMolesLVL2 | `MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_OUTPOST_GUARD2`, `MESSAGE_CAMPAIGN_MOLES_LVL2_PRISON_FURRET_1`, `MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_START_LEADER_2`, `MESSAGE_CAMPAIGN_MOLES_LVL2_SNIF_START_SNIFF_3` |
+| Combat | `MESSAGE_SOUND_EVENT`, `MESSAGE_SOUND_EVENT_GLOBAL` |
+| Options | `OPTION_COMBAT_DISABLE_ACHIEVEMENTS`, `OPTION_COMBAT_ENABLE_NEW_STATS` |
+| CrusadersBases | `BUILDING_CRUSADERS_DEFENSIVE_TURRET_LORE` |
+| Patch03EAAfterRelease | `HIDDEN_STATUS_EFFECT` |
+| Patch06 | `EA_MULTIPLAYER_MADNESS_TELEPORT` |
+| Patch07 | `HERO_MOLE_2_ALTERNATIVE` |
+| Pirates | `UNIT_PIRATES_FIRST_OFFICER_INFO_DESCRIPTION` |
 
-## B. Optional (flavor nuance only)
+### HU
 
-Small wording nuances in dialogue. Translate them if you like, nothing is wrong in game without it.
+| English file | Missing IDs |
+|---|---|
+| Exploration | `DIALOG_OBJECT_BATTLE_ARENA_NEW`, `DIALOG_BATTLE_ARENA_WON`, `DIALOG_BATTLE_ARENA_LOST`, `DIALOG_BATTLE_ARENA_ALREADY_VISITED`, `DIALOG_BATTLE_ARENA_NO_CHALLENGER`, `DIALOG_OBJECT_BATTLE_ARENA_NO_GOLD`, `DIALOG_BATTLE_ARENA_CHALLENGED`, `DIALOG_BATTLE_ARENA_DEFENDED` |
+| CampaignMolesLVL4 | `CAMPAIGN_MOLES_LVL4_ONLY_F_CAN_ENTER_2`, `CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_RELIC_1`, `CAMPAIGN_MOLES_LVL4_FINAL_FIGHT_RELIC_2` |
+| Combat | `MESSAGE_SOUND_EVENT`, `MESSAGE_SOUND_EVENT_GLOBAL` |
+| ExplorationMapObjects | `MAPOBJ_BIOFARM_VEIN`, `MAPOBJ_BIOFARM_VEIN_DESCRIPTION` |
+| Options | `OPTION_COMBAT_DISABLE_ACHIEVEMENTS`, `OPTION_COMBAT_ENABLE_NEW_STATS` |
+| CrusadersBases | `BUILDING_CRUSADERS_DEFENSIVE_TURRET_LORE` |
+| Patch03EAAfterRelease | `TUTORIAL_01_ATTRIBUTES_V2` |
 
-### PatchDoomOfEden.xml
+### PT-BR
 
-**`MESSAGE_DOOM_OF_EDEN_ROSI_MUSHROOM`** — needs a translator in: **RU, HU, PTBR**
+| English file | Missing IDs |
+|---|---|
+| Exploration | `DIALOG_OBJECT_BATTLE_ARENA_NEW`, `DIALOG_BATTLE_ARENA_WON`, `DIALOG_BATTLE_ARENA_LOST`, `DIALOG_BATTLE_ARENA_ALREADY_VISITED`, `DIALOG_BATTLE_ARENA_NO_CHALLENGER`, `DIALOG_OBJECT_BATTLE_ARENA_NO_GOLD`, `DIALOG_BATTLE_ARENA_CHALLENGED`, `DIALOG_BATTLE_ARENA_DEFENDED` |
+| Combat | `MESSAGE_SOUND_EVENT`, `MESSAGE_SOUND_EVENT_GLOBAL` |
+| Options | `OPTION_COMBAT_DISABLE_ACHIEVEMENTS`, `OPTION_COMBAT_ENABLE_NEW_STATS` |
+| CrusadersBases | `BUILDING_CRUSADERS_DEFENSIVE_TURRET_LORE` |
 
-- What changed: "antidote" became "detox"
-- Old English: Look, this is a magical mushroom. If you stay near it for a while, it will start to release spores that induce feelings of happiness and joy. Just be careful, we don't have **an antidote yet.**
-- New English: Look, this is a magical mushroom. If you stay near it for a while, it will start to release spores that induce feelings of happiness and joy. Just be careful, we don't have **a detox here yet...**
+## C. Strings that still show the English text
 
-**`MESSAGE_DOOM_OF_EDEN_ROSI_TELEPORT_MONEY`** — needs a translator in: **RU, HU, PTBR**
+Grouped by English file. Hero names, base names and planet names are listed for completeness - leave them if the English name is intended.
 
-- What changed: "all our money" became "some of our money"
-- Old English: Here's **all** our available money and other necessary resources.
-- New English: Here's **some of** our available money and other necessary resources.
 
-**`MESSAGE_DOOM_OF_EDEN_PIRATES`** — needs a translator in: **RU, HU, PTBR**
+### RU
 
-- What changed: "recreational retreat" became "region"
-- Old English: From now on, let this land be known as the new **recreational retreat** of the Sovereign Fleet. Objections are not allowed.
-- New English: From now on, let this land be known as the new **region** of the Sovereign Fleet. Objections are not allowed.
+| English file | Count | IDs |
+|---|---|---|
+| EmpireEA | 7 | `UNIT_EMPIRE_SOLDIER`, `UNIT_EMPIRE_BEAST`, `UNIT_EMPIRE_WARMACHINE`, `UNIT_EMPIRE_SOLDIER_DESCRIPTION`, `UNIT_EMPIRE_BEAST_DESCRIPTION`, `UNIT_EMPIRE_WARMACHINE_DESCRIPTION`, `HERO_EMPIRE_1` |
+| HiveMindBases | 4 | `BUILDING_HIVEMIND_REPLICATOR_LORE`, `BUILDING_HIVEMIND_CONSUMABLE_MARKET`, `BUILDING_HIVEMIND_CONSUMABLE_MARKET_DESCRIPTION`, `BUILDING_HIVEMIND_CONSUMABLE_MARKET_LORE` |
+| HiveMindEA | 4 | `UNIT_HIVEMIND_BEHOLDER`, `UNIT_HIVEMIND_DRAGON`, `UNIT_HIVEMIND_BEHOLDER_DESCRIPTION`, `UNIT_HIVEMIND_DRAGON_DESCRIPTION` |
+| MolesBases | 3 | `MOLES_BASE_NAME_11`, `MOLES_BASE_NAME_12`, `MOLES_BASE_NAME_13` |
+| Bases | 1 | `GATEWAY_NO_GATEWAY` |
+| CampaignBeastmastersLVL1 | 1 | `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_W_2` |
+| Empire | 1 | `UNIT_EMPIRE_BEAST_PASSIVE_INFO_DESCRIPTION` |
+| EmpireBases | 1 | `EMPIRE_BASE_NAME_04` |
+| Exploration | 1 | `EXPLORATION_DATAPAD_SELL_INFO_TEXT` |
+| MapEditor | 1 | `EDITOR_FILTER_RESOURCES` |
+| Moles | 1 | `HERO_MOLE_8_DESCRIPTION` |
+| Patch07 | 1 | `UNIT_HIVEMIND_CLAW` |
+| Patch11Release | 1 | `STEAM` |
+| Planets | 1 | `PLANET_EA_ID` |
+
+### HU
+
+| English file | Count | IDs |
+|---|---|---|
+| DLCBeastmasters | 13 | `HERO_BEASTMASTERS_1`, `HERO_BEASTMASTERS_2`, `HERO_BEASTMASTERS_3`, `HERO_BEASTMASTERS_6`, `HERO_BEASTMASTERS_8`, `HERO_BEASTMASTERS_9`, `HERO_BEASTMASTERS_10`, `HERO_BEASTMASTERS_11`, `HERO_BEASTMASTERS_12`, `HERO_BEASTMASTERS_13`, `HERO_BEASTMASTERS_14`, `HERO_BEASTMASTERS_15`, `HERO_BEASTMASTERS_16` |
+| PiratesBases | 10 | `BUILDING_PIRATES_REMOTE_LEARNING`, `PIRATES_BASE_NAME_02`, `PIRATES_BASE_NAME_03`, `PIRATES_BASE_NAME_04`, `PIRATES_BASE_NAME_05`, `PIRATES_BASE_NAME_06`, `PIRATES_BASE_NAME_07`, `PIRATES_BASE_NAME_08`, `PIRATES_BASE_NAME_09`, `PIRATES_BASE_NAME_10` |
+| EmpireBases | 9 | `EMPIRE_BASE_NAME_01`, `EMPIRE_BASE_NAME_02`, `EMPIRE_BASE_NAME_03`, `EMPIRE_BASE_NAME_04`, `EMPIRE_BASE_NAME_05`, `EMPIRE_BASE_NAME_07`, `EMPIRE_BASE_NAME_08`, `EMPIRE_BASE_NAME_09`, `EMPIRE_BASE_NAME_10` |
+| Patch11Release | 9 | `STEAM`, `DIALOG_LEVEL_UP_ATTRIBUTE_BATTLE_ARENA_TEXT`, `HERO_PIRATE_15`, `HERO_PIRATE_17`, `HERO_HIVEMIND_16`, `HERO_PIRATE_14`, `HERO_PIRATE_16`, `HERO_ROBO_CRUSADER_16`, `HERO_ROBO_CRUSADER_19` |
+| HiveMindBases | 8 | `BUILDING_HIVEMIND_ECONOMY_UPGRADE2_DESCRIPTION`, `BUILDING_HIVEMIND_ECONOMY_UPGRADE_MAX_DESCRIPTION`, `BUILDING_HIVEMIND_FACTORY`, `HIVEMIND_BASE_NAME_05`, `HIVEMIND_BASE_NAME_07`, `HIVEMIND_BASE_NAME_08`, `HIVEMIND_BASE_NAME_09`, `HIVEMIND_BASE_NAME_10` |
+| Pirates | 5 | `UNIT_PIRATES_CAPTAIN`, `HERO_PIRATE_3`, `HERO_PIRATE_4`, `HERO_PIRATE_5`, `HERO_PIRATE_8` |
+| CampaignBeastmastersLVL2 | 4 | `OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_TENGRI_1`, `OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_RAWIN_1`, `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_2`, `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_W_2` |
+| CampaignPiratesLVL3 | 4 | `MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_A_2`, `MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_2`, `MESSAGE_CAMPAIGN_PIRATES_LVL3_ANIKA_TRUTH_H_8`, `MESSAGE_CAMPAIGN_PIRATES_LVL3_SEAL_MALFUNCTION_2_A_1` |
+| Empire | 3 | `HERO_EMPIRE_9`, `HERO_EMPIRE_14`, `HERO_EMPIRE_15` |
+| HiveMind | 2 | `HERO_HIVEMIND_2`, `HERO_HIVEMIND_6` |
+| Patch04EAAfterRelease | 2 | `PLANET_EA_01_ID`, `PLANET_EA_02_ID` |
+| Patch06 | 2 | `UNIT_NEUTRAL_BIG_MOLE`, `UNIT_NEUTRAL_PLANT_BABY_DESCRIPTION` |
+| Patch10 | 2 | `MAPOBJ_CAMPAIGN_PIRATESSHUTTLE`, `CONSUMABLE_NOT_INSIDE_A_BASE` |
+| Achievements | 1 | `ACHIEVEMENT_SPARTACUS` |
+| Basic | 1 | `PLAYER_COLOR_INDIGO` |
+| CampaignCrusadersLVL1 | 1 | `MESSAGE_CAMPAIGN_CRUSADERS_LVL1_TELEPORT_1_OPEN_PRINCESS_1` |
+| CampaignCrusadersLVL4 | 1 | `MESSAGE_CAMPAIGN_CRUSADERS_LVL4_END_1_PRINCESS_2` |
+| CampaignPiratesLVL1 | 1 | `MESSAGE_CAMPAIGN_PIRATES_LVL1_MEETING_HIERARCH_A_4` |
+| CampaignPiratesLVL4 | 1 | `MESSAGE_CAMPAIGN_PIRATES_LVL4_END_H_4` |
+| DemoMapNextFest | 1 | `MAP_SCENARIO_DEMO_NEXTFEST_LIBERATOR1` |
+| Exploration | 1 | `EXPLORATION_DATAPAD_SELL_INFO_TEXT` |
+| ExplorationMapObjects | 1 | `MAPOBJ_BIOFARM_01` |
+| MapEditor | 1 | `VFX_PRESET_TELEPORT` |
+| MolesBases | 1 | `BUILDING_MOLES_REMOTE_LEARNING` |
+| Options | 1 | `TEXTURES_4K` |
+| Patch14 | 1 | `PLANET_DLC_01_ID` |
+| Planets | 1 | `PLANET_EA_ID` |
+
+### PT-BR
+
+| English file | Count | IDs |
+|---|---|---|
+| DLCBeastmasters | 15 | `FACTION_BEASTMASTERS`, `UNIT_BEASTMASTERS_SPITTER`, `HERO_BEASTMASTERS_1`, `HERO_BEASTMASTERS_2`, `HERO_BEASTMASTERS_3`, `HERO_BEASTMASTERS_6`, `HERO_BEASTMASTERS_8`, `HERO_BEASTMASTERS_9`, `HERO_BEASTMASTERS_10`, `HERO_BEASTMASTERS_11`, `HERO_BEASTMASTERS_12`, `HERO_BEASTMASTERS_13`, `HERO_BEASTMASTERS_14`, `HERO_BEASTMASTERS_15`, `HERO_BEASTMASTERS_16` |
+| Empire | 12 | `UNIT_EMPIRE_SCOUT`, `UNIT_EMPIRE_SCOUT_UPG`, `UNIT_EMPIRE_BEAST_UPG`, `HERO_EMPIRE_6`, `HERO_EMPIRE_7`, `HERO_EMPIRE_8`, `HERO_EMPIRE_9`, `HERO_EMPIRE_10`, `HERO_EMPIRE_11`, `HERO_EMPIRE_13`, `HERO_EMPIRE_14`, `HERO_EMPIRE_15` |
+| EmpireBases | 12 | `BUILDING_EMPIRE_REMOTE_LEARNING`, `BUILDING_EMPIRE_SPAWNER_5_UPG`, `EMPIRE_BASE_NAME_01`, `EMPIRE_BASE_NAME_02`, `EMPIRE_BASE_NAME_03`, `EMPIRE_BASE_NAME_04`, `EMPIRE_BASE_NAME_05`, `EMPIRE_BASE_NAME_06`, `EMPIRE_BASE_NAME_07`, `EMPIRE_BASE_NAME_08`, `EMPIRE_BASE_NAME_09`, `EMPIRE_BASE_NAME_10` |
+| HiveMindBases | 7 | `HIVEMIND_BASE_NAME_01`, `HIVEMIND_BASE_NAME_07`, `HIVEMIND_BASE_NAME_08`, `BUILDING_HIVEMIND_REPLICATOR_LORE`, `BUILDING_HIVEMIND_CONSUMABLE_MARKET`, `BUILDING_HIVEMIND_CONSUMABLE_MARKET_DESCRIPTION`, `BUILDING_HIVEMIND_CONSUMABLE_MARKET_LORE` |
+| Patch14Arena | 7 | `THE_ARENA`, `THE_ARENA_DESCRIPTION`, `THE_ARENA_INTRODUCTION`, `RED_IS_READY`, `BLUE_IS_READY`, `FIGHT`, `THE_ARENA_WARNING` |
+| Moles | 6 | `ABILITY_UNIT_TORPEDO`, `HERO_MOLE_1`, `HERO_MOLE_8`, `HERO_MOLE_9`, `HERO_MOLE_14`, `HERO_MOLE_8_DESCRIPTION` |
+| Patch11Release | 6 | `MULTIPLAYER`, `STEAM`, `HERO_PIRATE_15`, `HERO_PIRATE_14`, `HERO_PIRATE_16`, `HERO_ROBO_CRUSADER_19` |
+| MapEditor | 5 | `MAP_SPECIFICATIONS_PLAYER_BASERS`, `AI_CONFIG_BASIC`, `EDITOR_PROPERTIES_RESET`, `EDITOR_PROPERTIES_UPGRADES`, `HEADING_EDITOR_PREVIEW` |
+| Pirates | 5 | `UNIT_PIRATES_CAPTAIN`, `HERO_PIRATE_4`, `HERO_PIRATE_5`, `HERO_PIRATE_8`, `HERO_PIRATE_11` |
+| UI | 5 | `MENU_LOC`, `TUTORIAL`, `SAVE_DIALOG_AUTOSAVES`, `BASE`, `BUTTON_MENU_EXPLORATION` |
+| Exploration | 4 | `EXPLORATION_DATAPAD_SELL_INFO_TEXT`, `EXPLORATION_XP_DEBUG`, `EXPLORATION_START_WITH_REPLAY`, `CYCLE_RULES_BAD_VISIBILITY` |
+| HiveMindEA | 4 | `UNIT_HIVEMIND_BEHOLDER`, `UNIT_HIVEMIND_DRAGON`, `UNIT_HIVEMIND_BEHOLDER_DESCRIPTION`, `UNIT_HIVEMIND_DRAGON_DESCRIPTION` |
+| MolesBases | 4 | `BUILDING_MOLES_REMOTE_LEARNING`, `MOLES_BASE_NAME_11`, `MOLES_BASE_NAME_12`, `MOLES_BASE_NAME_13` |
+| Basic | 3 | `PLAYER_COLOR_BRONZE`, `PLAYER_COLOR_INDIGO`, `XP_LOC` |
+| DemoMapNextFest | 3 | `MAP_SCENARIO_DEMO_NEXTFEST`, `MAP_SCENARIO_DEMO_NEXTFEST_LIBERATOR1`, `MAP_SCENARIO_DEMO_NEXTFEST_SIDEQUEST_NONE` |
+| EmpireEA | 3 | `UNIT_EMPIRE_BEAST`, `UNIT_EMPIRE_WARMACHINE`, `HERO_EMPIRE_1` |
+| InventoryItemsExplorationEquipment | 3 | `EQUIPMENT_DATAPAD`, `EQUIPMENT_NAVICOMP`, `EQUIPMENT_AUXILIARY_GENERATOR` |
+| Options | 3 | `TEXTURES_4K`, `OPTION_GRAPHICS_VSYNC`, `OPTION_UI_SCALE_NORMAL` |
+| Achievements | 2 | `ACHIEVEMENTS_LIST`, `ACHIEVEMENT_SPARTACUS` |
+| CampaignBeastmastersLVL1 | 2 | `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_P_3`, `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_FREDDIE_3` |
+| CampaignBeastmastersLVL2 | 2 | `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_2`, `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_W_2` |
+| CampaignPiratesLVL2 | 2 | `MESSAGE_CAMPAIGN_PIRATES_LVL2_FIRST_BASE_A_2`, `MESSAGE_CAMPAIGN_PIRATES_LVL2_ISLETS_CROSSED_A_6` |
+| Crusaders | 2 | `UNIT_CRUSADERS_UNIVERSAL`, `UNIT_CRUSADERS_ANGEL` |
+| HiveMind | 2 | `HERO_HIVEMIND_2`, `HERO_HIVEMIND_6` |
+| Neutral | 2 | `UNIT_NEUTRAL_SPACESLUG`, `UNIT_NEUTRAL_UNCORRUPTED_BEHOLDER` |
+| Patch06 | 2 | `EQUIPMENT_ANTIGRAV`, `UNIT_NEUTRAL_BIG_MOLE` |
+| Patch07 | 2 | `UNIT_HIVEMIND_CLAW`, `EA_CREMATORIA_ID` |
+| Patch09HiveMind | 2 | `HERO_PIRATE_13`, `MAPOBJ_HIVE_MIND_SPAWNER` |
+| Patch10 | 2 | `CONSUMABLE_STIM_TAC`, `MAPOBJ_CAMPAIGN_PIRATESSHUTTLE` |
+| Bases | 1 | `HEADING_BASES` |
+| CampaignCrusadersLVL4 | 1 | `MESSAGE_CAMPAIGN_CRUSADERS_LVL4_END_1_PRINCESS_2` |
+| CampaignPiratesLVL3 | 1 | `OBJECTIVE_CAMPAIGN_PIRATES_LVL3_CAPTURE_ZANE` |
+| CampaignPiratesLVL4 | 1 | `MESSAGE_CAMPAIGN_PIRATES_LVL4_END_RELIC_1` |
+| Combat | 1 | `COMBAT_DEFENDER` |
+| CrusadersBases | 1 | `BUILDING_CRUSADERS_SPAWNER_7` |
+| HeroAbilitiesExploration | 1 | `STATUS_EFFECT_PROTECTIVE_FIELD` |
+| NeutralPatch04 | 1 | `UNIT_NEUTRAL_SHARK` |
+| Patch08 | 1 | `TREASURE_DENSITY_NORMAL` |
+| Patch12AfterRelease | 1 | `AI_CONFIG_NORMAL_V2` |
+| Patch15 | 1 | `MANUAL_BASE_TITLE` |
+| PiratesBases | 1 | `BUILDING_PIRATES_REMOTE_LEARNING` |
+
+## D. Xenauri Riders DLC (Beastmasters) - status
+
+The DLC tables are `DLCBeastmasters`, `DLCBeastmastersBases`, `CampaignBeastmastersCutscene`, `CampaignBeastmastersLVL1`, `CampaignBeastmastersLVL2` (569 strings) plus the Arena multiplayer map (`Patch14Arena`, 7 strings).
+
+| Language | DLC tables | Left in English |
+|---|---|---|
+| RU | complete | `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_W_2` |
+| HU | complete | hero names `HERO_BEASTMASTERS_1..16` (13), plus `OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_TENGRI_1`, `OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL2_DEFEAT_RAWIN_1`, `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_2`, `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_W_2` |
+| PT-BR | complete | `FACTION_BEASTMASTERS` (the faction name itself!), `UNIT_BEASTMASTERS_SPITTER`, hero names (13), `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_P_3`, `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_FREDDIE_3`, `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_MEETING_SETRI_SETRI_2`, `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL2_RAWIN_AF_W_2`, and the whole Arena map table (`THE_ARENA`, `THE_ARENA_DESCRIPTION`, `THE_ARENA_INTRODUCTION`, `RED_IS_READY`, `BLUE_IS_READY`, `FIGHT`, `THE_ARENA_WARNING`) |
+
+Two notes for the DLC:
+
+- `DLC_BEASTMASTERS_ENABLED` (Patch14) is now the DLC's display name and must equal your `FACTION_BEASTMASTERS` - it was set to that in all packs during the import. If you change the faction name, change both.
+- `OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_GET_SETRI_TO_ELEVATOR` ends with "- remaining turn(s):" in English because the game appends the number; keep that ending in your language.
