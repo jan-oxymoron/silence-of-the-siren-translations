@@ -1,253 +1,732 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database>
-    <GameDBStringTable ID="LOC_RU_CAMPAIGN_BEASTMASTERS_LVL1">
-
-        <LanguageRef>LANG_RU</LanguageRef>
-
-        <Contributors>
-            <Name>AlexSnowLeo</Name>
-        </Contributors>
-
-        <LocalizedStrings>
-            <!--OBJECTIVES MAIN QUESTS-->
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_START</LocID>                   <Text>Start the offensive</Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_SECOND_BASE_1</LocID>           <Text>Attack the Children of the Source strongpoints 0/2</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_SECOND_BASE_2</LocID>           <Text>Attack the Children of the Source strongpoints 1/2</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_GET_SETRI_TO_ELEVATOR</LocID>   <Text>Reach the orbital teleport</Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_RETAKE_X_BASE</LocID>           <Text>Capture the Xenauri base </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_RETAKE_X_BASE_DONE</LocID>      <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Capture the Xenauri base - Finished</color>]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FIND_WAY_SURFACE</LocID>        <Text>Exit the underground</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FIND_WAY_SURFACE_DONE</LocID>   <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Exit the underground - Finished</color>]]></Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_INBARK_1</LocID>                <Text>Get your commanders on board 0/2</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_INBARK_2</LocID>                <Text>Get your commanders on board 1/2</Text>  </GameDBLocalizedString>
-          
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FOS_BASE_1</LocID>                <Text>Conquer the Fossorian bases 0/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FOS_BASE_2</LocID>                <Text>Conquer the Fossorian bases 1/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FOS_BASE_3</LocID>                <Text>Conquer the Fossorian bases 2/3</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FOS_BASE_4</LocID>                <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Conquer the Fossorian bases 3/3 - Finished</color>]]> </Text>  </GameDBLocalizedString>
-            
-            <!--DIALOGUES-->
-            <!--Se-Wari and Se-Tri are standing near their base.   -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_NARRATOR_0</LocID>          <Text>The Xenauri Riders DLC takes place after the events of Silence of the Siren, the original game’s campaign.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_NARRATOR_1</LocID>          <Text>Planet Scylla, near the freshly established forward base of the Xenauri landing force.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_1</LocID>                 <Text>Put down your tools! We’re going on the offensive! The storm has begun! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_W_1</LocID>                 <Text>That’s insane! We’ve only just started building the camp! We’re not ready!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_2</LocID>                 <Text>Silence! You are speaking to the Pathfinder's Altari Guard! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_W_2</LocID>                 <Text>How could I ever forget, sister? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_3</LocID>                 <Text>What was that? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_W_3</LocID>                 <Text>Nothing, Mighty.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_4</LocID>                 <Text>We have been entrusted with capturing the Iron Insect strongpoints here...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_5</LocID>                 <Text>... and here. I’ll lead the attack. You handle logistics! To fail is to betray the Pathfinder! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_W_4</LocID>                 <Text>[WHISPERING TO HERSELF] Like true fanatics. </Text>  </GameDBLocalizedString>
-            
-            <!--First encounter with the Iron Insect warrior (Children of the Source) hero.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_RH_1</LocID>         <Text>It’s an Iron Insect warrior!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_KNIGHT_1</LocID>     <Text>[SPEAKING IN A STRANGE LANGUAGE, SLIGHTLY DISTORTED BY METALLIC SOUNDS] </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_W_1</LocID>          <Text>Is he trying to negotiate? Maybe we could find some way to communicate! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_T_2</LocID>          <Text>They are just mindless robots! The Pathfinder ordered their extermination! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_W_2</LocID>          <Text>And since the day you joined the Pathfinder’s Guard, his word has been law. [WHISPERING TO HERSELF] Regardless of common sense. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_KNIGHT_2</LocID>     <Text>[SHARP METALLIC SOUNDS] </Text>  </GameDBLocalizedString>
-           
-            <!--Iron Insect warrior is defeated.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_ARTAR_DEFEATED_W_1</LocID>        <Text>Rest now, Iron Insect warrior. I hope you find peace.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_ARTAR_DEFEATED_T_1</LocID>        <Text>The Iron Insects are no match for the Pathfinder's Altari Guard!</Text>  </GameDBLocalizedString>
-
-            <!--First base of the Children of the Source is conquered.  -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_FIRST_FORTRESS_IS_CONQUERED_RH_1</LocID>   <Text>The first strongpoint is ours!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_FIRST_FORTRESS_IS_CONQUERED_T_2</LocID>    <Text>The first strongpoint was claimed in the Pathfinder’s name. Once we capture the second, the bank will be ours!    </Text>  </GameDBLocalizedString>
-
-            <!--At the start of the next game turn, Se-Wari notise a bright flash in the sky. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_EXPLOSION_FORESHADOWED_W_1</LocID>         <Text>I see bright flashes in the clouds above us! But I’ve never seen a storm like that!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_EXPLOSION_FORESHADOWED_T_1</LocID>         <Text>That's no storm, fool! It's the Mothership! It's bombarding the neighboring sector!   </Text>  </GameDBLocalizedString>
-
-            <!--At the start of the next game turn, flashes intensifies. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_SUMMONED_W_</LocID>         <Text>The flashes intensified!   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_SUMMONED_T_1</LocID>        <Text>The Mothership is under attack! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_SUMMONED_W_2</LocID>        <Text>How can you tell from here?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_SUMMONED_T_3</LocID>        <Text>The connection... I must return to the ship... to the crystal shrine! </Text>  </GameDBLocalizedString>
-            
-            <!--Se-Tri arrives to the teleport but befor she can enter and debris from the Mothership struck the place. She teleports Se-Wari out of harms way just in time.  -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_RH_1</LocID>       <Text>We’re nearly there... WHAT?! THAT FLASH WAS TOO BRIGHT FOR ANY WEAPON! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_T_1</LocID>        <Text>The Mothership! My connection with the crystal shrine! ... I don’t feel well.   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_W_1</LocID>        <Text>Se-Tri?... Are you alright?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_T_3</LocID>        <Text>No... I don’t... Where am I?! Don’t come any closer!    </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_W_3</LocID>        <Text>Se-Tri, I... what is that swishing sound?! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_W_4</LocID>        <Text>Something is falling straight toward us! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_T_4</LocID>        <Text>No!</Text>  </GameDBLocalizedString>
-
-            <!--Se-Wari appears in the underground and is immediately surrounded by Fossorians.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_CAPTURED_W_1</LocID>           <Text>Did she just teleport me out of harm’s way?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_CAPTURED_FOSSORIAN_2</LocID>   <Text>[SPEAKING IN A STRANGE LANGUAGE, SLIGHTLY DISTORTED BY THE NON-HUMANOID SHAPE OF THE MOUTH]</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_CAPTURED_W_2</LocID>           <Text>Or perhaps straight into another kind of trouble.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_CAPTURED_W_3</LocID>           <Text>Big trouble! </Text>  </GameDBLocalizedString>
-            
-            <!--In a small cave Se-Wari chat with Captain Pick (the only Sovereign fleet hero of Fossorain descend). In the middle of the conversation the Fossorian hero Bokas arrives. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_NARRATOR_1</LocID>       <Text>A few days later. Deep underground.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_P_1.5</LocID>            <Text>...you learn quickly, girl, but...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_BOKAS_1</LocID>          <Text>I don’t pay you to chat, Pick! You're supposed to interrogate her about the artifacts!  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_W_2</LocID>              <Text>Artifacts?        </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_P_3</LocID>              <Text>Xenauri technology found in debris from your Mothership...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_W_5</LocID>              <Text>Debris! The Mothership was destroyed?!...       </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_BOKAS_2</LocID>          <Text>Shut up, you two! I care only about the artifacts! Nobody knows how to use them! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_W_6</LocID>              <Text>But I can’t help you... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_BOKAS_3</LocID>          <Text>The pain will untangle your tongue!!!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_W_7</LocID>              <Text>STOP! IT HURTS!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_BOKAS_4</LocID>          <Text>You brought this upon yourself!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_P_9</LocID>              <Text>That’s enough, Bokas! Stop!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_P_10</LocID>             <Text>I said STOP!  </Text>  </GameDBLocalizedString>
-            
-            <!--Pick decide to help Se-Wari and they defeat Bokas.  -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_BOKAS_1</LocID>     <Text>[TO THE RADIO] Help me, my friends! The prisoners are escaping!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_TOTT_1</LocID>      <Text>Who are you calling a friend, you bastard?!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_MOLTAIR_1</LocID>   <Text>Yeah, you stinking pile of worm dung!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_BENI_1</LocID>      <Text>I am coming to your aid, Bokas, my dearest friend!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_BOKAS_3</LocID>     <Text>Oh, no you don’t! I’d rather be killed than saved by an ugly halfbreed! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_P_1</LocID>         <Text>[CLICK OF THE COMMUNICATOR BEING SHUT DOWN] ...That’s better.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_W_1</LocID>         <Text>Pick, I...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_P_2</LocID>         <Text>Save your thanks, girl. I like you, but that doesn’t mean we’re friends.... I’m after the Xenauri artifacts too. I get you out, you teach me how to use them. Deal?    </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_W_2</LocID>         <Text>I’ll tell you everything I know... on one condition: you help me find my sister. She’s Altari, so she’ll be alright... But I need to be sure.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_P_3</LocID>         <Text>Altari? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_W_3</LocID>         <Text>It means something like a psyker. And she is one of the Pathfinder's Altari Guard, so she is exceptionally gifted. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_P_4</LocID>         <Text>Psyker, you say... OK! We have a deal... Now, my furry kindred have pulled so much debris from your Mothership that we can start building a base down here! </Text>  </GameDBLocalizedString>
-
-            <!--At the start of the next game turn, Se-Wari asks Pick how he joined Fossorians. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_REASONING_W_1</LocID>        <Text>Earlier, you said you were hired to teach me?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_REASONING_P_1</LocID>        <Text>They caught me sniffing around the debris. So I said I wanted to join them and waited for a chance to quietly disappear.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_REASONING_W_2</LocID>        <Text>I think the quiet is off the table.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_REASONING_P_2</LocID>        <Text>Yeah, but don’t worry. Old Pick knows which end of the hammer to hold.   </Text>  </GameDBLocalizedString>
-
-            <!--First Fossorian hero defeated -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_ELEVATOR_INFO_P_1</LocID>         <Text>Now that we have the base, we have a chance to fight our way to the elevator leading to the surface. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_ELEVATOR_INFO_W_1</LocID>         <Text>And once we reach the surface?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_ELEVATOR_INFO_P_2</LocID>         <Text>It ain’t gonna get easier, girl, but I’ve got some crewmates and a fast ship hidden in the rocks.  </Text>  </GameDBLocalizedString>
-            
-            <!-- After they escape the underground, Se-Wari disscus with Pick their nex move.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_RH_1</LocID>              <Text>Surface! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_W_1</LocID>               <Text>Damn, that's pretty far from the place where my sister and I were separated. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_1</LocID>               <Text>Not that far, but I know the area, and the ship is the only way to get there.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_2</LocID>               <Text>So, time to contact my crew. I hope they didn’t run off while I was stuck down there.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_3</LocID>               <Text>Freddie, Alfa, you lazy, miserable pricks! Do you copy? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_FREDDIE_1</LocID>         <Text>We hear you, boss! We’d never leave without you! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_ALFA_1</LocID>            <Text>So, shall I delete the week-long recording of you whining about wanting to fly off, Freddie?   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_FREDDIE_2</LocID>         <Text>Hey, Alfa! Fuck you! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_4</LocID>               <Text>Shut up, imbeciles! We’re heading your way. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_ALFA_2</LocID>            <Text>We?  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_5</LocID>               <Text>Yeah, I’ve got company. A Xenauri.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_FREDDIE_3</LocID>         <Text>Xenauri?   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_ALFA_3</LocID>            <Text>The aliens, Freddie! The Sovereign Net hasn’t buzzed about anything else for a week. Maybe if you didn’t play Tetris all day long...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_FREDDIE_4</LocID>         <Text>...you just have to keep embarrassing me, Alfa... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_6</LocID>               <Text>[CLICK OF COMMUNICATOR BEING SHUT DOWN]... I got those two at a discount... damaged goods. </Text>  </GameDBLocalizedString>
-            
-            <!--Our heroes discover a second Xenauri base. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_BASE_RH_1</LocID>         <Text>Another place where the Fossorians piled up debris. An ideal spot to start another base.</Text>  </GameDBLocalizedString>
-
-            <!--Suddenly, a radio transmission starts. The Pathfinder briefly appears on screen.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_PATHFINDER_1</LocID>    <Text>[SIGNAL DISTORTIONS]... My Altari Guard ... [SIGNAL DISTORTIONS] ... confused ... [SIGNAL DISTORTIONS] ... the seventh planet of this system ... [SIGNAL DISTORTIONS] ... coordinates 0-6-0-3... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_P_1</LocID>             <Text>The seventh planet. That means Chimera! But who was that? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_W_1</LocID>             <Text>The Pathfinder. Keeper of the Crystal Shrine. He and his Altari Guard unified the clans of my homeworld.    </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_P_2</LocID>             <Text>So he is something like the strongest of the Altari?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_W_3</LocID>             <Text>No, he is not. But his Altari Guard is fanatically loyal to him. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_P_3</LocID>             <Text>Interesting.</Text>  </GameDBLocalizedString>
-
-
-            <!--Suddenly, a radio transmission starts. The Se-Tri briefly appears on screen.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_SETRI_1</LocID>        <Text>...[SIGNAL DISTORTIONS]...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_W_1</LocID>            <Text>Se-Tri?!... Damn! It went silent again! She must still be stranded somewhere on the northern bank! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_P_1</LocID>            <Text>You seem worried. Didn’t you say she’s Altari? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_W_2</LocID>            <Text>Yes, but something changed in her after our Mothership was destroyed.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_P_2</LocID>            <Text>Like she lost her psionic powers? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_W_3</LocID>            <Text>No, but she seemed confused, even scared... Since she joined the Guard, I’d almost forgotten that she could be scared... She’s changed so much... Why so many questions about her?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_P_4</LocID>            <Text>Just curious, that’s all. </Text>  </GameDBLocalizedString>
-
-            <!--Se-Wari approach a crystal biom part of the map.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CRYSTALS_W_1</LocID>              <Text>Those crystals remind me of my planet. Crystal mountains, crystal deserts, crystal caves... that’s basically it. Crystals and Ssaari lizards.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CRYSTALS_P_2</LocID>              <Text>Your world sounds like a tough place to live.  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CRYSTALS_W_2</LocID>              <Text>Yeah, it’s basically dead. But the old paintings resemble what I see here. Trees, grass, rocks, water... even the strange monoliths we’re looking at now.        </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CRYSTALS_P_3</LocID>              <Text>Ruins of ancient Primals? On your planet?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CRYSTALS_W_3</LocID>              <Text>But only in those paintings. Crystals as far as I can see... that’s the only world I know. </Text>  </GameDBLocalizedString>
-
-            <!--Near the Pick's ship.-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_P_1</LocID>        <Text>The ship! It’s not far away! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_W_1</LocID>        <Text>Pick, I wasn’t completely honest with you. The artifacts from the Xenauri Mothership...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_P_2</LocID>        <Text>They won’t work...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_W_2</LocID>        <Text>How do you know?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_P_3</LocID>        <Text>If we can’t see an interface, that doesn’t mean there isn’t one. And a psyker... I mean, an Altari can see what others cannot, right? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_W_3</LocID>        <Text>Yes... so why are you helping me? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_P_4</LocID>        <Text>Clever, girl. I like you, but that doesn’t mean we’re friends... there’s another reason, too. I’ll explain once we’re safe on the ship.</Text>  </GameDBLocalizedString>
-            
-            <!--At the surface, our heroes encounter Long Molly a Fossorian main commander of the area.  -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_MOLLY_1</LocID>   <Text>You two idiots ruined it all! My underground base is in flames! The artifacts my Fossorians gathered are worthless, and now there are reports of UNSS ships in geostationary orbit above us! I’d bet my hammer that this is your doing too!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_P_1</LocID>       <Text>The UNSS?! I would never work for them!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_MOLLY_2</LocID>   <Text>That lie is as big as my hammer! But I’m not stupid! I know you’ve got a ship hidden somewhere nearby! If you take off, my anti-aircraft guns will shoot you down!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_P_2</LocID>       <Text>Anti-aircraft guns will be a problem, and those UNSS ships too.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_W_2</LocID>       <Text>UNSS? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_P_3</LocID>       <Text>The biggest bunch of morons, who think they run everything around here. But the Princess keeps them on a short leash. At least for now. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_W_3</LocID>       <Text>Who is this Princess? </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_P_4</LocID>       <Text>A powerful alien psyker... like your Altari! But don’t worry, we’re too small a fish for her hook. Enough chit-chat. Those anti-aircraft guns won’t disable themselves. </Text>  </GameDBLocalizedString>
-
-            <!--Both Fossorian bases are conquered.  -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FLY_RH_1</LocID>             <Text>The bases are ours! The anti-aircraft guns are disabled! Now we can fly out! </Text>  </GameDBLocalizedString>
-
-            <!--Long Molly is defeated. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLLY_AF_MOLLY_1</LocID>          <Text>Every time I build a position for myself, some morons show up and ruin everything!</Text>  </GameDBLocalizedString>
-
-            <!--The first Fossorian base is conquered. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_LAST_BASE_RH_1</LocID>            <Text>Only one base remains.</Text>  </GameDBLocalizedString>
-
-            <!--Molly spawns before the remaining Fossorian base to face our heroes. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLLY_SPAWN_RH_1</LocID>          <Text>The last base! Once the anti-aircraft defenses are down, we can fly out! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLLY_SPAWN_MOLLY_1</LocID>       <Text>Not while my Hammer has something to say about that! </Text>  </GameDBLocalizedString>
-            
-            <!--The Pick's ship was reached by one of the heroes before the both Fossorian bases were conquered.  -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CANNOT_BOARD_RH_1</LocID>         <Text>Can’t board yet. The anti-aircraft guns in the Fossorian bases are still online. </Text>  </GameDBLocalizedString>
-            
-            <!--The Pick's ship was reached by one of the heroes after the both Fossorian bases were conquered.  -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_NEAR_SHIP_RH_1</LocID>            <Text>I made it to the ship. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_NEAR_SHIP_RH_2</LocID>            <Text>Okay, board and wait for me.</Text>  </GameDBLocalizedString>
-
-            <!--End, our heroes speaks on board of the Pick's ship. Freddi and Alfa are also present on board. -->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_1</LocID>                   <Text>Hey, kids! Uncle Pick is home... Get your dirty feet off the navicomp, Freddie!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_1</LocID>             <Text>Yes, my captain, admiral, almighty boss!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_1</LocID>                <Text>Good, you two made it. While we waited, we gathered a lot of artifacts from the debris of the Xenauri ship. But... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_2</LocID>             <Text>...shit, there are no buttons to screw with, boss!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_2</LocID>                <Text>But that’s why you brought the Xenauri, right?</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_2</LocID>                   <Text>Forget the Xenauri junk for a while! First, we need to find out what happened to her sister. I need to get north...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_3</LocID>             <Text>Yeah, well... NO. That ain’t happening, boss. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_3</LocID>                   <Text>Why, Freddie, enlighten me!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_3</LocID>                <Text>The UNSS forces took over the whole northern bank...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_4</LocID>             <Text>Chiquita! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_4</LocID>                   <Text>Chiquita what?! Fucking bananas?! Stop shouting random words and pretend you graduated from kindergarten! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_5</LocID>             <Text>Chiquita landed with them. And guess who was flying that ship? The fucking Princess! Three meters tall, chitin, psionic powers! I met her once and...</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_4</LocID>                <Text>...your trousers were never the same. We all know that, Freddie. But the Princess took off shortly after! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_W_2</LocID>                   <Text>The Princess must have sensed Se-Tri’s psionic powers and captured her!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_5</LocID>                   <Text>We must verify that first. But I fear you’ve hit the nail on the head, girl. We need to find out where the Princess took her. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_6</LocID>             <Text>What?! Why?!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_6</LocID>                   <Text>Shut up, Freddie... Her sister is Altari, which means a powerful psyker! Until now, the Princess has had a monopoly on “magic”! That has to change!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_W_3</LocID>                   <Text>So that’s the true reason! That’s why you kept asking about the Altari and my sister!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_7</LocID>                   <Text>Thanks to her psionic powers, the Princess has absolute control over long-distance space travel. So she holds power over every major faction in the system. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_5</LocID>                <Text>I don’t like her either, but the factions stopped all major fighting after she took over.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_8</LocID>                   <Text>But how long the peace lasts is up to her alone! Imagine everybody could travel wherever they wanted! New worlds are up there, waiting to be discovered! It would be...  </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_7</LocID>            <Text>The shiniest Sovereign dream come true!</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_6</LocID>                <Text>And the Xenauri psykers are the key. </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_W_4</LocID>                   <Text>Pick, I ...   </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_9</LocID>                   <Text>Save your thanks, girl. We just decided to go against the most dangerous being in the Siren System. We may well regret it before it’s done.   </Text>  </GameDBLocalizedString>
-
-            <!--Enemy FOSSORIAN COMMANDERS - QOUTES-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_BENNI_BF_BENNI_1</LocID>          <Text>I’ll strike you down for my friend, Bokas!</Text>  </GameDBLocalizedString>
-            
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLTAIR_BF_MOLTAIR_1</LocID>      <Text>I am Moltair! Ex-commander of the Liberator Division! Winner of countless battles... </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLTAIR_BF_P_1</LocID>            <Text>... nobody has ever heard of.</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLTAIR_BF_X_1</LocID>            <Text>You are so loud for such a small creature! </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLTAIR_BF_MOLTAIR_2</LocID>      <Text>Arrgh!!! You will never see the sun again! </Text>  </GameDBLocalizedString>
-
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TOTT_BF_QUETIN_1</LocID>          <Text>Hello, I’m Quetin from Moletargis! </Text>  </GameDBLocalizedString>
- 
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TOTT_BF_TOTT_1</LocID>            <Text>Your little prison break ends here!    </Text>  </GameDBLocalizedString>
-            
-        </LocalizedStrings>
-    </GameDBStringTable>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database>
+  <GameDBStringTable ID="LOC_RU_CAMPAIGN_BEASTMASTERS_LVL1">
+    <LanguageRef>LANG_RU</LanguageRef>
+    <Contributors>
+      <Name>Rewalon</Name>
+    </Contributors>
+    <LocalizedStrings>
+      <!--OBJECTIVES MAIN QUESTS-->
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_START</LocID>
+        <Text>Начать наступление</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_SECOND_BASE_1</LocID>
+        <Text>Атаковать опорные пункты Детей Источника 0/2</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_SECOND_BASE_2</LocID>
+        <Text>Атаковать опорные пункты Детей Источника 1/2</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_GET_SETRI_TO_ELEVATOR</LocID>
+        <Text>Добраться до орбитального телепорта</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_RETAKE_X_BASE</LocID>
+        <Text>Захватить базу Ксенаури</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_RETAKE_X_BASE_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Захватить базу Ксенаури - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FIND_WAY_SURFACE</LocID>
+        <Text>Выбраться из подземелья</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FIND_WAY_SURFACE_DONE</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Выбраться из подземелья - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_INBARK_1</LocID>
+        <Text>Посадить командиров на корабль 0/2</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_INBARK_2</LocID>
+        <Text>Посадить командиров на корабль 1/2</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FOS_BASE_1</LocID>
+        <Text>Захватить базы Фоссорианцев 0/3</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FOS_BASE_2</LocID>
+        <Text>Захватить базы Фоссорианцев 1/3</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FOS_BASE_3</LocID>
+        <Text>Захватить базы Фоссорианцев 2/3</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_FOS_BASE_4</LocID>
+        <Text><![CDATA[<color=SOTS_COLOR_MOVEMENT>Захватить базы Фоссорианцев 3/3 - ВЫПОЛНЕНО</color>]]></Text>
+      </GameDBLocalizedString>
+      <!--DIALOGUES-->
+      <!--Se-Wari and Se-Tri are standing near their base.   -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_NARRATOR_0</LocID>
+        <Text>События DLC "Всадники Ксенаури" происходят после кампании оригинальной игры "Молчание Сирены"</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_NARRATOR_1</LocID>
+        <Text>Планета Сцилла, неподалёку от только что развёрнутой передовой базы десанта Ксенаури. </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_1</LocID>
+        <Text>Бросайте инструменты! Мы переходим в наступление! Буря началась!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_W_1</LocID>
+        <Text>Это безумие! Мы только начали строить лагерь! Мы не готовы!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_2</LocID>
+        <Text>Молчать! Ты говоришь с гвардией Альтари Следопыта!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_W_2</LocID>
+        <Text>Разве я могла бы забыть, сестра?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_3</LocID>
+        <Text>Что это сейчас было?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_W_3</LocID>
+        <Text>Ничего, Владыка.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_4</LocID>
+        <Text>Нам поручено захватить опорные пункты Железного Насекомого...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_5</LocID>
+        <Text>... и здесь. Я поведу атаку. Ты займёшься логистикой! Потерпеть неудачу - значит предать Следопыта!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_W_4</LocID>
+        <Text>[ШЁПОТОМ ПРО СЕБЯ] Прямо как настоящие фанатики.</Text>
+      </GameDBLocalizedString>
+      <!--First encounter with the Iron Insect warrior (Children of the Source) hero.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_RH_1</LocID>
+        <Text>Это воин Железного Насекомого!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_KNIGHT_1</LocID>
+        <Text>[ГОВОРИТ НА НЕЗНАКОМОМ ЯЗЫКЕ, С ЛЕГКИМ МЕТАЛЛИЧЕСКИМ ИСКАЖЕНИЕМ]</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_W_1</LocID>
+        <Text>Он пытается вести переговоры? Может, мы могли бы найти способ договориться!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_T_2</LocID>
+        <Text>Это просто безмозглые роботы! Следопыт приказал их истребить!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_W_2</LocID>
+        <Text>И с того самого дня, как ты вступила в гвардию Следопыта, его слово стало законом. [ШЁПОТОМ ПРО СЕБЯ] Каким бы абсурдным он ни был.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CHILDREN_ENC_KNIGHT_2</LocID>
+        <Text>[РЕЗКИЙ ЛЯЗГ МЕТАЛЛА]</Text>
+      </GameDBLocalizedString>
+      <!--Iron Insect warrior is defeated.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_ARTAR_DEFEATED_W_1</LocID>
+        <Text>Покойся с миром, воин Железного Насекомого. Надеюсь, ты найдёшь покой.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_ARTAR_DEFEATED_T_1</LocID>
+        <Text>Железным Насекомым не устоять против гвардии Альтари Следопыта!</Text>
+      </GameDBLocalizedString>
+      <!--First base of the Children of the Source is conquered.  -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_FIRST_FORTRESS_IS_CONQUERED_RH_1</LocID>
+        <Text>Первый опорный пункт наш!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_FIRST_FORTRESS_IS_CONQUERED_T_2</LocID>
+        <Text>Первый опорный пункт был взят именем Следопыта. Как только мы захватим второй, берег будет наш!</Text>
+      </GameDBLocalizedString>
+      <!--At the start of the next game turn, Se-Wari notise a bright flash in the sky. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_EXPLOSION_FORESHADOWED_W_1</LocID>
+        <Text>Я вижу яркие вспышки в облаках над нами! Но я никогда не видел такой бури!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_EXPLOSION_FORESHADOWED_T_1</LocID>
+        <Text>Это не буря, болван! Это Материнский Корабль! Он бьёт по соседнему сектору! </Text>
+      </GameDBLocalizedString>
+      <!--At the start of the next game turn, flashes intensifies. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_SUMMONED_W_</LocID>
+        <Text>Вспышки усилились!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_SUMMONED_T_1</LocID>
+        <Text>Материнский Корабль атакуют!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_SUMMONED_W_2</LocID>
+        <Text>Как ты это понял отсюда?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_SUMMONED_T_3</LocID>
+        <Text>Связь... Мне нужно вернуться на корабль... к Кристальной Святыне!</Text>
+      </GameDBLocalizedString>
+      <!--Se-Tri arrives to the teleport but befor she can enter and debris from the Mothership struck the place. She teleports Se-Wari out of harms way just in time.  -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_RH_1</LocID>
+        <Text>Мы почти на месте... ЧТО?! ЭТА ВСПЫШКА СЛИШКОМ ЯРКАЯ ДЛЯ ЛЮБОГО ОРУЖИЯ!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_T_1</LocID>
+        <Text>Материнский Корабль! Связь с Кристальной Святыней! ... Мне что-то нехорошо.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_W_1</LocID>
+        <Text>Се-Три?... Ты в порядке?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_T_3</LocID>
+        <Text>Нет... Я не... Где я?! Не приближайся!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_W_3</LocID>
+        <Text>Се-Три, я... что это там свистит?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_W_4</LocID>
+        <Text>Что-то падает прямо на нас!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TELEPORT_CRASH_T_4</LocID>
+        <Text>Нет!</Text>
+      </GameDBLocalizedString>
+      <!--Se-Wari appears in the underground and is immediately surrounded by Fossorians.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_CAPTURED_W_1</LocID>
+        <Text>Она что, только что телепортировала меня в безопасное место?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_CAPTURED_FOSSORIAN_2</LocID>
+        <Text>[ГОВОРИТ НА ЧУЖОМ ЯЗЫКЕ, СЛЕГКА ИСКАЖЁННОМ НЕЧЕЛОВЕЧЕСКОЙ ФОРМОЙ РТА]</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_CAPTURED_W_2</LocID>
+        <Text>Или, возможно, прямо в другую передрягу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_CAPTURED_W_3</LocID>
+        <Text>Большие неприятности!</Text>
+      </GameDBLocalizedString>
+      <!--In a small cave Se-Wari chat with Captain Pick (the only Sovereign fleet hero of Fossorain descend). In the middle of the conversation the Fossorian hero Bokas arrives. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_NARRATOR_1</LocID>
+        <Text>Несколько дней спустя. Глубоко под землёй.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_P_1.5</LocID>
+        <Text>...ты быстро учишься, девочка, но...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_BOKAS_1</LocID>
+        <Text>Я плачу тебе не за разговоры, Пик! Ты должен выпытать у неё всё об артефактах!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_W_2</LocID>
+        <Text>Артефакты?      </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_P_3</LocID>
+        <Text>Технологии Ксенаури, обнаруженные среди обломков твоего Материнского Корабля...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_W_5</LocID>
+        <Text>Обломки! Значит, Материнский Корабль уничтожен?!..  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_BOKAS_2</LocID>
+        <Text>Заткнитесь, вы двое! Меня интересуют только артефакты! Никто не знает, как ими пользоваться!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_W_6</LocID>
+        <Text>Но я ничем не могу помочь...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_BOKAS_3</LocID>
+        <Text>Боль развяжет тебе язык!!!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_W_7</LocID>
+        <Text>ПРЕКРАТИ! МНЕ БОЛЬНО!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_BOKAS_4</LocID>
+        <Text>Ты сама во всём виновата!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_P_9</LocID>
+        <Text>Довольно, Бокас! Остановись!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_AND_SEWARI_P_10</LocID>
+        <Text>Я сказал СТОП!</Text>
+      </GameDBLocalizedString>
+      <!--Pick decide to help Se-Wari and they defeat Bokas.  -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_BOKAS_1</LocID>
+        <Text>[В РАЦИЮ] Друзья, на помощь! Заключённые сбегают!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_TOTT_1</LocID>
+        <Text>Кого это ты называешь другом, ублюдок?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_MOLTAIR_1</LocID>
+        <Text>Да, ты, вонючая куча червячного навоза!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_BENI_1</LocID>
+        <Text>Я иду к тебе на помощь, Бокас, мой дражайший друг!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_BOKAS_3</LocID>
+        <Text>А вот хрен тебе! Лучше сдохнуть, чем принять помощь от уродливого полукровки!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_P_1</LocID>
+        <Text>[ЩЕЛЧОК ОТКЛЮЧАЕМОГО ПЕРЕГОВОРНИКА] ...Так-то лучше.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_W_1</LocID>
+        <Text>Пик, я...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_P_2</LocID>
+        <Text>Оставь благодарности, девочка. Ты мне нравишься, но это не значит, что мы друзья... Я тоже охочусь за артефактами Ксенаури. Я вытащу тебя, ты научишь меня ими пользоваться. Идёт?  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_W_2</LocID>
+        <Text>Я расскажу тебе всё, что знаю... при одном условии: ты поможешь мне найти мою сестру. Она Альтари, так что с ней всё будет в порядке... Но я должна быть уверена.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_P_3</LocID>
+        <Text>Альтари?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_W_3</LocID>
+        <Text>Это нечто вроде псайкера. К тому же она из гвардии Альтари Следопыта, так что талант у неё исключительный.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEWARI_LIBERATED_P_4</LocID>
+        <Text>Псайкер, говоришь... Ладно! Договорились... Мои пушистые сородичи вытащили столько обломков с твоего Материнского Корабля, что мы можем начать строить базу прямо здесь!</Text>
+      </GameDBLocalizedString>
+      <!--At the start of the next game turn, Se-Wari asks Pick how he joined Fossorians. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_REASONING_W_1</LocID>
+        <Text>Погоди, ты ведь говорил, что тебя наняли меня обучать?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_REASONING_P_1</LocID>
+        <Text>Они поймали меня, когда я вынюхивал вокруг обломков. Так что я сказал, что хочу к ним присоединиться, и ждал удобного момента, чтобы тихо исчезнуть.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_REASONING_W_2</LocID>
+        <Text>Кажется, тихо свалить не получится.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PICK_REASONING_P_2</LocID>
+        <Text>Да, но не волнуйся. Старина Пик знает, каким концом держать молоток.</Text>
+      </GameDBLocalizedString>
+      <!--First Fossorian hero defeated -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_ELEVATOR_INFO_P_1</LocID>
+        <Text>Теперь, когда база наша, мы можем попробовать пробиться с боем к лифту, что ведёт на поверхность.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_ELEVATOR_INFO_W_1</LocID>
+        <Text>А что потом, когда выберемся на поверхность?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_ELEVATOR_INFO_P_2</LocID>
+        <Text>Проще не станет, девочка, но у меня в скалах припрятаны пара товарищей по экипажу и быстроходный корабль.</Text>
+      </GameDBLocalizedString>
+      <!-- After they escape the underground, Se-Wari disscus with Pick their nex move.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_RH_1</LocID>
+        <Text>Поверхность!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_W_1</LocID>
+        <Text>Чёрт, это довольно далеко от того места, где мы с сестрой расстались.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_1</LocID>
+        <Text>Не так уж и далеко. К тому же я знаю эти края, а добраться туда можно только на корабле.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_2</LocID>
+        <Text>Что ж, пора связаться с командой. Надеюсь, они не удрали, пока я застрял здесь внизу.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_3</LocID>
+        <Text>Фредди, Альфа, вы ленивые, жалкие придурки! Слышите меня?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_FREDDIE_1</LocID>
+        <Text>Слышим тебя, босс! Мы бы никогда не ушли без тебя!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_ALFA_1</LocID>
+        <Text>Так что, мне удалить недельную запись того, как ты ноешь о желании улететь, Фредди?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_FREDDIE_2</LocID>
+        <Text>Эй, Альфа! Да пошёл ты!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_4</LocID>
+        <Text>Заткнитесь, имбецилы! Мы направляемся к вам.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_ALFA_2</LocID>
+        <Text>Мы?  </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_5</LocID>
+        <Text>Ага, я тут не один. Со мной Ксенаури.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_FREDDIE_3</LocID>
+        <Text>Ксенаури?   </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_ALFA_3</LocID>
+        <Text>Пришельцы, Фредди! Сеть Суверенов уже неделю только о них и гудит. Может, если бы ты не играл в Тетрис целыми днями напролёт...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_FREDDIE_4</LocID>
+        <Text>...тебе просто обязательно меня позорить, Альфа...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_P_6</LocID>
+        <Text>[ЩЕЛЧОК ОТКЛЮЧАЕМОГО ПЕРЕГОВОРНИКА]... Я взял этих двоих со скидкой... бракованный товар.</Text>
+      </GameDBLocalizedString>
+      <!--Our heroes discover a second Xenauri base. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SURFACE_BASE_RH_1</LocID>
+        <Text>Ещё одно место, где Фоссорианцы свалили обломки. Идеальная точка, чтобы основать очередную базу.</Text>
+      </GameDBLocalizedString>
+      <!--Suddenly, a radio transmission starts. The Pathfinder briefly appears on screen.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_PATHFINDER_1</LocID>
+        <Text>[ПОМЕХИ]... Моя гвардия Альтари ... [ПОМЕХИ] ... растеряна ... [ПОМЕХИ] ... седьмая планета системы ... [ПОМЕХИ] ... координаты 0-6-0-3...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_P_1</LocID>
+        <Text>Седьмая планета. Значит, Химера! Но кто это был?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_W_1</LocID>
+        <Text>Следопыт. Хранитель Кристальной Святыни. Он и его гвардия Альтари объединили кланы моего родного мира.   </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_P_2</LocID>
+        <Text>Выходит, он чуть ли не сильнейший из Альтари?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_W_3</LocID>
+        <Text>Нет, вовсе нет. Зато его гвардия Альтари предана ему фанатично.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_PATH_CALL_P_3</LocID>
+        <Text>Интересно.</Text>
+      </GameDBLocalizedString>
+      <!--Suddenly, a radio transmission starts. The Se-Tri briefly appears on screen.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_SETRI_1</LocID>
+        <Text>...[ПОМЕХИ]...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_W_1</LocID>
+        <Text>Се-Три?!.. Чёрт! Снова тишина! Она, должно быть, всё ещё застряла где-то на северном берегу!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_P_1</LocID>
+        <Text>Ты выглядишь обеспокоенной. Разве ты не говорила, что она Альтари?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_W_2</LocID>
+        <Text>Да, но после уничтожения нашего Материнского Корабля в ней что-то изменилось.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_P_2</LocID>
+        <Text>Как будто она потеряла свои псионические способности?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_W_3</LocID>
+        <Text>Нет, но она казалась растерянной, даже напуганной... С тех пор как она вступила в гвардию, я почти забыла, что она может бояться... Она так изменилась... Почему так много вопросов о ней?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SETRI_CALL_P_4</LocID>
+        <Text>Просто любопытно, вот и всё.</Text>
+      </GameDBLocalizedString>
+      <!--Se-Wari approach a crystal biom part of the map.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CRYSTALS_W_1</LocID>
+        <Text>Эти кристаллы напоминают мне мою планету. Кристальные горы, кристальные пустыни, кристальные пещеры... вот, собственно, и всё. Кристаллы и ящерицы Ссаари.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CRYSTALS_P_2</LocID>
+        <Text>Твой мир, похоже, суровое место для жизни.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CRYSTALS_W_2</LocID>
+        <Text>Да, он практически мёртв. Но старые картины похожи на то, что я вижу здесь. Деревья, трава, камни, вода... даже странные монолиты, на которые мы сейчас смотрим.    </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CRYSTALS_P_3</LocID>
+        <Text>Руины древних Предтеч? На твоей планете?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CRYSTALS_W_3</LocID>
+        <Text>Но только на тех картинах. Кристаллы, куда ни глянь... это единственный мир, который я знаю.</Text>
+      </GameDBLocalizedString>
+      <!--Near the Pick's ship.-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_P_1</LocID>
+        <Text>Корабль! Он совсем рядом!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_W_1</LocID>
+        <Text>Пик, я была не совсем честна с тобой. Артефакты с Материнского Корабля Ксенаури...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_P_2</LocID>
+        <Text>Они бесполезны...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_W_2</LocID>
+        <Text>Откуда ты знаешь?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_P_3</LocID>
+        <Text>То, что мы не видим интерфейса, ещё не значит, что его нет. А псайкер... то есть Альтари, может видеть то, что другим недоступно, верно?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_W_3</LocID>
+        <Text>Да... так почему ты помогаешь мне?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SEW_CONFESSION_P_4</LocID>
+        <Text>Умна, девочка. Ты мне по душе, но это ещё не делает нас друзьями... И есть ещё одна причина. Расскажу, когда доберёмся до корабля и окажемся в безопасности.</Text>
+      </GameDBLocalizedString>
+      <!--At the surface, our heroes encounter Long Molly a Fossorian main commander of the area.  -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_MOLLY_1</LocID>
+        <Text>Это вы, два идиота, всё разрушили! Моя подземная база объята пламенем! Артефакты, что собрали мои Фоссорианцы, теперь бесполезны, и вдобавок приходят донесения о кораблях UNSS на геостационарной орбите над нами! Готова поставить свой молот, что это тоже ваша работа!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_P_1</LocID>
+        <Text>UNSS?! Я бы никогда на них не работал!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_MOLLY_2</LocID>
+        <Text>Эта ложь не меньше моего молота! Но я не дура! Мне известно, что где-то рядом у тебя припрятан корабль! Если ты взлетишь, мои зенитки собьют тебя!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_P_2</LocID>
+        <Text>Зенитки будут проблемой, да и те корабли UNSS тоже.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_W_2</LocID>
+        <Text>UNSS? </Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_P_3</LocID>
+        <Text>Самая большая свора идиотов, которые думают, что всем тут управляют. Но Принцесса держит их на коротком поводке. По крайней мере, пока.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_W_3</LocID>
+        <Text>Кто такая эта Принцесса?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FOSS_BASES_P_4</LocID>
+        <Text>Могущественный псайкер-чужеземка... вроде ваших Альтари! Но не волнуйся, мы слишком мелкая рыбка для её крючка. Хватит болтать. Эти зенитки сами себя не обезвредят.</Text>
+      </GameDBLocalizedString>
+      <!--Both Fossorian bases are conquered.  -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_SHIP_FLY_RH_1</LocID>
+        <Text>Базы наши! Зенитки обезврежены! Теперь мы можем улетать!</Text>
+      </GameDBLocalizedString>
+      <!--Long Molly is defeated. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLLY_AF_MOLLY_1</LocID>
+        <Text>Каждый раз, когда я строю для себя позицию, появляются какие-то идиоты и всё разрушают!</Text>
+      </GameDBLocalizedString>
+      <!--The first Fossorian base is conquered. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_LAST_BASE_RH_1</LocID>
+        <Text>Осталась только одна база.</Text>
+      </GameDBLocalizedString>
+      <!--Molly spawns before the remaining Fossorian base to face our heroes. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLLY_SPAWN_RH_1</LocID>
+        <Text>Последняя база! Как только ПВО будет подавлено, мы сможем улететь!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLLY_SPAWN_MOLLY_1</LocID>
+        <Text>Не в мою смену, пока мой Молот ещё не сказал своего слова!</Text>
+      </GameDBLocalizedString>
+      <!--The Pick's ship was reached by one of the heroes before the both Fossorian bases were conquered.  -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_CANNOT_BOARD_RH_1</LocID>
+        <Text>Пока не можем подняться на борт. Зенитки на базах Фоссорианцев всё ещё активны.</Text>
+      </GameDBLocalizedString>
+      <!--The Pick's ship was reached by one of the heroes after the both Fossorian bases were conquered.  -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_NEAR_SHIP_RH_1</LocID>
+        <Text>Я добрался до корабля.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_NEAR_SHIP_RH_2</LocID>
+        <Text>Хорошо, поднимайся на борт и жди меня.</Text>
+      </GameDBLocalizedString>
+      <!--End, our heroes speaks on board of the Pick's ship. Freddi and Alfa are also present on board. -->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_1</LocID>
+        <Text>Эй, ребятня! Дядя Пик явился... Фредди, убери свои грязные лапы с навигационного компьютера!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_1</LocID>
+        <Text>Да, мой капитан, адмирал, всемогущий босс!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_1</LocID>
+        <Text>Отлично, вы оба добрались. Пока ждали, мы натаскали кучу артефактов из обломков корабля Ксенаури. Но...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_2</LocID>
+        <Text>...чёрт, тут нет кнопок, чтоб понажимать, босс!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_2</LocID>
+        <Text>Но для этого ты и притащил Ксенаури, так?</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_2</LocID>
+        <Text>Забудьте на время про ксенаурское барахло! Сначала нам нужно выяснить, что случилось с её сестрой. Мне нужно попасть на север...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_3</LocID>
+        <Text>Ага, ну... НЕТ. Так дело не пойдёт, босс.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_3</LocID>
+        <Text>И почему же, Фредди? Просвети меня, будь так добр!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_3</LocID>
+        <Text>Силы UNSS заняли весь северный берег...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_4</LocID>
+        <Text>Чикита!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_4</LocID>
+        <Text>Чикита что?! Грёбаные бананы?! Хватит выкрикивать случайные слова и строить из себя детсадовца!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_5</LocID>
+        <Text>Чикита приземлилась вместе с ними. И знаешь, кто вёл корабль? Сама чёртова Принцесса! Три метра ростом, панцирь, псионические силы! Я видел её один раз и...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_4</LocID>
+        <Text>...штаны твои, в общем, уже не отстирать. Это мы все помним, Фредди. Но Принцесса вскоре после этого улетела!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_W_2</LocID>
+        <Text>Должно быть, Принцесса почувствовала псионические силы Се-Три и взяла её в плен!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_5</LocID>
+        <Text>Сначала мы должны это проверить. Но боюсь, ты попала в точку, девочка. Нам нужно выяснить, куда Принцесса её увезла.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_6</LocID>
+        <Text>Что?! Почему?!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_6</LocID>
+        <Text>Заткнись, Фредди... Её сестра - Альтари, а значит, могущественный псайкер! До сих пор у Принцессы была монополия на "магию"! Пора это изменить!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_W_3</LocID>
+        <Text>Так вот в чём настоящая причина! Вот почему ты всё расспрашивал об Альтари и моей сестре!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_7</LocID>
+        <Text>Благодаря своим псионическим способностям Принцесса имеет абсолютный контроль над дальними космическими перелётами. Так она держит власть над каждой крупной фракцией системы.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_5</LocID>
+        <Text>Она мне тоже не нравится, но фракции прекратили все крупные бои после того, как она взяла власть.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_8</LocID>
+        <Text>Но сколько продлится этот мир зависит только от неё! Представь, если бы все могли путешествовать куда захотят! Там, наверху, новые миры, ждущие своего открытия! Это было бы...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_FREDDIE_7</LocID>
+        <Text>Самая блестящая мечта Суверена, ставшая явью!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_ALFA_6</LocID>
+        <Text>И псайкеры Ксенаури ключ к этому.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_W_4</LocID>
+        <Text>Пик, я...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_END_P_9</LocID>
+        <Text>Оставь благодарности, девочка. Мы только что решили пойти против самого опасного существа в Системе Сирены. Возможно, мы ещё пожалеем об этом, прежде чем всё закончится. </Text>
+      </GameDBLocalizedString>
+      <!--Enemy FOSSORIAN COMMANDERS - QOUTES-->
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_BENNI_BF_BENNI_1</LocID>
+        <Text>Я уничтожу тебя во имя моего друга Бокаса!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLTAIR_BF_MOLTAIR_1</LocID>
+        <Text>Я Молтаир! Бывший командир Дивизии Освободителей! Победитель несметных сражений...</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLTAIR_BF_P_1</LocID>
+        <Text>... о котором никто никогда не слышал.</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLTAIR_BF_X_1</LocID>
+        <Text>Ты слишком громкая для такого маленького существа!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_MOLTAIR_BF_MOLTAIR_2</LocID>
+        <Text>Аргх!!! Солнца тебе больше не видать!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TOTT_BF_QUETIN_1</LocID>
+        <Text>Привет, я Кветин из Молетаргиса!</Text>
+      </GameDBLocalizedString>
+      <GameDBLocalizedString>
+        <LocID>MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_TOTT_BF_TOTT_1</LocID>
+        <Text>Твой маленький побег на этом заканчивается!</Text>
+      </GameDBLocalizedString>
+    </LocalizedStrings>
+  </GameDBStringTable>
 </Database>
