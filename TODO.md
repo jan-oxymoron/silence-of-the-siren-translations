@@ -1,8 +1,10 @@
 # Translation TODO
 
-_Updated 2026-10-06 after importing the community packs into the game (patch 11 / Xenauri Riders DLC). Compared against `localization-base-english/`._
+_Updated 2026-10-06 after importing the community packs into the game (patch 11 / Xenauri Riders DLC); Italian row updated 2026-10-09. Compared against `localization-base-english/`._
 
-**Status at a glance** - what each community pack still lacks compared with the English base (84 tables, 8 085 strings):
+**Italian translators:** every file in `localization-pack-it/` is ready. Each string still holds the English text - replace it with the Italian one and keep the tags (see README). Add your name to the `<Contributors>` block of every file you work on. Start with the files players see first: `StringTableItBasic`, `StringTableItUI`, `StringTableItOptions`, `StringTableItExploration`, `StringTableItCombat`, then the factions and the campaigns.
+
+**Status at a glance** - what each community pack still lacks compared with the English base (84 tables, 8 118 strings):
 
 | Language | Missing string IDs | Strings still showing English text | Xenauri Riders DLC | Last changed-English items (section A) |
 |---|---|---|---|---|
@@ -10,7 +12,8 @@ _Updated 2026-10-06 after importing the community packs into the game (patch 11 
 | HU (Hungarian) | 19 | 89 | complete except 4 lines + hero names | 7 still pending |
 | PT-BR (Brazilian Portuguese) | 13 | 144 | 15 strings + Arena map in English | 7 still pending |
 | DE, ES | - | - | - | translated professionally; the packs here are read-only mirrors of the game, no action needed |
-| IT, KO, UK | 4979 / 3179 / 4979 | 2883 / 4745 / 2479 | not started | incomplete packs, not shipped with the game |
+| IT (Italian) | 0 | 8118 (all of them) | prepared, in English | pack regenerated 2026-10-09 from the current English base: all 84 tables present, every string carries the English text to be overwritten; nothing translated yet, not shipped with the game |
+| KO, UK | 3179 / 4979 | 4745 / 2479 | not started | incomplete packs, not shipped with the game |
 
 "Missing" = the ID does not exist in the pack, the game shows English. "Still English" = the ID exists but its text equals the English one; for names (heroes, bases, planets, "Steam") that may be intentional - use your judgement.
 
