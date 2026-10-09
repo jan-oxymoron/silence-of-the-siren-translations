@@ -2,6 +2,71 @@
 
 Each section lists what changed in the English source since the previous sync. Newest first.
 
+## 2026-10-09 — synced from game commit 109e35e098
+
+0 new file(s), 7 file(s) with content changes: 3 string(s) added, 0 removed, 7 with changed English text.
+
+Translators: for every ID under **Changed** compare your translation with the new English text; IDs under **Added** need a translation; IDs under **Removed** can be deleted from your pack.
+
+### StringTableEnCampaignBeastmastersLVL1.xml
+
+**Changed**
+
+- `OBJECTIVE_CAMPAIGN_BEASTMASTERS_LVL1_GET_SETRI_TO_ELEVATOR`
+  - old: Reach the orbital teleport
+  - new: Reach the orbital teleport - remaining turn(s):
+- `MESSAGE_CAMPAIGN_BEASTMASTERS_LVL1_START_T_5`
+  - old: ... and here. I’ll lead the attack. You handle logistics! To fail is to betray the Pathfinder!
+  - new: ... and here. I’ll lead the attack. To fail is to betray the Pathfinder!
+
+### StringTableEnDLCBeastmasters.xml
+
+**Changed**
+
+- `UNIT_BEASTMASTERS_DESTROYER_UPG_INFO_DESCRIPTION`
+  - old: Attacks all hexes around itself and deals burning damage. <color=SOTS_COLOR_GOLD>At the start of its turn, it automatically attacks all units around it, then takes its turn as normal.</color>
+  - new: Attacks all hexes around itself and deals burning damage.<color=SOTS_COLOR_GOLD> At the start of its turn, it automatically attacks all units around it, then takes its turn as normal.</color>
+
+### StringTableEnDLCBeastmastersBases.xml
+
+**Changed**
+
+- `BUILDING_BEASTMASTERS_REPLICATOR`
+  - old: Limerite Barter/Swap
+  - new: Limerite Barter
+- `BUILDING_BEASTMASTERS_NEUTRAL_SPAWNER`
+  - old: Tamer/Beast Whisperer
+  - new: Beast Whisperer
+
+### StringTableEnMapEditorObjectProperties.xml
+
+**Added**
+
+- `COMPONENT_MAP_SETTINGS_PARAMETERS_NO_FACTION_SWAP`
+- `COMPONENT_MAP_SETTINGS_DISABLED_ABILITIES`
+
+### StringTableEnPatch11Release.xml
+
+**Added**
+
+- `REQUIRES_DLC`
+
+### StringTableEnPatch14.xml
+
+**Changed**
+
+- `DLC_BEASTMASTERS_ENABLED`
+  - old: Refugees from Pyroxen
+  - new: Xenauri Riders
+
+### StringTableEnPatch15.xml
+
+**Changed**
+
+- `DLC_BEASTMASTERS_ENABLED`
+  - old: Xenauri Refugees
+  - new: Xenauri Riders
+
 ## 2026-09-15 — synced from game commit 63437a71ff
 
 2 new file(s), 60 file(s) with content changes: 41 string(s) added, 39 removed, 770 with changed English text.
