@@ -2,6 +2,20 @@
 
 Each section lists what changed in the English source since the previous sync. Newest first.
 
+## 2026-10-23 — synced from game commit a23c612385
+
+0 new file(s), 1 file(s) with content changes: 0 string(s) added, 0 removed, 1 with changed English text.
+
+Translators: for every ID under **Changed** compare your translation with the new English text; IDs under **Added** need a translation; IDs under **Removed** can be deleted from your pack.
+
+### StringTableEnExplorationMapObjects.xml
+
+**Changed**
+
+- `MAPOBJ_TRAINING_GROUND_DESCRIPTION`
+  - old: Place to <color=SOTS_COLOR_GOLD>hone</color> your <color=SOTS_COLOR_GOLD>battle skills</color>. You can <color=SOTS_COLOR_UPGRADE>fight without losing your units</color> and get the added bonus of <color=SOTS_COLOR_UPGRADE>gaining</color> some <color=SOTS_COLOR_XP>Experience points</color>. Each commander can use this building once per cycle.
+  - new: Place to <color=SOTS_COLOR_GOLD>hone</color> your <color=SOTS_COLOR_GOLD>battle skills</color>. You can <color=SOTS_COLOR_UPGRADE>fight without losing your units</color> and get the added bonus of <color=SOTS_COLOR_UPGRADE>gaining</color> some <color=SOTS_COLOR_XP>Experience points</color>. The temple admits only one commander per cycle.
+
 ## 2026-10-09 — synced from game commit 109e35e098
 
 0 new file(s), 7 file(s) with content changes: 3 string(s) added, 0 removed, 7 with changed English text.
