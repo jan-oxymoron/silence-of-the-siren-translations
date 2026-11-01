@@ -64,29 +64,29 @@
             <GameDBLocalizedString>         <LocID>MAP_SPECIFICATIONS_MAP_ONLY_SAFE_CYCLE_RULES</LocID>        <Text>Solo regole sicure in questo ciclo.</Text></GameDBLocalizedString>
 
             <!-- New properties for "generate map" in custom scenarios -->
-            <GameDBLocalizedString>         <LocID>MAP_GENERATOR_PROPERTIES_TREASURE_DENSITY_SIMPLE</LocID>    <Text>Treasure density</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TREASURE_DENSITY_LOW</LocID>                                <Text>Low</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TREASURE_DENSITY_NORMAL</LocID>                             <Text>Normal</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>TREASURE_DENSITY_HIGH</LocID>                               <Text>High</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_GENERATOR_PROPERTIES_TREASURE_DENSITY_SIMPLE</LocID>    <Text>Quantità dei tesori</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TREASURE_DENSITY_LOW</LocID>                                <Text>Bassa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TREASURE_DENSITY_NORMAL</LocID>                             <Text>Normale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TREASURE_DENSITY_HIGH</LocID>                               <Text>Alta</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>MAP_GENERATOR_TERRAIN_PROPERTIES_LAYOUT</LocID>             <Text>Map layout</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_RANDOM</LocID>                                   <Text>Random</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_SIMPLE</LocID>                                   <Text>Simple</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_MORE_CONNECTED</LocID>                           <Text>Shared center</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_ROUNDABOUT</LocID>                               <Text>Roundabout</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_CENTER</LocID>                                   <Text>Close but far away</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_RUSH</LocID>                                     <Text>Rush</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_TARGET</LocID>                                   <Text>Narrow valleys</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_CROSS</LocID>                                    <Text>Deep pockets</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_TELEPORT</LocID>                                 <Text>Teleports</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_TELEPORT_AND_TREASURE_ISLAND</LocID>             <Text>Treasure island</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_GENERATOR_TERRAIN_PROPERTIES_LAYOUT</LocID>             <Text>Struttura della mappa</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_RANDOM</LocID>                                   <Text>Casuale</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_SIMPLE</LocID>                                   <Text>Semplice</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_MORE_CONNECTED</LocID>                           <Text>Centro condiviso</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_ROUNDABOUT</LocID>                               <Text>Rotatoria</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_CENTER</LocID>                                   <Text>Vicino ma lontano</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_RUSH</LocID>                                     <Text>Fretta</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_TARGET</LocID>                                   <Text>Valli strette</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_CROSS</LocID>                                    <Text>Grandi disponibilità economiche</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_TELEPORT</LocID>                                 <Text>Portali</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MAP_LAYOUT_TELEPORT_AND_TREASURE_ISLAND</LocID>             <Text>Isola del tesoro</Text>  </GameDBLocalizedString>
             
             <!--NEW INTERACTIVE OBJECTS-->
             <!--Mysterious wanderer-->
             <GameDBLocalizedString>         <LocID>MAPOBJ_MYSTERIOUS_WANDERER</LocID>                          <Text>Viandante misterioso</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>MAPOBJ_MYSTERIOUS_WANDERER_DESCRIPTION</LocID>              <Text><![CDATA[Vaga misteriosamente nei dintorni. Si dice che <color=SOTS_COLOR_XP>conceda esperienza</color> e <color=SOTS_COLOR_GOLD>migliori un attributo a tua scelta</color> alla <color=SOTS_COLOR_GOLD>prima persona</color> che incontra <color=SOTS_COLOR_GOLD>ad ogni ciclo</color>.]]></Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MYSTERIOUS_WANDERER</LocID>                   <Text>Mysterious wanderer</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MYSTERIOUS_WANDERER_TEXT</LocID>              <Text><![CDATA[Hello my friend. You are the first one who has managed to catch up with me this cycle. And for that I grant you <color=SOTS_COLOR_XP>1000 Experience points</color> and you may <color=SOTS_COLOR_GOLD>choose</color> which <color=SOTS_COLOR_GOLD>attribute</color> you want to <color=SOTS_COLOR_GOLD>improve by 1</color>.]]></Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MYSTERIOUS_WANDERER</LocID>                   <Text>Misterioso vagabondo</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>DIALOG_OBJECT_MYSTERIOUS_WANDERER_TEXT</LocID>              <Text><![CDATA[Ciao, amico mio. Sei il primo che è riuscito a raggiungermi in questo ciclo. E per questo ti concedo <color=SOTS_COLOR_XP>1000 punti esperienza</color> e potrai <color=SOTS_COLOR_GOLD>scegliere</color> quale <color=SOTS_COLOR_GOLD>attributo</color> desideri <color=SOTS_COLOR_GOLD>migliorare di 1</color>.]]></Text></GameDBLocalizedString>
                                                                                                             
             <!--Traveling merchant-->                                                                       
             <GameDBLocalizedString>         <LocID>MAPOBJ_TRAVELING_MERCHANT</LocID>                           <Text>Mercante itinerante</Text>  </GameDBLocalizedString>
@@ -101,9 +101,9 @@
             <!-- Originally: Building structures is discounted by <color=SOTS_COLOR_GOLD>{1}%</color>! -->
             <GameDBLocalizedString>         <LocID>SKILL_EFFECT_BUILDER_DISCOUNT_PERCENT</LocID>               <Text><![CDATA[La costruzione di strutture sulla mappa è scontata del <color=SOTS_COLOR_GOLD>{1}%</color>!]]> </Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>EVENT_PROPERTIES_GO_TO</LocID>                              <Text>Go to</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>EVENT_PROPERTIES_GO_TO</LocID>                              <Text>Vai a</Text>  </GameDBLocalizedString>
             
-            <GameDBLocalizedString>         <LocID>REMOTE_PLAY_GUIDE</LocID>                                   <Text>GUIDE: Remote play together</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>REMOTE_PLAY_GUIDE</LocID>                                   <Text>GUIDA: Giocare insieme in modalità remota</Text>  </GameDBLocalizedString>
             <GameDBLocalizedString>         <LocID>LOADING_TIP_14</LocID>                                      <Text>È possibile evidenziare tutti gli oggetti interattivi sulla mappa di esplorazione tenendo premuto il tasto [ALT]</Text>  </GameDBLocalizedString>
 
             <GameDBLocalizedString>         <LocID>LOADING_TIP_15</LocID>                                      <Text>È possibile evidenziare il raggio d'azione di qualsiasi unità tenendo premuto il tasto [SHIFT] mentre si passa il cursore su di essa</Text>  </GameDBLocalizedString>
@@ -111,7 +111,7 @@
             <GameDBLocalizedString>         <LocID>LOADING_TIP_17</LocID>                                      <Text>Non saltare l'allenamento delle gambe. Avere un fisico scolpito è fantastico, ma serve a ben poco se poi non riesci a prendere nessuno.</Text>  </GameDBLocalizedString>
 
             <!--UNSS_campaign_mission_2_Maya_confronting_guards_before_the_second_base_is_conquered-->
-            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_ROBOGUARDS_MAYA_1</LocID>      <Text>First, the base!</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_CAMPAIGN_EMPIRE_LVL2_ROBOGUARDS_MAYA_1</LocID>      <Text>Innanzitutto, la base!</Text>  </GameDBLocalizedString>
 
             <!--The name of building in base was the same as name of the skill-->
             <GameDBLocalizedString>         <LocID>BUILDING_EMPIRE_FACULTY_EXPLORE_V2</LocID>                  <Text>Ricerca empirica</Text></GameDBLocalizedString>

@@ -7,12 +7,14 @@
 ### Convenzioni
 
 | Termine | Contesto | Traduzione |
-| :- | :- | :- |
+| :--- | :--- | :--- |
 | HIRE | Unità | Recluta |
 | HIRE | Comandanti | Ingaggia |
 | DISMISS | Comandanti | Congeda |
 | STACK | Unità | Gruppo |
 | PICK UP | Oggetti | Raccoggli / Raccogliere |
+| Nomi | Città fazioni | Non vengono tradotti |
+| Nomi | Pianeti | Non vengono tradotti |
 
 ### Generici
 
@@ -75,8 +77,12 @@
 ### Pianeti
 
 | Originale | Tradotto |
-| :- | :- |
+| :--- | :--- |
 | UNSC 4298i Atlas | UNSC 4298i Atlas |
+| UNSC 4298d Scylla | UNSC 4298d Scylla |
+| UNSC 4298e Charybdis | UNSC 4298e Charybdis |
+| UNSC 4298g Chimera | UNSC 4298g Chimera |
+| UNSC 4298h Siren | UNSC 4298h Siren |
 | UNSC 4298i/1 Typhon | UNSC 4298i/1 Typhon |
 
 ### Unità generiche --> verificare
@@ -135,6 +141,7 @@
 | Chiquita | Piccolino |
 | Coin Foundr | Coniatore |
 | Commander Wash | Purificazione comandante |
+| Cyberbug Shuttle | Navetta Cyberbug |
 | Derelict Collider | Acceleratore abbandonato |
 | Disabled Bridge | Ponte disabilitato |
 | Drone Dog | Cane drone |
@@ -186,12 +193,15 @@
 ##### Manufatti (Artifacts)
 
 | Originale | Tradotto |
-| :- | :- |
+| :--- | :--- |
 | Artifacts | Manufatti |
 | Bloodshed murmur | Sussurro |
 | Disturbed inception | Genesi turbata |
 | Machine Spirit | Spirito della Macchina |
 | Bloodthirsty soul | Anima sanguinaria |
+| Conqueror | Conquistatore |
+| Biotic Mentor | Mentore biotico |
+| Genie | Genio |
 
 ##### Equipaggiamento
 
@@ -229,18 +239,21 @@
 ##### Consumabili
 
 | Originale | Tradotto |
-| :- | :- |
+| :--- | :--- |
 | Vagrant | Vagabondo |
 | Seer | Veggente |
 | MoonWalker | Camminatore Lunare |
 | Phoenix | Fenice |
 | Site Consciousness | Consapevolezza del Sito |
 | Mastermind | Genio |
+| Stim\-tac | Stim\-tac |
+| Potion of Motion | Pozione del movimento |
+| Brain fuel | Combustibile cerebrale |
 
 ##### Equipaggiamento
 
 | Originale | Tradotto |
-| :- | :- |
+| :--- | :--- |
 | Datapad | Datapad |
 | Bait Flag | Bandiera esca |
 | Holo Scarecrow | Spaventapasseri olografico |
@@ -258,6 +271,14 @@
 | Lure | Esca |
 | Deep Scanner | Scanner di profondità |
 | Prospector Databank | Banca dati del cercatore |
+| Survival Manual | Manuale di sopravvivenza |
+| DIY Kit | Kit fai da te |
+| Antigrav | Antigravità |
+| Triffid Root | Radice di trifide |
+| Tax Collector's Banner | Stendardo dell’esattore delle tasse |
+| Pathfinder Drone | Drone dell'esploratore |
+| Expropriator | Espropriatore |
+| Piercing ammo | Munizioni perforanti |
 
 ### Comandanti
 
@@ -482,24 +503,27 @@ Competenze: fino a un totale di 8.
 
 ##### Comandanti
 
-| Originale | Tradotto | Contratto |
-| :--- | :--- | :--- |
-| Major Skaurov | Maggiore Skaurov | Magg\. Skaurov |
-| Commissar Snif | Commissario Snif | Comm\. Snif |
-| Hak "the Rat" | Hak “Il Ratto” |   |
-| Agent Molsson | Agente Molsson | Ag\. Molsson |
-| Sergeant Moltair / Sgt\. Moltair | Sergente Moltair | Serg\. Moltair |
-| Tax Collector Tott | “Esattore delle Tasse” Tott |   |
-| Lieutenant Moletoff / Lt\. Moletoff | Tenente Moletoff | Ten\. Moletoff |
-| Captain Holester / Capt\. Holester | Capitano Holester | Cap\. Holester |
-| General Truda / Gen\. Truda | Generale Truda | Gen\. Truda |
-| Bulletproof Beni | Beni “Antiproiettile” |   |
-| Long Molly | Lunga Molly |   |
-| Supreme Leader | Leader Supremo |   |
-| Commander Muff / Cmdr\. Muff | Comandante Muff | Com\. Muff |
-| General Furret / Gen\. Furret | Gen\. Furret | Gen\. Furret |
-| Governor Bokas | Governatore Bokas | Gov\. Bokas |
-| Quetin from Moletargis | Quetin da Moletargis |   |
+| N\. | Originale | Tradotto | Contratto |
+| --- | :--- | :--- | :--- |
+| 1 | Major Skaurov | Maggiore Skaurov | Magg\. Skaurov |
+| 2 | Commissar Snif | Commissario Snif | Comm\. Snif |
+| 2 alt | Colonel Snif | Colonnello Snif | Col\. Sni |
+| 3 | Hak "the Rat" | Hak “Il Ratto” |   |
+| 4 | Agent Molsson | Agente Molsson | Ag\. Molsson |
+| 5 | Sergeant Moltair / Sgt\. Moltair | Sergente Moltair | Serg\. Moltair |
+| 6 | Tax Collector Tott | “Esattore delle Tasse” Tott |   |
+| 7 | Lieutenant Moletoff / Lt\. Moletoff | Tenente Moletoff | Ten\. Moletoff |
+| 8 | Captain Holester / Capt\. Holester | Capitano Holester | Cap\. Holester |
+| 9 | General Truda / Gen\. Truda | Generale Truda | Gen\. Truda |
+| 10 | Bulletproof Beni | Beni “Antiproiettile” |   |
+| 11 | Long Molly | “Lunga” Molly |   |
+| 12 | Supreme Leader | Leader Supremo |   |
+| 13 | Commander Muff / Cmdr\. Muff / Admiral Muff | Comandante Muff / Ammiraglio Muff | Com\. Muff / Amm\. Muff |
+| 14 | General Furret / Gen\. Furret | Generale Furret | Gen\. Furret |
+| 15 | Relic | Relic |   |
+| 15 alt | False Mother | Falsa Madre |   |
+| 16 | Governor Bokas | Governatore Bokas | Gov\. Bokas |
+| 16 | Quetin from Moletargis | Quetin da Moletargis |   |
 
 ##### Edifici
 
@@ -611,24 +635,26 @@ Competenze: fino a un totale di 8.
 
 ##### Comandanti
 
-| Originale | Tradotto | Contratto |
-| :- | :- | :- |
-| John Smith 7A | John Smith 7A | |
-| Capt. Rao | | Cap. Rao |
-| Navigator Maya | Navigatrice Maya | |
-| Doctor Brown 9B | Dottor Brown 9B | |
-| "Sarge" Zagloba | “Sergente” Zagloba | |
-| Michael Moore 3C | Michael Moore 3C | |
-| Henry Williams 2A | Henry Williams 2A | |
-| Rob "Scotty" | Rob “Scotty” | |
-| Rosie Hart | Rosie Hart | |
-| Kim Procházka | Kim Procházka | |
-| General Takeshi | Generale Takeshi | Gen. Takeshi |
-| Admiral Nyota | Ammiraglio Nyota | Amm. Nyota |
-| Major Zolzaya | Maggiore Zolzaya | Magg. Zolzaya |
-| Gahiji Jackson | Gahiji Jackson | |
-| Adela | Adela | |
-| Governor Burke | Governatore Burke | Gov. Burke |
+| N\. | Originale | Tradotto | Contratto |
+| --- | :--- | :--- | :--- |
+| 1 | John Smith 7A | John Smith 7A |   |
+| 2 | Arjun Rao / Capt\. Rao | Arjun Rao | Cap\. Rao |
+| 2 alt | Rao | Rao |   |
+| 3 | Navigator Maya | Navigatrice Maya |   |
+| 4 | Doctor Brown 9B | Dottor Brown 9B | Dr\. Brown 9B |
+| 5 | "Sarge" Zagloba | “Sergente” Zagloba |   |
+| 6 | Michael Moore 3C | Michael Moore 3C |   |
+| 7 | Henry Williams 2A | Henry Williams 2A |   |
+| 8 | Rob "Scotty" | Rob “Scotty” |   |
+| 9 | Rosie Hart | Rosie Hart |   |
+| 10 | Kim Procházka | Kim Procházka |   |
+| 11 | General Takeshi | Generale Takeshi | Gen\. Takeshi |
+| 12 | Admiral Nyota | Ammiraglio Nyota | Amm\. Nyota |
+| 13 | Major Zolzaya | Maggiore Zolzaya | Magg\. Zolzaya |
+| 14 | Gahiji Jackson | Gahiji Jackson |   |
+| 15 | Adela | Adela |   |
+| 16 | Governor Burke | Governatore Burke | Gov\. Burke |
+| 17 | Viktar "the Purifier" | Viktar “Il Purificatore” |   |
 
 ##### Edifici
 
@@ -701,25 +727,25 @@ Competenze: fino a un totale di 8.
 
 ##### Comandanti
 
-| Originale | Tradotto | Contratto |
-| :--- | :--- | :--- |
-| Captain Monk | Capitano Monk | Cap\. Monk |
-| Captain Borg | Capitano Borg | Cap\. Borg |
-| Gran Manny | Grand Manny |   |
-| Kali Chapek | Kali Chapek |   |
-| Doug Porter | Doug Porter |   |
-| Demon Ragna | Demon Ragna |   |
-| Captain Pick | Capitano Pick | Cap\. Pick |
-| Annika Finch | Annika Finch |   |
-| "Winky" Rodgers | "Occhiolino" Rodgers |   |
-| Old Viletrax | Vecchio Viletrax |   |
-| Professor Zane | Professor Zane | Prof\. Zane |
-| \#925 | \#925 |   |
-| Rosalina | Rosalina |   |
-| Lenny | Lenny |   |
-| \#ALFA | \#ALFA |   |
-| Freddie | Freddie |   |
-| Yolande | Yolande |   |
+| N\. | Originale | Tradotto | Contratto |
+| --- | :--- | :--- | :--- |
+| 1 | Captain Monk | Capitano Monk | Cap\. Monk |
+| 2 | Captain Borg | Capitano Borg | Cap\. Borg |
+| 3 | Gran Manny | Grand Manny |   |
+| 4 | Kali Chapek | Kali Chapek |   |
+| 5 | Doug Porter | Doug Porter |   |
+| 6 | Demon Ragna | Demon Ragna |   |
+| 7 | Captain Pick | Capitano Pick | Cap\. Pick |
+| 8 | Annika Finch | Annika Finch |   |
+| 9 | "Winky" Rodgers | “Occhiolino” Rodgers |   |
+| 10 | Old Viletrax | “Vecchio” Viletrax |   |
+| 11 | Professor Zane | Professor Zane | Prof\. Zane |
+| 12 | \#925 | \#925 |   |
+| 13 | Rosalina | Rosalina |   |
+| 14 | Lenny | Lenny |   |
+| 15 | \#ALFA | \#ALFA |   |
+| 16 | Freddie | Freddie |   |
+| 17 | Yolande | Yolande |   |
 
 ##### Edifici
 
@@ -790,26 +816,30 @@ Competenze: fino a un totale di 8.
 
 ##### Comandanti
 
-| Originale | Tradotto | Contratto |
-| :--- | :--- | :--- |
-| Roalan "The Oathbreaker" | Roalan “Il Traditore” |   |
-| Balinor "The Outcast" | Balinor “Il Reietto” |   |
-| Godray "The Warmonger" | Godray “Il Guerrafondaio” |   |
-| Morehat "The Inflamator" | Morehat “L'Infiammatore” |   |
-| Cloki "The Advisor" | Cloki “Il Consulente” |   |
-| Rishard "The Adventurer" | Rishard “L’Avventuriero” |   |
-| Galwain "The Lorekeeper" | Galwain “Il Custode del Sapere” |   |
-| Igdraine "The Sailor" | Igdraine “Il Marinaio” |   |
-| Hierarch | Hierarch | Tin |
-| Keeper | Keeper |   |
-| Tirstin "The Scholar" | Tirstin cLo Studioso” |   |
-| Artar "The Swordmaster" | Artar “Il Maestro di Spade” |   |
-| Kaey "The Valiant" | Kaey “Il Valoroso” |   |
-| Palatin "The Ressurector" | Palatin “Il Risuscitatore” |   |
-| Viktar "The Purifier" | Viktar “Il Purificatore” |   |
-| Princess | Princess |   |
-| Grand Zieregal | Grand Zieregal |   |
-| Arthur |   |   |
+| N\. | Originale | Tradotto | Contratto |
+| --- | :--- | :--- | :--- |
+| 1 | Roalan "The Oathbreaker" | Roalan “Il Traditore” |   |
+| 2 | Balinor "The Outcast" | Balinor “Il Reietto” |   |
+| 3 | Godray "The Warmonger" | Godray “Il Guerrafondaio” |   |
+| 4 | Morehat "The Inflamator" | Morehat “L'Infiammatore” |   |
+| 5 | Cloki "The Advisor" | Cloki “Il Consulente” |   |
+| 6 | Rishard "The Adventurer" | Rishard “L’Avventuriero” |   |
+| 7 | Galwain "The Lorekeeper" | Galwain “Il Custode del Sapere” |   |
+| 8 | Igdraine "The Sailor" | Igdraine “Il Marinaio” |   |
+| 9 | Hierarch | Hierarch |   |
+| 9 alt | Tin | Tin |   |
+| 10 | Keeper | Keeper |   |
+| 11 | Tirstin "The Scholar" | Tirstin “Lo Studioso” |   |
+| 12 | Artar "The Swordmaster" | Artar “Il Maestro di Spade” |   |
+| 13 | Kaey "The Valiant" | Kaey “Il Valoroso” |   |
+| 14 | Palatin "The Ressurector" | Palatin “Il Risuscitatore” |   |
+| 15 | Viktar "The Purifier" | Viktar “Il Purificatore” |   |
+| 16 | Princess | Princess |   |
+| 17 | Princess | Princess |   |
+| 18 | Grand Zieregal | Grand Zieregal |   |
+| 19 | Arthur |   |   |
+| 20 | Blind Fury | Furia Cieca |   |
+| 21 | Bright Star | Stella Splendente |   |
 
 ##### Edifici
 
@@ -882,24 +912,24 @@ Competenze: fino a un totale di 8.
 
 ##### Comandanti
 
-| Originale | Tradotto | Contratto |
-| :--- | :--- | :--- |
-| Sage Requan\-Cher |   |   |
-| Voliantros |   |   |
-| Voice of Tumori |   |   |
-| Man\-eater |   |   |
-| Root |   |   |
-| Santarsí |   |   |
-| Crimson Malice |   |   |
-| The Undying |   |   |
-| Spore |   |   |
-| Carnivora |   |   |
-| Harbringer |   |   |
-| Fol the Primal |   |   |
-| The Bugsmasher |   |   |
-| Thousand Eyes |   |   |
-| The Shapeless |   |   |
-| Evil Death |   |   |
+| N\. | Originale | Tradotto | Contratto |
+| --- | :--- | :--- | :--- |
+| 1 | Sage Requan\-Cher |   |   |
+| 2 | Voliantros |   |   |
+| 3 | Voice of Tumori |   |   |
+| 4 | Man\-eater |   |   |
+| 5 | Root |   |   |
+| 6 | Santarsí |   |   |
+| 7 | Crimson Malice |   |   |
+| 8 | The Undying |   |   |
+| 9 | Spore |   |   |
+| 10 | Carnivora |   |   |
+| 11 | Harbringer |   |   |
+| 12 | Fol the Primal |   |   |
+| 13 | The Bugsmasher |   |   |
+| 14 | Thousand Eyes |   |   |
+| 15 | The Shapeless |   |   |
+| 16 | Evil Death |   |   |
 
 ##### Edifici
 
