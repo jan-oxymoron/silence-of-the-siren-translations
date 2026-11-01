@@ -155,6 +155,7 @@
 | Plundered Farm | Fattoria saccheggiata |
 | Radiant Collider | Acceleratore di Radiant |
 | Remote Outpost | Avamposto remoto |
+| Riders Camp | Accampamento dei Cavalieri |
 | Ruptured Smelter | Fonderia danneggiata |
 | Scrapyard workshop | Officina nel deposito di rottami |
 | Skill Academy | Accademia delle competenze |
@@ -396,8 +397,8 @@ Competenze: fino a un totale di 8.
 #### Danni e effetti di stato
 
 | Originale | Tradotto | Tipo | Competenza |
-| :- | :- | :- | :- |
-| Burning damage | Danno da ustione | Danno | |
+| :--- | :--- | :--- | :--- |
+| Burning damage | Danno da ustione | Danno |   |
 | Confused and shaking | Confuso e tremante | Effetto | Psionica |
 | Block melee | Blocca attacchi in mischia | Effetto | Psionica |
 | Block ranged | Blocca attacchi a distanza | Effetto | Psionica |
@@ -415,40 +416,44 @@ Competenze: fino a un totale di 8.
 | Invisible | Invisibile | Effetto | Giramondo |
 | Protective Field | Scudo Protettivo | Effetto | Giramondo |
 | Supercharged Cloud | Nube Sovraccarica | Effetto | Giramondo |
-| Daze | Stordimento | Effetto | |
-| Poisoned | Avvelenato | Effetto | |
-| Burning | Bruciare | Effetto | |
-| Shocked | Scioccato | Effetto | |
-| Bleeding | Sanguinamento | Effetto | |
-| Corroded | Corroso | Effetto | |
-| Unlimited Counter | Contatore illimitato | Effetto | |
-| Charge | Carica | Effetto | |
-| Bury | Sotterrato | Effetto | |
-| Invisible | Invisibilità | Effetto | |
-| Mimic | Imitazione | Effetto | |
-| Ranged Cooldown | Ricarica attacchi a distanza | Effetto | |
-| Morale Boost | Aumento del morale | Effetto | |
-| Movement Up | Aumento movimento | Effetto | |
-| Overwatch | Sorvegliare | Effetto | |
-| Field Promotion | Promozione sul campo | Effetto | |
-| Health Drain | Prosciugamento salute | Effetto | |
-| Damage Up | Aumento danno | Effetto | |
-| Movement Down | Riduzione movimento | Effetto | |
-| Defense Up | Aumento difesa | Effetto | |
+| Daze | Stordimento | Effetto |   |
+| Poisoned | Avvelenato | Effetto |   |
+| Burning | Bruciare | Effetto |   |
+| Shocked | Scioccato | Effetto |   |
+| Bleeding | Sanguinamento | Effetto |   |
+| Corroded | Corroso | Effetto |   |
+| Unlimited Counter | Contatore illimitato | Effetto |   |
+| Charge | Carica | Effetto |   |
+| Bury | Sotterrato | Effetto |   |
+| Invisible | Invisibilità | Effetto |   |
+| Mimic | Imitazione | Effetto |   |
+| Ranged Cooldown | Ricarica attacchi a distanza | Effetto |   |
+| Morale Boost | Aumento del morale | Effetto |   |
+| Movement Up | Aumento movimento | Effetto |   |
+| Overwatch | Sorvegliare | Effetto |   |
+| Field Promotion | Promozione sul campo | Effetto |   |
+| Health Drain | Prosciugamento salute | Effetto |   |
+| Damage Up | Aumento danno | Effetto |   |
+| Movement Down | Riduzione movimento | Effetto |   |
+| Defense Up | Aumento difesa | Effetto |   |
 | Clone | Clona | Effetto | Biologia |
-| Blocked Special Ability | Blocca abilità speciale | Effetto | |
-| Loophole | Scappatoia | Effetto | |
-| Deflect | Devia | Effetto | |
-| Regenerate | Rigenera | Effetto | |
-| Hypnotized | Ipnotizzato | Effetto | |
-| Hacked | Violato | Effetto | |
+| Blocked Special Ability | Blocca abilità speciale | Effetto |   |
+| Loophole | Scappatoia | Effetto |   |
+| Deflect | Devia | Effetto |   |
+| Regenerate | Rigenera | Effetto |   |
+| Hypnotized | Ipnotizzato | Effetto |   |
+| Hacked | Violato | Effetto |   |
 | Force Field | Campo di forza | Effetto | Tecnologia |
-| Missile lock | Targettizzata | Effetto | |
-| Transporter psychosis | Psicosi da teletrasporto | Effetto | |
-| Buried | Sepolto | Effetto | |
-| Shielded | Schermato | Effetto | |
-| Battle Arena Morale Boost | Aumento del morale nell'Arena di battaglia | Effetto | |
-| Split stack | Dividi gruppo | Effetto | |
+| Missile lock | Targettizzata | Effetto |   |
+| Transporter psychosis | Psicosi da teletrasporto | Effetto |   |
+| Buried | Sepolto | Effetto |   |
+| Shielded | Schermato | Effetto |   |
+| Battle Arena Morale Boost | Aumento del morale nell'Arena di battaglia | Effetto |   |
+| Split stack | Dividi gruppo | Effetto |   |
+| Stroke of Luck | Colpo di fortuna | Effetto |   |
+| Camouflaged | Mimetizzato | Effetto |   |
+| Motivated | Motivato | Effetto |   |
+| Scared | Impaurito | Effett |   |
 
 ### Fazioni
 
@@ -484,7 +489,7 @@ Competenze: fino a un totale di 8.
 | Hak "the Rat" | Hak “Il Ratto” |   |
 | Agent Molsson | Agente Molsson | Ag\. Molsson |
 | Sergeant Moltair / Sgt\. Moltair | Sergente Moltair | Serg\. Moltair |
-| Tax Collector Tott | Esattore delle Tasse Tott |   |
+| Tax Collector Tott | “Esattore delle Tasse” Tott |   |
 | Lieutenant Moletoff / Lt\. Moletoff | Tenente Moletoff | Ten\. Moletoff |
 | Captain Holester / Capt\. Holester | Capitano Holester | Cap\. Holester |
 | General Truda / Gen\. Truda | Generale Truda | Gen\. Truda |
@@ -941,3 +946,95 @@ Competenze: fino a un totale di 8.
 | Growing Crystal | Cristallo di crescita |
 | Sentries | Sentinelle |
 | Electric Fence | Recinzione elettrica |
+
+#### Cavalieri di Xenauri \(Beastmasters\)
+
+##### Unità
+
+| Originale | Tradotto |
+| :--- | :--- |
+| Chickmunk | Chickmunk |
+| Chickmunk Alpha\-breed | Ceppo Alfa dei Chickmunk |
+| Arra Jumper | Saltatore Arra |
+| Arra Warrioress | Guerriera Arra |
+| Ssaari Screamer | Urlatore di Ssaari |
+| Ssaari Medbearer | Ssaari la Guaritrice |
+| Altari Songstress | Sirena degli Altari |
+| Altari Chanteress | Cantricedegli Altari |
+| Altari Wielder | Araldo degli Altari |
+| Altari Conjurer | Evocatore degli Altari |
+| Fowler | Uccellatore |
+| Practiced Fowler | Uccellatore Esperto |
+| Blood Ssaari | Ssaari di Sangue |
+| Blood Rider | Cavaliere di Sangue |
+| Firebird | Uccello di Fuoco |
+| Purebreed Firebird | Uccello di Fuoco Puro |
+| Battle Beacon | Radiofaro da Combattimento |
+
+##### Comandanti
+
+| Originale | Tradotto | Contratto |
+| :--- | :--- | :--- |
+| Batu |   |   |
+| Razak |   |   |
+| Morzai |   |   |
+| Kiret the Magpie |   |   |
+| Saheru the Ssaari |   |   |
+| Shagat |   |   |
+| The Pathfinder |   |   |
+| Tengri |   |   |
+| Zi\-Ziri |   |   |
+| An\-Ghede |   |   |
+| Tu\-Fira |   |   |
+| Se\-Wari |   |   |
+| Ki\-Khi |   |   |
+| Ra\-Win |   |   |
+| Se\-Tri |   |   |
+| Ri\-Sh |   |   |
+
+##### Edifici
+
+| Originale | Tradotto |
+| :--- | :--- |
+| Dust Shelter | Rifugio Polveroso |
+| Splinter Shelter | Rifugio della Scheggia |
+| Shard Shelter | Rifugio dei Frammenti |
+| Remembrance Pyre | Pira del Ricordo |
+| Limerite Barter | Mercato della Limerite |
+| Beast Whisperer | Signore delle Bestie |
+| Spy Kite | Drone Spia |
+| Recycler | Riciclatore |
+| Artisans | Artigiani |
+| Caravan | Convoglio Merci |
+| Void Gate | Portale del Vuoto |
+| Riders’ Ring | Anello dei Cavalieri |
+| Altari Ring | Anello degli Altari |
+| Lorekeepers | Custodi del Sapere |
+| Lorebinder | Custode del Sapere |
+| Altari Crystal Library | Biblioteca dei Cristalli degli Altari |
+| Sheltered Greenhouse | Serra Protetta |
+| Mapmaker’s Cabin | Rifugio del Cartografo |
+| Altari Shrine | Santuario degli Altari |
+| House of Gear | Casato delle Macchine |
+| Clan Council | Consiglio dei Clan |
+| Upper Armory | Armeria superiore |
+| Mines | Mine |
+| Turret | Torretta |
+| Sentry | Sentinella |
+| Recoil | Rinculo |
+| Mindlink | Legame Mentale |
+| Livestock Capsule | Capsula Biologica |
+| Alpha\-breed Capsule | Alpha\-breed Capsula |
+| Landing Module | Modulo di Sbarco |
+| Landing Craft | Navetta di Sbarco |
+| Soundproofed Outpost | Avamposto Insonorizzato |
+| First Aid Outpost | Avamposto di Primo Soccorso |
+| Songstress Tent | Tenda delle Sirene |
+| Chanteress Yurt | Yurta delle Cantrici |
+| House of Wielders | Casata dei Dominatori |
+| House of Conjurers | La Casa degli Evocatori |
+| Tweeting Hutch | Cabina dei Cinguettii |
+| Fiery Hutch | Gabbia Ardente |
+| Hall of Roars | Sala dei Ruggiti |
+| Hall of Temerity | Sala dell'Audacia |
+| Creature Production Upgrade | Potenziamento Produzione Creature |
