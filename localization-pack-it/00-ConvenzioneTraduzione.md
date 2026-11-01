@@ -34,6 +34,8 @@
 | Eye of Light anomaly | anomalia Occhio di Luce |
 | Allmother / ALLMOTHER | Omnimadre / OMNIMADRE |
 | Temple City | Città\-Tempio |
+| Uncanny Valley | Valle Misteriosa |
+| Outworlders | Abitanti dei Mondi Esterni |
 
 | Originale | Tradotto |
 | :- | :- |
@@ -850,3 +852,92 @@ Competenze: fino a un totale di 8.
 | Sentries | Sentinelle |
 | Electric Fence | Recinzione elettrica |
 | Consumable Market | Mercato dei Consumabili |
+
+#### Tribù dei Tumori \(Hive Mind\)
+
+##### Unità
+
+| Originale | Tradotto |
+| :--- | :--- |
+| Fungor | Fungo |
+| Ripe Fungor | Fungo Maturato |
+| Askon | Askon |
+| Mature Askon | Askon Adulto |
+| Metamorph | Mutaforma |
+| Metamorph Wielder | Mutaforma Esperto |
+| Slugtor | Slugtor |
+| Slugtor Brute | Bruto Slugtor |
+| Malarion Nymph | Ninfa di Malarion |
+| Malarion Imago | Imago Marlion |
+| Skull Collector | Collezionista di Teschi |
+| Skull Hunter | Cacciatore di Teschi |
+| Raughir | Raughir |
+| Ancient Raughir | Gli Antichi Raughir |
+| Goo Spitter | Sputamelma |
+
+##### Comandanti
+
+| Originale | Tradotto | Contratto |
+| :--- | :--- | :--- |
+| Sage Requan\-Cher |   |   |
+| Voliantros |   |   |
+| Voice of Tumori |   |   |
+| Man\-eater |   |   |
+| Root |   |   |
+| Santarsí |   |   |
+| Crimson Malice |   |   |
+| The Undying |   |   |
+| Spore |   |   |
+| Carnivora |   |   |
+| Harbringer |   |   |
+| Fol the Primal |   |   |
+| The Bugsmasher |   |   |
+| Thousand Eyes |   |   |
+| The Shapeless |   |   |
+| Evil Death |   |   |
+
+##### Edifici
+
+| Originale | Tradotto |
+| :--- | :--- |
+| Fallen Tower | Torre Caduta |
+| Cellular Proliferation | Proliferazione Cellulare |
+| Tissue Differentiation | Differenziazione dei Tessuti |
+| Crystal Heart | Cuore di Cristallo |
+| Subspace Storage | Deposito Iperspaziale |
+| Gate of the Ancients | Il Portale degli Antichi |
+| Chieftains Gathering | Raduno dei Capi |
+| Council of Elders | Consiglio degli Anziani |
+| Watcher | Vegliante |
+| Recycler | Riclicatore |
+| Assembler | Assemblatore |
+| Rogue Trafficker | Trafficante Rinnegato |
+| Shrine of Warriors | Santuario dei Guerrieri |
+| Defence Outgrowth | Protuberanza Difensiva |
+| Minefield | Campo Minato |
+| Turrets | Torrette |
+| Palace of Rebirth | Palazzo della Rinascita |
+| Ancestral Swarm | Sciame Ancestrale |
+| Interlinked Neoplasms | Neoplasie Interconnesse |
+| Memory Tissue | Tessuto Mnemonico |
+| Biomancer's Lair | La Tana del Biomante |
+| Wayfinder's Nest | Nido dell'Esploratore |
+| Spirit Shamans Den | Antro degli Sciamani |
+| Technomancer's Nook | Il Rifugio del Tecnomante |
+| Mycelium | Micelio |
+| Fruiting Bodies | Corpi Fruttiferi |
+| Askon's Cyst | Cisti di Askon |
+| Askon's Wart | L'Escrescenza di Askon |
+| Shifting Place | Mutazione Perenne |
+| Place of Transmutation | Sito di Trasmutazione |
+| Slugtor's Hole | La Tana di Slugtor |
+| Slugtor's Cave | La Caverna degli Slugtor |
+| Malarion's Cocoon | Crisalide di Malarion |
+| Malarion's Womb | La Culla di Malarion |
+| Hunter Spire | Guglia del Cacciatore |
+| Hunter Hall | Sala del Cacciatore |
+| Raughir's Lair | Il Covo di Raughir |
+| Raughir's Dungeons | I sotterranei di Raughir |
+| Growing Crystal | Cristallo di crescita |
+| Sentries | Sentinelle |
+| Electric Fence | Recinzione elettrica |
