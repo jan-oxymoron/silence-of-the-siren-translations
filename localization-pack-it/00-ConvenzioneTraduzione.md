@@ -1104,33 +1104,42 @@ Tag\: HERO\_HIVEMIND\_
 
 ### Mappe personalizzate \(scenari e scontri\)
 
-| Originale | Tradotta |
-| --- | --- |
-| Bridges too far | Ponti troppo lontani |
-| Crying river | Il fiume piangente |
-| Confluence | Confluenza |
-| Rift | Rottura |
-| One way in | Un solo ingresso |
-| Keys of subversion | Chiavi della sovversione |
-| Eyes | Occhi |
-| Chaos | Caos |
-| MULTIVERSE OF MADNESS | MULTIVERSO DELLA FOLLIA |
-| DOOM OF EDEN | IL DESTINO DI EDEN |
-| PYRAMID OF FAILURE | PIRAMIDE DEL FALLIMENTO |
-| Oh Rats | Ratti\! |
-| Duel | Duello |
-| Crematoria | Crematoria |
-| Dunes | Dune |
-| Blue border | Bordo blu |
-| Sudden death | Morte improvvisa |
-| Lost connection | Connessione persa |
-| Tumori standoff | Tumori stallo |
-| One way out | Una via d'uscita |
-| Whack an island | Colpisci un'isola |
-| King of the Base | Il re della base |
-| All in one | Tutto in uno |
-| The Crater | Il cratere |
-
-
-
+| Originale | Tradotta | Introduzione |
+| --- | --- | --- |
+| Bridges too far | Ponti troppo lontani |   |
+| Crying river | Il fiume piangente |   |
+| Confluence | Confluenza |   |
+| Rift | Rottura |   |
+| One way in | Un solo ingresso |   |
+| Keys of subversion | Chiavi della sovversione |   |
+| Eyes | Occhi |   |
+| Chaos | Caos |   |
+| MULTIVERSE OF MADNESS | MULTIVERSO DELLA FOLLIA |   |
+| DOOM OF EDEN | IL DESTINO DI EDEN |   |
+| PYRAMID OF FAILURE | PIRAMIDE DEL FALLIMENTO |   |
+| Oh Rats | Ratti\! |   |
+| Duel | Duello |   |
+| Crematoria | Crematoria |   |
+| Dunes | Dune |   |
+| Blue border | Bordo blu |   |
+| Sudden death | Morte improvvisa |   |
+| Lost connection | Connessione persa |   |
+| Tumori standoff | cTumori in stallo |   |
+| One way out | Una via d'uscita |   |
+| Whack an island | Colpisci un'isola |   |
+| King of the Base | Il re della base |   |
+| All in one | Tutto in uno |   |
+| The Crater | Il cratere |   |
+| Clear sky | Cielo sereno | DLC Planet |
+| Starvation games | Giochi della fame | DLC Planet |
+| Up and down | Su e giù | DLC Planet |
+| Resource war | Guerra per le risorse | DLC Planet |
+| Ultimate challenge | Sfida suprema | DLC Planet |
+| Canyon | Canyon | DLC Planet |
+| OUCH | AHI\! | DLC Planet |
+| Tear | Lacrima |   |
+| Await | Attesa |   |
+| Gold fever | Febbre dell'oro |   |
+| Arch | Arco |   |
+| Crumbs | Briciole |   |
 
