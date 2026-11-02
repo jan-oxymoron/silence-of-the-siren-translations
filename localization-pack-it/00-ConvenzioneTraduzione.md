@@ -38,6 +38,7 @@
 | Temple City | Città\-Tempio |
 | Uncanny Valley | Valle Misteriosa |
 | Outworlders | Abitanti dei Mondi Esterni |
+| Spring Breeze | Brezza Primaverile \(nome di una nave UNSS\) |
 
 | Originale | Tradotto |
 | :- | :- |
@@ -52,12 +53,13 @@
 ### Fazioni
 
 | Originale | Tradotto |
-| :- | :- |
+| :--- | :--- |
 | Children of the Source | Figli della Fonte |
 | Fossorians | Fossoriani |
 | Hesperidians | Esperidiani |
 | Hive Mind | Mente Alveare |
 | Neutral Factions | Fazioni neutrali |
+| Neutral Pacifist Union | Unione Pacifista Neutrale |
 | The Sovereign Fleet | Flotta Sovrana |
 | Tumori Tribes | Tribù dei Tumori |
 | Xenauri Riders | Cavalieri di Xenauri |
@@ -99,26 +101,35 @@
 | Bright Ones | I Lucenti |
 | Bright Star | Stella Lucente |
 
-### Oggetti mappa
+### Mappa
+
+#### Consumabili \(Raccoglibili\)
+
+Tag\: CONSUMABLE\_
 
 | Originale | Tradotto |
-| :- | :- |
-| Building Zone | Zona Edificabile |
-| Carnivorous Flora | Flora carnivora |
-| Force Shield | Scudo di Forza |
-| Smelting Operation | Operazione di fusione |
-| Cybersnare | Cyber\-trappola |
-| Cybersnares | Trappole cibernetiche |
-| Memory Wiper | Cancellatore di memoria \(azione\) |
-| Giant Mushroom | Fungo gigante |
-| Shuttle Wreckage | Relitto dello shuttle |
-| Supercharged Cloud | Nube Sovraccarica |
-| Toxic Fog | Nebbia tossica |
-| Dust Fog | Nebbia di polvere |
-| Spore Fog | Nebbia di spore |
-| Quest Gate | Portale della missione |
+| :--- | :--- |
+| Fuel Stock | Scorte di carburante |
+| Data Fragment | Frammento di dati |
+| Magnesium Torch | Torcia al magnesio |
+| Memory Wiper | Azzera\-memoria \(oggetto\) |
+| Datascroll | Pergamena dati |
+| Recharge Cell | Cella di ricarica \(azione\) / Cella energetica \(oggetto\) |
+| Extra Rations | Razioni supplementari / Razioni Extra |
+| Vagrant | Vagabondo |
+| Seer | Veggente |
+| MoonWalker | Camminatore Lunare |
+| Phoenix | Fenice |
+| Site Consciousness | Consapevolezza del Sito |
+| Mastermind | Genio |
+| Stim\-tac | Stim\-tac |
+| Potion of Motion | Pozione del movimento |
+| Brain fuel | Combustibile cerebrale |
+| Fix\-mix | Soluzione Rapida |
 
-### Edifici generici mappa
+#### Edifici
+
+Tag\: MAPOBJ\_EXPLORATION\_, MAPOBJ\_
 
 | Originale | Tradotto |
 | :--- | :--- |
@@ -186,27 +197,12 @@
 | Watch Tower | Torre di osservazione |
 | Wishing Well | Pozzo dei desideri |
 
-### Oggetti
+#### Equipaggiamento \(Raccoglibile\)
 
-#### Generici
-
-##### Manufatti (Artifacts)
+Tag\: EQUIPMENT\_CAMPAIGN\_
 
 | Originale | Tradotto |
 | :--- | :--- |
-| Artifacts | Manufatti |
-| Bloodshed murmur | Sussurro |
-| Disturbed inception | Genesi turbata |
-| Machine Spirit | Spirito della Macchina |
-| Bloodthirsty soul | Anima sanguinaria |
-| Conqueror | Conquistatore |
-| Biotic Mentor | Mentore biotico |
-| Genie | Genio |
-
-##### Equipaggiamento
-
-| Originale | Tradotto |
-| :- | :- |
 | Besieger tools | Strumenti d'assedio |
 | Burn Puncher | Pugno incendiario |
 | Ceremonial flag | Bandiera cerimoniale |
@@ -221,39 +217,6 @@
 | Smart ballistic plating | Placcatura balistica intelligente |
 | Wild Geese Beret | Basco delle Oche Selvagge |
 | Silver Iodide Rocket | Razzo allo ioduro d'argento |
-
-##### Consumabili
-
-| Originale | Tradotto |
-| :- | :- |
-| Fuel Stock | Scorte di carburante |
-| Data Fragment | Frammento di dati |
-| Magnesium Torch | Torcia al magnesio |
-| Memory Wiper | Azzera-memoria (oggetto) |
-| Datascroll | Pergamena dati |
-| Recharge Cell | Cella di ricarica (azione) / Cella energetica (oggetto) |
-| Extra Rations | Razioni supplementari / Razioni Extra |
-
-#### Eplorazione
-
-##### Consumabili
-
-| Originale | Tradotto |
-| :--- | :--- |
-| Vagrant | Vagabondo |
-| Seer | Veggente |
-| MoonWalker | Camminatore Lunare |
-| Phoenix | Fenice |
-| Site Consciousness | Consapevolezza del Sito |
-| Mastermind | Genio |
-| Stim\-tac | Stim\-tac |
-| Potion of Motion | Pozione del movimento |
-| Brain fuel | Combustibile cerebrale |
-
-##### Equipaggiamento
-
-| Originale | Tradotto |
-| :--- | :--- |
 | Datapad | Datapad |
 | Bait Flag | Bandiera esca |
 | Holo Scarecrow | Spaventapasseri olografico |
@@ -279,6 +242,53 @@
 | Pathfinder Drone | Drone dell'esploratore |
 | Expropriator | Espropriatore |
 | Piercing ammo | Munizioni perforanti |
+| Radio Beacon | Radiofaro |
+| The Relic | La Reliquia |
+| Red Radiant | Bagliore Rosso |
+| Lucky Credchip | Credchip fortunato |
+| Ambassador's Briefcase | Valigetta dell'ambasciatore |
+| Pinpointer | Rilevatore |
+| Garbage King's Crown | La Corona del Re dei Rottami |
+| Hustler's Badge | Distintivo dell'Affarista |
+| Night Weaver's Pheromones | Feromoni del Tessitore Notturno |
+| Cyber Cuffs | Cyber\-bracciali |
+| Blackout Box | **Modulo di Blackout** |
+| Warlord's Monocle | Monocolo del Condottiero |
+| Teleporter | Teletrasporto |
+| Princess | Princess |
+
+#### Manufatti \(Artifacts\) \(Raccoglibili\)
+
+Tag\: ARTIFACT\_
+
+| Originale | Tradotto |
+| :--- | :--- |
+| Bloodshed murmur | Sussurro |
+| Disturbed inception | Genesi turbata |
+| Machine Spirit | Spirito della Macchina |
+| Bloodthirsty soul | Anima sanguinaria |
+| Conqueror | Conquistatore |
+| Biotic Mentor | Mentore biotico |
+| Genie | Genio |
+
+#### Oggetti \(Non raccoglibili\)
+
+| Originale | Tradotto |
+| :- | :- |
+| Building Zone | Zona Edificabile |
+| Carnivorous Flora | Flora carnivora |
+| Force Shield | Scudo di Forza |
+| Smelting Operation | Operazione di fusione |
+| Cybersnare | Cyber\-trappola |
+| Cybersnares | Trappole cibernetiche |
+| Memory Wiper | Cancellatore di memoria \(azione\) |
+| Giant Mushroom | Fungo gigante |
+| Shuttle Wreckage | Relitto dello shuttle |
+| Supercharged Cloud | Nube Sovraccarica |
+| Toxic Fog | Nebbia tossica |
+| Dust Fog | Nebbia di polvere |
+| Spore Fog | Nebbia di spore |
+| Quest Gate | Portale della missione |
 
 ### Comandanti
 
@@ -320,6 +330,8 @@ Competenze: fino a un totale di 8.
 
 ##### Grandi scuole
 
+Tag\: HERO\_SKILL\_COMBAT\_
+
 | Originale | Tradotto |
 | :--- | :--- |
 | Biotic | Biologia |
@@ -328,6 +340,8 @@ Competenze: fino a un totale di 8.
 | Techie | Tecnologia |
 
 ##### Minori
+
+Tag\: HERO\_SKILL\_COMBAT\_
 
 | Originale | Tradotto |
 | :- | :- |
@@ -354,8 +368,10 @@ Competenze: fino a un totale di 8.
 
 #### Abilità \(Abilities\)
 
+Tag\: ABILITY\_HERO\_COMBAT\_
+
 | Originale | Tradotto | Competenza |
-| :- | :- | :- |
+| :--- | :--- | :--- |
 | Acid Projectile | Proiettile Acido | Biologia |
 | Artificial Muscle Fibers | Fibre Muscolari Artificiali | Biologia |
 | Chameleon Coating | Rivestimento Camaleontico | Biologia |
@@ -380,7 +396,7 @@ Competenze: fino a un totale di 8.
 | Mimic | Mimica | Giramondo |
 | Protective Field | Scudo Protettivo | Giramondo |
 | Rinforza | Rinforza\! | Giramondo |
-| Rush | Scatto | Giramondo |
+| Rush | Corsa | Giramondo |
 | Show Resources | Mostra Risorse | Giramondo |
 | Show Treasures | Mostra Tesori | Giramondo |
 | Supercharged Cloud | Nuvola Sovraccarica | Giramondo |
@@ -411,11 +427,13 @@ Competenze: fino a un totale di 8.
 | Phase shift | Sfasamento | Psionica |
 | Psionic blast | Esplosione Psionica | Psionica |
 | Psionic cleansin | Purificazione Psionica | Psionica |
-| Armor Incrustation | Armatura Incrostata | |
-| Vortex Mines | Mine a Vortice | |
-| Psy Abilities | Abilità psichiche | |
+| Armor Incrustation | Armatura Incrostata |   |
+| Vortex Mines | Mine a Vortice |   |
+| Psy Abilities | Abilità psichiche |   |
 
 #### Danni e effetti di stato
+
+Tag\: STACK\_STATUS\_EFFECT\_
 
 | Originale | Tradotto | Tipo | Competenza |
 | :--- | :--- | :--- | :--- |
@@ -503,6 +521,8 @@ Competenze: fino a un totale di 8.
 
 ##### Comandanti
 
+Tag\: HERO\_MOLE\_
+
 | N\. | Originale | Tradotto | Contratto |
 | --- | :--- | :--- | :--- |
 | 1 | Major Skaurov | Maggiore Skaurov | Magg\. Skaurov |
@@ -574,6 +594,8 @@ Competenze: fino a un totale di 8.
 
 ##### Oggetti, unità, edifici
 
+Tag unità\: UNIT\_NEUTRAL\_
+
 | Originale | Tradotto |
 | :- | :- |
 | Crystal Lizard | Lucertola di cristallo |
@@ -634,6 +656,8 @@ Competenze: fino a un totale di 8.
 | Ballistic Shield | Scudo Balistico |
 
 ##### Comandanti
+
+Tag\: HERO\_EMPIRE\_
 
 | N\. | Originale | Tradotto | Contratto |
 | --- | :--- | :--- | :--- |
@@ -727,6 +751,8 @@ Competenze: fino a un totale di 8.
 
 ##### Comandanti
 
+Tag\: HERO\_PIRATE\_
+
 | N\. | Originale | Tradotto | Contratto |
 | --- | :--- | :--- | :--- |
 | 1 | Captain Monk | Capitano Monk | Cap\. Monk |
@@ -813,8 +839,11 @@ Competenze: fino a un totale di 8.
 | Acheron | Acheronte |
 | Blessed Acheron | Acheronte Benedetto |
 | Intruder shield | Scudo anti\-intrusione |
+| Mortar grenade | Granata da mortaio |
 
 ##### Comandanti
+
+Tag\: HERO\_ROBO\_CRUSADER\_
 
 | N\. | Originale | Tradotto | Contratto |
 | --- | :--- | :--- | :--- |
@@ -892,6 +921,8 @@ Competenze: fino a un totale di 8.
 
 ##### Unità
 
+Tag\: UNIT\_HIVEMIND\_
+
 | Originale | Tradotto |
 | :--- | :--- |
 | Fungor | Fungo |
@@ -911,6 +942,8 @@ Competenze: fino a un totale di 8.
 | Goo Spitter | Sputamelma |
 
 ##### Comandanti
+
+Tag\: HERO\_HIVEMIND\_
 
 | N\. | Originale | Tradotto | Contratto |
 | --- | :--- | :--- | :--- |
@@ -1068,3 +1101,36 @@ Competenze: fino a un totale di 8.
 | Hall of Roars | Sala dei Ruggiti |
 | Hall of Temerity | Sala dell'Audacia |
 | Creature Production Upgrade | Potenziamento Produzione Creature |
+
+### Mappe personalizzate \(scenari e scontri\)
+
+| Originale | Tradotta |
+| --- | --- |
+| Bridges too far | Ponti troppo lontani |
+| Crying river | Il fiume piangente |
+| Confluence | Confluenza |
+| Rift | Rottura |
+| One way in | Un solo ingresso |
+| Keys of subversion | Chiavi della sovversione |
+| Eyes | Occhi |
+| Chaos | Caos |
+| MULTIVERSE OF MADNESS | MULTIVERSO DELLA FOLLIA |
+| DOOM OF EDEN | IL DESTINO DI EDEN |
+| PYRAMID OF FAILURE | PIRAMIDE DEL FALLIMENTO |
+| Oh Rats | Ratti\! |
+| Duel | Duello |
+| Crematoria | Crematoria |
+| Dunes | Dune |
+| Blue border | Bordo blu |
+| Sudden death | Morte improvvisa |
+| Lost connection | Connessione persa |
+| Tumori standoff | Tumori stallo |
+| One way out | Una via d'uscita |
+| Whack an island | Colpisci un'isola |
+| King of the Base | Il re della base |
+| All in one | Tutto in uno |
+| The Crater | Il cratere |
+
+
+
+
