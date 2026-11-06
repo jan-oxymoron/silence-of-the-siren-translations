@@ -1,4 +1,4 @@
-# Progetto di traduzione di Heroes of science & Fiction
+# Progetto di traduzione di Heroes of Science \& Fiction
 
 ---
 
@@ -15,6 +15,8 @@
 | PICK UP | Oggetti | Raccoggli / Raccogliere |
 | Nomi | Città fazioni | Non vengono tradotti |
 | Nomi | Pianeti | Non vengono tradotti |
+| \[LMB\] | Tasto sinistro mouse | \[SBM\] |
+| \[RMB\] | Tasto destro mouse | \[DBM\] |
 
 ### Generici
 
@@ -34,9 +36,9 @@
 | Theta wave theory | teoria delle onde Theta |
 | Tumori biomancy | Biomanzia dei Tumori |
 | Eye of Light anomaly | anomalia Occhio di Luce |
-| Allmother / ALLMOTHER | Omnimadre / OMNIMADRE |
+| Allmother / ALLMOTHER | Omnimadre / OMNIMADRE |
 | Temple City | Città\-Tempio |
-| Uncanny Valley | Valle Misteriosa |
+| Uncanny Valley | Valle Misteriosa |
 | Outworlders | Abitanti dei Mondi Esterni |
 | Spring Breeze | Brezza Primaverile \(nome di una nave UNSS\) |
 
@@ -103,9 +105,9 @@
 
 ### Mappa
 
-#### Consumabili \(Raccoglibili\)
+#### Consumabili \(Oggetti da raccogliere\)
 
-Tag\: CONSUMABLE\_
+Campi prefix\:  CONSUMABLE\_
 
 | Originale | Tradotto |
 | :--- | :--- |
@@ -129,7 +131,7 @@ Tag\: CONSUMABLE\_
 
 #### Edifici
 
-Tag\: MAPOBJ\_EXPLORATION\_, MAPOBJ\_
+Campi prefix\:  MAPOBJ\_EXPLORATION\_, MAPOBJ\_
 
 | Originale | Tradotto |
 | :--- | :--- |
@@ -197,9 +199,9 @@ Tag\: MAPOBJ\_EXPLORATION\_, MAPOBJ\_
 | Watch Tower | Torre di osservazione |
 | Wishing Well | Pozzo dei desideri |
 
-#### Equipaggiamento \(Raccoglibile\)
+#### Equipaggiamento \(Oggetti da raccogliere\)
 
-Tag\: EQUIPMENT\_CAMPAIGN\_
+Campi prefix\:  EQUIPMENT\_CAMPAIGN\_
 
 | Originale | Tradotto |
 | :--- | :--- |
@@ -257,9 +259,9 @@ Tag\: EQUIPMENT\_CAMPAIGN\_
 | Teleporter | Teletrasporto |
 | Princess | Princess |
 
-#### Manufatti \(Artifacts\) \(Raccoglibili\)
+#### Manufatti \(Artifacts\) \(Raccoglibili\)
 
-Tag\: ARTIFACT\_
+Campi prefix\:  ARTIFACT\_
 
 | Originale | Tradotto |
 | :--- | :--- |
@@ -271,7 +273,7 @@ Tag\: ARTIFACT\_
 | Biotic Mentor | Mentore biotico |
 | Genie | Genio |
 
-#### Oggetti \(Non raccoglibili\)
+#### Oggetti \(Non Oggetti da raccogliere\)
 
 | Originale | Tradotto |
 | :- | :- |
@@ -330,7 +332,7 @@ Competenze: fino a un totale di 8.
 
 ##### Grandi scuole
 
-Tag\: HERO\_SKILL\_COMBAT\_
+Campi prefix\:  HERO\_SKILL\_COMBAT\_
 
 | Originale | Tradotto |
 | :--- | :--- |
@@ -341,7 +343,7 @@ Tag\: HERO\_SKILL\_COMBAT\_
 
 ##### Minori
 
-Tag\: HERO\_SKILL\_COMBAT\_
+Campi prefix\:  HERO\_SKILL\_COMBAT\_
 
 | Originale | Tradotto |
 | :- | :- |
@@ -368,7 +370,7 @@ Tag\: HERO\_SKILL\_COMBAT\_
 
 #### Abilità \(Abilities\)
 
-Tag\: ABILITY\_HERO\_COMBAT\_
+Campi prefix\:  ABILITY\_HERO\_COMBAT\_
 
 | Originale | Tradotto | Competenza |
 | :--- | :--- | :--- |
@@ -433,7 +435,7 @@ Tag\: ABILITY\_HERO\_COMBAT\_
 
 #### Danni e effetti di stato
 
-Tag\: STACK\_STATUS\_EFFECT\_
+Campi prefix\:  STACK\_STATUS\_EFFECT\_
 
 | Originale | Tradotto | Tipo | Competenza |
 | :--- | :--- | :--- | :--- |
@@ -521,10 +523,10 @@ Tag\: STACK\_STATUS\_EFFECT\_
 
 ##### Comandanti
 
-Tag\: HERO\_MOLE\_
+Campi prefix\:  HERO\_MOLE\_
 
 | N\. | Originale | Tradotto | Contratto |
-| --- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | 1 | Major Skaurov | Maggiore Skaurov | Magg\. Skaurov |
 | 2 | Commissar Snif | Commissario Snif | Comm\. Snif |
 | 2 alt | Colonel Snif | Colonnello Snif | Col\. Sni |
@@ -538,7 +540,7 @@ Tag\: HERO\_MOLE\_
 | 10 | Bulletproof Beni | Beni “Antiproiettile” |   |
 | 11 | Long Molly | “Lunga” Molly |   |
 | 12 | Supreme Leader | Leader Supremo |   |
-| 13 | Commander Muff / Cmdr\. Muff / Admiral Muff | Comandante Muff / Ammiraglio Muff | Com\. Muff / Amm\. Muff |
+| 13 | Commander Muff / Cmdr\. Muff / Admiral Muff | Comandante Muff / Ammiraglio Muff | Com\. Muff / Amm\. Muff |
 | 14 | General Furret / Gen\. Furret | Generale Furret | Gen\. Furret |
 | 15 | Relic | Relic |   |
 | 15 alt | False Mother | Falsa Madre |   |
@@ -594,7 +596,7 @@ Tag\: HERO\_MOLE\_
 
 ##### Oggetti, unità, edifici
 
-Tag unità\: UNIT\_NEUTRAL\_
+Tag unità\: UNIT\_NEUTRAL\_
 
 | Originale | Tradotto |
 | :- | :- |
@@ -657,15 +659,15 @@ Tag unità\: UNIT\_NEUTRAL\_
 
 ##### Comandanti
 
-Tag\: HERO\_EMPIRE\_
+Campi prefix\:  HERO\_EMPIRE\_
 
 | N\. | Originale | Tradotto | Contratto |
-| --- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | 1 | John Smith 7A | John Smith 7A |   |
 | 2 | Arjun Rao / Capt\. Rao | Arjun Rao | Cap\. Rao |
 | 2 alt | Rao | Rao |   |
 | 3 | Navigator Maya | Navigatrice Maya |   |
-| 4 | Doctor Brown 9B | Dottor Brown 9B | Dr\. Brown 9B |
+| 4 | Doctor Brown 9B | Dottor Brown 9B | Dr\. Brown 9B |
 | 5 | "Sarge" Zagloba | “Sergente” Zagloba |   |
 | 6 | Michael Moore 3C | Michael Moore 3C |   |
 | 7 | Henry Williams 2A | Henry Williams 2A |   |
@@ -751,10 +753,10 @@ Tag\: HERO\_EMPIRE\_
 
 ##### Comandanti
 
-Tag\: HERO\_PIRATE\_
+Campi prefix\:  HERO\_PIRATE\_
 
 | N\. | Originale | Tradotto | Contratto |
-| --- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | 1 | Captain Monk | Capitano Monk | Cap\. Monk |
 | 2 | Captain Borg | Capitano Borg | Cap\. Borg |
 | 3 | Gran Manny | Grand Manny |   |
@@ -843,10 +845,10 @@ Tag\: HERO\_PIRATE\_
 
 ##### Comandanti
 
-Tag\: HERO\_ROBO\_CRUSADER\_
+Campi prefix\:  HERO\_ROBO\_CRUSADER\_
 
 | N\. | Originale | Tradotto | Contratto |
-| --- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | 1 | Roalan "The Oathbreaker" | Roalan “Il Traditore” |   |
 | 2 | Balinor "The Outcast" | Balinor “Il Reietto” |   |
 | 3 | Godray "The Warmonger" | Godray “Il Guerrafondaio” |   |
@@ -908,7 +910,7 @@ Tag\: HERO\_ROBO\_CRUSADER\_
 | Tower of Faith | Torre della Fede |
 | Windowless Fort | Porta senza Finestre |
 | Windowless Keep | Fortezza senza Finestre |
-| Spitfire Maze | Labirinto degli Sputafuoco |
+| Spitfire Maze | Labirinto degli Sputafuoco |
 | Spitfire Dungeon | Sotterraneo degli Sputafuoco |
 | Portal | Portale |
 | Ascended Portal | Portale degli Ascesi |
@@ -921,7 +923,7 @@ Tag\: HERO\_ROBO\_CRUSADER\_
 
 ##### Unità
 
-Tag\: UNIT\_HIVEMIND\_
+Campi prefix\:  UNIT\_HIVEMIND\_
 
 | Originale | Tradotto |
 | :--- | :--- |
@@ -943,10 +945,10 @@ Tag\: UNIT\_HIVEMIND\_
 
 ##### Comandanti
 
-Tag\: HERO\_HIVEMIND\_
+Campi prefix\:  HERO\_HIVEMIND\_
 
 | N\. | Originale | Tradotto | Contratto |
-| --- | :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | 1 | Sage Requan\-Cher |   |   |
 | 2 | Voliantros |   |   |
 | 3 | Voice of Tumori |   |   |
@@ -1093,7 +1095,7 @@ Tag\: HERO\_HIVEMIND\_
 | Soundproofed Outpost | Avamposto Insonorizzato |
 | First Aid Outpost | Avamposto di Primo Soccorso |
 | Songstress Tent | Tenda delle Sirene |
-| Chanteress Yurt | Yurta delle Cantrici |
+| Chanteress Yurt | Yurta delle Cantrici |
 | House of Wielders | Casata dei Dominatori |
 | House of Conjurers | La Casa degli Evocatori |
 | Tweeting Hutch | Cabina dei Cinguettii |
@@ -1105,7 +1107,7 @@ Tag\: HERO\_HIVEMIND\_
 ### Mappe personalizzate \(scenari e scontri\)
 
 | Originale | Tradotta | Introduzione |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Bridges too far | Ponti troppo lontani |   |
 | Crying river | Il fiume piangente |   |
 | Confluence | Confluenza |   |
