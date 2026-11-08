@@ -827,7 +827,7 @@ Campi prefix\:  HERO\_PIRATE\_
 | Originale | Tradotto |
 | :--- | :--- |
 | Custodian Novice | Custode Novizio |
-| Custodian Cleric | Chierico Custode |
+| Custodian Cleric | Custode Chierico |
 | Temple Guard | Guardia del Tempio |
 | Templar Warrior | Guerriero del Tempio |
 | The Bright One | Il Lucente |
