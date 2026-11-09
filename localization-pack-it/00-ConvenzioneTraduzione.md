@@ -1038,24 +1038,26 @@ Campi prefix\:  HERO\_HIVEMIND\_
 
 ##### Comandanti
 
-| Originale | Tradotto | Contratto |
-| :--- | :--- | :--- |
-| Batu |   |   |
-| Razak |   |   |
-| Morzai |   |   |
-| Kiret the Magpie |   |   |
-| Saheru the Ssaari |   |   |
-| Shagat |   |   |
-| The Pathfinder |   |   |
-| Tengri |   |   |
-| Zi\-Ziri |   |   |
-| An\-Ghede |   |   |
-| Tu\-Fira |   |   |
-| Se\-Wari |   |   |
-| Ki\-Khi |   |   |
-| Ra\-Win |   |   |
-| Se\-Tri |   |   |
-| Ri\-Sh |   |   |
+Campi prefix\: HERO\_BEASTMASTERS\_
+
+| N\. | Originale | Tradotto | Contratto |
+| --- | :--- | :--- | :--- |
+| 1 | Batu |   |   |
+| 2 | Razak |   |   |
+| 3 | Morzai |   |   |
+| 4 | Kiret the Magpie |   |   |
+| 5 | Saheru the Ssaari |   |   |
+| 6 | Shagat |   |   |
+| 7 | The Pathfinder |   |   |
+| 8 | Tengri |   |   |
+| 9 | Zi\-Ziri |   |   |
+| 10 | An\-Ghede |   |   |
+| 11 | Tu\-Fira |   |   |
+| 12 | Se\-Wari |   |   |
+| 13 | Ki\-Khi |   |   |
+| 14 | Ra\-Win |   |   |
+| 15 | Se\-Tri |   |   |
+| 16 | Ri\-Sh |   |   |
 
 ##### Edifici
 
