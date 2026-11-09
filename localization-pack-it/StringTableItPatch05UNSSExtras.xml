@@ -4,34 +4,34 @@
         <LanguageRef>LANG_IT</LanguageRef>
 
         <Contributors>
-            <!-- translators: add one <Name>Your name</Name> line per contributor -->
+            <Name>Roberto Natta</Name>
         </Contributors>
 
         <LocalizedStrings>
             <!-- Run and gun as in "can move and still attack after", the term is from XCom https://xcom.fandom.com/wiki/Run_%26_Gun -->
-            <GameDBLocalizedString>         <LocID>TOOLTIP_LIMITED_RANGE_UNIT</LocID>                                   <Text>This is a limited-range unit, can run and gun.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_LIMITED_RANGE_UNIT</LocID>                                   <Text>Si tratta di un'unità a raggio d'azione limitato, in grado di muoversi e sparare contemporaneamente.</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>SPECIAL_STARTS_ON_COOLDOWN</LocID>                                   <Text>Starts on cooldown.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SPECIAL_STARTS_ON_COOLDOWN</LocID>                                   <Text>Inizia dopo il tempo di recupero.</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER</LocID>                               <Text>Squad leader</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER_DESCRIPTION</LocID>                   <Text>Split any unit stack during combat into two. The newly separated stack gets a fresh turn. Improves army morale.</Text></GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SPLIT_STACK_CHARGES</LocID>                             <Text><![CDATA[Split one unit stack once per round. Number of uses per battle: <color=SOTS_COLOR_GOLD>{1}</color>.]]> </Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_SPLIT_STACK</LocID>                                   <Text>{CombatActor} has used {GameDBHeroSkill} to split {Stack}.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER</LocID>                               <Text>Caposquadra</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>HERO_SKILL_EMPIRE_SQUAD_LEADER_DESCRIPTION</LocID>                   <Text>Durante il combattimento, dividi in due qualsiasi gruppo di unità. Il gruppo appena separato ottiene un nuovo turno. Migliora il morale dell'esercito.</Text></GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>SKILL_EFFECT_SPLIT_STACK_CHARGES</LocID>                             <Text><![CDATA[Dividi un gruppo di unità una volta per round. Numero di utilizzi per battaglia: <color=SOTS_COLOR_GOLD>{1}</color>.]]> </Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>MESSAGE_EFFECT_SPLIT_STACK</LocID>                                   <Text>{CombatActor} ha usato {GameDBHeroSkill} per dividere {Stack}.</Text></GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_1_OBJECTIVE_2</LocID>                       <Text>Deal with a rogue Fossorian warlord</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_1_OBJECTIVE_2</LocID>                       <Text>Affronta un signore della guerra fossoriano rinnegato</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_2_OBJECTIVE_2</LocID>                       <Text>Learn more about her Sovereign Fleet captors</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_2_OBJECTIVE_2</LocID>                       <Text>Scopri di più sui suoi rapitori della Flotta Sovrana</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_1</LocID>                       <Text>Go after Smith</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_2</LocID>                       <Text>Deal with everybody who stands in your way, even if it means fighting the UNSS itself</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_1</LocID>                       <Text>Mettiti sulle tracce di Smith</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_3_OBJECTIVE_2</LocID>                       <Text>Affronta chiunque ti ostacoli, anche se ciò significa combattere contro la stessa UNSS</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_2</LocID>                       <Text>Go after Smith</Text>  </GameDBLocalizedString>
-            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_3</LocID>                       <Text>Take your last chance to restore Rao's reputation</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_2</LocID>                       <Text>Mettiti sulle tracce di Smith</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>CUTSCENE_CAMPAIGN_EMPIRE_4_OBJECTIVE_3</LocID>                       <Text>Cogli l'ultima occasione per recuperare la reputazione di Rao</Text>  </GameDBLocalizedString>
 
-            <GameDBLocalizedString>         <LocID>LOADING_TIP_13</LocID>                                               <Text>UNSS commanders can learn the Squad Leader skill allowing them to split unit stacks during battle.</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>LOADING_TIP_13</LocID>                                               <Text>I comandanti dell'UNSS possono acquisire la competenza “Caposquadra”, che consente loro di dividere i gruppi di unità durante la battaglia.</Text>  </GameDBLocalizedString>
 
             <!--            TODO Change to "Split FRIENDLY stack"-->
-            <GameDBLocalizedString>         <LocID>TOOLTIP_SPLIT_STACK</LocID>                                          <Text>Split friendly stack into two equal-sized stacks</Text>  </GameDBLocalizedString>
+            <GameDBLocalizedString>         <LocID>TOOLTIP_SPLIT_STACK</LocID>                                          <Text>Dividi il gruppo amichevole in due gruppi di uguali dimensioni</Text>  </GameDBLocalizedString>
         </LocalizedStrings>      
         
     </GameDBStringTable>
